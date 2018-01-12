@@ -8,6 +8,7 @@ import time
 from openpyxl import load_workbook
 import configparser
 
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
 config = configparser.ConfigParser()
 config.read('config.ini')
 file_list = config['paths']['file_list']
