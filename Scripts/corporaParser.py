@@ -10,6 +10,7 @@ import time
 from openpyxl import load_workbook
 import configparser
 
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
 config = configparser.ConfigParser()
 config.read('config.ini')
 file_list = config['paths']['file_list']
@@ -48,7 +49,7 @@ def lookup(word):
 		entry=greekForms[word]
 	#no match			
 	except KeyError:
-		word = word.replace("\+", "")
+		word = word.replace("+", "")
 		word = re.sub(r"\*([\(\)/=]+)([aehiouw])",r"*\2\1", word)
 		word = word.replace("\*", "")
 		try:
