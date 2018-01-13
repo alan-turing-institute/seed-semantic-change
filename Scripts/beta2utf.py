@@ -159,8 +159,10 @@ def convertBeta(text):
 	text = text.replace("I\\+",   u"\u1FD2")
 	text = text.replace("I/+",	u"\u1FD3")
 	text = text.replace("I+/",	u"\u1FD3")
+	text = text.replace("I=+",	u"\u1FD7")
 	text = text.replace("U\\+",   u"\u1FE2")
 	text = text.replace("U/+",	u"\u1FE3")
+	text = text.replace("U=+",	u"\u1FE7")
 	
 	text = text.replace("A/|",	u"\u1FB4")
 	text = text.replace("H/|",	u"\u1FC4")

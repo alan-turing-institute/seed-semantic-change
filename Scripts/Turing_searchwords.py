@@ -5,7 +5,6 @@ import sys
 import lxml.etree as document
 from openpyxl import load_workbook
 from tlgIndex import tlgIndexes
-from lemmaId import lemmaId
 from beta2utf import convertBeta
 from utf2beta import convertUTF
 import configparser
@@ -15,9 +14,6 @@ config.read('config.ini')
 file_list = config['paths']['file_list']
 spreadsheet_output = config['paths']['spreadsheet_output']
 af = config['paths']['annotated']
-
-def fixUTF(word):
-	return convertBeta(convertUTF(word))
 
 os.system("clear && printf '\e[3J'")
 
@@ -42,7 +38,7 @@ for record in files:
 		authors[authorId] = {}
 	for entry in entries[0]:
 		currentIter += 1
-		lexeme = lemmaId[fixUTF(entry.value.strip())]
+		lexeme = entry.value.strip()
 		count = 0
 		count = len(parse.xpath('//word[lemma/@id="%s"]'%lexeme))
 		#print('%s: %d'%(entry.value, count))
