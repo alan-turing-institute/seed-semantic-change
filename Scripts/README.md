@@ -11,7 +11,7 @@
 9. **[grkFrm.py](grkFrm.py)**: Python dictionary containing all analyses of Greek word forms.
 10. **[grkLemmata.py](grkLemmata.py)**: Python dictionary containing all Greek lemmata.
 11. **[stop_cltk.py](stop_cltk.py)**: Perseus stop word list (from [CLTK](https://github.com/cltk/cltk/blob/master/cltk/stop/greek/stops.py)); added support for oxia acute accent vowel glyphs.
-12. **[tlgIndex.py](tlgIndex.py)**: Python dictionary containing the TLG ids of Greek authors.
+12. **[tlgIndex.py](tlgIndex.py)**: Python dictionary containing the TLG IDs of Greek authors.
 13. **[tokenizeConverted.py](tokenizeConverted.py)**: tokenizer for other open source corpus files (preliminary converted into XML files).
 14. **[tokenizePerseus.py](tokenizePerseus.py)**: tokenizer for [Perseus GitHub](https://github.com/PerseusDL/canonical-greekLit/tree/master/data) corpus files.
 15. **[Turing_searchwords.py](Turing_searchwords.py)**: script that counts and stores occurences of words listed in an Excel document.
