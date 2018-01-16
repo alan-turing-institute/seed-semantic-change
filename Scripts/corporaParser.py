@@ -84,12 +84,12 @@ def process(lemmata, word):
 	global wml
 	if len(lemmata)>1: wml+=1
 	for lemma in lemmata:
-	#each lemma is a dictionary; 'lemma' = entry, 'analysis' is a list	
+	#each lemma is a dictionary; 'l' = entry, 'a' is a list	
 		newLemma = document.SubElement(word, "lemma")
-		newLemma.set('id',lemma['lemma'])
-		newLemma.set('entry',greekLemmata[lemma['lemma']]['lemma'])
-		newLemma.set('POS',greekLemmata[lemma['lemma']]['pos'])
-		for analysis in lemma['analysis']:
+		newLemma.set('id',lemma['l'])
+		newLemma.set('entry',greekLemmata[lemma['l']]['lemma'])
+		newLemma.set('POS',greekLemmata[lemma['l']]['pos'])
+		for analysis in lemma['a']:
 			newAnalysis = document.SubElement(newLemma, "analysis")
 			newAnalysis.set('morph', analysis)
 			del newAnalysis
