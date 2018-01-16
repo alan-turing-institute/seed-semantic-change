@@ -1,4 +1,4 @@
-# File description
+# File descriptions
 
 1. **[annotateTuring.py](annotateTuring.py)**: this script executes in a sequence [tokenizePerseus.py](tokenizePerseus.py), [tokenizeConverted.py](tokenizeConverted.py), and [corporaParser.py](corporaParser.py). This script compiles the whole corpus.
 2. **[asLemmata.py](asLemmata.py)**: this script converts annotated XML files into text files with a each sentence on a new line (with ID and location) and lemmata instead of words; the stop word filter can be (de)activated in [config.ini](config.ini).
