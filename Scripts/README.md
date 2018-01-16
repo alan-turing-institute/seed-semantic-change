@@ -1,4 +1,4 @@
-#File description
+# File description
 
 1. **annotateTuring.py**: this script executes in a sequence tokenizePerseus.py, tokenizeConverted.py, and corporaParser.py.
 2. **beta2utf.py**: function converting betacode Greek into Unicode characters.
