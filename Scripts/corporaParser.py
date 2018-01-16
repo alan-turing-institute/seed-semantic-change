@@ -27,6 +27,7 @@ attrName=['lemma', 'translation', 'morph']
 unknownlist = open('%s/unknown_list.txt'%logf, 'a')
 unknownlist_proper = open('%s/unknown_list_proper.txt'%logf, 'a')
 unknownlist_single = open('%s/unknown_list_single.txt'%logf, 'a')
+unknown_dict = {}
 
 #####FUNCTIONS#####
 def cleanWords(word):
@@ -268,6 +269,7 @@ for record in files:
 				else:
 					unknownlist.write('%s : %s\n'%(word.get('form'), fileName))
 					unknowncount+=1
+					unknown_dict[cleanWords(word.get('form'))] = ''
 		
 	record[7].value = len(parse.xpath('//word'))
 	record[8].value = unknowncount
@@ -280,3 +282,8 @@ for record in files:
 unknownlist_single.close()
 unknownlist_proper.close()
 unknownlist.close()
+
+unknownstring = ''			
+for item in unknown_dict.items():
+	unknownstring += '%s\n'%item[0]
+open('%s/unknown_types.txt'%logf,'w').write(unknownstring)

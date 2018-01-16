@@ -212,6 +212,7 @@ def convertBeta(text):
 	text = text.replace("*S",	  u"\u03A3")
 	text = text.replace("*T",	  u"\u03A4")
 	text = text.replace("*U",	  u"\u03A5")
+	text = text.replace("*V",	 u"\u03DC")
 	text = text.replace("*F",	  u"\u03A6")
 	text = text.replace("*X",	  u"\u03A7")
 	text = text.replace("*Y",	  u"\u03A8")
@@ -278,7 +279,8 @@ def convertBeta(text):
 	text = text.replace("I=",	 u"\u1FD6")
 	text = text.replace("U=",	 u"\u1FE6")
 	text = text.replace("W=",	 u"\u1FF6")
-		
+	text = text.replace("*V",	 u"\u03DC")
+			
 	#1 char
 	text = text.replace("A",	  u"\u03B1")
 	text = text.replace("B",	  u"\u03B2")
@@ -303,6 +305,7 @@ def convertBeta(text):
 	text = text.replace("F",	  u"\u03C6")
 	text = text.replace("X",	  u"\u03C7")
 	text = text.replace("Y",	  u"\u03C8")
+	text = text.replace("V",	 u"\u03DD")
 	text = text.replace("W",	  u"\u03C9")
 	
 	text = text.replace(":",	  u"\u00B7")
