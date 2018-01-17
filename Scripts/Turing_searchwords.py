@@ -9,6 +9,7 @@ from beta2utf import convertBeta
 from utf2beta import convertUTF
 import configparser
 
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
 config = configparser.ConfigParser()
 config.read('config.ini')
 file_list = config['paths']['file_list']
@@ -22,12 +23,12 @@ ws = wb.active
 wb2 = load_workbook('%s/Word frequencies in corpus (preliminary 2).xlsx'%spreadsheet_output)
 ws2 = wb2.active
 files = ws['A2:Q803']
-entries = ws2['B1:V1']
+entries = ws2['B2:V2']
 authors = {}
 totalThing = len(files)*len(entries[0])
 currentIter = 0
 for record in files:
-	file = '%s/%s'%(af record[6].value)
+	file = '%s/%s'%(af,record[6].value)
 	parse = document.parse(file)
 	authorId = parse.xpath('//tlgAuthor')[0].text
 	#print(authorId)
@@ -38,7 +39,7 @@ for record in files:
 		authors[authorId] = {}
 	for entry in entries[0]:
 		currentIter += 1
-		lexeme = entry.value.strip()
+		lexeme = entry.value
 		count = 0
 		count = len(parse.xpath('//word[lemma/@id="%s"]'%lexeme))
 		#print('%s: %d'%(entry.value, count))
