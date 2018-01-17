@@ -68,7 +68,13 @@ def lookup(word):
 					try:
 						entry=greekForms[word]
 					except KeyError:
-						return {'is_unknown':True}
+						word = re.sub("^\(", "",word)
+						try:
+							entry=greekForms[word]
+						except KeyError:
+							return {'is_unknown':True}
+						else:
+							return {'is_unknown':False, 'entry':entry}
 					else:
 						return {'is_unknown':False, 'entry':entry}
 				else:
