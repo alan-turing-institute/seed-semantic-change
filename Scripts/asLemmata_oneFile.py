@@ -20,7 +20,7 @@ config.read('config.ini')
 
 file_list = config['paths']['file_list']
 af = config['paths']['annotated']
-lf = config['paths']['as_lemmata']
+lf = config['paths']['output']
 wrl = config['paths']['word_list']
 filterStopWords=config['params']['filter_stop_words']
 
