@@ -11,7 +11,7 @@
 9. **[displayOriginal.xsl](displayOriginal.xsl)**: XSLT file displaying annotated corpus files as numbered lists of sentences.
 10. **[grkFrm.py](grkFrm.py)**: Python dictionary containing all analyses of Greek word forms.
 11. **[grkLemmata.py](grkLemmata.py)**: Python dictionary containing all Greek lemmata.
-12. **[stop_cltk.py](stop_cltk.py)**: Perseus stop word list (from [CLTK](https://github.com/cltk/cltk/blob/master/cltk/stop/greek/stops.py)); added support for oxia acute accent vowel glyphs.
+12. **[stop_cltk.py](stop_cltk.py)**: Perseus stop word list (from [CLTK](https://github.com/cltk/cltk/blob/master/cltk/stop/greek/stops.py)); added support for oxia acute accent vowel glyphs and list of lemmata by ID (matching dictionary in [grkLemmata.py](grkLemmata.py)) for unambiguous identification.
 13. **[tlgIndex.py](tlgIndex.py)**: Python dictionary containing the TLG IDs of Greek authors.
 14. **[tokenizeConverted.py](tokenizeConverted.py)**: tokenizer for other open source corpus files (preliminary converted into XML files).
 15. **[tokenizePerseus.py](tokenizePerseus.py)**: tokenizer for [Perseus GitHub](https://github.com/PerseusDL/canonical-greekLit/tree/master/data) corpus files.
