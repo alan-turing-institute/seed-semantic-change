@@ -20,7 +20,9 @@ logf = config['paths']['logs']
 
 wb = load_workbook('%s/file_list.xlsx'%file_list)
 ws = wb.active
-files = ws['A2:Q803']
+headers = ws['A1:U1']
+h = {cell.value : n for n, cell in enumerate(headers[0])}
+files = ws['A2:U803']
 
 os.system("clear && printf '\e[3J'")
 attrName=['lemma', 'translation', 'morph']
@@ -52,27 +54,45 @@ def lookup(word):
 	except KeyError:
 		word = word.replace("+", "")
 		word = re.sub(r"\*([\(\)/=]+)([aehiouw])",r"*\2\1", word)
-		word = word.replace("\*", "")
+		word = word.replace("*", "")		
 		try:
 			entry=greekForms[word]
 		except KeyError:
-			word = word.replace("'", "")
+			word = re.sub('^c(?=u[nmg])','s', word)
 			try:
 				entry=greekForms[word]
 			except KeyError:
-				word = re.sub("\)$", "'",word)
+				word = word.replace("'", "")
 				try:
 					entry=greekForms[word]
 				except KeyError:
-					word = re.sub("'$", "",word)
+					word = re.sub("\)$", "'",word)
 					try:
 						entry=greekForms[word]
 					except KeyError:
-						word = re.sub("^\(", "",word)
+						word = re.sub("'$", "",word)
 						try:
 							entry=greekForms[word]
 						except KeyError:
-							return {'is_unknown':True}
+							word = re.sub("^\(", "",word)
+							try:
+								entry=greekForms[word]
+							except KeyError:
+								word = re.sub("\)$", "",word)
+								try:
+									entry=greekForms[word]
+								except KeyError:
+									word = re.sub("'", "",word)
+									try:
+										entry=greekForms[word]
+									except KeyError:
+										return {'is_unknown':True}
+									else:
+										return {'is_unknown':False, 'entry':entry}
+								else:
+									return {'is_unknown':False, 'entry':entry}
+							else:
+								return {'is_unknown':False, 'entry':entry}
 						else:
 							return {'is_unknown':False, 'entry':entry}
 					else:
@@ -82,7 +102,7 @@ def lookup(word):
 			else:
 				return {'is_unknown':False, 'entry':entry}
 		else:
-			return {'is_unknown':False, 'entry':entry}
+				return {'is_unknown':False, 'entry':entry}
 	else:
 		return {'is_unknown':False, 'entry':entry}
 
@@ -105,14 +125,14 @@ def process(lemmata, word):
 ###################
 
 for record in files:
-	file = '%s/%s'%(tf,record[6].value)
+	file = '%s/%s'%(tf,record[h['Tokenized file']].value)
 	unknowncount = 0
 	unknowncount_proper = 0
 	unknowncount_single = 0
 	wml = 0 #words with multiple lemmata
-	print('%s - %s'%(record[3].value,record[4].value))
+	print('%s - %s'%(record[h['Author']].value,record[h['Work']].value))
 	progPercent=0
-	fileName = record[6].value
+	fileName = record[h['Tokenized file']].value
 	if os.path.exists('%s/%s'%(af, fileName)):
 		continue
 	parse = document.parse(file)
@@ -266,7 +286,7 @@ for record in files:
 		for idx, word in enumerate(words):
 			word.set("id", str(idx+1))
 			if word.xpath('./lemma')[0].get('id')=='unknown':	
-				if word.get('form')[0] == '*':
+				if word.get('form').find('*') > -1:
 					unknownlist_proper.write('%s : %s\n'%(word.get('form'), fileName))
 					unknowncount_proper+=1
 				elif len(word.get('form')) == 1:
@@ -277,11 +297,13 @@ for record in files:
 					unknowncount+=1
 					unknown_dict[cleanWords(word.get('form'))] = ''
 		
-	record[7].value = len(parse.xpath('//word'))
-	record[8].value = unknowncount
-	record[9].value = unknowncount_proper
-	record[10].value = unknowncount_single
-	record[15].value = wml
+	record[h['Word count']].value = len(parse.xpath('//word'))
+	record[h['Unknown words']].value = unknowncount
+	record[h['Unknown proper names']].value = unknowncount_proper
+	record[h['Unknown single letters']].value = unknowncount_single
+	record[h['Words with multiple lemmata']].value = wml
+	#record[h['TLG Author']].value = parse.xpath('//tlgAuthor')[0].text
+	#record[h['TLG ID']].value = parse.xpath('//tlgId')[0].text
 	parse.write('%s/%s'%(af, fileName), xml_declaration = True, encoding='UTF-8', pretty_print=True)
 	wb.save('%s/file_list.xlsx'%file_list)
 	print()

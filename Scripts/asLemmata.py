@@ -17,12 +17,14 @@ filterStopWords=config['params']['filter_stop_words']
 
 wb = load_workbook('%s/file_list.xlsx'%file_list)
 ws = wb.active
-files = ws['A2:Q803']
+headers = ws['A1:U1']
+h = {cell.value : n for n, cell in enumerate(headers[0])}
+files = ws['A2:U803']
 
 os.system("clear && printf '\e[3J'")
 
 for record in files:
-	file = '%s/%s'%(af,record[6].value)
+	file = '%s/%s'%(af,record[h['Tokenized files']].value)
 	try:
 		finalTxt = open(file, 'r').read().replace("\n", "").replace(" ", "")
 		finalTxt = re.sub('.*?<body>(.*?)</body>.*', r'\1', finalTxt)
@@ -33,7 +35,7 @@ for record in files:
 		if filterStopWords == "True":
 			for stop in STOPS_LIST:
 				finalTxt = finalTxt.replace(' %s '%stop, ' ')
-		open('%s/%s'%(lf,record[6].value.replace('xml', 'txt')),'w').write(finalTxt)
-		print(record[6].value, 'done')
+		open('%s/%s'%(lf,record[h['Tokenized files']].value.replace('xml', 'txt')),'w').write(finalTxt)
+		print(record[h['Tokenized files']].value, 'done')
 	except:
 		pass
