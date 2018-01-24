@@ -12,7 +12,7 @@ config.read('config.ini')
 
 file_list = config['paths']['file_list']
 af = config['paths']['annotated']
-lf = config['paths']['as_lemmata']
+lf = config['paths']['output']
 filterStopWords=config['params']['filter_stop_words']
 
 wb = load_workbook('%s/file_list.xlsx'%file_list)
