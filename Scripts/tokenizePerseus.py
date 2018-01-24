@@ -228,26 +228,30 @@ def tokenizePerseus(fileName):
 	print()
 	outputFile = document.ElementTree(outputRoot)
 	outputFile.write('%s/%s - %s (%s).xml'%(tf, author, title, tlgId), xml_declaration = True, encoding='UTF-8', pretty_print=True)
-
+	file[h['Tokenized file']].value = '%s - %s (%s).xml'%(author, title, tlgId)
+	file[h['TLG Author']].value = tlgAuthor
+	file[h['TLG ID']].value = tlgId
+	
 ###################
 wb = load_workbook('%s/file_list.xlsx'%file_list)
 ws = wb.active
-files = ws['A2:Q803']
+headers = ws['A1:U1']
+h = {cell.value : n for n, cell in enumerate(headers[0])}
+files = ws['A2:U803']
 index = 0
 for file in files:
-	if file[11].value != 'Perseus':
+	if file[h['Source']].value != 'Perseus':
 		continue
 	index+=1
 	print('%d out of %d'%(index,len(files)))
-	title = file[4].value
-	author = file[3].value
-	tlgAuthor = os.path.basename(file[5].value).split(".")[0]
-	tlgId = file[5].value.split(".")[1]
+	title = file[h['Work']].value
+	author = file[h['Title']].value
+	tlgAuthor = os.path.basename(file[h['Work']].value).split(".")[0]
+	tlgId = file[h['Source file']].value.split(".")[1]
 	if os.path.exists('%s/%s - %s (%s).xml'%(tf, author, title, tlgId)):
 		continue
 	print('\t%s (%s): %s (%s)'%(author,tlgAuthor,title,tlgId))
-	tokenizePerseus(file[5].value)
-	file[6].value = file[6].value = '%s - %s (%s).xml'%(author, title, tlgId)
+	tokenizePerseus(file[h['Source file']].value)
 	print()
 errorLog.close()
 wb.save('%s/file_list.xlsx'%file_list)

@@ -20,9 +20,12 @@ os.system("clear && printf '\e[3J'")
 
 wb = load_workbook('%s/file_list.xlsx'%file_list)
 ws = wb.active
-wb2 = load_workbook('%s/Word frequencies in corpus (preliminary 2).xlsx'%spreadsheet_output)
+headers = ws['A1:U1']
+h = {cell.value : n for n, cell in enumerate(headers[0])}
+files = ws['A2:U803']
+
+wb2 = load_workbook('%s/Word frequencies in corpus (preliminary 3).xlsx'%spreadsheet_output)
 ws2 = wb2.active
-files = ws['A2:Q803']
 entries = ws2['B2:V2']
 authors = {}
 totalThing = len(files)*len(entries[0])
@@ -53,10 +56,10 @@ for record in files:
 		sys.stdout.flush()
 for row,(author,lexeme) in enumerate(authors.items()):
 	author = author.strip()
-	ws2['A%s'%str(row+2)].value = tlgIndexes[author]
+	ws2['A%s'%str(row+3)].value = tlgIndexes[author]
 	for col,(entry,count) in enumerate(lexeme.items()):
 		#print('%s: %d'%(value1, value2))
-		ws2['%s%d'%(chr(ord('B')+col),row+2)].value = count
+		ws2['%s%d'%(chr(ord('B')+col),row+3)].value = count
 print('\nAll done!')
-wb2.save('%s/Word frequencies in corpus (preliminary 2).xlsx'%spreadsheet_output)
+wb2.save('%s/Word frequencies in corpus (preliminary 3).xlsx'%spreadsheet_output)
 	
