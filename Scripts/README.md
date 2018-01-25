@@ -1,3 +1,6 @@
+# Quick start
+[annotateTuring.py](annotateTuring.py) must be run first in order to tokenize and annotate the whole corpus; folder paths are to be configured in [config.ini](config.ini). Data is extracted through [asLemmata_oneFile.py](asLemmata_oneFile.py) into the output folder (`output` in [config.ini](config.ini)). Output options are selected via user prompt.
+
 # File descriptions
 
 1. **[annotateTuring.py](annotateTuring.py)**: this script executes in a sequence [tokenizePerseus.py](tokenizePerseus.py), [tokenizeConverted.py](tokenizeConverted.py), and [corporaParser.py](corporaParser.py). This script compiles the whole corpus.
@@ -11,7 +14,7 @@
 9. **[displayOriginal.xsl](displayOriginal.xsl)**: XSLT file displaying annotated corpus files as numbered lists of sentences.
 10. **[grkFrm.py](grkFrm.py)**: Python dictionary containing all analyses of Greek word forms.
 11. **[grkLemmata.py](grkLemmata.py)**: Python dictionary containing all Greek lemmata.
-12. **[stop_cltk.py](stop_cltk.py)**: Perseus stop word list (from [CLTK](https://github.com/cltk/cltk/blob/master/cltk/stop/greek/stops.py)); added support for oxia acute accent vowel glyphs and list of lemmata by ID (matching dictionary in [grkLemmata.py](grkLemmata.py)) for unambiguous identification.
+12. **[stop_cltk.py](stop_cltk.py)**: Perseus stop word list (from [CLTK](https://github.com/cltk/cltk/blob/master/cltk/stop/greek/stops.py)); added support for oxia acute accent vowel glyphs.
 13. **[tlgIndex.py](tlgIndex.py)**: Python dictionary containing the TLG IDs of Greek authors.
 14. **[tokenizeConverted.py](tokenizeConverted.py)**: tokenizer for other open source corpus files (preliminary converted into XML files).
 15. **[tokenizePerseus.py](tokenizePerseus.py)**: tokenizer for [Perseus GitHub](https://github.com/PerseusDL/canonical-greekLit/tree/master/data) corpus files.
