@@ -120,7 +120,7 @@ for record in files:
 		else:
 			green_light = False
 	else:		
-		green_light == True
+		green_light = True
 	if green_light == False:
 		continue
 		
@@ -131,9 +131,9 @@ for record in files:
 	finalTxt = re.sub('<punct.*?/>', '', finalTxt)
 	
 	if toggle_sentence_id == True:
-		finalTxt = re.sub('<sentenceid="(.*?)"location="(.*?)">', '['+wy+']'+wid+r'[sentence_id:\1][sentence_loc:\2] ', finalTxt)
+		finalTxt = re.sub('<sentenceid="(.*?)"location="(.*?)">', '['+wy+']'+wid+r'[sentence_id:\1][sentence_loc:\2]\t', finalTxt)
 	else:
-		finalTxt = re.sub('<sentenceid="(.*?)"location="(.*?)">', '['+wy+']'+wid+' ', finalTxt)
+		finalTxt = re.sub('<sentenceid="(.*?)"location="(.*?)">', '['+wy+']'+wid+'\t', finalTxt)
 	
 	finalTxt = re.sub('<word.*?lemmaid="(.*?)".*?</word>', r'\1 ', finalTxt)
 	finalTxt = re.sub('</sentence>', '\n', finalTxt)
@@ -154,7 +154,7 @@ for record in files:
 			else:
 				conv_text.append(greekLemmata[x]['lemma'])
 		finalTxt = ' '.join(conv_text)
-		
+	finalTxt = finalTxt.replace('[', '').replace(']', '')
 	fullText.write(finalTxt)
 
 fullText.close()
