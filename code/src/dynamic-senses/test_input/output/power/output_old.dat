@@ -1,0 +1,214 @@
+2789 documents , 1 concepts , 7238 context features (power) 
+kappaF 10.000000, kappaK 4.000000, a0 7.000000, b0 3.000000, K 5, max_docs_per_slice 2000, start 1700, end 2009, times 16, dT 20, I 100
+
+
+map[]
+
+===============  per type  ===============
+0.09748361806666378   T=0,K=0:  hand (0.024) ; friend (0.013) ; run (0.008) ; rise (0.006) ; constitution (0.006) ; war (0.005) ; little (0.005) ; mind (0.005) ; government (0.004) ; age (0.004) ; 
+0.12388693948605321   T=1,K=0:  hand (0.016) ; friend (0.010) ; run (0.007) ; life (0.006) ; little (0.005) ; heart (0.005) ; constitution (0.005) ; mind (0.004) ; rise (0.004) ; attempt (0.003) ; 
+0.2199911271218694   T=2,K=0:  hand (0.012) ; friend (0.007) ; little (0.006) ; heart (0.005) ; run (0.005) ; life (0.004) ; human (0.004) ; dear (0.004) ; war (0.004) ; strength (0.004) ; 
+0.16483393941832442   T=3,K=0:  hand (0.009) ; little (0.006) ; friend (0.005) ; life (0.004) ; run (0.004) ; human (0.004) ; heart (0.004) ; government (0.004) ; constitution (0.004) ; nation (0.003) ; 
+0.19435077937134684   T=4,K=0:  little (0.008) ; friend (0.006) ; life (0.005) ; time (0.005) ; government (0.005) ; hand (0.004) ; heart (0.004) ; human (0.004) ; nation (0.004) ; run (0.003) ; 
+0.253861653013915   T=5,K=0:  time (0.006) ; little (0.005) ; nation (0.005) ; government (0.005) ; human (0.004) ; constitution (0.004) ; life (0.004) ; determine (0.004) ; friend (0.003) ; heart (0.003) ; 
+0.20552691801097345   T=6,K=0:  little (0.005) ; hand (0.005) ; time (0.004) ; government (0.004) ; peace (0.004) ; human (0.004) ; raise (0.004) ; constitution (0.004) ; mind (0.004) ; obtain (0.004) ; 
+0.21677901958172693   T=7,K=0:  time (0.005) ; country (0.005) ; war (0.004) ; peace (0.004) ; government (0.004) ; woman (0.004) ; human (0.004) ; constitution (0.004) ; life (0.004) ; raise (0.004) ; 
+0.21535124442124792   T=8,K=0:  war (0.007) ; country (0.006) ; form (0.006) ; peace (0.005) ; time (0.005) ; government (0.004) ; constitution (0.004) ; word (0.004) ; control (0.004) ; raise (0.004) ; 
+0.16466485485599205   T=9,K=0:  war (0.007) ; little (0.006) ; time (0.006) ; country (0.004) ; form (0.004) ; set (0.004) ; government (0.004) ; law (0.004) ; water (0.004) ; public (0.004) ; 
+0.1939854375647569   T=10,K=0:  power (0.009) ; country (0.008) ; war (0.007) ; set (0.006) ; time (0.005) ; peace (0.004) ; little (0.004) ; fall (0.004) ; government (0.003) ; natural (0.003) ; 
+0.1792317171355439   T=11,K=0:  power (0.012) ; country (0.010) ; foreign (0.007) ; set (0.007) ; government (0.005) ; time (0.004) ; control (0.004) ; political (0.004) ; commission (0.004) ; water (0.004) ; 
+0.14021045112504232   T=12,K=0:  country (0.010) ; foreign (0.008) ; power (0.008) ; set (0.007) ; government (0.005) ; political (0.005) ; american (0.004) ; time (0.004) ; law (0.004) ; commission (0.004) ; 
+0.19557629543907612   T=13,K=0:  power (0.009) ; set (0.006) ; water (0.006) ; time (0.005) ; foreign (0.005) ; world (0.004) ; government (0.004) ; control (0.004) ; country (0.004) ; supply (0.004) ; 
+0.20908834129131623   T=14,K=0:  power (0.008) ; country (0.006) ; utility (0.005) ; world (0.005) ; call (0.005) ; nuclear (0.004) ; amazing (0.004) ; express (0.004) ; protect (0.004) ; time (0.004) ; 
+0.23957145827923185   T=15,K=0:  world (0.007) ; father (0.006) ; utility (0.006) ; nuclear (0.005) ; power (0.005) ; country (0.005) ; foreign (0.004) ; commission (0.004) ; president (0.004) ; hope (0.004) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  hand (0.006) ; country (0.004) ; time (0.004) ; power (0.004) ; little (0.004) ; government (0.004) ; friend (0.004) ; war (0.004) ; set (0.004) ; foreign (0.003) ; 
+
+0.1841736894871397   T=0,K=1:  wisdom (0.009) ; confidence (0.006) ; fear (0.006) ; goodness (0.006) ; existence (0.006) ; moral (0.005) ; minister (0.005) ; tell (0.004) ; recognize (0.004) ; determine (0.004) ; 
+0.1763156262435835   T=1,K=1:  wisdom (0.006) ; confidence (0.005) ; moral (0.005) ; stand (0.005) ; fear (0.004) ; goodness (0.004) ; tell (0.004) ; determine (0.004) ; commerce (0.004) ; estimate (0.003) ; 
+0.14505006010387073   T=2,K=1:  confidence (0.007) ; time (0.006) ; wisdom (0.005) ; goodness (0.005) ; existence (0.004) ; moral (0.004) ; mind (0.003) ; tend (0.003) ; tell (0.003) ; recognize (0.003) ; 
+0.12181238060345621   T=3,K=1:  time (0.007) ; wisdom (0.006) ; existence (0.005) ; recognize (0.005) ; confidence (0.005) ; fear (0.004) ; idea (0.004) ; exercise (0.004) ; arm (0.004) ; tell (0.004) ; 
+0.16784533037079868   T=4,K=1:  time (0.010) ; existence (0.007) ; exercise (0.006) ; wisdom (0.006) ; various (0.004) ; recognize (0.004) ; stand (0.004) ; mind (0.004) ; confidence (0.004) ; send (0.004) ; 
+0.19729408331727533   T=5,K=1:  existence (0.008) ; time (0.007) ; exercise (0.006) ; wisdom (0.006) ; mind (0.006) ; idea (0.006) ; recognize (0.005) ; sound (0.004) ; intellectual (0.004) ; break (0.003) ; 
+0.13666978553644266   T=6,K=1:  mind (0.007) ; wisdom (0.007) ; existence (0.006) ; time (0.005) ; exercise (0.005) ; break (0.005) ; recognize (0.004) ; idea (0.004) ; sound (0.003) ; acknowledge (0.003) ; 
+0.16541812969980518   T=7,K=1:  existence (0.007) ; wisdom (0.006) ; government (0.005) ; mind (0.004) ; tell (0.004) ; stand (0.004) ; character (0.004) ; exercise (0.003) ; recognize (0.003) ; minister (0.003) ; 
+0.11409671366167085   T=8,K=1:  tell (0.007) ; existence (0.005) ; people (0.004) ; wisdom (0.004) ; arm (0.004) ; power (0.004) ; idea (0.004) ; commission (0.003) ; recognize (0.003) ; government (0.003) ; 
+0.16920530913114254   T=9,K=1:  party (0.006) ; power (0.005) ; existence (0.005) ; increase (0.005) ; tell (0.004) ; recognize (0.004) ; idea (0.004) ; common (0.004) ; send (0.004) ; bring (0.004) ; 
+0.2916225016773688   T=10,K=1:  power (0.007) ; recognize (0.004) ; government (0.004) ; idea (0.004) ; time (0.004) ; united (0.004) ; party (0.003) ; bring (0.003) ; horse (0.003) ; plant (0.003) ; 
+0.2864614173102945   T=11,K=1:  power (0.014) ; recognize (0.004) ; government (0.004) ; united (0.004) ; plant (0.004) ; horse (0.004) ; line (0.004) ; idea (0.003) ; authority (0.003) ; generate (0.003) ; 
+0.19118597268755044   T=12,K=1:  power (0.012) ; government (0.006) ; generate (0.006) ; line (0.004) ; business (0.004) ; plant (0.004) ; horse (0.003) ; nation (0.003) ; congress (0.003) ; military (0.003) ; 
+0.1528109326015107   T=13,K=1:  power (0.007) ; horse (0.006) ; plant (0.006) ; generate (0.005) ; government (0.005) ; international (0.004) ; congress (0.004) ; include (0.004) ; hand (0.003) ; recognize (0.003) ; 
+0.21616139971309561   T=14,K=1:  power (0.007) ; congress (0.006) ; horse (0.005) ; generate (0.005) ; nation (0.005) ; line (0.005) ; government (0.004) ; plant (0.004) ; include (0.004) ; struggle (0.004) ; 
+0.2378280458711099   T=15,K=1:  power (0.008) ; congress (0.007) ; generate (0.006) ; horse (0.006) ; nation (0.005) ; knowledge (0.004) ; government (0.004) ; struggle (0.004) ; international (0.004) ; political (0.004) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  power (0.005) ; wisdom (0.004) ; existence (0.004) ; time (0.004) ; recognize (0.004) ; government (0.003) ; idea (0.003) ; tell (0.003) ; mind (0.003) ; plant (0.003) ; 
+
+0.1948987213988197   T=0,K=2:  england (0.012) ; love (0.007) ; system (0.006) ; leave (0.006) ; help (0.006) ; britain (0.005) ; supreme (0.005) ; move (0.005) ; nature (0.004) ; head (0.004) ; 
+0.2845024269654447   T=1,K=2:  england (0.010) ; britain (0.006) ; supreme (0.006) ; love (0.005) ; head (0.005) ; system (0.004) ; king (0.004) ; political (0.004) ; leave (0.004) ; idea (0.004) ; 
+0.28175945851404066   T=2,K=2:  supreme (0.005) ; love (0.005) ; system (0.005) ; europe (0.005) ; word (0.004) ; stop (0.004) ; england (0.004) ; grant (0.004) ; head (0.004) ; nature (0.004) ; 
+0.2373111640301872   T=3,K=2:  love (0.009) ; nature (0.007) ; england (0.004) ; stop (0.004) ; supreme (0.004) ; europe (0.004) ; age (0.004) ; period (0.004) ; court (0.004) ; idea (0.004) ; 
+0.137861354254877   T=4,K=2:  nature (0.006) ; england (0.005) ; love (0.005) ; age (0.005) ; system (0.004) ; power (0.004) ; stop (0.004) ; period (0.004) ; natural (0.004) ; earth (0.004) ; 
+0.1618400004977471   T=5,K=2:  england (0.007) ; age (0.006) ; power (0.006) ; nature (0.005) ; love (0.005) ; leave (0.004) ; system (0.004) ; natural (0.004) ; strong (0.004) ; sense (0.004) ; 
+0.22330526197646663   T=6,K=2:  power (0.009) ; love (0.005) ; england (0.005) ; nature (0.005) ; leave (0.004) ; sense (0.004) ; natural (0.004) ; idea (0.004) ; statesman (0.004) ; system (0.004) ; 
+0.20182397983979172   T=7,K=2:  power (0.008) ; love (0.007) ; people (0.004) ; system (0.004) ; idea (0.004) ; strong (0.004) ; leave (0.004) ; natural (0.004) ; nature (0.004) ; earth (0.003) ; 
+0.25958615728978157   T=8,K=2:  power (0.008) ; system (0.005) ; people (0.005) ; strong (0.005) ; natural (0.004) ; world (0.004) ; force (0.004) ; possess (0.003) ; age (0.003) ; day (0.003) ; 
+0.19141284968439595   T=9,K=2:  power (0.013) ; world (0.005) ; natural (0.005) ; name (0.004) ; system (0.003) ; force (0.003) ; opinion (0.003) ; nation (0.003) ; possess (0.003) ; idea (0.003) ; 
+0.1899141465417689   T=10,K=2:  power (0.011) ; world (0.005) ; name (0.004) ; force (0.004) ; leave (0.004) ; human (0.004) ; people (0.004) ; natural (0.003) ; country (0.003) ; lose (0.003) ; 
+0.1598098609289658   T=11,K=2:  power (0.013) ; force (0.007) ; mile (0.006) ; name (0.004) ; political (0.004) ; government (0.003) ; system (0.003) ; country (0.003) ; period (0.003) ; people (0.003) ; 
+0.21529646014722098   T=12,K=2:  power (0.014) ; political (0.004) ; mile (0.004) ; name (0.004) ; government (0.004) ; force (0.004) ; possess (0.003) ; people (0.003) ; system (0.003) ; lose (0.003) ; 
+0.21553010000157488   T=13,K=2:  power (0.008) ; human (0.006) ; political (0.004) ; financial (0.004) ; lose (0.004) ; force (0.004) ; system (0.004) ; air (0.004) ; government (0.004) ; war (0.004) ; 
+0.20387348977671682   T=14,K=2:  human (0.006) ; economic (0.005) ; hold (0.005) ; cost (0.004) ; life (0.004) ; possess (0.004) ; power (0.004) ; government (0.004) ; name (0.004) ; center (0.004) ; 
+0.13015973495734323   T=15,K=2:  leave (0.005) ; economic (0.005) ; government (0.005) ; center (0.005) ; human (0.005) ; war (0.005) ; cost (0.005) ; power (0.005) ; united (0.004) ; financial (0.004) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  power (0.007) ; love (0.004) ; england (0.004) ; system (0.004) ; leave (0.003) ; nature (0.003) ; political (0.003) ; force (0.003) ; people (0.003) ; natural (0.003) ; 
+
+0.3564113183491918   T=0,K=3:  law (0.009) ; power (0.008) ; maintain (0.007) ; weight (0.007) ; sufficient (0.007) ; crown (0.007) ; arm (0.006) ; degree (0.006) ; war (0.006) ; exercise (0.005) ; 
+0.3290311390343421   T=1,K=3:  law (0.012) ; arm (0.008) ; degree (0.008) ; crown (0.007) ; exercise (0.006) ; power (0.006) ; sufficient (0.006) ; weight (0.006) ; believe (0.006) ; maintain (0.005) ; 
+0.2275412589525678   T=2,K=3:  law (0.009) ; legislature (0.006) ; sufficient (0.006) ; degree (0.005) ; power (0.005) ; crown (0.005) ; arm (0.004) ; act (0.004) ; balance (0.004) ; extend (0.004) ; 
+0.171393973382535   T=3,K=3:  law (0.010) ; balance (0.006) ; legislature (0.006) ; power (0.006) ; act (0.005) ; influence (0.005) ; office (0.005) ; sufficient (0.005) ; people (0.004) ; exercise (0.004) ; 
+0.3777996726958433   T=4,K=3:  law (0.008) ; power (0.007) ; balance (0.007) ; legislature (0.006) ; exercise (0.006) ; government (0.005) ; constitutional (0.005) ; extend (0.004) ; pass (0.004) ; crown (0.004) ; 
+0.1700034695242791   T=5,K=3:  power (0.009) ; law (0.009) ; legislature (0.008) ; exercise (0.008) ; government (0.006) ; grant (0.005) ; constitutional (0.005) ; congress (0.005) ; act (0.005) ; weight (0.004) ; 
+0.2686645715487664   T=6,K=3:  power (0.013) ; law (0.012) ; exercise (0.011) ; government (0.011) ; legislature (0.009) ; constitution (0.008) ; grant (0.006) ; act (0.006) ; congress (0.005) ; extend (0.005) ; 
+0.21271735512841847   T=7,K=3:  government (0.015) ; law (0.011) ; power (0.010) ; congress (0.008) ; constitution (0.008) ; exercise (0.008) ; legislature (0.006) ; grant (0.005) ; extend (0.005) ; people (0.004) ; 
+0.2070656138398915   T=8,K=3:  government (0.015) ; power (0.013) ; congress (0.008) ; law (0.008) ; constitution (0.007) ; legislature (0.007) ; people (0.007) ; extend (0.006) ; exercise (0.005) ; tax (0.005) ; 
+0.2390575276167747   T=9,K=3:  government (0.010) ; power (0.008) ; law (0.008) ; constitution (0.006) ; exercise (0.006) ; tax (0.006) ; congress (0.005) ; legislature (0.005) ; system (0.005) ; balance (0.005) ; 
+0.11549639345069802   T=10,K=3:  power (0.008) ; government (0.006) ; law (0.005) ; system (0.005) ; world (0.005) ; tax (0.004) ; legislature (0.004) ; purpose (0.004) ; control (0.004) ; exercise (0.004) ; 
+0.19109995607867963   T=11,K=3:  sovereign (0.007) ; power (0.006) ; government (0.006) ; legislature (0.005) ; water (0.005) ; law (0.005) ; system (0.005) ; control (0.004) ; leave (0.004) ; western (0.004) ; 
+0.3271740805575378   T=12,K=3:  power (0.007) ; leave (0.005) ; law (0.005) ; hand (0.005) ; legislature (0.005) ; system (0.005) ; western (0.004) ; exercise (0.004) ; transport (0.004) ; federal (0.004) ; 
+0.26522076210890516   T=13,K=3:  nuclear (0.008) ; power (0.008) ; system (0.006) ; plant (0.005) ; government (0.005) ; battery (0.005) ; western (0.005) ; law (0.005) ; leave (0.005) ; world (0.005) ; 
+0.14335124892486067   T=14,K=3:  nuclear (0.011) ; power (0.009) ; government (0.008) ; battery (0.007) ; plant (0.007) ; system (0.007) ; hand (0.006) ; legislature (0.005) ; court (0.005) ; represent (0.005) ; 
+0.09076022470541614   T=15,K=3:  nuclear (0.015) ; power (0.014) ; battery (0.009) ; plant (0.009) ; hand (0.009) ; government (0.009) ; legislature (0.008) ; hold (0.008) ; law (0.005) ; leave (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  power (0.009) ; law (0.008) ; government (0.007) ; legislature (0.006) ; exercise (0.005) ; constitution (0.004) ; balance (0.004) ; people (0.004) ; congress (0.004) ; extend (0.004) ; 
+
+0.16703265269818507   T=0,K=4:  press (0.017) ; destroy (0.017) ; government (0.011) ; people (0.008) ; head (0.008) ; subject (0.007) ; privilege (0.006) ; mean (0.005) ; world (0.005) ; control (0.005) ; 
+0.08626386827057653   T=1,K=4:  destroy (0.011) ; people (0.009) ; press (0.008) ; bring (0.006) ; government (0.006) ; head (0.006) ; subject (0.006) ; power (0.005) ; mean (0.005) ; world (0.005) ; 
+0.12565809530765143   T=2,K=4:  press (0.007) ; power (0.007) ; head (0.007) ; people (0.007) ; nation (0.007) ; government (0.006) ; destroy (0.005) ; mean (0.005) ; subject (0.005) ; exercise (0.005) ; 
+0.30464854256549717   T=3,K=4:  people (0.011) ; power (0.010) ; head (0.008) ; government (0.008) ; subject (0.006) ; destroy (0.005) ; press (0.005) ; privilege (0.005) ; mean (0.005) ; temporal (0.004) ; 
+0.12214286330713416   T=4,K=4:  power (0.014) ; people (0.013) ; subject (0.007) ; head (0.007) ; government (0.006) ; destroy (0.006) ; war (0.005) ; privilege (0.005) ; nation (0.005) ; fear (0.004) ; 
+0.21700079364678332   T=5,K=4:  power (0.009) ; time (0.007) ; government (0.006) ; nation (0.006) ; fear (0.006) ; head (0.005) ; subject (0.005) ; privilege (0.005) ; people (0.005) ; law (0.004) ; 
+0.1658334629273507   T=6,K=4:  power (0.012) ; time (0.006) ; law (0.006) ; government (0.006) ; subject (0.004) ; political (0.004) ; exercise (0.004) ; believe (0.004) ; nation (0.003) ; life (0.003) ; 
+0.20326151575025778   T=7,K=4:  power (0.016) ; government (0.007) ; exercise (0.007) ; law (0.005) ; fear (0.005) ; political (0.005) ; time (0.005) ; destroy (0.004) ; people (0.004) ; transport (0.004) ; 
+0.20390027078740822   T=8,K=4:  power (0.010) ; government (0.010) ; political (0.007) ; law (0.006) ; exercise (0.006) ; people (0.004) ; time (0.004) ; company (0.003) ; god (0.003) ; provision (0.003) ; 
+0.23565945871169464   T=9,K=4:  power (0.016) ; government (0.011) ; law (0.007) ; transport (0.005) ; company (0.005) ; political (0.004) ; force (0.004) ; exercise (0.004) ; nation (0.004) ; american (0.004) ; 
+0.2089815207654074   T=10,K=4:  power (0.012) ; government (0.010) ; political (0.007) ; law (0.006) ; company (0.006) ; influence (0.005) ; force (0.005) ; american (0.004) ; transport (0.004) ; nation (0.004) ; 
+0.18339704854651614   T=11,K=4:  power (0.018) ; government (0.011) ; political (0.007) ; company (0.007) ; electric (0.005) ; law (0.005) ; time (0.004) ; american (0.004) ; force (0.004) ; transport (0.004) ; 
+0.12613303548264834   T=12,K=4:  power (0.016) ; government (0.010) ; political (0.007) ; company (0.006) ; army (0.005) ; electric (0.005) ; american (0.005) ; law (0.004) ; believe (0.004) ; time (0.004) ; 
+0.17086190984893304   T=13,K=4:  power (0.017) ; political (0.007) ; government (0.005) ; choose (0.005) ; army (0.005) ; time (0.005) ; increase (0.005) ; american (0.005) ; life (0.005) ; united (0.004) ; 
+0.22752552029401063   T=14,K=4:  power (0.015) ; army (0.006) ; political (0.006) ; choose (0.006) ; continue (0.006) ; united (0.005) ; union (0.004) ; battery (0.004) ; company (0.004) ; plant (0.004) ; 
+0.30168053618689883   T=15,K=4:  power (0.010) ; battery (0.010) ; political (0.008) ; increase (0.006) ; world (0.005) ; continue (0.005) ; company (0.005) ; choose (0.005) ; soldier (0.005) ; united (0.004) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=4:  power (0.012) ; government (0.007) ; political (0.005) ; people (0.005) ; press (0.005) ; destroy (0.004) ; law (0.004) ; time (0.004) ; nation (0.003) ; exercise (0.003) ; 
+
+===============  per time  ===============
+Time=0  
+0.09748361806666378   T=0,K=0:  hand (0.024) ; friend (0.013) ; run (0.008) ; rise (0.006) ; constitution (0.006) ; war (0.005) ; little (0.005) ; mind (0.005) ; government (0.004) ; age (0.004) ; 
+0.1841736894871397   T=0,K=1:  wisdom (0.009) ; confidence (0.006) ; fear (0.006) ; goodness (0.006) ; existence (0.006) ; moral (0.005) ; minister (0.005) ; tell (0.004) ; recognize (0.004) ; determine (0.004) ; 
+0.1948987213988197   T=0,K=2:  england (0.012) ; love (0.007) ; system (0.006) ; leave (0.006) ; help (0.006) ; britain (0.005) ; supreme (0.005) ; move (0.005) ; nature (0.004) ; head (0.004) ; 
+0.3564113183491918   T=0,K=3:  law (0.009) ; power (0.008) ; maintain (0.007) ; weight (0.007) ; sufficient (0.007) ; crown (0.007) ; arm (0.006) ; degree (0.006) ; war (0.006) ; exercise (0.005) ; 
+0.16703265269818507   T=0,K=4:  press (0.017) ; destroy (0.017) ; government (0.011) ; people (0.008) ; head (0.008) ; subject (0.007) ; privilege (0.006) ; mean (0.005) ; world (0.005) ; control (0.005) ; 
+
+Time=1  
+0.12388693948605321   T=1,K=0:  hand (0.016) ; friend (0.010) ; run (0.007) ; life (0.006) ; little (0.005) ; heart (0.005) ; constitution (0.005) ; mind (0.004) ; rise (0.004) ; attempt (0.003) ; 
+0.1763156262435835   T=1,K=1:  wisdom (0.006) ; confidence (0.005) ; moral (0.005) ; stand (0.005) ; fear (0.004) ; goodness (0.004) ; tell (0.004) ; determine (0.004) ; commerce (0.004) ; estimate (0.003) ; 
+0.2845024269654447   T=1,K=2:  england (0.010) ; britain (0.006) ; supreme (0.006) ; love (0.005) ; head (0.005) ; system (0.004) ; king (0.004) ; political (0.004) ; leave (0.004) ; idea (0.004) ; 
+0.3290311390343421   T=1,K=3:  law (0.012) ; arm (0.008) ; degree (0.008) ; crown (0.007) ; exercise (0.006) ; power (0.006) ; sufficient (0.006) ; weight (0.006) ; believe (0.006) ; maintain (0.005) ; 
+0.08626386827057653   T=1,K=4:  destroy (0.011) ; people (0.009) ; press (0.008) ; bring (0.006) ; government (0.006) ; head (0.006) ; subject (0.006) ; power (0.005) ; mean (0.005) ; world (0.005) ; 
+
+Time=2  
+0.2199911271218694   T=2,K=0:  hand (0.012) ; friend (0.007) ; little (0.006) ; heart (0.005) ; run (0.005) ; life (0.004) ; human (0.004) ; dear (0.004) ; war (0.004) ; strength (0.004) ; 
+0.14505006010387073   T=2,K=1:  confidence (0.007) ; time (0.006) ; wisdom (0.005) ; goodness (0.005) ; existence (0.004) ; moral (0.004) ; mind (0.003) ; tend (0.003) ; tell (0.003) ; recognize (0.003) ; 
+0.28175945851404066   T=2,K=2:  supreme (0.005) ; love (0.005) ; system (0.005) ; europe (0.005) ; word (0.004) ; stop (0.004) ; england (0.004) ; grant (0.004) ; head (0.004) ; nature (0.004) ; 
+0.2275412589525678   T=2,K=3:  law (0.009) ; legislature (0.006) ; sufficient (0.006) ; degree (0.005) ; power (0.005) ; crown (0.005) ; arm (0.004) ; act (0.004) ; balance (0.004) ; extend (0.004) ; 
+0.12565809530765143   T=2,K=4:  press (0.007) ; power (0.007) ; head (0.007) ; people (0.007) ; nation (0.007) ; government (0.006) ; destroy (0.005) ; mean (0.005) ; subject (0.005) ; exercise (0.005) ; 
+
+Time=3  
+0.16483393941832442   T=3,K=0:  hand (0.009) ; little (0.006) ; friend (0.005) ; life (0.004) ; run (0.004) ; human (0.004) ; heart (0.004) ; government (0.004) ; constitution (0.004) ; nation (0.003) ; 
+0.12181238060345621   T=3,K=1:  time (0.007) ; wisdom (0.006) ; existence (0.005) ; recognize (0.005) ; confidence (0.005) ; fear (0.004) ; idea (0.004) ; exercise (0.004) ; arm (0.004) ; tell (0.004) ; 
+0.2373111640301872   T=3,K=2:  love (0.009) ; nature (0.007) ; england (0.004) ; stop (0.004) ; supreme (0.004) ; europe (0.004) ; age (0.004) ; period (0.004) ; court (0.004) ; idea (0.004) ; 
+0.171393973382535   T=3,K=3:  law (0.010) ; balance (0.006) ; legislature (0.006) ; power (0.006) ; act (0.005) ; influence (0.005) ; office (0.005) ; sufficient (0.005) ; people (0.004) ; exercise (0.004) ; 
+0.30464854256549717   T=3,K=4:  people (0.011) ; power (0.010) ; head (0.008) ; government (0.008) ; subject (0.006) ; destroy (0.005) ; press (0.005) ; privilege (0.005) ; mean (0.005) ; temporal (0.004) ; 
+
+Time=4  
+0.19435077937134684   T=4,K=0:  little (0.008) ; friend (0.006) ; life (0.005) ; time (0.005) ; government (0.005) ; hand (0.004) ; heart (0.004) ; human (0.004) ; nation (0.004) ; run (0.003) ; 
+0.16784533037079868   T=4,K=1:  time (0.010) ; existence (0.007) ; exercise (0.006) ; wisdom (0.006) ; various (0.004) ; recognize (0.004) ; stand (0.004) ; mind (0.004) ; confidence (0.004) ; send (0.004) ; 
+0.137861354254877   T=4,K=2:  nature (0.006) ; england (0.005) ; love (0.005) ; age (0.005) ; system (0.004) ; power (0.004) ; stop (0.004) ; period (0.004) ; natural (0.004) ; earth (0.004) ; 
+0.3777996726958433   T=4,K=3:  law (0.008) ; power (0.007) ; balance (0.007) ; legislature (0.006) ; exercise (0.006) ; government (0.005) ; constitutional (0.005) ; extend (0.004) ; pass (0.004) ; crown (0.004) ; 
+0.12214286330713416   T=4,K=4:  power (0.014) ; people (0.013) ; subject (0.007) ; head (0.007) ; government (0.006) ; destroy (0.006) ; war (0.005) ; privilege (0.005) ; nation (0.005) ; fear (0.004) ; 
+
+Time=5  
+0.253861653013915   T=5,K=0:  time (0.006) ; little (0.005) ; nation (0.005) ; government (0.005) ; human (0.004) ; constitution (0.004) ; life (0.004) ; determine (0.004) ; friend (0.003) ; heart (0.003) ; 
+0.19729408331727533   T=5,K=1:  existence (0.008) ; time (0.007) ; exercise (0.006) ; wisdom (0.006) ; mind (0.006) ; idea (0.006) ; recognize (0.005) ; sound (0.004) ; intellectual (0.004) ; break (0.003) ; 
+0.1618400004977471   T=5,K=2:  england (0.007) ; age (0.006) ; power (0.006) ; nature (0.005) ; love (0.005) ; leave (0.004) ; system (0.004) ; natural (0.004) ; strong (0.004) ; sense (0.004) ; 
+0.1700034695242791   T=5,K=3:  power (0.009) ; law (0.009) ; legislature (0.008) ; exercise (0.008) ; government (0.006) ; grant (0.005) ; constitutional (0.005) ; congress (0.005) ; act (0.005) ; weight (0.004) ; 
+0.21700079364678332   T=5,K=4:  power (0.009) ; time (0.007) ; government (0.006) ; nation (0.006) ; fear (0.006) ; head (0.005) ; subject (0.005) ; privilege (0.005) ; people (0.005) ; law (0.004) ; 
+
+Time=6  
+0.20552691801097345   T=6,K=0:  little (0.005) ; hand (0.005) ; time (0.004) ; government (0.004) ; peace (0.004) ; human (0.004) ; raise (0.004) ; constitution (0.004) ; mind (0.004) ; obtain (0.004) ; 
+0.13666978553644266   T=6,K=1:  mind (0.007) ; wisdom (0.007) ; existence (0.006) ; time (0.005) ; exercise (0.005) ; break (0.005) ; recognize (0.004) ; idea (0.004) ; sound (0.003) ; acknowledge (0.003) ; 
+0.22330526197646663   T=6,K=2:  power (0.009) ; love (0.005) ; england (0.005) ; nature (0.005) ; leave (0.004) ; sense (0.004) ; natural (0.004) ; idea (0.004) ; statesman (0.004) ; system (0.004) ; 
+0.2686645715487664   T=6,K=3:  power (0.013) ; law (0.012) ; exercise (0.011) ; government (0.011) ; legislature (0.009) ; constitution (0.008) ; grant (0.006) ; act (0.006) ; congress (0.005) ; extend (0.005) ; 
+0.1658334629273507   T=6,K=4:  power (0.012) ; time (0.006) ; law (0.006) ; government (0.006) ; subject (0.004) ; political (0.004) ; exercise (0.004) ; believe (0.004) ; nation (0.003) ; life (0.003) ; 
+
+Time=7  
+0.21677901958172693   T=7,K=0:  time (0.005) ; country (0.005) ; war (0.004) ; peace (0.004) ; government (0.004) ; woman (0.004) ; human (0.004) ; constitution (0.004) ; life (0.004) ; raise (0.004) ; 
+0.16541812969980518   T=7,K=1:  existence (0.007) ; wisdom (0.006) ; government (0.005) ; mind (0.004) ; tell (0.004) ; stand (0.004) ; character (0.004) ; exercise (0.003) ; recognize (0.003) ; minister (0.003) ; 
+0.20182397983979172   T=7,K=2:  power (0.008) ; love (0.007) ; people (0.004) ; system (0.004) ; idea (0.004) ; strong (0.004) ; leave (0.004) ; natural (0.004) ; nature (0.004) ; earth (0.003) ; 
+0.21271735512841847   T=7,K=3:  government (0.015) ; law (0.011) ; power (0.010) ; congress (0.008) ; constitution (0.008) ; exercise (0.008) ; legislature (0.006) ; grant (0.005) ; extend (0.005) ; people (0.004) ; 
+0.20326151575025778   T=7,K=4:  power (0.016) ; government (0.007) ; exercise (0.007) ; law (0.005) ; fear (0.005) ; political (0.005) ; time (0.005) ; destroy (0.004) ; people (0.004) ; transport (0.004) ; 
+
+Time=8  
+0.21535124442124792   T=8,K=0:  war (0.007) ; country (0.006) ; form (0.006) ; peace (0.005) ; time (0.005) ; government (0.004) ; constitution (0.004) ; word (0.004) ; control (0.004) ; raise (0.004) ; 
+0.11409671366167085   T=8,K=1:  tell (0.007) ; existence (0.005) ; people (0.004) ; wisdom (0.004) ; arm (0.004) ; power (0.004) ; idea (0.004) ; commission (0.003) ; recognize (0.003) ; government (0.003) ; 
+0.25958615728978157   T=8,K=2:  power (0.008) ; system (0.005) ; people (0.005) ; strong (0.005) ; natural (0.004) ; world (0.004) ; force (0.004) ; possess (0.003) ; age (0.003) ; day (0.003) ; 
+0.2070656138398915   T=8,K=3:  government (0.015) ; power (0.013) ; congress (0.008) ; law (0.008) ; constitution (0.007) ; legislature (0.007) ; people (0.007) ; extend (0.006) ; exercise (0.005) ; tax (0.005) ; 
+0.20390027078740822   T=8,K=4:  power (0.010) ; government (0.010) ; political (0.007) ; law (0.006) ; exercise (0.006) ; people (0.004) ; time (0.004) ; company (0.003) ; god (0.003) ; provision (0.003) ; 
+
+Time=9  
+0.16466485485599205   T=9,K=0:  war (0.007) ; little (0.006) ; time (0.006) ; country (0.004) ; form (0.004) ; set (0.004) ; government (0.004) ; law (0.004) ; water (0.004) ; public (0.004) ; 
+0.16920530913114254   T=9,K=1:  party (0.006) ; power (0.005) ; existence (0.005) ; increase (0.005) ; tell (0.004) ; recognize (0.004) ; idea (0.004) ; common (0.004) ; send (0.004) ; bring (0.004) ; 
+0.19141284968439595   T=9,K=2:  power (0.013) ; world (0.005) ; natural (0.005) ; name (0.004) ; system (0.003) ; force (0.003) ; opinion (0.003) ; nation (0.003) ; possess (0.003) ; idea (0.003) ; 
+0.2390575276167747   T=9,K=3:  government (0.010) ; power (0.008) ; law (0.008) ; constitution (0.006) ; exercise (0.006) ; tax (0.006) ; congress (0.005) ; legislature (0.005) ; system (0.005) ; balance (0.005) ; 
+0.23565945871169464   T=9,K=4:  power (0.016) ; government (0.011) ; law (0.007) ; transport (0.005) ; company (0.005) ; political (0.004) ; force (0.004) ; exercise (0.004) ; nation (0.004) ; american (0.004) ; 
+
+Time=10  
+0.1939854375647569   T=10,K=0:  power (0.009) ; country (0.008) ; war (0.007) ; set (0.006) ; time (0.005) ; peace (0.004) ; little (0.004) ; fall (0.004) ; government (0.003) ; natural (0.003) ; 
+0.2916225016773688   T=10,K=1:  power (0.007) ; recognize (0.004) ; government (0.004) ; idea (0.004) ; time (0.004) ; united (0.004) ; party (0.003) ; bring (0.003) ; horse (0.003) ; plant (0.003) ; 
+0.1899141465417689   T=10,K=2:  power (0.011) ; world (0.005) ; name (0.004) ; force (0.004) ; leave (0.004) ; human (0.004) ; people (0.004) ; natural (0.003) ; country (0.003) ; lose (0.003) ; 
+0.11549639345069802   T=10,K=3:  power (0.008) ; government (0.006) ; law (0.005) ; system (0.005) ; world (0.005) ; tax (0.004) ; legislature (0.004) ; purpose (0.004) ; control (0.004) ; exercise (0.004) ; 
+0.2089815207654074   T=10,K=4:  power (0.012) ; government (0.010) ; political (0.007) ; law (0.006) ; company (0.006) ; influence (0.005) ; force (0.005) ; american (0.004) ; transport (0.004) ; nation (0.004) ; 
+
+Time=11  
+0.1792317171355439   T=11,K=0:  power (0.012) ; country (0.010) ; foreign (0.007) ; set (0.007) ; government (0.005) ; time (0.004) ; control (0.004) ; political (0.004) ; commission (0.004) ; water (0.004) ; 
+0.2864614173102945   T=11,K=1:  power (0.014) ; recognize (0.004) ; government (0.004) ; united (0.004) ; plant (0.004) ; horse (0.004) ; line (0.004) ; idea (0.003) ; authority (0.003) ; generate (0.003) ; 
+0.1598098609289658   T=11,K=2:  power (0.013) ; force (0.007) ; mile (0.006) ; name (0.004) ; political (0.004) ; government (0.003) ; system (0.003) ; country (0.003) ; period (0.003) ; people (0.003) ; 
+0.19109995607867963   T=11,K=3:  sovereign (0.007) ; power (0.006) ; government (0.006) ; legislature (0.005) ; water (0.005) ; law (0.005) ; system (0.005) ; control (0.004) ; leave (0.004) ; western (0.004) ; 
+0.18339704854651614   T=11,K=4:  power (0.018) ; government (0.011) ; political (0.007) ; company (0.007) ; electric (0.005) ; law (0.005) ; time (0.004) ; american (0.004) ; force (0.004) ; transport (0.004) ; 
+
+Time=12  
+0.14021045112504232   T=12,K=0:  country (0.010) ; foreign (0.008) ; power (0.008) ; set (0.007) ; government (0.005) ; political (0.005) ; american (0.004) ; time (0.004) ; law (0.004) ; commission (0.004) ; 
+0.19118597268755044   T=12,K=1:  power (0.012) ; government (0.006) ; generate (0.006) ; line (0.004) ; business (0.004) ; plant (0.004) ; horse (0.003) ; nation (0.003) ; congress (0.003) ; military (0.003) ; 
+0.21529646014722098   T=12,K=2:  power (0.014) ; political (0.004) ; mile (0.004) ; name (0.004) ; government (0.004) ; force (0.004) ; possess (0.003) ; people (0.003) ; system (0.003) ; lose (0.003) ; 
+0.3271740805575378   T=12,K=3:  power (0.007) ; leave (0.005) ; law (0.005) ; hand (0.005) ; legislature (0.005) ; system (0.005) ; western (0.004) ; exercise (0.004) ; transport (0.004) ; federal (0.004) ; 
+0.12613303548264834   T=12,K=4:  power (0.016) ; government (0.010) ; political (0.007) ; company (0.006) ; army (0.005) ; electric (0.005) ; american (0.005) ; law (0.004) ; believe (0.004) ; time (0.004) ; 
+
+Time=13  
+0.19557629543907612   T=13,K=0:  power (0.009) ; set (0.006) ; water (0.006) ; time (0.005) ; foreign (0.005) ; world (0.004) ; government (0.004) ; control (0.004) ; country (0.004) ; supply (0.004) ; 
+0.1528109326015107   T=13,K=1:  power (0.007) ; horse (0.006) ; plant (0.006) ; generate (0.005) ; government (0.005) ; international (0.004) ; congress (0.004) ; include (0.004) ; hand (0.003) ; recognize (0.003) ; 
+0.21553010000157488   T=13,K=2:  power (0.008) ; human (0.006) ; political (0.004) ; financial (0.004) ; lose (0.004) ; force (0.004) ; system (0.004) ; air (0.004) ; government (0.004) ; war (0.004) ; 
+0.26522076210890516   T=13,K=3:  nuclear (0.008) ; power (0.008) ; system (0.006) ; plant (0.005) ; government (0.005) ; battery (0.005) ; western (0.005) ; law (0.005) ; leave (0.005) ; world (0.005) ; 
+0.17086190984893304   T=13,K=4:  power (0.017) ; political (0.007) ; government (0.005) ; choose (0.005) ; army (0.005) ; time (0.005) ; increase (0.005) ; american (0.005) ; life (0.005) ; united (0.004) ; 
+
+Time=14  
+0.20908834129131623   T=14,K=0:  power (0.008) ; country (0.006) ; utility (0.005) ; world (0.005) ; call (0.005) ; nuclear (0.004) ; amazing (0.004) ; express (0.004) ; protect (0.004) ; time (0.004) ; 
+0.21616139971309561   T=14,K=1:  power (0.007) ; congress (0.006) ; horse (0.005) ; generate (0.005) ; nation (0.005) ; line (0.005) ; government (0.004) ; plant (0.004) ; include (0.004) ; struggle (0.004) ; 
+0.20387348977671682   T=14,K=2:  human (0.006) ; economic (0.005) ; hold (0.005) ; cost (0.004) ; life (0.004) ; possess (0.004) ; power (0.004) ; government (0.004) ; name (0.004) ; center (0.004) ; 
+0.14335124892486067   T=14,K=3:  nuclear (0.011) ; power (0.009) ; government (0.008) ; battery (0.007) ; plant (0.007) ; system (0.007) ; hand (0.006) ; legislature (0.005) ; court (0.005) ; represent (0.005) ; 
+0.22752552029401063   T=14,K=4:  power (0.015) ; army (0.006) ; political (0.006) ; choose (0.006) ; continue (0.006) ; united (0.005) ; union (0.004) ; battery (0.004) ; company (0.004) ; plant (0.004) ; 
+
+Time=15  
+0.23957145827923185   T=15,K=0:  world (0.007) ; father (0.006) ; utility (0.006) ; nuclear (0.005) ; power (0.005) ; country (0.005) ; foreign (0.004) ; commission (0.004) ; president (0.004) ; hope (0.004) ; 
+0.2378280458711099   T=15,K=1:  power (0.008) ; congress (0.007) ; generate (0.006) ; horse (0.006) ; nation (0.005) ; knowledge (0.004) ; government (0.004) ; struggle (0.004) ; international (0.004) ; political (0.004) ; 
+0.13015973495734323   T=15,K=2:  leave (0.005) ; economic (0.005) ; government (0.005) ; center (0.005) ; human (0.005) ; war (0.005) ; cost (0.005) ; power (0.005) ; united (0.004) ; financial (0.004) ; 
+0.09076022470541614   T=15,K=3:  nuclear (0.015) ; power (0.014) ; battery (0.009) ; plant (0.009) ; hand (0.009) ; government (0.009) ; legislature (0.008) ; hold (0.008) ; law (0.005) ; leave (0.005) ; 
+0.30168053618689883   T=15,K=4:  power (0.010) ; battery (0.010) ; political (0.008) ; increase (0.006) ; world (0.005) ; continue (0.005) ; company (0.005) ; choose (0.005) ; soldier (0.005) ; united (0.004) ; 
+
+
+
+-----------------------
+ kappa_c 4.000000 , kappa_f 10.000000
