@@ -1,0 +1,106 @@
+1797 documents , 1 concepts , 5265 context features (battery) 
+kappaF 10.000000, kappaK 4.000000, a0 7.000000, b0 3.000000, K 5, max_docs_per_slice 2000, start 1700, end 2009, times 7, dT 50, I 100
+
+
+map[]
+
+===============  per type  ===============
+0.03592457697628536   T=0,K=0:  leave (0.016) ; regiment (0.014) ; assault (0.012) ; land (0.010) ; battery (0.007) ; section (0.007) ; current (0.006) ; extensive (0.006) ; commit (0.006) ; engine (0.005) ; 
+0.12539132142832635   T=1,K=0:  leave (0.019) ; regiment (0.010) ; battery (0.009) ; assault (0.008) ; section (0.008) ; land (0.006) ; company (0.005) ; commit (0.005) ; lay (0.005) ; day (0.005) ; 
+0.12627272991415933   T=2,K=0:  leave (0.010) ; regiment (0.008) ; battery (0.007) ; company (0.007) ; assault (0.006) ; cavalry (0.005) ; section (0.005) ; land (0.005) ; massachusetts (0.005) ; artillery (0.004) ; 
+0.19661024187234352   T=3,K=0:  battery (0.021) ; gun (0.008) ; leave (0.008) ; company (0.006) ; massachusetts (0.006) ; artillery (0.006) ; regiment (0.006) ; cavalry (0.005) ; current (0.005) ; fire (0.005) ; 
+0.26007962688274355   T=4,K=0:  battery (0.009) ; company (0.006) ; gun (0.006) ; position (0.005) ; power (0.005) ; regiment (0.005) ; leave (0.005) ; artillery (0.005) ; section (0.005) ; cavalry (0.004) ; 
+0.24287499224143444   T=5,K=0:  battery (0.011) ; power (0.010) ; car (0.005) ; leave (0.005) ; artillery (0.005) ; regiment (0.005) ; lay (0.005) ; service (0.005) ; gun (0.005) ; current (0.004) ; 
+0.15673311060488682   T=6,K=0:  battery (0.014) ; power (0.010) ; service (0.008) ; leave (0.006) ; car (0.006) ; lay (0.006) ; include (0.006) ; gun (0.006) ; day (0.005) ; regiment (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  battery (0.011) ; leave (0.010) ; regiment (0.007) ; power (0.005) ; assault (0.005) ; company (0.005) ; gun (0.005) ; section (0.005) ; land (0.005) ; current (0.004) ; 
+
+0.08541529317242338   T=0,K=1:  form (0.007) ; assault (0.007) ; lead (0.006) ; wire (0.006) ; add (0.005) ; electrical (0.005) ; copper (0.005) ; river (0.005) ; battery (0.005) ; connect (0.005) ; 
+0.17426953222204344   T=1,K=1:  wire (0.010) ; river (0.008) ; battery (0.006) ; lead (0.005) ; assault (0.005) ; form (0.005) ; connect (0.005) ; copper (0.004) ; add (0.004) ; electrical (0.004) ; 
+0.21036675727656393   T=2,K=1:  river (0.009) ; battery (0.008) ; wire (0.008) ; connect (0.006) ; pass (0.005) ; flank (0.005) ; lead (0.005) ; charge (0.004) ; assault (0.004) ; electrical (0.004) ; 
+0.21563770019369774   T=3,K=1:  wire (0.011) ; battery (0.010) ; connect (0.007) ; river (0.006) ; pass (0.005) ; time (0.005) ; lead (0.005) ; position (0.004) ; gun (0.004) ; assault (0.004) ; 
+0.20395455437289006   T=4,K=1:  battery (0.014) ; wire (0.011) ; connect (0.008) ; pass (0.006) ; approach (0.004) ; cell (0.004) ; run (0.004) ; river (0.004) ; time (0.004) ; scale (0.004) ; 
+0.1661251420006237   T=5,K=1:  battery (0.015) ; power (0.007) ; wire (0.007) ; connect (0.006) ; scale (0.005) ; city (0.005) ; electric (0.005) ; air (0.004) ; pass (0.004) ; short (0.004) ; 
+0.2039641548408106   T=6,K=1:  battery (0.018) ; power (0.010) ; electric (0.006) ; connect (0.006) ; scale (0.006) ; assault (0.006) ; city (0.005) ; lithium (0.005) ; wire (0.004) ; life (0.004) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  battery (0.011) ; wire (0.008) ; connect (0.006) ; river (0.005) ; assault (0.005) ; pass (0.004) ; power (0.004) ; lead (0.004) ; time (0.004) ; scale (0.003) ; 
+
+0.03830150091837469   T=0,K=2:  city (0.020) ; fort (0.012) ; gun (0.012) ; battery (0.011) ; space (0.009) ; force (0.007) ; park (0.006) ; fire (0.005) ; enemy (0.005) ; river (0.005) ; 
+0.06678453662002841   T=1,K=2:  fort (0.017) ; gun (0.016) ; city (0.010) ; park (0.009) ; fire (0.008) ; river (0.007) ; battery (0.007) ; ship (0.007) ; send (0.006) ; little (0.005) ; 
+0.13312993686763794   T=2,K=2:  gun (0.011) ; fort (0.009) ; city (0.008) ; fire (0.008) ; river (0.006) ; battery (0.006) ; send (0.005) ; ship (0.005) ; command (0.005) ; enemy (0.005) ; 
+0.19051229343736217   T=3,K=2:  gun (0.016) ; fire (0.007) ; fort (0.007) ; enemy (0.006) ; river (0.006) ; mile (0.006) ; command (0.006) ; send (0.006) ; little (0.006) ; line (0.005) ; 
+0.13338805606511472   T=4,K=2:  gun (0.008) ; enemy (0.007) ; line (0.007) ; fire (0.006) ; count (0.006) ; run (0.006) ; river (0.005) ; light (0.005) ; fort (0.005) ; command (0.005) ; 
+0.24204390897696446   T=5,K=2:  fire (0.008) ; gun (0.007) ; count (0.007) ; command (0.006) ; charge (0.006) ; street (0.006) ; leave (0.006) ; park (0.005) ; power (0.005) ; river (0.005) ; 
+0.18862329619183751   T=6,K=2:  gun (0.010) ; time (0.009) ; line (0.008) ; power (0.007) ; fire (0.006) ; light (0.006) ; charge (0.006) ; river (0.006) ; park (0.006) ; command (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  gun (0.011) ; fort (0.008) ; city (0.008) ; fire (0.007) ; river (0.006) ; battery (0.005) ; park (0.005) ; line (0.005) ; enemy (0.005) ; space (0.004) ; 
+
+0.6184936650596367   T=0,K=3:  fire (0.017) ; cannon (0.011) ; troop (0.010) ; position (0.010) ; light (0.008) ; enemy (0.007) ; erect (0.007) ; front (0.007) ; force (0.006) ; time (0.006) ; 
+0.41348433817707453   T=1,K=3:  fire (0.015) ; gun (0.015) ; cannon (0.009) ; troop (0.008) ; time (0.007) ; position (0.007) ; enemy (0.007) ; light (0.006) ; cross (0.005) ; erect (0.005) ; 
+0.25754122758238684   T=2,K=3:  gun (0.013) ; fire (0.010) ; enemy (0.009) ; time (0.009) ; cannon (0.007) ; troop (0.007) ; position (0.007) ; light (0.007) ; send (0.005) ; erect (0.005) ; 
+0.20739493097595998   T=3,K=3:  gun (0.016) ; fire (0.010) ; time (0.008) ; artillery (0.007) ; position (0.007) ; enemy (0.007) ; light (0.006) ; cannon (0.006) ; shell (0.005) ; line (0.005) ; 
+0.1987834502417544   T=4,K=3:  gun (0.013) ; shell (0.007) ; position (0.007) ; artillery (0.007) ; enemy (0.006) ; cannon (0.006) ; defense (0.006) ; time (0.005) ; cross (0.005) ; park (0.005) ; 
+0.14793247770920467   T=5,K=3:  gun (0.009) ; park (0.008) ; river (0.008) ; shell (0.006) ; battery (0.006) ; street (0.006) ; artillery (0.006) ; enemy (0.006) ; time (0.006) ; rear (0.005) ; 
+0.24468589609860494   T=6,K=3:  river (0.014) ; gun (0.011) ; park (0.008) ; light (0.008) ; street (0.007) ; send (0.006) ; battery (0.006) ; attack (0.006) ; rear (0.005) ; time (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  gun (0.012) ; fire (0.009) ; time (0.007) ; enemy (0.007) ; cannon (0.007) ; position (0.006) ; light (0.006) ; river (0.006) ; troop (0.006) ; shell (0.005) ; 
+
+0.22186496387327978   T=0,K=4:  heavy (0.018) ; hour (0.013) ; light (0.010) ; main (0.008) ; artillery (0.008) ; spurn (0.006) ; fort (0.006) ; run (0.006) ; corps (0.005) ; close (0.005) ; 
+0.22007027155252734   T=1,K=4:  heavy (0.016) ; hour (0.008) ; corps (0.006) ; field (0.006) ; artillery (0.006) ; fort (0.006) ; main (0.006) ; light (0.005) ; run (0.005) ; battery (0.005) ; 
+0.2726893483592519   T=2,K=4:  heavy (0.011) ; fire (0.009) ; artillery (0.009) ; hour (0.006) ; run (0.006) ; fort (0.006) ; main (0.006) ; piece (0.005) ; carry (0.004) ; gun (0.004) ; 
+0.18984483352063672   T=3,K=4:  heavy (0.010) ; artillery (0.009) ; fire (0.008) ; fort (0.007) ; gun (0.006) ; hour (0.006) ; run (0.005) ; main (0.005) ; battery (0.004) ; field (0.004) ; 
+0.20379431243749724   T=4,K=4:  artillery (0.010) ; test (0.008) ; fire (0.007) ; run (0.006) ; gun (0.006) ; island (0.005) ; heavy (0.005) ; direct (0.005) ; field (0.005) ; fort (0.005) ; 
+0.20102347907177276   T=5,K=4:  test (0.015) ; artillery (0.007) ; gun (0.006) ; hour (0.005) ; field (0.005) ; island (0.005) ; main (0.005) ; fire (0.005) ; storage (0.005) ; attack (0.004) ; 
+0.2059935422638603   T=6,K=4:  test (0.017) ; hour (0.009) ; storage (0.006) ; field (0.006) ; attack (0.006) ; fire (0.005) ; gun (0.005) ; artillery (0.005) ; island (0.005) ; direct (0.004) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=4:  heavy (0.009) ; artillery (0.008) ; hour (0.007) ; test (0.007) ; fire (0.006) ; main (0.005) ; fort (0.005) ; field (0.005) ; run (0.005) ; gun (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.03592457697628536   T=0,K=0:  leave (0.016) ; regiment (0.014) ; assault (0.012) ; land (0.010) ; battery (0.007) ; section (0.007) ; current (0.006) ; extensive (0.006) ; commit (0.006) ; engine (0.005) ; 
+0.08541529317242338   T=0,K=1:  form (0.007) ; assault (0.007) ; lead (0.006) ; wire (0.006) ; add (0.005) ; electrical (0.005) ; copper (0.005) ; river (0.005) ; battery (0.005) ; connect (0.005) ; 
+0.03830150091837469   T=0,K=2:  city (0.020) ; fort (0.012) ; gun (0.012) ; battery (0.011) ; space (0.009) ; force (0.007) ; park (0.006) ; fire (0.005) ; enemy (0.005) ; river (0.005) ; 
+0.6184936650596367   T=0,K=3:  fire (0.017) ; cannon (0.011) ; troop (0.010) ; position (0.010) ; light (0.008) ; enemy (0.007) ; erect (0.007) ; front (0.007) ; force (0.006) ; time (0.006) ; 
+0.22186496387327978   T=0,K=4:  heavy (0.018) ; hour (0.013) ; light (0.010) ; main (0.008) ; artillery (0.008) ; spurn (0.006) ; fort (0.006) ; run (0.006) ; corps (0.005) ; close (0.005) ; 
+
+Time=1  
+0.12539132142832635   T=1,K=0:  leave (0.019) ; regiment (0.010) ; battery (0.009) ; assault (0.008) ; section (0.008) ; land (0.006) ; company (0.005) ; commit (0.005) ; lay (0.005) ; day (0.005) ; 
+0.17426953222204344   T=1,K=1:  wire (0.010) ; river (0.008) ; battery (0.006) ; lead (0.005) ; assault (0.005) ; form (0.005) ; connect (0.005) ; copper (0.004) ; add (0.004) ; electrical (0.004) ; 
+0.06678453662002841   T=1,K=2:  fort (0.017) ; gun (0.016) ; city (0.010) ; park (0.009) ; fire (0.008) ; river (0.007) ; battery (0.007) ; ship (0.007) ; send (0.006) ; little (0.005) ; 
+0.41348433817707453   T=1,K=3:  fire (0.015) ; gun (0.015) ; cannon (0.009) ; troop (0.008) ; time (0.007) ; position (0.007) ; enemy (0.007) ; light (0.006) ; cross (0.005) ; erect (0.005) ; 
+0.22007027155252734   T=1,K=4:  heavy (0.016) ; hour (0.008) ; corps (0.006) ; field (0.006) ; artillery (0.006) ; fort (0.006) ; main (0.006) ; light (0.005) ; run (0.005) ; battery (0.005) ; 
+
+Time=2  
+0.12627272991415933   T=2,K=0:  leave (0.010) ; regiment (0.008) ; battery (0.007) ; company (0.007) ; assault (0.006) ; cavalry (0.005) ; section (0.005) ; land (0.005) ; massachusetts (0.005) ; artillery (0.004) ; 
+0.21036675727656393   T=2,K=1:  river (0.009) ; battery (0.008) ; wire (0.008) ; connect (0.006) ; pass (0.005) ; flank (0.005) ; lead (0.005) ; charge (0.004) ; assault (0.004) ; electrical (0.004) ; 
+0.13312993686763794   T=2,K=2:  gun (0.011) ; fort (0.009) ; city (0.008) ; fire (0.008) ; river (0.006) ; battery (0.006) ; send (0.005) ; ship (0.005) ; command (0.005) ; enemy (0.005) ; 
+0.25754122758238684   T=2,K=3:  gun (0.013) ; fire (0.010) ; enemy (0.009) ; time (0.009) ; cannon (0.007) ; troop (0.007) ; position (0.007) ; light (0.007) ; send (0.005) ; erect (0.005) ; 
+0.2726893483592519   T=2,K=4:  heavy (0.011) ; fire (0.009) ; artillery (0.009) ; hour (0.006) ; run (0.006) ; fort (0.006) ; main (0.006) ; piece (0.005) ; carry (0.004) ; gun (0.004) ; 
+
+Time=3  
+0.19661024187234352   T=3,K=0:  battery (0.021) ; gun (0.008) ; leave (0.008) ; company (0.006) ; massachusetts (0.006) ; artillery (0.006) ; regiment (0.006) ; cavalry (0.005) ; current (0.005) ; fire (0.005) ; 
+0.21563770019369774   T=3,K=1:  wire (0.011) ; battery (0.010) ; connect (0.007) ; river (0.006) ; pass (0.005) ; time (0.005) ; lead (0.005) ; position (0.004) ; gun (0.004) ; assault (0.004) ; 
+0.19051229343736217   T=3,K=2:  gun (0.016) ; fire (0.007) ; fort (0.007) ; enemy (0.006) ; river (0.006) ; mile (0.006) ; command (0.006) ; send (0.006) ; little (0.006) ; line (0.005) ; 
+0.20739493097595998   T=3,K=3:  gun (0.016) ; fire (0.010) ; time (0.008) ; artillery (0.007) ; position (0.007) ; enemy (0.007) ; light (0.006) ; cannon (0.006) ; shell (0.005) ; line (0.005) ; 
+0.18984483352063672   T=3,K=4:  heavy (0.010) ; artillery (0.009) ; fire (0.008) ; fort (0.007) ; gun (0.006) ; hour (0.006) ; run (0.005) ; main (0.005) ; battery (0.004) ; field (0.004) ; 
+
+Time=4  
+0.26007962688274355   T=4,K=0:  battery (0.009) ; company (0.006) ; gun (0.006) ; position (0.005) ; power (0.005) ; regiment (0.005) ; leave (0.005) ; artillery (0.005) ; section (0.005) ; cavalry (0.004) ; 
+0.20395455437289006   T=4,K=1:  battery (0.014) ; wire (0.011) ; connect (0.008) ; pass (0.006) ; approach (0.004) ; cell (0.004) ; run (0.004) ; river (0.004) ; time (0.004) ; scale (0.004) ; 
+0.13338805606511472   T=4,K=2:  gun (0.008) ; enemy (0.007) ; line (0.007) ; fire (0.006) ; count (0.006) ; run (0.006) ; river (0.005) ; light (0.005) ; fort (0.005) ; command (0.005) ; 
+0.1987834502417544   T=4,K=3:  gun (0.013) ; shell (0.007) ; position (0.007) ; artillery (0.007) ; enemy (0.006) ; cannon (0.006) ; defense (0.006) ; time (0.005) ; cross (0.005) ; park (0.005) ; 
+0.20379431243749724   T=4,K=4:  artillery (0.010) ; test (0.008) ; fire (0.007) ; run (0.006) ; gun (0.006) ; island (0.005) ; heavy (0.005) ; direct (0.005) ; field (0.005) ; fort (0.005) ; 
+
+Time=5  
+0.24287499224143444   T=5,K=0:  battery (0.011) ; power (0.010) ; car (0.005) ; leave (0.005) ; artillery (0.005) ; regiment (0.005) ; lay (0.005) ; service (0.005) ; gun (0.005) ; current (0.004) ; 
+0.1661251420006237   T=5,K=1:  battery (0.015) ; power (0.007) ; wire (0.007) ; connect (0.006) ; scale (0.005) ; city (0.005) ; electric (0.005) ; air (0.004) ; pass (0.004) ; short (0.004) ; 
+0.24204390897696446   T=5,K=2:  fire (0.008) ; gun (0.007) ; count (0.007) ; command (0.006) ; charge (0.006) ; street (0.006) ; leave (0.006) ; park (0.005) ; power (0.005) ; river (0.005) ; 
+0.14793247770920467   T=5,K=3:  gun (0.009) ; park (0.008) ; river (0.008) ; shell (0.006) ; battery (0.006) ; street (0.006) ; artillery (0.006) ; enemy (0.006) ; time (0.006) ; rear (0.005) ; 
+0.20102347907177276   T=5,K=4:  test (0.015) ; artillery (0.007) ; gun (0.006) ; hour (0.005) ; field (0.005) ; island (0.005) ; main (0.005) ; fire (0.005) ; storage (0.005) ; attack (0.004) ; 
+
+Time=6  
+0.15673311060488682   T=6,K=0:  battery (0.014) ; power (0.010) ; service (0.008) ; leave (0.006) ; car (0.006) ; lay (0.006) ; include (0.006) ; gun (0.006) ; day (0.005) ; regiment (0.005) ; 
+0.2039641548408106   T=6,K=1:  battery (0.018) ; power (0.010) ; electric (0.006) ; connect (0.006) ; scale (0.006) ; assault (0.006) ; city (0.005) ; lithium (0.005) ; wire (0.004) ; life (0.004) ; 
+0.18862329619183751   T=6,K=2:  gun (0.010) ; time (0.009) ; line (0.008) ; power (0.007) ; fire (0.006) ; light (0.006) ; charge (0.006) ; river (0.006) ; park (0.006) ; command (0.006) ; 
+0.24468589609860494   T=6,K=3:  river (0.014) ; gun (0.011) ; park (0.008) ; light (0.008) ; street (0.007) ; send (0.006) ; battery (0.006) ; attack (0.006) ; rear (0.005) ; time (0.005) ; 
+0.2059935422638603   T=6,K=4:  test (0.017) ; hour (0.009) ; storage (0.006) ; field (0.006) ; attack (0.006) ; fire (0.005) ; gun (0.005) ; artillery (0.005) ; island (0.005) ; direct (0.004) ; 
+
+
+
+-----------------------
+ kappa_c 4.000000 , kappa_f 10.000000
