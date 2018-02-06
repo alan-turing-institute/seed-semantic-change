@@ -18,5 +18,6 @@
 13. **[tlgIndex.py](tlgIndex.py)**: Python dictionary containing the TLG IDs of Greek authors.
 14. **[tokenizeConverted.py](tokenizeConverted.py)**: tokenizer for other open source corpus files (preliminary converted into XML files).
 15. **[tokenizePerseus.py](tokenizePerseus.py)**: tokenizer for [Perseus GitHub](https://github.com/PerseusDL/canonical-greekLit/tree/master/data) corpus files.
-16. **[Turing_searchwords.py](Turing_searchwords.py)**: script that counts and stores occurences of words listed in an Excel document.
-17. **[utf2beta.py](utf2beta.py)**: function converting Unicode Greek characters into betacode.
+16. **[TT_createLexicon](TT_createLexicon)**: converts [grkLemmata.py](grkLemmata.py) into a lexicon for TreeTagger ([TreeTagger Data/lexicon.txt](TreeTagger Data/lexicon.txt)].
+17. **[Turing_searchwords.py](Turing_searchwords.py)**: script that counts and stores occurences of words listed in an Excel document.
+18. **[utf2beta.py](utf2beta.py)**: function converting Unicode Greek characters into betacode.
