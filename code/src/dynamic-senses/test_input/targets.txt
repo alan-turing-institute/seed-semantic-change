@@ -1,3 +1,0 @@
-power
-battery
-transport
