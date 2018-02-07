@@ -15,10 +15,10 @@
 10. **[grkFrm.py](grkFrm.py)**: Python dictionary containing all analyses of Greek word forms.
 11. **[grkLemmata.py](grkLemmata.py)**: Python dictionary containing all Greek lemmata.
 12. **[make_data_readable.py](make_data_readable.py)**: converts IDs into Greek lemmata (and retains ID information) in output of Valerio's script.
-13. **[stop_cltk.py](stop_cltk.py)**: Perseus stop word list (from [CLTK](https://github.com/cltk/cltk/blob/master/cltk/stop/greek/stops.py)); added support for oxia acute accent vowel glyphs.
+13. **[stop_cltk.py](stop_cltk.py)**: Perseus stop word list (from [CLTK](https://github.com/cltk/cltk/blob/master/cltk/stop/greek/stops.py)); added support for oxia acute accent vowel glyphs and list as IDs.
 14. **[tlgIndex.py](tlgIndex.py)**: Python dictionary containing the TLG IDs of Greek authors.
 15. **[tokenizeConverted.py](tokenizeConverted.py)**: tokenizer for other open source corpus files (preliminary converted into XML files).
 16. **[tokenizePerseus.py](tokenizePerseus.py)**: tokenizer for [Perseus GitHub](https://github.com/PerseusDL/canonical-greekLit/tree/master/data) corpus files.
-17. **[TT_createLexicon](TT_createLexicon)**: converts [grkLemmata.py](grkLemmata.py) into a [lexicon](/TreeTaggerData/lexicon.txt) for TreeTagger.
+17. **[TT_createLexicon](TT_createLexicon)**: converts [grkLemmata.py](grkLemmata.py) into a [lexicon](TreeTaggerData/lexicon.txt) for TreeTagger.
 18. **[Turing_searchwords.py](Turing_searchwords.py)**: script that counts and stores occurences of words listed in an Excel document.
 19. **[utf2beta.py](utf2beta.py)**: function converting Unicode Greek characters into betacode.
