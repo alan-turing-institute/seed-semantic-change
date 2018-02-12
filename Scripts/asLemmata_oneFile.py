@@ -39,7 +39,23 @@ while True:
 		break
 if re.search('[yY]', a) != None:
 	word_list_toggle = True
-	word_list_file=readCSV(wrl)
+	fileList = ''
+	wordListDict = {}
+	w = 0
+	for file in os.listdir(wrl):
+		if file.endswith(".csv"):
+			w+=1
+			print(w,':',file)
+			wordListDict[w]=file
+	wordList = int(input('Insert wordlist file number: '))
+	while True :
+		try:
+			word_list_file=readCSV("%s/%s"%(wrl,wordListDict[wordList]))
+		except:
+			print('Wrong input')
+			wordList = int(input('Insert wordlist file number: '))		
+		else:
+			break
 	word_list = []
 	for row in word_list_file:
 		word_list.append(row[1])
