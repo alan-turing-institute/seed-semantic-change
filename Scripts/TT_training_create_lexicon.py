@@ -18,5 +18,6 @@ newDict = newDict.replace('"', '')
 newDict = newDict.replace(',', '')
 newDict = newDict.replace('\n}','')
 newDict = re.sub('\t((nlsj)?\d+)', lambda x : '\t'+greekLemmata[x.group(1)]['pos']+'\t'+x.group(1), newDict)
+newDict += "\n.\tSENT\t.\n:\tSENT\t:\n;\tSENT\t;\n?\tSENT\t;"
 open('TreeTaggerData/lexicon.txt', 'w').write(newDict)
 print('All done')
