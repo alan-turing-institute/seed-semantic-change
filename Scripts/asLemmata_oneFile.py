@@ -26,9 +26,9 @@ filterStopWords=config['params']['filter_stop_words']
 
 wb = load_workbook('%s/file_list.xlsx'%file_list)
 ws = wb.active
-headers = ws['A1:U1']
+headers = ws[config['excel_range']['headers']]
 h = {cell.value : n for n, cell in enumerate(headers[0])}
-files = ws['A2:U803']
+files = ws[config['excel_range']['range']]
 
 os.system("clear && printf '\e[3J'")
 
