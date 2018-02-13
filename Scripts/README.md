@@ -1,7 +1,7 @@
 # Quick start
-[annotateTuring.py](annotateTuring.py) must be run first in order to tokenize and annotate the whole corpus; folder paths are to be configured in [config.ini](config.ini). Data is extracted through [asLemmata_oneFile.py](asLemmata_oneFile.py) into the output folder (`output` in [config.ini](config.ini)). Output options are selected via user prompt. The output is processed by Valerio's script, whose output is converted into human-readable form by [make_data_readable.py](make_data_readable.py). [TT_training.py](TT_training.py) runs all script in the correct sequence and then trains TreeTagger on the data; the parameter file outputs as [TreeTaggerData/ancient_greek.txt](TreeTaggerData/ancient_greek.txt).
+[annotateTuring.py](annotateTuring.py) must be run first in order to tokenize and annotate the whole corpus; folder paths are to be configured in [config.ini](config.ini). Data is extracted through [asLemmata_oneFile.py](asLemmata_oneFile.py) into the output folder (`output` in [config.ini](config.ini)). Output options are selected via user prompt. The output is processed by Valerio's script, whose output is converted into human-readable form by [make_data_readable.py](make_data_readable.py).
 
-The file prefixed with `TT_` are related to TreeTagger. 
+The file prefixed with `TT_` are related to TreeTagger. [TT_training.py](TT_training.py) runs all training script in the correct sequence and then trains TreeTagger on the data; the parameter file outputs as [TreeTaggerData/ancient_greek.txt](TreeTaggerData/ancient_greek.txt).
 
 # File descriptions
 ## Scripts
