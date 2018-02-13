@@ -1,7 +1,7 @@
 # Quick start
 [annotateTuring.py](annotateTuring.py) must be run first in order to tokenize and annotate the whole corpus; folder paths are to be configured in [config.ini](config.ini). Data is extracted through [asLemmata_oneFile.py](asLemmata_oneFile.py) into the output folder (`output` in [config.ini](config.ini)). Output options are selected via user prompt. The output is processed by Valerio's script, whose output is converted into human-readable form by [make_data_readable.py](make_data_readable.py).
 
-The file prefixed with `TT_` are related to TreeTagger. 
+The file prefixed with `TT_` are related to TreeTagger. [TT_training.py](TT_training.py) runs all training script in the correct sequence and then trains TreeTagger on the data; the parameter file outputs as [TreeTaggerData/ancient_greek.txt](TreeTaggerData/ancient_greek.txt).
 
 # File descriptions
 ## Scripts
@@ -11,10 +11,11 @@ The file prefixed with `TT_` are related to TreeTagger.
 4. **[make_data_readable.py](make_data_readable.py)**: converts IDs into Greek lemmata (and retains ID information) in output of Valerio's script.
 5. **[tokenizeConverted.py](tokenizeConverted.py)**: tokenizer for other open source corpus files (preliminary converted into XML files).
 6. **[tokenizePerseus.py](tokenizePerseus.py)**: tokenizer for [Perseus GitHub](https://github.com/PerseusDL/canonical-greekLit/tree/master/data) corpus files.
-7. **[TT_training_create_lexicon.py](TT_create_lexicon.py)**: generates a [lexicon](TreeTaggerData/lexicon.txt) for TreeTagger starting from the [training sets](TreeTaggerData/training_set.txt).
-8. **[TT_training_create_openclass.py](TT_training_create_openclass.py)**: extract the POS tagset from [grkLemmata.py](grkLemmata.py) and saves it into [TreeTaggerData/openclass.txt](TreeTaggerData/openclass.txt) for TreeTagger.
-9. **[TT_training_prepare_set.py](TT_training_prepare_set.py)**: transforms the PROIEL and Perseus Ancient Greek treebanks into a [training set](TreeTaggerData/training_set.txt) for TreeTagger. The paths of the treebanks are to be specified in 
-10. **[Turing_searchwords.py](Turing_searchwords.py)**: script that counts and stores occurences of words listed in an Excel document. _USED FOR PRELIMINARY DATA EXPLORATION_
+7. **[TT_training.py](TT_training.py)**: runs [TT_training_create_openclass.py](TT_training_create_openclass.py), [TT_training_prepare_set.py](TT_training_prepare_set.py), and [TT_training_create_lexicon.py](TT_training_create_lexicon.py); it then runs the TreeTagger training programme (path to be set in [config.ini](config.ini)) and outputs [TreeTaggerData/ancient_greek.txt](TreeTaggerData/ancient_greek.txt).
+8. **[TT_training_create_lexicon.py](TT_training_create_lexicon.py)**: generates a [lexicon](TreeTaggerData/lexicon.txt) for TreeTagger starting from the [training sets](TreeTaggerData/training_set.txt).
+9. **[TT_training_create_openclass.py](TT_training_create_openclass.py)**: extract the POS tagset from [grkLemmata.py](grkLemmata.py) and saves it into [TreeTaggerData/openclass.txt](TreeTaggerData/openclass.txt) for TreeTagger.
+10. **[TT_training_prepare_set.py](TT_training_prepare_set.py)**: transforms the PROIEL and Perseus Ancient Greek treebanks into a [training set](TreeTaggerData/training_set.txt) for TreeTagger. The paths of the treebanks are to be specified in [config.ini](config.ini).
+11. **[Turing_searchwords.py](Turing_searchwords.py)**: script that counts and stores occurences of words listed in an Excel document. _USED FOR PRELIMINARY DATA EXPLORATION_
 
 ## Modules
 1. **[beta2utf.py](beta2utf.py)**: function converting betacode Greek into Unicode characters.
@@ -27,4 +28,4 @@ The file prefixed with `TT_` are related to TreeTagger.
 4. **[tlgIndex.py](tlgIndex.py)**: Python dictionary containing the TLG IDs of Greek authors.
 
 ## Configuration
-1. **[config.ini](config.ini)**: configuration file. It stores the paths (1) of the Excel document listing corpus files and storing metadata, (2) of the folder containing the corpus source files, (3) of the destination folders of the tokenizer and of the parser, as well as those of logs and other output files, (4) of the word lists to be used by [asLemmata_oneFile.py](asLemmata_oneFile.py), (5) of the treebanks to be used by [TT_training_prepare_set.py](TT_training_prepare_set.py). It also contains values of parameters (activate/deactivate stop word filter in [asLemmata_oneFile.py](asLemmata_oneFile.py)) and the cell ranges in `file_list.xslx` from which headers and file paths should be extracted and to which data should be written by [tokenizeConverted.py](tokenizeConverted.py), [tokenizePerseus.py](tokenizePerseus.py), [corporaParser.py](corporaParser.py), and [asLemmata_oneFile.py](asLemmata_oneFile.py).
+1. **[config.ini](config.ini)**: configuration file. It stores the paths (1) of the Excel document listing corpus files and storing metadata, (2) of the folder containing the corpus source files, (3) of the destination folders of the tokenizer and of the parser, as well as those of logs and other output files, (4) of the word lists to be used by [asLemmata_oneFile.py](asLemmata_oneFile.py), (5) of the treebanks to be used by [TT_training_prepare_set.py](TT_training_prepare_set.py), (6) of TreeTagger. It also contains values of parameters (activate/deactivate stop word filter in [asLemmata_oneFile.py](asLemmata_oneFile.py)) and the cell ranges in `file_list.xslx` from which headers and file paths should be extracted and to which data should be written by [tokenizeConverted.py](tokenizeConverted.py), [tokenizePerseus.py](tokenizePerseus.py), [corporaParser.py](corporaParser.py), and [asLemmata_oneFile.py](asLemmata_oneFile.py).
