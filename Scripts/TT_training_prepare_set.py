@@ -132,7 +132,7 @@ def convert_proiel(file):
 def convert_perseus(file):
 	global converted
 	parse = open(file,'r').read()
-	words=re.findall('.*?word id=".*?" form="(.*?)" lemma=".*?" postag="(.)', parse)
+	words=re.findall('.*?word id=".*?" form="(.*?)".*?postag="(.)', parse)
 	for word in words:
 		try:
 			newLine = ''
