@@ -20,9 +20,9 @@ logf = config['paths']['logs']
 
 wb = load_workbook('%s/file_list.xlsx'%file_list)
 ws = wb.active
-headers = ws['A1:U1']
+headers = ws[config['excel_range']['headers']]
 h = {cell.value : n for n, cell in enumerate(headers[0])}
-files = ws['A2:U803']
+files = ws[config['excel_range']['range']]
 
 os.system("clear && printf '\e[3J'")
 attrName=['lemma', 'translation', 'morph']
@@ -109,9 +109,25 @@ def lookup(word):
 def process(lemmata, word):
 	#each wordform corresponds to a list of lemmata
 	global wml
-	if len(lemmata)>1: wml+=1
+	global wml_mPos
+	if len(lemmata)>1:
+		wml+=1
+		pos_in_word={}
+		for lemma in lemmata:
+			curr_pos = greekLemmata[lemma['l']]['pos']
+			#score disambiguability (measure how many POS can a word be, and how many types per POS)
+			pos_in_word[curr_pos]=pos_in_word.setdefault(curr_pos, 0)+1
+		#disambiguability coefficient is given by the total number of POS represented only by one lemma divided by total lemmata (i.e. len(lemmata)). Assumption of equal probability of all lemmata.
+		pos_one_lemma = 0
+		for pos,count in pos_in_word.items():
+			if count == 1: pos_one_lemma+=1
+		dis_coefficient = pos_one_lemma/len(lemmata)
+		#since the coefficient should be applied to each ambiguous word, it is equal to the disambiguability score (i.e. dis_score = dis_coefficient * 1)
+		#the score should be subtracted from wml
+		wml_mPos+=dis_coefficient
+			
 	for lemma in lemmata:
-	#each lemma is a dictionary; 'l' = entry, 'a' is a list	
+	#each lemma is a dictionary; 'l' = entry, 'a' is a list
 		newLemma = document.SubElement(word, "lemma")
 		newLemma.set('id',lemma['l'])
 		newLemma.set('entry',greekLemmata[lemma['l']]['lemma'])
@@ -130,6 +146,7 @@ for record in files:
 	unknowncount_proper = 0
 	unknowncount_single = 0
 	wml = 0 #words with multiple lemmata
+	wml_mPos = 0 #word with multiple lemmata disambiguable by part of speech (cases: 1*POS1,1*POS2,1*...,1*POSn = T; >1*POS1,...,1*POSn = T only if tagger outputs POS occurring only once; >1*POS1,...,>1*POSn = F
 	print('%s - %s'%(record[h['Author']].value,record[h['Work']].value))
 	progPercent=0
 	fileName = record[h['Tokenized file']].value
@@ -302,6 +319,7 @@ for record in files:
 	record[h['Unknown proper names']].value = unknowncount_proper
 	record[h['Unknown single letters']].value = unknowncount_single
 	record[h['Words with multiple lemmata']].value = wml
+	record[h['Disambiguable words']].value = wml_mPos
 	#record[h['TLG Author']].value = parse.xpath('//tlgAuthor')[0].text
 	#record[h['TLG ID']].value = parse.xpath('//tlgId')[0].text
 	parse.write('%s/%s'%(af, fileName), xml_declaration = True, encoding='UTF-8', pretty_print=True)
