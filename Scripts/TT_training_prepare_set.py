@@ -121,8 +121,8 @@ def convert_proiel(file):
 			form = convertUTF(word.get('form'))
 			pos = proiel_pos.get(word.get('part-of-speech'),'unknown')
 			newLine = '\t'.join([form, pos])
-			if word.get('presentation-after') != " ":
-				newLine+='\n{mark}\t{mark}'.format(mark=word.get('presentation-after').strip())
+			#if word.get('presentation-after') != " ":
+			#	newLine+='\n{mark}\t{mark}'.format(mark=word.get('presentation-after').strip())
 		except:
 			continue
 		converted += '%s\n'%newLine
@@ -137,7 +137,10 @@ def convert_perseus(file):
 		try:
 			newLine = ''
 			form = convertUTF(word[0])
-			pos = perseus_pos.get(word[1],word[0])
+			if word[1] != 'u' and re.search('[A-z]', word[0]) != None:
+				pos = perseus_pos.get(word[1],word[0])
+			else:
+				continue
 			newLine = '\t'.join([form, pos])
 		except:
 			continue
