@@ -156,7 +156,7 @@ for record in files:
 
 	if filterStopWords == "True":
 		for stop in STOPS_LIST_ID:
-			finalTxt = finalTxt.replace(' %s '%stop, ' ')
+			finalTxt = re.sub('(\s)%s '%stop, r'\1', finalTxt)
 			
 	if word_list_toggle == True:
 		allInstances = re.findall(search, finalTxt)
