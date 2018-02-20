@@ -30,8 +30,6 @@ headers = ws[config['excel_range']['headers']]
 h = {cell.value : n for n, cell in enumerate(headers[0])}
 files = ws[config['excel_range']['range']]
 
-os.system("clear && printf '\e[3J'")
-
 #prompt word list
 while True:
 	a = input('Filter sentences using word list? [y/n] ')
@@ -154,13 +152,13 @@ for record in files:
 	finalTxt = re.sub('<word.*?lemmaid="(.*?)".*?</word>', r'\1 ', finalTxt)
 	finalTxt = re.sub('</sentence>', '\n', finalTxt)
 
-	if filterStopWords == "True":
-		for stop in STOPS_LIST_ID:
-			finalTxt = re.sub('(\s)%s '%stop, r'\1', finalTxt)
-			
 	if word_list_toggle == True:
 		allInstances = re.findall(search, finalTxt)
 		finalTxt = ''.join(allInstances)
+	
+	if filterStopWords == "True":
+		for stop in STOPS_LIST_ID:
+			finalTxt = re.sub('(?<!nlsj)%s '%stop, '', finalTxt)
 		
 	if toggle_id == False:
 		conv_text = []
