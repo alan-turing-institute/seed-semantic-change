@@ -108,7 +108,10 @@ perseus_pos = {
 "p":"pronoun",
 "m":"adjective",
 "i":"interjection",
-"e":"interjection"
+"e":"interjection",
+"u":"SENT",
+"-":"unknown",
+"x":"unknown"
 }
 
 def convert_proiel(file):
@@ -131,27 +134,26 @@ def convert_proiel(file):
 
 def convert_perseus(file):
 	global converted
-	parse = open(file,'r').read()
-	words=re.findall('.*?word id=".*?" form="(.*?)".*?postag="(.)', parse)
+	parse = document.parse(file)
+	words = parse.xpath('//word[not(@artificial)]')
 	for word in words:
-		try:
-			newLine = ''
-			form = convertUTF(word[0])
-			if word[1] != 'u' and re.search('[A-z]', word[0]) != None:
-				pos = perseus_pos.get(word[1],word[0])
+		if word.get('artificial') == None:
+			converted='%s\n%s'%(converted,convertUTF(word.get('form')))
+			postag=word.get('postag')
+			if len(postag) > 0:
+				pos = perseus_pos[word.get('postag')[0]]
 			else:
-				continue
-			newLine = '\t'.join([form, pos])
-		except:
-			continue
-		converted += '%s\n'%newLine
+				pos = 'unknown'
+			converted='%s\t%s'%(converted,pos)
 	converted=converted.strip()
 	del parse, words
 
 print('Converting Perseus files')
 for filename in os.listdir(perseus):
-	print('\t%s'%filename)
-	convert_perseus('%s/%s'%(perseus,filename))
+	#exclude testing subcorpus (total: 35 texts, 20% = 7 texts, randomly selected from authors for whom we have more than one text) ~ 23.8 MB / 112.6 MB (~21%)
+	if filename not in ['tlg0007.tlg015.perseus-grc1.tb.xml','tlg0008.tlg001.perseus-grc1.13.tb.xml','tlg0011.tlg004.perseus-grc1.tb.xml','tlg0012.tlg002.perseus-grc1.tb.xml','tlg0020.tlg002.perseus-grc1.tb.xml','tlg0085.tlg002.perseus-grc2.tb.xml','tlg0540.tlg015.perseus-grc1.tb.xml']:
+		print('\t%s'%filename)
+		convert_perseus('%s/%s'%(perseus,filename))
 		
 print('Converting PROIEL files')
 print('\thdt.xml')

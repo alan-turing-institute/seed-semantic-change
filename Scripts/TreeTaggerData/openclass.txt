@@ -1,1 +1,1 @@
-interjection noun particle verb adverb proper preposition adjective pronoun article conjunction unknown
+noun adjective verb pronoun particle article conjunction interjection adverb proper unknown preposition
