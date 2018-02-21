@@ -5,12 +5,6 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 os.system("clear && printf '\e[3J'")
 
 dictionary = {}
-dictionary['.']={'SENT'}
-dictionary[';']={'SENT'}
-dictionary[':']={'SENT'}
-dictionary['?']={'SENT'}
-dictionary[',']={','}
-dictionary['unknown']={'unknown'}
 
 def create_dictionary(word, pos):
 	dictionary.setdefault(word,set()).add(pos)
@@ -46,6 +40,13 @@ for line in lines:
 	form = line.split("\t")[0]
 	pos = line.split("\t")[1]
 	create_dictionary(form,pos)
+
+dictionary['.']={'SENT'}
+dictionary[';']={'SENT'}
+dictionary[':']={'SENT'}
+dictionary['?']={'SENT'}
+dictionary[',']={'SENT'}
+dictionary['unknown']={'unknown'}
 
 dictiostring = ''
 for entry in dictionary.items():
