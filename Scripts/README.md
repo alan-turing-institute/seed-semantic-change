@@ -5,7 +5,7 @@ The file prefixed with `TT_` are related to TreeTagger. [TT_training.py](TT_trai
 
 # File descriptions
 ## Scripts
-1. **[annotateTuring.py](annotateTuring.py)**: this script executes in a sequence [tokenizePerseus.py](tokenizePerseus.py), [tokenizeConverted.py](tokenizeConverted.py), and [corporaParser.py](corporaParser.py). This script compiles the whole corpus.
+1. **[annotateTuring.py](annotateTuring.py)**: this script executes in a sequence [tokenizePerseus.py](tokenizePerseus.py), [tokenizeConverted.py](tokenizeConverted.py), and [corporaParser.py](corporaParser.py). This script compiles the whole corpus. The script also runs [TT_format_our_data.py](TT_format_our_data.py), which formats the corpus as required by TreeTagger.
 2. **[asLemmata_oneFile.py](asLemmata_oneFile.py)**: this script converts annotated XML files into a single text file with a each sentence on a new line and lemmata instead of words; the stop word filter can be (de)activated in [config.ini](config.ini). Each sentence is preceded by the year to which the work is dated. The user can decide if ID and location are to be included. The user can also filter files by metadata and filter sentences by loading a list of target words (identified by their ID).
 3. **[corporaParser.py](corporaParser.py)**: this script parses tokenized corpus files.
 4. **[make_data_readable.py](make_data_readable.py)**: converts IDs into Greek lemmata (and retains ID information) in output of Valerio's script.
