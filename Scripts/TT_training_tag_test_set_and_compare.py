@@ -35,7 +35,7 @@ for idx, x in enumerate(range(0,len(a_lines))):
 		POS_list_correct[POS_a]+=1
 percent_true = round(trues*100/len(a_lines),2)
 output.write('======================== GENERAL RESULTS ========================')
-output.write('\n\nMatch: %d%%'%percent_true)
+output.write('\n\nAccuracy: %d%%'%percent_true)
 
 
 #Precision = (number of forms correctly tagged as N)/(number of forms tagged as N)
@@ -152,7 +152,7 @@ for author,values in authorResults.items():
 	output_string += 30*'#'
 	output_string +=('\n# %s%s#'%(author,(27-len(author))*' '))
 	output_string +=('\n'+30*'#')
-	output_string +=('\n\n\tMatch: %d%%'%round(values[1]*100/values[0], 2))
+	output_string +=('\n\n\tAccuracy: %d%%'%round(values[1]*100/values[0], 2))
 	output.write(output_string)
 	for POS,count in POS_list_authors[author].items():
 		tagged_as_N=count
@@ -185,7 +185,7 @@ for author,values in genreResults.items():
 	output_string += 30*'#'
 	output_string +=('\n# %s%s#'%(author,(27-len(author))*' '))
 	output_string +=('\n'+30*'#')
-	output_string +=('\n\n\tMatch: %d%%'%round(values[1]*100/values[0], 2))
+	output_string +=('\n\n\tAccuracy: %d%%'%round(values[1]*100/values[0], 2))
 	output.write(output_string)
 	for POS,count in POS_list_genres[genre].items():
 		tagged_as_N=count
