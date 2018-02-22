@@ -236,7 +236,7 @@ ge	particle
 tou=t'	adjective
 *)alkibia/dhs	noun
 e)trau/lisen	verb
-.	SENT*(hrodo/tou
+.	SENT
 kai\	conjunction
 *)/arxippos	proper
 to\n	article
@@ -19308,7 +19308,7 @@ e(tai=rai	noun
 e)n	preposition
 *filou/sh|	noun
 fhsi\n	verb
-.	SENT*(hrodo/tou
+.	SENT
 *)afrodi/si'	proper
 h)=ge	verb
 tai=s	article
@@ -21879,7 +21879,7 @@ fhsi/n	verb
 e)ceda/rhs	verb
 a)ko/lastos	adjective
 w)/n	verb
-.	SENT*(hrodo/tou
+.	SENT
 para\	preposition
 *deciqe/a|	proper
 deipnou=sa	verb
@@ -22924,7 +22924,7 @@ h(	article
 e(/ter'	adjective
 e)kei/nh	pronoun
 me/mfetai	verb
-.	SENT*(hrodo/tou
+.	SENT
 *(/ipphn	proper
 le/gousi	verb
 th\n	article
@@ -25131,9 +25131,9 @@ gomfi/ous	noun
 ga\r	particle
 ou)k	adverb
 e)/xei	verb
-.	SENT*(hrodo/tou
+.	SENT
 *qeo/filos	proper
-*filau/lw|	proper
+*filau/lw|	noun
 :	SENT
 tou=	article
 mh\	adverb
@@ -26565,7 +26565,7 @@ th\n	article
 *)anaduome/nhn	proper
 *)afrodi/thn	noun
 a)pegra/yato	verb
-.	SENT*(hrodo/tou
+.	SENT
 kai\	conjunction
 *pracite/lhs	proper
 de\	adverb
@@ -32730,7 +32730,7 @@ kalw=|	adjective
 a)na/qhma	noun
 *)ono/marxos	proper
 e)/dwke	verb
-.	SENT*(hrodo/tou
+.	SENT
 *farsali/a|	proper
 th=|	article
 *qessali/di	proper
@@ -33207,8 +33207,8 @@ i(storei=	verb
 *ni/kandros	proper
 e)n	preposition
 e(/ktw|	adjective
-*peripeteiw=n	verb
-.	SENT*(hrodo/tou
+*peripeteiw=n	noun
+.	SENT
 e)n	preposition
 *ai)gi/w|	proper
 de\	adverb
@@ -34695,7 +34695,7 @@ w(s	adverb
 kai\	conjunction
 *qeo/frastos	noun
 ei)/rhken	verb
-.	SENT*(hrodo/tou
+.	SENT
 kai\	conjunction
 *numfo/dwros	proper
 d'	adverb
@@ -48616,7 +48616,7 @@ formi/zwn	verb
 a)neba/lleto	verb
 kalo\n	adjective
 a)ei/dein	verb
-.	SENT*(hrodo/tou
+.	SENT
 au)ta\r	conjunction
 *thle/maxos	proper
 prose/fh	verb
@@ -48830,7 +48830,7 @@ tau=ta	pronoun
 ma/l'	adverb
 a)treke/ws	adverb
 a)goreu/sw	verb
-.	SENT*(hrodo/tou
+.	SENT
 *me/nths	proper
 *)agxia/loio	proper
 dai/+fronos	adjective
@@ -53200,7 +53200,7 @@ su/es	noun
 xamaieuna/des	noun
 ai)e\n	adverb
 e)/dousin	verb
-.	SENT*(hrodo/tou
+.	SENT
 "	SENT
 *eu)ru/loxos	proper
 d'	particle
@@ -62645,7 +62645,7 @@ a)popau/sei	verb
 e)s	preposition
 u(/steron	adjective
 o(rmhqh=nai	verb
-.	SENT*(hrodo/tou
+.	SENT
 "	SENT
 *qrinaki/hn	proper
 d'	particle
@@ -81594,7 +81594,7 @@ basi/leia	noun
 fi/los	adjective
 pa/i+s	noun
 ei)lh/louqe	verb
-.	SENT*(hrodo/tou
+.	SENT
 "	SENT
 *phnelopei/h|	proper
 d'	particle
@@ -100627,7 +100627,7 @@ u(/pnos	noun
 e)pi\	preposition
 blefa/roisin	noun
 e)/pipten	verb
-.	SENT*(hrodo/tou
+.	SENT
 au)ta\r	conjunction
 *thle/maxon	proper
 prose/fh	verb
@@ -111843,7 +111843,7 @@ kai\	conjunction
 spo/ggoisi	noun
 polutrh/toisi	adjective
 ka/qairon	verb
-.	SENT*(hrodo/tou
+.	SENT
 au)ta\r	conjunction
 *thle/maxos	proper
 kai\	conjunction
@@ -151812,7 +151812,7 @@ fqone/ei	verb
 kai\	conjunction
 a)oido\s	noun
 a)oidw=|	verb
-.	SENT*(hrodo/tou
+.	SENT
 w)=	interjection
 *pe/rsh	proper
 ,	SENT
@@ -154857,7 +154857,7 @@ e)/rgon	noun
 e)p'	preposition
 e)/rgw|	noun
 e)rga/zesqai	verb
-.	SENT*(hrodo/tou
+.	SENT
 plhia/dwn	noun
 *)atlagene/wn	proper
 e)pitellomena/wn	verb
@@ -160352,8 +160352,8 @@ e)/tegg'	verb
 a)mei/bwn	verb
 xrw=ta	noun
 porfure/a|	adjective
-bafh=|	verb
-.	SENT*(hrodo/tou
+bafh=|	noun
+.	SENT
 kai\	conjunction
 *ma=gos	proper
 *)/arabos	proper
