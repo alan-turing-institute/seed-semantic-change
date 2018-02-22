@@ -92,7 +92,7 @@ def tokenizePerseus(fileName):
 	brokenWord = ''
 	for elem in sourceText.iter():
 		index += 1
-		if (tagWONS(elem.getparent())[:3] == 'div' or tagWONS(elem.getparent()) == 'sp' or tagWONS(elem.getparent()) == 'said') and (tagWONS(elem)=="p" or tagWONS(elem)=="l" or tagWONS(elem)=="quote" or tagWONS(elem)=="cit"):
+		if (tagWONS(elem.getparent())[:3] == 'div' or tagWONS(elem.getparent()) == 'sp' or tagWONS(elem.getparent()) == 'said' or tagWONS(elem.getparent()) == 'q') and (tagWONS(elem)=="p" or tagWONS(elem)=="l" or tagWONS(elem)=="quote" or tagWONS(elem)=="cit"):
 			#retrieve text and annotate quotes and lacunas
 			nodesWithText='./text()|.//l/text()|.//quote/text()|.//add/text()|.//cit//text()|.//said/text()|.//q/text()|.//p/text()'
 			nodesWithTextN='./text()|.//n:l/text()|.//n:quote/text()|.//n:add/text()|.//n:cit//text()|.//n:said/text()|.//n:q/text()|.//n:p/text()'
@@ -245,7 +245,7 @@ for file in files:
 	index+=1
 	print('%d out of %d'%(index,len(files)))
 	title = file[h['Work']].value
-	author = file[h['Title']].value
+	author = file[h['Author']].value
 	tlgAuthor = os.path.basename(file[h['Work']].value).split(".")[0]
 	tlgId = file[h['Source file']].value.split(".")[1]
 	if os.path.exists('%s/%s - %s (%s).xml'%(tf, author, title, tlgId)):
