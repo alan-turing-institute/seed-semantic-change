@@ -38,17 +38,23 @@ test_set_output=open('TreeTaggerData/test_set.txt','a')
 test_set_benchmark=open('TreeTaggerData/test_set_benchmark.txt','a')
 for filename in test_set:
 	print('Converting %s'%filename)
+	test_set_file_output=open('TreeTaggerData/TestSetFiles/%s.txt'%filename[:-4],'a')
+	test_set_file_benchmark=open('TreeTaggerData/TestSetFiles/%s_benchmark.txt'%filename[:-4],'a')
 	parse = document.parse('%s/%s'%(perseus,filename))
 	words = parse.xpath('//word')
 	for word in words:
 		if word.get('artificial') == None:
 			test_set_output.write(convertUTF(word.get('form'))+"\n")
+			test_set_file_output.write(convertUTF(word.get('form'))+"\n")
 			postag=word.get('postag')
 			if len(postag) > 0:
 				pos = perseus_pos[word.get('postag')[0]]
 			else:
 				pos = 'unknown'
 			test_set_benchmark.write('%s\t%s\n'%(convertUTF(word.get('form')),pos))
+			test_set_file_benchmark.write('%s\t%s\n'%(convertUTF(word.get('form')),pos))
+	test_set_file_output.close()
+	test_set_file_benchmark.close()
 test_set_output.close()
 test_set_benchmark.close()
 print('All done')
