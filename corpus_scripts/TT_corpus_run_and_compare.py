@@ -58,6 +58,10 @@ for filename in os.listdir(tt_comparison):
 				data[filename].setdefault(ends_in_bucket,0)
 				data[filename][ends_in_bucket]+=1	
 output = open('%s/TT_disambiguation.txt'%resources, 'w')
+tot_tokens=0
+tot_amb_lemmas=0
+tot_disamb=0
+tot_disamb_prob=0
 for text,counts in data.items():
 	print(text)
 	output.write(text+'\n')
@@ -71,7 +75,7 @@ for text,counts in data.items():
 		elif scores[0] == 0.00000001:
 			ambiguous_words = scores[1]
 			print('\tAmbiguous lemmas:',ambiguous_words)	
-			output.write('\n\tAmbiguous lemmas: %s'%ambiguous_words)	
+			output.write('\n\tAmbiguous lemmas: %s'%ambiguous_words)
 		elif scores[0] == 0.00000002: print('\tNon-disambiguable words:',scores[1])
 		elif scores[0] < 1:
 			print('\tWords disambiguated with %s probability:'%scores[0],scores[1])
@@ -81,6 +85,10 @@ for text,counts in data.items():
 			print('\tDisambiguated words:',scores[1])
 			output.write('\n\tDisambiguated words: %s'%scores[1])
 			disambiguated = scores[1]
+	tot_tokens+=tokens
+	tot_amb_lemmas+=ambiguous_words
+	tot_disamb+=disambiguated
+	tot_disamb_prob+=disambiguated+prob_dis		
 	#Stats:
 	ambiguity=round(ambiguous_words*100/tokens,2)
 	disambiguation=round(disambiguated*100/ambiguous_words,2)
@@ -104,5 +112,37 @@ for text,counts in data.items():
 	print('\tResidual ambiguity (including probabilities of uncertain words) (%):',residual_ambiguity_prob,sep="\t")
 	output.write('\n\tResidual ambiguity (including probabilities of uncertain words) (%%):\t%s'%residual_ambiguity_prob)
 	print('\n######################\n')	
-	output.write('\n\n######################\n')	
+	output.write('\n\n######################\n')
+	
+print('Totals')
+output.write('\nTotals')
+print('\tTokens:',tot_tokens)
+output.write('\n\tTokens: %s'%tot_tokens)
+print('\tAmbiguous lemmas:',tot_amb_lemmas)	
+output.write('\n\tAmbiguous lemmas: %s'%tot_amb_lemmas)
+print('\tDisambiguated words:',tot_disamb)
+output.write('\n\tDisambiguated words: %s'%tot_disamb)
+print('\tDisambiguated words (including probabilities of uncertain words):',tot_disamb_prob)
+output.write('\n\tDisambiguated words (including probabilities of uncertain words): %s'%tot_disamb_prob)
+ambiguity=round(tot_amb_lemmas*100/tot_tokens,2)
+disambiguation=round(tot_disamb*100/tot_amb_lemmas,2)
+disambiguation_prob=round(100*tot_disamb_prob/tot_amb_lemmas,2)
+residual=tot_amb_lemmas-tot_disamb
+residual_prob=round(tot_amb_lemmas-tot_disamb_prob,2)
+residual_ambiguity=round(100*residual/tot_tokens,2)
+residual_ambiguity_prob=round(100*residual_prob/tot_tokens,2)
+print('\tAmbiguity (%):',ambiguity,sep="\t")
+output.write('\n\tAmbiguity (%%):\t%s'%ambiguity)
+print('\tDisambiguation (%):',disambiguation,sep="\t")
+output.write('\n\tDisambiguation (%%):\t%s'%disambiguation)
+print('\tDisambiguation (including probabilities of uncertain words) (%):',disambiguation_prob,sep="\t")
+output.write('\n\tDisambiguation (including probabilities of uncertain words) (%%):\t%s'%disambiguation_prob)
+print('\tResidual ambiguous tokens:',residual,sep="\t")
+output.write('\n\tResidual ambiguous tokens:\t%s'%residual)
+print('\tResidual ambiguous tokens (including probabilities of uncertain words):',residual_prob,sep="\t")
+output.write('\n\tResidual ambiguous tokens (including probabilities of uncertain words):\t%s'%residual_prob)
+print('\tResidual ambiguity (%):',residual_ambiguity,sep="\t")
+output.write('\n\tResidual ambiguity (%%):\t%s'%residual_ambiguity)
+print('\tResidual ambiguity (including probabilities of uncertain words) (%):',residual_ambiguity_prob,sep="\t")
+output.write('\n\tResidual ambiguity (including probabilities of uncertain words) (%%):\t%s'%residual_ambiguity_prob)
 output.close()
