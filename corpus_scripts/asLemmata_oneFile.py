@@ -5,6 +5,7 @@ from openpyxl import load_workbook
 import configparser
 from stop_cltk import STOPS_LIST_ID
 from grkLemmata import greekLemmata
+from lxml import etree as document
 
 def readCSV(file):
 	wlf = open(file, 'r').read().split('\n')
@@ -22,6 +23,7 @@ file_list = config['paths']['file_list']
 af = config['paths']['annotated']
 lf = config['paths']['output']
 wrl = config['paths']['word_list']
+TT = config['paths']['treetagger_output']
 filterStopWords=config['params']['filter_stop_words']
 
 wb = load_workbook('%s/file_list.xlsx'%file_list)
@@ -83,6 +85,16 @@ if re.search('[yY]', a) != None:
 	field_value = str(input('Insert field value to filter: '))
 else:
 	metadata_toggle = False
+	
+#prompt TreeTagger disambiguation:
+while True:
+	a = input('Use TreeTagger disambiguation of multiple lemmata? [y/n] ')
+	if re.search('[yYnN]', a) != None:
+		break
+if re.search('[yY]', a) != None:
+	toggle_TT = True
+else:
+	toggle_TT = False
 
 #prompt words by ID or form
 while True:
@@ -139,19 +151,64 @@ for record in files:
 		continue
 		
 	print('Processing',record[h['Tokenized file']].value)	
+	if toggle_TT == False:
+		finalTxt = open(file, 'r').read().replace("\n", "").replace(" ", "")
+		finalTxt = re.sub('.*?<body>(.*?)</body>.*', r'\1', finalTxt)
+		finalTxt = re.sub('<punct.*?/>', '', finalTxt)
 	
-	finalTxt = open(file, 'r').read().replace("\n", "").replace(" ", "")
-	finalTxt = re.sub('.*?<body>(.*?)</body>.*', r'\1', finalTxt)
-	finalTxt = re.sub('<punct.*?/>', '', finalTxt)
+		if toggle_sentence_id == True:
+			finalTxt = re.sub('<sentenceid="(.*?)"location="(.*?)">', '['+wy+']'+wid+r'[sentence_id:\1][sentence_loc:\2]\t', finalTxt)
+		else:
+			finalTxt = re.sub('<sentenceid="(.*?)"location="(.*?)">', '['+wy+']'+wid+'\t', finalTxt)
 	
-	if toggle_sentence_id == True:
-		finalTxt = re.sub('<sentenceid="(.*?)"location="(.*?)">', '['+wy+']'+wid+r'[sentence_id:\1][sentence_loc:\2]\t', finalTxt)
+		finalTxt = re.sub('<word.*?lemmaid="(.*?)".*?</word>', r'\1 ', finalTxt)
+		finalTxt = re.sub('</sentence>', '\n', finalTxt)
 	else:
-		finalTxt = re.sub('<sentenceid="(.*?)"location="(.*?)">', '['+wy+']'+wid+'\t', finalTxt)
-	
-	finalTxt = re.sub('<word.*?lemmaid="(.*?)".*?</word>', r'\1 ', finalTxt)
-	finalTxt = re.sub('</sentence>', '\n', finalTxt)
-
+		#parse as xml
+		finalTxt = ''
+		curr_text = document.parse(file)
+		TT_doc = open('%s/%s'%(TT,record[h['Tokenized file']].value.replace('xml','txt')), 'r')
+		TT_lines=[x for x in TT_doc]
+		nodes = curr_text.xpath('//sentence|//word|//punct')
+		word_count = 0
+		for node in nodes:
+			if node.tag == 'sentence':
+				finalTxt=finalTxt.strip()
+				finalTxt += '\n'
+				if toggle_sentence_id == True:
+					finalTxt += '[%s]%s[sentence_id:%s][sentence_loc:%s]\t'%(wy,wid,node.get('id'),node.get('location'))
+				else:
+					finalTxt += '[%s]%s\t'%(wy,wid)
+			elif node.tag == 'word':
+				lemma_count = len(node.xpath('./lemma'))
+				if lemma_count == 1:
+					finalTxt+=node.xpath('lemma/@id')[0]
+					finalTxt+=' '
+				elif lemma_count > 1:
+					TT_POS = TT_lines[word_count].split('\t')[1].strip()
+					try:
+						finalTxt+=node.xpath('lemma[@POS="%s"]/@id'%TT_POS)[0]
+						finalTxt+=' '
+					except:
+						if TT_POS == 'proper':
+							TT_POS='noun'
+						try:
+							finalTxt+=node.xpath('lemma[@POS="%s"]/@id'%TT_POS)[0]
+							finalTxt+=' '
+						except:
+							TT_POS='adjective'
+							try:
+								finalTxt+=node.xpath('lemma[@POS="%s"]/@id'%TT_POS)[0]
+								finalTxt+=' '
+							except:
+								finalTxt+=node.xpath('lemma/@id')[0]
+								finalTxt+=' '	
+				word_count+=1				
+			elif node.tag == 'punct':
+				word_count+=1
+		finalTxt=finalTxt.strip()
+		del curr_text, TT_doc, TT_lines, nodes, lemma_count, TT_POS
+		
 	if word_list_toggle == True:
 		allInstances = re.findall(search, finalTxt)
 		finalTxt = ''.join(allInstances)
