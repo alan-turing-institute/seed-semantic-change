@@ -32,9 +32,11 @@ for filename in os.listdir(tt_comparison):
 		for idx, x in enumerate(range(0,len(a_lines))):
 			data[filename].setdefault(0,0)
 			data[filename][0]+=1
+			data[filename].setdefault(0.00000001,0)
 			word = c_lines[idx].strip().split('\t')[0]
 			corpus = c_lines[idx].strip().split('\t')[1:]
 			treetagger = a_lines[idx].strip().split('\t')[1]
+			if len(corpus) > 1:	data[filename][0.00000001]+=1
 			pos_count = {}
 			for pos in corpus:
 				pos_count.setdefault(pos.strip(),0)
@@ -42,9 +44,7 @@ for filename in os.listdir(tt_comparison):
 					pos_count[pos.strip()]+=1
 			total_pos=len(pos_count)
 			total_lemmas=len(corpus)
-			data[filename].setdefault(0.00000001,0)
 			if total_pos > 1:
-				data[filename][0.00000001]+=1
 				message = 'We can\'t disambiguate this one'
 				ends_in_bucket=0.00000002
 				for pos,count in pos_count.items():
