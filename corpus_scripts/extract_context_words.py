@@ -11,6 +11,7 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 source_path = config['paths']['output']
 resources = config['paths']['file_list']
+window = int(config['params']['window'])
 
 wb = load_workbook('%s/word_senses.xlsx'%resources)
 ws = wb.active
@@ -28,10 +29,16 @@ full_corpus = open('%s/%s'%(source_path, 'fctt.txt'), 'r')
 sentences = [x for x in full_corpus]
 for sentence in sentences:
 	try:
-		words = sentence.split('\t')[1]
+		words = sentence.split('\t')[1].split()
 		for target_word,context_words in target_words.items():
 			if target_word in words:
-				for word in words.split(' '):
+				indexTW = words.index(target_word)
+				start = 0
+				finish = len(words)
+				if len(words)>2*window+1:
+					start = indexTW-window
+					finish = indexTW+window+1
+				for word in words[start:finish]:
 					context_words.setdefault(word.strip(),0)
 					context_words[word.strip()]+=1
 	except:
