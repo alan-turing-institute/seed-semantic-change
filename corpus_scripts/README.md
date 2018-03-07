@@ -1,6 +1,8 @@
 # Quick start
 [annotateTuring.py](annotateTuring.py) must be run first in order to tokenize and annotate the whole corpus; folder paths are to be configured in [config.ini](config.ini). Data is extracted through [asLemmata_oneFile.py](asLemmata_oneFile.py) into the output folder (`output` in [config.ini](config.ini)). Output options are selected via user prompt. The output is processed by Valerio's script, whose output is converted into human-readable form by [make_data_readable.py](make_data_readable.py).
 
+The gold-standard for the evaluation of the model is generated through the manual annotation of target-word senses in the corpus using [annotate_senses.py](annotate_senses.py). Information is then to be  extracted by [extract_senses.py](extract_senses.py). 
+
 The file prefixed with `TT_` are related to TreeTagger. [TT_training.py](TT_training.py) runs all training script in the correct sequence and then trains TreeTagger on the data; the parameter file is output as [TreeTaggerData/ancient_greek.txt](TreeTaggerData/ancient_greek.txt). [TT_training_test.py](TT_training_test.py) runs testing scripts in the correct sequence; test results are output as [TreeTaggerData/test_set_results.txt](TreeTaggerData/test_set_results.txt). The corpus is formatted as required by TreeTagger through [TT_format_our_data.py](TT_format_our_data.py). Tagging and the calculation of a disambiguation rate estimate are performed by [TT_corpus_run_and_compare.py](TT_corpus_run_and_compare.py).
 
 # File descriptions
