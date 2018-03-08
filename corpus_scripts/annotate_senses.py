@@ -84,6 +84,7 @@ for record in data:
 	word_senses.setdefault(word_id, {}).setdefault(sense_id, sense)
 
 for word_id, senses in word_senses.items():
+	senses['w'] = 'wrong'
 	word = greekLemmata[word_id]['lemma']
 	print('Target word: %s'%word)
 	sense_in_file()

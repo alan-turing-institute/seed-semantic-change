@@ -37,7 +37,7 @@ if len(target_words) == 0:
 tw_files = {}
 for tw in target_words:
 	output_file_name='%s/senses_%s.txt'%(dir,tw)
-	open(output_file_name, 'w')	
+	os.remove(output_file_name)	
 	tw_files[tw]=open(output_file_name, 'a')
 	tw_files[tw].write('\t'.join(fields))
 	
