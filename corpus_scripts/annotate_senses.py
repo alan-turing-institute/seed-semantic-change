@@ -64,8 +64,13 @@ def sense_in_file():
 							break
 					except:
 						continue
-				print('Input sense: "%s"\n'%sense_glosses[int(i_s)-1])
+				print('Input sense: "%s"'%sense_glosses[int(i_s)-1])
 				sentence.xpath('./word/lemma[@id="%s"][not(@sense)]'%word_id)[0].set('sense', sense_ids[int(i_s)-1])
+				while True:
+					notes = input('How did it go?\n\t1 - no problem\n\t2 - too little context\n\t3 - unclear context\n\t4 - wrong lemmatization')
+					if int(notes) in range(1,5):
+						break
+				sentence.xpath('./word/lemma[@id="%s"][not(@sense)]'%word_id)[0].set('notes', notes)
 				parse.write(current_file, xml_declaration = True, encoding='UTF-8', pretty_print=True)
 
 #extract target word data

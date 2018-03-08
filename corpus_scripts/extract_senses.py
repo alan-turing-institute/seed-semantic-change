@@ -28,7 +28,7 @@ headers = ws2[config['excel_range']['headers']]
 h_file = {cell.value : n for n, cell in enumerate(headers[0])}
 files = ws2[config['excel_range']['range']]
 
-fields = ['date', 'genre', 'author', 'work', 'sentence location', 'sentence id', 'sentence ids', 'sentence original', 'target id', 'sense id']
+fields = ['date', 'genre', 'author', 'work', 'sentence location', 'sentence id', 'sentence ids', 'sentence original', 'target id', 'sense id', 'notes']
 
 target_words = {x for x in sys.argv[1:]}
 if len(target_words) == 0:
@@ -100,8 +100,9 @@ for idx,record in enumerate(files):
 		for instance in allInstances:
 			sentence_id = instance.split('\t')[5]
 			sense = curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('sense')
+			notes = curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('notes')
 			form = ' '.join(convertBeta(x.get('form')) for x in curr_text.xpath('//sentence[@id="%s"]/word'%sentence_id))
-			instance = instance.replace('*\n', '*\t%s\t%s\t%s\n'%(form,tw,sense))
+			instance = instance.replace('*\n', '*\t%s\t%s\t%s\n'%(form,tw,sense,notes))
 			instance = instance.replace('**', ' ').replace('*', '')
 			ttw += instance	
 		fname.write(ttw.strip())
