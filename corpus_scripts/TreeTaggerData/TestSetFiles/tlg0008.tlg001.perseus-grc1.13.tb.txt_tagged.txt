@@ -18236,7 +18236,7 @@ leptunqei\s	verb
 e)netei/nato	verb
 qei=os	adjective
 *(/omhros	noun
-w)|dh=|sin	adjective
+w)|dh=|sin	noun
 pinuth=s	noun
 ei(/neka	preposition
 *phnelo/phs	proper

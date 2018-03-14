@@ -15,12 +15,12 @@ Accuracy: 89%
 ##############################
 # noun                       #
 ##############################
-	number of forms tagged as noun: 29080
+	number of forms tagged as noun: 29084
 	number of forms annotated as noun in treebank: 32761
-	number of forms correctly tagged: 28387
-	Precision:	0.9761691884456671
-	Recall:		0.8664875919538476
-	F-score:	0.9180640675280155
+	number of forms correctly tagged: 28391
+	Precision:	0.9761724659606656
+	Recall:		0.8666096883489515
+	F-score:	0.9181340447893928
 
 ##############################
 # adverb                     #
@@ -45,12 +45,12 @@ Accuracy: 89%
 ##############################
 # verb                       #
 ##############################
-	number of forms tagged as verb: 28871
+	number of forms tagged as verb: 28870
 	number of forms annotated as verb in treebank: 28782
 	number of forms correctly tagged: 28455
-	Precision:	0.9855910775518687
+	Precision:	0.9856252164877035
 	Recall:		0.9886387325411715
-	F-score:	0.9871125526858966
+	F-score:	0.98712967459932
 
 ##############################
 # SENT                       #
@@ -95,12 +95,12 @@ Accuracy: 89%
 ##############################
 # adjective                  #
 ##############################
-	number of forms tagged as adjective: 17115
+	number of forms tagged as adjective: 17112
 	number of forms annotated as adjective in treebank: 18127
-	number of forms correctly tagged: 15486
-	Precision:	0.9048203330411919
-	Recall:		0.8543057317813206
-	F-score:	0.878837750411441
+	number of forms correctly tagged: 15487
+	Precision:	0.9050374006545114
+	Recall:		0.854360898107795
+	F-score:	0.8789693237606061
 
 ##############################
 # conjunction                #
@@ -251,12 +251,12 @@ Accuracy: 89%
 	Accuracy: 84%
 
 	noun in Athenaeus
-		number of forms tagged as noun: 4136
+		number of forms tagged as noun: 4137
 		number of forms annotated as noun in treebank: 5490
-		number of forms correctly tagged: 4014
-		Precision:	0.9705029013539652
-		Recall:		0.7311475409836066
-		F-score:	0.8339912736339081
+		number of forms correctly tagged: 4015
+		Precision:	0.970510031423737
+		Recall:		0.7313296903460837
+		F-score:	0.8341123922301859
 
 	article in Athenaeus
 		number of forms tagged as article: 2715
@@ -307,12 +307,12 @@ Accuracy: 89%
 		F-score:	N/A
 
 	adjective in Athenaeus
-		number of forms tagged as adjective: 2088
+		number of forms tagged as adjective: 2087
 		number of forms annotated as adjective in treebank: 2152
 		number of forms correctly tagged: 1692
-		Precision:	0.8103448275862069
+		Precision:	0.8107331097268807
 		Recall:		0.7862453531598513
-		F-score:	0.7981132075471699
+		F-score:	0.7983014861995754
 
 	adverb in Athenaeus
 		number of forms tagged as adverb: 1786
@@ -680,15 +680,15 @@ Accuracy: 89%
 # Aeschylus                  #
 ##############################
 
-	Accuracy: 89%
+	Accuracy: 90%
 
 	noun in Aeschylus
-		number of forms tagged as noun: 1397
+		number of forms tagged as noun: 1400
 		number of forms annotated as noun in treebank: 1523
-		number of forms correctly tagged: 1343
-		Precision:	0.9613457408732999
-		Recall:		0.881812212738017
-		F-score:	0.9198630136986301
+		number of forms correctly tagged: 1346
+		Precision:	0.9614285714285714
+		Recall:		0.8837820091923835
+		F-score:	0.9209716045159083
 
 	particle in Aeschylus
 		number of forms tagged as particle: 436
@@ -707,12 +707,12 @@ Accuracy: 89%
 		F-score:	0.8831168831168831
 
 	verb in Aeschylus
-		number of forms tagged as verb: 972
+		number of forms tagged as verb: 971
 		number of forms annotated as verb in treebank: 944
 		number of forms correctly tagged: 925
-		Precision:	0.9516460905349794
+		Precision:	0.952626158599382
 		Recall:		0.9798728813559322
-		F-score:	0.965553235908142
+		F-score:	0.9660574412532638
 
 	proper in Aeschylus
 		number of forms tagged as proper: 121
@@ -731,12 +731,12 @@ Accuracy: 89%
 		F-score:	0.9508196721311475
 
 	adjective in Aeschylus
-		number of forms tagged as adjective: 908
+		number of forms tagged as adjective: 906
 		number of forms annotated as adjective in treebank: 980
-		number of forms correctly tagged: 820
-		Precision:	0.9030837004405287
-		Recall:		0.8367346938775511
-		F-score:	0.8686440677966103
+		number of forms correctly tagged: 821
+		Precision:	0.9061810154525386
+		Recall:		0.8377551020408164
+		F-score:	0.870625662778367
 
 	SENT in Aeschylus
 		number of forms tagged as SENT: 1023

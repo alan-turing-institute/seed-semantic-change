@@ -229,8 +229,8 @@ def tokenizePerseus(fileName):
 	outputFile = document.ElementTree(outputRoot)
 	outputFile.write('%s/%s - %s (%s).xml'%(tf, author, title, tlgId), xml_declaration = True, encoding='UTF-8', pretty_print=True)
 	file[h['Tokenized file']].value = '%s - %s (%s).xml'%(author, title, tlgId)
-	file[h['TLG Author']].value = tlgAuthor
-	file[h['TLG ID']].value = tlgId
+	file[h['TLG Author']].value = tlgAuthor.replace('tlg', '')
+	file[h['TLG ID']].value = tlgId.replace('tlg', '')
 	
 ###################
 wb = load_workbook('%s/file_list.xlsx'%file_list)
@@ -246,7 +246,7 @@ for file in files:
 	print('%d out of %d'%(index,len(files)))
 	title = file[h['Work']].value
 	author = file[h['Author']].value
-	tlgAuthor = os.path.basename(file[h['Work']].value).split(".")[0]
+	tlgAuthor = os.path.basename(file[h['Source file']].value).split(".")[0]
 	tlgId = file[h['Source file']].value.split(".")[1]
 	if os.path.exists('%s/%s - %s (%s).xml'%(tf, author, title, tlgId)):
 		continue

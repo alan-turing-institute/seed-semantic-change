@@ -54,39 +54,50 @@ def lookup(word):
 	except KeyError:
 		word = word.replace("+", "")
 		word = re.sub(r"\*([\(\)/=]+)([aehiouw])",r"*\2\1", word)
-		word = word.replace("*", "")		
+		word2 = word.replace("'", "")
+		notFound = False
 		try:
 			entry=greekForms[word]
 		except KeyError:
-			word = re.sub('^c(?=u[nmg])','s', word)
+			notFound = True
+		else:
+			return {'is_unknown':False, 'entry':entry}
+		if notFound == True:
+			word = word.replace("*", "")		
 			try:
 				entry=greekForms[word]
 			except KeyError:
-				word = word.replace("'", "")
+				word = re.sub('^c(?=u[nmg])','s', word)
 				try:
 					entry=greekForms[word]
 				except KeyError:
-					word = re.sub("\)$", "'",word)
+					word = word.replace("'", "")
 					try:
 						entry=greekForms[word]
 					except KeyError:
-						word = re.sub("'$", "",word)
+						word = re.sub("\)$", "'",word)
 						try:
 							entry=greekForms[word]
 						except KeyError:
-							word = re.sub("^\(", "",word)
+							word = re.sub("'$", "",word)
 							try:
 								entry=greekForms[word]
 							except KeyError:
-								word = re.sub("\)$", "",word)
+								word = re.sub("^\(", "",word)
 								try:
 									entry=greekForms[word]
 								except KeyError:
-									word = re.sub("'", "",word)
+									word = re.sub("\)$", "",word)
 									try:
 										entry=greekForms[word]
 									except KeyError:
-										return {'is_unknown':True}
+										word = re.sub("'", "",word)
+										try:
+											entry=greekForms[word]
+										except KeyError:
+											return {'is_unknown':True}
+										else:
+											return {'is_unknown':False, 'entry':entry}
 									else:
 										return {'is_unknown':False, 'entry':entry}
 								else:
@@ -100,9 +111,7 @@ def lookup(word):
 				else:
 					return {'is_unknown':False, 'entry':entry}
 			else:
-				return {'is_unknown':False, 'entry':entry}
-		else:
-				return {'is_unknown':False, 'entry':entry}
+					return {'is_unknown':False, 'entry':entry}
 	else:
 		return {'is_unknown':False, 'entry':entry}
 
