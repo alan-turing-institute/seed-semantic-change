@@ -13,7 +13,7 @@ file_list = config['paths']['file_list']
 af = config['paths']['annotated']
 tf = config['paths']['tokenized']
 for_tt = config['paths']['for_treetagger']
-for_tt_cmp = config['paths']['for_comparison_with_treetagger']
+for_tt_cmp = config['paths']['for_treetagger_comparison']
 
 wb = load_workbook('%s/file_list.xlsx'%file_list)
 ws = wb.active

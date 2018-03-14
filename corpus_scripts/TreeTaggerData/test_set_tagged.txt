@@ -29536,7 +29536,7 @@ leptunqei\s	verb
 e)netei/nato	verb
 qei=os	adjective
 *(/omhros	noun
-w)|dh=|sin	adjective
+w)|dh=|sin	noun
 pinuth=s	noun
 ei(/neka	preposition
 *phnelo/phs	proper
@@ -158888,7 +158888,7 @@ pezono/mon	adjective
 t'	particle
 e)/k	preposition
 te	particle
-qala/ssas	adjective
+qala/ssas	noun
 ,	SENT
 e)xuroi=si	adjective
 pepoiqw\s	verb
@@ -158939,7 +158939,7 @@ e(/rkesin	noun
 ei)/rgein	verb
 a)/maxon	adjective
 ku=ma	noun
-qala/ssas	adjective
+qala/ssas	noun
 :	SENT
 a)pro/soistos	adjective
 ga\r	adverb
@@ -158976,8 +158976,8 @@ a)nasta/seis	noun
 e)/maqon	verb
 d'	particle
 eu)rupo/roi-	adjective
-o	verb
-qala/ssas	adjective
+o	adjective
+qala/ssas	noun
 poliai-	adjective
 nome/nas	noun
 pneu/mati	noun

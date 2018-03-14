@@ -64,10 +64,8 @@ else:
 		for row in word_list_file:
 			word_list.append(row[1])
 		words_to_match =''
-		for word in word_list:
-			words_to_match += '%s|'%word
-		words_to_match='\*(?:%s)\*'%words_to_match[:-1]
-		search='.*?'+words_to_match+'.*?\n'
+		words_to_match = '|'.join(word_list)
+		search='.*?\*(?:'+words_to_match+')\*.*?\n'
 	else:
 		word_list_toggle = False
 
@@ -147,8 +145,9 @@ else:
 	
 dir = lf
 output_file_name = input('Output file name: ')
-fullText=open('%s/%s'%(dir, output_file_name), 'a')
-	
+fullText=open('%s/%s'%(dir, output_file_name), 'w')
+finalString = ''
+
 for idx,record in enumerate(files):
 	file = '%s/%s'%(af,record[h['Tokenized file']].value)
 	wy = str(record[h['Date']].value)
@@ -169,7 +168,9 @@ for idx,record in enumerate(files):
 	if green_light == False:
 		continue
 		
-	print('Processing',record[h['Tokenized file']].value)	
+	sys.stdout.write("\n\r\033[KProcessing %s"%record[h['Tokenized file']].value)
+	sys.stdout.flush()
+	
 	if toggle_TT == False:
 		finalTxt = open(file, 'r').read().replace("\n", "").replace(" ", "")
 		finalTxt = re.sub('.*?<body>(.*?)</body>.*', r'\1', finalTxt)
@@ -229,7 +230,9 @@ for idx,record in enumerate(files):
 	if word_list_toggle == True:
 		allInstances = re.findall(search, finalTxt)
 		finalTxt = ''.join(allInstances)
-
+		sys.stdout.write("\r\033[K%s\t\thits: %s"%(record[h['Tokenized file']].value, len(allInstances)))
+		sys.stdout.flush()
+		
 	finalTxt = finalTxt.replace('**', ' ').replace('*', '')
 	
 	if toggle_id == False:
@@ -242,6 +245,7 @@ for idx,record in enumerate(files):
 		finalTxt = ' '.join(conv_text).replace('] ', ']\t')
 		
 	finalTxt = finalTxt.replace('[', '').replace(']', '')
-	fullText.write(finalTxt.strip())
+	finalString += finalTxt
+fullText.write(finalString.strip())
 fullText.close()
 print('\n###########\n#All done!#\n###########\n')
