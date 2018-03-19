@@ -28,7 +28,7 @@ headers = ws2[config['excel_range']['headers']]
 h_file = {cell.value : n for n, cell in enumerate(headers[0])}
 files = ws2[config['excel_range']['range']]
 
-fields = ['date', 'genre', 'author', 'work', 'sentence location', 'sentence id', 'sentence ids', 'sentence original', 'target id', 'sense id', 'difficulty code']
+fields = ['date', 'genre', 'author', 'work', 'tlg author', 'tlg work', 'sentence location', 'sentence id', 'sentence ids', 'sentence original', 'target id', 'sense id', 'difficulty code']
 
 target_words = {x for x in sys.argv[1:]}
 if len(target_words) == 0:
@@ -46,6 +46,8 @@ for idx,record in enumerate(files):
 	date = str(record[h_file['Date']].value)
 	genre = str(record[h_file['Genre']].value)
 	author = str(record[h_file['Author']].value)
+	tlg_work = str(record[h_file['TLG ID']].value)
+	tlg_author = str(record[h_file['TLG Author']].value)
 	work = str(record[h_file['Work']].value)
 	sys.stdout.write("\r\033[KChecking %s"%os.path.basename(file))
 	sys.stdout.flush()
@@ -64,7 +66,7 @@ for idx,record in enumerate(files):
 	for node in nodes:
 		if node.tag == 'sentence':
 			finalTxt += '\n'
-			finalTxt += '%s\t%s\t%s\t%s\t%s\t%s\t'%(date,genre,author,work,node.get('location'),node.get('id'))			
+			finalTxt += '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t'%(date,genre,author,work,tlg_author,tlg_work,node.get('location'),node.get('id'))			
 		elif node.tag == 'word':
 			lemma_count = len(node.xpath('./lemma'))
 			if lemma_count == 1:
@@ -98,7 +100,7 @@ for idx,record in enumerate(files):
 		ttw = ''
 		allInstances = re.findall('.*?\*'+tw+'\*.*?\n', finalTxt)
 		for instance in allInstances:
-			sentence_id = instance.split('\t')[5]
+			sentence_id = instance.split('\t')[7]
 			sense = curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('sense')
 			notes = curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('notes')
 			form = ' '.join(convertBeta(x.get('form')) for x in curr_text.xpath('//sentence[@id="%s"]/word'%sentence_id))
