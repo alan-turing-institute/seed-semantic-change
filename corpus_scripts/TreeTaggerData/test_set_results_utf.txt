@@ -1,0 +1,1441 @@
+======================== GENERAL RESULTS ========================
+
+Accuracy: 83%
+
+##############################
+# article                    #
+##############################
+	number of forms tagged as article: 6939
+	number of forms annotated as article in treebank: 5180
+	number of forms correctly tagged: 5034
+	Precision:	0.7254647643752702
+	Recall:		0.9718146718146718
+	F-score:	0.8307616139945541
+
+##############################
+# noun                       #
+##############################
+	number of forms tagged as noun: 28511
+	number of forms annotated as noun in treebank: 32761
+	number of forms correctly tagged: 27744
+	Precision:	0.9730981024867595
+	Recall:		0.8468605964408901
+	F-score:	0.9056012534273403
+
+##############################
+# adverb                     #
+##############################
+	number of forms tagged as adverb: 12762
+	number of forms annotated as adverb in treebank: 14331
+	number of forms correctly tagged: 9587
+	Precision:	0.751214543175051
+	Recall:		0.6689693671062731
+	F-score:	0.707710478721441
+
+##############################
+# proper                     #
+##############################
+	number of forms tagged as proper: 2844
+	number of forms annotated as proper in treebank: 0
+	number of forms correctly tagged: 0
+	Precision:	0.0
+	Recall:		N/A
+	F-score:	N/A
+
+##############################
+# verb                       #
+##############################
+	number of forms tagged as verb: 36214
+	number of forms annotated as verb in treebank: 28782
+	number of forms correctly tagged: 28372
+	Precision:	0.7834539128513834
+	Recall:		0.9857549857549858
+	F-score:	0.8730383408209735
+
+##############################
+# SENT                       #
+##############################
+	number of forms tagged as SENT: 24734
+	number of forms annotated as SENT in treebank: 24834
+	number of forms correctly tagged: 24691
+	Precision:	0.9982615023853805
+	Recall:		0.9942417653217364
+	F-score:	0.9962475790832795
+
+##############################
+# preposition                #
+##############################
+	number of forms tagged as preposition: 6472
+	number of forms annotated as preposition in treebank: 7532
+	number of forms correctly tagged: 6366
+	Precision:	0.9836217552533992
+	Recall:		0.8451938396176314
+	F-score:	0.9091688089117393
+
+##############################
+# particle                   #
+##############################
+	number of forms tagged as particle: 7094
+	number of forms annotated as particle in treebank: 14475
+	number of forms correctly tagged: 6110
+	Precision:	0.8612912320270651
+	Recall:		0.4221070811744387
+	F-score:	0.5665538504334925
+
+##############################
+# adjective                  #
+##############################
+	number of forms tagged as adjective: 20164
+	number of forms annotated as adjective in treebank: 18127
+	number of forms correctly tagged: 14773
+	Precision:	0.7326423328704622
+	Recall:		0.8149721410051305
+	F-score:	0.771617351335823
+
+##############################
+# pronoun                    #
+##############################
+	number of forms tagged as pronoun: 10131
+	number of forms annotated as pronoun in treebank: 10907
+	number of forms correctly tagged: 7883
+	Precision:	0.7781068009081038
+	Recall:		0.7227468598147978
+	F-score:	0.7494058370567545
+
+##############################
+# conjunction                #
+##############################
+	number of forms tagged as conjunction: 9107
+	number of forms annotated as conjunction in treebank: 7846
+	number of forms correctly tagged: 6411
+	Precision:	0.7039639837487647
+	Recall:		0.8171042569462146
+	F-score:	0.7563263139267385
+
+##############################
+# unknown                    #
+##############################
+	number of forms tagged as unknown: 30
+	number of forms annotated as unknown in treebank: 206
+	number of forms correctly tagged: 21
+	Precision:	0.7
+	Recall:		0.10194174757281553
+	F-score:	0.17796610169491528
+
+##############################
+# interjection               #
+##############################
+	number of forms tagged as interjection: 456
+	number of forms annotated as interjection in treebank: 477
+	number of forms correctly tagged: 439
+	Precision:	0.9627192982456141
+	Recall:		0.9203354297693921
+	F-score:	0.9410503751339766
+
+======================= RESULTS BY AUTHOR =======================
+
+##############################
+# Plutarch                   #
+##############################
+
+	Accuracy: 87%
+
+	article in Plutarch
+		number of forms tagged as article: 1360
+		number of forms annotated as article in treebank: 1377
+		number of forms correctly tagged: 1358
+		Precision:	0.9985294117647059
+		Recall:		0.9862018881626725
+		F-score:	0.9923273657289002
+
+	noun in Plutarch
+		number of forms tagged as noun: 1851
+		number of forms annotated as noun in treebank: 2212
+		number of forms correctly tagged: 1831
+		Precision:	0.9891950297136682
+		Recall:		0.8277576853526221
+		F-score:	0.9013044548363278
+
+	adverb in Plutarch
+		number of forms tagged as adverb: 903
+		number of forms annotated as adverb in treebank: 1336
+		number of forms correctly tagged: 805
+		Precision:	0.8914728682170543
+		Recall:		0.6025449101796407
+		F-score:	0.7190710138454668
+
+	proper in Plutarch
+		number of forms tagged as proper: 217
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	verb in Plutarch
+		number of forms tagged as verb: 2464
+		number of forms annotated as verb in treebank: 2245
+		number of forms correctly tagged: 2236
+		Precision:	0.9074675324675324
+		Recall:		0.9959910913140312
+		F-score:	0.9496708430664684
+
+	SENT in Plutarch
+		number of forms tagged as SENT: 1244
+		number of forms annotated as SENT in treebank: 1244
+		number of forms correctly tagged: 1244
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	preposition in Plutarch
+		number of forms tagged as preposition: 525
+		number of forms annotated as preposition in treebank: 592
+		number of forms correctly tagged: 517
+		Precision:	0.9847619047619047
+		Recall:		0.8733108108108109
+		F-score:	0.9256938227394808
+
+	particle in Plutarch
+		number of forms tagged as particle: 247
+		number of forms annotated as particle in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	adjective in Plutarch
+		number of forms tagged as adjective: 990
+		number of forms annotated as adjective in treebank: 841
+		number of forms correctly tagged: 696
+		Precision:	0.703030303030303
+		Recall:		0.8275862068965517
+		F-score:	0.7602403058438012
+
+	pronoun in Plutarch
+		number of forms tagged as pronoun: 528
+		number of forms annotated as pronoun in treebank: 476
+		number of forms correctly tagged: 417
+		Precision:	0.7897727272727273
+		Recall:		0.8760504201680672
+		F-score:	0.8306772908366534
+
+	conjunction in Plutarch
+		number of forms tagged as conjunction: 965
+		number of forms annotated as conjunction in treebank: 972
+		number of forms correctly tagged: 749
+		Precision:	0.7761658031088083
+		Recall:		0.7705761316872428
+		F-score:	0.7733608673205988
+
+	unknown in Plutarch
+		number of forms tagged as unknown: 1
+		number of forms annotated as unknown in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	interjection in Plutarch
+		number of forms tagged as interjection: 5
+		number of forms annotated as interjection in treebank: 5
+		number of forms correctly tagged: 5
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+##############################
+# Athenaeus                  #
+##############################
+
+	Accuracy: 82%
+
+	noun in Athenaeus
+		number of forms tagged as noun: 4155
+		number of forms annotated as noun in treebank: 5490
+		number of forms correctly tagged: 4015
+		Precision:	0.9663056558363418
+		Recall:		0.7313296903460837
+		F-score:	0.8325557283566616
+
+	article in Athenaeus
+		number of forms tagged as article: 2724
+		number of forms annotated as article in treebank: 2761
+		number of forms correctly tagged: 2717
+		Precision:	0.9974302496328928
+		Recall:		0.9840637450199203
+		F-score:	0.9907019143117594
+
+	adjective in Athenaeus
+		number of forms tagged as adjective: 2252
+		number of forms annotated as adjective in treebank: 2152
+		number of forms correctly tagged: 1619
+		Precision:	0.7189165186500888
+		Recall:		0.7523234200743495
+		F-score:	0.7352406902815622
+
+	SENT in Athenaeus
+		number of forms tagged as SENT: 3124
+		number of forms annotated as SENT in treebank: 3125
+		number of forms correctly tagged: 3121
+		Precision:	0.9990396927016645
+		Recall:		0.99872
+		F-score:	0.9988798207713234
+
+	conjunction in Athenaeus
+		number of forms tagged as conjunction: 1527
+		number of forms annotated as conjunction in treebank: 1283
+		number of forms correctly tagged: 934
+		Precision:	0.6116568434839554
+		Recall:		0.7279812938425565
+		F-score:	0.6647686832740214
+
+	verb in Athenaeus
+		number of forms tagged as verb: 4910
+		number of forms annotated as verb in treebank: 4180
+		number of forms correctly tagged: 4127
+		Precision:	0.8405295315682281
+		Recall:		0.9873205741626794
+		F-score:	0.908030803080308
+
+	pronoun in Athenaeus
+		number of forms tagged as pronoun: 1451
+		number of forms annotated as pronoun in treebank: 1319
+		number of forms correctly tagged: 1180
+		Precision:	0.8132322536181944
+		Recall:		0.8946171341925702
+		F-score:	0.851985559566787
+
+	adverb in Athenaeus
+		number of forms tagged as adverb: 1678
+		number of forms annotated as adverb in treebank: 2936
+		number of forms correctly tagged: 1474
+		Precision:	0.8784266984505363
+		Recall:		0.5020435967302452
+		F-score:	0.6389250108365844
+
+	particle in Athenaeus
+		number of forms tagged as particle: 491
+		number of forms annotated as particle in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	interjection in Athenaeus
+		number of forms tagged as interjection: 59
+		number of forms annotated as interjection in treebank: 60
+		number of forms correctly tagged: 59
+		Precision:	1.0
+		Recall:		0.9833333333333333
+		F-score:	0.9915966386554621
+
+	preposition in Athenaeus
+		number of forms tagged as preposition: 1389
+		number of forms annotated as preposition in treebank: 1531
+		number of forms correctly tagged: 1375
+		Precision:	0.9899208063354932
+		Recall:		0.8981058131939909
+		F-score:	0.9417808219178082
+
+	proper in Athenaeus
+		number of forms tagged as proper: 1086
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	unknown in Athenaeus
+		number of forms tagged as unknown: 18
+		number of forms annotated as unknown in treebank: 27
+		number of forms correctly tagged: 14
+		Precision:	0.7777777777777778
+		Recall:		0.5185185185185185
+		F-score:	0.6222222222222222
+
+##############################
+# Sophocles                  #
+##############################
+
+	Accuracy: 81%
+
+	interjection in Sophocles
+		number of forms tagged as interjection: 97
+		number of forms annotated as interjection in treebank: 101
+		number of forms correctly tagged: 97
+		Precision:	1.0
+		Recall:		0.9603960396039604
+		F-score:	0.9797979797979798
+
+	noun in Sophocles
+		number of forms tagged as noun: 1497
+		number of forms annotated as noun in treebank: 1575
+		number of forms correctly tagged: 1416
+		Precision:	0.9458917835671342
+		Recall:		0.8990476190476191
+		F-score:	0.921875
+
+	SENT in Sophocles
+		number of forms tagged as SENT: 1798
+		number of forms annotated as SENT in treebank: 1823
+		number of forms correctly tagged: 1798
+		Precision:	1.0
+		Recall:		0.986286341195831
+		F-score:	0.9930958298812483
+
+	article in Sophocles
+		number of forms tagged as article: 448
+		number of forms annotated as article in treebank: 416
+		number of forms correctly tagged: 392
+		Precision:	0.875
+		Recall:		0.9423076923076923
+		F-score:	0.9074074074074073
+
+	adverb in Sophocles
+		number of forms tagged as adverb: 1099
+		number of forms annotated as adverb in treebank: 809
+		number of forms correctly tagged: 644
+		Precision:	0.5859872611464968
+		Recall:		0.796044499381953
+		F-score:	0.6750524109014675
+
+	pronoun in Sophocles
+		number of forms tagged as pronoun: 1043
+		number of forms annotated as pronoun in treebank: 1080
+		number of forms correctly tagged: 816
+		Precision:	0.7823585810162992
+		Recall:		0.7555555555555555
+		F-score:	0.7687235044747999
+
+	adjective in Sophocles
+		number of forms tagged as adjective: 1275
+		number of forms annotated as adjective in treebank: 1342
+		number of forms correctly tagged: 979
+		Precision:	0.7678431372549019
+		Recall:		0.7295081967213115
+		F-score:	0.7481849445930455
+
+	verb in Sophocles
+		number of forms tagged as verb: 2762
+		number of forms annotated as verb in treebank: 2036
+		number of forms correctly tagged: 1987
+		Precision:	0.71940622737147
+		Recall:		0.9759332023575639
+		F-score:	0.8282617757398917
+
+	proper in Sophocles
+		number of forms tagged as proper: 52
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	conjunction in Sophocles
+		number of forms tagged as conjunction: 479
+		number of forms annotated as conjunction in treebank: 601
+		number of forms correctly tagged: 408
+		Precision:	0.8517745302713987
+		Recall:		0.6788685524126455
+		F-score:	0.7555555555555555
+
+	preposition in Sophocles
+		number of forms tagged as preposition: 288
+		number of forms annotated as preposition in treebank: 373
+		number of forms correctly tagged: 283
+		Precision:	0.9826388888888888
+		Recall:		0.7587131367292225
+		F-score:	0.8562783661119516
+
+	particle in Sophocles
+		number of forms tagged as particle: 346
+		number of forms annotated as particle in treebank: 1023
+		number of forms correctly tagged: 340
+		Precision:	0.9826589595375722
+		Recall:		0.33235581622678395
+		F-score:	0.4967129291453615
+
+	unknown in Sophocles
+		number of forms tagged as unknown: 1
+		number of forms annotated as unknown in treebank: 6
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		0.0
+		F-score:	N/A
+
+##############################
+# Homer                      #
+##############################
+
+	Accuracy: 82%
+
+	noun in Homer
+		number of forms tagged as noun: 18118
+		number of forms annotated as noun in treebank: 20345
+		number of forms correctly tagged: 17711
+		Precision:	0.9775361518931449
+		Recall:		0.8705333005652495
+		F-score:	0.920937004393833
+
+	pronoun in Homer
+		number of forms tagged as pronoun: 6449
+		number of forms annotated as pronoun in treebank: 7378
+		number of forms correctly tagged: 4990
+		Precision:	0.7737633741665374
+		Recall:		0.6763350501490919
+		F-score:	0.7217762349027266
+
+	verb in Homer
+		number of forms tagged as verb: 23165
+		number of forms annotated as verb in treebank: 18132
+		number of forms correctly tagged: 17883
+		Precision:	0.7719835959421542
+		Recall:		0.9862673726009266
+		F-score:	0.8660677531055525
+
+	SENT in Homer
+		number of forms tagged as SENT: 16465
+		number of forms annotated as SENT in treebank: 16539
+		number of forms correctly tagged: 16426
+		Precision:	0.9976313392043729
+		Recall:		0.9931676643086039
+		F-score:	0.9953944976366501
+
+	adjective in Homer
+		number of forms tagged as adjective: 13513
+		number of forms annotated as adjective in treebank: 11754
+		number of forms correctly tagged: 9820
+		Precision:	0.7267076148893657
+		Recall:		0.8354602688446486
+		F-score:	0.7772984525270115
+
+	adverb in Homer
+		number of forms tagged as adverb: 8208
+		number of forms annotated as adverb in treebank: 8391
+		number of forms correctly tagged: 6054
+		Precision:	0.7375730994152047
+		Recall:		0.7214873078298176
+		F-score:	0.7294415326224472
+
+	conjunction in Homer
+		number of forms tagged as conjunction: 5538
+		number of forms annotated as conjunction in treebank: 4466
+		number of forms correctly tagged: 3872
+		Precision:	0.6991693752257132
+		Recall:		0.8669950738916257
+		F-score:	0.7740903638544582
+
+	preposition in Homer
+		number of forms tagged as preposition: 3848
+		number of forms annotated as preposition in treebank: 4514
+		number of forms correctly tagged: 3776
+		Precision:	0.9812889812889813
+		Recall:		0.8365086397873283
+		F-score:	0.9031332217172926
+
+	particle in Homer
+		number of forms tagged as particle: 5288
+		number of forms annotated as particle in treebank: 11988
+		number of forms correctly tagged: 5079
+		Precision:	0.9604765506807866
+		Recall:		0.4236736736736737
+		F-score:	0.5879833294744153
+
+	article in Homer
+		number of forms tagged as article: 2103
+		number of forms annotated as article in treebank: 389
+		number of forms correctly tagged: 342
+		Precision:	0.16262482168330955
+		Recall:		0.8791773778920309
+		F-score:	0.2744783306581059
+
+	proper in Homer
+		number of forms tagged as proper: 1352
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	interjection in Homer
+		number of forms tagged as interjection: 187
+		number of forms annotated as interjection in treebank: 206
+		number of forms correctly tagged: 175
+		Precision:	0.9358288770053476
+		Recall:		0.8495145631067961
+		F-score:	0.8905852417302799
+
+	unknown in Homer
+		number of forms tagged as unknown: 3
+		number of forms annotated as unknown in treebank: 135
+		number of forms correctly tagged: 2
+		Precision:	0.6666666666666666
+		Recall:		0.014814814814814815
+		F-score:	0.028985507246376812
+
+##############################
+# Hesiod                     #
+##############################
+
+	Accuracy: 83%
+
+	noun in Hesiod
+		number of forms tagged as noun: 1424
+		number of forms annotated as noun in treebank: 1524
+		number of forms correctly tagged: 1369
+		Precision:	0.961376404494382
+		Recall:		0.8982939632545932
+		F-score:	0.9287652645861602
+
+	adverb in Hesiod
+		number of forms tagged as adverb: 455
+		number of forms annotated as adverb in treebank: 462
+		number of forms correctly tagged: 318
+		Precision:	0.6989010989010989
+		Recall:		0.6883116883116883
+		F-score:	0.693565976008724
+
+	verb in Hesiod
+		number of forms tagged as verb: 1461
+		number of forms annotated as verb in treebank: 1096
+		number of forms correctly tagged: 1070
+		Precision:	0.7323750855578371
+		Recall:		0.9762773722627737
+		F-score:	0.8369182635901447
+
+	interjection in Hesiod
+		number of forms tagged as interjection: 7
+		number of forms annotated as interjection in treebank: 6
+		number of forms correctly tagged: 6
+		Precision:	0.8571428571428571
+		Recall:		1.0
+		F-score:	0.923076923076923
+
+	SENT in Hesiod
+		number of forms tagged as SENT: 1006
+		number of forms annotated as SENT in treebank: 1006
+		number of forms correctly tagged: 1006
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	pronoun in Hesiod
+		number of forms tagged as pronoun: 290
+		number of forms annotated as pronoun in treebank: 297
+		number of forms correctly tagged: 209
+		Precision:	0.7206896551724138
+		Recall:		0.7037037037037037
+		F-score:	0.7120954003407154
+
+	preposition in Hesiod
+		number of forms tagged as preposition: 245
+		number of forms annotated as preposition in treebank: 299
+		number of forms correctly tagged: 242
+		Precision:	0.9877551020408163
+		Recall:		0.8093645484949833
+		F-score:	0.8897058823529412
+
+	adjective in Hesiod
+		number of forms tagged as adjective: 1122
+		number of forms annotated as adjective in treebank: 1016
+		number of forms correctly tagged: 866
+		Precision:	0.7718360071301248
+		Recall:		0.8523622047244095
+		F-score:	0.8101028999064548
+
+	particle in Hesiod
+		number of forms tagged as particle: 471
+		number of forms annotated as particle in treebank: 932
+		number of forms correctly tagged: 462
+		Precision:	0.9808917197452229
+		Recall:		0.4957081545064378
+		F-score:	0.6585887384176765
+
+	conjunction in Hesiod
+		number of forms tagged as conjunction: 327
+		number of forms annotated as conjunction in treebank: 252
+		number of forms correctly tagged: 222
+		Precision:	0.6788990825688074
+		Recall:		0.8809523809523809
+		F-score:	0.766839378238342
+
+	proper in Hesiod
+		number of forms tagged as proper: 32
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	article in Hesiod
+		number of forms tagged as article: 101
+		number of forms annotated as article in treebank: 51
+		number of forms correctly tagged: 45
+		Precision:	0.44554455445544555
+		Recall:		0.8823529411764706
+		F-score:	0.5921052631578948
+
+##############################
+# Aeschylus                  #
+##############################
+
+	Accuracy: 83%
+
+	noun in Aeschylus
+		number of forms tagged as noun: 1377
+		number of forms annotated as noun in treebank: 1523
+		number of forms correctly tagged: 1313
+		Precision:	0.953522149600581
+		Recall:		0.8621142481943532
+		F-score:	0.9055172413793103
+
+	particle in Aeschylus
+		number of forms tagged as particle: 232
+		number of forms annotated as particle in treebank: 532
+		number of forms correctly tagged: 229
+		Precision:	0.9870689655172413
+		Recall:		0.43045112781954886
+		F-score:	0.599476439790576
+
+	article in Aeschylus
+		number of forms tagged as article: 125
+		number of forms annotated as article in treebank: 107
+		number of forms correctly tagged: 102
+		Precision:	0.816
+		Recall:		0.9532710280373832
+		F-score:	0.8793103448275862
+
+	verb in Aeschylus
+		number of forms tagged as verb: 1294
+		number of forms annotated as verb in treebank: 944
+		number of forms correctly tagged: 921
+		Precision:	0.7117465224111282
+		Recall:		0.975635593220339
+		F-score:	0.8230563002680964
+
+	preposition in Aeschylus
+		number of forms tagged as preposition: 145
+		number of forms annotated as preposition in treebank: 188
+		number of forms correctly tagged: 141
+		Precision:	0.9724137931034482
+		Recall:		0.75
+		F-score:	0.8468468468468469
+
+	adjective in Aeschylus
+		number of forms tagged as adjective: 965
+		number of forms annotated as adjective in treebank: 980
+		number of forms correctly tagged: 755
+		Precision:	0.7823834196891192
+		Recall:		0.7704081632653061
+		F-score:	0.776349614395887
+
+	SENT in Aeschylus
+		number of forms tagged as SENT: 1021
+		number of forms annotated as SENT in treebank: 1021
+		number of forms correctly tagged: 1020
+		Precision:	0.9990205680705191
+		Recall:		0.9990205680705191
+		F-score:	0.9990205680705191
+
+	conjunction in Aeschylus
+		number of forms tagged as conjunction: 217
+		number of forms annotated as conjunction in treebank: 219
+		number of forms correctly tagged: 183
+		Precision:	0.8433179723502304
+		Recall:		0.8356164383561644
+		F-score:	0.8394495412844037
+
+	pronoun in Aeschylus
+		number of forms tagged as pronoun: 304
+		number of forms annotated as pronoun in treebank: 286
+		number of forms correctly tagged: 208
+		Precision:	0.6842105263157895
+		Recall:		0.7272727272727273
+		F-score:	0.7050847457627119
+
+	proper in Aeschylus
+		number of forms tagged as proper: 103
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	adverb in Aeschylus
+		number of forms tagged as adverb: 369
+		number of forms annotated as adverb in treebank: 323
+		number of forms correctly tagged: 249
+		Precision:	0.6747967479674797
+		Recall:		0.7708978328173375
+		F-score:	0.7196531791907514
+
+	unknown in Aeschylus
+		number of forms tagged as unknown: 7
+		number of forms annotated as unknown in treebank: 38
+		number of forms correctly tagged: 5
+		Precision:	0.7142857142857143
+		Recall:		0.13157894736842105
+		F-score:	0.2222222222222222
+
+	interjection in Aeschylus
+		number of forms tagged as interjection: 93
+		number of forms annotated as interjection in treebank: 91
+		number of forms correctly tagged: 89
+		Precision:	0.956989247311828
+		Recall:		0.978021978021978
+		F-score:	0.967391304347826
+
+##############################
+# Lysias                     #
+##############################
+
+	Accuracy: 91%
+
+	pronoun in Lysias
+		number of forms tagged as pronoun: 66
+		number of forms annotated as pronoun in treebank: 71
+		number of forms correctly tagged: 63
+		Precision:	0.9545454545454546
+		Recall:		0.8873239436619719
+		F-score:	0.9197080291970803
+
+	particle in Lysias
+		number of forms tagged as particle: 19
+		number of forms annotated as particle in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	SENT in Lysias
+		number of forms tagged as SENT: 76
+		number of forms annotated as SENT in treebank: 76
+		number of forms correctly tagged: 76
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	interjection in Lysias
+		number of forms tagged as interjection: 8
+		number of forms annotated as interjection in treebank: 8
+		number of forms correctly tagged: 8
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	noun in Lysias
+		number of forms tagged as noun: 90
+		number of forms annotated as noun in treebank: 92
+		number of forms correctly tagged: 89
+		Precision:	0.9888888888888889
+		Recall:		0.967391304347826
+		F-score:	0.978021978021978
+
+	conjunction in Lysias
+		number of forms tagged as conjunction: 54
+		number of forms annotated as conjunction in treebank: 53
+		number of forms correctly tagged: 43
+		Precision:	0.7962962962962963
+		Recall:		0.8113207547169812
+		F-score:	0.8037383177570094
+
+	verb in Lysias
+		number of forms tagged as verb: 157
+		number of forms annotated as verb in treebank: 149
+		number of forms correctly tagged: 148
+		Precision:	0.9426751592356688
+		Recall:		0.9932885906040269
+		F-score:	0.9673202614379084
+
+	article in Lysias
+		number of forms tagged as article: 78
+		number of forms annotated as article in treebank: 79
+		number of forms correctly tagged: 78
+		Precision:	1.0
+		Recall:		0.9873417721518988
+		F-score:	0.9936305732484078
+
+	adjective in Lysias
+		number of forms tagged as adjective: 47
+		number of forms annotated as adjective in treebank: 42
+		number of forms correctly tagged: 38
+		Precision:	0.8085106382978723
+		Recall:		0.9047619047619048
+		F-score:	0.853932584269663
+
+	preposition in Lysias
+		number of forms tagged as preposition: 32
+		number of forms annotated as preposition in treebank: 35
+		number of forms correctly tagged: 32
+		Precision:	1.0
+		Recall:		0.9142857142857143
+		F-score:	0.955223880597015
+
+	adverb in Lysias
+		number of forms tagged as adverb: 50
+		number of forms annotated as adverb in treebank: 74
+		number of forms correctly tagged: 43
+		Precision:	0.86
+		Recall:		0.581081081081081
+		F-score:	0.6935483870967741
+
+	proper in Lysias
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+=========================== RESULTS BY GENRE ===========================
+
+	proper in Lysias
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+##############################
+# Biography                  #
+##############################
+
+	Accuracy: 87%
+
+	pronoun in Biography
+		number of forms tagged as pronoun: 66
+		number of forms annotated as pronoun in treebank: 71
+		number of forms correctly tagged: 63
+		Precision:	0.9545454545454546
+		Recall:		0.8873239436619719
+		F-score:	0.9197080291970803
+
+	particle in Biography
+		number of forms tagged as particle: 19
+		number of forms annotated as particle in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	SENT in Biography
+		number of forms tagged as SENT: 76
+		number of forms annotated as SENT in treebank: 76
+		number of forms correctly tagged: 76
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	interjection in Biography
+		number of forms tagged as interjection: 8
+		number of forms annotated as interjection in treebank: 8
+		number of forms correctly tagged: 8
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	noun in Biography
+		number of forms tagged as noun: 90
+		number of forms annotated as noun in treebank: 92
+		number of forms correctly tagged: 89
+		Precision:	0.9888888888888889
+		Recall:		0.967391304347826
+		F-score:	0.978021978021978
+
+	conjunction in Biography
+		number of forms tagged as conjunction: 54
+		number of forms annotated as conjunction in treebank: 53
+		number of forms correctly tagged: 43
+		Precision:	0.7962962962962963
+		Recall:		0.8113207547169812
+		F-score:	0.8037383177570094
+
+	verb in Biography
+		number of forms tagged as verb: 157
+		number of forms annotated as verb in treebank: 149
+		number of forms correctly tagged: 148
+		Precision:	0.9426751592356688
+		Recall:		0.9932885906040269
+		F-score:	0.9673202614379084
+
+	article in Biography
+		number of forms tagged as article: 78
+		number of forms annotated as article in treebank: 79
+		number of forms correctly tagged: 78
+		Precision:	1.0
+		Recall:		0.9873417721518988
+		F-score:	0.9936305732484078
+
+	adjective in Biography
+		number of forms tagged as adjective: 47
+		number of forms annotated as adjective in treebank: 42
+		number of forms correctly tagged: 38
+		Precision:	0.8085106382978723
+		Recall:		0.9047619047619048
+		F-score:	0.853932584269663
+
+	preposition in Biography
+		number of forms tagged as preposition: 32
+		number of forms annotated as preposition in treebank: 35
+		number of forms correctly tagged: 32
+		Precision:	1.0
+		Recall:		0.9142857142857143
+		F-score:	0.955223880597015
+
+	adverb in Biography
+		number of forms tagged as adverb: 50
+		number of forms annotated as adverb in treebank: 74
+		number of forms correctly tagged: 43
+		Precision:	0.86
+		Recall:		0.581081081081081
+		F-score:	0.6935483870967741
+
+	proper in Biography
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	proper in Biography
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+##############################
+# Miscellanea                #
+##############################
+
+	Accuracy: 82%
+
+	pronoun in Miscellanea
+		number of forms tagged as pronoun: 66
+		number of forms annotated as pronoun in treebank: 71
+		number of forms correctly tagged: 63
+		Precision:	0.9545454545454546
+		Recall:		0.8873239436619719
+		F-score:	0.9197080291970803
+
+	particle in Miscellanea
+		number of forms tagged as particle: 19
+		number of forms annotated as particle in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	SENT in Miscellanea
+		number of forms tagged as SENT: 76
+		number of forms annotated as SENT in treebank: 76
+		number of forms correctly tagged: 76
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	interjection in Miscellanea
+		number of forms tagged as interjection: 8
+		number of forms annotated as interjection in treebank: 8
+		number of forms correctly tagged: 8
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	noun in Miscellanea
+		number of forms tagged as noun: 90
+		number of forms annotated as noun in treebank: 92
+		number of forms correctly tagged: 89
+		Precision:	0.9888888888888889
+		Recall:		0.967391304347826
+		F-score:	0.978021978021978
+
+	conjunction in Miscellanea
+		number of forms tagged as conjunction: 54
+		number of forms annotated as conjunction in treebank: 53
+		number of forms correctly tagged: 43
+		Precision:	0.7962962962962963
+		Recall:		0.8113207547169812
+		F-score:	0.8037383177570094
+
+	verb in Miscellanea
+		number of forms tagged as verb: 157
+		number of forms annotated as verb in treebank: 149
+		number of forms correctly tagged: 148
+		Precision:	0.9426751592356688
+		Recall:		0.9932885906040269
+		F-score:	0.9673202614379084
+
+	article in Miscellanea
+		number of forms tagged as article: 78
+		number of forms annotated as article in treebank: 79
+		number of forms correctly tagged: 78
+		Precision:	1.0
+		Recall:		0.9873417721518988
+		F-score:	0.9936305732484078
+
+	adjective in Miscellanea
+		number of forms tagged as adjective: 47
+		number of forms annotated as adjective in treebank: 42
+		number of forms correctly tagged: 38
+		Precision:	0.8085106382978723
+		Recall:		0.9047619047619048
+		F-score:	0.853932584269663
+
+	preposition in Miscellanea
+		number of forms tagged as preposition: 32
+		number of forms annotated as preposition in treebank: 35
+		number of forms correctly tagged: 32
+		Precision:	1.0
+		Recall:		0.9142857142857143
+		F-score:	0.955223880597015
+
+	adverb in Miscellanea
+		number of forms tagged as adverb: 50
+		number of forms annotated as adverb in treebank: 74
+		number of forms correctly tagged: 43
+		Precision:	0.86
+		Recall:		0.581081081081081
+		F-score:	0.6935483870967741
+
+	proper in Miscellanea
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	proper in Miscellanea
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+##############################
+# Tragedy                    #
+##############################
+
+	Accuracy: 82%
+
+	pronoun in Tragedy
+		number of forms tagged as pronoun: 66
+		number of forms annotated as pronoun in treebank: 71
+		number of forms correctly tagged: 63
+		Precision:	0.9545454545454546
+		Recall:		0.8873239436619719
+		F-score:	0.9197080291970803
+
+	particle in Tragedy
+		number of forms tagged as particle: 19
+		number of forms annotated as particle in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	SENT in Tragedy
+		number of forms tagged as SENT: 76
+		number of forms annotated as SENT in treebank: 76
+		number of forms correctly tagged: 76
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	interjection in Tragedy
+		number of forms tagged as interjection: 8
+		number of forms annotated as interjection in treebank: 8
+		number of forms correctly tagged: 8
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	noun in Tragedy
+		number of forms tagged as noun: 90
+		number of forms annotated as noun in treebank: 92
+		number of forms correctly tagged: 89
+		Precision:	0.9888888888888889
+		Recall:		0.967391304347826
+		F-score:	0.978021978021978
+
+	conjunction in Tragedy
+		number of forms tagged as conjunction: 54
+		number of forms annotated as conjunction in treebank: 53
+		number of forms correctly tagged: 43
+		Precision:	0.7962962962962963
+		Recall:		0.8113207547169812
+		F-score:	0.8037383177570094
+
+	verb in Tragedy
+		number of forms tagged as verb: 157
+		number of forms annotated as verb in treebank: 149
+		number of forms correctly tagged: 148
+		Precision:	0.9426751592356688
+		Recall:		0.9932885906040269
+		F-score:	0.9673202614379084
+
+	article in Tragedy
+		number of forms tagged as article: 78
+		number of forms annotated as article in treebank: 79
+		number of forms correctly tagged: 78
+		Precision:	1.0
+		Recall:		0.9873417721518988
+		F-score:	0.9936305732484078
+
+	adjective in Tragedy
+		number of forms tagged as adjective: 47
+		number of forms annotated as adjective in treebank: 42
+		number of forms correctly tagged: 38
+		Precision:	0.8085106382978723
+		Recall:		0.9047619047619048
+		F-score:	0.853932584269663
+
+	preposition in Tragedy
+		number of forms tagged as preposition: 32
+		number of forms annotated as preposition in treebank: 35
+		number of forms correctly tagged: 32
+		Precision:	1.0
+		Recall:		0.9142857142857143
+		F-score:	0.955223880597015
+
+	adverb in Tragedy
+		number of forms tagged as adverb: 50
+		number of forms annotated as adverb in treebank: 74
+		number of forms correctly tagged: 43
+		Precision:	0.86
+		Recall:		0.581081081081081
+		F-score:	0.6935483870967741
+
+	proper in Tragedy
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	proper in Tragedy
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+##############################
+# Epic                       #
+##############################
+
+	Accuracy: 82%
+
+	pronoun in Epic
+		number of forms tagged as pronoun: 66
+		number of forms annotated as pronoun in treebank: 71
+		number of forms correctly tagged: 63
+		Precision:	0.9545454545454546
+		Recall:		0.8873239436619719
+		F-score:	0.9197080291970803
+
+	particle in Epic
+		number of forms tagged as particle: 19
+		number of forms annotated as particle in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	SENT in Epic
+		number of forms tagged as SENT: 76
+		number of forms annotated as SENT in treebank: 76
+		number of forms correctly tagged: 76
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	interjection in Epic
+		number of forms tagged as interjection: 8
+		number of forms annotated as interjection in treebank: 8
+		number of forms correctly tagged: 8
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	noun in Epic
+		number of forms tagged as noun: 90
+		number of forms annotated as noun in treebank: 92
+		number of forms correctly tagged: 89
+		Precision:	0.9888888888888889
+		Recall:		0.967391304347826
+		F-score:	0.978021978021978
+
+	conjunction in Epic
+		number of forms tagged as conjunction: 54
+		number of forms annotated as conjunction in treebank: 53
+		number of forms correctly tagged: 43
+		Precision:	0.7962962962962963
+		Recall:		0.8113207547169812
+		F-score:	0.8037383177570094
+
+	verb in Epic
+		number of forms tagged as verb: 157
+		number of forms annotated as verb in treebank: 149
+		number of forms correctly tagged: 148
+		Precision:	0.9426751592356688
+		Recall:		0.9932885906040269
+		F-score:	0.9673202614379084
+
+	article in Epic
+		number of forms tagged as article: 78
+		number of forms annotated as article in treebank: 79
+		number of forms correctly tagged: 78
+		Precision:	1.0
+		Recall:		0.9873417721518988
+		F-score:	0.9936305732484078
+
+	adjective in Epic
+		number of forms tagged as adjective: 47
+		number of forms annotated as adjective in treebank: 42
+		number of forms correctly tagged: 38
+		Precision:	0.8085106382978723
+		Recall:		0.9047619047619048
+		F-score:	0.853932584269663
+
+	preposition in Epic
+		number of forms tagged as preposition: 32
+		number of forms annotated as preposition in treebank: 35
+		number of forms correctly tagged: 32
+		Precision:	1.0
+		Recall:		0.9142857142857143
+		F-score:	0.955223880597015
+
+	adverb in Epic
+		number of forms tagged as adverb: 50
+		number of forms annotated as adverb in treebank: 74
+		number of forms correctly tagged: 43
+		Precision:	0.86
+		Recall:		0.581081081081081
+		F-score:	0.6935483870967741
+
+	proper in Epic
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	proper in Epic
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+##############################
+# Oratory                    #
+##############################
+
+	Accuracy: 91%
+
+	pronoun in Oratory
+		number of forms tagged as pronoun: 66
+		number of forms annotated as pronoun in treebank: 71
+		number of forms correctly tagged: 63
+		Precision:	0.9545454545454546
+		Recall:		0.8873239436619719
+		F-score:	0.9197080291970803
+
+	particle in Oratory
+		number of forms tagged as particle: 19
+		number of forms annotated as particle in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A
+
+	SENT in Oratory
+		number of forms tagged as SENT: 76
+		number of forms annotated as SENT in treebank: 76
+		number of forms correctly tagged: 76
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	interjection in Oratory
+		number of forms tagged as interjection: 8
+		number of forms annotated as interjection in treebank: 8
+		number of forms correctly tagged: 8
+		Precision:	1.0
+		Recall:		1.0
+		F-score:	1.0
+
+	noun in Oratory
+		number of forms tagged as noun: 90
+		number of forms annotated as noun in treebank: 92
+		number of forms correctly tagged: 89
+		Precision:	0.9888888888888889
+		Recall:		0.967391304347826
+		F-score:	0.978021978021978
+
+	conjunction in Oratory
+		number of forms tagged as conjunction: 54
+		number of forms annotated as conjunction in treebank: 53
+		number of forms correctly tagged: 43
+		Precision:	0.7962962962962963
+		Recall:		0.8113207547169812
+		F-score:	0.8037383177570094
+
+	verb in Oratory
+		number of forms tagged as verb: 157
+		number of forms annotated as verb in treebank: 149
+		number of forms correctly tagged: 148
+		Precision:	0.9426751592356688
+		Recall:		0.9932885906040269
+		F-score:	0.9673202614379084
+
+	article in Oratory
+		number of forms tagged as article: 78
+		number of forms annotated as article in treebank: 79
+		number of forms correctly tagged: 78
+		Precision:	1.0
+		Recall:		0.9873417721518988
+		F-score:	0.9936305732484078
+
+	adjective in Oratory
+		number of forms tagged as adjective: 47
+		number of forms annotated as adjective in treebank: 42
+		number of forms correctly tagged: 38
+		Precision:	0.8085106382978723
+		Recall:		0.9047619047619048
+		F-score:	0.853932584269663
+
+	preposition in Oratory
+		number of forms tagged as preposition: 32
+		number of forms annotated as preposition in treebank: 35
+		number of forms correctly tagged: 32
+		Precision:	1.0
+		Recall:		0.9142857142857143
+		F-score:	0.955223880597015
+
+	adverb in Oratory
+		number of forms tagged as adverb: 50
+		number of forms annotated as adverb in treebank: 74
+		number of forms correctly tagged: 43
+		Precision:	0.86
+		Recall:		0.581081081081081
+		F-score:	0.6935483870967741
+
+	proper in Oratory
+		number of forms tagged as proper: 2
+		number of forms annotated as proper in treebank: 0
+		number of forms correctly tagged: 0
+		Precision:	0.0
+		Recall:		N/A
+		F-score:	N/A

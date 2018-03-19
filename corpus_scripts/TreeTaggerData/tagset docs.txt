@@ -1,0 +1,53 @@
+The Ancient Greek parameter files have been trained on texts available from the PROIEL treebank (https://github.com/proiel/proiel-treebank/blob/master/hdt.xml, https://github.com/proiel/proiel-treebank/blob/master/greek-nt.xml) and on 80% of the Perseus Project Ancient Greek Dependency Treebank (https://github.com/PerseusDL/treebank_data/tree/master/v2.1/Greek). The remaining 20% has been used for accuracy testing. The lexicon is extracted from the treebanks and integrated with the dictionary included in the Diogenes software and developed by Perseus (https://community.dur.ac.uk/p.j.heslin/Software/Diogenes/thanks_contacts.php). The training set and the lexicon have been produced in both a UTF-8 and a Beta Code version, and parameters are available in both encodings. Accuracy is slightly higher for the Beta Code version (89% vs 83%).
+
+The PROIEL and Perseus treebanks use different POS tagsets, with the PROIEL one being more fine-grained. The categories do not match completely (e.g. particles are annotated as such in the Perseus treebanks but as conjunctions or adverbs in the PROIEL ones). The lexicon maps them as follows:
+
+==================================================================|
+|PROIEL				|PERSEUS		|LEXICON     |	
+==================================================================|
+|Nb (common noun)		|n (noun)		|noun        |
+|F- (foreign word)		|			|noun        |
+-------------------------------------------------------------------
+|Ne (proper noun)		|n (noun)		|proper      |
+-------------------------------------------------------------------
+|A- (adjective)			|a (adjective)		|adjective   |
+|Ma (cardinal numeral)		|m (numeral)		|adjective   |
+|Mo (ordinal numeral)		|			|adjective   |
+|Py (quantifier)		|			|adjective   |
+-------------------------------------------------------------------
+|V- (verb)			|v (verb)		|verb        |
+|				|t (participle)		|verb        |
+|N- (infinitive marker)	|			|verb        |
+-------------------------------------------------------------------
+|				|p (pronoun)		|pronoun     |
+|Pd (demonstrative pr.)	|			|pronoun     |
+|Px (indefinite pr.)		|			|pronoun     |
+|Pi (interrogative pr.)	|			|pronoun     |
+|Pp (personal pr.)		|			|pronoun     |
+|Pk (personal reflex. pr.)	|			|pronoun     |
+|Ps (possessive pr.)		|			|pronoun     |
+|Pt (possessive refl. pr.)	|			|pronoun     |
+|Pc (reciprocal pr.)		|			|pronoun     |
+|Pr (relative pr.)		|			|pronoun     |
+-------------------------------------------------------------------
+|S- (article)			|l (article)		|article     |
+-------------------------------------------------------------------
+|C- (conjunction)		|c (conjunction)	|conjunction |
+|G- (subjunction)		|			|conjunction |
+-------------------------------------------------------------------
+|				|g (particle)		|particle    |
+-------------------------------------------------------------------
+|I- (interjection)		|i (interjection)	|interjection|
+|				|e (exclamation)	|interjection|
+-------------------------------------------------------------------
+|Df (adverb)			|d (adverb)		|adverb      |
+|Du (interrogative adverb)	|			|adverb      |
+|Dq (relative adverb)		|			|adverb      |
+-------------------------------------------------------------------
+|R- (preposition)		|r (preposition)	|preposition |
+-------------------------------------------------------------------
+|X- (unassigned)		|x			|unknown     |
+|				|-			|unknown     |
+-------------------------------------------------------------------
+|				|u (punctuation)	|SENT        |
+===================================================================
