@@ -11,7 +11,7 @@ treetagger = config['paths']['treetagger']
 #Tagging test set
 
 print('Tagging test set')
-os.system("{tt_folder}/tree-tagger {curr_folder}/TreeTaggerData/ancient_greek.dat {curr_folder}/TreeTaggerData/test_set.txt {curr_folder}/TreeTaggerData/test_set_tagged.txt -token".format(tt_folder=treetagger, curr_folder=os.path.dirname(os.path.realpath(__file__))))
+os.system("{tt_folder}/tree-tagger {curr_folder}/TreeTaggerData/ancient_greek.dat {curr_folder}/TreeTaggerData/test_set.txt {curr_folder}/TreeTaggerData/test_set_tagged.txt -token -lemma".format(tt_folder=treetagger, curr_folder=os.path.dirname(os.path.realpath(__file__))))
 
 a_lines=[x for x in open('TreeTaggerData/test_set_tagged.txt', 'r')]
 c_lines=[x for x in open('TreeTaggerData/test_set_benchmark.txt', 'r')]
@@ -30,7 +30,7 @@ for idx, x in enumerate(range(0,len(a_lines))):
 	POS_list_benchmark.setdefault(POS_c,0)
 	POS_list_benchmark[POS_c]+=1
 	POS_list_correct.setdefault(POS_a,0)
-	if a_lines[idx] == c_lines[idx]:
+	if a_lines[idx].strip().split('\t')[0:2] == c_lines[idx].strip().split('\t')[0:2]:
 		trues+=1
 		POS_list_correct[POS_a]+=1
 percent_true = round(trues*100/len(a_lines),2)
@@ -102,7 +102,7 @@ for filename in os.listdir('TreeTaggerData/TestSetFiles'):
 				genre = record[h['Genre']].value
 				break			
 		#tag texts
-		os.system("{tt_folder}/tree-tagger {curr_folder}/TreeTaggerData/ancient_greek.dat {curr_folder}/TreeTaggerData/TestSetFiles/{filename} {curr_folder}/TreeTaggerData/TestSetFiles/{filename}_tagged.txt -token".format(tt_folder=treetagger, curr_folder=os.path.dirname(os.path.realpath(__file__)), filename=filename))
+		os.system("{tt_folder}/tree-tagger {curr_folder}/TreeTaggerData/ancient_greek.dat {curr_folder}/TreeTaggerData/TestSetFiles/{filename} {curr_folder}/TreeTaggerData/TestSetFiles/{filename}_tagged.txt -token -lemma".format(tt_folder=treetagger, curr_folder=os.path.dirname(os.path.realpath(__file__)), filename=filename))
 		
 		#compare tagged with benchmark
 		a_lines=[x for x in open('TreeTaggerData/TestSetFiles/%s_tagged.txt'%filename, 'r')]
@@ -110,7 +110,7 @@ for filename in os.listdir('TreeTaggerData/TestSetFiles'):
 		
 		trues = 0
 		for idx, x in enumerate(range(0,len(a_lines))):
-			if a_lines[idx] == c_lines[idx]:
+			if a_lines[idx].strip().split('\t')[0:2] == c_lines[idx].strip().split('\t')[0:2]:
 				trues+=1
 		authorResults.setdefault(author, [0,0])
 		authorResults[author][0]+=len(a_lines)
@@ -140,7 +140,7 @@ for filename in os.listdir('TreeTaggerData/TestSetFiles'):
 			POS_list_benchmark_genres[genre][POS_c]+=1
 			POS_list_correct_authors[author].setdefault(POS_a,0)
 			POS_list_correct_genres[genre].setdefault(POS_a,0)
-			if a_lines[idx] == c_lines[idx]:
+			if a_lines[idx].strip().split('\t')[0:2] == c_lines[idx].strip().split('\t')[0:2]:
 				trues+=1
 				POS_list_correct_authors[author][POS_a]+=1
 				POS_list_correct_genres[genre][POS_a]+=1

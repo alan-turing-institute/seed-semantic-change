@@ -1,679 +1,679 @@
-ἐγὼ	pronoun
-μέν	particle
-,	SENT
-ὦ	interjection
-ἄνδρες	noun
-δικασταί	noun
-,	SENT
-καὶ	conjunction
-ὑμᾶς	pronoun
-αἰτοῦμαι	verb
-τὰ	article
-δίκαια	adjective
-ψηφίσασθαι	verb
-,	SENT
-καὶ	conjunction
-τῶν	article
-στρατηγῶν	noun
-δέομαι	verb
-,	SENT
-ἐπεὶ	conjunction
-καὶ	conjunction
-ἐν	preposition
-τῇ	article
-ἄλλῃ	adjective
-ἀρχῇ	noun
-πολλοῦ	adjective
-ἄξιοι	adjective
-τῇ	article
-πόλει	noun
-γεγόνασι	verb
-,	SENT
-καὶ	conjunction
-τῶν	article
-τῆς	article
-ἀστρατείας	noun
-γραφῶν	noun
-κοινοὺς	adjective
-εἶναι	verb
-τῷ	article
-τε	adverb
-διώκοντι	verb
-καὶ	conjunction
-τῷ	article
-φεύγοντι	verb
-,	SENT
-καὶ	conjunction
-μὴ	adverb
-βοηθοῦντας	verb
-ᾧ	pronoun
-ἂν	adverb
-βούλωνται	verb
-πᾶσαν	pronoun
-προθυμίαν	noun
-ἔχειν	verb
-παρὰ	preposition
-τὸ	article
-δίκαιον	adjective
-ὑμᾶς	pronoun
-ψηφίσασθαι	verb
-,	SENT
-ἐνθυμουμένους	verb
-ὅτι	conjunction
-σφόδῤ	verb
-ἂν	adverb
-ἠγανακτεῖτε	verb
-,	SENT
-εἰ	conjunction
-ἐν	preposition
-τῇ	article
-ὑμετέρᾳ	adjective
-δοκιμασίᾳ	noun
-οἱ	article
-θεσμοθέται	noun
-ἀναβάντες	verb
-ὑμῶν	pronoun
-ἐδέοντο	verb
-καταψηφίσασθαι	verb
-,	SENT
-ἡγούμενοι	verb
-δεινὸν	adjective
-εἶναι	verb
-εἰ	conjunction
-οἱ	pronoun
-τιθέντες	verb
-τὸν	article
-ἀγῶνα	noun
-καὶ	conjunction
-τὴν	article
-ψῆφον	noun
-διδόντες	verb
-παρακελεύσονται	verb
-τῶν	article
-μὲν	adverb
-μὴ	adverb
-καταψηφίζεσθαι	verb
-τῶν	article
-δὲ	adverb
-καταψηφίζεσθαι	verb
-.	SENT
-τί	pronoun
-δ̓	verb
-ἂν	adverb
-αἴσχιον	adjective
-ἔθος	noun
-ἢ	conjunction
-δεινότερον	adjective
-πρᾶγμα	noun
-τούτου	pronoun
-ἐν	preposition
-τῇ	article
-πόλει	noun
-γένοιτο	verb
-,	SENT
-εἰ	conjunction
-τολμήσει	verb
-ὁ	article
-μὲν	adverb
-ἄρχων	noun
-ἐν	preposition
-ταῖς	article
-τῶν	article
-ἐπικλήρων	adjective
-δίκαις	noun
-ἀντιβολεῖν	verb
-καὶ	conjunction
-ἱκετεύειν	verb
-τοὺς	article
-δικαστὰς	noun
-ὅ	pronoun
-τι	pronoun
-ἂν	adverb
-βούληται	verb
-πραχθῆναι	verb
-,	SENT
-ὁ	article
-δὲ	adverb
-πολέμαρχος	noun
-καὶ	conjunction
-οἱ	article
-ἕνδεκα	adjective
-δεήσονται	verb
-ἐν	preposition
-ταῖς	article
-δίκαις	noun
-ταῖς	article
-ὑφ̓	verb
-ἑαυτῶν	pronoun
-εἰσαγομέναις	verb
-,	SENT
-ὥσπερ	adverb
-καὶ	conjunction
-νῦν	adverb
-;	SENT
-χρὴ	verb
-τοίνυν	particle
-καὶ	conjunction
-ὑπὲρ	preposition
-ὑμῶν	pronoun
-αὐτῶν	pronoun
-τὴν	article
-γνώμην	noun
-ἔχειν	verb
-,	SENT
-ἐνθυμουμένους	verb
-ὅτι	conjunction
-οὐδὲν	pronoun
-διοίσει	verb
-ὑμᾶς	pronoun
-ἰδίᾳ	adjective
-περὶ	preposition
-τῆς	article
-ἀστρατείας	noun
-βοηθεῖν	verb
-,	SENT
-ἢ	conjunction
-τούτων	pronoun
-τινὰς	pronoun
-δεῖσθαι	verb
-αὐτοὺς	pronoun
-τὴν	article
-ψῆφον	noun
-διδόντας	verb
-.	SENT
-σκέψασθε	verb
-δέ	particle
-,	SENT
-ὦ	interjection
-ἄνδρες	noun
-δικασταί	noun
-,	SENT
-ἐὰν	conjunction
-ἱκανὸν	adjective
-γένηται	verb
-τεκμήριον	noun
-ὅτι	conjunction
-οὐδείς	pronoun
-πω	adverb
-τῶν	article
-ἀρχόντων	noun
-ἐν	preposition
-τῷ	article
-στρατοπέδῳ	noun
-Ἀλκιβιάδῃ	noun
-ἦν	verb
-παρεσκευασμένος	verb
-.	SENT
-ἐχρῆν	verb
-γὰρ	particle
-αὐτούς	pronoun
-,	SENT
-εἴπερ	conjunction
-ἀληθῆ	adjective
-λέγουσιν	verb
-,	SENT
-ἀνακαλεῖν	verb
-μὲν	adverb
-Πάμφιλον	proper
-,	SENT
-ὅτι	conjunction
-ἀφαιρῶν	verb
-τὸν	article
-ἵππον	noun
-ἱππέως	noun
-ἀπεστέρει	verb
-τὴν	article
-πόλιν	noun
-,	SENT
-ἐπιβάλλειν	verb
-δὲ	adverb
-τῷ	article
-φυλάρχῳ	noun
-,	SENT
-ὅτι	conjunction
-ἐξελαύνων	verb
-Ἀλκιβιάδην	noun
-ἐκ	preposition
-τῆς	article
-φυλῆς	noun
-ἄκυρον	noun
-ἐποίει	verb
-τὴν	article
-τούτων	adjective
-τάξιν	noun
-,	SENT
-κελεύειν	verb
-δὲ	adverb
-τὸν	article
-ταξίαρχον	noun
-ἐξαλείφειν	verb
-αὐτὸν	pronoun
-ἐκ	preposition
-τοῦ	article
-τῶν	article
-ὁπλιτῶν	noun
-καταλόγου	noun
-.	SENT
-νῦν	adverb
-δὲ	particle
-τούτων	pronoun
-οὐδὲν	pronoun
-ἐποίησαν	verb
-,	SENT
-ἀλλ̓	verb
-ἐν	preposition
-μὲν	adverb
-τῷ	article
-στρατοπέδῳ	noun
-περιεώρων	verb
-αὐτὸν	pronoun
-ὑπὸ	preposition
-πάντων	pronoun
-προπηλακιζόμενον	verb
-κ-	adverb
-ἀν	preposition
-τοῖς	article
-ἱπποτοξόταις	noun
-ἱππεύοντα	verb
-,	SENT
-ἐπειδὴ	conjunction
-δὲ	adverb
-ὑμᾶς	pronoun
-δεῖ	verb
-παρὰ	preposition
-τῶν	article
-ἀδικούντων	verb
-δίκην	noun
-λαμβάνειν	verb
-,	SENT
-χαριζόμενοι	verb
-μαρτυροῦσιν	verb
-ὑφ̓	verb
-ἑαυτῶν	pronoun
-αὐτὸν	pronoun
-τετάχθαι	verb
-.	SENT
-καίτοι	adverb
-δεινόν	adjective
-,	SENT
-ὦ	interjection
-ἄνδρες	noun
-δικασταί	noun
-,	SENT
-αὐτοὺς	pronoun
-μὲν	adverb
-τοὺς	article
-στρατηγοὺς	noun
-ὑπὸ	preposition
-τοῦ	article
-δήμου	noun
-χειροτονηθέντας	verb
-μὴ	adverb
-ἂν	adverb
-τολμῆσαι	verb
-πρότερον	adjective
-ἡμῶν	pronoun
-ἡγήσασθαι	verb
-,	SENT
-ἕως	conjunction
-ἂν	adverb
-ἐδοκιμάσθησαν	verb
-κατὰ	preposition
-τοὺς	article
-νόμους	noun
-,	SENT
-Ἀλκιβιάδην	noun
-δὲ	particle
-τολμᾶν	verb
-παρὰ	preposition
-τοὺς	article
-τῆς	article
-πόλεως	noun
-νόμους	noun
-ὑπ̓	verb
-αὐτῶν	pronoun
-ταχθῆναι	verb
-.	SENT
-δεινὸν	adjective
-δέ	particle
-μοι	pronoun
-δοκεῖ	verb
-εἶναι	verb
-,	SENT
-ὦ	interjection
-ἄνδρες	noun
-δικασταί	noun
-,	SENT
-εἰ	conjunction
-τῶν	article
-μὲν	adverb
-δεδοκιμασμένων	verb
-ἱππέων	noun
-οὐκ	adverb
-ἐπὶ	preposition
-τούτοις	pronoun
-ἐστὶν	verb
-ὅντινα	pronoun
-βούλονται	verb
-αὐτοὶ	pronoun
-εἰς	preposition
-τοὺς	article
-ὁπλίτας	noun
-καταλέξαι	verb
-,	SENT
-τῶν	article
-δὲ	adverb
-ὁπλιτῶν	noun
-ἀδοκιμάστων	adjective
-ὄντων	verb
-ἐπὶ	preposition
-τούτοις	pronoun
-ἔσται	verb
-ὅντιν̓	verb
-ἂν	adverb
-βούλωνται	verb
-ἱππεύειν	verb
-.	SENT
-εἰ	conjunction
-μὲν	adverb
-τοίνυν	adverb
-,	SENT
-ὦ	interjection
-ἄνδρες	noun
-δικασταί	noun
-,	SENT
-ὄντες	verb
-κύριοι	noun
-πολλῶν	adjective
-βουλομένων	verb
-μηδένα	pronoun
-τῶν	article
-ἄλλων	adjective
-ἱππεύειν	verb
-εἴασαν	verb
-,	SENT
-οὐκ	adverb
-ἂν	particle
-δικαίως	adverb
-χαρίζοισθε	verb
-αὐτοῖς	pronoun
-·	SENT
-εἰ	conjunction
-δ̓	verb
-ἄκυροι	adjective
-ὄντες	verb
-ὁμολογήσουσι	verb
-τάξαι	verb
-,	SENT
-ἐνθυμεῖσθαι	verb
-χρὴ	verb
-ὅτι	conjunction
-ὀμωμόκατε	verb
-τὰ	article
-δίκαια	adjective
-γνώσεσθαι	verb
-,	SENT
-ἀλλ̓	verb
-οὐχ	adverb
-ὅ	pronoun
-τι	pronoun
-ἂν	adverb
-οὗτοι	pronoun
-κελεύωσι	verb
-ψηφιεῖσθαι	verb
-,	SENT
-ὥστε	conjunction
-οὐδένα	pronoun
-χρὴ	verb
-τῶν	article
-δεομένων	verb
-περὶ	preposition
-πλείονος	adjective
-ὑμῶν	pronoun
-αὐτῶν	pronoun
-καὶ	conjunction
-τῶν	article
-ὅρκων	noun
-ποιεῖσθαι	verb
-.	SENT
-καὶ	conjunction
-μὲν	particle
-δή	particle
-,	SENT
-ὦ	interjection
-ἄνδρες	noun
-δικασταί	noun
-,	SENT
-εἴ	conjunction
-τῳ	pronoun
-δοκεῖ	verb
-μεγάλη	adjective
-ἡ	article
-ζημία	noun
-εἶναι	verb
-καὶ	conjunction
-λίαν	adverb
-ἰσχυρὸς	adjective
-ὁ	article
-νόμος	noun
-,	SENT
-μεμνῆσθαι	verb
-χρὴ	verb
-ὅτι	conjunction
-οὐ	adverb
-νομοθετήσοντες	verb
-περὶ	preposition
-αὐτῶν	pronoun
-ἥκετε	verb
-,	SENT
-ἀλλὰ	conjunction
-κατὰ	preposition
-τοὺς	article
-κειμένους	verb
-νόμους	noun
-ψηφιούμενοι	verb
-,	SENT
-οὐδὲ	conjunction
-τοὺς	article
-ἀδικοῦντας	verb
-ἐλεήσοντες	verb
-,	SENT
-ἀλλὰ	conjunction
-πολὺ	adjective
-μᾶλλον	adverb
-αὐτοῖς	pronoun
-ὀργιούμενοι	verb
-καὶ	conjunction
-ὅλῃ	adjective
-τῇ	article
-πόλει	noun
-βοηθήσοντες	verb
-,	SENT
-εὖ	adverb
-εἰδότες	verb
-ὅτι	conjunction
-ὑπὲρ	preposition
-τῶν	article
-παρεληλυθότων	verb
-ὀλίγους	adjective
-τιμωρησάμενοι	verb
-πολλοὺς	adjective
-ποιήσετε	verb
-κοσμιωτέρους	adjective
-ἐν	preposition
-τοῖς	article
-μέλλουσι	verb
-κινδυνεύειν	verb
-.	SENT
-χρὴ	verb
-δέ	particle
-,	SENT
-ὦ	interjection
-ἄνδρες	noun
-δικασταί	noun
-,	SENT
-ὥσπερ	conjunction
-οὗτος	pronoun
-ἀμελήσας	verb
-τῆς	article
-πόλεως	noun
-τὴν	article
-αὑτοῦ	adjective
-σωτηρίαν	noun
-ἐσκέψατο	verb
-,	SENT
-οὕτως	adverb
-ὑμᾶς	pronoun
-ἀμελήσαντας	verb
-τούτου	pronoun
-τῇ	article
-πόλει	noun
-τὰ	article
-βέλτιστα	adjective
-ψηφίσασθαι	verb
-,	SENT
-ἄλλως	adverb
-τε	particle
-καὶ	conjunction
-ὅρκους	noun
-ὀμωμοκότας	verb
-καὶ	conjunction
-περὶ	preposition
-Ἀλκιβιάδου	noun
-μέλλοντας	verb
-ψηφίσασθαι	verb
-,	SENT
-ὃς	pronoun
-ἐὰν	conjunction
-ὑμᾶς	pronoun
-ἐξαπατήσῃ	verb
-,	SENT
-καταγελῶν	verb
-τῆς	article
-πόλεως	noun
-ἄπεισιν	verb
-·	SENT
-οὐ	adverb
-γὰρ	particle
-δὴ	particle
-χάριν	noun
-γε	particle
-ὑμῖν	pronoun
-ἀποδώσει	verb
-τῇ	article
-ψήφῳ	noun
-κρύβδην	adverb
-εὖ	adverb
-παθών	verb
-,	SENT
-ὃς	pronoun
-τῶν	article
-φίλων	adjective
-τοὺς	article
-φανερῶς	adverb
-αὐτὸν	pronoun
-εὖ	adverb
-ποιήσαντας	verb
-κακῶς	adverb
-ποιεῖ	verb
-.	SENT
-ὑμεῖς	pronoun
-οὖν	particle
-,	SENT
-ὦ	interjection
-ἄνδρες	noun
-δικασταί	noun
-,	SENT
-τὰς	article
-τούτων	adjective
-δεήσεις	noun
-περὶ	preposition
-ἐλάττονος	adjective
-ποιησάμενοι	verb
-τὰ	article
-δίκαια	adjective
-ψηφίσασθε	verb
-.	SENT
-ἀποδέδεικται	verb
-δὲ	particle
-καταλεγεὶς	verb
-εἰς	preposition
-τοὺς	article
-ὁπλίτας	noun
-καὶ	conjunction
-λιπὼν	verb
-τὴν	article
-τάξιν	noun
-καὶ	conjunction
-τῶν	article
-νόμων	noun
-κωλυόντων	verb
-ἀδοκίμαστος	adjective
-ἱππεύσας	verb
-,	SENT
-καὶ	conjunction
-περὶ	preposition
-ὧν	pronoun
-οἱ	article
-νόμοι	noun
-διαρρήδην	adverb
-οὔτε	conjunction
-στρατηγὸν	noun
-οὔτε	conjunction
-ἵππαρχον	noun
-οὔτε	conjunction
-ἄλλον	adjective
-οὐδένα	pronoun
-κυριώτερον	adjective
-ἐκείνων	pronoun
-ἀποδεικνύουσι	verb
-,	SENT
-περὶ	preposition
-τούτων	pronoun
-ἰδιώτης	noun
-ὢν	verb
-τὴν	article
-ἐξουσίαν	noun
-αὑτῷ	pronoun
-δεδωκώς	verb
-.	SENT
-ἐγὼ	pronoun
-μὲν	particle
-οὖν	adverb
-καὶ	conjunction
-φίλῳ	adjective
-ὄντι	verb
-Ἀρχεστρατίδῃ	proper
-βοηθῶν	adjective
-,	SENT
-καὶ	conjunction
-Ἀλκιβιάδην	noun
-ἐχθρὸν	adjective
-ὄντα	verb
-ἐμαυτοῦ	pronoun
-τιμωρούμενος	verb
-,	SENT
-δέομαι	verb
-τὰ	article
-δίκαια	adjective
-ψηφίσασθαι	verb
-·	SENT
-ὑμᾶς	pronoun
-δὲ	particle
-χρὴ	verb
-τὴν	article
-αὐτὴν	adjective
-γνώμην	noun
-ἔχοντας	verb
-τὴν	article
-ψῆφον	noun
-φέρειν	verb
-,	SENT
-ἥνπερ	pronoun
-ὅτε	conjunction
-ᾤεσθε	verb
-πρὸς	preposition
-τοὺς	article
-πολεμίους	adjective
-διακινδυνεύσειν	verb
-.	SENT
+ἐγὼ	pronoun	ἐγώ
+μέν	particle	μέν
+,	SENT	,
+ὦ	interjection	ὦ
+ἄνδρες	noun	ἀνήρ
+δικασταί	noun	δικαστής
+,	SENT	,
+καὶ	conjunction	???/καί
+ὑμᾶς	pronoun	σύ/ὑμεῖς
+αἰτοῦμαι	verb	αἰτέω
+τὰ	article	ὁ/τίς
+δίκαια	adjective	δίκαιος
+ψηφίσασθαι	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+καὶ	conjunction	???/καί
+τῶν	article	ὁ/ὅς
+στρατηγῶν	noun	στρατηγός/στρατήγος
+δέομαι	verb	δέω#2/δέομαι/δέω
+,	SENT	,
+ἐπεὶ	conjunction	ἐπεί
+καὶ	conjunction	???/καί
+ἐν	preposition	ἐν/εἰς
+τῇ	article	ὁ/τῇ
+ἄλλῃ	adjective	ἄλλος
+ἀρχῇ	noun	ἀρχή
+πολλοῦ	adjective	πολύς
+ἄξιοι	adjective	ἄξιος
+τῇ	article	ὁ/τῇ
+πόλει	noun	πόλις
+γεγόνασι	verb	γίγνομαι
+,	SENT	,
+καὶ	conjunction	???/καί
+τῶν	article	ὁ/ὅς
+τῆς	article	ὁ
+ἀστρατείας	noun	ἀστρατεία
+γραφῶν	noun	γραφή/γραφής
+κοινοὺς	adjective	κοινός
+εἶναι	verb	εἰμί#1/εἰμί
+τῷ	article	ὁ
+τε	adverb	τε/οὔτε
+διώκοντι	verb	διώκω
+καὶ	conjunction	???/καί
+τῷ	article	ὁ
+φεύγοντι	verb	φεύγω
+,	SENT	,
+καὶ	conjunction	???/καί
+μὴ	adverb	μή/μὴ
+βοηθοῦντας	verb	βοηθέω
+ᾧ	pronoun	ὁ/ὅς
+ἂν	adverb	ἀν/ἄν/ἐάν
+βούλωνται	verb	βούλομαι
+πᾶσαν	pronoun	πᾶς
+προθυμίαν	noun	προθυμία
+ἔχειν	verb	ἔχω
+παρὰ	preposition	πηρά/παρά
+τὸ	article	ὁ
+δίκαιον	adjective	δίκαιος
+ὑμᾶς	pronoun	σύ/ὑμεῖς
+ψηφίσασθαι	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+ἐνθυμουμένους	verb	ἐνθυμέομαι
+ὅτι	conjunction	ὅστις/ὅτι
+σφόδῤ	verb	<unknown>
+ἂν	adverb	ἀν/ἄν/ἐάν
+ἠγανακτεῖτε	verb	ἀγανακτέω
+,	SENT	,
+εἰ	conjunction	εἰ
+ἐν	preposition	ἐν/εἰς
+τῇ	article	ὁ/τῇ
+ὑμετέρᾳ	adjective	ὑμέτερος
+δοκιμασίᾳ	noun	δοκιμασία
+οἱ	article	ὁ/ὀ/οὗ
+θεσμοθέται	noun	θεσμοθέτης
+ἀναβάντες	verb	ἀναβαίνω
+ὑμῶν	pronoun	σύ/ὑμεῖς
+ἐδέοντο	verb	δέω#2/δέομαι/δέω
+καταψηφίσασθαι	verb	καταψηφίζομαι
+,	SENT	,
+ἡγούμενοι	verb	ἡγέομαι
+δεινὸν	adjective	δεινός
+εἶναι	verb	εἰμί#1/εἰμί
+εἰ	conjunction	εἰ
+οἱ	pronoun	/οὗ/ὅς/ἕ/ὁ
+τιθέντες	verb	τίθημι
+τὸν	article	ὁ/τὸν
+ἀγῶνα	noun	ἀγών
+καὶ	conjunction	???/καί
+τὴν	article	ὁ
+ψῆφον	noun	ψῆφος
+διδόντες	verb	δίδωμι
+παρακελεύσονται	verb	παρακελεύομαι
+τῶν	article	ὁ/ὅς
+μὲν	adverb	μέν
+μὴ	adverb	μή/μὴ
+καταψηφίζεσθαι	verb	καταψηφίζομαι
+τῶν	article	ὁ/ὅς
+δὲ	adverb	δέ/οὐ
+καταψηφίζεσθαι	verb	καταψηφίζομαι
+.	SENT	.
+τί	pronoun	τις/τίς/τὶς
+δ̓	verb	<unknown>
+ἂν	adverb	ἀν/ἄν/ἐάν
+αἴσχιον	adjective	αἰσχρός
+ἔθος	noun	ἔθος
+ἢ	conjunction	ἤ
+δεινότερον	adjective	δεινός
+πρᾶγμα	noun	πρᾶγμα
+τούτου	pronoun	οὗτος
+ἐν	preposition	ἐν/εἰς
+τῇ	article	ὁ/τῇ
+πόλει	noun	πόλις
+γένοιτο	verb	γίγνομαι
+,	SENT	,
+εἰ	conjunction	εἰ
+τολμήσει	verb	τολμάω
+ὁ	article	ὁ
+μὲν	adverb	μέν
+ἄρχων	noun	ἄρχων
+ἐν	preposition	ἐν/εἰς
+ταῖς	article	ὁ
+τῶν	article	ὁ/ὅς
+ἐπικλήρων	noun	ἐπίκληρος
+δίκαις	noun	δίκη
+ἀντιβολεῖν	verb	ἀντιβολέω
+καὶ	conjunction	???/καί
+ἱκετεύειν	verb	ἱκετεύω
+τοὺς	article	ὁ
+δικαστὰς	noun	δικαστής
+ὅ	pronoun	/ὅ/ὅστις/ὁς/ὅς/ὁ
+τι	pronoun	τις/τίς/τὶς
+ἂν	adverb	ἀν/ἄν/ἐάν
+βούληται	verb	βούλομαι
+πραχθῆναι	verb	πράσσω
+,	SENT	,
+ὁ	article	ὁ
+δὲ	adverb	δέ/οὐ
+πολέμαρχος	noun	πολέμαρχος
+καὶ	conjunction	???/καί
+οἱ	article	ὁ/ὀ/οὗ
+ἕνδεκα	adjective	ἕνδεκα
+δεήσονται	verb	δέω
+ἐν	preposition	ἐν/εἰς
+ταῖς	article	ὁ
+δίκαις	noun	δίκη
+ταῖς	article	ὁ
+ὑφ̓	verb	<unknown>
+ἑαυτῶν	pronoun	ἑαυτοῦ
+εἰσαγομέναις	verb	εἰσάγω
+,	SENT	,
+ὥσπερ	adverb	ὥσπερ
+καὶ	conjunction	???/καί
+νῦν	adverb	νῦν#1/νῦν
+;	SENT	;
+χρὴ	verb	χρή/χρὴ
+τοίνυν	particle	τοίνυν
+καὶ	conjunction	???/καί
+ὑπὲρ	preposition	ὑπέρ
+ὑμῶν	pronoun	σύ/ὑμεῖς
+αὐτῶν	pronoun	αὐτός
+τὴν	article	ὁ
+γνώμην	noun	γνώμη
+ἔχειν	verb	ἔχω
+,	SENT	,
+ἐνθυμουμένους	verb	ἐνθυμέομαι
+ὅτι	conjunction	ὅστις/ὅτι
+οὐδὲν	pronoun	οὐδείς
+διοίσει	verb	διαφέρω
+ὑμᾶς	pronoun	σύ/ὑμεῖς
+ἰδίᾳ	adjective	ἴδιος
+περὶ	preposition	περί
+τῆς	article	ὁ
+ἀστρατείας	noun	ἀστρατεία
+βοηθεῖν	verb	βοηθέω
+,	SENT	,
+ἢ	conjunction	ἤ
+τούτων	pronoun	οὗτος
+τινὰς	pronoun	τις/τὶς
+δεῖσθαι	verb	δέομαι/δέω
+αὐτοὺς	pronoun	αὐτός
+τὴν	article	ὁ
+ψῆφον	noun	ψῆφος
+διδόντας	verb	δίδωμι
+.	SENT	.
+σκέψασθε	verb	σκέπτομαι
+δέ	particle	δέ/οὐδέ
+,	SENT	,
+ὦ	interjection	ὦ
+ἄνδρες	noun	ἀνήρ
+δικασταί	noun	δικαστής
+,	SENT	,
+ἐὰν	conjunction	ἐάν
+ἱκανὸν	adjective	ἱκανός
+γένηται	verb	γίγνομαι
+τεκμήριον	noun	τεκμήριον
+ὅτι	conjunction	ὅστις/ὅτι
+οὐδείς	pronoun	οὐδείς
+πω	adverb	πω
+τῶν	article	ὁ/ὅς
+ἀρχόντων	noun	ἄρχων
+ἐν	preposition	ἐν/εἰς
+τῷ	article	ὁ
+στρατοπέδῳ	noun	στρατόπεδον
+Ἀλκιβιάδῃ	noun	Ἀλκιβιάδης
+ἦν	verb	είμί/εἰμί#1/εἰμί/ἠμί
+παρεσκευασμένος	verb	παρασκευάζω
+.	SENT	.
+ἐχρῆν	verb	χρή
+γὰρ	particle	γάρ
+αὐτούς	pronoun	αὐτός
+,	SENT	,
+εἴπερ	conjunction	εἴπερ
+ἀληθῆ	adjective	ἀληθής
+λέγουσιν	verb	λέγω
+,	SENT	,
+ἀνακαλεῖν	verb	ἀνακαλέω
+μὲν	particle	μέν
+Πάμφιλον	noun	Πάμφιλος
+,	SENT	,
+ὅτι	conjunction	ὅστις/ὅτι
+ἀφαιρῶν	verb	ἀφαιρέω
+τὸν	article	ὁ/τὸν
+ἵππον	noun	ἵππος
+ἱππέως	noun	ἱππεύς
+ἀπεστέρει	verb	ἀποστερέω
+τὴν	article	ὁ
+πόλιν	noun	πόλις
+,	SENT	,
+ἐπιβάλλειν	verb	ἐπιβάλλω
+δὲ	adverb	δέ/οὐ
+τῷ	article	ὁ
+φυλάρχῳ	noun	φύλαρχος
+,	SENT	,
+ὅτι	conjunction	ὅστις/ὅτι
+ἐξελαύνων	verb	ἐξελαύνω
+Ἀλκιβιάδην	noun	Ἀλκιβιάδης
+ἐκ	preposition	ἐκ
+τῆς	article	ὁ
+φυλῆς	noun	φυλή
+ἄκυρον	noun	ἄκυρον
+ἐποίει	verb	ποιέω
+τὴν	article	ὁ
+τούτων	adjective	οὗτος
+τάξιν	noun	τάξις
+,	SENT	,
+κελεύειν	verb	κελεύω
+δὲ	adverb	δέ/οὐ
+τὸν	article	ὁ/τὸν
+ταξίαρχον	noun	ταξίαρχος
+ἐξαλείφειν	verb	ἐξαλείφω
+αὐτὸν	pronoun	αὐτός
+ἐκ	preposition	ἐκ
+τοῦ	article	ὁ/ὅς/τὁ/ὀ
+τῶν	article	ὁ/ὅς
+ὁπλιτῶν	noun	ὁπλίτης
+καταλόγου	noun	κατάλογος
+.	SENT	.
+νῦν	adverb	νῦν#1/νῦν
+δὲ	particle	μηδέ/δέ/οὐδέ
+τούτων	pronoun	οὗτος
+οὐδὲν	pronoun	οὐδείς
+ἐποίησαν	verb	ποιέω
+,	SENT	,
+ἀλλ̓	verb	<unknown>
+ἐν	preposition	ἐν/εἰς
+μὲν	adverb	μέν
+τῷ	article	ὁ
+στρατοπέδῳ	noun	στρατόπεδον
+περιεώρων	verb	περιοράω
+αὐτὸν	pronoun	αὐτός
+ὑπὸ	preposition	ὑπό
+πάντων	pronoun	πᾶς
+προπηλακιζόμενον	verb	προπηλακίζω
+κ-	adverb	ἄν/καί
+ἀν	preposition	ἐν/εἰς/ἔν
+τοῖς	article	ὁ
+ἱπποτοξόταις	noun	ἱπποτοξότης
+ἱππεύοντα	verb	ἱππεύω
+,	SENT	,
+ἐπειδὴ	conjunction	ἐπειδή/ἐπεί
+δὲ	adverb	δέ/οὐ
+ὑμᾶς	pronoun	σύ/ὑμεῖς
+δεῖ	verb	δεῖ/δέομαι/δέω
+παρὰ	preposition	πηρά/παρά
+τῶν	article	ὁ/ὅς
+ἀδικούντων	verb	ἀδικέω
+δίκην	noun	δίκη
+λαμβάνειν	verb	λαμβάνω
+,	SENT	,
+χαριζόμενοι	verb	χαρίζω/χαρίζομαι
+μαρτυροῦσιν	verb	μαρτυρέω/μαρτύρομαι
+ὑφ̓	verb	<unknown>
+ἑαυτῶν	pronoun	ἑαυτοῦ
+αὐτὸν	pronoun	αὐτός
+τετάχθαι	verb	τάσσω
+.	SENT	.
+καίτοι	adverb	καίτοι/καί_τοι
+δεινόν	adjective	δεινός
+,	SENT	,
+ὦ	interjection	ὦ
+ἄνδρες	noun	ἀνήρ
+δικασταί	noun	δικαστής
+,	SENT	,
+αὐτοὺς	pronoun	αὐτός
+μὲν	adverb	μέν
+τοὺς	article	ὁ
+στρατηγοὺς	noun	στρατηγός
+ὑπὸ	preposition	ὑπό
+τοῦ	article	ὁ/ὅς/τὁ/ὀ
+δήμου	noun	δῆμος
+χειροτονηθέντας	verb	χειροτονέω
+μὴ	adverb	μή/μὴ
+ἂν	adverb	ἀν/ἄν/ἐάν
+τολμῆσαι	verb	τολμάω
+πρότερον	adjective	πρότερος
+ἡμῶν	pronoun	σύ/ἐγώ/ἡμεῖς
+ἡγήσασθαι	verb	ἡγέομαι
+,	SENT	,
+ἕως	conjunction	ἑώς/ἕως/ἔως
+ἂν	adverb	ἀν/ἄν/ἐάν
+ἐδοκιμάσθησαν	verb	δοκιμάζω
+κατὰ	preposition	κατά
+τοὺς	article	ὁ
+νόμους	noun	νόμος
+,	SENT	,
+Ἀλκιβιάδην	noun	Ἀλκιβιάδης
+δὲ	particle	μηδέ/δέ/οὐδέ
+τολμᾶν	verb	τολμάω
+παρὰ	preposition	πηρά/παρά
+τοὺς	article	ὁ
+τῆς	article	ὁ
+πόλεως	noun	πόλις
+νόμους	noun	νόμος
+ὑπ̓	verb	<unknown>
+αὐτῶν	pronoun	αὐτός
+ταχθῆναι	verb	τάσσω
+.	SENT	.
+δεινὸν	adjective	δεινός
+δέ	particle	δέ/οὐδέ
+μοι	pronoun	τις/ἐγώ
+δοκεῖ	verb	δοκέω
+εἶναι	verb	εἰμί#1/εἰμί
+,	SENT	,
+ὦ	interjection	ὦ
+ἄνδρες	noun	ἀνήρ
+δικασταί	noun	δικαστής
+,	SENT	,
+εἰ	conjunction	εἰ
+τῶν	article	ὁ/ὅς
+μὲν	adverb	μέν
+δεδοκιμασμένων	verb	δοκιμάζω
+ἱππέων	noun	ἱππεύς
+οὐκ	adverb	οὐ
+ἐπὶ	preposition	ἐπί
+τούτοις	pronoun	οὗτος
+ἐστὶν	verb	εἰμί#1/εἰμί
+ὅντινα	pronoun	ὅστις
+βούλονται	verb	βούλομαι
+αὐτοὶ	pronoun	αὐτός
+εἰς	preposition	εἰς
+τοὺς	article	ὁ
+ὁπλίτας	noun	ὁπλίτης
+καταλέξαι	verb	καταλέγω
+,	SENT	,
+τῶν	article	ὁ/ὅς
+δὲ	adverb	δέ/οὐ
+ὁπλιτῶν	noun	ὁπλίτης
+ἀδοκιμάστων	adjective	ἀδοκίμαστος
+ὄντων	verb	εἰμί#1/εἰμί
+ἐπὶ	preposition	ἐπί
+τούτοις	pronoun	οὗτος
+ἔσται	verb	εἰμί#1/εἰμί
+ὅντιν̓	verb	<unknown>
+ἂν	adverb	ἀν/ἄν/ἐάν
+βούλωνται	verb	βούλομαι
+ἱππεύειν	verb	ἱππεύω
+.	SENT	.
+εἰ	conjunction	εἰ
+μὲν	adverb	μέν
+τοίνυν	adverb	τοίνυν
+,	SENT	,
+ὦ	interjection	ὦ
+ἄνδρες	noun	ἀνήρ
+δικασταί	noun	δικαστής
+,	SENT	,
+ὄντες	verb	εἰμί#1/εἰμί
+κύριοι	noun	κύριος
+πολλῶν	adjective	πολύς
+βουλομένων	verb	βούλομαι
+μηδένα	pronoun	μηδείς
+τῶν	article	ὁ/ὅς
+ἄλλων	adjective	ἄλλος
+ἱππεύειν	verb	ἱππεύω
+εἴασαν	verb	ἀίω/εἰάζω/ἐάω
+,	SENT	,
+οὐκ	adverb	οὐ
+ἂν	particle	ἄν
+δικαίως	adverb	δικαίως/δικαιός/δίκαιος
+χαρίζοισθε	verb	χαρίζω/χαρίζομαι
+αὐτοῖς	pronoun	αὐτός
+·	SENT	:
+εἰ	conjunction	εἰ
+δ̓	verb	<unknown>
+ἄκυροι	adjective	ἄκυρος
+ὄντες	verb	εἰμί#1/εἰμί
+ὁμολογήσουσι	verb	ὁμολογέω
+τάξαι	verb	τάσσω
+,	SENT	,
+ἐνθυμεῖσθαι	verb	ἐνθυμέομαι
+χρὴ	verb	χρή/χρὴ
+ὅτι	conjunction	ὅστις/ὅτι
+ὀμωμόκατε	verb	ὄμνυμι
+τὰ	article	ὁ/τίς
+δίκαια	adjective	δίκαιος
+γνώσεσθαι	verb	γιγνώσκω
+,	SENT	,
+ἀλλ̓	verb	<unknown>
+οὐχ	adverb	οὐ
+ὅ	pronoun	/ὅ/ὅστις/ὁς/ὅς/ὁ
+τι	pronoun	τις/τίς/τὶς
+ἂν	adverb	ἀν/ἄν/ἐάν
+οὗτοι	pronoun	οὗτος
+κελεύωσι	verb	κελεύω
+ψηφιεῖσθαι	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+ὥστε	conjunction	ὥστε
+οὐδένα	pronoun	οὐδείς
+χρὴ	verb	χρή/χρὴ
+τῶν	article	ὁ/ὅς
+δεομένων	verb	δέομαι/δέω
+περὶ	preposition	περί
+πλείονος	adjective	πλείων/πολύς
+ὑμῶν	pronoun	σύ/ὑμεῖς
+αὐτῶν	pronoun	αὐτός
+καὶ	conjunction	???/καί
+τῶν	article	ὁ/ὅς
+ὅρκων	noun	ὅρκος
+ποιεῖσθαι	verb	ποιέω
+.	SENT	.
+καὶ	conjunction	???/καί
+μὲν	particle	μέν
+δή	particle	δή
+,	SENT	,
+ὦ	interjection	ὦ
+ἄνδρες	noun	ἀνήρ
+δικασταί	noun	δικαστής
+,	SENT	,
+εἴ	conjunction	εἰ
+τῳ	pronoun	τις
+δοκεῖ	verb	δοκέω
+μεγάλη	adjective	μέγας
+ἡ	article	ὁ
+ζημία	noun	ζημία
+εἶναι	verb	εἰμί#1/εἰμί
+καὶ	conjunction	???/καί
+λίαν	adverb	λίαν
+ἰσχυρὸς	adjective	ἰσχυρός
+ὁ	article	ὁ
+νόμος	noun	νόμος
+,	SENT	,
+μεμνῆσθαι	verb	μιμνῄσκω/μιμνήσκω
+χρὴ	verb	χρή/χρὴ
+ὅτι	conjunction	ὅστις/ὅτι
+οὐ	adverb	οὐκ/οὔπως/οὐ
+νομοθετήσοντες	verb	νομοθετέω
+περὶ	preposition	περί
+αὐτῶν	pronoun	αὐτός
+ἥκετε	verb	ἥκω
+,	SENT	,
+ἀλλὰ	conjunction	ἀλλά/ἀλλὰ
+κατὰ	preposition	κατά
+τοὺς	article	ὁ
+κειμένους	verb	κεῖμαι
+νόμους	noun	νόμος
+ψηφιούμενοι	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+οὐδὲ	conjunction	οὐδὲ/οὐδέ
+τοὺς	article	ὁ
+ἀδικοῦντας	verb	ἀδικέω
+ἐλεήσοντες	verb	ἐλεάω/ἐλεέω
+,	SENT	,
+ἀλλὰ	conjunction	ἀλλά/ἀλλὰ
+πολὺ	adjective	πολύς
+μᾶλλον	adverb	μάλα/μᾶλλον
+αὐτοῖς	pronoun	αὐτός
+ὀργιούμενοι	verb	ὀργίζω
+καὶ	conjunction	???/καί
+ὅλῃ	adjective	ὅλος
+τῇ	article	ὁ/τῇ
+πόλει	noun	πόλις
+βοηθήσοντες	verb	βοηθέω
+,	SENT	,
+εὖ	adverb	εὖ
+εἰδότες	verb	εἴδω/οἶδα
+ὅτι	conjunction	ὅστις/ὅτι
+ὑπὲρ	preposition	ὑπέρ
+τῶν	article	ὁ/ὅς
+παρεληλυθότων	verb	παρέρχομαι
+ὀλίγους	adjective	ὀλίγος
+τιμωρησάμενοι	verb	τιμωρέω
+πολλοὺς	adjective	πολύς
+ποιήσετε	verb	ποιέω
+κοσμιωτέρους	adjective	κόσμιος
+ἐν	preposition	ἐν/εἰς
+τοῖς	article	ὁ
+μέλλουσι	verb	μέλλω
+κινδυνεύειν	verb	κινδυνεύω
+.	SENT	.
+χρὴ	verb	χρή/χρὴ
+δέ	particle	δέ/οὐδέ
+,	SENT	,
+ὦ	interjection	ὦ
+ἄνδρες	noun	ἀνήρ
+δικασταί	noun	δικαστής
+,	SENT	,
+ὥσπερ	conjunction	ὥσπερ
+οὗτος	pronoun	οὗτος
+ἀμελήσας	verb	ἀμελέω
+τῆς	article	ὁ
+πόλεως	noun	πόλις
+τὴν	article	ὁ
+αὑτοῦ	adjective	ἑαυτοῦ
+σωτηρίαν	noun	σωτηρία
+ἐσκέψατο	verb	σκέπτομαι
+,	SENT	,
+οὕτως	adverb	οὕτω(ς)/οὕτως
+ὑμᾶς	pronoun	σύ/ὑμεῖς
+ἀμελήσαντας	verb	ἀμελέω
+τούτου	pronoun	οὗτος
+τῇ	article	ὁ/τῇ
+πόλει	noun	πόλις
+τὰ	article	ὁ/τίς
+βέλτιστα	adjective	βέλτιστος
+ψηφίσασθαι	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+ἄλλως	adverb	ἄλλος/ἄλλως
+τε	particle	τε/??/οὔτε
+καὶ	conjunction	???/καί
+ὅρκους	noun	ὅρκος
+ὀμωμοκότας	verb	ὄμνυμι
+καὶ	conjunction	???/καί
+περὶ	preposition	περί
+Ἀλκιβιάδου	noun	Ἀλκιβιάδης
+μέλλοντας	verb	μέλλω
+ψηφίσασθαι	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+ὃς	pronoun	ὅς
+ἐὰν	conjunction	ἐάν
+ὑμᾶς	pronoun	σύ/ὑμεῖς
+ἐξαπατήσῃ	verb	ἐξαπατάω
+,	SENT	,
+καταγελῶν	verb	καταγελάω
+τῆς	article	ὁ
+πόλεως	noun	πόλις
+ἄπεισιν	verb	ἄπειμι
+·	SENT	:
+οὐ	adverb	οὐκ/οὔπως/οὐ
+γὰρ	particle	γάρ
+δὴ	particle	δή
+χάριν	noun	χάρις
+γε	particle	γε
+ὑμῖν	pronoun	σύ/ὑμεῖς
+ἀποδώσει	verb	ἀποδίδωμι
+τῇ	article	ὁ/τῇ
+ψήφῳ	noun	ψῆφος
+κρύβδην	adverb	κρύβδην
+εὖ	adverb	εὖ
+παθών	verb	πάσχω
+,	SENT	,
+ὃς	pronoun	ὅς
+τῶν	article	ὁ/ὅς
+φίλων	adjective	φίλος
+τοὺς	article	ὁ
+φανερῶς	adverb	φανερός/φανερῶς
+αὐτὸν	pronoun	αὐτός
+εὖ	adverb	εὖ
+ποιήσαντας	verb	ποιέω
+κακῶς	adverb	κακῶς/κακός
+ποιεῖ	verb	ποιέω
+.	SENT	.
+ὑμεῖς	pronoun	σύ/ὑμεῖς
+οὖν	particle	οὖν
+,	SENT	,
+ὦ	interjection	ὦ
+ἄνδρες	noun	ἀνήρ
+δικασταί	noun	δικαστής
+,	SENT	,
+τὰς	article	ὁ
+τούτων	adjective	οὗτος
+δεήσεις	noun	δέησις
+περὶ	preposition	περί
+ἐλάττονος	adjective	ἐλάσσων
+ποιησάμενοι	verb	ποιέω
+τὰ	article	ὁ/τίς
+δίκαια	adjective	δίκαιος
+ψηφίσασθε	verb	ψηφίζω/ψηφίζομαι
+.	SENT	.
+ἀποδέδεικται	verb	ἀποδείκνυμι
+δὲ	particle	μηδέ/δέ/οὐδέ
+καταλεγεὶς	verb	καταλέγω
+εἰς	preposition	εἰς
+τοὺς	article	ὁ
+ὁπλίτας	noun	ὁπλίτης
+καὶ	conjunction	???/καί
+λιπὼν	verb	λείπω
+τὴν	article	ὁ
+τάξιν	noun	τάξις
+καὶ	conjunction	???/καί
+τῶν	article	ὁ/ὅς
+νόμων	noun	νόμος
+κωλυόντων	verb	κωλύω
+ἀδοκίμαστος	adjective	ἀδοκίμαστος
+ἱππεύσας	verb	ἱππεύω
+,	SENT	,
+καὶ	conjunction	???/καί
+περὶ	preposition	περί
+ὧν	pronoun	ὅς
+οἱ	article	ὁ/ὀ/οὗ
+νόμοι	noun	νόμος
+διαρρήδην	adverb	διαρρήδην
+οὔτε	conjunction	οὔτε/οὐτε
+στρατηγὸν	noun	στρατηγός
+οὔτε	conjunction	οὔτε/οὐτε
+ἵππαρχον	noun	ἵππαρχος
+οὔτε	conjunction	οὔτε/οὐτε
+ἄλλον	adjective	ἄλλος
+οὐδένα	pronoun	οὐδείς
+κυριώτερον	adjective	κύριος
+ἐκείνων	pronoun	ἐκεῖνος/ἐκείνος
+ἀποδεικνύουσι	verb	ἀποδείκνυμι
+,	SENT	,
+περὶ	preposition	περί
+τούτων	pronoun	οὗτος
+ἰδιώτης	noun	ἰδιώτης
+ὢν	verb	εἰμί#1/εἰμί
+τὴν	article	ὁ
+ἐξουσίαν	noun	ἐξουσία
+αὑτῷ	pronoun	ἑαυτοῦ
+δεδωκώς	verb	δίδωμι
+.	SENT	.
+ἐγὼ	pronoun	ἐγώ
+μὲν	particle	μέν
+οὖν	adverb	οὖν
+καὶ	conjunction	???/καί
+φίλῳ	adjective	φίλος
+ὄντι	verb	εἰμί#1/εἰμί
+Ἀρχεστρατίδῃ	noun	Ἀρχεστρατίδης
+βοηθῶν	adjective	βοηθός
+,	SENT	,
+καὶ	conjunction	???/καί
+Ἀλκιβιάδην	noun	Ἀλκιβιάδης
+ἐχθρὸν	adjective	ἐχθρός
+ὄντα	verb	εἰμί#1/εἰμί/εἴμι
+ἐμαυτοῦ	pronoun	ἐμαυτοῦ
+τιμωρούμενος	verb	τιμωρέω
+,	SENT	,
+δέομαι	verb	δέω#2/δέομαι/δέω
+τὰ	article	ὁ/τίς
+δίκαια	adjective	δίκαιος
+ψηφίσασθαι	verb	ψηφίζω/ψηφίζομαι
+·	SENT	:
+ὑμᾶς	pronoun	σύ/ὑμεῖς
+δὲ	particle	μηδέ/δέ/οὐδέ
+χρὴ	verb	χρή/χρὴ
+τὴν	article	ὁ
+αὐτὴν	adjective	αὐτός
+γνώμην	noun	γνώμη
+ἔχοντας	verb	ἔχω
+τὴν	article	ὁ
+ψῆφον	noun	ψῆφος
+φέρειν	verb	φέρω
+,	SENT	,
+ἥνπερ	pronoun	ὅς
+ὅτε	conjunction	ὅσε/ὅτε
+ᾤεσθε	verb	οἴομαι
+πρὸς	preposition	πρός
+τοὺς	article	ὁ
+πολεμίους	adjective	πολέμιος
+διακινδυνεύσειν	verb	διακινδυνεύω
+.	SENT	.

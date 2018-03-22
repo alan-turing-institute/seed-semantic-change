@@ -1,679 +1,679 @@
-e)gw\	pronoun
-me/n	particle
-,	SENT
-w)=	interjection
-a)/ndres	noun
-dikastai/	noun
-,	SENT
-kai\	conjunction
-u(ma=s	pronoun
-ai)tou=mai	verb
-ta\	article
-di/kaia	adjective
-yhfi/sasqai	verb
-,	SENT
-kai\	conjunction
-tw=n	article
-strathgw=n	noun
-de/omai	verb
-,	SENT
-e)pei\	conjunction
-kai\	conjunction
-e)n	preposition
-th=|	article
-a)/llh|	adjective
-a)rxh=|	noun
-pollou=	adjective
-a)/cioi	adjective
-th=|	article
-po/lei	noun
-gego/nasi	verb
-,	SENT
-kai\	conjunction
-tw=n	article
-th=s	article
-a)stratei/as	noun
-grafw=n	noun
-koinou\s	adjective
-ei)=nai	verb
-tw=|	article
-te	adverb
-diw/konti	verb
-kai\	conjunction
-tw=|	article
-feu/gonti	verb
-,	SENT
-kai\	conjunction
-mh\	adverb
-bohqou=ntas	verb
-w(=|	pronoun
-a)\n	adverb
-bou/lwntai	verb
-pa=san	pronoun
-proqumi/an	noun
-e)/xein	verb
-para\	preposition
-to\	article
-di/kaion	adjective
-u(ma=s	pronoun
-yhfi/sasqai	verb
-,	SENT
-e)nqumoume/nous	verb
-o(/ti	conjunction
-sfo/dr'	adverb
-a)\n	adverb
-h)ganaktei=te	verb
-,	SENT
-ei)	conjunction
-e)n	preposition
-th=|	article
-u(mete/ra|	adjective
-dokimasi/a|	noun
-oi(	article
-qesmoqe/tai	noun
-a)naba/ntes	verb
-u(mw=n	pronoun
-e)de/onto	verb
-katayhfi/sasqai	verb
-,	SENT
-h(gou/menoi	verb
-deino\n	adjective
-ei)=nai	verb
-ei)	conjunction
-oi(	pronoun
-tiqe/ntes	verb
-to\n	article
-a)gw=na	noun
-kai\	conjunction
-th\n	article
-yh=fon	noun
-dido/ntes	verb
-parakeleu/sontai	verb
-tw=n	article
-me\n	adverb
-mh\	adverb
-katayhfi/zesqai	verb
-tw=n	article
-de\	adverb
-katayhfi/zesqai	verb
-.	SENT
-ti/	pronoun
-d'	particle
-a)\n	particle
-ai)/sxion	adjective
-e)/qos	noun
-h)\	conjunction
-deino/teron	adjective
-pra=gma	noun
-tou/tou	pronoun
-e)n	preposition
-th=|	article
-po/lei	noun
-ge/noito	verb
-,	SENT
-ei)	conjunction
-tolmh/sei	verb
-o(	article
-me\n	adverb
-a)/rxwn	noun
-e)n	preposition
-tai=s	article
-tw=n	article
-e)piklh/rwn	adjective
-di/kais	noun
-a)ntibolei=n	verb
-kai\	conjunction
-i(keteu/ein	verb
-tou\s	article
-dikasta\s	noun
-o(/	pronoun
-ti	pronoun
-a)\n	adverb
-bou/lhtai	verb
-praxqh=nai	verb
-,	SENT
-o(	article
-de\	adverb
-pole/marxos	noun
-kai\	conjunction
-oi(	article
-e(/ndeka	adjective
-deh/sontai	verb
-e)n	preposition
-tai=s	article
-di/kais	noun
-tai=s	article
-u(f'	preposition
-e(autw=n	pronoun
-ei)sagome/nais	verb
-,	SENT
-w(/sper	adverb
-kai\	conjunction
-nu=n	adverb
-;	SENT
-xrh\	verb
-toi/nun	particle
-kai\	conjunction
-u(pe\r	preposition
-u(mw=n	pronoun
-au)tw=n	pronoun
-th\n	article
-gnw/mhn	noun
-e)/xein	verb
-,	SENT
-e)nqumoume/nous	verb
-o(/ti	conjunction
-ou)de\n	pronoun
-dioi/sei	verb
-u(ma=s	pronoun
-i)di/a|	adjective
-peri\	preposition
-th=s	article
-a)stratei/as	noun
-bohqei=n	verb
-,	SENT
-h)\	conjunction
-tou/twn	pronoun
-tina\s	pronoun
-dei=sqai	verb
-au)tou\s	pronoun
-th\n	article
-yh=fon	noun
-dido/ntas	verb
-.	SENT
-ske/yasqe	verb
-de/	particle
-,	SENT
-w)=	interjection
-a)/ndres	noun
-dikastai/	noun
-,	SENT
-e)a\n	conjunction
-i(kano\n	adjective
-ge/nhtai	verb
-tekmh/rion	noun
-o(/ti	conjunction
-ou)dei/s	pronoun
-pw	adverb
-tw=n	article
-a)rxo/ntwn	noun
-e)n	preposition
-tw=|	article
-stratope/dw|	noun
-*)alkibia/dh|	noun
-h)=n	verb
-pareskeuasme/nos	verb
-.	SENT
-e)xrh=n	verb
-ga\r	particle
-au)tou/s	pronoun
-,	SENT
-ei)/per	conjunction
-a)lhqh=	adjective
-le/gousin	verb
-,	SENT
-a)nakalei=n	verb
-me\n	adverb
-*pa/mfilon	proper
-,	SENT
-o(/ti	conjunction
-a)fairw=n	verb
-to\n	article
-i(/ppon	noun
-i(ppe/ws	noun
-a)peste/rei	verb
-th\n	article
-po/lin	noun
-,	SENT
-e)piba/llein	verb
-de\	adverb
-tw=|	article
-fula/rxw|	noun
-,	SENT
-o(/ti	conjunction
-e)celau/nwn	verb
-*)alkibia/dhn	noun
-e)k	preposition
-th=s	article
-fulh=s	noun
-a)/kuron	noun
-e)poi/ei	verb
-th\n	article
-tou/twn	adjective
-ta/cin	noun
-,	SENT
-keleu/ein	verb
-de\	adverb
-to\n	article
-taci/arxon	noun
-e)calei/fein	verb
-au)to\n	pronoun
-e)k	preposition
-tou=	article
-tw=n	article
-o(plitw=n	noun
-katalo/gou	noun
-.	SENT
-nu=n	adverb
-de\	particle
-tou/twn	pronoun
-ou)de\n	pronoun
-e)poi/hsan	verb
-,	SENT
-a)ll'	conjunction
-e)n	preposition
-me\n	adverb
-tw=|	article
-stratope/dw|	noun
-periew/rwn	verb
-au)to\n	pronoun
-u(po\	preposition
-pa/ntwn	pronoun
-prophlakizo/menon	verb
-k-	adverb
-a)n	preposition
-toi=s	article
-i(ppotoco/tais	noun
-i(ppeu/onta	verb
-,	SENT
-e)peidh\	conjunction
-de\	adverb
-u(ma=s	pronoun
-dei=	verb
-para\	preposition
-tw=n	article
-a)dikou/ntwn	verb
-di/khn	noun
-lamba/nein	verb
-,	SENT
-xarizo/menoi	verb
-marturou=sin	verb
-u(f'	preposition
-e(autw=n	pronoun
-au)to\n	pronoun
-teta/xqai	verb
-.	SENT
-kai/toi	adverb
-deino/n	adjective
-,	SENT
-w)=	interjection
-a)/ndres	noun
-dikastai/	noun
-,	SENT
-au)tou\s	pronoun
-me\n	adverb
-tou\s	article
-strathgou\s	noun
-u(po\	preposition
-tou=	article
-dh/mou	noun
-xeirotonhqe/ntas	verb
-mh\	adverb
-a)\n	adverb
-tolmh=sai	verb
-pro/teron	adjective
-h(mw=n	pronoun
-h(gh/sasqai	verb
-,	SENT
-e(/ws	conjunction
-a)\n	adverb
-e)dokima/sqhsan	verb
-kata\	preposition
-tou\s	article
-no/mous	noun
-,	SENT
-*)alkibia/dhn	noun
-de\	particle
-tolma=n	verb
-para\	preposition
-tou\s	article
-th=s	article
-po/lews	noun
-no/mous	noun
-u(p'	preposition
-au)tw=n	pronoun
-taxqh=nai	verb
-.	SENT
-deino\n	adjective
-de/	particle
-moi	pronoun
-dokei=	verb
-ei)=nai	verb
-,	SENT
-w)=	interjection
-a)/ndres	noun
-dikastai/	noun
-,	SENT
-ei)	conjunction
-tw=n	article
-me\n	adverb
-dedokimasme/nwn	verb
-i(ppe/wn	noun
-ou)k	adverb
-e)pi\	preposition
-tou/tois	pronoun
-e)sti\n	verb
-o(/ntina	pronoun
-bou/lontai	verb
-au)toi\	pronoun
-ei)s	preposition
-tou\s	article
-o(pli/tas	noun
-katale/cai	verb
-,	SENT
-tw=n	article
-de\	adverb
-o(plitw=n	noun
-a)dokima/stwn	adjective
-o)/ntwn	verb
-e)pi\	preposition
-tou/tois	pronoun
-e)/stai	verb
-o(/ntin'	pronoun
-a)\n	adverb
-bou/lwntai	verb
-i(ppeu/ein	verb
-.	SENT
-ei)	conjunction
-me\n	adverb
-toi/nun	adverb
-,	SENT
-w)=	interjection
-a)/ndres	noun
-dikastai/	noun
-,	SENT
-o)/ntes	verb
-ku/rioi	noun
-pollw=n	adjective
-boulome/nwn	verb
-mhde/na	pronoun
-tw=n	article
-a)/llwn	adjective
-i(ppeu/ein	verb
-ei)/asan	verb
-,	SENT
-ou)k	adverb
-a)\n	particle
-dikai/ws	adverb
-xari/zoisqe	verb
-au)toi=s	pronoun
-:	SENT
-ei)	conjunction
-d'	particle
-a)/kuroi	adjective
-o)/ntes	verb
-o(mologh/sousi	verb
-ta/cai	verb
-,	SENT
-e)nqumei=sqai	verb
-xrh\	verb
-o(/ti	conjunction
-o)mwmo/kate	verb
-ta\	article
-di/kaia	adjective
-gnw/sesqai	verb
-,	SENT
-a)ll'	conjunction
-ou)x	adverb
-o(/	pronoun
-ti	pronoun
-a)\n	adverb
-ou(=toi	pronoun
-keleu/wsi	verb
-yhfiei=sqai	verb
-,	SENT
-w(/ste	conjunction
-ou)de/na	pronoun
-xrh\	verb
-tw=n	article
-deome/nwn	verb
-peri\	preposition
-plei/onos	adjective
-u(mw=n	pronoun
-au)tw=n	pronoun
-kai\	conjunction
-tw=n	article
-o(/rkwn	noun
-poiei=sqai	verb
-.	SENT
-kai\	conjunction
-me\n	particle
-dh/	particle
-,	SENT
-w)=	interjection
-a)/ndres	noun
-dikastai/	noun
-,	SENT
-ei)/	conjunction
-tw|	pronoun
-dokei=	verb
-mega/lh	adjective
-h(	article
-zhmi/a	noun
-ei)=nai	verb
-kai\	conjunction
-li/an	adverb
-i)sxuro\s	adjective
-o(	article
-no/mos	noun
-,	SENT
-memnh=sqai	verb
-xrh\	verb
-o(/ti	conjunction
-ou)	adverb
-nomoqeth/sontes	verb
-peri\	preposition
-au)tw=n	pronoun
-h(/kete	verb
-,	SENT
-a)lla\	conjunction
-kata\	preposition
-tou\s	article
-keime/nous	verb
-no/mous	noun
-yhfiou/menoi	verb
-,	SENT
-ou)de\	conjunction
-tou\s	article
-a)dikou=ntas	verb
-e)leh/sontes	verb
-,	SENT
-a)lla\	conjunction
-polu\	adjective
-ma=llon	adverb
-au)toi=s	pronoun
-o)rgiou/menoi	verb
-kai\	conjunction
-o(/lh|	adjective
-th=|	article
-po/lei	noun
-bohqh/sontes	verb
-,	SENT
-eu)=	adverb
-ei)do/tes	verb
-o(/ti	conjunction
-u(pe\r	preposition
-tw=n	article
-parelhluqo/twn	verb
-o)li/gous	adjective
-timwrhsa/menoi	verb
-pollou\s	adjective
-poih/sete	verb
-kosmiwte/rous	adjective
-e)n	preposition
-toi=s	article
-me/llousi	verb
-kinduneu/ein	verb
-.	SENT
-xrh\	verb
-de/	particle
-,	SENT
-w)=	interjection
-a)/ndres	noun
-dikastai/	noun
-,	SENT
-w(/sper	conjunction
-ou(=tos	pronoun
-a)melh/sas	verb
-th=s	article
-po/lews	noun
-th\n	article
-au(tou=	adjective
-swthri/an	noun
-e)ske/yato	verb
-,	SENT
-ou(/tws	adverb
-u(ma=s	pronoun
-a)melh/santas	verb
-tou/tou	pronoun
-th=|	article
-po/lei	noun
-ta\	article
-be/ltista	adjective
-yhfi/sasqai	verb
-,	SENT
-a)/llws	adverb
-te	particle
-kai\	conjunction
-o(/rkous	noun
-o)mwmoko/tas	verb
-kai\	conjunction
-peri\	preposition
-*)alkibia/dou	noun
-me/llontas	verb
-yhfi/sasqai	verb
-,	SENT
-o(\s	pronoun
-e)a\n	conjunction
-u(ma=s	pronoun
-e)capath/sh|	verb
-,	SENT
-katagelw=n	verb
-th=s	article
-po/lews	noun
-a)/peisin	verb
-:	SENT
-ou)	adverb
-ga\r	particle
-dh\	particle
-xa/rin	noun
-ge	particle
-u(mi=n	pronoun
-a)podw/sei	verb
-th=|	article
-yh/fw|	noun
-kru/bdhn	adverb
-eu)=	adverb
-paqw/n	verb
-,	SENT
-o(\s	pronoun
-tw=n	article
-fi/lwn	adjective
-tou\s	article
-fanerw=s	adverb
-au)to\n	pronoun
-eu)=	adverb
-poih/santas	verb
-kakw=s	adverb
-poiei=	verb
-.	SENT
-u(mei=s	pronoun
-ou)=n	particle
-,	SENT
-w)=	interjection
-a)/ndres	noun
-dikastai/	noun
-,	SENT
-ta\s	article
-tou/twn	adjective
-deh/seis	noun
-peri\	preposition
-e)la/ttonos	adjective
-poihsa/menoi	verb
-ta\	article
-di/kaia	adjective
-yhfi/sasqe	verb
-.	SENT
-a)pode/deiktai	verb
-de\	particle
-katalegei\s	verb
-ei)s	preposition
-tou\s	article
-o(pli/tas	noun
-kai\	conjunction
-lipw\n	verb
-th\n	article
-ta/cin	noun
-kai\	conjunction
-tw=n	article
-no/mwn	noun
-kwluo/ntwn	verb
-a)doki/mastos	adjective
-i(ppeu/sas	verb
-,	SENT
-kai\	conjunction
-peri\	preposition
-w(=n	pronoun
-oi(	article
-no/moi	noun
-diarrh/dhn	adverb
-ou)/te	conjunction
-strathgo\n	noun
-ou)/te	conjunction
-i(/pparxon	noun
-ou)/te	conjunction
-a)/llon	adjective
-ou)de/na	pronoun
-kuriw/teron	adjective
-e)kei/nwn	pronoun
-a)podeiknu/ousi	verb
-,	SENT
-peri\	preposition
-tou/twn	pronoun
-i)diw/ths	noun
-w)\n	verb
-th\n	article
-e)cousi/an	noun
-au(tw=|	pronoun
-dedwkw/s	verb
-.	SENT
-e)gw\	pronoun
-me\n	particle
-ou)=n	adverb
-kai\	conjunction
-fi/lw|	adjective
-o)/nti	verb
-*)arxestrati/dh|	proper
-bohqw=n	adjective
-,	SENT
-kai\	conjunction
-*)alkibia/dhn	noun
-e)xqro\n	adjective
-o)/nta	verb
-e)mautou=	pronoun
-timwrou/menos	verb
-,	SENT
-de/omai	verb
-ta\	article
-di/kaia	adjective
-yhfi/sasqai	verb
-:	SENT
-u(ma=s	pronoun
-de\	particle
-xrh\	verb
-th\n	article
-au)th\n	adjective
-gnw/mhn	noun
-e)/xontas	verb
-th\n	article
-yh=fon	noun
-fe/rein	verb
-,	SENT
-h(/nper	pronoun
-o(/te	conjunction
-w)/|esqe	verb
-pro\s	preposition
-tou\s	article
-polemi/ous	adjective
-diakinduneu/sein	verb
-.	SENT
+e)gw\	pronoun	ἐγώ
+me/n	particle	μέν
+,	SENT	,
+w)=	interjection	ὦ
+a)/ndres	noun	ἀνήρ
+dikastai/	noun	δικαστής
+,	SENT	,
+kai\	conjunction	???/καί
+u(ma=s	pronoun	σύ/ὑμεῖς
+ai)tou=mai	verb	αἰτέω
+ta\	article	ὁ/τίς
+di/kaia	adjective	δίκαιος
+yhfi/sasqai	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+kai\	conjunction	???/καί
+tw=n	article	ὁ/ὅς
+strathgw=n	noun	στρατηγός/στρατήγος
+de/omai	verb	δέω#2/δέομαι/δέω
+,	SENT	,
+e)pei\	conjunction	ἐπεί
+kai\	conjunction	???/καί
+e)n	preposition	ἐν/εἰς
+th=|	article	ὁ/τῇ
+a)/llh|	adjective	ἄλλος
+a)rxh=|	noun	ἀρχή
+pollou=	adjective	πολύς
+a)/cioi	adjective	ἄξιος
+th=|	article	ὁ/τῇ
+po/lei	noun	πόλις
+gego/nasi	verb	γίγνομαι
+,	SENT	,
+kai\	conjunction	???/καί
+tw=n	article	ὁ/ὅς
+th=s	article	ὁ
+a)stratei/as	noun	ἀστρατεία
+grafw=n	noun	γραφή/γραφής
+koinou\s	adjective	κοινός
+ei)=nai	verb	εἰμί#1/εἰμί
+tw=|	article	ὁ
+te	adverb	τε/οὔτε
+diw/konti	verb	διώκω
+kai\	conjunction	???/καί
+tw=|	article	ὁ
+feu/gonti	verb	φεύγω
+,	SENT	,
+kai\	conjunction	???/καί
+mh\	adverb	μή/μὴ
+bohqou=ntas	verb	βοηθέω
+w(=|	pronoun	ὁ/ὅς
+a)\n	adverb	ἀν/ἄν/ἐάν
+bou/lwntai	verb	βούλομαι
+pa=san	pronoun	πᾶς
+proqumi/an	noun	προθυμία
+e)/xein	verb	ἔχω
+para\	preposition	πηρά/παρά
+to\	article	ὁ
+di/kaion	adjective	δίκαιος
+u(ma=s	pronoun	σύ/ὑμεῖς
+yhfi/sasqai	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+e)nqumoume/nous	verb	ἐνθυμέομαι
+o(/ti	conjunction	ὅστις/ὅτι
+sfo/dr'	adverb	σφόδρα
+a)\n	adverb	ἀν/ἄν/ἐάν
+h)ganaktei=te	verb	ἀγανακτέω
+,	SENT	,
+ei)	conjunction	εἰ
+e)n	preposition	ἐν/εἰς
+th=|	article	ὁ/τῇ
+u(mete/ra|	adjective	ὑμέτερος
+dokimasi/a|	noun	δοκιμασία
+oi(	article	ὁ/ὀ/οὗ
+qesmoqe/tai	noun	θεσμοθέτης
+a)naba/ntes	verb	ἀναβαίνω
+u(mw=n	pronoun	σύ/ὑμεῖς
+e)de/onto	verb	δέω#2/δέομαι/δέω
+katayhfi/sasqai	verb	καταψηφίζομαι
+,	SENT	,
+h(gou/menoi	verb	ἡγέομαι
+deino\n	adjective	δεινός
+ei)=nai	verb	εἰμί#1/εἰμί
+ei)	conjunction	εἰ
+oi(	pronoun	/οὗ/ὅς/ἕ/ὁ
+tiqe/ntes	verb	τίθημι
+to\n	article	ὁ/τὸν
+a)gw=na	noun	ἀγών
+kai\	conjunction	???/καί
+th\n	article	ὁ
+yh=fon	noun	ψῆφος
+dido/ntes	verb	δίδωμι
+parakeleu/sontai	verb	παρακελεύομαι
+tw=n	article	ὁ/ὅς
+me\n	adverb	μέν
+mh\	adverb	μή/μὴ
+katayhfi/zesqai	verb	καταψηφίζομαι
+tw=n	article	ὁ/ὅς
+de\	adverb	δέ/οὐ
+katayhfi/zesqai	verb	καταψηφίζομαι
+.	SENT	.
+ti/	pronoun	τις/τίς/τὶς
+d'	particle	οὐδέ/δέ/??
+a)\n	particle	ἄν
+ai)/sxion	adjective	αἰσχρός
+e)/qos	noun	ἔθος
+h)\	conjunction	ἤ
+deino/teron	adjective	δεινός
+pra=gma	noun	πρᾶγμα
+tou/tou	pronoun	οὗτος
+e)n	preposition	ἐν/εἰς
+th=|	article	ὁ/τῇ
+po/lei	noun	πόλις
+ge/noito	verb	γίγνομαι
+,	SENT	,
+ei)	conjunction	εἰ
+tolmh/sei	verb	τολμάω
+o(	article	ὁ
+me\n	adverb	μέν
+a)/rxwn	noun	ἄρχων
+e)n	preposition	ἐν/εἰς
+tai=s	article	ὁ
+tw=n	article	ὁ/ὅς
+e)piklh/rwn	noun	ἐπίκληρος
+di/kais	noun	δίκη
+a)ntibolei=n	verb	ἀντιβολέω
+kai\	conjunction	???/καί
+i(keteu/ein	verb	ἱκετεύω
+tou\s	article	ὁ
+dikasta\s	noun	δικαστής
+o(/	pronoun	/ὅ/ὅστις/ὁς/ὅς/ὁ
+ti	pronoun	τις/τίς/τὶς
+a)\n	adverb	ἀν/ἄν/ἐάν
+bou/lhtai	verb	βούλομαι
+praxqh=nai	verb	πράσσω
+,	SENT	,
+o(	article	ὁ
+de\	adverb	δέ/οὐ
+pole/marxos	noun	πολέμαρχος
+kai\	conjunction	???/καί
+oi(	article	ὁ/ὀ/οὗ
+e(/ndeka	adjective	ἕνδεκα
+deh/sontai	verb	δέω
+e)n	preposition	ἐν/εἰς
+tai=s	article	ὁ
+di/kais	noun	δίκη
+tai=s	article	ὁ
+u(f'	preposition	ὑπό
+e(autw=n	pronoun	ἑαυτοῦ
+ei)sagome/nais	verb	εἰσάγω
+,	SENT	,
+w(/sper	adverb	ὥσπερ
+kai\	conjunction	???/καί
+nu=n	adverb	νῦν#1/νῦν
+;	SENT	;
+xrh\	verb	χρή/χρὴ
+toi/nun	particle	τοίνυν
+kai\	conjunction	???/καί
+u(pe\r	preposition	ὑπέρ
+u(mw=n	pronoun	σύ/ὑμεῖς
+au)tw=n	pronoun	αὐτός
+th\n	article	ὁ
+gnw/mhn	noun	γνώμη
+e)/xein	verb	ἔχω
+,	SENT	,
+e)nqumoume/nous	verb	ἐνθυμέομαι
+o(/ti	conjunction	ὅστις/ὅτι
+ou)de\n	pronoun	οὐδείς
+dioi/sei	verb	διαφέρω
+u(ma=s	pronoun	σύ/ὑμεῖς
+i)di/a|	adjective	ἴδιος
+peri\	preposition	περί
+th=s	article	ὁ
+a)stratei/as	noun	ἀστρατεία
+bohqei=n	verb	βοηθέω
+,	SENT	,
+h)\	conjunction	ἤ
+tou/twn	pronoun	οὗτος
+tina\s	pronoun	τις/τὶς
+dei=sqai	verb	δέομαι/δέω
+au)tou\s	pronoun	αὐτός
+th\n	article	ὁ
+yh=fon	noun	ψῆφος
+dido/ntas	verb	δίδωμι
+.	SENT	.
+ske/yasqe	verb	σκέπτομαι
+de/	particle	δέ/οὐδέ
+,	SENT	,
+w)=	interjection	ὦ
+a)/ndres	noun	ἀνήρ
+dikastai/	noun	δικαστής
+,	SENT	,
+e)a\n	conjunction	ἐάν
+i(kano\n	adjective	ἱκανός
+ge/nhtai	verb	γίγνομαι
+tekmh/rion	noun	τεκμήριον
+o(/ti	conjunction	ὅστις/ὅτι
+ou)dei/s	pronoun	οὐδείς
+pw	adverb	πω
+tw=n	article	ὁ/ὅς
+a)rxo/ntwn	noun	ἄρχων
+e)n	preposition	ἐν/εἰς
+tw=|	article	ὁ
+stratope/dw|	noun	στρατόπεδον
+*)alkibia/dh|	noun	Ἀλκιβιάδης
+h)=n	verb	είμί/εἰμί#1/εἰμί/ἠμί
+pareskeuasme/nos	verb	παρασκευάζω
+.	SENT	.
+e)xrh=n	verb	χρή
+ga\r	particle	γάρ
+au)tou/s	pronoun	αὐτός
+,	SENT	,
+ei)/per	conjunction	εἴπερ
+a)lhqh=	adjective	ἀληθής
+le/gousin	verb	λέγω
+,	SENT	,
+a)nakalei=n	verb	ἀνακαλέω
+me\n	particle	μέν
+*pa/mfilon	noun	Πάμφιλος
+,	SENT	,
+o(/ti	conjunction	ὅστις/ὅτι
+a)fairw=n	verb	ἀφαιρέω
+to\n	article	ὁ/τὸν
+i(/ppon	noun	ἵππος
+i(ppe/ws	noun	ἱππεύς
+a)peste/rei	verb	ἀποστερέω
+th\n	article	ὁ
+po/lin	noun	πόλις
+,	SENT	,
+e)piba/llein	verb	ἐπιβάλλω
+de\	adverb	δέ/οὐ
+tw=|	article	ὁ
+fula/rxw|	noun	φύλαρχος
+,	SENT	,
+o(/ti	conjunction	ὅστις/ὅτι
+e)celau/nwn	verb	ἐξελαύνω
+*)alkibia/dhn	noun	Ἀλκιβιάδης
+e)k	preposition	ἐκ
+th=s	article	ὁ
+fulh=s	noun	φυλή
+a)/kuron	noun	ἄκυρον
+e)poi/ei	verb	ποιέω
+th\n	article	ὁ
+tou/twn	adjective	οὗτος
+ta/cin	noun	τάξις
+,	SENT	,
+keleu/ein	verb	κελεύω
+de\	adverb	δέ/οὐ
+to\n	article	ὁ/τὸν
+taci/arxon	noun	ταξίαρχος
+e)calei/fein	verb	ἐξαλείφω
+au)to\n	pronoun	αὐτός
+e)k	preposition	ἐκ
+tou=	article	ὁ/ὅς/τὁ/ὀ
+tw=n	article	ὁ/ὅς
+o(plitw=n	noun	ὁπλίτης
+katalo/gou	noun	κατάλογος
+.	SENT	.
+nu=n	adverb	νῦν#1/νῦν
+de\	particle	μηδέ/δέ/οὐδέ
+tou/twn	pronoun	οὗτος
+ou)de\n	pronoun	οὐδείς
+e)poi/hsan	verb	ποιέω
+,	SENT	,
+a)ll'	conjunction	/ἀλλά/ἀλλα/ἀλλ̓
+e)n	preposition	ἐν/εἰς
+me\n	adverb	μέν
+tw=|	article	ὁ
+stratope/dw|	noun	στρατόπεδον
+periew/rwn	verb	περιοράω
+au)to\n	pronoun	αὐτός
+u(po\	preposition	ὑπό
+pa/ntwn	pronoun	πᾶς
+prophlakizo/menon	verb	προπηλακίζω
+k-	adverb	ἄν/καί
+a)n	preposition	ἐν/εἰς/ἔν
+toi=s	article	ὁ
+i(ppotoco/tais	noun	ἱπποτοξότης
+i(ppeu/onta	verb	ἱππεύω
+,	SENT	,
+e)peidh\	conjunction	ἐπειδή/ἐπεί
+de\	adverb	δέ/οὐ
+u(ma=s	pronoun	σύ/ὑμεῖς
+dei=	verb	δεῖ/δέομαι/δέω
+para\	preposition	πηρά/παρά
+tw=n	article	ὁ/ὅς
+a)dikou/ntwn	verb	ἀδικέω
+di/khn	noun	δίκη
+lamba/nein	verb	λαμβάνω
+,	SENT	,
+xarizo/menoi	verb	χαρίζω/χαρίζομαι
+marturou=sin	verb	μαρτυρέω/μαρτύρομαι
+u(f'	preposition	ὑπό
+e(autw=n	pronoun	ἑαυτοῦ
+au)to\n	pronoun	αὐτός
+teta/xqai	verb	τάσσω
+.	SENT	.
+kai/toi	adverb	καίτοι/καί_τοι
+deino/n	adjective	δεινός
+,	SENT	,
+w)=	interjection	ὦ
+a)/ndres	noun	ἀνήρ
+dikastai/	noun	δικαστής
+,	SENT	,
+au)tou\s	pronoun	αὐτός
+me\n	adverb	μέν
+tou\s	article	ὁ
+strathgou\s	noun	στρατηγός
+u(po\	preposition	ὑπό
+tou=	article	ὁ/ὅς/τὁ/ὀ
+dh/mou	noun	δῆμος
+xeirotonhqe/ntas	verb	χειροτονέω
+mh\	adverb	μή/μὴ
+a)\n	adverb	ἀν/ἄν/ἐάν
+tolmh=sai	verb	τολμάω
+pro/teron	adjective	πρότερος
+h(mw=n	pronoun	σύ/ἐγώ/ἡμεῖς
+h(gh/sasqai	verb	ἡγέομαι
+,	SENT	,
+e(/ws	conjunction	ἑώς/ἕως/ἔως
+a)\n	adverb	ἀν/ἄν/ἐάν
+e)dokima/sqhsan	verb	δοκιμάζω
+kata\	preposition	κατά
+tou\s	article	ὁ
+no/mous	noun	νόμος
+,	SENT	,
+*)alkibia/dhn	noun	Ἀλκιβιάδης
+de\	particle	μηδέ/δέ/οὐδέ
+tolma=n	verb	τολμάω
+para\	preposition	πηρά/παρά
+tou\s	article	ὁ
+th=s	article	ὁ
+po/lews	noun	πόλις
+no/mous	noun	νόμος
+u(p'	preposition	ὑπο/ὑπό
+au)tw=n	pronoun	αὐτός
+taxqh=nai	verb	τάσσω
+.	SENT	.
+deino\n	adjective	δεινός
+de/	particle	δέ/οὐδέ
+moi	pronoun	τις/ἐγώ
+dokei=	verb	δοκέω
+ei)=nai	verb	εἰμί#1/εἰμί
+,	SENT	,
+w)=	interjection	ὦ
+a)/ndres	noun	ἀνήρ
+dikastai/	noun	δικαστής
+,	SENT	,
+ei)	conjunction	εἰ
+tw=n	article	ὁ/ὅς
+me\n	adverb	μέν
+dedokimasme/nwn	verb	δοκιμάζω
+i(ppe/wn	noun	ἱππεύς
+ou)k	adverb	οὐ
+e)pi\	preposition	ἐπί
+tou/tois	pronoun	οὗτος
+e)sti\n	verb	εἰμί#1/εἰμί
+o(/ntina	pronoun	ὅστις
+bou/lontai	verb	βούλομαι
+au)toi\	pronoun	αὐτός
+ei)s	preposition	εἰς
+tou\s	article	ὁ
+o(pli/tas	noun	ὁπλίτης
+katale/cai	verb	καταλέγω
+,	SENT	,
+tw=n	article	ὁ/ὅς
+de\	adverb	δέ/οὐ
+o(plitw=n	noun	ὁπλίτης
+a)dokima/stwn	adjective	ἀδοκίμαστος
+o)/ntwn	verb	εἰμί#1/εἰμί
+e)pi\	preposition	ἐπί
+tou/tois	pronoun	οὗτος
+e)/stai	verb	εἰμί#1/εἰμί
+o(/ntin'	pronoun	ὅστις
+a)\n	adverb	ἀν/ἄν/ἐάν
+bou/lwntai	verb	βούλομαι
+i(ppeu/ein	verb	ἱππεύω
+.	SENT	.
+ei)	conjunction	εἰ
+me\n	adverb	μέν
+toi/nun	adverb	τοίνυν
+,	SENT	,
+w)=	interjection	ὦ
+a)/ndres	noun	ἀνήρ
+dikastai/	noun	δικαστής
+,	SENT	,
+o)/ntes	verb	εἰμί#1/εἰμί
+ku/rioi	noun	κύριος
+pollw=n	adjective	πολύς
+boulome/nwn	verb	βούλομαι
+mhde/na	pronoun	μηδείς
+tw=n	article	ὁ/ὅς
+a)/llwn	adjective	ἄλλος
+i(ppeu/ein	verb	ἱππεύω
+ei)/asan	verb	ἀίω/εἰάζω/ἐάω
+,	SENT	,
+ou)k	adverb	οὐ
+a)\n	particle	ἄν
+dikai/ws	adverb	δικαίως/δικαιός/δίκαιος
+xari/zoisqe	verb	χαρίζω/χαρίζομαι
+au)toi=s	pronoun	αὐτός
+:	SENT	:
+ei)	conjunction	εἰ
+d'	particle	οὐδέ/δέ/??
+a)/kuroi	adjective	ἄκυρος
+o)/ntes	verb	εἰμί#1/εἰμί
+o(mologh/sousi	verb	ὁμολογέω
+ta/cai	verb	τάσσω
+,	SENT	,
+e)nqumei=sqai	verb	ἐνθυμέομαι
+xrh\	verb	χρή/χρὴ
+o(/ti	conjunction	ὅστις/ὅτι
+o)mwmo/kate	verb	ὄμνυμι
+ta\	article	ὁ/τίς
+di/kaia	adjective	δίκαιος
+gnw/sesqai	verb	γιγνώσκω
+,	SENT	,
+a)ll'	conjunction	/ἀλλά/ἀλλα/ἀλλ̓
+ou)x	adverb	οὐ
+o(/	pronoun	/ὅ/ὅστις/ὁς/ὅς/ὁ
+ti	pronoun	τις/τίς/τὶς
+a)\n	adverb	ἀν/ἄν/ἐάν
+ou(=toi	pronoun	οὗτος
+keleu/wsi	verb	κελεύω
+yhfiei=sqai	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+w(/ste	conjunction	ὥστε
+ou)de/na	pronoun	οὐδείς
+xrh\	verb	χρή/χρὴ
+tw=n	article	ὁ/ὅς
+deome/nwn	verb	δέομαι/δέω
+peri\	preposition	περί
+plei/onos	adjective	πλείων/πολύς
+u(mw=n	pronoun	σύ/ὑμεῖς
+au)tw=n	pronoun	αὐτός
+kai\	conjunction	???/καί
+tw=n	article	ὁ/ὅς
+o(/rkwn	noun	ὅρκος
+poiei=sqai	verb	ποιέω
+.	SENT	.
+kai\	conjunction	???/καί
+me\n	particle	μέν
+dh/	particle	δή
+,	SENT	,
+w)=	interjection	ὦ
+a)/ndres	noun	ἀνήρ
+dikastai/	noun	δικαστής
+,	SENT	,
+ei)/	conjunction	εἰ
+tw|	pronoun	τις
+dokei=	verb	δοκέω
+mega/lh	adjective	μέγας
+h(	article	ὁ
+zhmi/a	noun	ζημία
+ei)=nai	verb	εἰμί#1/εἰμί
+kai\	conjunction	???/καί
+li/an	adverb	λίαν
+i)sxuro\s	adjective	ἰσχυρός
+o(	article	ὁ
+no/mos	noun	νόμος
+,	SENT	,
+memnh=sqai	verb	μιμνῄσκω/μιμνήσκω
+xrh\	verb	χρή/χρὴ
+o(/ti	conjunction	ὅστις/ὅτι
+ou)	adverb	οὐκ/οὔπως/οὐ
+nomoqeth/sontes	verb	νομοθετέω
+peri\	preposition	περί
+au)tw=n	pronoun	αὐτός
+h(/kete	verb	ἥκω
+,	SENT	,
+a)lla\	conjunction	ἀλλά/ἀλλὰ
+kata\	preposition	κατά
+tou\s	article	ὁ
+keime/nous	verb	κεῖμαι
+no/mous	noun	νόμος
+yhfiou/menoi	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+ou)de\	conjunction	οὐδὲ/οὐδέ
+tou\s	article	ὁ
+a)dikou=ntas	verb	ἀδικέω
+e)leh/sontes	verb	ἐλεάω/ἐλεέω
+,	SENT	,
+a)lla\	conjunction	ἀλλά/ἀλλὰ
+polu\	adjective	πολύς
+ma=llon	adverb	μάλα/μᾶλλον
+au)toi=s	pronoun	αὐτός
+o)rgiou/menoi	verb	ὀργίζω
+kai\	conjunction	???/καί
+o(/lh|	adjective	ὅλος
+th=|	article	ὁ/τῇ
+po/lei	noun	πόλις
+bohqh/sontes	verb	βοηθέω
+,	SENT	,
+eu)=	adverb	εὖ
+ei)do/tes	verb	εἴδω/οἶδα
+o(/ti	conjunction	ὅστις/ὅτι
+u(pe\r	preposition	ὑπέρ
+tw=n	article	ὁ/ὅς
+parelhluqo/twn	verb	παρέρχομαι
+o)li/gous	adjective	ὀλίγος
+timwrhsa/menoi	verb	τιμωρέω
+pollou\s	adjective	πολύς
+poih/sete	verb	ποιέω
+kosmiwte/rous	adjective	κόσμιος
+e)n	preposition	ἐν/εἰς
+toi=s	article	ὁ
+me/llousi	verb	μέλλω
+kinduneu/ein	verb	κινδυνεύω
+.	SENT	.
+xrh\	verb	χρή/χρὴ
+de/	particle	δέ/οὐδέ
+,	SENT	,
+w)=	interjection	ὦ
+a)/ndres	noun	ἀνήρ
+dikastai/	noun	δικαστής
+,	SENT	,
+w(/sper	conjunction	ὥσπερ
+ou(=tos	pronoun	οὗτος
+a)melh/sas	verb	ἀμελέω
+th=s	article	ὁ
+po/lews	noun	πόλις
+th\n	article	ὁ
+au(tou=	adjective	ἑαυτοῦ
+swthri/an	noun	σωτηρία
+e)ske/yato	verb	σκέπτομαι
+,	SENT	,
+ou(/tws	adverb	οὕτω(ς)/οὕτως
+u(ma=s	pronoun	σύ/ὑμεῖς
+a)melh/santas	verb	ἀμελέω
+tou/tou	pronoun	οὗτος
+th=|	article	ὁ/τῇ
+po/lei	noun	πόλις
+ta\	article	ὁ/τίς
+be/ltista	adjective	βέλτιστος
+yhfi/sasqai	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+a)/llws	adverb	ἄλλος/ἄλλως
+te	particle	τε/??/οὔτε
+kai\	conjunction	???/καί
+o(/rkous	noun	ὅρκος
+o)mwmoko/tas	verb	ὄμνυμι
+kai\	conjunction	???/καί
+peri\	preposition	περί
+*)alkibia/dou	noun	Ἀλκιβιάδης
+me/llontas	verb	μέλλω
+yhfi/sasqai	verb	ψηφίζω/ψηφίζομαι
+,	SENT	,
+o(\s	pronoun	ὅς
+e)a\n	conjunction	ἐάν
+u(ma=s	pronoun	σύ/ὑμεῖς
+e)capath/sh|	verb	ἐξαπατάω
+,	SENT	,
+katagelw=n	verb	καταγελάω
+th=s	article	ὁ
+po/lews	noun	πόλις
+a)/peisin	verb	ἄπειμι
+:	SENT	:
+ou)	adverb	οὐκ/οὔπως/οὐ
+ga\r	particle	γάρ
+dh\	particle	δή
+xa/rin	noun	χάρις
+ge	particle	γε
+u(mi=n	pronoun	σύ/ὑμεῖς
+a)podw/sei	verb	ἀποδίδωμι
+th=|	article	ὁ/τῇ
+yh/fw|	noun	ψῆφος
+kru/bdhn	adverb	κρύβδην
+eu)=	adverb	εὖ
+paqw/n	verb	πάσχω
+,	SENT	,
+o(\s	pronoun	ὅς
+tw=n	article	ὁ/ὅς
+fi/lwn	adjective	φίλος
+tou\s	article	ὁ
+fanerw=s	adverb	φανερός/φανερῶς
+au)to\n	pronoun	αὐτός
+eu)=	adverb	εὖ
+poih/santas	verb	ποιέω
+kakw=s	adverb	κακῶς/κακός
+poiei=	verb	ποιέω
+.	SENT	.
+u(mei=s	pronoun	σύ/ὑμεῖς
+ou)=n	particle	οὖν
+,	SENT	,
+w)=	interjection	ὦ
+a)/ndres	noun	ἀνήρ
+dikastai/	noun	δικαστής
+,	SENT	,
+ta\s	article	ὁ
+tou/twn	adjective	οὗτος
+deh/seis	noun	δέησις
+peri\	preposition	περί
+e)la/ttonos	adjective	ἐλάσσων
+poihsa/menoi	verb	ποιέω
+ta\	article	ὁ/τίς
+di/kaia	adjective	δίκαιος
+yhfi/sasqe	verb	ψηφίζω/ψηφίζομαι
+.	SENT	.
+a)pode/deiktai	verb	ἀποδείκνυμι
+de\	particle	μηδέ/δέ/οὐδέ
+katalegei\s	verb	καταλέγω
+ei)s	preposition	εἰς
+tou\s	article	ὁ
+o(pli/tas	noun	ὁπλίτης
+kai\	conjunction	???/καί
+lipw\n	verb	λείπω
+th\n	article	ὁ
+ta/cin	noun	τάξις
+kai\	conjunction	???/καί
+tw=n	article	ὁ/ὅς
+no/mwn	noun	νόμος
+kwluo/ntwn	verb	κωλύω
+a)doki/mastos	adjective	ἀδοκίμαστος
+i(ppeu/sas	verb	ἱππεύω
+,	SENT	,
+kai\	conjunction	???/καί
+peri\	preposition	περί
+w(=n	pronoun	ὅς
+oi(	article	ὁ/ὀ/οὗ
+no/moi	noun	νόμος
+diarrh/dhn	adverb	διαρρήδην
+ou)/te	conjunction	οὔτε/οὐτε
+strathgo\n	noun	στρατηγός
+ou)/te	conjunction	οὔτε/οὐτε
+i(/pparxon	noun	ἵππαρχος
+ou)/te	conjunction	οὔτε/οὐτε
+a)/llon	adjective	ἄλλος
+ou)de/na	pronoun	οὐδείς
+kuriw/teron	adjective	κύριος
+e)kei/nwn	pronoun	ἐκεῖνος/ἐκείνος
+a)podeiknu/ousi	verb	ἀποδείκνυμι
+,	SENT	,
+peri\	preposition	περί
+tou/twn	pronoun	οὗτος
+i)diw/ths	noun	ἰδιώτης
+w)\n	verb	εἰμί#1/εἰμί
+th\n	article	ὁ
+e)cousi/an	noun	ἐξουσία
+au(tw=|	pronoun	ἑαυτοῦ
+dedwkw/s	verb	δίδωμι
+.	SENT	.
+e)gw\	pronoun	ἐγώ
+me\n	particle	μέν
+ou)=n	adverb	οὖν
+kai\	conjunction	???/καί
+fi/lw|	adjective	φίλος
+o)/nti	verb	εἰμί#1/εἰμί
+*)arxestrati/dh|	noun	Ἀρχεστρατίδης
+bohqw=n	adjective	βοηθός
+,	SENT	,
+kai\	conjunction	???/καί
+*)alkibia/dhn	noun	Ἀλκιβιάδης
+e)xqro\n	adjective	ἐχθρός
+o)/nta	verb	εἰμί#1/εἰμί/εἴμι
+e)mautou=	pronoun	ἐμαυτοῦ
+timwrou/menos	verb	τιμωρέω
+,	SENT	,
+de/omai	verb	δέω#2/δέομαι/δέω
+ta\	article	ὁ/τίς
+di/kaia	adjective	δίκαιος
+yhfi/sasqai	verb	ψηφίζω/ψηφίζομαι
+:	SENT	:
+u(ma=s	pronoun	σύ/ὑμεῖς
+de\	particle	μηδέ/δέ/οὐδέ
+xrh\	verb	χρή/χρὴ
+th\n	article	ὁ
+au)th\n	adjective	αὐτός
+gnw/mhn	noun	γνώμη
+e)/xontas	verb	ἔχω
+th\n	article	ὁ
+yh=fon	noun	ψῆφος
+fe/rein	verb	φέρω
+,	SENT	,
+h(/nper	pronoun	ὅς
+o(/te	conjunction	ὅσε/ὅτε
+w)/|esqe	verb	οἴομαι
+pro\s	preposition	πρός
+tou\s	article	ὁ
+polemi/ous	adjective	πολέμιος
+diakinduneu/sein	verb	διακινδυνεύω
+.	SENT	.
