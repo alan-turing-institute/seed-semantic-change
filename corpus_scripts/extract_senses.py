@@ -28,7 +28,7 @@ headers = ws2[config['excel_range']['headers']]
 h_file = {cell.value : n for n, cell in enumerate(headers[0])}
 files = ws2[config['excel_range']['range']]
 
-fields = ['date', 'genre', 'author', 'work', 'tlg author', 'tlg work', 'sentence location', 'sentence id', 'sentence ids', 'sentence original', 'target id', 'sense id', 'difficulty code']
+fields = ['date', 'genre', 'author', 'work', 'tlg author', 'tlg work', 'sentence location', 'sentence id', 'sentence ids', 'sentence original', 'target id', 'sense id', 'disambiguation']
 
 target_words = {x for x in sys.argv[1:]}
 if len(target_words) == 0:
