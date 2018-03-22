@@ -66,8 +66,8 @@ def sense_in_file():
 						continue
 				print('Input sense: "%s"'%sense_glosses[int(i_s)-1])
 				while True:
-					notes = input('How did it go? (1 - no problem ; 2 - too little context ; 3 - unclear context ; 4 - wrong lemmatization) ')
-					if int(notes) in range(1,5):
+					notes = input('How did you identify the sense? (1 - collocates ; 2 - background knowledge ; 3 - world knowledge ; 4 - logic (other senses would be absurd) ; 5 - genre ; 6 - register ; 7 - error (lemmatization, tokenization, spelling)) ')
+					if int(notes) in range(1,8):
 						break
 				print()
 				sentence.xpath('./word/lemma[@id="%s"][not(@sense)]'%word_id)[0].set('notes', notes)
