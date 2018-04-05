@@ -10,6 +10,7 @@ import operator
 import textwrap
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
+os.system("printf '\e[0m'")
 os.system("clear && printf '\e[3J'")
 config = configparser.ConfigParser()
 config.read('config.ini')
@@ -34,19 +35,25 @@ def sense_in_file():
 		current_file = '%s/%s'%(annotated,file[h_file['Tokenized file']].value)
 		parse = etree.parse(current_file)
 		target_words_hits = parse.xpath('//word[lemma[@id="%s"][not(@sense)]]'%word_id)
+		sys.stdout.write('\r\033[KSearching %s...'%os.path.basename(current_file))
+		sys.stdout.flush()
 		if len(target_words_hits)>0 :
-			sentences = set()
+			sentences = []
 			author = parse.xpath('//author')[0].text
 			title = parse.xpath('//title')[0].text
-			print('%s - %s (%s sentences)'%(author, title, len(target_words_hits)))
-			for hit in target_words_hits:
-				sentences.add(hit.getparent())
-			for sentence in sentences:
+			sys.stdout.write('\r\033[K%s - %s (%s hits)\n'%(author, title, len(target_words_hits)))
+			sys.stdout.flush()
+			for idx,hit in enumerate(target_words_hits):
+				sentence=hit.getparent()
+				target_word_id = hit.get('id')
 				w_i_s = sentence.xpath('./word')
 				location = sentence.get('location')
-				sentence_form = ' '.join([convertBeta(x.get('form')) for x in w_i_s])
-				spaces = 12-len(location)
-				print('%s[%s] %s'%(spaces*' ', location, textwrap.wrap(sentence_form, width = 100)[0]))
+				sentence_form = [convertBeta(x.get('form')) for x in w_i_s]
+				sentence_form[int(target_word_id)-1]='\033[1;31;47m\u00a0%s\u00a0\033[0m'%sentence_form[int(target_word_id)-1]
+				sentence_form = ' '.join(sentence_form)
+				idxStr = '%s/%s'%(idx+1,len(target_words_hits))
+				spaces = 12-len(location)-len(idxStr)
+				print('%s%s[%s] %s'%(idxStr,spaces*' ', location, textwrap.wrap(sentence_form, width = 100)[0]))
 				try:
 					print(textwrap.indent('\n'.join(textwrap.wrap(sentence_form, width = 100)[1:]), 15*' '))
 				except:
@@ -57,21 +64,25 @@ def sense_in_file():
 				prompt_lines = []
 				for idx,x in enumerate(sense_input):
 					prompt_lines.append('%s: %s'%(x, sense_glosses[idx]))
-				while True:
-					i_s = input('Enter sense:\n\t%s\n\t'%'\n\t'.join(prompt_lines))
-					try:
-						if int(i_s) <= len(senses) and int(i_s) > 0:
-							break
-					except:
-						continue
-				print('Input sense: "%s"'%sense_glosses[int(i_s)-1])
+				try:
+					while True:
+						i_s = input('Enter sense:\n\t%s\n\t\033[31;47;1m'%'\n\t'.join(prompt_lines))
+						os.system("printf '\e[0m'")
+						try:
+							if int(i_s) <= len(senses) and int(i_s) > 0:
+								break
+						except:
+							continue
+				except KeyboardInterrupt:
+					os.system("printf '\e[0m'")
+				print('Input sense: \033[45;1m %s \033[0m\033[K'%sense_glosses[int(i_s)-1])
 				while True:
 					notes = input('How did you identify the sense? (1 - collocates ; 2 - background knowledge ; 3 - world knowledge ; 4 - logic (other senses would be absurd) ; 5 - genre ; 6 - register ; 7 - error (lemmatization, tokenization, spelling)) ')
 					if int(notes) in range(1,8):
 						break
 				print()
-				sentence.xpath('./word/lemma[@id="%s"][not(@sense)]'%word_id)[0].set('notes', notes)
-				sentence.xpath('./word/lemma[@id="%s"][not(@sense)]'%word_id)[0].set('sense', sense_ids[int(i_s)-1])
+				hit.xpath('./lemma[@id="%s"]'%word_id)[0].set('notes', notes)
+				hit.xpath('./lemma[@id="%s"]'%word_id)[0].set('sense', sense_ids[int(i_s)-1])
 				parse.write(current_file, xml_declaration = True, encoding='UTF-8', pretty_print=True)
 
 #extract target word data
