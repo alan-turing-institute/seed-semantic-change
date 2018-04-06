@@ -88,7 +88,7 @@ def sense_in_file():
 #extract target word data
 word_senses = {}
 for record in data:
-	word_id = record[h_sense['TERM ID']].value
+	word_id = str(record[h_sense['TERM ID']].value)
 	word = record[h_sense['TERM']].value
 	sense_id = record[h_sense['SENSE LSJ']].value
 	sense = record[h_sense['SENSE']].value
