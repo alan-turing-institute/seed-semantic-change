@@ -246,10 +246,10 @@ for file in files:
 	print('%d out of %d'%(index,len(files)))
 	title = file[h['Work']].value
 	author = file[h['Author']].value
-	tlgAuthor = os.path.basename(file[h['Source file']].value).split(".")[0]
 	tlgId = file[h['Source file']].value.split(".")[1]
 	if os.path.exists('%s/%s - %s (%s).xml'%(tf, author, title, tlgId)):
 		continue
+	tlgAuthor = os.path.basename(file[h['Source file']].value).split(".")[0]
 	print('\t%s (%s): %s (%s)'%(author,tlgAuthor,title,tlgId))
 	tokenizePerseus(file[h['Source file']].value)
 	print()
