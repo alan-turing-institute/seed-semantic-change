@@ -3,3 +3,11 @@ K1 = maybe 'mussel'
 K2 = definitely 'mussel'
 K3 = definitely 'muscle'
 K4 = generic, maybe 'mouse'
+
+
+['mus-1', 'mus-2', 'mus-4']
+
+mouse	mus-1
+muscle	mus-4
+mussel	mus-2
+whale	mus-3
