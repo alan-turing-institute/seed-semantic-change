@@ -1,0 +1,5 @@
+K0 = generic, maybe 'mouse'
+K1 = maybe 'mussel'
+K2 = definitely 'mussel'
+K3 = definitely 'muscle'
+K4 = generic, maybe 'mouse'
