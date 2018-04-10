@@ -106,7 +106,8 @@ for idx,record in enumerate(files):
 			form = ' '.join(convertBeta(x.get('form')) for x in curr_text.xpath('//sentence[@id="%s"]/word'%sentence_id))
 			instance = instance.replace('*\n', '*\t%s\t%s\t%s\t%s\n'%(form,tw,sense,notes))
 			instance = instance.replace('**', ' ').replace('*', '')
-			ttw += instance	
+			if instance != '\n':
+				ttw += instance	
 		fname.write(ttw.strip())
 	del curr_text, finalTxt, ttw
 for fname in tw_files.values():
