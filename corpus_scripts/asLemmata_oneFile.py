@@ -148,6 +148,8 @@ output_file_name = input('Output file name: ')
 fullText=open('%s/%s'%(dir, output_file_name), 'w')
 finalString = ''
 
+totalSentences = 0
+
 for idx,record in enumerate(files):
 	file = '%s/%s'%(af,record[h['Tokenized file']].value)
 	wy = str(record[h['Date']].value)
@@ -193,6 +195,7 @@ for idx,record in enumerate(files):
 		word_count = 0
 		for node in nodes:
 			if node.tag == 'sentence':
+				totalSentences += 1
 				finalTxt += '\n'
 				if toggle_sentence_id == True:
 					finalTxt += '[%s]%s[sentence_id:%s][sentence_loc:%s]\t'%(wy,wid,node.get('id'),node.get('location'))
@@ -225,7 +228,7 @@ for idx,record in enumerate(files):
 	if filterStopWords == "True":
 		for stop in STOPS_LIST_ID:
 			finalTxt = re.sub('\*%s\*'%stop, '', finalTxt)
-		finalTxt = re.sub('.*?\t\n','',finalTxt)
+		#finalTxt = re.sub('.*?\t\n','',finalTxt)
 				
 	if word_list_toggle == True:
 		allInstances = re.findall(search, finalTxt)
@@ -249,3 +252,4 @@ for idx,record in enumerate(files):
 fullText.write(finalString.strip())
 fullText.close()
 print('\n###########\n#All done!#\n###########\n')
+print('Total sentences:', totalSentences)
