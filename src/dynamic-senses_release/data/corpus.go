@@ -103,13 +103,14 @@ func Create_corpus_from_text(txt_corpus_path, target_concept_path string, window
             /* iterated through text in line and record a document whenever we find a target word */
             for wIdx:=0 ; wIdx < len(words) ; wIdx++ {
                 if _, ok := target_word_dict[words[wIdx]] ;  ok {
-                    if wIdx > window_size && wIdx < len(words)-window_size {
+                    //if wIdx > window_size && wIdx < len(words)-window_size {
+                    if wIdx > 0 && wIdx < len(words) {    // VP: relaxed requirement to allow for incomplete windows
                         doc := NewDocument()
                         doc.Target = corpus.TargetFeatures.Lookup(words[wIdx])
                         doc.Time   = year
                         cxt := make(map[int]int)
-                        for i:=wIdx-window_size ; i<wIdx+window_size+1 ; i++ {
-                            if i != wIdx {
+                        for i:=wIdx-window_size ; i<wIdx+window_size+1 ; i++ {  // VP: nothing thrown away if larger window.
+                            if i != wIdx && i >= 0 && i < len(words) {   // VP: to prevent index error
                                 cxt[corpus.ContextFeatures.Lookup(words[i])]++
                             }
                         }
