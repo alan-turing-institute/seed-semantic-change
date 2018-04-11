@@ -5,9 +5,17 @@ K3 = definitely 'muscle'
 K4 = generic, maybe 'mouse'
 
 
-['mus-1', 'mus-2', 'mus-4']
+['mus-1', 'NA', 'mus-4', 'mus-2']
 
 mouse	mus-1
 muscle	mus-4
 mussel	mus-2
 whale	mus-3
+
+Correct pairs :
+
+K0 - S0 / S1
+K1 - S3 / S1
+K2 - S3
+K3 - S2
+K4 - S0 / S1
