@@ -44,6 +44,7 @@ for tw in target_words:
 for idx,record in enumerate(files):
 	file = '%s/%s'%(annotated,record[h_file['Tokenized file']].value)
 	date = str(record[h_file['Date']].value)
+	century = str(record[h_file['Century']].value)
 	genre = str(record[h_file['Genre']].value)
 	author = str(record[h_file['Author']].value)
 	tlg_work = str(record[h_file['TLG ID']].value)
@@ -66,7 +67,7 @@ for idx,record in enumerate(files):
 	for node in nodes:
 		if node.tag == 'sentence':
 			finalTxt += '\n'
-			finalTxt += '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t'%(date,genre,author,work,tlg_author,tlg_work,node.get('location'),node.get('id'))			
+			finalTxt += '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t'%(century,date,genre,author,work,tlg_author,tlg_work,node.get('location'),node.get('id'))			
 		elif node.tag == 'word':
 			lemma_count = len(node.xpath('./lemma'))
 			if lemma_count == 1:
@@ -96,18 +97,17 @@ for idx,record in enumerate(files):
 	finalTxt = re.sub('.*?\t\n','',finalTxt)
 	
 	for tw,fname in tw_files.items():
-		fname.write('\n')
 		ttw = ''
 		allInstances = re.findall('.*?\*'+tw+'\*.*?\n', finalTxt)
+		if len(allInstances) > 0: fname.write('\n')
 		for instance in allInstances:
-			sentence_id = instance.split('\t')[7]
+			sentence_id = instance.split('\t')[8]
 			sense = curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('sense')
 			notes = curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('notes')
 			form = ' '.join(convertBeta(x.get('form')) for x in curr_text.xpath('//sentence[@id="%s"]/word'%sentence_id))
 			instance = instance.replace('*\n', '*\t%s\t%s\t%s\t%s\n'%(form,tw,sense,notes))
 			instance = instance.replace('**', ' ').replace('*', '')
-			if instance != '\n':
-				ttw += instance	
+			ttw += instance	
 		fname.write(ttw.strip())
 	del curr_text, finalTxt, ttw
 for fname in tw_files.values():
