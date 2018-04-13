@@ -31,6 +31,14 @@ scores={}
 colour={}
 colours={hex for name, hex in colors.cnames.items()}
 
+#removing colours too bright to display
+toPop=[]
+for color in colours:
+	if 0.2126*int(color[1:3],16)+0.7152*int(color[3:5],16)+0.0722*int(color[5:7],16) > 180:
+		toPop.append(color)
+for color in toPop:
+	colours.remove(color)
+
 for file in input_files:
 	lf = open('%s/senses_%s.txt'%(dir,file), 'r')
 	for line in lf:
