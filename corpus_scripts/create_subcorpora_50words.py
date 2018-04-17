@@ -38,6 +38,7 @@ for word in words:
 		testing.add(training.pop())
 	open('%s/subcorpora/training/%s.txt'%(dir,str(word[0].value)), 'w').write(''.join([x for x in training]))
 	open('%s/subcorpora/test/%s.txt'%(dir,str(word[0].value)), 'w').write(''.join([x for x in testing]))
+print('All done! What a joy!')
 
 
 
