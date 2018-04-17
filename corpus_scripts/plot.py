@@ -4,7 +4,11 @@ import configparser
 import matplotlib.pyplot as plot
 import matplotlib.colors as colors
 import numpy
+import sys
 from openpyxl import load_workbook
+
+import matplotlib as plt
+plt.rcParams.update({'figure.max_open_warning': 0})
 
 os.system("clear && printf '\e[3J'")
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
@@ -30,7 +34,6 @@ input_files = ['15281', '69419']
 scores={}
 colour={}
 colours={hex for name, hex in colors.cnames.items()}
-
 #removing colours too bright to display
 toPop=[]
 for color in colours:
@@ -55,6 +58,17 @@ for file in input_files:
 			colour[sense]
 		except:
 			colour[sense]=colours.pop()
+
+col = {'Comedy':'darkblue',
+'Essays':'lightblue',
+'Letters':'red',
+'Narrative':'orange',
+'Oratory':'maroon',
+'Philosophy':'green',
+'Poetry':'gold',
+'Religion':'chartreuse',
+'Technical':'salmon',
+'Tragedy':'purple'}
 
 #by genre
 print('Generating plots per genre')
@@ -126,11 +140,75 @@ for century,words in centuries.items():
 	for word_idx,(word,senses) in enumerate(words.items()):
 		scores_plot_totals = [0 for x in colLabels]
 		for sense_idx,(sense,genres) in enumerate(senses.items()):
- 			scores_plot = []
- 			for x in colLabels:
+			scores_plot = []
+			for x in colLabels:
  				scores_plot.append(genres.get(x, 0))
- 			ax.bar(colPositions[word_idx],scores_plot, width,bottom=scores_plot_totals,color=colour[sense],label='%s: %s'%(word,word_senses[sense]))
- 			scores_plot_totals=[scores_plot_totals[idx]+x for idx,x in enumerate(scores_plot)]
+			ax.bar(colPositions[word_idx],scores_plot, width,bottom=scores_plot_totals,color=colour[sense],label='%s: %s'%(word,word_senses[sense]))
+			scores_plot_totals=[scores_plot_totals[idx]+x for idx,x in enumerate(scores_plot)]
 	ax.legend(loc='best', fontsize='x-small')
 	plot.tight_layout()
 	plot.savefig('%s/plots/%s.png'%(dir,century), format='png')
+	
+#by sense
+print('Generating plots per sense')
+senses = {}
+word_scores = {}
+for (sense,genre,century),score in scores.items():
+	senses.setdefault(sense,{}).setdefault(genre,{}).setdefault(century,score)
+	word=sense[:sense.find('-')]
+	word_scores.setdefault(word,{}).setdefault(century,0)
+	word_scores[word][century]+=score
+	word_scores.setdefault(sense,{}).setdefault(century,0)
+	word_scores[sense][century]+=score
+#a plot per sense
+#time variation
+for sense,genres in senses.items():
+	word=sense[:sense.find('-')]
+	colLabels=[str(x) for x in [-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
+	Ncols=numpy.arange(len(colLabels))
+	fig,ax=plot.subplots()
+	ax.set_xlabel('Centuries')
+	ax.set_ylabel('Frequency (%) of sense per century')
+	ax.set_xticks(Ncols)
+	ax.set_xticklabels(colLabels)
+	ax.set_title('%s: %s'%(sense,word_senses[sense]))
+	ax.set_ylim([0,107])
+	width = 0.4
+	scores_plot_totals = [0 for x in colLabels]
+	labels = {}
+	[labels.setdefault(x, [Ncols[idx], 0, '']) for idx,x in enumerate(colLabels)]
+	for genre,century in genres.items():
+		scores_plot = []
+		for idx, x in enumerate(colLabels):
+			scores_plot.append(century.get(x, 0)*100/word_scores[word].get(str(x),1))
+			scoresum = scores_plot[idx]+scores_plot_totals[idx]
+			if scoresum > labels[x][1]:
+				labels[x][1] = scoresum
+				labels[x][2] = '%s%%'%round(scoresum,2)
+		ax.bar(Ncols,scores_plot, width,bottom=scores_plot_totals,color=col[genre],label=genre)
+		scores_plot_totals=[scores_plot_totals[idx]+x for idx,x in enumerate(scores_plot)]
+	del scoresum
+	for x in labels.values():
+		ax.text(x[0], x[1]+1, x[2], fontsize=8, horizontalalignment='center')
+	ax.legend(loc='best', fontsize='x-small')
+	plot.savefig('%s/plots/by_sense/%s-time.png'%(dir,sense), format='png')
+#genre variation	
+	fig,ax=plot.subplots()
+	ax.set_xlabel('Centuries')
+	ax.set_ylabel('Distribution of genres per century (%)')
+	ax.set_xticks(Ncols)
+	ax.set_xticklabels(colLabels)
+	ax.set_title('%s: %s'%(sense,word_senses[sense]))
+	ax.set_ylim([0,103])
+	width = 0.4
+	scores_plot_totals = [0 for x in colLabels]
+	labels = {}
+	[labels.setdefault(x, [Ncols[idx], 0, '']) for idx,x in enumerate(colLabels)]
+	for genre,century in genres.items():
+		scores_plot = []
+		for idx, x in enumerate(colLabels):
+			scores_plot.append(century.get(x, 0)*100/word_scores[sense].get(str(x),1))
+		ax.bar(Ncols,scores_plot, width,bottom=scores_plot_totals,color=col[genre],label=genre)
+		scores_plot_totals=[scores_plot_totals[idx]+x for idx,x in enumerate(scores_plot)]
+	ax.legend(loc='best', fontsize='x-small')
+	plot.savefig('%s/plots/by_sense/%s-genre.png'%(dir,sense), format='png')
