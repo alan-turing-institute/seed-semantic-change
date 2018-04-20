@@ -28,6 +28,7 @@ for record in files:
 	work = record[h['Work']].value
 	genre = record[h['Genre']].value
 	path = '%s/%s'%(af,record[h['Tokenized file']].value)
+	if os.path.isfile('%s/%s'%(for_tt,record[h['Tokenized file']].value.replace('xml','txt'))): continue
 	open('%s/%s'%(for_tt,record[h['Tokenized file']].value.replace('xml','txt')), 'w')
 	open('%s/%s'%(for_tt_cmp,record[h['Tokenized file']].value.replace('xml','txt')), 'w')
 	output_singlefile=open('%s/%s'%(for_tt,record[h['Tokenized file']].value.replace('xml','txt')), 'a')

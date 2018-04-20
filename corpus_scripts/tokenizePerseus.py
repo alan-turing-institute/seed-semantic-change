@@ -92,7 +92,7 @@ def tokenizePerseus(fileName):
 	brokenWord = ''
 	for elem in sourceText.iter():
 		index += 1
-		if (tagWONS(elem.getparent())[:3] == 'div' or tagWONS(elem.getparent()) == 'sp' or tagWONS(elem.getparent()) == 'said' or tagWONS(elem.getparent()) == 'q') and (tagWONS(elem)=="p" or tagWONS(elem)=="l" or tagWONS(elem)=="quote" or tagWONS(elem)=="cit"):
+		if (tagWONS(elem.getparent())[:3] == 'div' or tagWONS(elem.getparent()) == 'sp' or tagWONS(elem.getparent()) == 'said' or tagWONS(elem.getparent()) == 'q' or tagWONS(elem.getparent()) == 'body') and (tagWONS(elem)=="p" or tagWONS(elem)=="l" or tagWONS(elem)=="quote" or tagWONS(elem)=="cit" or tagWONS(elem)=="milestone"):
 			#retrieve text and annotate quotes and lacunas
 			nodesWithText='./text()|.//l/text()|.//quote/text()|.//add/text()|.//cit//text()|.//said/text()|.//q/text()|.//p/text()'
 			nodesWithTextN='./text()|.//n:l/text()|.//n:quote/text()|.//n:add/text()|.//n:cit//text()|.//n:said/text()|.//n:q/text()|.//n:p/text()'

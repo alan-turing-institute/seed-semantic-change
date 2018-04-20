@@ -24,6 +24,7 @@ files = ws2[config['excel_range']['range']]
 
 for idx,record in enumerate(files):
 	file = '%s/%s'%(annotated,record[h_file['Tokenized file']].value)
+	if os.path.isfile('%s/%s'%(fc,record[h_file['Tokenized file']].value)): continue
 	curr_text = document.parse(file)
 	print("Converting %s"%os.path.basename(file))
 	init_tokens = str(len(curr_text.xpath('//word')))

@@ -19,6 +19,7 @@ while True:
 		break
 if re.search('[yY]', a) != None:
 	for filename in os.listdir(tt_source):
+		if os.path.isfile('%s/%s'%(tt_output,filename)):continue
 		os.system("{tt_folder}/tree-tagger {curr_folder}/TreeTaggerData/ancient_greek.dat \"{tt_source}/{filename}\" \"{tt_output}/{filename}\" -token".format(tt_folder=treetagger, tt_source=tt_source, tt_output=tt_output, curr_folder=os.path.dirname(os.path.realpath(__file__)), filename=filename))
 
 print('More magic under way...')
