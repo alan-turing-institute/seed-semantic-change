@@ -9,6 +9,7 @@ from grkLemmata import greekLemmata
 import time
 from openpyxl import load_workbook
 import configparser
+from copy import deepcopy
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 config = configparser.ConfigParser()
@@ -16,7 +17,9 @@ config.read('config.ini')
 file_list = config['paths']['file_list']
 tf = config['paths']['tokenized']
 af = config['paths']['annotated']
+rc = config['paths']['raw_corpora']
 logf = config['paths']['logs']
+parser = document.XMLParser(remove_blank_text=True)
 
 wb = load_workbook('%s/file_list.xlsx'%file_list)
 ws = wb.active
@@ -161,7 +164,43 @@ for record in files:
 	fileName = record[h['Tokenized file']].value
 	if os.path.exists('%s/%s'%(af, fileName)):
 		continue
-	parse = document.parse(file)
+	parse = document.parse(file, parser)
+
+	#metadata
+	parse.xpath('//tlgAuthor')[0].text = record[h['TLG Author']].value
+	parse.xpath('//tlgId')[0].text = record[h['TLG ID']].value
+	teiHeader = parse.xpath('//teiHeader')[0]
+	sourceDesc = document.SubElement(teiHeader.xpath('./fileDesc')[0], 'sourceDesc')
+	ref = document.SubElement(sourceDesc, 'ref', target = record[h['Source URL']].value)
+	ref.text = record[h['Source']].value
+	if record[h['Source']].value == 'Perseus':
+		biblFull =  document.SubElement(sourceDesc, 'biblFull')
+		path = '%s/%s'%(rc,record[h['Source file']].value)
+		try:
+			PerseusSource = document.parse(path, parser)
+		except:
+			removeEntities = open(path, 'r').read()
+			removeEntities = removeEntities.replace("&ast;", "*")
+			removeEntities = removeEntities.replace("&mdash;", " — ")
+			removeEntities = re.sub('&.*?;', '', removeEntities)
+			PerseusSource = document.fromstring(removeEntities, parser)
+		PerseusHeader = PerseusSource.xpath('//fileDesc/*')
+		if len(PerseusHeader) == 0:	PerseusHeader = PerseusSource.xpath('//*[local-name() = "fileDesc"]/*')
+		[biblFull.append(deepcopy(x)) for x in PerseusHeader]
+	profileDesc = document.SubElement(teiHeader, 'profileDesc')
+	langUsage = document.SubElement(profileDesc, 'langUsage')
+	language = document.SubElement(langUsage, 'language', ident='grc')
+	language.text = 'Greek'
+	creation = document.SubElement(profileDesc, 'creation')
+	dateCr = document.SubElement(creation, 'date')
+	dateCr.text = str(record[h['Date']].value)
+	xenoData = document.SubElement(teiHeader, 'xenoData')
+	genre = document.SubElement(xenoData, 'genre')
+	genre.text = record[h['Genre']].value
+	subgenre = document.SubElement(xenoData, 'subgenre')
+	subgenre.text = record[h['Subgenre']].value	
+	
+	#parsing
 	words = parse.xpath('//word')
 	total = len(words)
 	for idx, word in enumerate(words):
@@ -322,15 +361,14 @@ for record in files:
 					unknownlist.write('%s : %s\n'%(word.get('form'), fileName))
 					unknowncount+=1
 					unknown_dict[cleanWords(word.get('form'))] = ''
-		
+	#update spreadsheet		
 	record[h['Word count']].value = len(parse.xpath('//word'))
 	record[h['Unknown words']].value = unknowncount
 	record[h['Unknown proper names']].value = unknowncount_proper
 	record[h['Unknown single letters']].value = unknowncount_single
 	record[h['Words with multiple lemmata']].value = wml
 	record[h['Disambiguable words']].value = wml_mPos
-	#record[h['TLG Author']].value = parse.xpath('//tlgAuthor')[0].text
-	#record[h['TLG ID']].value = parse.xpath('//tlgId')[0].text
+	#save
 	parse.write('%s/%s'%(af, fileName), xml_declaration = True, encoding='UTF-8', pretty_print=True)
 	wb.save('%s/file_list.xlsx'%file_list)
 	print()
