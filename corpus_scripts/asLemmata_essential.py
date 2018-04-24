@@ -23,9 +23,10 @@ headers = ws[config['excel_range']['headers']]
 h = {cell.value : n for n, cell in enumerate(headers[0])}
 files = ws[config['excel_range']['range']]
 
-output_file_name = input('Output file name: ')
-fullText=open('%s/%s'%(dir, output_file_name), 'w')
+fullText=open('%s/full_corpus_forms.txt'%dir, 'w')
+fullText_ids=open('%s/full_corpus_ids.txt'%dir, 'w')
 finalString = ''
+finalString_ids = ''
 
 for idx,record in enumerate(files):
 	file = '%s/%s'%(af,record[h['Tokenized file']].value)
@@ -44,15 +45,24 @@ for idx,record in enumerate(files):
 		finalTxt = re.sub('.*?\t\n','',finalTxt)
 	finalTxt = finalTxt.replace('**', ' ').replace('*', '')
 	finalTxt = re.sub('^-?\d+\n','',finalTxt)
+	finalTxt_ids = finalTxt
 	conv_text = []
+	conv_text_l = []
 	for x in finalTxt.split():	
 		if re.search('\[.*?\]', x) != None:
 			conv_text.append("\n"+x)
+			conv_text_l.append("\n"+x)
 		else:
-			conv_text.append(x)#conv_text.append(greekLemmata[x]['lemma'])
-	finalTxt = ' '.join(conv_text).replace('] ', ']\t')
+			conv_text.append(x)
+			conv_text_l.append(greekLemmata[x]['lemma'])
+	finalTxt = ' '.join(conv_text_l).replace('] ', ']\t')
 	finalTxt = finalTxt.replace('[', '').replace(']', '')
+	finalTxt_ids = ' '.join(conv_text).replace('] ', ']\t')
+	finalTxt_ids = finalTxt_ids.replace('[', '').replace(']', '')
 	finalString += finalTxt
+	finalString_ids += finalTxt_ids
 fullText.write(finalString.strip())
 fullText.close()
+fullText_ids.write(finalString_ids.strip())
+fullText_ids.close()
 print('\n###########\n#All done!#\n###########\n')
