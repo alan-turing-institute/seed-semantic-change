@@ -6,6 +6,7 @@ import matplotlib.colors as colors
 import numpy
 import sys
 from openpyxl import load_workbook
+from statsmodels.stats import proportion
 
 import matplotlib as plt
 plt.rcParams.update({'figure.max_open_warning': 0})
@@ -190,6 +191,16 @@ for sense,genres in senses.items():
 	del scoresum
 	for x in labels.values():
 		ax.text(x[0], x[1]+1, x[2], fontsize=8, horizontalalignment='center')
+# calculate totals per column:
+	err_ranges = []
+	for i,x in enumerate(colLabels):
+		try:
+			err_ranges.append(proportion.proportion_confint(word_scores[sense].get(str(x),0),word_scores[word].get(str(x),0),method='beta'))
+		except:
+			err_ranges.append((0,0))
+	err_lower = [scores_plot[i]-w for i,w in enumerate([x*100 for x,y in err_ranges])]
+	err_upper = [w-scores_plot[i] for i,w in enumerate([y*100 for x,y in err_ranges])]
+	ax.errorbar(Ncols, scores_plot, yerr=[err_lower,err_upper], fmt='none', ecolor='black', elinewidth=0.5)
 	ax.legend(loc='best', fontsize='x-small')
 	plot.savefig('%s/plots/by_sense/%s-time.png'%(dir,sense), format='png')
 #genre variation	
