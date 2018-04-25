@@ -71,42 +71,162 @@ col = {'Comedy':'darkblue',
 'Technical':'salmon',
 'Tragedy':'purple'}
 
+oldVersion = False
+
+senses = {}
+word_scores = {}
+for (sense,genre,century),score in scores.items():
+	senses.setdefault(sense,{}).setdefault(genre,{}).setdefault(century,score)
+	word=sense[:sense.find('-')]
+	word_scores.setdefault(word,{}).setdefault(century,0)
+	word_scores[word][century]+=score
+	word_scores.setdefault(sense,{}).setdefault(century,0)
+	word_scores[sense][century]+=score
+
 #by genre
 print('Generating plots per genre')
 genres = {}
 for (sense,genre,century),score in scores.items():
 	word=sense[:sense.find('-')]
 	genres.setdefault(genre,{}).setdefault(word,{}).setdefault(sense,{}).setdefault(century,score)
+
+
 #a plot per genre
 for genre,words in genres.items():
 	colLabels=[str(x) for x in [-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
 	Ncols=numpy.arange(len(colLabels))
-	fig,ax=plot.subplots()
-	ax.set_xlabel('Centuries')
-	ax.set_ylabel('Raw frequency')
-	ax.set_xticks(Ncols)
-	ax.set_xticklabels(colLabels)
-	ax.set_title(genre)
-	width = 0.2
-	colPositions = []
-	if len(words.items()) == 1: colPositions.append(Ncols)
-	elif len(words.items()) == 2:
-		colPositions.append([x-width/2 for x in Ncols])
-		colPositions.append([x+width/2 for x in Ncols])
-	elif len(words.items()) == 3:
-		colPositions.append([x-width for x in Ncols])
-		colPositions.append(Ncols)
-		colPositions.append([x+width for x in Ncols])
-	for word_idx,(word,senses) in enumerate(words.items()):
-		scores_plot_totals = [0 for x in colLabels]
-		for sense_idx,(sense,centuries) in enumerate(senses.items()):
- 			scores_plot = []
- 			for x in colLabels:
- 				scores_plot.append(centuries.get(x, 0))
- 			ax.bar(colPositions[word_idx],scores_plot, width,bottom=scores_plot_totals,color=colour[sense],label='%s: %s'%(word,word_senses[sense]))
- 			scores_plot_totals=[scores_plot_totals[idx]+x for idx,x in enumerate(scores_plot)]
+	if oldVersion == True:
+		fig,ax=plot.subplots()
+		ax.set_xlabel('Centuries')
+		ax.set_xticks(Ncols)
+		ax.set_xticklabels(colLabels)
+		ax.set_title(genre)
+		ax.set_ylabel('Raw frequency')
+		ax.set_xticks(Ncols)
+		ax.set_xticklabels(colLabels)
+		ax.set_title(genre)
+		width = 0.2
+		colPositions = []
+		if len(words.items()) == 1: colPositions.append(Ncols)
+		elif len(words.items()) == 2:
+			colPositions.append([x-width/2 for x in Ncols])
+			colPositions.append([x+width/2 for x in Ncols])
+		elif len(words.items()) == 3:
+			colPositions.append([x-width for x in Ncols])
+			colPositions.append(Ncols)
+			colPositions.append([x+width for x in Ncols])
+		for word_idx,(word,senses) in enumerate(words.items()):
+			scores_plot_totals = [0 for x in colLabels]
+			for sense_idx,(sense,centuries) in enumerate(senses.items()):
+				scores_plot = []
+				for x in colLabels:
+					scores_plot.append(centuries.get(x, 0))
+				ax.bar(colPositions[word_idx],scores_plot, width,bottom=scores_plot_totals,color=colour[sense],label='%s: %s'%(word,word_senses[sense]))
+				scores_plot_totals=[scores_plot_totals[idx]+x for idx,x in enumerate(scores_plot)]
+	else:
+		width = 0.1
+		for word,senses in words.items():
+			fig,ax=plot.subplots()
+			ax.set_xlabel('Centuries')
+			ax.set_xticks(Ncols)
+			ax.set_xticklabels(colLabels)
+			ax.set_title('%s: %s'%(word, genre))
+			ax.set_ylabel('Frequency (%) of sense per century')
+			ax.set_ylim([0,107])
+			
+			colPositions = []
+			if len(senses.items()) == 1: colPositions.append(Ncols)
+			elif len(senses.items()) == 2:
+				colPositions.append([x-width/2 for x in Ncols])
+				colPositions.append([x+width/2 for x in Ncols])
+			elif len(senses.items()) == 3:
+				colPositions.append([x-width for x in Ncols])
+				colPositions.append(Ncols)
+				colPositions.append([x+width for x in Ncols])
+			elif len(senses.items()) == 4:
+				colPositions.append([x-3*width/2 for x in Ncols])
+				colPositions.append([x-width/2 for x in Ncols])
+				colPositions.append([x+width/2 for x in Ncols])
+				colPositions.append([x+3*width/2 for x in Ncols])
+			elif len(senses.items()) == 5:
+				colPositions.append([x-2*width for x in Ncols])
+				colPositions.append([x-width for x in Ncols])
+				colPositions.append(Ncols)
+				colPositions.append([x+width for x in Ncols])
+				colPositions.append([x+2*width for x in Ncols])
+			elif len(senses.items()) == 6:
+				colPositions.append([x-5*width/2 for x in Ncols])
+				colPositions.append([x-3*width/2 for x in Ncols])
+				colPositions.append([x-width/2 for x in Ncols])
+				colPositions.append([x+width/2 for x in Ncols])
+				colPositions.append([x+3*width/2 for x in Ncols])
+				colPositions.append([x+5*width/2 for x in Ncols])
+			elif len(senses.items()) == 7:
+				colPositions.append([x-3*width for x in Ncols])
+				colPositions.append([x-2*width for x in Ncols])
+				colPositions.append([x-width for x in Ncols])
+				colPositions.append(Ncols)
+				colPositions.append([x+width for x in Ncols])
+				colPositions.append([x+2*width for x in Ncols])
+				colPositions.append([x+3*width for x in Ncols])
+			elif len(senses.items()) == 8:
+				colPositions.append([x-7*width/2 for x in Ncols])
+				colPositions.append([x-5*width/2 for x in Ncols])
+				colPositions.append([x-3*width/2 for x in Ncols])
+				colPositions.append([x-width/2 for x in Ncols])
+				colPositions.append([x+width/2 for x in Ncols])
+				colPositions.append([x+3*width/2 for x in Ncols])
+				colPositions.append([x+5*width/2 for x in Ncols])
+				colPositions.append([x+7*width/2 for x in Ncols])
+			elif len(senses.items()) == 9:
+				colPositions.append([x-4*width for x in Ncols])
+				colPositions.append([x-3*width for x in Ncols])
+				colPositions.append([x-2*width for x in Ncols])
+				colPositions.append([x-width for x in Ncols])
+				colPositions.append(Ncols)
+				colPositions.append([x+width for x in Ncols])
+				colPositions.append([x+2*width for x in Ncols])
+				colPositions.append([x+3*width for x in Ncols])
+				colPositions.append([x+4*width for x in Ncols])
+			elif len(senses.items()) == 10:
+				colPositions.append([x-9*width/2 for x in Ncols])
+				colPositions.append([x-7*width/2 for x in Ncols])
+				colPositions.append([x-5*width/2 for x in Ncols])
+				colPositions.append([x-3*width/2 for x in Ncols])
+				colPositions.append([x-width/2 for x in Ncols])
+				colPositions.append([x+width/2 for x in Ncols])
+				colPositions.append([x+3*width/2 for x in Ncols])
+				colPositions.append([x+5*width/2 for x in Ncols])
+				colPositions.append([x+7*width/2 for x in Ncols])
+				colPositions.append([x+9*width/2 for x in Ncols])
+			elif len(senses.items()) == 11:
+				colPositions.append([x-5*width for x in Ncols])
+				colPositions.append([x-4*width for x in Ncols])
+				colPositions.append([x-3*width for x in Ncols])
+				colPositions.append([x-2*width for x in Ncols])
+				colPositions.append([x-width for x in Ncols])
+				colPositions.append(Ncols)
+				colPositions.append([x+width for x in Ncols])
+				colPositions.append([x+2*width for x in Ncols])
+				colPositions.append([x+3*width for x in Ncols])
+				colPositions.append([x+4*width for x in Ncols])
+				colPositions.append([x+5*width for x in Ncols])								
+				
+			labels = {}
+			[labels.setdefault(x, [Ncols[idx], 0, '']) for idx,x in enumerate(colLabels)]
+			for sense_idx,(sense,century) in enumerate(senses.items()):
+				scores_plot = []
+				for x in colLabels:
+					sense_in_cen=century.get(x, 0)*100/word_scores[word].get(str(x),1)
+					labels[x][1] = sense_in_cen
+					labels[x][2] = '%s%%'%round(sense_in_cen,2)
+					scores_plot.append(sense_in_cen)
+				ax.bar(colPositions[sense_idx],scores_plot, width,color=colour[sense],label='%s: %s'%(word,sense))
+				for x in labels.values():
+					ax.text(x[0], x[1]+1, x[2], fontsize=8, horizontalalignment='center')
+				
 	ax.legend(loc='best', fontsize='x-small')
-	plot.savefig('%s/plots/%s.png'%(dir,genre), format='png')
+	plot.savefig('%s/plots/by_century/%s-%s.png'%(dir,word,genre), format='png')
 
 #by time
 print('Generating plots per century')
@@ -152,15 +272,7 @@ for century,words in centuries.items():
 	
 #by sense
 print('Generating plots per sense')
-senses = {}
-word_scores = {}
-for (sense,genre,century),score in scores.items():
-	senses.setdefault(sense,{}).setdefault(genre,{}).setdefault(century,score)
-	word=sense[:sense.find('-')]
-	word_scores.setdefault(word,{}).setdefault(century,0)
-	word_scores[word][century]+=score
-	word_scores.setdefault(sense,{}).setdefault(century,0)
-	word_scores[sense][century]+=score
+
 #a plot per sense
 #time variation
 for sense,genres in senses.items():
