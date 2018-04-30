@@ -10,9 +10,9 @@ kappaK	4.0
 a0	7.0
 b0	3.0
 num_top	10
-iterations	1000
+iterations	100
 start_time	-800
 end_time	400
-time_interval	10
+time_interval	200
 min_doc_per_word	0
 max_docs_per_slice	2000
