@@ -52,8 +52,32 @@ for file in input_files:
 		sense = line.split('\t')[-2]
 		if sense =='w':
 			continue
-		genre = line.split('\t')[2]
-		century = line.split('\t')[0]
+		genre = line.split('\t')[1]
+		year = int(line.split('\t')[0])
+		if year >= -800 and year <= -600:
+			century = '-7'
+		elif year > -600 and year <= -500:
+			century = '-6'
+		elif year > -500 and year <= -400:
+			century = '-5'
+		elif year > -400 and year <= -300:
+			century = '-4'
+		elif year > -300 and year <= -200:
+			century = '-3'
+		elif year > -200 and year <= -100:
+			century = '-2'
+		elif year > -100 and year <= -1:
+			century = '-1'
+		elif year >= 0 and year < 100:
+			century = '1'
+		elif year >= 100 and year < 200:
+			century = '2'
+		elif year >= 200 and year < 300:
+			century = '3'
+		elif year >= 300 and year < 400:
+			century = '4'
+		elif year >= 400 and year < 500:
+			century = '5'
 		scores.setdefault((sense,genre,century),0)
 		scores[(sense,genre,century)]+=1
 		try:
