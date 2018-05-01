@@ -83,7 +83,6 @@ for (sense,genre,century),score in scores.items():
 	word_scores[sense][century]+=score
 	word_scores.setdefault(word,{}).setdefault(genre,0)
 	word_scores[word][genre]+=score
-
 #by genre
 print('Generating plots per genre')
 genres = {}
@@ -239,12 +238,13 @@ print('Generating a plot per word by century')
 words = {}
 for (sense,genre,century),score in scores.items():
 	word=sense[:sense.find('-')]
-	words.setdefault(word,{}).setdefault(sense,{}).setdefault(century,score)
+	words.setdefault(word,{}).setdefault(sense,{}).setdefault(century,0)
+	words[word][sense][century]+=score
 for word,senses in words.items():
 	#plot prelims
 	colLabels=[str(x) for x in [-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
 	Ncols=numpy.arange(len(colLabels))
-	width = 0.06
+	width = round(0.66/len(senses),2)
 	
 	#plot area
 	fig,ax=plot.subplots()
@@ -393,7 +393,9 @@ print('Generating a plot per word by genre')
 words = {}
 for (sense,genre,century),score in scores.items():
 	word=sense[:sense.find('-')]
-	words.setdefault(word,{}).setdefault(sense,{}).setdefault(genre,score)
+	words.setdefault(word,{}).setdefault(sense,{}).setdefault(genre,0)
+	words[word][sense][genre]+=score
+
 genres = set()
 for (sense,genre,century),score in scores.items():
 	word=sense[:sense.find('-')]
@@ -403,7 +405,7 @@ for word,senses in words.items():
 	#plot prelims
 	colLabels=[str(x) for x in genres]
 	Ncols=numpy.arange(len(colLabels))
-	width = 0.1
+	width = round(0.66/len(senses),2)
 	
 	#plot area
 	fig,ax=plot.subplots()
@@ -540,7 +542,7 @@ for word,senses in words.items():
 		err_lower = [scores_plot[i]-w for i,w in enumerate([x*100 for x,y in err_ranges])]
 		err_upper = [w-scores_plot[i] for i,w in enumerate([y*100 for x,y in err_ranges])]
 		ax.errorbar(colPositions[sense_idx], scores_plot, yerr=[err_lower,err_upper], fmt='none', ecolor='black', elinewidth=0.2)
-	
+
 	#write plots to files
 	ax.legend(loc='best', fontsize='x-small')
 	plot.tight_layout()
