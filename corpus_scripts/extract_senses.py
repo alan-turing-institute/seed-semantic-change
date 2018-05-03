@@ -28,7 +28,7 @@ headers = ws2[config['excel_range']['headers']]
 h_file = {cell.value : n for n, cell in enumerate(headers[0])}
 files = ws2[config['excel_range']['range']]
 
-fields = ['date', 'genre', 'author', 'work', 'tlg author', 'tlg work', 'sentence location', 'sentence id', 'sentence ids', 'sentence original', 'target id', 'sense id', 'disambiguation']
+fields = ['date', 'genre', 'author', 'work', 'tlg author', 'tlg work', 'sentence location', 'sentence id', 'sentence ids', 'sentence original', 'target id', 'sense id', 'disambiguation','subgenre']
 
 target_words = {x for x in sys.argv[1:]}
 if len(target_words) == 0:
@@ -46,6 +46,7 @@ for idx,record in enumerate(files):
 	date = str(record[h_file['Date']].value)
 	#century = str(record[h_file['Century']].value)
 	genre = str(record[h_file['Genre']].value)
+	subgenre = str(record[h_file['Subgenre']].value)
 	author = str(record[h_file['Author']].value)
 	tlg_work = str(record[h_file['TLG ID']].value)
 	tlg_author = str(record[h_file['TLG Author']].value)
@@ -67,7 +68,7 @@ for idx,record in enumerate(files):
 	for node in nodes:
 		if node.tag == 'sentence':
 			finalTxt += '\n'
-			finalTxt += '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t'%(date,genre,author,work,tlg_author,tlg_work,node.get('location'),node.get('id'))			
+			finalTxt += '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t'%(date,genre,author,work,tlg_author,tlg_work,node.get('location'),node.get('id'),subgenre)			
 		elif node.tag == 'word':
 			lemma_count = len(node.xpath('./lemma'))
 			if lemma_count == 1:
