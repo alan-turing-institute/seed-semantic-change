@@ -68,7 +68,7 @@ for idx,record in enumerate(files):
 	for node in nodes:
 		if node.tag == 'sentence':
 			finalTxt += '\n'
-			finalTxt += '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t'%(date,genre,author,work,tlg_author,tlg_work,node.get('location'),node.get('id'),subgenre)			
+			finalTxt += '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t'%(date,genre,author,work,tlg_author,tlg_work,node.get('location'),node.get('id'))
 		elif node.tag == 'word':
 			lemma_count = len(node.xpath('./lemma'))
 			if lemma_count == 1:
@@ -106,7 +106,7 @@ for idx,record in enumerate(files):
 			sense = curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('sense')
 			notes = curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('notes')
 			form = ' '.join(convertBeta(x.get('form')) for x in curr_text.xpath('//sentence[@id="%s"]/word'%sentence_id))
-			instance = instance.replace('*\n', '*\t%s\t%s\t%s\t%s\n'%(form,tw,sense,notes))
+			instance = instance.replace('*\n', '*\t%s\t%s\t%s\t%s\t%s\n'%(form,tw,sense,notes,subgenre))
 			instance = instance.replace('**', ' ').replace('*', '')
 			ttw += instance	
 		fname.write(ttw.strip())
