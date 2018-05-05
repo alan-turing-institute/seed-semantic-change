@@ -49,7 +49,7 @@ for file in input_files:
 	for line in lf:
 		if re.search('[\-\d]', line[0]) == None:
 			continue
-		sense = line.split('\t')[-2]
+		sense = line.split('\t')[-3]
 		if sense =='w':
 			continue
 		genre = line.split('\t')[1]
@@ -259,11 +259,23 @@ for century,words in centuries.items():
 
 print('Generating a plot per word by century')
 
+genres = set()
+for (sense,genre,century),score in scores.items():
+	word=sense[:sense.find('-')]
+	genres.add(genre)
+	
 words = {}
 for (sense,genre,century),score in scores.items():
 	word=sense[:sense.find('-')]
 	words.setdefault(word,{}).setdefault(sense,{}).setdefault(century,0)
 	words[word][sense][century]+=score
+
+w_g_sc = {}
+for (sense,genre,century),score in scores.items():
+	word=sense[:sense.find('-')]
+	w_g_sc.setdefault(word,{}).setdefault(century,{}).setdefault(genre,0)
+	w_g_sc[word][century][genre]+=score
+
 for word,senses in words.items():
 	#plot prelims
 	colLabels=[str(x) for x in [-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
@@ -384,8 +396,12 @@ for word,senses in words.items():
 		sense = y
 		century = senses[y]
 		scores_plot = []
+		genres_plot = {}
 		for x in colLabels:
-			sense_in_cen=century.get(x, 0)*100/word_scores[word].get(str(x),1)
+			total_score_cen=word_scores[word].get(str(x),1)
+			sense_in_cen=century.get(x, 0)*100/total_score_cen
+			for genre in genres:
+				genres_plot.setdefault(genre,[]).append(w_g_sc.get(word,{}).get(x,{}).get(genre,0)*100/total_score_cen)
 # 			labels[x][1] = sense_in_cen
 # 			labels[x][2] = '%s%%'%round(sense_in_cen,2)
 # 			if sense_in_cen ==  0:
@@ -405,10 +421,14 @@ for word,senses in words.items():
 		err_lower = [scores_plot[i]-w for i,w in enumerate([x*100 for x,y in err_ranges])]
 		err_upper = [w-scores_plot[i] for i,w in enumerate([y*100 for x,y in err_ranges])]
 		ax.errorbar(colPositions[sense_idx], scores_plot, yerr=[err_lower,err_upper], fmt='none', ecolor='black', elinewidth=0.2)
-	
+	for genre in genres:
+		ax.plot(Ncols, genres_plot[genre],linewidth=0.3,label=genre)
 	#write plots to files
-	ax.legend(loc='best', fontsize='x-small')
-	plot.tight_layout()
+	chartBox = ax.get_position()
+	ax.set_position([chartBox.x0, chartBox.y0, chartBox.width*0.8, chartBox.height])
+	ax.legend(loc='upper left', bbox_to_anchor=(1, 1), shadow=False, ncol=1, fontsize='x-small')
+	#ax.legend(loc='best', fontsize='x-small')
+	#plot.tight_layout()
 	plot.savefig('%s/plots/by_sense/by_century/%s.png'%(dir,word), format='png', dpi=500)
 	
 	
@@ -419,11 +439,6 @@ for (sense,genre,century),score in scores.items():
 	word=sense[:sense.find('-')]
 	words.setdefault(word,{}).setdefault(sense,{}).setdefault(genre,0)
 	words[word][sense][genre]+=score
-
-genres = set()
-for (sense,genre,century),score in scores.items():
-	word=sense[:sense.find('-')]
-	genres.add(genre)
 	
 for word,senses in words.items():
 	#plot prelims
