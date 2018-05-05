@@ -1,4 +1,5 @@
 date	genre	author	work	tlg author	tlg work	sentence location	sentence id	sentence ids	sentence original	target id	sense id	disambiguation	subgenre
+-800	Poetry	Homer	Iliad	0012	001	22.254	7304	15133 65096 nlsj320 40888 15281	τοὶ γὰρ ἄριστοι μάρτυροι ἔσσονται καὶ ἐπίσκοποι ἁρμονιάων	15281	harmonia-2	2	Epic
 -800	Poetry	Homer	Odyssey	0012	002	5.247	1345	103388 15274 22615 15281 14708	τέτρηνεν δ’ ἄρα πάντα καὶ ἥρμοσεν ἀλλήλοισιν γόμφοισιν δ’ ἄρα τήν γε καὶ ἁρμονίῃσιν ἄρασσεν	15281	harmonia-1	1	Epic
 -800	Poetry	Homer	Odyssey	0012	002	5.361	1410	28101 15281 14705 104448 66294 104119 3903 79983	ὄφρ’ ἂν μέν κεν δούρατ’ ἐν ἁρμονίῃσιν ἀρήρῃ τόφρ’ αὐτοῦ μενέω καὶ τλήσομαι ἄλγεα πάσχων	15281	harmonia-1	1	Epic
 -498	Poetry	Pindar	Pythians	0033	002	8.67	446	7094 33304 45499 71023 15281 20097 75552 70312	ἄναξ ἑκόντι δ’ εὔχομαι νόῳ κατά τιν’ ἁρμονίαν βλέπειν ἀμφ’ ἕκαστον ὅσα νέομαι	15281	harmonia-2	2	Choral
