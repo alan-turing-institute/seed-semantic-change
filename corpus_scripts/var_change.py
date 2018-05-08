@@ -32,10 +32,10 @@ for record in data:
 	sense = record[h_sense['SENSE']].value
 	word_senses.setdefault(sense_id, sense)
 
-if os.path.isfile('%s/change_data.txt'%dir): os.remove('%s/change_data.txt'%dir)
-change_file = open('%s/change_data.txt'%dir, 'a')
-if os.path.isfile('%s/variation_data.txt'%dir): os.remove('%s/change_data.txt'%dir)
-variation_file = open('%s/variation_data.txt'%dir, 'a')
+if os.path.isfile('%s/change_data_macro.txt'%dir): os.remove('%s/change_data_macro.txt'%dir)
+change_file = open('%s/change_data_macro.txt'%dir, 'a')
+if os.path.isfile('%s/variation_data_macro.txt'%dir): os.remove('%s/variation_data_macro_macro.txt'%dir)
+variation_file = open('%s/variation_data_macro.txt'%dir, 'a')
 
 input_files = ['15281', '69419']
 
@@ -48,7 +48,7 @@ for file in input_files:
 		sense = line.split('\t')[-3]
 		if sense =='w':
 			continue
-		genre = line.split('\t')[-1].strip()
+		genre = line.split('\t')[1].strip()
 		year = int(line.split('\t')[0])
 		if year >= -800 and year <= -600:
 			century = '-7'

@@ -4,24 +4,24 @@
 
 	First attestation	First genres Word attested before	Genres attested before Innovation
 harmonia-1	-7	[Epic]	False	{}	False	
-harmonia-1.4	3	[Art History]	True	{Medicine, Geography, Epic, History, Protreptics, Rhetoric, poetics, criticism, Oratory, Comedy, Narrative, Biography, Novel, Tragedy, Essay, Choral, Bucolic, Philosophy, Science}	False	
-harmonia-2	-5	[Choral]	True	{Epic}	False	
+harmonia-1.4	3	[Art History]	True	{Essay, Philosophy, Choral, Biography, Oratory, Rhetoric, poetics, criticism, Novel, History, Medicine, Protreptics, Tragedy, Geography, Bucolic, Comedy, Epic, Narrative, Science}	False	
+harmonia-2	-7	[Epic]	False	{}	False	
 harmonia-3	-5	[Tragedy]	True	{Epic}	False	
-harmonia-4.1	1	[Essay, Oratory]	True	{Medicine, Geography, Epic, History, Rhetoric, poetics, criticism, Comedy, Narrative, Tragedy, Choral, Bucolic, Philosophy, Science}	False	
+harmonia-4.1	1	[Essay, Oratory]	True	{Philosophy, Choral, Rhetoric, poetics, criticism, History, Medicine, Tragedy, Geography, Bucolic, Comedy, Epic, Narrative, Science}	False	
 harmonia-4.3	-5	[Comedy, Choral]	True	{Epic}	False	
-harmonia-4.3α	-4	[Philosophy, Science]	True	{Medicine, Epic, History, Comedy, Tragedy, Choral}	False	
+harmonia-4.3α	-4	[Philosophy, Science]	True	{Choral, History, Medicine, Tragedy, Comedy, Epic}	False	
 harmonia-4.3β	-5	[Comedy]	True	{Epic}	False	
-harmonia-4.4	-4	[Philosophy]	True	{Medicine, Epic, History, Comedy, Tragedy, Choral}	False	
-harmonia-4.5	-4	[Philosophy, Rhetoric, poetics, criticism]	True	{Medicine, Epic, History, Comedy, Tragedy, Choral}	False	
-harmonia-4.6	-1	[Rhetoric, poetics, criticism]	True	{Medicine, Epic, History, Rhetoric, poetics, criticism, Comedy, Narrative, Tragedy, Choral, Bucolic, Philosophy, Science}	True	
-harmonia-5	5	[Epic]	True	{Medicine, Art History, Biography, Church history, Protreptics, Natural History, Letters, Comedy, Essay, Philosophy, Epic, Miscellanea, Homily, Tragedy, Choral, Bucolic, Narrative, Science, Geography, History, Oratory, Novel, Rhetoric, poetics, criticism, Hymns}	True	
+harmonia-4.4	-4	[Philosophy]	True	{Choral, History, Medicine, Tragedy, Comedy, Epic}	False	
+harmonia-4.5	-4	[Philosophy, Rhetoric, poetics, criticism]	True	{Choral, History, Medicine, Tragedy, Comedy, Epic}	False	
+harmonia-4.6	-1	[Rhetoric, poetics, criticism]	True	{Philosophy, Choral, Rhetoric, poetics, criticism, History, Medicine, Tragedy, Bucolic, Comedy, Epic, Narrative, Science}	True	
+harmonia-5	5	[Epic]	True	{Art History, Natural History, Letters, Church history, Oratory, History, Protreptics, Rhetoric, poetics, criticism, Philosophy, Choral, Biography, Medicine, Comedy, Miscellanea, Tragedy, Geography, Bucolic, Hymns, Narrative, Science, Essay, Homily, Novel, Epic}	True	
 
 ########################################
 #   mus                                #
 ########################################
 
 	First attestation	First genres Word attested before	Genres attested before Innovation
-mus-1	-5	[History, Comedy]	False	{}	False	
-mus-2	2	[Didactic]	True	{Hunting, Medicine, Geography, History, Oratory, Comedy, Narrative, Biography, Didactic, Essay, Bucolic, Philosophy, Rhetoric, poetics, criticism}	True	
+mus-1	-5	[Comedy, History]	False	{}	False	
+mus-2	2	[Didactic]	True	{Essay, Philosophy, Biography, Oratory, History, Medicine, Geography, Bucolic, Comedy, Hunting, Didactic, Narrative, Rhetoric, poetics, criticism}	True	
 mus-4	-5	[Medicine]	False	{}	False	
 
