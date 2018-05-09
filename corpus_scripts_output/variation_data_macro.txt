@@ -1,0 +1,1335 @@
+####################################################################################################
+#   harmonia-2                                                                                     #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	0	0	0	0	0	0
+Letters	0	0	0	0	0	0	0	0	0	0	0	0	0
+Narrative	0	0	0	0	0	0	0	0	0	0	0	0	0
+Oratory	0	0	0	0	0	0	0	0	0	0	0	0	0
+Philosophy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Poetry	1	0	1	0	0	0	0	0	0	0	0	0	2
+Religion	0	0	0	0	0	0	0	0	0	0	0	0	0
+Technical	0	0	0	0	0	0	0	0	0	0	0	0	0
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	1	0	1	0	0	0	0	0	0	0	0	0	2
+
+harmonia-2 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Comedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    1   0   1   0   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-2 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Religion   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL      1   0   1   0   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-2 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Narrative   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL       1   0   1   0   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-2 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Technical   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL       1   0   1   0   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-2 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Oratory   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     1   0   1   0   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-2 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Letters   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     1   0   1   0   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-2 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Essays   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    1   0   1   0   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-2 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Poetry   1   0   1   0   0   0   0  0  0  0  0  0
+TOTAL    1   0   1   0   0   0   0  0  0  0  0  0
+SpearmanrResult(correlation=1.0, pvalue=0.0)
+
+harmonia-2 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Tragedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     1   0   1   0   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-2 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Philosophy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL        1   0   1   0   0   0   0  0  0  0  0  0
+(nan, nan)
+
+                         Spearman's ρ    p
+harmonia-2 ~ Poetry               1.0  0.0
+harmonia-2 ~ Comedy               NaN  NaN
+harmonia-2 ~ Religion             NaN  NaN
+harmonia-2 ~ Narrative            NaN  NaN
+harmonia-2 ~ Technical            NaN  NaN
+harmonia-2 ~ Oratory              NaN  NaN
+harmonia-2 ~ Letters              NaN  NaN
+harmonia-2 ~ Essays               NaN  NaN
+harmonia-2 ~ Tragedy              NaN  NaN
+harmonia-2 ~ Philosophy           NaN  NaN
+
+####################################################################################################
+#   harmonia-1                                                                                     #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	1	0	1	0	0	2
+Letters	0	0	0	0	0	0	0	0	0	0	1	0	1
+Narrative	0	0	1	0	0	0	1	7	1	1	1	0	12
+Oratory	0	0	0	0	0	0	0	0	2	0	0	0	2
+Philosophy	0	0	0	1	0	0	0	0	0	1	0	0	2
+Poetry	2	0	0	0	0	0	0	0	0	1	0	7	10
+Religion	0	0	0	0	0	1	0	0	0	0	0	0	1
+Technical	0	0	1	1	0	0	1	0	5	2	0	0	10
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	2	0	2	2	0	1	2	8	8	6	2	7	40
+
+harmonia-1 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Comedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    2   0   2   2   0   1   2  8  8  6  2  7
+(nan, nan)
+
+harmonia-1 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Religion   0   0   0   0   0   1   0  0  0  0  0  0
+TOTAL      2   0   2   2   0   1   2  8  8  6  2  7
+SpearmanrResult(correlation=-0.31818181818181823, pvalue=0.3134965319155667)
+
+harmonia-1 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Narrative   0   0   1   0   0   0   1  7  1  1  1  0
+TOTAL       2   0   2   2   0   1   2  8  8  6  2  7
+SpearmanrResult(correlation=0.6114613261935771, pvalue=0.03463105978089322)
+
+harmonia-1 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Technical   0   0   1   1   0   0   1  0  5  2  0  0
+TOTAL       2   0   2   2   0   1   2  8  8  6  2  7
+SpearmanrResult(correlation=0.40939620919206293, pvalue=0.18631059094887997)
+
+harmonia-1 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Oratory   0   0   0   0   0   0   0  0  2  0  0  0
+TOTAL     2   0   2   2   0   1   2  8  8  6  2  7
+SpearmanrResult(correlation=0.45454545454545464, pvalue=0.13765791634772942)
+
+harmonia-1 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Letters   0   0   0   0   0   0   0  0  0  0  1  0
+TOTAL     2   0   2   2   0   1   2  8  8  6  2  7
+SpearmanrResult(correlation=-0.04545454545454546, pvalue=0.8884467885520946)
+
+harmonia-1 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Essays   0   0   0   0   0   0   0  1  0  1  0  0
+TOTAL    2   0   2   2   0   1   2  8  8  6  2  7
+SpearmanrResult(correlation=0.5056498968474316, pvalue=0.09352131811977869)
+
+harmonia-1 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Poetry   2   0   0   0   0   0   0  0  0  1  0  7
+TOTAL    2   0   2   2   0   1   2  8  8  6  2  7
+SpearmanrResult(correlation=0.3248275864741904, pvalue=0.3029257819413303)
+
+harmonia-1 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Tragedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     2   0   2   2   0   1   2  8  8  6  2  7
+(nan, nan)
+
+harmonia-1 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Philosophy   0   0   0   1   0   0   0  0  0  1  0  0
+TOTAL        2   0   2   2   0   1   2  8  8  6  2  7
+SpearmanrResult(correlation=0.13483997249264842, pvalue=0.6760811849183086)
+
+                         Spearman's ρ         p
+harmonia-1 ~ Narrative       0.611461  0.034631
+harmonia-1 ~ Essays          0.505650  0.093521
+harmonia-1 ~ Oratory         0.454545  0.137658
+harmonia-1 ~ Technical       0.409396  0.186311
+harmonia-1 ~ Poetry          0.324828  0.302926
+harmonia-1 ~ Religion       -0.318182  0.313497
+harmonia-1 ~ Philosophy      0.134840  0.676081
+harmonia-1 ~ Letters        -0.045455  0.888447
+harmonia-1 ~ Comedy               NaN       NaN
+harmonia-1 ~ Tragedy              NaN       NaN
+
+####################################################################################################
+#   harmonia-4.3                                                                                   #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	3	0	0	0	0	0	0	0	0	0	3
+Essays	0	0	0	0	0	0	0	14	3	53	0	0	70
+Letters	0	0	0	0	0	0	0	0	0	0	1	0	1
+Narrative	0	0	0	0	0	0	4	3	2	5	0	0	14
+Oratory	0	0	0	0	0	0	0	4	9	0	1	0	14
+Philosophy	0	0	0	91	0	0	0	0	0	14	0	0	105
+Poetry	0	0	1	0	0	0	0	0	0	0	0	7	8
+Religion	0	0	0	0	0	0	0	0	5	0	3	0	8
+Technical	0	0	0	3	0	0	2	0	3	0	2	0	10
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	4	94	0	0	6	21	22	72	7	7	233
+
+harmonia-4.3 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Comedy   0   0   3   0   0   0   0   0   0   0  0  0
+TOTAL    0   0   4  94   0   0   6  21  22  72  7  7
+SpearmanrResult(correlation=-0.133608531424537, pvalue=0.6788991226992956)
+
+harmonia-4.3 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Religion   0   0   0   0   0   0   0   0   5   0  3  0
+TOTAL      0   0   4  94   0   0   6  21  22  72  7  7
+SpearmanrResult(correlation=0.3097343812480663, pvalue=0.32722272904101224)
+
+harmonia-4.3 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Narrative   0   0   0   0   0   0   4   3   2   5  0  0
+TOTAL       0   0   4  94   0   0   6  21  22  72  7  7
+SpearmanrResult(correlation=0.5091423402077845, pvalue=0.09090835419835858)
+
+harmonia-4.3 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Technical   0   0   0   3   0   0   2   0   3   0  2  0
+TOTAL       0   0   4  94   0   0   6  21  22  72  7  7
+SpearmanrResult(correlation=0.5585858768516992, pvalue=0.059059377270802765)
+
+harmonia-4.3 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Oratory   0   0   0   0   0   0   0   4   9   0  1  0
+TOTAL     0   0   4  94   0   0   6  21  22  72  7  7
+SpearmanrResult(correlation=0.41655237570880904, pvalue=0.17797476506502174)
+
+harmonia-4.3 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Letters   0   0   0   0   0   0   0   0   0   0  1  0
+TOTAL     0   0   4  94   0   0   6  21  22  72  7  7
+SpearmanrResult(correlation=0.08907235428302465, pvalue=0.783100833776559)
+
+harmonia-4.3 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Essays   0   0   0   0   0   0   0  14   3  53  0  0
+TOTAL    0   0   4  94   0   0   6  21  22  72  7  7
+SpearmanrResult(correlation=0.5990865628171635, pvalue=0.03954131041854984)
+
+harmonia-4.3 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Poetry   0   0   1   0   0   0   0   0   0   0  0  7
+TOTAL    0   0   4  94   0   0   6  21  22  72  7  7
+SpearmanrResult(correlation=-0.019187085564039502, pvalue=0.9528049514293093)
+
+harmonia-4.3 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Tragedy   0   0   0   0   0   0   0   0   0   0  0  0
+TOTAL     0   0   4  94   0   0   6  21  22  72  7  7
+(nan, nan)
+
+harmonia-4.3 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Philosophy   0   0   0  91   0   0   0   0   0  14  0  0
+TOTAL        0   0   4  94   0   0   6  21  22  72  7  7
+SpearmanrResult(correlation=0.6633249580710799, pvalue=0.018696160788436736)
+
+                           Spearman's ρ         p
+harmonia-4.3 ~ Philosophy      0.663325  0.018696
+harmonia-4.3 ~ Essays          0.599087  0.039541
+harmonia-4.3 ~ Technical       0.558586  0.059059
+harmonia-4.3 ~ Narrative       0.509142  0.090908
+harmonia-4.3 ~ Oratory         0.416552  0.177975
+harmonia-4.3 ~ Religion        0.309734  0.327223
+harmonia-4.3 ~ Comedy         -0.133609  0.678899
+harmonia-4.3 ~ Letters         0.089072  0.783101
+harmonia-4.3 ~ Poetry         -0.019187  0.952805
+harmonia-4.3 ~ Tragedy              NaN       NaN
+
+####################################################################################################
+#   harmonia-3                                                                                     #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	0	0	0	0	0	0
+Letters	0	0	0	0	0	0	0	0	0	0	0	0	0
+Narrative	0	0	0	0	0	0	1	0	0	0	0	0	1
+Oratory	0	0	0	0	0	0	0	1	1	0	0	0	2
+Philosophy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Poetry	0	0	0	0	0	0	0	0	0	0	0	0	0
+Religion	0	0	0	0	0	0	0	0	0	0	0	0	0
+Technical	0	0	0	1	0	0	0	0	0	0	0	0	1
+Tragedy	0	0	1	0	0	0	0	0	0	0	0	0	1
+TOTAL	0	0	1	1	0	0	1	1	1	0	0	0	5
+
+harmonia-3 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Comedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   1   1   0   0   1  1  1  0  0  0
+(nan, nan)
+
+harmonia-3 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Religion   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL      0   0   1   1   0   0   1  1  1  0  0  0
+(nan, nan)
+
+harmonia-3 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Narrative   0   0   0   0   0   0   1  0  0  0  0  0
+TOTAL       0   0   1   1   0   0   1  1  1  0  0  0
+SpearmanrResult(correlation=0.3567530340063379, pvalue=0.25498114530639787)
+
+harmonia-3 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Technical   0   0   0   1   0   0   0  0  0  0  0  0
+TOTAL       0   0   1   1   0   0   1  1  1  0  0  0
+SpearmanrResult(correlation=0.3567530340063379, pvalue=0.25498114530639787)
+
+harmonia-3 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Oratory   0   0   0   0   0   0   0  1  1  0  0  0
+TOTAL     0   0   1   1   0   0   1  1  1  0  0  0
+SpearmanrResult(correlation=0.5291502622129182, pvalue=0.07688509128348095)
+
+harmonia-3 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Letters   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   1   1   0   0   1  1  1  0  0  0
+(nan, nan)
+
+harmonia-3 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Essays   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   1   1   0   0   1  1  1  0  0  0
+(nan, nan)
+
+harmonia-3 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Poetry   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   1   1   0   0   1  1  1  0  0  0
+(nan, nan)
+
+harmonia-3 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Tragedy   0   0   1   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   1   1   0   0   1  1  1  0  0  0
+SpearmanrResult(correlation=0.3567530340063379, pvalue=0.25498114530639787)
+
+harmonia-3 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Philosophy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL        0   0   1   1   0   0   1  1  1  0  0  0
+(nan, nan)
+
+                         Spearman's ρ         p
+harmonia-3 ~ Oratory         0.529150  0.076885
+harmonia-3 ~ Narrative       0.356753  0.254981
+harmonia-3 ~ Technical       0.356753  0.254981
+harmonia-3 ~ Tragedy         0.356753  0.254981
+harmonia-3 ~ Comedy               NaN       NaN
+harmonia-3 ~ Religion             NaN       NaN
+harmonia-3 ~ Letters              NaN       NaN
+harmonia-3 ~ Essays               NaN       NaN
+harmonia-3 ~ Poetry               NaN       NaN
+harmonia-3 ~ Philosophy           NaN       NaN
+
+####################################################################################################
+#   harmonia-4.3β                                                                                  #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	1	0	0	0	0	0	0	0	0	0	1
+Essays	0	0	0	0	0	0	0	7	3	1	0	0	11
+Letters	0	0	0	0	0	0	0	0	0	0	1	0	1
+Narrative	0	0	0	0	0	0	0	0	1	0	0	0	1
+Oratory	0	0	0	0	0	0	0	4	0	0	0	0	4
+Philosophy	0	0	0	4	0	0	0	0	0	0	0	0	4
+Poetry	0	0	0	0	1	0	0	0	0	0	0	4	5
+Religion	0	0	0	0	0	1	0	0	0	0	0	0	1
+Technical	0	0	0	3	1	0	1	3	0	3	0	0	11
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	1	7	2	1	1	14	4	4	1	4	39
+
+harmonia-4.3β ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Comedy   0   0   1   0   0   0   0   0  0  0  0  0
+TOTAL    0   0   1   7   2   1   1  14  4  4  1  4
+SpearmanrResult(correlation=-0.1794546137696671, pvalue=0.5767950089901202)
+
+harmonia-4.3β ~ Religion
+          -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Religion   0   0   0   0   0   1   0   0  0  0  0  0
+TOTAL      0   0   1   7   2   1   1  14  4  4  1  4
+SpearmanrResult(correlation=-0.1794546137696671, pvalue=0.5767950089901202)
+
+harmonia-4.3β ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Narrative   0   0   0   0   0   0   0   0  1  0  0  0
+TOTAL       0   0   1   7   2   1   1  14  4  4  1  4
+SpearmanrResult(correlation=0.22431826721208392, pvalue=0.48336606483324074)
+
+harmonia-4.3β ~ Technical
+           -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Technical   0   0   0   3   1   0   1   3  0  3  0  0
+TOTAL       0   0   1   7   2   1   1  14  4  4  1  4
+SpearmanrResult(correlation=0.6540284225718139, pvalue=0.02104694073715947)
+
+harmonia-4.3β ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Oratory   0   0   0   0   0   0   0   4  0  0  0  0
+TOTAL     0   0   1   7   2   1   1  14  4  4  1  4
+SpearmanrResult(correlation=0.49350018786658456, pvalue=0.10300383149808544)
+
+harmonia-4.3β ~ Letters
+         -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Letters   0   0   0   0   0   0   0   0  0  0  1  0
+TOTAL     0   0   1   7   2   1   1  14  4  4  1  4
+SpearmanrResult(correlation=-0.1794546137696671, pvalue=0.5767950089901202)
+
+harmonia-4.3β ~ Essays
+        -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Essays   0   0   0   0   0   0   0   7  3  1  0  0
+TOTAL    0   0   1   7   2   1   1  14  4  4  1  4
+SpearmanrResult(correlation=0.6223507850971357, pvalue=0.030685200249158346)
+
+harmonia-4.3β ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Poetry   0   0   0   0   1   0   0   0  0  0  0  4
+TOTAL    0   0   1   7   2   1   1  14  4  4  1  4
+SpearmanrResult(correlation=0.2098486917342719, pvalue=0.5127207416574684)
+
+harmonia-4.3β ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Tragedy   0   0   0   0   0   0   0   0  0  0  0  0
+TOTAL     0   0   1   7   2   1   1  14  4  4  1  4
+(nan, nan)
+
+harmonia-4.3β ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Philosophy   0   0   0   4   0   0   0   0  0  0  0  0
+TOTAL        0   0   1   7   2   1   1  14  4  4  1  4
+SpearmanrResult(correlation=0.40377288098175107, pvalue=0.19302787673559427)
+
+                            Spearman's ρ         p
+harmonia-4.3β ~ Technical       0.654028  0.021047
+harmonia-4.3β ~ Essays          0.622351  0.030685
+harmonia-4.3β ~ Oratory         0.493500  0.103004
+harmonia-4.3β ~ Philosophy      0.403773  0.193028
+harmonia-4.3β ~ Narrative       0.224318  0.483366
+harmonia-4.3β ~ Poetry          0.209849  0.512721
+harmonia-4.3β ~ Comedy         -0.179455  0.576795
+harmonia-4.3β ~ Religion       -0.179455  0.576795
+harmonia-4.3β ~ Letters        -0.179455  0.576795
+harmonia-4.3β ~ Tragedy              NaN       NaN
+
+####################################################################################################
+#   harmonia-4.3α                                                                                  #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	26	4	9	0	0	39
+Letters	0	0	0	0	0	0	0	0	0	0	0	0	0
+Narrative	0	0	0	0	0	0	0	0	0	8	0	0	8
+Oratory	0	0	0	0	0	0	0	0	7	0	2	0	9
+Philosophy	0	0	0	34	0	0	0	0	1	15	0	0	50
+Poetry	0	0	0	0	0	0	0	0	0	0	0	3	3
+Religion	0	0	0	0	0	0	0	0	2	0	0	0	2
+Technical	0	0	0	2	0	0	1	0	1	2	0	0	6
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	0	36	0	0	1	26	15	34	2	3	117
+
+harmonia-4.3α ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Comedy   0   0   0   0   0   0   0   0   0   0  0  0
+TOTAL    0   0   0  36   0   0   1  26  15  34  2  3
+(nan, nan)
+
+harmonia-4.3α ~ Religion
+          -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Religion   0   0   0   0   0   0   0   0   2   0  0  0
+TOTAL      0   0   0  36   0   0   1  26  15  34  2  3
+SpearmanrResult(correlation=0.22641670642586312, pvalue=0.47917383756476173)
+
+harmonia-4.3α ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Narrative   0   0   0   0   0   0   0   0   0   8  0  0
+TOTAL       0   0   0  36   0   0   1  26  15  34  2  3
+SpearmanrResult(correlation=0.4075500715665536, pvalue=0.18849964725686516)
+
+harmonia-4.3α ~ Technical
+           -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Technical   0   0   0   2   0   0   1   0   1   2  0  0
+TOTAL       0   0   0  36   0   0   1  26  15  34  2  3
+SpearmanrResult(correlation=0.693687975619296, pvalue=0.012345138445018767)
+
+harmonia-4.3α ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Oratory   0   0   0   0   0   0   0   0   7   0  2  0
+TOTAL     0   0   0  36   0   0   1  26  15  34  2  3
+SpearmanrResult(correlation=0.21181177182207908, pvalue=0.5086930801584126)
+
+harmonia-4.3α ~ Letters
+         -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Letters   0   0   0   0   0   0   0   0   0   0  0  0
+TOTAL     0   0   0  36   0   0   1  26  15  34  2  3
+(nan, nan)
+
+harmonia-4.3α ~ Essays
+        -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Essays   0   0   0   0   0   0   0  26   4   9  0  0
+TOTAL    0   0   0  36   0   0   1  26  15  34  2  3
+SpearmanrResult(correlation=0.6091371784607871, pvalue=0.03551804999232078)
+
+harmonia-4.3α ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Poetry   0   0   0   0   0   0   0   0   0   0  0  3
+TOTAL    0   0   0  36   0   0   1  26  15  34  2  3
+SpearmanrResult(correlation=0.13585002385551787, pvalue=0.6737727015716203)
+
+harmonia-4.3α ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Tragedy   0   0   0   0   0   0   0   0   0   0  0  0
+TOTAL     0   0   0  36   0   0   1  26  15  34  2  3
+(nan, nan)
+
+harmonia-4.3α ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Philosophy   0   0   0  34   0   0   0   0   1  15  0  0
+TOTAL        0   0   0  36   0   0   1  26  15  34  2  3
+SpearmanrResult(correlation=0.7423859362490841, pvalue=0.0056877036610314385)
+
+                            Spearman's ρ         p
+harmonia-4.3α ~ Philosophy      0.742386  0.005688
+harmonia-4.3α ~ Technical       0.693688  0.012345
+harmonia-4.3α ~ Essays          0.609137  0.035518
+harmonia-4.3α ~ Narrative       0.407550  0.188500
+harmonia-4.3α ~ Religion        0.226417  0.479174
+harmonia-4.3α ~ Oratory         0.211812  0.508693
+harmonia-4.3α ~ Poetry          0.135850  0.673773
+harmonia-4.3α ~ Comedy               NaN       NaN
+harmonia-4.3α ~ Letters              NaN       NaN
+harmonia-4.3α ~ Tragedy              NaN       NaN
+
+####################################################################################################
+#   harmonia-4.5                                                                                   #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	0	0	0	0	0	0
+Letters	0	0	0	0	0	0	0	0	0	0	0	0	0
+Narrative	0	0	0	0	0	0	0	0	0	0	0	0	0
+Oratory	0	0	0	0	0	0	0	0	0	0	0	0	0
+Philosophy	0	0	0	1	0	0	0	0	0	0	0	0	1
+Poetry	0	0	0	0	0	0	0	0	0	0	0	0	0
+Religion	0	0	0	0	0	0	0	0	0	0	0	0	0
+Technical	0	0	0	3	0	0	0	0	0	0	0	0	3
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	0	4	0	0	0	0	0	0	0	0	4
+
+harmonia-4.5 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Comedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   0   4   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-4.5 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Religion   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL      0   0   0   4   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-4.5 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Narrative   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL       0   0   0   4   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-4.5 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Technical   0   0   0   3   0   0   0  0  0  0  0  0
+TOTAL       0   0   0   4   0   0   0  0  0  0  0  0
+SpearmanrResult(correlation=1.0, pvalue=0.0)
+
+harmonia-4.5 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Oratory   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   4   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-4.5 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Letters   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   4   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-4.5 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Essays   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   0   4   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-4.5 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Poetry   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   0   4   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-4.5 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Tragedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   4   0   0   0  0  0  0  0  0
+(nan, nan)
+
+harmonia-4.5 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Philosophy   0   0   0   1   0   0   0  0  0  0  0  0
+TOTAL        0   0   0   4   0   0   0  0  0  0  0  0
+SpearmanrResult(correlation=1.0, pvalue=0.0)
+
+                           Spearman's ρ    p
+harmonia-4.5 ~ Technical            1.0  0.0
+harmonia-4.5 ~ Philosophy           1.0  0.0
+harmonia-4.5 ~ Comedy               NaN  NaN
+harmonia-4.5 ~ Religion             NaN  NaN
+harmonia-4.5 ~ Narrative            NaN  NaN
+harmonia-4.5 ~ Oratory              NaN  NaN
+harmonia-4.5 ~ Letters              NaN  NaN
+harmonia-4.5 ~ Essays               NaN  NaN
+harmonia-4.5 ~ Poetry               NaN  NaN
+harmonia-4.5 ~ Tragedy              NaN  NaN
+
+####################################################################################################
+#   harmonia-4.4                                                                                   #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	1	4	1	0	0	6
+Letters	0	0	0	0	0	0	0	0	0	0	1	0	1
+Narrative	0	0	0	0	0	0	0	3	0	1	0	0	4
+Oratory	0	0	0	0	0	0	0	0	0	0	0	0	0
+Philosophy	0	0	0	1	0	0	0	0	0	0	0	0	1
+Poetry	0	0	0	0	0	0	0	0	0	0	0	0	0
+Religion	0	0	0	0	0	0	0	0	0	0	0	0	0
+Technical	0	0	0	0	0	0	100	4	1	2	0	0	107
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	0	1	0	0	100	8	5	4	1	0	119
+
+harmonia-4.4 ~ Comedy
+        -7  -6  -5  -4  -3  -2   -1  1  2  3  4  5
+Comedy   0   0   0   0   0   0    0  0  0  0  0  0
+TOTAL    0   0   0   1   0   0  100  8  5  4  1  0
+(nan, nan)
+
+harmonia-4.4 ~ Religion
+          -7  -6  -5  -4  -3  -2   -1  1  2  3  4  5
+Religion   0   0   0   0   0   0    0  0  0  0  0  0
+TOTAL      0   0   0   1   0   0  100  8  5  4  1  0
+(nan, nan)
+
+harmonia-4.4 ~ Narrative
+           -7  -6  -5  -4  -3  -2   -1  1  2  3  4  5
+Narrative   0   0   0   0   0   0    0  3  0  1  0  0
+TOTAL       0   0   0   1   0   0  100  8  5  4  1  0
+SpearmanrResult(correlation=0.49446523413541926, pvalue=0.10222813363322363)
+
+harmonia-4.4 ~ Technical
+           -7  -6  -5  -4  -3  -2   -1  1  2  3  4  5
+Technical   0   0   0   0   0   0  100  4  1  2  0  0
+TOTAL       0   0   0   1   0   0  100  8  5  4  1  0
+SpearmanrResult(correlation=0.8899883189799698, pvalue=0.00010522176063569499)
+
+harmonia-4.4 ~ Oratory
+         -7  -6  -5  -4  -3  -2   -1  1  2  3  4  5
+Oratory   0   0   0   0   0   0    0  0  0  0  0  0
+TOTAL     0   0   0   1   0   0  100  8  5  4  1  0
+(nan, nan)
+
+harmonia-4.4 ~ Letters
+         -7  -6  -5  -4  -3  -2   -1  1  2  3  4  5
+Letters   0   0   0   0   0   0    0  0  0  0  1  0
+TOTAL     0   0   0   1   0   0  100  8  5  4  1  0
+SpearmanrResult(correlation=0.09341987329938276, pvalue=0.7727538106686407)
+
+harmonia-4.4 ~ Essays
+        -7  -6  -5  -4  -3  -2   -1  1  2  3  4  5
+Essays   0   0   0   0   0   0    0  1  4  1  0  0
+TOTAL    0   0   0   1   0   0  100  8  5  4  1  0
+SpearmanrResult(correlation=0.620381114535837, pvalue=0.031373693324246485)
+
+harmonia-4.4 ~ Poetry
+        -7  -6  -5  -4  -3  -2   -1  1  2  3  4  5
+Poetry   0   0   0   0   0   0    0  0  0  0  0  0
+TOTAL    0   0   0   1   0   0  100  8  5  4  1  0
+(nan, nan)
+
+harmonia-4.4 ~ Tragedy
+         -7  -6  -5  -4  -3  -2   -1  1  2  3  4  5
+Tragedy   0   0   0   0   0   0    0  0  0  0  0  0
+TOTAL     0   0   0   1   0   0  100  8  5  4  1  0
+(nan, nan)
+
+harmonia-4.4 ~ Philosophy
+            -7  -6  -5  -4  -3  -2   -1  1  2  3  4  5
+Philosophy   0   0   0   1   0   0    0  0  0  0  0  0
+TOTAL        0   0   0   1   0   0  100  8  5  4  1  0
+SpearmanrResult(correlation=0.09341987329938276, pvalue=0.7727538106686407)
+
+                           Spearman's ρ         p
+harmonia-4.4 ~ Technical       0.889988  0.000105
+harmonia-4.4 ~ Essays          0.620381  0.031374
+harmonia-4.4 ~ Narrative       0.494465  0.102228
+harmonia-4.4 ~ Letters         0.093420  0.772754
+harmonia-4.4 ~ Philosophy      0.093420  0.772754
+harmonia-4.4 ~ Comedy               NaN       NaN
+harmonia-4.4 ~ Religion             NaN       NaN
+harmonia-4.4 ~ Oratory              NaN       NaN
+harmonia-4.4 ~ Poetry               NaN       NaN
+harmonia-4.4 ~ Tragedy              NaN       NaN
+
+####################################################################################################
+#   harmonia-4.6                                                                                   #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	13	0	0	0	0	13
+Letters	0	0	0	0	0	0	0	0	0	0	4	0	4
+Narrative	0	0	0	0	0	0	0	4	0	0	1	0	5
+Oratory	0	0	0	0	0	0	0	3	1	0	1	0	5
+Philosophy	0	0	0	0	0	0	0	0	1	1	0	0	2
+Poetry	0	0	0	0	0	0	0	0	0	0	0	3	3
+Religion	0	0	0	0	0	0	0	0	0	0	2	0	2
+Technical	0	0	0	0	0	0	1	0	0	0	0	0	1
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	0	0	0	0	1	20	2	1	8	3	35
+
+harmonia-4.6 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Comedy   0   0   0   0   0   0   0   0  0  0  0  0
+TOTAL    0   0   0   0   0   0   1  20  2  1  8  3
+(nan, nan)
+
+harmonia-4.6 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Religion   0   0   0   0   0   0   0   0  0  0  2  0
+TOTAL      0   0   0   0   0   0   1  20  2  1  8  3
+SpearmanrResult(correlation=0.42038942984722244, pvalue=0.1736029000554374)
+
+harmonia-4.6 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Narrative   0   0   0   0   0   0   0   4  0  0  1  0
+TOTAL       0   0   0   0   0   0   1  20  2  1  8  3
+SpearmanrResult(correlation=0.6957010852370434, pvalue=0.011990098457186217)
+
+harmonia-4.6 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Technical   0   0   0   0   0   0   1   0  0  0  0  0
+TOTAL       0   0   0   0   0   0   1  20  2  1  8  3
+SpearmanrResult(correlation=0.09341987329938276, pvalue=0.7727538106686407)
+
+harmonia-4.6 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Oratory   0   0   0   0   0   0   0   3  1  0  1  0
+TOTAL     0   0   0   0   0   0   1  20  2  1  8  3
+SpearmanrResult(correlation=0.7582435844326897, pvalue=0.004262307567317147)
+
+harmonia-4.6 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Letters   0   0   0   0   0   0   0   0  0  0  4  0
+TOTAL     0   0   0   0   0   0   1  20  2  1  8  3
+SpearmanrResult(correlation=0.42038942984722244, pvalue=0.1736029000554374)
+
+harmonia-4.6 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Essays   0   0   0   0   0   0   0  13  0  0  0  0
+TOTAL    0   0   0   0   0   0   1  20  2  1  8  3
+SpearmanrResult(correlation=0.5138093031466052, pvalue=0.08749415534132136)
+
+harmonia-4.6 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Poetry   0   0   0   0   0   0   0   0  0  0  0  3
+TOTAL    0   0   0   0   0   0   1  20  2  1  8  3
+SpearmanrResult(correlation=0.3269695565478397, pvalue=0.29956178207124423)
+
+harmonia-4.6 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Tragedy   0   0   0   0   0   0   0   0  0  0  0  0
+TOTAL     0   0   0   0   0   0   1  20  2  1  8  3
+(nan, nan)
+
+harmonia-4.6 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1   1  2  3  4  5
+Philosophy   0   0   0   0   0   0   0   0  1  1  0  0
+TOTAL        0   0   0   0   0   0   1  20  2  1  8  3
+SpearmanrResult(correlation=0.24248711305964285, pvalue=0.44763190425505794)
+
+                           Spearman's ρ         p
+harmonia-4.6 ~ Oratory         0.758244  0.004262
+harmonia-4.6 ~ Narrative       0.695701  0.011990
+harmonia-4.6 ~ Essays          0.513809  0.087494
+harmonia-4.6 ~ Religion        0.420389  0.173603
+harmonia-4.6 ~ Letters         0.420389  0.173603
+harmonia-4.6 ~ Poetry          0.326970  0.299562
+harmonia-4.6 ~ Philosophy      0.242487  0.447632
+harmonia-4.6 ~ Technical       0.093420  0.772754
+harmonia-4.6 ~ Comedy               NaN       NaN
+harmonia-4.6 ~ Tragedy              NaN       NaN
+
+####################################################################################################
+#   harmonia-4.1                                                                                   #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	2	0	0	0	0	2
+Letters	0	0	0	0	0	0	0	0	0	0	0	0	0
+Narrative	0	0	0	0	0	0	0	0	0	0	0	0	0
+Oratory	0	0	0	0	0	0	0	1	0	0	0	0	1
+Philosophy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Poetry	0	0	0	0	0	0	0	0	0	0	0	0	0
+Religion	0	0	0	0	0	0	0	0	0	0	0	0	0
+Technical	0	0	0	0	0	0	0	0	0	0	0	0	0
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	0	0	0	0	0	3	0	0	0	0	3
+
+harmonia-4.1 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Comedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   0   0   0   0   0  3  0  0  0  0
+(nan, nan)
+
+harmonia-4.1 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Religion   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL      0   0   0   0   0   0   0  3  0  0  0  0
+(nan, nan)
+
+harmonia-4.1 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Narrative   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL       0   0   0   0   0   0   0  3  0  0  0  0
+(nan, nan)
+
+harmonia-4.1 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Technical   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL       0   0   0   0   0   0   0  3  0  0  0  0
+(nan, nan)
+
+harmonia-4.1 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Oratory   0   0   0   0   0   0   0  1  0  0  0  0
+TOTAL     0   0   0   0   0   0   0  3  0  0  0  0
+SpearmanrResult(correlation=1.0, pvalue=0.0)
+
+harmonia-4.1 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Letters   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   0   0   0   0  3  0  0  0  0
+(nan, nan)
+
+harmonia-4.1 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Essays   0   0   0   0   0   0   0  2  0  0  0  0
+TOTAL    0   0   0   0   0   0   0  3  0  0  0  0
+SpearmanrResult(correlation=1.0, pvalue=0.0)
+
+harmonia-4.1 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Poetry   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   0   0   0   0   0  3  0  0  0  0
+(nan, nan)
+
+harmonia-4.1 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Tragedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   0   0   0   0  3  0  0  0  0
+(nan, nan)
+
+harmonia-4.1 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Philosophy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL        0   0   0   0   0   0   0  3  0  0  0  0
+(nan, nan)
+
+                           Spearman's ρ    p
+harmonia-4.1 ~ Oratory              1.0  0.0
+harmonia-4.1 ~ Essays               1.0  0.0
+harmonia-4.1 ~ Comedy               NaN  NaN
+harmonia-4.1 ~ Religion             NaN  NaN
+harmonia-4.1 ~ Narrative            NaN  NaN
+harmonia-4.1 ~ Technical            NaN  NaN
+harmonia-4.1 ~ Letters              NaN  NaN
+harmonia-4.1 ~ Poetry               NaN  NaN
+harmonia-4.1 ~ Tragedy              NaN  NaN
+harmonia-4.1 ~ Philosophy           NaN  NaN
+
+####################################################################################################
+#   harmonia-1.4                                                                                   #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	0	0	0	0	0	0
+Letters	0	0	0	0	0	0	0	0	0	0	0	0	0
+Narrative	0	0	0	0	0	0	0	0	0	0	0	0	0
+Oratory	0	0	0	0	0	0	0	0	0	0	0	0	0
+Philosophy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Poetry	0	0	0	0	0	0	0	0	0	0	0	0	0
+Religion	0	0	0	0	0	0	0	0	0	0	0	0	0
+Technical	0	0	0	0	0	0	0	0	0	1	0	0	1
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	0	0	0	0	0	0	0	1	0	0	1
+
+harmonia-1.4 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Comedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   0   0   0   0   0  0  0  1  0  0
+(nan, nan)
+
+harmonia-1.4 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Religion   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL      0   0   0   0   0   0   0  0  0  1  0  0
+(nan, nan)
+
+harmonia-1.4 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Narrative   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL       0   0   0   0   0   0   0  0  0  1  0  0
+(nan, nan)
+
+harmonia-1.4 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Technical   0   0   0   0   0   0   0  0  0  1  0  0
+TOTAL       0   0   0   0   0   0   0  0  0  1  0  0
+SpearmanrResult(correlation=1.0, pvalue=0.0)
+
+harmonia-1.4 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Oratory   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   0   0   0   0  0  0  1  0  0
+(nan, nan)
+
+harmonia-1.4 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Letters   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   0   0   0   0  0  0  1  0  0
+(nan, nan)
+
+harmonia-1.4 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Essays   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   0   0   0   0   0  0  0  1  0  0
+(nan, nan)
+
+harmonia-1.4 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Poetry   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   0   0   0   0   0  0  0  1  0  0
+(nan, nan)
+
+harmonia-1.4 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Tragedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   0   0   0   0  0  0  1  0  0
+(nan, nan)
+
+harmonia-1.4 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Philosophy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL        0   0   0   0   0   0   0  0  0  1  0  0
+(nan, nan)
+
+                           Spearman's ρ    p
+harmonia-1.4 ~ Technical            1.0  0.0
+harmonia-1.4 ~ Comedy               NaN  NaN
+harmonia-1.4 ~ Religion             NaN  NaN
+harmonia-1.4 ~ Narrative            NaN  NaN
+harmonia-1.4 ~ Oratory              NaN  NaN
+harmonia-1.4 ~ Letters              NaN  NaN
+harmonia-1.4 ~ Essays               NaN  NaN
+harmonia-1.4 ~ Poetry               NaN  NaN
+harmonia-1.4 ~ Tragedy              NaN  NaN
+harmonia-1.4 ~ Philosophy           NaN  NaN
+
+####################################################################################################
+#   harmonia-5                                                                                     #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	0	0	0	0	0	0
+Letters	0	0	0	0	0	0	0	0	0	0	0	0	0
+Narrative	0	0	0	0	0	0	0	0	0	0	0	0	0
+Oratory	0	0	0	0	0	0	0	0	0	0	0	0	0
+Philosophy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Poetry	0	0	0	0	0	0	0	0	0	0	0	1	1
+Religion	0	0	0	0	0	0	0	0	0	0	0	0	0
+Technical	0	0	0	0	0	0	0	0	0	0	0	0	0
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	0	0	0	0	0	0	0	0	0	1	1
+
+harmonia-5 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Comedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   0   0   0   0   0  0  0  0  0  1
+(nan, nan)
+
+harmonia-5 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Religion   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL      0   0   0   0   0   0   0  0  0  0  0  1
+(nan, nan)
+
+harmonia-5 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Narrative   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL       0   0   0   0   0   0   0  0  0  0  0  1
+(nan, nan)
+
+harmonia-5 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Technical   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL       0   0   0   0   0   0   0  0  0  0  0  1
+(nan, nan)
+
+harmonia-5 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Oratory   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   0   0   0   0  0  0  0  0  1
+(nan, nan)
+
+harmonia-5 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Letters   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   0   0   0   0  0  0  0  0  1
+(nan, nan)
+
+harmonia-5 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Essays   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL    0   0   0   0   0   0   0  0  0  0  0  1
+(nan, nan)
+
+harmonia-5 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Poetry   0   0   0   0   0   0   0  0  0  0  0  1
+TOTAL    0   0   0   0   0   0   0  0  0  0  0  1
+SpearmanrResult(correlation=1.0, pvalue=0.0)
+
+harmonia-5 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Tragedy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL     0   0   0   0   0   0   0  0  0  0  0  1
+(nan, nan)
+
+harmonia-5 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
+Philosophy   0   0   0   0   0   0   0  0  0  0  0  0
+TOTAL        0   0   0   0   0   0   0  0  0  0  0  1
+(nan, nan)
+
+                         Spearman's ρ    p
+harmonia-5 ~ Poetry               1.0  0.0
+harmonia-5 ~ Comedy               NaN  NaN
+harmonia-5 ~ Religion             NaN  NaN
+harmonia-5 ~ Narrative            NaN  NaN
+harmonia-5 ~ Technical            NaN  NaN
+harmonia-5 ~ Oratory              NaN  NaN
+harmonia-5 ~ Letters              NaN  NaN
+harmonia-5 ~ Essays               NaN  NaN
+harmonia-5 ~ Tragedy              NaN  NaN
+harmonia-5 ~ Philosophy           NaN  NaN
+
+####################################################################################################
+#   mus-1                                                                                          #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	5	0	0	0	0	0	0	0	0	0	5
+Essays	0	0	0	0	0	0	0	16	4	6	0	0	26
+Letters	0	0	0	0	0	0	0	0	0	0	1	0	1
+Narrative	0	0	6	0	0	0	3	8	1	1	0	0	19
+Oratory	0	0	0	1	0	0	0	0	0	0	0	0	1
+Philosophy	0	0	0	3	0	0	0	0	3	0	0	0	6
+Poetry	0	0	0	0	4	0	0	0	2	0	0	0	6
+Religion	0	0	0	0	1	4	0	0	2	0	0	0	7
+Technical	0	0	0	2	0	0	8	0	0	37	0	0	47
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	11	6	5	4	11	24	12	44	1	0	118
+
+mus-1 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Comedy   0   0   5   0   0   0   0   0   0   0  0  0
+TOTAL    0   0  11   6   5   4  11  24  12  44  1  0
+SpearmanrResult(correlation=0.17623254540937885, pvalue=0.5837677313526408)
+
+mus-1 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Religion   0   0   0   0   1   4   0   0   2   0  0  0
+TOTAL      0   0  11   6   5   4  11  24  12  44  1  0
+SpearmanrResult(correlation=0.07408201367280573, pvalue=0.8190162893289261)
+
+mus-1 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Narrative   0   0   6   0   0   0   3   8   1   1  0  0
+TOTAL       0   0  11   6   5   4  11  24  12  44  1  0
+SpearmanrResult(correlation=0.8081332204108762, pvalue=0.0014691763934528194)
+
+mus-1 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Technical   0   0   0   2   0   0   8   0   0  37  0  0
+TOTAL       0   0  11   6   5   4  11  24  12  44  1  0
+SpearmanrResult(correlation=0.49079334058233803, pvalue=0.10520050081827018)
+
+mus-1 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Oratory   0   0   0   1   0   0   0   0   0   0  0  0
+TOTAL     0   0  11   6   5   4  11  24  12  44  1  0
+SpearmanrResult(correlation=0.044058136352344714, pvalue=0.8918558096772785)
+
+mus-1 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Letters   0   0   0   0   0   0   0   0   0   0  1  0
+TOTAL     0   0  11   6   5   4  11  24  12  44  1  0
+SpearmanrResult(correlation=-0.2202906817617236, pvalue=0.4914588806219443)
+
+mus-1 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Essays   0   0   0   0   0   0   0  16   4   6  0  0
+TOTAL    0   0  11   6   5   4  11  24  12  44  1  0
+SpearmanrResult(correlation=0.7593406401462589, pvalue=0.004174858282825097)
+
+mus-1 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Poetry   0   0   0   0   4   0   0   0   2   0  0  0
+TOTAL    0   0  11   6   5   4  11  24  12  44  1  0
+SpearmanrResult(correlation=0.1735418141881872, pvalue=0.5896157402566751)
+
+mus-1 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Tragedy   0   0   0   0   0   0   0   0   0   0  0  0
+TOTAL     0   0  11   6   5   4  11  24  12  44  1  0
+(nan, nan)
+
+mus-1 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
+Philosophy   0   0   0   3   0   0   0   0   3   0  0  0
+TOTAL        0   0  11   6   5   4  11  24  12  44  1  0
+SpearmanrResult(correlation=0.2613951073284106, pvalue=0.41183940591404145)
+
+                    Spearman's ρ         p
+mus-1 ~ Narrative       0.808133  0.001469
+mus-1 ~ Essays          0.759341  0.004175
+mus-1 ~ Technical       0.490793  0.105201
+mus-1 ~ Philosophy      0.261395  0.411839
+mus-1 ~ Letters        -0.220291  0.491459
+mus-1 ~ Comedy          0.176233  0.583768
+mus-1 ~ Poetry          0.173542  0.589616
+mus-1 ~ Religion        0.074082  0.819016
+mus-1 ~ Oratory         0.044058  0.891856
+mus-1 ~ Tragedy              NaN       NaN
+
+####################################################################################################
+#   mus-4                                                                                          #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	0	0	2	0	0	2
+Letters	0	0	0	0	0	0	0	0	0	0	1	0	1
+Narrative	0	0	0	0	0	0	2	0	0	0	0	0	2
+Oratory	0	0	0	0	0	0	0	1	0	0	0	0	1
+Philosophy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Poetry	0	0	0	0	1	0	0	0	0	0	0	0	1
+Religion	0	0	0	0	0	0	0	0	0	0	0	0	0
+Technical	0	0	19	3	0	0	0	0	26	0	0	0	48
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	19	3	1	0	2	1	26	2	1	0	55
+
+mus-4 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
+Comedy   0   0   0   0   0   0   0  0   0  0  0  0
+TOTAL    0   0  19   3   1   0   2  1  26  2  1  0
+(nan, nan)
+
+mus-4 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
+Religion   0   0   0   0   0   0   0  0   0  0  0  0
+TOTAL      0   0  19   3   1   0   2  1  26  2  1  0
+(nan, nan)
+
+mus-4 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
+Narrative   0   0   0   0   0   0   2  0   0  0  0  0
+TOTAL       0   0  19   3   1   0   2  1  26  2  1  0
+SpearmanrResult(correlation=0.1794546137696671, pvalue=0.5767950089901202)
+
+mus-4 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
+Technical   0   0  19   3   0   0   0  0  26  0  0  0
+TOTAL       0   0  19   3   1   0   2  1  26  2  1  0
+SpearmanrResult(correlation=0.7826532600463979, pvalue=0.002617325869272264)
+
+mus-4 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
+Oratory   0   0   0   0   0   0   0  1   0  0  0  0
+TOTAL     0   0  19   3   1   0   2  1  26  2  1  0
+SpearmanrResult(correlation=-0.04486365344241677, pvalue=0.8898891108978394)
+
+mus-4 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
+Letters   0   0   0   0   0   0   0  0   0  0  1  0
+TOTAL     0   0  19   3   1   0   2  1  26  2  1  0
+SpearmanrResult(correlation=-0.04486365344241677, pvalue=0.8898891108978394)
+
+mus-4 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
+Essays   0   0   0   0   0   0   0  0   0  2  0  0
+TOTAL    0   0  19   3   1   0   2  1  26  2  1  0
+SpearmanrResult(correlation=0.1794546137696671, pvalue=0.5767950089901202)
+
+mus-4 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
+Poetry   0   0   0   0   1   0   0  0   0  0  0  0
+TOTAL    0   0  19   3   1   0   2  1  26  2  1  0
+SpearmanrResult(correlation=-0.04486365344241677, pvalue=0.8898891108978394)
+
+mus-4 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
+Tragedy   0   0   0   0   0   0   0  0   0  0  0  0
+TOTAL     0   0  19   3   1   0   2  1  26  2  1  0
+(nan, nan)
+
+mus-4 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
+Philosophy   0   0   0   0   0   0   0  0   0  0  0  0
+TOTAL        0   0  19   3   1   0   2  1  26  2  1  0
+(nan, nan)
+
+                    Spearman's ρ         p
+mus-4 ~ Technical       0.782653  0.002617
+mus-4 ~ Narrative       0.179455  0.576795
+mus-4 ~ Essays          0.179455  0.576795
+mus-4 ~ Oratory        -0.044864  0.889889
+mus-4 ~ Letters        -0.044864  0.889889
+mus-4 ~ Poetry         -0.044864  0.889889
+mus-4 ~ Comedy               NaN       NaN
+mus-4 ~ Religion             NaN       NaN
+mus-4 ~ Tragedy              NaN       NaN
+mus-4 ~ Philosophy           NaN       NaN
+
+####################################################################################################
+#   mus-2                                                                                          #
+####################################################################################################
+
+	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
+Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Essays	0	0	0	0	0	0	0	0	0	23	0	0	23
+Letters	0	0	0	0	0	0	0	0	0	0	0	0	0
+Narrative	0	0	0	0	0	0	0	0	0	1	0	0	1
+Oratory	0	0	0	0	0	0	0	0	0	0	0	0	0
+Philosophy	0	0	0	0	0	0	0	0	0	0	0	0	0
+Poetry	0	0	0	0	0	0	0	0	1	0	0	0	1
+Religion	0	0	0	0	0	0	0	0	0	0	0	0	0
+Technical	0	0	0	0	0	0	0	0	0	0	0	0	0
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0
+TOTAL	0	0	0	0	0	0	0	0	1	24	0	0	25
+
+mus-2 ~ Comedy
+        -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
+Comedy   0   0   0   0   0   0   0  0  0   0  0  0
+TOTAL    0   0   0   0   0   0   0  0  1  24  0  0
+(nan, nan)
+
+mus-2 ~ Religion
+          -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
+Religion   0   0   0   0   0   0   0  0  0   0  0  0
+TOTAL      0   0   0   0   0   0   0  0  1  24  0  0
+(nan, nan)
+
+mus-2 ~ Narrative
+           -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
+Narrative   0   0   0   0   0   0   0  0  0   1  0  0
+TOTAL       0   0   0   0   0   0   0  0  1  24  0  0
+SpearmanrResult(correlation=0.7385489458759965, pvalue=0.006080847927088525)
+
+mus-2 ~ Technical
+           -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
+Technical   0   0   0   0   0   0   0  0  0   0  0  0
+TOTAL       0   0   0   0   0   0   0  0  1  24  0  0
+(nan, nan)
+
+mus-2 ~ Oratory
+         -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
+Oratory   0   0   0   0   0   0   0  0  0   0  0  0
+TOTAL     0   0   0   0   0   0   0  0  1  24  0  0
+(nan, nan)
+
+mus-2 ~ Letters
+         -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
+Letters   0   0   0   0   0   0   0  0  0   0  0  0
+TOTAL     0   0   0   0   0   0   0  0  1  24  0  0
+(nan, nan)
+
+mus-2 ~ Essays
+        -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
+Essays   0   0   0   0   0   0   0  0  0  23  0  0
+TOTAL    0   0   0   0   0   0   0  0  1  24  0  0
+SpearmanrResult(correlation=0.7385489458759965, pvalue=0.006080847927088525)
+
+mus-2 ~ Poetry
+        -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
+Poetry   0   0   0   0   0   0   0  0  1   0  0  0
+TOTAL    0   0   0   0   0   0   0  0  1  24  0  0
+SpearmanrResult(correlation=0.604267319353088, pvalue=0.037429038143498586)
+
+mus-2 ~ Tragedy
+         -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
+Tragedy   0   0   0   0   0   0   0  0  0   0  0  0
+TOTAL     0   0   0   0   0   0   0  0  1  24  0  0
+(nan, nan)
+
+mus-2 ~ Philosophy
+            -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
+Philosophy   0   0   0   0   0   0   0  0  0   0  0  0
+TOTAL        0   0   0   0   0   0   0  0  1  24  0  0
+(nan, nan)
+
+                    Spearman's ρ         p
+mus-2 ~ Narrative       0.738549  0.006081
+mus-2 ~ Essays          0.738549  0.006081
+mus-2 ~ Poetry          0.604267  0.037429
+mus-2 ~ Comedy               NaN       NaN
+mus-2 ~ Religion             NaN       NaN
+mus-2 ~ Technical            NaN       NaN
+mus-2 ~ Oratory              NaN       NaN
+mus-2 ~ Letters              NaN       NaN
+mus-2 ~ Tragedy              NaN       NaN
+mus-2 ~ Philosophy           NaN       NaN
+
