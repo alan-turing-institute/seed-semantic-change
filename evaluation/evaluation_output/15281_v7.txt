@@ -1,0 +1,9 @@
+Target ID 15281 Window size 5 Start time -800 End time 400 Time Interval 100 Iterations 1000
+Expert senses ['harmonia-1', 'NA', 'harmonia-4.3', 'harmonia-4.3β', 'harmonia-4.3α', 'harmonia-4.4', 'harmonia-4.5', 'harmonia-3', 'harmonia-4.6', 'harmonia-4.1', 'harmonia-5'] Total 11 
+Output senses 5 
+
+MATCH: k 1 and s 2 
+SCORES FOR PAIR S= NA <-> {K...K}= [0, 2, 3, 4]: P 0.871721828426766 R 1.2524534600229271 F 1.0279669725255562 
+SCORES FOR PAIR S= 2 <-> {K...K}= [1]: P 0.759493670886076 R 0.9593050951584662 F 0.8477852819248985 
+Averaged scores: P 0.1482923181193493 R 0.20106895956194484 F 0.17052293222276863
+
