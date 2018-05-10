@@ -1,0 +1,58 @@
+Target ID 15281 Window size 5 Start time -800 End time 400 Time Interval 100 Iterations 1000
+Expert senses ['harmonia-1', 'NA', 'harmonia-4.3', 'harmonia-4.3β', 'harmonia-4.3α', 'harmonia-4.4', 'harmonia-4.5', 'harmonia-3', 'harmonia-4.6', 'harmonia-4.1', 'harmonia-5'] Total 11 
+Output senses 15 
+
+MATCH: k 5 and s 1 
+MATCH: k 6 and s 2 
+MATCH: k 8 and s 2 
+MATCH: k 9 and s 4 
+MATCH: k 10 and s 2 
+MATCH: k 12 and s 2 
+SCORES FOR PAIR S= NA <-> {K...K}= [0, 1, 2, 3, 4, 7, 11, 13, 14]: P 0.6884074445213972 R 0.9890750210447474 F 0.8117957971591254 
+SCORES FOR PAIR S= 1 <-> {K...K}= [5]: P 0.9526315789473684 R 1.3687012052147656 F 1.123378775440445 
+SCORES FOR PAIR S= 2 <-> {K...K}= [6, 8, 10, 12]: P 0.7306729827412904 R 0.9229021150638334 F 0.8156141708798383 
+SCORES FOR PAIR S= 4 <-> {K...K}= [9]: P 0.713157894736842 R 1.0154425636682864 F 0.8378695926067311 
+Averaged scores: P 0.2804427182678998 R 0.39055644590833016 F 0.3262416669169218
+
+Expert senses ['harmonia-1', 'NA', 'harmonia-4.3', 'harmonia-4.3β', 'harmonia-4.3α', 'harmonia-4.4', 'harmonia-4.5', 'harmonia-3', 'harmonia-4.6', 'harmonia-4.1', 'harmonia-5'] Total 11 
+Output senses 15 
+
+MATCH: k 5 and s 1 
+MATCH: k 6 and s 2 
+MATCH: k 8 and s 2 
+MATCH: k 9 and s 4 
+MATCH: k 10 and s 2 
+MATCH: k 12 and s 2 
+SCORES FOR PAIR S= NA <-> {K...K}= [0, 1, 2, 3, 4, 7, 11, 13, 14]: P 0.6884074445213972 R 0.9890750210447474 F 0.8117957971591254 
+SCORES FOR PAIR S= 1 <-> {K...K}= [5]: P 0.9526315789473684 R 1.3687012052147656 F 1.123378775440445 
+SCORES FOR PAIR S= 2 <-> {K...K}= [6, 8, 10, 12]: P 0.7306729827412904 R 0.9229021150638334 F 0.8156141708798383 
+SCORES FOR PAIR S= 4 <-> {K...K}= [9]: P 0.713157894736842 R 1.0154425636682864 F 0.8378695926067311 
+Averaged scores: P 0.2804427182678998 R 0.39055644590833016 F 0.3262416669169218
+
+Expert senses ['harmonia-1', 'NA', 'harmonia-4.3', 'harmonia-4.3β', 'harmonia-4.3α', 'harmonia-4.4', 'harmonia-4.5', 'harmonia-3', 'harmonia-4.6', 'harmonia-4.1', 'harmonia-5'] Total 11 
+Output senses 15 
+
+MATCH: k 5 and s 1 
+MATCH: k 6 and s 2 
+MATCH: k 8 and s 2 
+MATCH: k 9 and s 4 
+MATCH: k 10 and s 2 
+MATCH: k 12 and s 2 
+Expert senses ['harmonia-1', 'NA', 'harmonia-4.3', 'harmonia-4.3β', 'harmonia-4.3α', 'harmonia-4.4', 'harmonia-4.5', 'harmonia-3', 'harmonia-4.6', 'harmonia-4.1', 'harmonia-5'] Total 11 
+Output senses 15 
+
+MATCH: k 5 and s 1 
+MATCH: k 6 and s 2 
+MATCH: k 8 and s 2 
+MATCH: k 9 and s 4 
+MATCH: k 10 and s 2 
+MATCH: k 12 and s 2 
+Expert senses ['harmonia-1', 'NA', 'harmonia-4.3', 'harmonia-4.3β', 'harmonia-4.3α', 'harmonia-4.4', 'harmonia-4.5', 'harmonia-3', 'harmonia-4.6', 'harmonia-4.1', 'harmonia-5'] Total 11 
+Output senses 15 
+
+MATCH: k 5 and s 1 
+MATCH: k 6 and s 2 
+MATCH: k 8 and s 2 
+MATCH: k 9 and s 4 
+MATCH: k 10 and s 2 
+MATCH: k 12 and s 2 
