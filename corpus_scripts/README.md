@@ -38,7 +38,7 @@ The file prefixed with `TT_` are related to TreeTagger. [TT_training.py](TT_trai
 29. **[TT_training_utf.py](TT_training_utf.py)**: creates a Unicode version of the TreeTagger parameters ([TreeTaggerData/ancient_greek_utf.dat](TreeTaggerData/ancient_greek_utf.dat)).
 30. **[TT_training_utf_lemma.py](TT_training_utf_lemma.py)**: creates Beta Code and Unicode versions of the TreeTagger parameters ([TreeTaggerData/ancient_greek_l.dat](TreeTaggerData/ancient_greek_l.dat), [TreeTaggerData/ancient_greek_utf_l.dat](TreeTaggerData/ancient_greek_utf_l.dat)) including lemma information.
 31. **[Turing_searchwords.py](Turing_searchwords.py)**: script that counts and stores occurences of words listed in an Excel document. _USED FOR PRELIMINARY DATA EXPLORATION_
-32. **[var_change.py](var_change.py)**: creates statistics on variation and change starting from the output of [extract_senses.py](extract_senses.py).
+32. **[var_change.py](var_change.py)**: creates statistics on variation and change starting from the output of [extract_senses.py](extract_senses.py). The results are calculated for micro-senses and macro-senses, and for genres and subgenres, in all combinations. All output files are stored under `var_change` in the output folder.
 
 ## Modules
 1. **[beta2utf.py](beta2utf.py)**: function converting betacode Greek into Unicode characters.
