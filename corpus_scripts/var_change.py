@@ -6,7 +6,6 @@ import pandas as pd
 import sys
 from openpyxl import load_workbook
 from scipy import stats
-import re
 
 verbose = False
 
