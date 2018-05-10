@@ -20,7 +20,7 @@ wb = load_workbook('%s/word_senses.xlsx'%resources)
 ws = wb.active
 headers = ws[config['excel_range']['headers']]
 h_sense = {cell.value : n for n, cell in enumerate(headers[0])}
-data = ws['A2:E23']
+data = ws['A2:F23']
 
 wb2 = load_workbook('%s/file_list.xlsx'%resources)
 ws2 = wb2.active
@@ -33,6 +33,8 @@ fields = ['date', 'genre', 'author', 'work', 'tlg author', 'tlg work', 'sentence
 target_words = {x for x in sys.argv[1:]}
 if len(target_words) == 0:
 	target_words = {x[h_sense['TERM ID']].value for x in data}
+
+senses={x[h_sense['SENSE LSJ']].value: x[h_sense['MERGED SENSE']].value for x in data}
 	
 tw_files = {}
 for tw in target_words:
@@ -103,7 +105,7 @@ for idx,record in enumerate(files):
 		if len(allInstances) > 0: fname.write('\n')
 		for instance in allInstances:
 			sentence_id = instance.split('\t')[7]
-			sense = curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('sense')
+			sense = senses.get(curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('sense'),'wrong')
 			notes = curr_text.xpath('//sentence[@id="%s"]/word/lemma[@id="%s"]'%(sentence_id, tw))[0].get('notes')
 			form = ' '.join(convertBeta(x.get('form')) for x in curr_text.xpath('//sentence[@id="%s"]/word'%sentence_id))
 			instance = instance.replace('*\n', '*\t%s\t%s\t%s\t%s\t%s\n'%(form,tw,sense,notes,subgenre))
