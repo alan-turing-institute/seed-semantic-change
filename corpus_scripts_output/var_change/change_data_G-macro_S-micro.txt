@@ -3,18 +3,18 @@
 ########################################
 
 	First attestation	First genres Word attested before	Genres attested before Innovation
-harmonia-1	-7	[Poetry]	False	{}	False	
-harmonia-1.4	3	[Technical]	True	{Essays, Oratory, Tragedy, Poetry, Religion, Technical, Comedy, Philosophy, Narrative}	True	
-harmonia-2	-7	[Poetry]	False	{}	False	
+harmonia-1	-8	[Poetry]	False	{}	False	
+harmonia-1.4	3	[Technical]	True	{Tragedy, Religion, Technical, Narrative, Essays, Philosophy, Comedy, Poetry, Oratory}	True	
+harmonia-2	-8	[Poetry]	False	{}	False	
 harmonia-3	-5	[Tragedy]	True	{Poetry}	False	
-harmonia-4.1	1	[Essays, Oratory]	True	{Tragedy, Poetry, Religion, Technical, Comedy, Philosophy, Narrative}	False	
-harmonia-4.3	-5	[Poetry, Comedy]	True	{Poetry}	True	
-harmonia-4.3α	-4	[Technical, Philosophy]	True	{Tragedy, Poetry, Technical, Comedy, Narrative}	True	
+harmonia-4.1	1	[Essays, Oratory]	True	{Tragedy, Religion, Technical, Narrative, Philosophy, Comedy, Poetry}	False	
+harmonia-4.3	-5	[Comedy, Poetry]	True	{Poetry}	True	
+harmonia-4.3α	-4	[Philosophy, Technical]	True	{Tragedy, Technical, Narrative, Comedy, Poetry}	True	
 harmonia-4.3β	-5	[Comedy]	True	{Poetry}	False	
-harmonia-4.4	-4	[Philosophy]	True	{Tragedy, Poetry, Technical, Comedy, Narrative}	False	
-harmonia-4.5	-4	[Technical, Philosophy]	True	{Tragedy, Poetry, Technical, Comedy, Narrative}	True	
-harmonia-4.6	-1	[Technical]	True	{Tragedy, Poetry, Religion, Technical, Comedy, Philosophy, Narrative}	True	
-harmonia-5	5	[Poetry]	True	{Essays, Oratory, Tragedy, Poetry, Religion, Technical, Comedy, Letters, Philosophy, Narrative}	True	
+harmonia-4.4	-4	[Philosophy]	True	{Tragedy, Technical, Narrative, Comedy, Poetry}	False	
+harmonia-4.5	-4	[Philosophy, Technical]	True	{Tragedy, Technical, Narrative, Comedy, Poetry}	True	
+harmonia-4.6	-1	[Technical]	True	{Tragedy, Religion, Technical, Narrative, Philosophy, Comedy, Poetry}	True	
+harmonia-5	5	[Poetry]	True	{Tragedy, Religion, Technical, Narrative, Essays, Letters, Philosophy, Comedy, Poetry, Oratory}	True	
 
 ########################################
 #   mus                                #
@@ -22,6 +22,6 @@ harmonia-5	5	[Poetry]	True	{Essays, Oratory, Tragedy, Poetry, Religion, Technica
 
 	First attestation	First genres Word attested before	Genres attested before Innovation
 mus-1	-5	[Comedy, Narrative]	False	{}	False	
-mus-2	2	[Poetry]	True	{Essays, Oratory, Poetry, Religion, Comedy, Technical, Philosophy, Narrative}	True	
+mus-2	2	[Poetry]	True	{Religion, Technical, Narrative, Essays, Philosophy, Comedy, Poetry, Oratory}	True	
 mus-4	-5	[Technical]	False	{}	False	
 

@@ -3,8 +3,8 @@
 ########################################
 
 	First attestation	First genres Word attested before Genres attested before Innovation
-harmonia:abstract	-7	[Epic]	False	{}	False	
-harmonia:concrete	-7	[Epic]	False	{}	False	
+harmonia:abstract	-8	[Epic]	False	{}	False	
+harmonia:concrete	-8	[Epic]	False	{}	False	
 harmonia:musical	-5	[Comedy, Choral]	True	{Epic}	False	
 
 ########################################
@@ -12,7 +12,7 @@ harmonia:musical	-5	[Comedy, Choral]	True	{Epic}	False
 ########################################
 
 	First attestation	First genres Word attested before	Genres attested before Innovation
-mus:mouse	-5	[Comedy, History]	False	{}	False	
+mus:mouse	-5	[History, Comedy]	False	{}	False	
 mus:muscle	-5	[Medicine]	False	{}	False	
-mus:mussel	2	[Didactic]	True	{Oratory, Bucolic, Didactic, History, Hunting, Medicine, Comedy, Biography, Philosophy, Essay, Narrative, Geography, Rhetoric, poetics, criticism}	True	
+mus:mussel	2	[Didactic]	True	{Hunting, Essay, History, Rhetoric, poetics, criticism, Narrative, Geography, Philosophy, Didactic, Medicine, Biography, Comedy, Bucolic, Oratory}	True	
 
