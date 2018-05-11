@@ -55,7 +55,9 @@ def extract_data(gengr, sengr):
 				continue
 			genre = line.split('\t')[params['genre'][gengr]['col']].strip()
 			year = int(line.split('\t')[0])
-			if year >= -800 and year <= -600:
+			if year >= -800 and year <= -700:
+				century = '-8'
+			elif year > -700 and year <= -600:
 				century = '-7'
 			elif year > -600 and year <= -500:
 				century = '-6'
@@ -82,7 +84,7 @@ def extract_data(gengr, sengr):
 			scores.setdefault((sense,genre,century),0)
 			scores[(sense,genre,century)]+=1
 
-	centuries=['-7','-6','-5','-4','-3','-2','-1','1','2','3','4','5']
+	centuries=['-8','-7','-6','-5','-4','-3','-2','-1','1','2','3','4','5']
 	genres = set()
 	for (sense,genre,century),score in scores.items():
 		word=sense[:sense.find(sep)]
