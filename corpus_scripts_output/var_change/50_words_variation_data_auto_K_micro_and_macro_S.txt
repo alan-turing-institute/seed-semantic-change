@@ -13578,992 +13578,405 @@
 ####################################################################################################
 
 
+######################################################################################################################################################
+
 ### SUMMARY: CORRELATIONS WITH GENRES ###
 
-αἱρέω: #K0 is correlated with no particular genre
-αἱρέω: #K1 is correlated with no particular genre
-αἱρέω: #K2 is correlated with 
-		G:Poetry (Spearman's ρ = -0.644, p = 0.017)
-αἱρέω: #K3 is correlated with 
-		G:Letters (Spearman's ρ = -0.644, p = 0.017)
-αἱρέω: #K4 is correlated with 
-		G:Technical (Spearman's ρ = -0.563, p = 0.045)
-αἱρέω: #K5 is correlated with no particular genre
-αἱρέω: #K6 is correlated with no particular genre
-αἱρέω: #K7 is correlated with 
+αἱρέω: #K0 is positively correlated with no particular genre
+αἱρέω: #K1 is positively correlated with no particular genre
+αἱρέω: #K2 is positively correlated with no particular genre
+αἱρέω: #K3 is positively correlated with no particular genre
+αἱρέω: #K4 is positively correlated with no particular genre
+αἱρέω: #K5 is positively correlated with no particular genre
+αἱρέω: #K6 is positively correlated with no particular genre
+αἱρέω: #K7 is positively correlated with 
 		G:Letters (Spearman's ρ = 0.658, p = 0.015)
-αἱρέω: #K8 is correlated with 
+αἱρέω: #K8 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.566, p = 0.044)
-αἱρέω: #K9 is correlated with no particular genre
-γένος: #K0 is correlated with no particular genre
-γένος: #K1 is correlated with no particular genre
-γένος: #K2 is correlated with no particular genre
-γένος: #K3 is correlated with 
-		G:Essays (Spearman's ρ = -0.584, p = 0.036)
-γένος: #K4 is correlated with no particular genre
-γένος: #K5 is correlated with no particular genre
-γένος: #K6 is correlated with 
+αἱρέω: #K9 is positively correlated with no particular genre
+γένος: #K0 is positively correlated with no particular genre
+γένος: #K1 is positively correlated with no particular genre
+γένος: #K2 is positively correlated with no particular genre
+γένος: #K3 is positively correlated with no particular genre
+γένος: #K4 is positively correlated with no particular genre
+γένος: #K5 is positively correlated with no particular genre
+γένος: #K6 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.695, p = 0.008)
 		G:Technical (Spearman's ρ = 0.695, p = 0.008)
-γένος: #K7 is correlated with no particular genre
-γένος: #K8 is correlated with 
+γένος: #K7 is positively correlated with no particular genre
+γένος: #K8 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.763, p = 0.002)
 		G:Technical (Spearman's ρ = 0.616, p = 0.025)
 		G:Essays (Spearman's ρ = 0.591, p = 0.034)
-γένος: #K9 is correlated with no particular genre
-δύναμαι: #K0 is correlated with no particular genre
-δύναμαι: #K1 is correlated with no particular genre
-δύναμαι: #K2 is correlated with 
+γένος: #K9 is positively correlated with no particular genre
+δύναμαι: #K0 is positively correlated with no particular genre
+δύναμαι: #K1 is positively correlated with no particular genre
+δύναμαι: #K2 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.723, p = 0.005)
 		G:Narrative (Spearman's ρ = 0.673, p = 0.012)
 		G:Essays (Spearman's ρ = 0.589, p = 0.034)
-δύναμαι: #K3 is correlated with no particular genre
-δύναμαι: #K4 is correlated with no particular genre
-δύναμαι: #K5 is correlated with 
+δύναμαι: #K3 is positively correlated with no particular genre
+δύναμαι: #K4 is positively correlated with no particular genre
+δύναμαι: #K5 is positively correlated with 
 		G:Letters (Spearman's ρ = 0.638, p = 0.019)
 		G:Essays (Spearman's ρ = 0.561, p = 0.046)
-δύναμαι: #K6 is correlated with no particular genre
-δύναμαι: #K7 is correlated with 
-		G:Essays (Spearman's ρ = -0.796, p = 0.001)
-δύναμαι: #K8 is correlated with no particular genre
-δύναμαι: #K9 is correlated with no particular genre
-καλός: #K0 is correlated with no particular genre
-καλός: #K1 is correlated with 
+δύναμαι: #K6 is positively correlated with no particular genre
+δύναμαι: #K7 is positively correlated with no particular genre
+δύναμαι: #K8 is positively correlated with no particular genre
+δύναμαι: #K9 is positively correlated with no particular genre
+καλός: #K0 is positively correlated with no particular genre
+καλός: #K1 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.848, p = 0.0)
 		G:Technical (Spearman's ρ = 0.661, p = 0.014)
-καλός: #K2 is correlated with no particular genre
-καλός: #K3 is correlated with 
+καλός: #K2 is positively correlated with no particular genre
+καλός: #K3 is positively correlated with 
 		G:Letters (Spearman's ρ = 0.624, p = 0.023)
-καλός: #K4 is correlated with no particular genre
-καλός: #K5 is correlated with no particular genre
-καλός: #K6 is correlated with no particular genre
-καλός: #K7 is correlated with 
-		G:Poetry (Spearman's ρ = -0.739, p = 0.004)
-καλός: #K8 is correlated with 
+καλός: #K4 is positively correlated with no particular genre
+καλός: #K5 is positively correlated with no particular genre
+καλός: #K6 is positively correlated with no particular genre
+καλός: #K7 is positively correlated with no particular genre
+καλός: #K8 is positively correlated with 
 		G:Letters (Spearman's ρ = 0.577, p = 0.039)
-καλός: #K9 is correlated with no particular genre
-λέγω: #K0 is correlated with no particular genre
-λέγω: #K1 is correlated with 
+καλός: #K9 is positively correlated with no particular genre
+λέγω: #K0 is positively correlated with no particular genre
+λέγω: #K1 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.78, p = 0.002)
 		G:Oratory (Spearman's ρ = 0.729, p = 0.005)
-λέγω: #K2 is correlated with no particular genre
-λέγω: #K3 is correlated with 
-		G:Technical (Spearman's ρ = -0.554, p = 0.05)
-λέγω: #K4 is correlated with 
+λέγω: #K2 is positively correlated with no particular genre
+λέγω: #K3 is positively correlated with no particular genre
+λέγω: #K4 is positively correlated with 
 		G:Religion (Spearman's ρ = 0.753, p = 0.003)
-λέγω: #K5 is correlated with 
+λέγω: #K5 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.65, p = 0.016)
-λέγω: #K6 is correlated with 
+λέγω: #K6 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.579, p = 0.038)
-λέγω: #K7 is correlated with 
-		G:Poetry (Spearman's ρ = -0.795, p = 0.001)
+λέγω: #K7 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.771, p = 0.002)
 		G:Essays (Spearman's ρ = 0.761, p = 0.003)
 		G:Philosophy (Spearman's ρ = 0.732, p = 0.004)
-λέγω: #K8 is correlated with 
+λέγω: #K8 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.723, p = 0.005)
 		G:Narrative (Spearman's ρ = 0.718, p = 0.006)
 		G:Essays (Spearman's ρ = 0.623, p = 0.023)
 		G:Oratory (Spearman's ρ = 0.573, p = 0.04)
-λέγω: #K9 is correlated with 
+λέγω: #K9 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.797, p = 0.001)
 		G:Technical (Spearman's ρ = 0.65, p = 0.016)
-λεπτός: #K0 is correlated with no particular genre
-λεπτός: #K1 is correlated with no particular genre
-λεπτός: #K2 is correlated with no particular genre
-λεπτός: #K3 is correlated with no particular genre
-λεπτός: #K4 is correlated with no particular genre
-λεπτός: #K5 is correlated with 
+λεπτός: #K0 is positively correlated with no particular genre
+λεπτός: #K1 is positively correlated with no particular genre
+λεπτός: #K2 is positively correlated with no particular genre
+λεπτός: #K3 is positively correlated with no particular genre
+λεπτός: #K4 is positively correlated with no particular genre
+λεπτός: #K5 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.732, p = 0.004)
 		G:Essays (Spearman's ρ = 0.718, p = 0.006)
-λεπτός: #K6 is correlated with no particular genre
-λεπτός: #K7 is correlated with no particular genre
-λεπτός: #K8 is correlated with no particular genre
-λεπτός: #K9 is correlated with 
+λεπτός: #K6 is positively correlated with no particular genre
+λεπτός: #K7 is positively correlated with no particular genre
+λεπτός: #K8 is positively correlated with no particular genre
+λεπτός: #K9 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.651, p = 0.016)
-τυγχάνω: #K0 is correlated with no particular genre
-τυγχάνω: #K1 is correlated with no particular genre
-τυγχάνω: #K2 is correlated with no particular genre
-τυγχάνω: #K3 is correlated with 
+τυγχάνω: #K0 is positively correlated with no particular genre
+τυγχάνω: #K1 is positively correlated with no particular genre
+τυγχάνω: #K2 is positively correlated with no particular genre
+τυγχάνω: #K3 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.621, p = 0.023)
 		G:Letters (Spearman's ρ = 0.587, p = 0.035)
-τυγχάνω: #K4 is correlated with no particular genre
-τυγχάνω: #K5 is correlated with 
-		G:Letters (Spearman's ρ = -0.732, p = 0.004)
-		G:Oratory (Spearman's ρ = -0.705, p = 0.007)
-		G:Essays (Spearman's ρ = -0.614, p = 0.026)
-		G:Philosophy (Spearman's ρ = -0.587, p = 0.035)
-		G:Technical (Spearman's ρ = -0.565, p = 0.044)
-τυγχάνω: #K6 is correlated with 
+τυγχάνω: #K4 is positively correlated with no particular genre
+τυγχάνω: #K5 is positively correlated with no particular genre
+τυγχάνω: #K6 is positively correlated with 
 		G:Letters (Spearman's ρ = 0.554, p = 0.05)
-τυγχάνω: #K7 is correlated with no particular genre
-τυγχάνω: #K8 is correlated with 
-		G:Letters (Spearman's ρ = -0.684, p = 0.01)
-		G:Essays (Spearman's ρ = -0.639, p = 0.019)
-τυγχάνω: #K9 is correlated with no particular genre
-φέρω: #K0 is correlated with 
-		G:Oratory (Spearman's ρ = -0.627, p = 0.022)
-		G:Letters (Spearman's ρ = -0.611, p = 0.027)
-		G:Philosophy (Spearman's ρ = -0.609, p = 0.027)
-		G:Essays (Spearman's ρ = -0.605, p = 0.029)
-φέρω: #K1 is correlated with no particular genre
-φέρω: #K2 is correlated with no particular genre
-φέρω: #K3 is correlated with no particular genre
-φέρω: #K4 is correlated with 
-		G:Poetry (Spearman's ρ = -0.628, p = 0.022)
-φέρω: #K5 is correlated with 
+τυγχάνω: #K7 is positively correlated with no particular genre
+τυγχάνω: #K8 is positively correlated with no particular genre
+τυγχάνω: #K9 is positively correlated with no particular genre
+φέρω: #K0 is positively correlated with no particular genre
+φέρω: #K1 is positively correlated with no particular genre
+φέρω: #K2 is positively correlated with no particular genre
+φέρω: #K3 is positively correlated with no particular genre
+φέρω: #K4 is positively correlated with no particular genre
+φέρω: #K5 is positively correlated with 
 		G:Letters (Spearman's ρ = 0.57, p = 0.042)
-φέρω: #K6 is correlated with 
+φέρω: #K6 is positively correlated with 
 		G:Philosophy (Spearman's ρ = 0.572, p = 0.041)
-φέρω: #K7 is correlated with no particular genre
-φέρω: #K8 is correlated with no particular genre
-φέρω: #K9 is correlated with no particular genre
-φίλος: #K0 is correlated with no particular genre
-φίλος: #K1 is correlated with no particular genre
-φίλος: #K2 is correlated with 
+φέρω: #K7 is positively correlated with no particular genre
+φέρω: #K8 is positively correlated with no particular genre
+φέρω: #K9 is positively correlated with no particular genre
+φίλος: #K0 is positively correlated with no particular genre
+φίλος: #K1 is positively correlated with no particular genre
+φίλος: #K2 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.563, p = 0.045)
-φίλος: #K3 is correlated with no particular genre
-φίλος: #K4 is correlated with 
+φίλος: #K3 is positively correlated with no particular genre
+φίλος: #K4 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.792, p = 0.001)
 		G:Narrative (Spearman's ρ = 0.746, p = 0.003)
-φίλος: #K5 is correlated with 
+φίλος: #K5 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.752, p = 0.003)
 		G:Essays (Spearman's ρ = 0.738, p = 0.004)
 		G:Technical (Spearman's ρ = 0.691, p = 0.009)
 		G:Oratory (Spearman's ρ = 0.556, p = 0.049)
-φίλος: #K6 is correlated with 
-		G:Technical (Spearman's ρ = -0.575, p = 0.04)
-φίλος: #K7 is correlated with no particular genre
-φίλος: #K8 is correlated with no particular genre
-φίλος: #K9 is correlated with 
+φίλος: #K6 is positively correlated with no particular genre
+φίλος: #K7 is positively correlated with no particular genre
+φίλος: #K8 is positively correlated with no particular genre
+φίλος: #K9 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.693, p = 0.009)
 		G:Narrative (Spearman's ρ = 0.554, p = 0.05)
-φαίνω: #K0 is correlated with 
+φαίνω: #K0 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.605, p = 0.029)
-φαίνω: #K1 is correlated with no particular genre
-φαίνω: #K2 is correlated with no particular genre
-φαίνω: #K3 is correlated with no particular genre
-φαίνω: #K4 is correlated with 
-		G:Oratory (Spearman's ρ = -0.735, p = 0.004)
-		G:Philosophy (Spearman's ρ = -0.684, p = 0.01)
-		G:Technical (Spearman's ρ = -0.673, p = 0.012)
-		G:Comedy (Spearman's ρ = -0.559, p = 0.047)
-φαίνω: #K5 is correlated with 
-		G:Letters (Spearman's ρ = -0.617, p = 0.025)
-		G:Essays (Spearman's ρ = -0.564, p = 0.045)
-φαίνω: #K6 is correlated with no particular genre
-φαίνω: #K7 is correlated with 
+φαίνω: #K1 is positively correlated with no particular genre
+φαίνω: #K2 is positively correlated with no particular genre
+φαίνω: #K3 is positively correlated with no particular genre
+φαίνω: #K4 is positively correlated with no particular genre
+φαίνω: #K5 is positively correlated with no particular genre
+φαίνω: #K6 is positively correlated with no particular genre
+φαίνω: #K7 is positively correlated with 
 		G:Letters (Spearman's ρ = 0.554, p = 0.05)
-φαίνω: #K8 is correlated with 
+φαίνω: #K8 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.825, p = 0.001)
 		G:Technical (Spearman's ρ = 0.656, p = 0.015)
-φαίνω: #K9 is correlated with no particular genre
-φύσις: #K0 is correlated with 
-		G:Philosophy (Spearman's ρ = -0.572, p = 0.041)
-φύσις: #K1 is correlated with no particular genre
-φύσις: #K2 is correlated with 
+φαίνω: #K9 is positively correlated with no particular genre
+φύσις: #K0 is positively correlated with no particular genre
+φύσις: #K1 is positively correlated with no particular genre
+φύσις: #K2 is positively correlated with 
 		G:Comedy (Spearman's ρ = 0.577, p = 0.039)
-φύσις: #K3 is correlated with 
+φύσις: #K3 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.586, p = 0.035)
-φύσις: #K4 is correlated with no particular genre
-φύσις: #K5 is correlated with 
+φύσις: #K4 is positively correlated with no particular genre
+φύσις: #K5 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.718, p = 0.006)
 		G:Narrative (Spearman's ρ = 0.577, p = 0.039)
-φύσις: #K6 is correlated with no particular genre
-φύσις: #K7 is correlated with no particular genre
-φύσις: #K8 is correlated with 
+φύσις: #K6 is positively correlated with no particular genre
+φύσις: #K7 is positively correlated with no particular genre
+φύσις: #K8 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.56, p = 0.047)
-φύσις: #K9 is correlated with 
+φύσις: #K9 is positively correlated with 
 		G:Letters (Spearman's ρ = 0.718, p = 0.006)
-χάρις: #K0 is correlated with 
+χάρις: #K0 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.69, p = 0.009)
 		G:Technical (Spearman's ρ = 0.588, p = 0.035)
-χάρις: #K1 is correlated with 
-		G:Narrative (Spearman's ρ = -0.571, p = 0.042)
-χάρις: #K2 is correlated with no particular genre
-χάρις: #K3 is correlated with no particular genre
-χάρις: #K4 is correlated with no particular genre
-χάρις: #K5 is correlated with no particular genre
-χάρις: #K6 is correlated with 
+χάρις: #K1 is positively correlated with no particular genre
+χάρις: #K2 is positively correlated with no particular genre
+χάρις: #K3 is positively correlated with no particular genre
+χάρις: #K4 is positively correlated with no particular genre
+χάρις: #K5 is positively correlated with no particular genre
+χάρις: #K6 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.616, p = 0.025)
-χάρις: #K7 is correlated with 
+χάρις: #K7 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.681, p = 0.01)
-χάρις: #K8 is correlated with no particular genre
-χάρις: #K9 is correlated with no particular genre
-ψυχή: #K0 is correlated with 
+χάρις: #K8 is positively correlated with no particular genre
+χάρις: #K9 is positively correlated with no particular genre
+ψυχή: #K0 is positively correlated with 
 		G:Philosophy (Spearman's ρ = 0.732, p = 0.004)
 		G:Oratory (Spearman's ρ = 0.675, p = 0.011)
 		G:Essays (Spearman's ρ = 0.658, p = 0.015)
-ψυχή: #K1 is correlated with no particular genre
-ψυχή: #K2 is correlated with 
+ψυχή: #K1 is positively correlated with no particular genre
+ψυχή: #K2 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.667, p = 0.013)
-ψυχή: #K3 is correlated with no particular genre
-ψυχή: #K4 is correlated with no particular genre
-ψυχή: #K5 is correlated with 
+ψυχή: #K3 is positively correlated with no particular genre
+ψυχή: #K4 is positively correlated with no particular genre
+ψυχή: #K5 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.616, p = 0.025)
-ψυχή: #K6 is correlated with 
+ψυχή: #K6 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.61, p = 0.027)
-ψυχή: #K7 is correlated with 
-		G:Religion (Spearman's ρ = -0.646, p = 0.017)
-		G:Narrative (Spearman's ρ = -0.582, p = 0.037)
-ψυχή: #K8 is correlated with no particular genre
-ψυχή: #K9 is correlated with no particular genre
-ψυχρός: #K0 is correlated with 
+ψυχή: #K7 is positively correlated with no particular genre
+ψυχή: #K8 is positively correlated with no particular genre
+ψυχή: #K9 is positively correlated with no particular genre
+ψυχρός: #K0 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.568, p = 0.043)
 		G:Narrative (Spearman's ρ = 0.565, p = 0.044)
-ψυχρός: #K1 is correlated with 
+ψυχρός: #K1 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.735, p = 0.004)
 		G:Technical (Spearman's ρ = 0.589, p = 0.034)
 		G:Oratory (Spearman's ρ = 0.584, p = 0.036)
-ψυχρός: #K2 is correlated with no particular genre
-ψυχρός: #K3 is correlated with no particular genre
-ψυχρός: #K4 is correlated with 
+ψυχρός: #K2 is positively correlated with no particular genre
+ψυχρός: #K3 is positively correlated with no particular genre
+ψυχρός: #K4 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.557, p = 0.048)
-ψυχρός: #K5 is correlated with 
+ψυχρός: #K5 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.667, p = 0.013)
 		G:Philosophy (Spearman's ρ = 0.568, p = 0.043)
-ψυχρός: #K6 is correlated with no particular genre
-ψυχρός: #K7 is correlated with 
+ψυχρός: #K6 is positively correlated with no particular genre
+ψυχρός: #K7 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.74, p = 0.004)
 		G:Technical (Spearman's ρ = 0.558, p = 0.048)
-ψυχρός: #K8 is correlated with no particular genre
-ψυχρός: #K9 is correlated with no particular genre
-ἀρετή: #K0 is correlated with no particular genre
-ἀρετή: #K1 is correlated with no particular genre
-ἀρετή: #K2 is correlated with 
+ψυχρός: #K8 is positively correlated with no particular genre
+ψυχρός: #K9 is positively correlated with no particular genre
+ἀρετή: #K0 is positively correlated with no particular genre
+ἀρετή: #K1 is positively correlated with no particular genre
+ἀρετή: #K2 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.797, p = 0.001)
-ἀρετή: #K3 is correlated with no particular genre
-ἀρετή: #K4 is correlated with no particular genre
-ἀρετή: #K5 is correlated with 
+ἀρετή: #K3 is positively correlated with no particular genre
+ἀρετή: #K4 is positively correlated with no particular genre
+ἀρετή: #K5 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.645, p = 0.017)
 		G:Philosophy (Spearman's ρ = 0.594, p = 0.032)
-ἀρετή: #K6 is correlated with 
+ἀρετή: #K6 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.711, p = 0.006)
-ἀρετή: #K7 is correlated with no particular genre
-ἀρετή: #K8 is correlated with no particular genre
-ἀρετή: #K9 is correlated with 
-		G:Narrative (Spearman's ρ = -0.808, p = 0.001)
-ἀριθμός: #K0 is correlated with 
-		G:Technical (Spearman's ρ = -0.651, p = 0.016)
-		G:Philosophy (Spearman's ρ = -0.565, p = 0.044)
-ἀριθμός: #K1 is correlated with no particular genre
-ἀριθμός: #K2 is correlated with 
-		G:Comedy (Spearman's ρ = -0.62, p = 0.024)
-ἀριθμός: #K3 is correlated with no particular genre
-ἀριθμός: #K4 is correlated with 
+ἀρετή: #K7 is positively correlated with no particular genre
+ἀρετή: #K8 is positively correlated with no particular genre
+ἀρετή: #K9 is positively correlated with no particular genre
+ἀριθμός: #K0 is positively correlated with no particular genre
+ἀριθμός: #K1 is positively correlated with no particular genre
+ἀριθμός: #K2 is positively correlated with no particular genre
+ἀριθμός: #K3 is positively correlated with no particular genre
+ἀριθμός: #K4 is positively correlated with 
 		G:Philosophy (Spearman's ρ = 0.62, p = 0.024)
 		G:Technical (Spearman's ρ = 0.585, p = 0.036)
-ἀριθμός: #K5 is correlated with 
+ἀριθμός: #K5 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.573, p = 0.04)
 		G:Religion (Spearman's ρ = 0.554, p = 0.049)
-ἀριθμός: #K6 is correlated with no particular genre
-ἀριθμός: #K7 is correlated with 
-		G:Religion (Spearman's ρ = -0.717, p = 0.006)
-ἀριθμός: #K8 is correlated with no particular genre
-ἀριθμός: #K9 is correlated with 
+ἀριθμός: #K6 is positively correlated with no particular genre
+ἀριθμός: #K7 is positively correlated with no particular genre
+ἀριθμός: #K8 is positively correlated with no particular genre
+ἀριθμός: #K9 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.62, p = 0.024)
 		G:Essays (Spearman's ρ = 0.601, p = 0.03)
-ἀρχή: #K0 is correlated with 
+ἀρχή: #K0 is positively correlated with 
 		G:Religion (Spearman's ρ = 0.799, p = 0.001)
-ἀρχή: #K1 is correlated with no particular genre
-ἀρχή: #K2 is correlated with no particular genre
-ἀρχή: #K3 is correlated with 
-		G:Religion (Spearman's ρ = -0.611, p = 0.027)
-ἀρχή: #K4 is correlated with 
-		G:Essays (Spearman's ρ = -0.72, p = 0.005)
-ἀρχή: #K5 is correlated with 
+ἀρχή: #K1 is positively correlated with no particular genre
+ἀρχή: #K2 is positively correlated with no particular genre
+ἀρχή: #K3 is positively correlated with no particular genre
+ἀρχή: #K4 is positively correlated with no particular genre
+ἀρχή: #K5 is positively correlated with 
 		G:Religion (Spearman's ρ = 0.623, p = 0.023)
-ἀρχή: #K6 is correlated with no particular genre
-ἀρχή: #K7 is correlated with 
-		G:Narrative (Spearman's ρ = -0.774, p = 0.002)
-		G:Technical (Spearman's ρ = -0.633, p = 0.02)
-ἀρχή: #K8 is correlated with 
+ἀρχή: #K6 is positively correlated with no particular genre
+ἀρχή: #K7 is positively correlated with no particular genre
+ἀρχή: #K8 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.827, p = 0.0)
 		G:Oratory (Spearman's ρ = 0.711, p = 0.006)
 		G:Philosophy (Spearman's ρ = 0.691, p = 0.009)
-ἀρχή: #K9 is correlated with 
+ἀρχή: #K9 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.658, p = 0.015)
 		G:Religion (Spearman's ρ = 0.583, p = 0.037)
-ἄγω: #K0 is correlated with no particular genre
-ἄγω: #K1 is correlated with 
-		G:Essays (Spearman's ρ = -0.724, p = 0.005)
-ἄγω: #K2 is correlated with no particular genre
-ἄγω: #K3 is correlated with no particular genre
-ἄγω: #K4 is correlated with no particular genre
-ἄγω: #K5 is correlated with no particular genre
-ἄγω: #K6 is correlated with 
+ἄγω: #K0 is positively correlated with no particular genre
+ἄγω: #K1 is positively correlated with no particular genre
+ἄγω: #K2 is positively correlated with no particular genre
+ἄγω: #K3 is positively correlated with no particular genre
+ἄγω: #K4 is positively correlated with no particular genre
+ἄγω: #K5 is positively correlated with no particular genre
+ἄγω: #K6 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.663, p = 0.014)
 		G:Comedy (Spearman's ρ = 0.629, p = 0.021)
 		G:Philosophy (Spearman's ρ = 0.594, p = 0.032)
-ἄγω: #K7 is correlated with no particular genre
-ἄγω: #K8 is correlated with 
+ἄγω: #K7 is positively correlated with no particular genre
+ἄγω: #K8 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.753, p = 0.003)
-ἄγω: #K9 is correlated with no particular genre
-ἄρχω: #K0 is correlated with no particular genre
-ἄρχω: #K1 is correlated with no particular genre
-ἄρχω: #K2 is correlated with no particular genre
-ἄρχω: #K3 is correlated with no particular genre
-ἄρχω: #K4 is correlated with 
-		G:Poetry (Spearman's ρ = -0.758, p = 0.003)
-ἄρχω: #K5 is correlated with 
+ἄγω: #K9 is positively correlated with no particular genre
+ἄρχω: #K0 is positively correlated with no particular genre
+ἄρχω: #K1 is positively correlated with no particular genre
+ἄρχω: #K2 is positively correlated with no particular genre
+ἄρχω: #K3 is positively correlated with no particular genre
+ἄρχω: #K4 is positively correlated with no particular genre
+ἄρχω: #K5 is positively correlated with 
 		G:Letters (Spearman's ρ = 0.617, p = 0.025)
-ἄρχω: #K6 is correlated with no particular genre
-ἄρχω: #K7 is correlated with no particular genre
-ἄρχω: #K8 is correlated with no particular genre
-ἄρχω: #K9 is correlated with no particular genre
-ἴδιος: #K0 is correlated with 
+ἄρχω: #K6 is positively correlated with no particular genre
+ἄρχω: #K7 is positively correlated with no particular genre
+ἄρχω: #K8 is positively correlated with no particular genre
+ἄρχω: #K9 is positively correlated with no particular genre
+ἴδιος: #K0 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.712, p = 0.006)
-ἴδιος: #K1 is correlated with no particular genre
-ἴδιος: #K2 is correlated with no particular genre
-ἴδιος: #K3 is correlated with 
-		G:Narrative (Spearman's ρ = -0.577, p = 0.039)
-ἴδιος: #K4 is correlated with 
+ἴδιος: #K1 is positively correlated with no particular genre
+ἴδιος: #K2 is positively correlated with no particular genre
+ἴδιος: #K3 is positively correlated with no particular genre
+ἴδιος: #K4 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.677, p = 0.011)
-ἴδιος: #K5 is correlated with 
-		G:Essays (Spearman's ρ = -0.626, p = 0.022)
-ἴδιος: #K6 is correlated with 
+ἴδιος: #K5 is positively correlated with no particular genre
+ἴδιος: #K6 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.572, p = 0.041)
-ἴδιος: #K7 is correlated with 
-		G:Technical (Spearman's ρ = -0.563, p = 0.045)
-ἴδιος: #K8 is correlated with 
+ἴδιος: #K7 is positively correlated with no particular genre
+ἴδιος: #K8 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.696, p = 0.008)
 		G:Narrative (Spearman's ρ = 0.667, p = 0.013)
-ἴδιος: #K9 is correlated with 
+ἴδιος: #K9 is positively correlated with 
 		G:Letters (Spearman's ρ = 0.678, p = 0.011)
-ἴσος: #K0 is correlated with 
+ἴσος: #K0 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.584, p = 0.036)
-ἴσος: #K1 is correlated with 
-		G:Poetry (Spearman's ρ = -0.566, p = 0.044)
-ἴσος: #K2 is correlated with 
-		G:Narrative (Spearman's ρ = -0.797, p = 0.001)
-		G:Oratory (Spearman's ρ = -0.627, p = 0.022)
-ἴσος: #K3 is correlated with 
-		G:Religion (Spearman's ρ = -0.597, p = 0.031)
-ἴσος: #K4 is correlated with 
+ἴσος: #K1 is positively correlated with no particular genre
+ἴσος: #K2 is positively correlated with no particular genre
+ἴσος: #K3 is positively correlated with no particular genre
+ἴσος: #K4 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.74, p = 0.004)
 		G:Technical (Spearman's ρ = 0.676, p = 0.011)
-ἴσος: #K5 is correlated with no particular genre
-ἴσος: #K6 is correlated with 
+ἴσος: #K5 is positively correlated with no particular genre
+ἴσος: #K6 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.591, p = 0.033)
-ἴσος: #K7 is correlated with 
+ἴσος: #K7 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.809, p = 0.001)
 		G:Narrative (Spearman's ρ = 0.633, p = 0.02)
 		G:Philosophy (Spearman's ρ = 0.587, p = 0.035)
-ἴσος: #K8 is correlated with 
+ἴσος: #K8 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.56, p = 0.047)
-ἴσος: #K9 is correlated with 
+ἴσος: #K9 is positively correlated with 
 		G:Religion (Spearman's ρ = 0.645, p = 0.017)
 		G:Essays (Spearman's ρ = 0.589, p = 0.034)
-ὀρθός: #K0 is correlated with 
+ὀρθός: #K0 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.673, p = 0.012)
-ὀρθός: #K1 is correlated with 
+ὀρθός: #K1 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.598, p = 0.031)
-ὀρθός: #K2 is correlated with no particular genre
-ὀρθός: #K3 is correlated with 
-		G:Letters (Spearman's ρ = -0.664, p = 0.013)
-ὀρθός: #K4 is correlated with 
-		G:Poetry (Spearman's ρ = -0.852, p = 0.0)
-ὀρθός: #K5 is correlated with 
-		G:Religion (Spearman's ρ = -0.633, p = 0.02)
-ὀρθός: #K6 is correlated with 
+ὀρθός: #K2 is positively correlated with no particular genre
+ὀρθός: #K3 is positively correlated with no particular genre
+ὀρθός: #K4 is positively correlated with no particular genre
+ὀρθός: #K5 is positively correlated with no particular genre
+ὀρθός: #K6 is positively correlated with 
 		G:Oratory (Spearman's ρ = 0.579, p = 0.038)
-ὀρθός: #K7 is correlated with 
+ὀρθός: #K7 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.638, p = 0.019)
-ὀρθός: #K8 is correlated with no particular genre
-ὀρθός: #K9 is correlated with no particular genre
-ὄγκος: #K0 is correlated with no particular genre
-ὄγκος: #K1 is correlated with 
+ὀρθός: #K8 is positively correlated with no particular genre
+ὀρθός: #K9 is positively correlated with no particular genre
+ὄγκος: #K0 is positively correlated with no particular genre
+ὄγκος: #K1 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.654, p = 0.015)
 		G:Technical (Spearman's ρ = 0.605, p = 0.029)
-ὄγκος: #K2 is correlated with no particular genre
-ὄγκος: #K3 is correlated with 
+ὄγκος: #K2 is positively correlated with no particular genre
+ὄγκος: #K3 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.639, p = 0.019)
-ὄγκος: #K4 is correlated with no particular genre
-ὄγκος: #K5 is correlated with 
-		G:Essays (Spearman's ρ = -0.594, p = 0.032)
-ὄγκος: #K6 is correlated with 
+ὄγκος: #K4 is positively correlated with no particular genre
+ὄγκος: #K5 is positively correlated with no particular genre
+ὄγκος: #K6 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.62, p = 0.024)
 		G:Narrative (Spearman's ρ = 0.566, p = 0.044)
-ὄγκος: #K7 is correlated with 
+ὄγκος: #K7 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.554, p = 0.05)
-ὄγκος: #K8 is correlated with 
-		G:Essays (Spearman's ρ = -0.717, p = 0.006)
-		G:Religion (Spearman's ρ = -0.629, p = 0.021)
-ὄγκος: #K9 is correlated with no particular genre
-ῥυθμός: #K0 is correlated with 
+ὄγκος: #K8 is positively correlated with no particular genre
+ὄγκος: #K9 is positively correlated with no particular genre
+ῥυθμός: #K0 is positively correlated with 
 		G:Narrative (Spearman's ρ = 0.695, p = 0.008)
 		G:Technical (Spearman's ρ = 0.633, p = 0.02)
 		G:Oratory (Spearman's ρ = 0.557, p = 0.048)
-ῥυθμός: #K1 is correlated with no particular genre
-ῥυθμός: #K2 is correlated with no particular genre
-ῥυθμός: #K3 is correlated with no particular genre
-ῥυθμός: #K4 is correlated with 
-		G:Poetry (Spearman's ρ = -0.62, p = 0.024)
-ῥυθμός: #K5 is correlated with 
+ῥυθμός: #K1 is positively correlated with no particular genre
+ῥυθμός: #K2 is positively correlated with no particular genre
+ῥυθμός: #K3 is positively correlated with no particular genre
+ῥυθμός: #K4 is positively correlated with no particular genre
+ῥυθμός: #K5 is positively correlated with 
 		G:Essays (Spearman's ρ = 0.717, p = 0.006)
 		G:Narrative (Spearman's ρ = 0.661, p = 0.014)
 		G:Oratory (Spearman's ρ = 0.617, p = 0.025)
-ῥυθμός: #K6 is correlated with no particular genre
-ῥυθμός: #K7 is correlated with no particular genre
-ῥυθμός: #K8 is correlated with 
+ῥυθμός: #K6 is positively correlated with no particular genre
+ῥυθμός: #K7 is positively correlated with no particular genre
+ῥυθμός: #K8 is positively correlated with 
 		G:Technical (Spearman's ρ = 0.717, p = 0.006)
 		G:Philosophy (Spearman's ρ = 0.669, p = 0.012)
-ῥυθμός: #K9 is correlated with no particular genre
+ῥυθμός: #K9 is positively correlated with no particular genre
 
-### SUMMARY: CORRELATIONS WITH SUBGENRES ###
-
-αἱρέω: #K0 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.664, p = 0.013)
-		SG:Bucolic (Spearman's ρ = 0.62, p = 0.024)
-		SG:Narrative (Spearman's ρ = 0.62, p = 0.024)
-αἱρέω: #K1 is correlated with 
-		SG:Narrative (Spearman's ρ = -0.577, p = 0.039)
-		SG:Bucolic (Spearman's ρ = -0.577, p = 0.039)
-αἱρέω: #K2 is correlated with 
-		SG:Epic (Spearman's ρ = -0.875, p = 0.0)
-		SG:Geography (Spearman's ρ = 0.62, p = 0.024)
-αἱρέω: #K3 is correlated with 
-		SG:Letters (Spearman's ρ = -0.644, p = 0.017)
-αἱρέω: #K4 is correlated with no particular subgenre
-αἱρέω: #K5 is correlated with no particular subgenre
-αἱρέω: #K6 is correlated with no particular subgenre
-αἱρέω: #K7 is correlated with 
-		SG:Letters (Spearman's ρ = 0.658, p = 0.015)
-αἱρέω: #K8 is correlated with no particular subgenre
-αἱρέω: #K9 is correlated with no particular subgenre
-γένος: #K0 is correlated with 
-		SG:History (Spearman's ρ = 0.584, p = 0.036)
-		SG:Geography (Spearman's ρ = 0.577, p = 0.039)
-γένος: #K1 is correlated with no particular subgenre
-γένος: #K2 is correlated with no particular subgenre
-γένος: #K3 is correlated with 
-		SG:Art History (Spearman's ρ = -0.559, p = 0.047)
-γένος: #K4 is correlated with no particular subgenre
-γένος: #K5 is correlated with no particular subgenre
-γένος: #K6 is correlated with 
-		SG:Military (Spearman's ρ = 0.698, p = 0.008)
-		SG:Geography (Spearman's ρ = 0.62, p = 0.024)
-		SG:Epic (Spearman's ρ = -0.612, p = 0.026)
-		SG:History (Spearman's ρ = 0.575, p = 0.04)
-γένος: #K7 is correlated with 
-		SG:Geography (Spearman's ρ = -0.559, p = 0.047)
-γένος: #K8 is correlated with 
-		SG:Didactic (Spearman's ρ = 0.691, p = 0.009)
-		SG:Essay (Spearman's ρ = 0.604, p = 0.029)
-		SG:History (Spearman's ρ = 0.595, p = 0.032)
-γένος: #K9 is correlated with no particular subgenre
-δύναμαι: #K0 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.699, p = 0.008)
-		SG:Bucolic (Spearman's ρ = 0.629, p = 0.021)
-δύναμαι: #K1 is correlated with no particular subgenre
-δύναμαι: #K2 is correlated with 
-		SG:Biography (Spearman's ρ = 0.731, p = 0.004)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.695, p = 0.008)
-		SG:History (Spearman's ρ = 0.688, p = 0.009)
-		SG:Military (Spearman's ρ = 0.604, p = 0.029)
-		SG:Hymns (Spearman's ρ = -0.568, p = 0.043)
-δύναμαι: #K3 is correlated with 
-		SG:Bucolic (Spearman's ρ = -0.629, p = 0.021)
-δύναμαι: #K4 is correlated with no particular subgenre
-δύναμαι: #K5 is correlated with 
-		SG:Letters (Spearman's ρ = 0.638, p = 0.019)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.605, p = 0.029)
-δύναμαι: #K6 is correlated with 
-		SG:Narrative (Spearman's ρ = -0.65, p = 0.016)
-		SG:Bucolic (Spearman's ρ = -0.62, p = 0.024)
-δύναμαι: #K7 is correlated with 
-		SG:Essay (Spearman's ρ = -0.814, p = 0.001)
-		SG:Biography (Spearman's ρ = -0.597, p = 0.031)
-		SG:Theology (Spearman's ρ = -0.559, p = 0.047)
-δύναμαι: #K8 is correlated with 
-		SG:Epic (Spearman's ρ = 0.609, p = 0.027)
-		SG:Narrative (Spearman's ρ = -0.554, p = 0.05)
-δύναμαι: #K9 is correlated with 
-		SG:Bucolic (Spearman's ρ = 0.577, p = 0.039)
-καλός: #K0 is correlated with 
-		SG:Narrative (Spearman's ρ = -0.739, p = 0.004)
-		SG:Bucolic (Spearman's ρ = -0.62, p = 0.024)
-καλός: #K1 is correlated with 
-		SG:History (Spearman's ρ = 0.8, p = 0.001)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.67, p = 0.012)
-		SG:Geography (Spearman's ρ = 0.577, p = 0.039)
-καλός: #K2 is correlated with no particular subgenre
-καλός: #K3 is correlated with 
-		SG:Epic (Spearman's ρ = 0.675, p = 0.011)
-		SG:Letters (Spearman's ρ = 0.624, p = 0.023)
-καλός: #K4 is correlated with no particular subgenre
-καλός: #K5 is correlated with no particular subgenre
-καλός: #K6 is correlated with no particular subgenre
-καλός: #K7 is correlated with 
-		SG:Epic (Spearman's ρ = -0.86, p = 0.0)
-καλός: #K8 is correlated with 
-		SG:Letters (Spearman's ρ = 0.577, p = 0.039)
-		SG:Art History (Spearman's ρ = 0.559, p = 0.047)
-καλός: #K9 is correlated with no particular subgenre
-λέγω: #K0 is correlated with 
-		SG:Epic (Spearman's ρ = -0.615, p = 0.025)
-λέγω: #K1 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.729, p = 0.005)
-		SG:Military (Spearman's ρ = 0.725, p = 0.005)
-		SG:Essay (Spearman's ρ = 0.586, p = 0.035)
-		SG:Mathematics (Spearman's ρ = 0.577, p = 0.039)
-		SG:Hunting (Spearman's ρ = 0.577, p = 0.039)
-λέγω: #K2 is correlated with 
-		SG:Narrative (Spearman's ρ = -0.699, p = 0.008)
-		SG:Bucolic (Spearman's ρ = -0.62, p = 0.024)
-λέγω: #K3 is correlated with 
-		SG:Bucolic (Spearman's ρ = -0.62, p = 0.024)
-		SG:Didactic (Spearman's ρ = -0.594, p = 0.032)
-		SG:Narrative (Spearman's ρ = -0.576, p = 0.039)
-λέγω: #K4 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.658, p = 0.015)
-		SG:Bucolic (Spearman's ρ = 0.62, p = 0.024)
-		SG:Hunting (Spearman's ρ = -0.577, p = 0.039)
-		SG:Mathematics (Spearman's ρ = -0.577, p = 0.039)
-		SG:Hymns (Spearman's ρ = 0.565, p = 0.044)
-λέγω: #K5 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.645, p = 0.017)
-		SG:History (Spearman's ρ = 0.578, p = 0.039)
-λέγω: #K6 is correlated with 
-		SG:Biography (Spearman's ρ = 0.591, p = 0.034)
-		SG:Oratory (Spearman's ρ = 0.579, p = 0.038)
-		SG:Bucolic (Spearman's ρ = -0.559, p = 0.047)
-		SG:Essay (Spearman's ρ = 0.558, p = 0.048)
-λέγω: #K7 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.771, p = 0.002)
-		SG:Biography (Spearman's ρ = 0.758, p = 0.003)
-		SG:Essay (Spearman's ρ = 0.742, p = 0.004)
-		SG:Philosophy (Spearman's ρ = 0.732, p = 0.004)
-		SG:Hunting (Spearman's ρ = 0.629, p = 0.021)
-		SG:Mathematics (Spearman's ρ = 0.629, p = 0.021)
-		SG:Bucolic (Spearman's ρ = -0.559, p = 0.047)
-λέγω: #K8 is correlated with 
-		SG:Essay (Spearman's ρ = 0.667, p = 0.013)
-		SG:Military (Spearman's ρ = 0.577, p = 0.039)
-		SG:Oratory (Spearman's ρ = 0.573, p = 0.04)
-λέγω: #K9 is correlated with 
-		SG:History (Spearman's ρ = 0.798, p = 0.001)
-λεπτός: #K0 is correlated with no particular subgenre
-λεπτός: #K1 is correlated with no particular subgenre
-λεπτός: #K2 is correlated with 
-		SG:Biography (Spearman's ρ = 0.559, p = 0.047)
-λεπτός: #K3 is correlated with no particular subgenre
-λεπτός: #K4 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.629, p = 0.021)
-		SG:Bucolic (Spearman's ρ = 0.62, p = 0.024)
-λεπτός: #K5 is correlated with 
-		SG:Essay (Spearman's ρ = 0.778, p = 0.002)
-		SG:Oratory (Spearman's ρ = 0.732, p = 0.004)
-λεπτός: #K6 is correlated with 
-		SG:Bucolic (Spearman's ρ = 0.577, p = 0.039)
-		SG:Narrative (Spearman's ρ = 0.559, p = 0.047)
-λεπτός: #K7 is correlated with 
-		SG:Biography (Spearman's ρ = -0.62, p = 0.024)
-λεπτός: #K8 is correlated with no particular subgenre
-λεπτός: #K9 is correlated with 
-		SG:Biography (Spearman's ρ = 0.62, p = 0.024)
-		SG:Essay (Spearman's ρ = 0.584, p = 0.036)
-τυγχάνω: #K0 is correlated with no particular subgenre
-τυγχάνω: #K1 is correlated with no particular subgenre
-τυγχάνω: #K2 is correlated with 
-		SG:History (Spearman's ρ = 0.616, p = 0.025)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.589, p = 0.034)
-τυγχάνω: #K3 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.621, p = 0.023)
-		SG:Letters (Spearman's ρ = 0.587, p = 0.035)
-τυγχάνω: #K4 is correlated with 
-		SG:Didactic (Spearman's ρ = 0.62, p = 0.024)
-τυγχάνω: #K5 is correlated with 
-		SG:Letters (Spearman's ρ = -0.732, p = 0.004)
-		SG:Oratory (Spearman's ρ = -0.705, p = 0.007)
-		SG:Art History (Spearman's ρ = -0.62, p = 0.024)
-		SG:Philosophy (Spearman's ρ = -0.587, p = 0.035)
-		SG:Essay (Spearman's ρ = -0.558, p = 0.048)
-τυγχάνω: #K6 is correlated with 
-		SG:Letters (Spearman's ρ = 0.554, p = 0.05)
-τυγχάνω: #K7 is correlated with 
-		SG:Narrative (Spearman's ρ = -0.699, p = 0.008)
-		SG:Epic (Spearman's ρ = 0.559, p = 0.047)
-τυγχάνω: #K8 is correlated with 
-		SG:Letters (Spearman's ρ = -0.684, p = 0.01)
-		SG:Art History (Spearman's ρ = -0.62, p = 0.024)
-		SG:Essay (Spearman's ρ = -0.589, p = 0.034)
-		SG:Epic (Spearman's ρ = -0.568, p = 0.043)
-τυγχάνω: #K9 is correlated with no particular subgenre
-φέρω: #K0 is correlated with 
-		SG:Oratory (Spearman's ρ = -0.627, p = 0.022)
-		SG:Letters (Spearman's ρ = -0.611, p = 0.027)
-		SG:Philosophy (Spearman's ρ = -0.609, p = 0.027)
-φέρω: #K1 is correlated with no particular subgenre
-φέρω: #K2 is correlated with 
-		SG:Medicine (Spearman's ρ = 0.62, p = 0.024)
-φέρω: #K3 is correlated with no particular subgenre
-φέρω: #K4 is correlated with 
-		SG:Military (Spearman's ρ = 0.644, p = 0.017)
-φέρω: #K5 is correlated with 
-		SG:Letters (Spearman's ρ = 0.57, p = 0.042)
-φέρω: #K6 is correlated with 
-		SG:Philosophy (Spearman's ρ = 0.572, p = 0.041)
-φέρω: #K7 is correlated with no particular subgenre
-φέρω: #K8 is correlated with 
-		SG:Didactic (Spearman's ρ = -0.565, p = 0.044)
-φέρω: #K9 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.652, p = 0.016)
-		SG:Narrative (Spearman's ρ = 0.65, p = 0.016)
-		SG:Bucolic (Spearman's ρ = 0.629, p = 0.021)
-φίλος: #K0 is correlated with 
-		SG:Didactic (Spearman's ρ = -0.587, p = 0.035)
-φίλος: #K1 is correlated with no particular subgenre
-φίλος: #K2 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.626, p = 0.022)
-φίλος: #K3 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = -0.595, p = 0.032)
-φίλος: #K4 is correlated with 
-		SG:History (Spearman's ρ = 0.734, p = 0.004)
-		SG:Biography (Spearman's ρ = 0.658, p = 0.015)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.611, p = 0.027)
-		SG:Epic (Spearman's ρ = -0.581, p = 0.038)
-φίλος: #K5 is correlated with 
-		SG:Essay (Spearman's ρ = 0.685, p = 0.01)
-		SG:Biography (Spearman's ρ = 0.658, p = 0.015)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.611, p = 0.027)
-		SG:History (Spearman's ρ = 0.604, p = 0.029)
-		SG:Oratory (Spearman's ρ = 0.556, p = 0.049)
-φίλος: #K6 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = -0.626, p = 0.022)
-φίλος: #K7 is correlated with no particular subgenre
-φίλος: #K8 is correlated with no particular subgenre
-φίλος: #K9 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.693, p = 0.009)
-φαίνω: #K0 is correlated with 
-		SG:Essay (Spearman's ρ = 0.567, p = 0.043)
-φαίνω: #K1 is correlated with no particular subgenre
-φαίνω: #K2 is correlated with no particular subgenre
-φαίνω: #K3 is correlated with no particular subgenre
-φαίνω: #K4 is correlated with 
-		SG:Oratory (Spearman's ρ = -0.735, p = 0.004)
-		SG:Philosophy (Spearman's ρ = -0.684, p = 0.01)
-		SG:Biography (Spearman's ρ = -0.664, p = 0.013)
-		SG:Military (Spearman's ρ = -0.635, p = 0.02)
-		SG:Hunting (Spearman's ρ = -0.62, p = 0.024)
-		SG:Comedy (Spearman's ρ = -0.559, p = 0.047)
-φαίνω: #K5 is correlated with 
-		SG:Art History (Spearman's ρ = -0.62, p = 0.024)
-		SG:Letters (Spearman's ρ = -0.617, p = 0.025)
-φαίνω: #K6 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.732, p = 0.004)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.598, p = 0.031)
-		SG:Bucolic (Spearman's ρ = 0.577, p = 0.039)
-φαίνω: #K7 is correlated with 
-		SG:Letters (Spearman's ρ = 0.554, p = 0.05)
-φαίνω: #K8 is correlated with 
-		SG:History (Spearman's ρ = 0.702, p = 0.007)
-φαίνω: #K9 is correlated with no particular subgenre
-φύσις: #K0 is correlated with 
-		SG:Philosophy (Spearman's ρ = -0.572, p = 0.041)
-		SG:Biography (Spearman's ρ = -0.57, p = 0.042)
-φύσις: #K1 is correlated with 
-		SG:Essay (Spearman's ρ = -0.564, p = 0.045)
-φύσις: #K2 is correlated with 
-		SG:Comedy (Spearman's ρ = 0.577, p = 0.039)
-		SG:Art History (Spearman's ρ = -0.559, p = 0.047)
-φύσις: #K3 is correlated with 
-		SG:Essay (Spearman's ρ = 0.63, p = 0.021)
-		SG:Theology (Spearman's ρ = 0.62, p = 0.024)
-φύσις: #K4 is correlated with no particular subgenre
-φύσις: #K5 is correlated with 
-		SG:History (Spearman's ρ = 0.679, p = 0.011)
-		SG:Geography (Spearman's ρ = 0.629, p = 0.021)
-		SG:Military (Spearman's ρ = 0.577, p = 0.039)
-φύσις: #K6 is correlated with no particular subgenre
-φύσις: #K7 is correlated with no particular subgenre
-φύσις: #K8 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.605, p = 0.029)
-		SG:History (Spearman's ρ = 0.589, p = 0.034)
-φύσις: #K9 is correlated with 
-		SG:Letters (Spearman's ρ = 0.718, p = 0.006)
-χάρις: #K0 is correlated with 
-		SG:History (Spearman's ρ = 0.668, p = 0.013)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.617, p = 0.025)
-χάρις: #K1 is correlated with 
-		SG:Narrative (Spearman's ρ = -0.643, p = 0.018)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = -0.561, p = 0.046)
-χάρις: #K2 is correlated with 
-		SG:Epic (Spearman's ρ = -0.693, p = 0.009)
-χάρις: #K3 is correlated with no particular subgenre
-χάρις: #K4 is correlated with 
-		SG:Art History (Spearman's ρ = 0.62, p = 0.024)
-χάρις: #K5 is correlated with 
-		SG:History (Spearman's ρ = -0.659, p = 0.014)
-χάρις: #K6 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.732, p = 0.004)
-χάρις: #K7 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.681, p = 0.01)
-χάρις: #K8 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.643, p = 0.018)
-χάρις: #K9 is correlated with no particular subgenre
-ψυχή: #K0 is correlated with 
-		SG:Biography (Spearman's ρ = 0.799, p = 0.001)
-		SG:Philosophy (Spearman's ρ = 0.732, p = 0.004)
-		SG:Oratory (Spearman's ρ = 0.675, p = 0.011)
-		SG:Essay (Spearman's ρ = 0.631, p = 0.021)
-ψυχή: #K1 is correlated with no particular subgenre
-ψυχή: #K2 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.65, p = 0.016)
-		SG:History (Spearman's ρ = 0.589, p = 0.034)
-ψυχή: #K3 is correlated with no particular subgenre
-ψυχή: #K4 is correlated with no particular subgenre
-ψυχή: #K5 is correlated with no particular subgenre
-ψυχή: #K6 is correlated with no particular subgenre
-ψυχή: #K7 is correlated with 
-		SG:Narrative (Spearman's ρ = -0.739, p = 0.004)
-ψυχή: #K8 is correlated with no particular subgenre
-ψυχή: #K9 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.699, p = 0.008)
-ψυχρός: #K0 is correlated with 
-		SG:Biography (Spearman's ρ = 0.731, p = 0.004)
-ψυχρός: #K1 is correlated with 
-		SG:Medicine (Spearman's ρ = 0.62, p = 0.024)
-		SG:Oratory (Spearman's ρ = 0.584, p = 0.036)
-		SG:History (Spearman's ρ = 0.573, p = 0.04)
-ψυχρός: #K2 is correlated with no particular subgenre
-ψυχρός: #K3 is correlated with 
-		SG:Medicine (Spearman's ρ = 0.62, p = 0.024)
-		SG:Essay (Spearman's ρ = 0.565, p = 0.044)
-ψυχρός: #K4 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.557, p = 0.048)
-ψυχρός: #K5 is correlated with 
-		SG:Biography (Spearman's ρ = 0.664, p = 0.013)
-		SG:Philosophy (Spearman's ρ = 0.568, p = 0.043)
-ψυχρός: #K6 is correlated with no particular subgenre
-ψυχρός: #K7 is correlated with no particular subgenre
-ψυχρός: #K8 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.584, p = 0.036)
-		SG:Narrative (Spearman's ρ = 0.577, p = 0.039)
-ψυχρός: #K9 is correlated with no particular subgenre
-ἀρετή: #K0 is correlated with no particular subgenre
-ἀρετή: #K1 is correlated with 
-		SG:Epic (Spearman's ρ = 0.69, p = 0.009)
-ἀρετή: #K2 is correlated with 
-		SG:History (Spearman's ρ = 0.757, p = 0.003)
-ἀρετή: #K3 is correlated with no particular subgenre
-ἀρετή: #K4 is correlated with no particular subgenre
-ἀρετή: #K5 is correlated with 
-		SG:Biography (Spearman's ρ = 0.718, p = 0.006)
-		SG:Philosophy (Spearman's ρ = 0.594, p = 0.032)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.584, p = 0.036)
-		SG:Hunting (Spearman's ρ = 0.577, p = 0.039)
-ἀρετή: #K6 is correlated with 
-		SG:Essay (Spearman's ρ = 0.711, p = 0.006)
-		SG:Military (Spearman's ρ = 0.609, p = 0.027)
-		SG:Biography (Spearman's ρ = 0.564, p = 0.045)
-		SG:Theology (Spearman's ρ = 0.559, p = 0.047)
-ἀρετή: #K7 is correlated with 
-		SG:Epic (Spearman's ρ = -0.624, p = 0.023)
-ἀρετή: #K8 is correlated with no particular subgenre
-ἀρετή: #K9 is correlated with 
-		SG:History (Spearman's ρ = -0.774, p = 0.002)
-ἀριθμός: #K0 is correlated with 
-		SG:Philosophy (Spearman's ρ = -0.565, p = 0.044)
-		SG:Military (Spearman's ρ = -0.561, p = 0.046)
-ἀριθμός: #K1 is correlated with no particular subgenre
-ἀριθμός: #K2 is correlated with 
-		SG:Comedy (Spearman's ρ = -0.62, p = 0.024)
-ἀριθμός: #K3 is correlated with no particular subgenre
-ἀριθμός: #K4 is correlated with 
-		SG:Military (Spearman's ρ = 0.71, p = 0.007)
-		SG:Philosophy (Spearman's ρ = 0.62, p = 0.024)
-		SG:Mathematics (Spearman's ρ = 0.577, p = 0.039)
-ἀριθμός: #K5 is correlated with 
-		SG:Biography (Spearman's ρ = 0.611, p = 0.027)
-ἀριθμός: #K6 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.699, p = 0.008)
-ἀριθμός: #K7 is correlated with no particular subgenre
-ἀριθμός: #K8 is correlated with no particular subgenre
-ἀριθμός: #K9 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.62, p = 0.024)
-		SG:Essay (Spearman's ρ = 0.608, p = 0.028)
-ἀρχή: #K0 is correlated with no particular subgenre
-ἀρχή: #K1 is correlated with no particular subgenre
-ἀρχή: #K2 is correlated with no particular subgenre
-ἀρχή: #K3 is correlated with 
-		SG:Narrative (Spearman's ρ = -0.554, p = 0.05)
-ἀρχή: #K4 is correlated with 
-		SG:Essay (Spearman's ρ = -0.683, p = 0.01)
-		SG:Biography (Spearman's ρ = -0.597, p = 0.031)
-ἀρχή: #K5 is correlated with no particular subgenre
-ἀρχή: #K6 is correlated with no particular subgenre
-ἀρχή: #K7 is correlated with 
-		SG:History (Spearman's ρ = -0.754, p = 0.003)
-ἀρχή: #K8 is correlated with 
-		SG:Biography (Spearman's ρ = 0.799, p = 0.001)
-		SG:Essay (Spearman's ρ = 0.783, p = 0.002)
-		SG:Oratory (Spearman's ρ = 0.711, p = 0.006)
-		SG:Philosophy (Spearman's ρ = 0.691, p = 0.009)
-ἀρχή: #K9 is correlated with 
-		SG:Biography (Spearman's ρ = 0.658, p = 0.015)
-		SG:Essay (Spearman's ρ = 0.595, p = 0.032)
-		SG:Narrative (Spearman's ρ = 0.572, p = 0.041)
-ἄγω: #K0 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.732, p = 0.004)
-		SG:Bucolic (Spearman's ρ = 0.629, p = 0.021)
-ἄγω: #K1 is correlated with 
-		SG:Essay (Spearman's ρ = -0.705, p = 0.007)
-		SG:Didactic (Spearman's ρ = -0.691, p = 0.009)
-		SG:Biography (Spearman's ρ = -0.584, p = 0.036)
-ἄγω: #K2 is correlated with 
-		SG:Military (Spearman's ρ = 0.604, p = 0.029)
-		SG:History (Spearman's ρ = 0.561, p = 0.046)
-ἄγω: #K3 is correlated with no particular subgenre
-ἄγω: #K4 is correlated with 
-		SG:Essay (Spearman's ρ = 0.605, p = 0.029)
-ἄγω: #K5 is correlated with 
-		SG:Bucolic (Spearman's ρ = -0.629, p = 0.021)
-		SG:Narrative (Spearman's ρ = -0.568, p = 0.043)
-ἄγω: #K6 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.663, p = 0.014)
-		SG:Comedy (Spearman's ρ = 0.629, p = 0.021)
-		SG:Philosophy (Spearman's ρ = 0.594, p = 0.032)
-ἄγω: #K7 is correlated with 
-		SG:Art History (Spearman's ρ = -0.577, p = 0.039)
-ἄγω: #K8 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.753, p = 0.003)
-		SG:Medicine (Spearman's ρ = 0.577, p = 0.039)
-ἄγω: #K9 is correlated with 
-		SG:Military (Spearman's ρ = 0.617, p = 0.025)
-ἄρχω: #K0 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = -0.651, p = 0.016)
-		SG:Bucolic (Spearman's ρ = -0.577, p = 0.039)
-		SG:Narrative (Spearman's ρ = -0.554, p = 0.05)
-ἄρχω: #K1 is correlated with no particular subgenre
-ἄρχω: #K2 is correlated with 
-		SG:Geography (Spearman's ρ = 0.554, p = 0.05)
-ἄρχω: #K3 is correlated with 
-		SG:Bucolic (Spearman's ρ = 0.62, p = 0.024)
-ἄρχω: #K4 is correlated with 
-		SG:Epic (Spearman's ρ = -0.77, p = 0.002)
-ἄρχω: #K5 is correlated with 
-		SG:Letters (Spearman's ρ = 0.617, p = 0.025)
-ἄρχω: #K6 is correlated with 
-		SG:Epic (Spearman's ρ = -0.794, p = 0.001)
-ἄρχω: #K7 is correlated with no particular subgenre
-ἄρχω: #K8 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.658, p = 0.015)
-		SG:Bucolic (Spearman's ρ = 0.62, p = 0.024)
-ἄρχω: #K9 is correlated with no particular subgenre
-ἴδιος: #K0 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.777, p = 0.002)
-		SG:History (Spearman's ρ = 0.731, p = 0.005)
-ἴδιος: #K1 is correlated with no particular subgenre
-ἴδιος: #K2 is correlated with no particular subgenre
-ἴδιος: #K3 is correlated with 
-		SG:Hymns (Spearman's ρ = -0.559, p = 0.047)
-ἴδιος: #K4 is correlated with 
-		SG:Essay (Spearman's ρ = 0.689, p = 0.009)
-		SG:Biography (Spearman's ρ = 0.577, p = 0.039)
-ἴδιος: #K5 is correlated with 
-		SG:Essay (Spearman's ρ = -0.57, p = 0.042)
-ἴδιος: #K6 is correlated with 
-		SG:Epic (Spearman's ρ = -0.562, p = 0.045)
-		SG:Geography (Spearman's ρ = 0.559, p = 0.047)
-ἴδιος: #K7 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.587, p = 0.035)
-ἴδιος: #K8 is correlated with 
-		SG:History (Spearman's ρ = 0.731, p = 0.005)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.601, p = 0.03)
-ἴδιος: #K9 is correlated with 
-		SG:Letters (Spearman's ρ = 0.678, p = 0.011)
-ἴσος: #K0 is correlated with 
-		SG:Military (Spearman's ρ = 0.577, p = 0.039)
-ἴσος: #K1 is correlated with 
-		SG:Bucolic (Spearman's ρ = -0.577, p = 0.039)
-		SG:Narrative (Spearman's ρ = -0.554, p = 0.05)
-ἴσος: #K2 is correlated with 
-		SG:History (Spearman's ρ = -0.711, p = 0.006)
-		SG:Oratory (Spearman's ρ = -0.627, p = 0.022)
-ἴσος: #K3 is correlated with 
-		SG:Bucolic (Spearman's ρ = -0.629, p = 0.021)
-ἴσος: #K4 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.808, p = 0.001)
-		SG:History (Spearman's ρ = 0.705, p = 0.007)
-		SG:Military (Spearman's ρ = 0.611, p = 0.027)
-		SG:Biography (Spearman's ρ = 0.594, p = 0.032)
-ἴσος: #K5 is correlated with no particular subgenre
-ἴσος: #K6 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.591, p = 0.033)
-ἴσος: #K7 is correlated with 
-		SG:History (Spearman's ρ = 0.647, p = 0.017)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.642, p = 0.018)
-		SG:Military (Spearman's ρ = 0.638, p = 0.019)
-		SG:Philosophy (Spearman's ρ = 0.587, p = 0.035)
-		SG:Geography (Spearman's ρ = 0.577, p = 0.039)
-ἴσος: #K8 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.691, p = 0.009)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.655, p = 0.015)
-		SG:Bucolic (Spearman's ρ = 0.629, p = 0.021)
-		SG:History (Spearman's ρ = 0.607, p = 0.028)
-ἴσος: #K9 is correlated with 
-		SG:Essay (Spearman's ρ = 0.576, p = 0.039)
-ὀρθός: #K0 is correlated with 
-		SG:Medicine (Spearman's ρ = 0.62, p = 0.024)
-ὀρθός: #K1 is correlated with 
-		SG:Geography (Spearman's ρ = 0.629, p = 0.021)
-		SG:Military (Spearman's ρ = 0.584, p = 0.036)
-ὀρθός: #K2 is correlated with 
-		SG:Didactic (Spearman's ρ = -0.572, p = 0.041)
-		SG:Geography (Spearman's ρ = -0.559, p = 0.047)
-		SG:History (Spearman's ρ = -0.558, p = 0.048)
-ὀρθός: #K3 is correlated with 
-		SG:Letters (Spearman's ρ = -0.664, p = 0.013)
-		SG:Hymns (Spearman's ρ = -0.62, p = 0.024)
-ὀρθός: #K4 is correlated with 
-		SG:Epic (Spearman's ρ = -0.875, p = 0.0)
-ὀρθός: #K5 is correlated with 
-		SG:Hymns (Spearman's ρ = -0.62, p = 0.024)
-ὀρθός: #K6 is correlated with 
-		SG:Oratory (Spearman's ρ = 0.579, p = 0.038)
-ὀρθός: #K7 is correlated with 
-		SG:Biography (Spearman's ρ = 0.731, p = 0.004)
-		SG:Essay (Spearman's ρ = 0.57, p = 0.042)
-ὀρθός: #K8 is correlated with no particular subgenre
-ὀρθός: #K9 is correlated with no particular subgenre
-ὄγκος: #K0 is correlated with no particular subgenre
-ὄγκος: #K1 is correlated with 
-		SG:Essay (Spearman's ρ = 0.661, p = 0.014)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.592, p = 0.033)
-		SG:History (Spearman's ρ = 0.573, p = 0.041)
-ὄγκος: #K2 is correlated with 
-		SG:Art History (Spearman's ρ = 0.62, p = 0.024)
-ὄγκος: #K3 is correlated with no particular subgenre
-ὄγκος: #K4 is correlated with no particular subgenre
-ὄγκος: #K5 is correlated with 
-		SG:Essay (Spearman's ρ = -0.565, p = 0.044)
-ὄγκος: #K6 is correlated with 
-		SG:Essay (Spearman's ρ = 0.606, p = 0.028)
-ὄγκος: #K7 is correlated with 
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.63, p = 0.021)
-ὄγκος: #K8 is correlated with 
-		SG:Essay (Spearman's ρ = -0.732, p = 0.004)
-		SG:Theology (Spearman's ρ = -0.629, p = 0.021)
-		SG:Military (Spearman's ρ = -0.587, p = 0.035)
-ὄγκος: #K9 is correlated with no particular subgenre
-ῥυθμός: #K0 is correlated with 
-		SG:Essay (Spearman's ρ = 0.568, p = 0.043)
-		SG:Oratory (Spearman's ρ = 0.557, p = 0.048)
-		SG:History (Spearman's ρ = 0.554, p = 0.049)
-ῥυθμός: #K1 is correlated with no particular subgenre
-ῥυθμός: #K2 is correlated with no particular subgenre
-ῥυθμός: #K3 is correlated with no particular subgenre
-ῥυθμός: #K4 is correlated with 
-		SG:Narrative (Spearman's ρ = -0.559, p = 0.047)
-ῥυθμός: #K5 is correlated with 
-		SG:Essay (Spearman's ρ = 0.732, p = 0.004)
-		SG:Oratory (Spearman's ρ = 0.617, p = 0.025)
-ῥυθμός: #K6 is correlated with 
-		SG:Narrative (Spearman's ρ = 0.629, p = 0.021)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.573, p = 0.041)
-ῥυθμός: #K7 is correlated with no particular subgenre
-ῥυθμός: #K8 is correlated with 
-		SG:Philosophy (Spearman's ρ = 0.669, p = 0.012)
-		SG:Rhetoric, poetics, criticism (Spearman's ρ = 0.573, p = 0.041)
-ῥυθμός: #K9 is correlated with no particular subgenre
+αἱρέω has 2 sense(s) that are positively correlated with a genre
+γένος has 2 sense(s) that are positively correlated with a genre
+δύναμαι has 2 sense(s) that are positively correlated with a genre
+καλός has 3 sense(s) that are positively correlated with a genre
+λέγω has 7 sense(s) that are positively correlated with a genre
+λεπτός has 2 sense(s) that are positively correlated with a genre
+τυγχάνω has 2 sense(s) that are positively correlated with a genre
+φέρω has 2 sense(s) that are positively correlated with a genre
+φίλος has 4 sense(s) that are positively correlated with a genre
+φαίνω has 3 sense(s) that are positively correlated with a genre
+φύσις has 5 sense(s) that are positively correlated with a genre
+χάρις has 3 sense(s) that are positively correlated with a genre
+ψυχή has 4 sense(s) that are positively correlated with a genre
+ψυχρός has 5 sense(s) that are positively correlated with a genre
+ἀρετή has 3 sense(s) that are positively correlated with a genre
+ἀριθμός has 3 sense(s) that are positively correlated with a genre
+ἀρχή has 4 sense(s) that are positively correlated with a genre
+ἄγω has 2 sense(s) that are positively correlated with a genre
+ἄρχω has 1 sense(s) that are positively correlated with a genre
+ἴδιος has 5 sense(s) that are positively correlated with a genre
+ἴσος has 6 sense(s) that are positively correlated with a genre
+ὀρθός has 4 sense(s) that are positively correlated with a genre
+ὄγκος has 4 sense(s) that are positively correlated with a genre
+ῥυθμός has 3 sense(s) that are positively correlated with a genre

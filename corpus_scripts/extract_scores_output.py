@@ -59,6 +59,7 @@ subgenres = set()
 genres = set()
 summary_g = set()
 summary_sg = set()
+summary_g_w={}
 
 for currDir, dirs, files in os.walk(input):
 	for word in dirs:
@@ -157,8 +158,8 @@ for word,score in scores.items():
 		table=pd.DataFrame(data=lines_r)
 		if table.isnull().values.any() == True:
 			continue
-	#	with pd.option_context('expand_frame_repr', False):
-	#		print(table)
+		with pd.option_context('expand_frame_repr', False):
+			print(table)
 		Ks=[col for col in table if col.startswith('#')]
 		Gs=[col for col in table if col.startswith('G')]
 		Sgs=[col for col in table if col.startswith('SG')]
@@ -177,16 +178,18 @@ for word,score in scores.items():
 			ranking=ranking.reindex(ranking[['Spearman\'s ρ']].abs().sort_values(by=['Spearman\'s ρ'], ascending=False).index)
 			print(ranking,'\n')
 			output.write('\n'+ranking.to_string()+'\n\n')
-			for x in range(len(ranking.loc[ranking['p']<=0.05])):
-				cool_row=ranking.loc[ranking['p']<=0.05].iloc[x]
+			for x in range(len(ranking.loc[(ranking['p']<=0.05) & (ranking['Spearman\'s ρ']>0)])):
+				cool_row=ranking.loc[(ranking['p']<=0.05) & (ranking['Spearman\'s ρ']>0)].iloc[x]
 				corr_with.append('%s (Spearman\'s ρ = %s, p = %s)'%(cool_row.name.split('~ ')[1],round(cool_row[0],3),round(cool_row[1],3)))
 				del cool_row
 			list_corr = '\n\t\t'.join(corr_with)
+			summary_g_w.setdefault(greekLemmata[word]['lemma'],0)
 			if len(list_corr) == 0:
 				list_corr = 'no particular genre'
 			else:
+				summary_g_w[greekLemmata[word]['lemma']] += 1
 				list_corr='\n\t\t%s'%list_corr
-			summary_g.add('%s: %s is correlated with %s'%(greekLemmata[word]['lemma'],k,list_corr))
+			summary_g.add('%s: %s is positively correlated with %s'%(greekLemmata[word]['lemma'],k,list_corr))
 			del list_corr
 			
 			#correlation with each Sgs
@@ -218,13 +221,18 @@ for word,score in scores.items():
 		
 print('\n\n### SUMMARY: CORRELATIONS WITH GENRES ###\n\n')		
 print('\n'.join(sorted(summary_g)))
-output.write('\n\n### SUMMARY: CORRELATIONS WITH GENRES ###\n\n')
+output.write('\n\n'+150*'#'+'\n\n### SUMMARY: CORRELATIONS WITH GENRES ###\n\n')
 output.write('\n'.join(sorted(summary_g)))
 del summary_g
+output.write('\n\n')
+output_str=[]
+for k,v in sorted(summary_g_w.items()):
+	output_str.append('%s has %s sense(s) that are positively correlated with a genre'%(k,v))
+output.write('\n'.join(output_str))
 
-print('\n\n### SUMMARY: CORRELATIONS WITH SUBGENRES ###\n\n')
-print('\n'.join(sorted(summary_sg)))
-output.write('\n\n### SUMMARY: CORRELATIONS WITH SUBGENRES ###\n\n')
-output.write('\n'.join(sorted(summary_sg)))
-del summary_sg
+#print('\n\n### SUMMARY: CORRELATIONS WITH SUBGENRES ###\n\n')
+#print('\n'.join(sorted(summary_sg)))
+#output.write('\n\n### SUMMARY: CORRELATIONS WITH SUBGENRES ###\n\n')
+#output.write('\n'.join(sorted(summary_sg)))
+#del summary_sg
 output.close()
