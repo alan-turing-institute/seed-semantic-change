@@ -22,13 +22,15 @@ wb = load_workbook('%s/word_senses.xlsx'%resources)
 ws = wb.active
 headers = ws[config['excel_range']['headers']]
 h_sense = {cell.value : n for n, cell in enumerate(headers[0])}
-data = ws['A2:E23']
+data = ws['A2:F23']
+
+sep = ':'
 
 word_senses = {}
 for record in data:
 	word = record[h_sense['TERM']].value
-	sense_id = record[h_sense['SENSE LSJ']].value
-	sense = record[h_sense['SENSE']].value
+	sense_id = record[h_sense['MERGED SENSE']].value
+	sense = record[h_sense['MERGED SENSE']].value.split(':')[1]
 	word_senses.setdefault(sense_id, sense)
 
 input_files = ['15281', '69419']
@@ -49,8 +51,8 @@ for file in input_files:
 	for line in lf:
 		if re.search('[\-\d]', line[0]) == None:
 			continue
-		sense = line.split('\t')[-3]
-		if sense =='w':
+		sense = line.split('\t')[-4]
+		if sense =='wrong':
 			continue
 		genre = line.split('\t')[1]
 		year = int(line.split('\t')[0])
@@ -85,22 +87,22 @@ for file in input_files:
 		except:
 			colour[sense]=colours.pop()
 
-col = {'Comedy':'darkblue',
-'Essays':'lightblue',
-'Letters':'red',
-'Narrative':'orange',
-'Oratory':'maroon',
-'Philosophy':'green',
-'Poetry':'gold',
-'Religion':'chartreuse',
-'Technical':'salmon',
-'Tragedy':'purple'}
+# col = {'Comedy':'darkblue',
+# 'Essays':'lightblue',
+# 'Letters':'red',
+# 'Narrative':'orange',
+# 'Oratory':'maroon',
+# 'Philosophy':'green',
+# 'Poetry':'gold',
+# 'Religion':'chartreuse',
+# 'Technical':'salmon',
+# 'Tragedy':'purple'}
 
 senses = {}
 word_scores = {}
 for (sense,genre,century),score in scores.items():
 	senses.setdefault(sense,{}).setdefault(genre,{}).setdefault(century,score)
-	word=sense[:sense.find('-')]
+	word=sense[:sense.find(sep)]
 	word_scores.setdefault(word,{}).setdefault(century,0)
 	word_scores[word][century]+=score
 	word_scores.setdefault(sense,{}).setdefault(century,0)
@@ -111,7 +113,7 @@ for (sense,genre,century),score in scores.items():
 print('Generating plots per genre')
 genres = {}
 for (sense,genre,century),score in scores.items():
-	word=sense[:sense.find('-')]
+	word=sense[:sense.find(sep)]
 	genres.setdefault(genre,{}).setdefault(word,{}).setdefault(sense,{}).setdefault(century,score)
 
 
@@ -153,7 +155,7 @@ for genre,words in genres.items():
 print('Generating plots per century')
 centuries = {}
 for (sense,genre,century),score in scores.items():
-	word=sense[:sense.find('-')]
+	word=sense[:sense.find(sep)]
 	centuries.setdefault(century,{}).setdefault(word,{}).setdefault(sense,{}).setdefault(genre,score)	
 
 colLabels=[str(x) for x,t in genres.items()]
@@ -197,7 +199,7 @@ for century,words in centuries.items():
 # #a plot per sense
 # #time variation
 # for sense,genres in senses.items():
-# 	word=sense[:sense.find('-')]
+# 	word=sense[:sense.find(sep)]
 # 	colLabels=[str(x) for x in [-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
 # 	Ncols=numpy.arange(len(colLabels))
 # 	fig,ax=plot.subplots()
@@ -261,18 +263,18 @@ print('Generating a plot per word by century')
 
 genres = set()
 for (sense,genre,century),score in scores.items():
-	word=sense[:sense.find('-')]
+	word=sense[:sense.find(sep)]
 	genres.add(genre)
 	
 words = {}
 for (sense,genre,century),score in scores.items():
-	word=sense[:sense.find('-')]
+	word=sense[:sense.find(sep)]
 	words.setdefault(word,{}).setdefault(sense,{}).setdefault(century,0)
 	words[word][sense][century]+=score
 
 w_g_sc = {}
 for (sense,genre,century),score in scores.items():
-	word=sense[:sense.find('-')]
+	word=sense[:sense.find(sep)]
 	w_g_sc.setdefault(word,{}).setdefault(century,{}).setdefault(genre,0)
 	w_g_sc[word][century][genre]+=score
 
@@ -407,7 +409,7 @@ for word,senses in words.items():
 # 			if sense_in_cen ==  0:
 # 				labels[x][2] = ''
 			scores_plot.append(sense_in_cen)
-		ax.bar(colPositions[sense_idx],scores_plot, width,color=colour[sense],label='%s: %s'%(word,sense))
+		ax.bar(colPositions[sense_idx],scores_plot, width,color=colour[sense],label='%s: %s'%(word,word_senses[sense]))
 # 		for x in labels.values():
 # 			ax.text(x[0], x[1]+1, x[2], fontsize=8, horizontalalignment='center')
 
@@ -422,7 +424,7 @@ for word,senses in words.items():
 		err_upper = [w-scores_plot[i] for i,w in enumerate([y*100 for x,y in err_ranges])]
 		ax.errorbar(colPositions[sense_idx], scores_plot, yerr=[err_lower,err_upper], fmt='none', ecolor='black', elinewidth=0.2)
 	for genre in genres:
-		ax.plot(Ncols, genres_plot[genre],linewidth=0.3,label=genre)
+		ax.plot(Ncols, genres_plot[genre],linewidth=0.8,label=genre, ls=':')
 	#write plots to files
 	chartBox = ax.get_position()
 	ax.set_position([chartBox.x0, chartBox.y0, chartBox.width*0.8, chartBox.height])
@@ -436,7 +438,7 @@ print('Generating a plot per word by genre')
 
 words = {}
 for (sense,genre,century),score in scores.items():
-	word=sense[:sense.find('-')]
+	word=sense[:sense.find(sep)]
 	words.setdefault(word,{}).setdefault(sense,{}).setdefault(genre,0)
 	words[word][sense][genre]+=score
 	
@@ -567,7 +569,7 @@ for word,senses in words.items():
 # 			if sense_in_gen ==  0:
 # 				labels[x][2] = ''
 			scores_plot.append(sense_in_gen)
-		ax.bar(colPositions[sense_idx],scores_plot, width,color=colour[sense],label='%s: %s'%(word,sense))
+		ax.bar(colPositions[sense_idx],scores_plot, width,color=colour[sense],label='%s: %s'%(word,word_senses[sense]))
 # 		for x in labels.values():
 # 			ax.text(x[0], x[1]+1, x[2], fontsize=8, horizontalalignment='center')
 
