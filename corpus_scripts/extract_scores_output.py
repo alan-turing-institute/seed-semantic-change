@@ -8,6 +8,7 @@ from grkLemmata import greekLemmata
 from lxml import etree as document
 from openpyxl import load_workbook
 from scipy import stats
+import pickle
 
 def century(year): #change into 0 – 11 (boh)
 	year = int(year)
@@ -54,9 +55,53 @@ output = open(output_file, 'a')
 carry_on = True
 scores = {}
 
+subgenres = set()
+genres = set()
+summary_g = set()
+summary_sg = set()
+
 for currDir, dirs, files in os.walk(input):
 	for word in dirs:
 		scores.setdefault(word, {})
+
+wb = load_workbook('%s/file_list.xlsx'%file_list)
+ws = wb.active
+headers = ws[config['excel_range']['headers']]
+h = {cell.value : n for n, cell in enumerate(headers[0])}
+files = ws[config['excel_range']['range']]
+af = config['paths']['final_corpus']
+
+if 'regenerate' in sys.argv:
+	if os.path.isfile("%s/50_w_data.p"%o_dir):
+		os.remove("%s/50_w_data.p"%o_dir)
+		
+if os.path.isfile("%s/50_w_data.p"%o_dir):
+	scores = pickle.load(open("%s/50_w_data.p"%o_dir, "rb" ))
+else:
+	for record in files:
+		subgenre = record[h['Subgenre']].value
+		subgenres.add(subgenre)
+		genre = record[h['Genre']].value
+		genres.add(genre)
+		file = '%s/%s'%(af,record[h['Tokenized file']].value)
+		cent = century(record[h['Date']].value)
+		sys.stdout.write("\r\033[KProcessing %s"%record[h['Tokenized file']].value)
+		sys.stdout.flush()
+		curr_text = document.parse(file)
+		for word,score in scores.items():
+			#print(word, len(curr_text.xpath('//word/lemma[@id="%s"]'%word)),subgenre,cent)
+			ref=(cent,subgenre)
+			scores[word].setdefault('subgenre',{}).setdefault(ref,0)
+			scores[word]['subgenre'][ref] += len(curr_text.xpath('//word/lemma[@id="%s"]'%word))
+			ref=(cent,genre)
+			scores[word].setdefault('genre',{}).setdefault(ref,0)
+			scores[word]['genre'][ref] += len(curr_text.xpath('//word/lemma[@id="%s"]'%word))
+			scores[word].setdefault('century',{}).setdefault(cent,0)
+			scores[word]['century'][cent] += len(curr_text.xpath('//word/lemma[@id="%s"]'%word))
+	pickle.dump(scores, open("%s/50_w_data.p"%o_dir, "wb" ))
+
+for currDir, dirs, files in os.walk(input):
+	for word in dirs:
 		file = open('%s/%s/output.dat'%(currDir,word), 'r')
 		carry_on = True
 		for line in file:
@@ -73,39 +118,6 @@ for currDir, dirs, files in os.walk(input):
 						del value
 					elif line.split()[1] == 'per' and line.split()[2] == 'time':
 						carry_on = False
-
-wb = load_workbook('%s/file_list.xlsx'%file_list)
-ws = wb.active
-headers = ws[config['excel_range']['headers']]
-h = {cell.value : n for n, cell in enumerate(headers[0])}
-files = ws[config['excel_range']['range']]
-af = config['paths']['final_corpus']
-
-subgenres = set()
-genres = set()
-summary_g = set()
-summary_sg = set()
-
-for record in files:
-	subgenre = record[h['Subgenre']].value
-	subgenres.add(subgenre)
-	genre = record[h['Genre']].value
-	genres.add(genre)
-	file = '%s/%s'%(af,record[h['Tokenized file']].value)
-	cent = century(record[h['Date']].value)
-	sys.stdout.write("\r\033[KProcessing %s"%record[h['Tokenized file']].value)
-	sys.stdout.flush()
-	curr_text = document.parse(file)
-	for word,score in scores.items():
-		#print(word, len(curr_text.xpath('//word/lemma[@id="%s"]'%word)),subgenre,cent)
-		ref=(cent,subgenre)
-		scores[word].setdefault('subgenre',{}).setdefault(ref,0)
-		scores[word]['subgenre'][ref] += len(curr_text.xpath('//word/lemma[@id="%s"]'%word))
-		ref=(cent,genre)
-		scores[word].setdefault('genre',{}).setdefault(ref,0)
-		scores[word]['genre'][ref] += len(curr_text.xpath('//word/lemma[@id="%s"]'%word))
-		scores[word].setdefault('century',{}).setdefault(cent,0)
-		scores[word]['century'][cent] += len(curr_text.xpath('//word/lemma[@id="%s"]'%word))
 
 for word,score in scores.items():
 	lines_g = {}
@@ -145,8 +157,8 @@ for word,score in scores.items():
 		table=pd.DataFrame(data=lines_r)
 		if table.isnull().values.any() == True:
 			continue
-		#with pd.option_context('expand_frame_repr', False):
-		#	print(table)
+	#	with pd.option_context('expand_frame_repr', False):
+	#		print(table)
 		Ks=[col for col in table if col.startswith('#')]
 		Gs=[col for col in table if col.startswith('G')]
 		Sgs=[col for col in table if col.startswith('SG')]
@@ -154,8 +166,8 @@ for word,score in scores.items():
 			#correlation with each Gs
 			output.write('\n%s:%s ~ correlation with genres\n'%(greekLemmata[word]['lemma'],k[1:]))
 			corr_with = []
+			corr_ranking = []
 			for g in Gs:
-				corr_ranking = []
 				if sum(table[g]) == 0:
 					r=(np.nan,np.nan)
 				else:
@@ -180,8 +192,8 @@ for word,score in scores.items():
 			#correlation with each Sgs
 			output.write('\n%s:%s ~ correlation with subgenres\n'%(greekLemmata[word]['lemma'],k[1:]))
 			corr_with=[]
+			corr_ranking = []
 			for g in Sgs:
-				corr_ranking = []
 				if sum(table[g]) == 0:
 					r=(np.nan,np.nan)
 				else:
@@ -197,7 +209,7 @@ for word,score in scores.items():
 				del cool_row
 			list_corr = '\n\t\t'.join(corr_with)
 			if len(list_corr) == 0:
-				list_corr = 'no particular genre'
+				list_corr = 'no particular subgenre'
 			else:
 				list_corr='\n\t\t%s'%list_corr
 			summary_sg.add('%s: %s is correlated with %s'%(greekLemmata[word]['lemma'],k,list_corr))
@@ -205,13 +217,13 @@ for word,score in scores.items():
 		print('\n\n\n')
 		
 print('\n\n### SUMMARY: CORRELATIONS WITH GENRES ###\n\n')		
-print('\n'.join(summary_g))
+print('\n'.join(sorted(summary_g)))
 output.write('\n\n### SUMMARY: CORRELATIONS WITH GENRES ###\n\n')
 output.write('\n'.join(sorted(summary_g)))
 del summary_g
 
 print('\n\n### SUMMARY: CORRELATIONS WITH SUBGENRES ###\n\n')
-print('\n'.join(summary_sg))
+print('\n'.join(sorted(summary_sg)))
 output.write('\n\n### SUMMARY: CORRELATIONS WITH SUBGENRES ###\n\n')
 output.write('\n'.join(sorted(summary_sg)))
 del summary_sg
