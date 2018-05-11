@@ -56,7 +56,9 @@ for file in input_files:
 			continue
 		genre = line.split('\t')[1]
 		year = int(line.split('\t')[0])
-		if year >= -800 and year <= -600:
+		if year >= -800 and year <= -700:
+			century = '-8'
+		elif year > -700 and year <= -600:
 			century = '-7'
 		elif year > -600 and year <= -500:
 			century = '-6'
@@ -119,7 +121,7 @@ for (sense,genre,century),score in scores.items():
 
 #a plot per genre
 for genre,words in genres.items():
-	colLabels=[str(x) for x in [-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
+	colLabels=[str(x) for x in [-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
 	Ncols=numpy.arange(len(colLabels))
 	fig,ax=plot.subplots()
 	ax.set_xlabel('Centuries')
@@ -280,7 +282,7 @@ for (sense,genre,century),score in scores.items():
 
 for word,senses in words.items():
 	#plot prelims
-	colLabels=[str(x) for x in [-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
+	colLabels=[str(x) for x in [-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
 	Ncols=numpy.arange(len(colLabels))
 	width = round(0.66/len(senses),2)
 	
