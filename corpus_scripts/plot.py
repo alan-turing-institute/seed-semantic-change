@@ -51,7 +51,7 @@ for file in input_files:
 	for line in lf:
 		if re.search('[\-\d]', line[0]) == None:
 			continue
-		sense = line.split('\t')[-3]
+		sense = line.split('\t')[-4]
 		if sense =='wrong':
 			continue
 		genre = line.split('\t')[1]
