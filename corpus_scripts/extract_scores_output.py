@@ -72,6 +72,9 @@ h = {cell.value : n for n, cell in enumerate(headers[0])}
 files = ws[config['excel_range']['range']]
 af = config['paths']['final_corpus']
 
+verbose = False
+if 'verbose' in sys.argv: verbose = True
+
 if 'regenerate' in sys.argv:
 	if os.path.isfile("%s/50_w_data.p"%o_dir):
 		os.remove("%s/50_w_data.p"%o_dir)
@@ -104,6 +107,7 @@ else:
 for currDir, dirs, files in os.walk(input):
 	for word in dirs:
 		file = open('%s/%s/output.dat'%(currDir,word), 'r')
+		if word in ['75019', '98414', '104274','110272']: file = open('%s_4words/%s/output.dat'%(currDir,word), 'r')
 		carry_on = True
 		for line in file:
 			if carry_on == True:
@@ -131,7 +135,7 @@ for word,score in scores.items():
 	else:
 		titleStr= '%s (%s)'%(greekLemmata[word]['lemma'], word)
 		output.write(100*'#'+'\n#   '+titleStr+(95-len(titleStr))*' '+'#\n'+100*'#'+'\n')
-		print(word, greekLemmata[word]['lemma'])
+		print('Processing', word, greekLemmata[word]['lemma'])
 		genres = score['genre']
 		subgenres = score['subgenre']
 		centuries = score['century']
@@ -159,7 +163,7 @@ for word,score in scores.items():
 		if table.isnull().values.any() == True:
 			continue
 		with pd.option_context('expand_frame_repr', False):
-			print(table)
+			if verbose ==True: print(table)
 		Ks=[col for col in table if col.startswith('#')]
 		Gs=[col for col in table if col.startswith('G')]
 		Sgs=[col for col in table if col.startswith('SG')]
@@ -176,7 +180,7 @@ for word,score in scores.items():
 				corr_ranking.append(('%s: %s ~ %s'%(greekLemmata[word]['lemma'],k[1:],g),r[0],r[1]))
 			ranking=pd.DataFrame([x[1:] for x in corr_ranking], columns=['Spearman\'s ρ','p'],index=[x[0] for x in corr_ranking])
 			ranking=ranking.reindex(ranking[['Spearman\'s ρ']].abs().sort_values(by=['Spearman\'s ρ'], ascending=False).index)
-			print(ranking,'\n')
+			if verbose ==True:(ranking,'\n')
 			output.write('\n'+ranking.to_string()+'\n\n')
 			for x in range(len(ranking.loc[(ranking['p']<=0.05) & (ranking['Spearman\'s ρ']>0)])):
 				cool_row=ranking.loc[(ranking['p']<=0.05) & (ranking['Spearman\'s ρ']>0)].iloc[x]
@@ -189,7 +193,7 @@ for word,score in scores.items():
 			else:
 				summary_g_w[greekLemmata[word]['lemma']] += 1
 				list_corr='\n\t\t%s'%list_corr
-			summary_g.add('%s: %s is positively correlated with %s'%(greekLemmata[word]['lemma'],k,list_corr))
+			summary_g.add('%s: K%s is positively correlated with %s'%(greekLemmata[word]['lemma'],'%.2d'%int(k[2:]),list_corr))
 			del list_corr
 			
 			#correlation with each Sgs
@@ -204,7 +208,7 @@ for word,score in scores.items():
 				corr_ranking.append(('%s: %s ~ %s'%(greekLemmata[word]['lemma'],k[1:],g),r[0],r[1]))
 			ranking=pd.DataFrame([x[1:] for x in corr_ranking], columns=['Spearman\'s ρ','p'],index=[x[0] for x in corr_ranking])
 			ranking=ranking.reindex(ranking[['Spearman\'s ρ']].abs().sort_values(by=['Spearman\'s ρ'], ascending=False).index)
-			print(ranking,'\n')
+			if verbose ==True:(ranking,'\n')
 			output.write('\n'+ranking.to_string()+'\n\n')
 			for x in range(len(ranking.loc[ranking['p']<=0.05])):
 				cool_row=ranking.loc[ranking['p']<=0.05].iloc[x]
@@ -215,19 +219,21 @@ for word,score in scores.items():
 				list_corr = 'no particular subgenre'
 			else:
 				list_corr='\n\t\t%s'%list_corr
-			summary_sg.add('%s: %s is correlated with %s'%(greekLemmata[word]['lemma'],k,list_corr))
+			summary_sg.add('%s: K%s is correlated with %s'%(greekLemmata[word]['lemma'],'%.2d'%int(k[2:]),list_corr))
 			del list_corr
-		print('\n\n\n')
+		if verbose ==True:('\n\n\n')
 		
 print('\n\n### SUMMARY: CORRELATIONS WITH GENRES ###\n\n')		
-print('\n'.join(sorted(summary_g)))
+print('\n'.join(sorted(summary_g)).replace('K0','K'))
 output.write('\n\n'+150*'#'+'\n\n### SUMMARY: CORRELATIONS WITH GENRES ###\n\n')
-output.write('\n'.join(sorted(summary_g)))
+output.write('\n'.join(sorted(summary_g)).replace('K0','K'))
 del summary_g
 output.write('\n\n')
 output_str=[]
-for k,v in sorted(summary_g_w.items()):
-	output_str.append('%s has %s sense(s) that are positively correlated with a genre'%(k,v))
+for idx,(k,v) in enumerate(sorted(summary_g_w.items())):
+	sgpl=['senses','are']
+	if v == 1: sgpl=['sense','is']
+	output_str.append('%s. %s has %s %s that %s positively correlated with a genre'%(str(idx+1),k,v,sgpl[0],sgpl[1]))
 output.write('\n'.join(output_str))
 
 #print('\n\n### SUMMARY: CORRELATIONS WITH SUBGENRES ###\n\n')
