@@ -911,28 +911,28 @@ print("for each s, the k (or more) assigned to it:",s_k_match)
 
 # precision is all correct w weighted by their respective probabilities / all w weighted by their probabilities
 
-for each k:
-    for each w:
-        if w in expert_list:
-            w_weight = p*1
-            numerator += w_weight
-        w_weight = p*1
-        denominator += w_weight
-    precision = numerator/denominator
+#for each k:
+#    for each w:
+#        if w in expert_list:
+#            w_weight = p*1
+#            numerator += w_weight
+#        w_weight = p*1
+#        denominator += w_weight
+#    precision = numerator/denominator
     
 # recall is all correct w weighted by their respective probabilities / all w assigned to the sense by the expert
-for each k:
-    for each w:
-        if w in expert_list:
-            w_weight = p*1
-            numerator += w_weight
-    denominator = len(expert_list)
-    recall = numerator/denominator
+#for each k:
+#    for each w:
+#        if w in expert_list:
+#            w_weight = p*1
+#            numerator += w_weight
+#    denominator = len(expert_list)
+#    recall = numerator/denominator
     
 # f-score can be used as well
 
-for each k:
-    f_score = 2 * precision * recall / (precision+recall)
+#for each k:
+#    f_score = 2 * precision * recall / (precision+recall)
 # ## TODO : 
 # 1. ~~create another word_weight[] only for NA~~
 # 2. ~~in this word_weight[], a word that is in an NA (either because w or !=1) has its weight 1/senses, BUT THAT DOES NOT AFFECT THE real word_weight[]~~
