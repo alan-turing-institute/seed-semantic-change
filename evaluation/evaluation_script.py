@@ -30,7 +30,7 @@ dir_in = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src", "dyna
 dir_out = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_output"))
 dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input"))
 
-dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input","new_texts"))
+#dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input","new_texts"))
 #  SENSES MERGED harmonia
 #dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "corpus_scripts_output")) 
 
@@ -41,8 +41,8 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
 s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # expert senses annotation
-k_senses = io.open(dir_in+"/output_mus_K5_100it.dat","r") # model output
-parameter_file = io.open(dir_parameter+"/parameters_v1.txt","r")
+k_senses = io.open(dir_in+"/output_mus_K5_partial.dat","r") # model output
+parameter_file = io.open(dir_parameter+"/params_v5.txt","r")
 
 bugfix = 0
 
@@ -1133,31 +1133,31 @@ print(str(expert_senses))
 # In[100]:
 
 
-print(precision_recall_k)
-total_recall = 0
-total_precision = 0
-total_fscore = 0
-for key in precision_recall_k:
-    try:
-        total_recall += precision_recall_k[key][0]
-    except IndexError:
-        print("nothing for k",key)
-    try: 
-        total_precision += precision_recall_k[key][1]
-    except IndexError:
-        print("nothing for k",key)
-        
-    try: 
-        total_fscore += precision_recall_k[key][2]
-    except IndexError:
-        print("nothing for k",key)
-        
-        
-print("AVERAGED SCORES BASED ON Ks:")    
-print("averaged recall = ",total_recall/number_of_the_k)
-print("averaged precision = ",total_precision/number_of_the_k)
-print("averaged fscore = ",total_fscore/number_of_the_k)
-print("\n")
+#print(precision_recall_k)
+#total_recall = 0
+#total_precision = 0
+#total_fscore = 0
+#for key in precision_recall_k:
+#    try:
+#        total_recall += precision_recall_k[key][0]
+#    except IndexError:
+#        print("nothing for k",key)
+#    try: 
+#        total_precision += precision_recall_k[key][1]
+#    except IndexError:
+#        print("nothing for k",key)
+#        
+#    try: 
+#        total_fscore += precision_recall_k[key][2]
+#    except IndexError:
+#        print("nothing for k",key)
+#        
+#        
+#print("AVERAGED SCORES BASED ON Ks:")    
+#print("averaged recall = ",total_recall/number_of_the_k)
+#print("averaged precision = ",total_precision/number_of_the_k)
+#print("averaged fscore = ",total_fscore/number_of_the_k)
+#print("\n")
 
 
 print(recall_precision_s)
