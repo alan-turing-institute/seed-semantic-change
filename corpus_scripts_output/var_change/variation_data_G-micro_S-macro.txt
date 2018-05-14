@@ -2,1351 +2,2314 @@
 #   harmonia:abstract                                                                              #
 ####################################################################################################
 
-	-8	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
-Art History	0	0	0	0	0	0	0	0	0	0	1	0	0	1	
-Biography	0	0	0	0	0	0	0	0	6	0	8	0	0	14	
-Bucolic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Choral	0	0	0	1	0	0	0	0	0	0	0	0	0	1	
-Church history	0	0	0	0	0	0	0	0	0	0	0	1	0	1	
-Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Didactic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Epic	1	0	0	0	0	0	0	0	0	0	0	0	7	8	
-Essay	0	0	0	0	0	0	0	0	40	8	8	0	0	56	
-Geography	0	0	0	0	0	0	0	1	0	2	0	0	0	3	
-History	0	0	0	0	0	0	0	1	1	0	1	0	0	3	
-Homily	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Hunting	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Hymns	0	0	0	0	0	0	0	0	0	0	0	2	0	2	
-Letters	0	0	0	0	0	0	0	0	0	0	0	5	0	5	
-Medicine	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Miscellanea	0	0	0	0	0	0	0	0	0	0	2	0	0	2	
-Mythology	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Narrative	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Natural History	0	0	0	0	0	0	0	0	0	0	1	0	0	1	
-Novel	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Oratory	0	0	0	0	0	0	0	0	4	9	0	3	0	16	
-Philosophy	0	0	0	0	35	0	0	0	0	2	16	0	0	53	
-Protreptics	0	0	0	0	0	0	0	0	0	2	0	0	0	2	
-Rhetoric, poetics, criticism	0	0	0	0	0	0	0	101	4	0	2	0	0	107	
-Science	0	0	0	0	3	0	0	0	0	0	0	0	0	3	
-Tragedy	0	0	0	1	0	0	0	0	0	0	0	0	0	1	
-TOTAL	1	0	0	2	38	0	0	103	55	23	39	11	7	279	
-
-harmonia:abstract ~ Essay
-       -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Essay  0   0   0   0   0   0   0   0    40  8   8   0   0
-TOTAL  1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.5552430211466873, pvalue=0.04885758316352909)
-
-harmonia:abstract ~ Epic
-       -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Epic   1   0   0   0   0   0   0   0    0   0   0   0   7
-TOTAL  1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=-0.1062988006905468, pvalue=0.7296215216203092)
-
-harmonia:abstract ~ Science
-         -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Science  0   0   0   0   3   0   0   0    0   0   0   0   0
-TOTAL    1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.23470139701908865, pvalue=0.4402100745447234)
-
-harmonia:abstract ~ Narrative
-           -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Narrative  0   0   0   0   0   0   0   0    0   0   0   0   0
-TOTAL      1   0   0   2   38  0   0   103  55  23  39  11  7
-(nan, nan)
+	-8	-7	-6	-5	-4	-3	-2	-1	1	2	TOTAL
+Art History	0	0	0	0	0	0	0	0	0	0	0	
+Biography	0	0	0	0	0	0	0	0	6	0	6	
+Bucolic	0	0	0	0	0	0	0	0	0	0	0	
+Choral	0	0	0	1	0	0	0	0	0	0	1	
+Church history	0	0	0	0	0	0	0	0	0	0	0	
+Comedy	0	0	0	0	0	0	0	0	0	0	0	
+Didactic	0	0	0	0	0	0	0	0	0	0	0	
+Epic	1	0	0	0	0	0	0	0	0	0	1	
+Essay	0	0	0	0	0	0	0	0	40	8	48	
+Geography	0	0	0	0	0	0	0	1	0	2	3	
+History	0	0	0	0	0	0	0	1	1	0	2	
+Homily	0	0	0	0	0	0	0	0	0	0	0	
+Horsemanship	0	0	0	0	0	0	0	0	0	0	0	
+Hunting	0	0	0	0	0	0	0	0	0	0	0	
+Hymns	0	0	0	0	0	0	0	0	0	0	0	
+Letters	0	0	0	0	0	0	0	0	0	0	0	
+Medicine	0	0	0	0	0	0	0	0	0	0	0	
+Military	0	0	0	0	0	0	0	0	0	0	0	
+Miscellanea	0	0	0	0	0	0	0	0	0	0	0	
+Mythology	0	0	0	0	0	0	0	0	0	0	0	
+Narrative	0	0	0	0	0	0	0	0	0	0	0	
+Natural History	0	0	0	0	0	0	0	0	0	0	0	
+Novel	0	0	0	0	0	0	0	0	0	0	0	
+Oratory	0	0	0	0	0	0	0	0	4	9	13	
+Philosophy	0	0	0	0	35	0	0	0	0	2	37	
+Politics	0	0	0	0	0	0	0	0	0	0	0	
+Protreptics	0	0	0	0	0	0	0	0	0	2	2	
+Rhetoric, poetics, criticism	0	0	0	0	0	0	0	101	4	0	105	
+Science	0	0	0	0	3	0	0	0	0	0	3	
+Theology	0	0	0	0	0	0	0	0	0	0	0	
+Tragedy	0	0	0	1	0	0	0	0	0	0	1	
+TOTAL	1	0	0	2	38	0	0	103	55	23	222	
 
 harmonia:abstract ~ Geography
-           -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Geography  0   0   0   0   0   0   0   1    0   2   0   0   0
-TOTAL      1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.44291166954394495, pvalue=0.12958818562298383)
-
-harmonia:abstract ~ Miscellanea
-             -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Miscellanea  0   0   0   0   0   0   0   0    0   0   2   0   0
-TOTAL        1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.31293519602545156, pvalue=0.2978476201908674)
-
-harmonia:abstract ~ Letters
-         -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Letters  0   0   0   0   0   0   0   0    0   0   0   5   0
-TOTAL    1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.07823379900636289, pvalue=0.7994631712526884)
-
-harmonia:abstract ~ Mythology
-           -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Mythology  0   0   0   0   0   0   0   0    0   0   0   0   0
-TOTAL      1   0   0   2   38  0   0   103  55  23  39  11  7
-(nan, nan)
-
-harmonia:abstract ~ Comedy
-        -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Comedy  0   0   0   0   0   0   0   0    0   0   0   0   0
-TOTAL   1   0   0   2   38  0   0   103  55  23  39  11  7
-(nan, nan)
+           -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Geography  0   0   0   0   0   0   0   1    0   2 
+TOTAL      1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.5087055749715828, pvalue=0.13321892656788667)
 
 harmonia:abstract ~ Oratory
-         -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Oratory  0   0   0   0   0   0   0   0    4   9   0   3   0
-TOTAL    1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.39937207619961534, pvalue=0.17639378640349715)
-
-harmonia:abstract ~ Art History
-             -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Art History  0   0   0   0   0   0   0   0    0   0   1   0   0
-TOTAL        1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.31293519602545156, pvalue=0.2978476201908674)
-
-harmonia:abstract ~ Choral
-        -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Choral  0   0   0   1   0   0   0   0    0   0   0   0   0
-TOTAL   1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=-0.07823379900636289, pvalue=0.7994631712526884)
-
-harmonia:abstract ~ Natural History
-                 -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Natural History  0   0   0   0   0   0   0   0    0   0   1   0   0
-TOTAL            1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.31293519602545156, pvalue=0.2978476201908674)
-
-harmonia:abstract ~ Rhetoric, poetics, criticism
-                              -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Rhetoric, poetics, criticism  0   0   0   0   0   0   0   101  4   0   2   0   0
-TOTAL                         1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.7497645581483344, pvalue=0.003165623506061044)
-
-harmonia:abstract ~ Didactic
-          -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Didactic  0   0   0   0   0   0   0   0    0   0   0   0   0
-TOTAL     1   0   0   2   38  0   0   103  55  23  39  11  7
-(nan, nan)
-
-harmonia:abstract ~ Protreptics
-             -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Protreptics  0   0   0   0   0   0   0   0    0   2   0   0   0
-TOTAL        1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.15646759801272578, pvalue=0.6097217755664429)
-
-harmonia:abstract ~ Biography
-           -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Biography  0   0   0   0   0   0   0   0    6   0   8   0   0
-TOTAL      1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.5137775366709761, pvalue=0.07249664689276625)
-
-harmonia:abstract ~ Church history
-                -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Church history  0   0   0   0   0   0   0   0    0   0   0   1   0
-TOTAL           1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.07823379900636289, pvalue=0.7994631712526884)
-
-harmonia:abstract ~ Hymns
-       -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Hymns  0   0   0   0   0   0   0   0    0   0   0   2   0
-TOTAL  1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.07823379900636289, pvalue=0.7994631712526884)
-
-harmonia:abstract ~ Tragedy
-         -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Tragedy  0   0   0   1   0   0   0   0    0   0   0   0   0
-TOTAL    1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=-0.07823379900636289, pvalue=0.7994631712526884)
+         -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Oratory  0   0   0   0   0   0   0   0    4   9 
+TOTAL    1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.4283836420813327, pvalue=0.2167708124398113)
 
 harmonia:abstract ~ Philosophy
-            -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Philosophy  0   0   0   0   35  0   0   0    0   2   16  0   0
-TOTAL       1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.4483516704505116, pvalue=0.12439139493926815)
+            -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Philosophy  0   0   0   0   35  0   0   0    0   2 
+TOTAL       1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.3659110276111384, pvalue=0.29840493620927055)
 
 harmonia:abstract ~ Medicine
-          -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Medicine  0   0   0   0   0   0   0   0    0   0   0   0   0
-TOTAL     1   0   0   2   38  0   0   103  55  23  39  11  7
+          -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Medicine  0   0   0   0   0   0   0   0    0   0 
+TOTAL     1   0   0   2   38  0   0   103  55  23
 (nan, nan)
 
-harmonia:abstract ~ Bucolic
-         -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Bucolic  0   0   0   0   0   0   0   0    0   0   0   0   0
-TOTAL    1   0   0   2   38  0   0   103  55  23  39  11  7
-(nan, nan)
-
-harmonia:abstract ~ Homily
-        -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Homily  0   0   0   0   0   0   0   0    0   0   0   0   0
-TOTAL   1   0   0   2   38  0   0   103  55  23  39  11  7
-(nan, nan)
-
-harmonia:abstract ~ Hunting
-         -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Hunting  0   0   0   0   0   0   0   0    0   0   0   0   0
-TOTAL    1   0   0   2   38  0   0   103  55  23  39  11  7
+harmonia:abstract ~ Miscellanea
+             -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Miscellanea  0   0   0   0   0   0   0   0    0   0 
+TOTAL        1   0   0   2   38  0   0   103  55  23
 (nan, nan)
 
 harmonia:abstract ~ History
-         -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-History  0   0   0   0   0   0   0   1    1   0   1   0   0
-TOTAL    1   0   0   2   38  0   0   103  55  23  39  11  7
-SpearmanrResult(correlation=0.7421909846037735, pvalue=0.003670681470360205)
+         -8  -7  -6  -5  -4  -3  -2   -1   1   2
+History  0   0   0   0   0   0   0   1    1   0 
+TOTAL    1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.7184212081070996, pvalue=0.01925623817491476)
+
+harmonia:abstract ~ Epic
+       -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Epic   1   0   0   0   0   0   0   0    0   0 
+TOTAL  1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=-0.05986843400892497, pvalue=0.8695061905717973)
+
+harmonia:abstract ~ Natural History
+                 -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Natural History  0   0   0   0   0   0   0   0    0   0 
+TOTAL            1   0   0   2   38  0   0   103  55  23
+(nan, nan)
 
 harmonia:abstract ~ Novel
-       -8  -7  -6  -5  -4  -3  -2   -1   1   2   3   4  5
-Novel  0   0   0   0   0   0   0   0    0   0   0   0   0
-TOTAL  1   0   0   2   38  0   0   103  55  23  39  11  7
+       -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Novel  0   0   0   0   0   0   0   0    0   0 
+TOTAL  1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Science
+         -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Science  0   0   0   0   3   0   0   0    0   0 
+TOTAL    1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.2993421700446248, pvalue=0.4007765648942623)
+
+harmonia:abstract ~ Choral
+        -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Choral  0   0   0   1   0   0   0   0    0   0 
+TOTAL   1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.05986843400892497, pvalue=0.8695061905717973)
+
+harmonia:abstract ~ Letters
+         -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Letters  0   0   0   0   0   0   0   0    0   0 
+TOTAL    1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Homily
+        -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Homily  0   0   0   0   0   0   0   0    0   0 
+TOTAL   1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Military
+          -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Military  0   0   0   0   0   0   0   0    0   0 
+TOTAL     1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Comedy
+        -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Comedy  0   0   0   0   0   0   0   0    0   0 
+TOTAL   1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Politics
+          -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Politics  0   0   0   0   0   0   0   0    0   0 
+TOTAL     1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Theology
+          -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Theology  0   0   0   0   0   0   0   0    0   0 
+TOTAL     1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Church history
+                -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Church history  0   0   0   0   0   0   0   0    0   0 
+TOTAL           1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Horsemanship
+              -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Horsemanship  0   0   0   0   0   0   0   0    0   0 
+TOTAL         1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Art History
+             -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Art History  0   0   0   0   0   0   0   0    0   0 
+TOTAL        1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Biography
+           -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Biography  0   0   0   0   0   0   0   0    6   0 
+TOTAL      1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.4190790380624747, pvalue=0.22801177932596048)
+
+harmonia:abstract ~ Rhetoric, poetics, criticism
+                              -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Rhetoric, poetics, criticism  0   0   0   0   0   0   0   101  4   0 
+TOTAL                         1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.722897396012249, pvalue=0.01816891484111254)
+
+harmonia:abstract ~ Hunting
+         -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Hunting  0   0   0   0   0   0   0   0    0   0 
+TOTAL    1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Narrative
+           -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Narrative  0   0   0   0   0   0   0   0    0   0 
+TOTAL      1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Didactic
+          -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Didactic  0   0   0   0   0   0   0   0    0   0 
+TOTAL     1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Protreptics
+             -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Protreptics  0   0   0   0   0   0   0   0    0   2 
+TOTAL        1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.17960530202677488, pvalue=0.6195437484575324)
+
+harmonia:abstract ~ Hymns
+       -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Hymns  0   0   0   0   0   0   0   0    0   0 
+TOTAL  1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Tragedy
+         -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Tragedy  0   0   0   1   0   0   0   0    0   0 
+TOTAL    1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.05986843400892497, pvalue=0.8695061905717973)
+
+harmonia:abstract ~ Essay
+       -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Essay  0   0   0   0   0   0   0   0    40  8 
+TOTAL  1   0   0   2   38  0   0   103  55  23
+SpearmanrResult(correlation=0.4640822789214438, pvalue=0.17665691836682632)
+
+harmonia:abstract ~ Mythology
+           -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Mythology  0   0   0   0   0   0   0   0    0   0 
+TOTAL      1   0   0   2   38  0   0   103  55  23
+(nan, nan)
+
+harmonia:abstract ~ Bucolic
+         -8  -7  -6  -5  -4  -3  -2   -1   1   2
+Bucolic  0   0   0   0   0   0   0   0    0   0 
+TOTAL    1   0   0   2   38  0   0   103  55  23
 (nan, nan)
 
                                                   Spearman's ρ         p
-harmonia:abstract ~ Rhetoric, poetics, criticism  0.749765      0.003166
-harmonia:abstract ~ History                       0.742191      0.003671
-harmonia:abstract ~ Essay                         0.555243      0.048858
-harmonia:abstract ~ Biography                     0.513778      0.072497
-harmonia:abstract ~ Philosophy                    0.448352      0.124391
-harmonia:abstract ~ Geography                     0.442912      0.129588
-harmonia:abstract ~ Oratory                       0.399372      0.176394
-harmonia:abstract ~ Miscellanea                   0.312935      0.297848
-harmonia:abstract ~ Art History                   0.312935      0.297848
-harmonia:abstract ~ Natural History               0.312935      0.297848
-harmonia:abstract ~ Science                       0.234701      0.440210
-harmonia:abstract ~ Protreptics                   0.156468      0.609722
-harmonia:abstract ~ Epic                         -0.106299      0.729622
-harmonia:abstract ~ Letters                       0.078234      0.799463
-harmonia:abstract ~ Choral                       -0.078234      0.799463
-harmonia:abstract ~ Church history                0.078234      0.799463
-harmonia:abstract ~ Hymns                         0.078234      0.799463
-harmonia:abstract ~ Tragedy                      -0.078234      0.799463
-harmonia:abstract ~ Narrative                    NaN           NaN      
-harmonia:abstract ~ Mythology                    NaN           NaN      
-harmonia:abstract ~ Comedy                       NaN           NaN      
-harmonia:abstract ~ Didactic                     NaN           NaN      
+harmonia:abstract ~ Rhetoric, poetics, criticism  0.722897      0.018169
+harmonia:abstract ~ History                       0.718421      0.019256
+harmonia:abstract ~ Geography                     0.508706      0.133219
+harmonia:abstract ~ Essay                         0.464082      0.176657
+harmonia:abstract ~ Oratory                       0.428384      0.216771
+harmonia:abstract ~ Biography                     0.419079      0.228012
+harmonia:abstract ~ Philosophy                    0.365911      0.298405
+harmonia:abstract ~ Science                       0.299342      0.400777
+harmonia:abstract ~ Protreptics                   0.179605      0.619544
+harmonia:abstract ~ Epic                         -0.059868      0.869506
+harmonia:abstract ~ Choral                        0.059868      0.869506
+harmonia:abstract ~ Tragedy                       0.059868      0.869506
 harmonia:abstract ~ Medicine                     NaN           NaN      
-harmonia:abstract ~ Bucolic                      NaN           NaN      
-harmonia:abstract ~ Homily                       NaN           NaN      
-harmonia:abstract ~ Hunting                      NaN           NaN      
+harmonia:abstract ~ Miscellanea                  NaN           NaN      
+harmonia:abstract ~ Natural History              NaN           NaN      
 harmonia:abstract ~ Novel                        NaN           NaN      
+harmonia:abstract ~ Letters                      NaN           NaN      
+harmonia:abstract ~ Homily                       NaN           NaN      
+harmonia:abstract ~ Military                     NaN           NaN      
+harmonia:abstract ~ Comedy                       NaN           NaN      
+harmonia:abstract ~ Politics                     NaN           NaN      
+harmonia:abstract ~ Theology                     NaN           NaN      
+harmonia:abstract ~ Church history               NaN           NaN      
+harmonia:abstract ~ Horsemanship                 NaN           NaN      
+harmonia:abstract ~ Art History                  NaN           NaN      
+harmonia:abstract ~ Hunting                      NaN           NaN      
+harmonia:abstract ~ Narrative                    NaN           NaN      
+harmonia:abstract ~ Didactic                     NaN           NaN      
+harmonia:abstract ~ Hymns                        NaN           NaN      
+harmonia:abstract ~ Mythology                    NaN           NaN      
+harmonia:abstract ~ Bucolic                      NaN           NaN      
 
 ####################################################################################################
 #   harmonia:concrete                                                                              #
 ####################################################################################################
 
-	-8	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
-Art History	0	0	0	0	0	0	0	0	0	0	2	0	0	2	
-Biography	0	0	0	0	0	0	0	0	0	0	1	0	0	1	
-Bucolic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Choral	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Church history	0	0	0	0	0	0	0	0	0	0	0	1	0	1	
-Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Didactic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Epic	2	0	0	0	0	0	0	0	0	0	1	0	7	10	
-Essay	0	0	0	0	0	0	0	0	1	0	1	0	0	2	
-Geography	0	0	0	0	0	0	0	1	0	5	0	0	0	6	
-History	0	0	0	1	0	0	0	1	7	1	0	0	0	10	
-Homily	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Hunting	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Hymns	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Letters	0	0	0	0	0	0	0	0	0	0	0	1	0	1	
-Medicine	0	0	0	1	0	0	0	0	0	0	0	0	0	1	
-Miscellanea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Mythology	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Narrative	0	0	0	0	0	0	1	0	0	0	0	0	0	1	
-Natural History	0	0	0	0	0	0	0	0	0	0	1	0	0	1	
-Novel	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Oratory	0	0	0	0	0	0	0	0	0	2	0	0	0	2	
-Philosophy	0	0	0	0	1	0	0	0	0	0	1	0	0	2	
-Protreptics	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Rhetoric, poetics, criticism	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Science	0	0	0	0	1	0	0	0	0	0	0	0	0	1	
-Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-TOTAL	2	0	0	2	2	0	1	2	8	8	7	2	7	41	
-
-harmonia:concrete ~ Essay
-       -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Essay  0   0   0   0   0   0   0   0   1  0  1  0  0
-TOTAL  2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.5321811563901744, pvalue=0.06118964921533416)
-
-harmonia:concrete ~ Epic
-       -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Epic   2   0   0   0   0   0   0   0   0  0  1  0  7
-TOTAL  2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.3508782949819599, pvalue=0.2398010930003015)
-
-harmonia:concrete ~ Science
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Science  0   0   0   0   1   0   0   0   0  0  0  0  0
-TOTAL    2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.0, pvalue=1.0)
-
-harmonia:concrete ~ Narrative
-           -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Narrative  0   0   0   0   0   0   1   0   0  0  0  0  0
-TOTAL      2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=-0.2401922307076307, pvalue=0.42927051417211226)
+	-8	-7	-6	-5	-4	-3	-2	-1	1	2	TOTAL
+Art History	0	0	0	0	0	0	0	0	0	0	0	
+Biography	0	0	0	0	0	0	0	0	0	0	0	
+Bucolic	0	0	0	0	0	0	0	0	0	0	0	
+Choral	0	0	0	0	0	0	0	0	0	0	0	
+Church history	0	0	0	0	0	0	0	0	0	0	0	
+Comedy	0	0	0	0	0	0	0	0	0	0	0	
+Didactic	0	0	0	0	0	0	0	0	0	0	0	
+Epic	2	0	0	0	0	0	0	0	0	0	2	
+Essay	0	0	0	0	0	0	0	0	1	0	1	
+Geography	0	0	0	0	0	0	0	1	0	5	6	
+History	0	0	0	1	0	0	0	1	7	1	10	
+Homily	0	0	0	0	0	0	0	0	0	0	0	
+Horsemanship	0	0	0	0	0	0	0	0	0	0	0	
+Hunting	0	0	0	0	0	0	0	0	0	0	0	
+Hymns	0	0	0	0	0	0	0	0	0	0	0	
+Letters	0	0	0	0	0	0	0	0	0	0	0	
+Medicine	0	0	0	1	0	0	0	0	0	0	1	
+Military	0	0	0	0	0	0	0	0	0	0	0	
+Miscellanea	0	0	0	0	0	0	0	0	0	0	0	
+Mythology	0	0	0	0	0	0	0	0	0	0	0	
+Narrative	0	0	0	0	0	0	1	0	0	0	1	
+Natural History	0	0	0	0	0	0	0	0	0	0	0	
+Novel	0	0	0	0	0	0	0	0	0	0	0	
+Oratory	0	0	0	0	0	0	0	0	0	2	2	
+Philosophy	0	0	0	0	1	0	0	0	0	0	1	
+Politics	0	0	0	0	0	0	0	0	0	0	0	
+Protreptics	0	0	0	0	0	0	0	0	0	0	0	
+Rhetoric, poetics, criticism	0	0	0	0	0	0	0	0	0	0	0	
+Science	0	0	0	0	1	0	0	0	0	0	1	
+Theology	0	0	0	0	0	0	0	0	0	0	0	
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	
+TOTAL	2	0	0	2	2	0	1	2	8	8	25	
 
 harmonia:concrete ~ Geography
-           -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Geography  0   0   0   0   0   0   0   1   0  5  0  0  0
-TOTAL      2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.3490206548164369, pvalue=0.24247060539420948)
-
-harmonia:concrete ~ Miscellanea
-             -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Miscellanea  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL        2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
-
-harmonia:concrete ~ Letters
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Letters  0   0   0   0   0   0   0   0   0  0  0  1  0
-TOTAL    2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.0, pvalue=1.0)
-
-harmonia:concrete ~ Mythology
-           -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Mythology  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL      2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
-
-harmonia:concrete ~ Comedy
-        -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Comedy  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL   2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
+           -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Geography  0   0   0   0   0   0   0   1   0  5
+TOTAL      2   0   0   2   2   0   1   2   8  8
+SpearmanrResult(correlation=0.4808257643241054, pvalue=0.1594894616355501)
 
 harmonia:concrete ~ Oratory
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Oratory  0   0   0   0   0   0   0   0   0  2  0  0  0
-TOTAL    2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.44035242296398963, pvalue=0.13208208944096986)
-
-harmonia:concrete ~ Art History
-             -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Art History  0   0   0   0   0   0   0   0   0  0  2  0  0
-TOTAL        2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.28022426915890253, pvalue=0.3537555985115107)
-
-harmonia:concrete ~ Choral
-        -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Choral  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL   2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
-
-harmonia:concrete ~ Natural History
-                 -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Natural History  0   0   0   0   0   0   0   0   0  0  1  0  0
-TOTAL            2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.28022426915890253, pvalue=0.3537555985115107)
-
-harmonia:concrete ~ Rhetoric, poetics, criticism
-                              -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Rhetoric, poetics, criticism  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL                         2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
-
-harmonia:concrete ~ Didactic
-          -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Didactic  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL     2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
-
-harmonia:concrete ~ Protreptics
-             -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Protreptics  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL        2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
-
-harmonia:concrete ~ Biography
-           -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Biography  0   0   0   0   0   0   0   0   0  0  1  0  0
-TOTAL      2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.28022426915890253, pvalue=0.3537555985115107)
-
-harmonia:concrete ~ Church history
-                -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Church history  0   0   0   0   0   0   0   0   0  0  0  1  0
-TOTAL           2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.0, pvalue=1.0)
-
-harmonia:concrete ~ Hymns
-       -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Hymns  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL  2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
-
-harmonia:concrete ~ Tragedy
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Tragedy  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL    2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Oratory  0   0   0   0   0   0   0   0   0  2
+TOTAL    2   0   0   2   2   0   1   2   8  8
+SpearmanrResult(correlation=0.48686449556014766, pvalue=0.1535547348702545)
 
 harmonia:concrete ~ Philosophy
-            -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Philosophy  0   0   0   0   1   0   0   0   0  0  1  0  0
-TOTAL       2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.20695933859617896, pvalue=0.4975064015898276)
+            -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Philosophy  0   0   0   0   1   0   0   0   0  0
+TOTAL       2   0   0   2   2   0   1   2   8  8
+SpearmanrResult(correlation=0.12171612389003691, pvalue=0.7376555444239832)
 
 harmonia:concrete ~ Medicine
-          -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Medicine  0   0   0   1   0   0   0   0   0  0  0  0  0
-TOTAL     2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.0, pvalue=1.0)
+          -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Medicine  0   0   0   1   0   0   0   0   0  0
+TOTAL     2   0   0   2   2   0   1   2   8  8
+SpearmanrResult(correlation=0.12171612389003691, pvalue=0.7376555444239832)
 
-harmonia:concrete ~ Bucolic
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Bucolic  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL    2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
-
-harmonia:concrete ~ Homily
-        -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Homily  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL   2   0   0   2   2   0   1   2   8  8  7  2  7
-(nan, nan)
-
-harmonia:concrete ~ Hunting
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Hunting  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL    2   0   0   2   2   0   1   2   8  8  7  2  7
+harmonia:concrete ~ Miscellanea
+             -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Miscellanea  0   0   0   0   0   0   0   0   0  0
+TOTAL        2   0   0   2   2   0   1   2   8  8
 (nan, nan)
 
 harmonia:concrete ~ History
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-History  0   0   0   1   0   0   0   1   7  1  0  0  0
-TOTAL    2   0   0   2   2   0   1   2   8  8  7  2  7
-SpearmanrResult(correlation=0.5407004734345869, pvalue=0.05640324604491662)
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+History  0   0   0   1   0   0   0   1   7  1
+TOTAL    2   0   0   2   2   0   1   2   8  8
+SpearmanrResult(correlation=0.7710365455005064, pvalue=0.009025068149248663)
+
+harmonia:concrete ~ Epic
+       -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Epic   2   0   0   0   0   0   0   0   0  0
+TOTAL  2   0   0   2   2   0   1   2   8  8
+SpearmanrResult(correlation=0.12171612389003691, pvalue=0.7376555444239832)
+
+harmonia:concrete ~ Natural History
+                 -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Natural History  0   0   0   0   0   0   0   0   0  0
+TOTAL            2   0   0   2   2   0   1   2   8  8
+(nan, nan)
 
 harmonia:concrete ~ Novel
-       -8  -7  -6  -5  -4  -3  -2  -1  1  2  3  4  5
-Novel  0   0   0   0   0   0   0   0   0  0  0  0  0
-TOTAL  2   0   0   2   2   0   1   2   8  8  7  2  7
+       -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Novel  0   0   0   0   0   0   0   0   0  0
+TOTAL  2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Science
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Science  0   0   0   0   1   0   0   0   0  0
+TOTAL    2   0   0   2   2   0   1   2   8  8
+SpearmanrResult(correlation=0.12171612389003691, pvalue=0.7376555444239832)
+
+harmonia:concrete ~ Choral
+        -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Choral  0   0   0   0   0   0   0   0   0  0
+TOTAL   2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Letters
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Letters  0   0   0   0   0   0   0   0   0  0
+TOTAL    2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Homily
+        -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Homily  0   0   0   0   0   0   0   0   0  0
+TOTAL   2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Military
+          -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Military  0   0   0   0   0   0   0   0   0  0
+TOTAL     2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Comedy
+        -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Comedy  0   0   0   0   0   0   0   0   0  0
+TOTAL   2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Politics
+          -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Politics  0   0   0   0   0   0   0   0   0  0
+TOTAL     2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Theology
+          -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Theology  0   0   0   0   0   0   0   0   0  0
+TOTAL     2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Church history
+                -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Church history  0   0   0   0   0   0   0   0   0  0
+TOTAL           2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Horsemanship
+              -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Horsemanship  0   0   0   0   0   0   0   0   0  0
+TOTAL         2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Art History
+             -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Art History  0   0   0   0   0   0   0   0   0  0
+TOTAL        2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Biography
+           -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Biography  0   0   0   0   0   0   0   0   0  0
+TOTAL      2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Rhetoric, poetics, criticism
+                              -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Rhetoric, poetics, criticism  0   0   0   0   0   0   0   0   0  0
+TOTAL                         2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Hunting
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Hunting  0   0   0   0   0   0   0   0   0  0
+TOTAL    2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Narrative
+           -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Narrative  0   0   0   0   0   0   1   0   0  0
+TOTAL      2   0   0   2   2   0   1   2   8  8
+SpearmanrResult(correlation=-0.18257418583505536, pvalue=0.6136675286424305)
+
+harmonia:concrete ~ Didactic
+          -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Didactic  0   0   0   0   0   0   0   0   0  0
+TOTAL     2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Protreptics
+             -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Protreptics  0   0   0   0   0   0   0   0   0  0
+TOTAL        2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Hymns
+       -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Hymns  0   0   0   0   0   0   0   0   0  0
+TOTAL  2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Tragedy
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Tragedy  0   0   0   0   0   0   0   0   0  0
+TOTAL    2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Essay
+       -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Essay  0   0   0   0   0   0   0   0   1  0
+TOTAL  2   0   0   2   2   0   1   2   8  8
+SpearmanrResult(correlation=0.48686449556014766, pvalue=0.1535547348702545)
+
+harmonia:concrete ~ Mythology
+           -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Mythology  0   0   0   0   0   0   0   0   0  0
+TOTAL      2   0   0   2   2   0   1   2   8  8
+(nan, nan)
+
+harmonia:concrete ~ Bucolic
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Bucolic  0   0   0   0   0   0   0   0   0  0
+TOTAL    2   0   0   2   2   0   1   2   8  8
 (nan, nan)
 
                                                   Spearman's ρ         p
-harmonia:concrete ~ History                       0.540700      0.056403
-harmonia:concrete ~ Essay                         0.532181      0.061190
-harmonia:concrete ~ Oratory                       0.440352      0.132082
-harmonia:concrete ~ Epic                          0.350878      0.239801
-harmonia:concrete ~ Geography                     0.349021      0.242471
-harmonia:concrete ~ Art History                   0.280224      0.353756
-harmonia:concrete ~ Natural History               0.280224      0.353756
-harmonia:concrete ~ Biography                     0.280224      0.353756
-harmonia:concrete ~ Narrative                    -0.240192      0.429271
-harmonia:concrete ~ Philosophy                    0.206959      0.497506
-harmonia:concrete ~ Science                       0.000000      1.000000
-harmonia:concrete ~ Letters                       0.000000      1.000000
-harmonia:concrete ~ Church history                0.000000      1.000000
-harmonia:concrete ~ Medicine                      0.000000      1.000000
+harmonia:concrete ~ History                       0.771037      0.009025
+harmonia:concrete ~ Oratory                       0.486864      0.153555
+harmonia:concrete ~ Essay                         0.486864      0.153555
+harmonia:concrete ~ Geography                     0.480826      0.159489
+harmonia:concrete ~ Narrative                    -0.182574      0.613668
+harmonia:concrete ~ Philosophy                    0.121716      0.737656
+harmonia:concrete ~ Medicine                      0.121716      0.737656
+harmonia:concrete ~ Epic                          0.121716      0.737656
+harmonia:concrete ~ Science                       0.121716      0.737656
 harmonia:concrete ~ Miscellanea                  NaN           NaN      
-harmonia:concrete ~ Mythology                    NaN           NaN      
-harmonia:concrete ~ Comedy                       NaN           NaN      
+harmonia:concrete ~ Natural History              NaN           NaN      
+harmonia:concrete ~ Novel                        NaN           NaN      
 harmonia:concrete ~ Choral                       NaN           NaN      
+harmonia:concrete ~ Letters                      NaN           NaN      
+harmonia:concrete ~ Homily                       NaN           NaN      
+harmonia:concrete ~ Military                     NaN           NaN      
+harmonia:concrete ~ Comedy                       NaN           NaN      
+harmonia:concrete ~ Politics                     NaN           NaN      
+harmonia:concrete ~ Theology                     NaN           NaN      
+harmonia:concrete ~ Church history               NaN           NaN      
+harmonia:concrete ~ Horsemanship                 NaN           NaN      
+harmonia:concrete ~ Art History                  NaN           NaN      
+harmonia:concrete ~ Biography                    NaN           NaN      
 harmonia:concrete ~ Rhetoric, poetics, criticism NaN           NaN      
+harmonia:concrete ~ Hunting                      NaN           NaN      
 harmonia:concrete ~ Didactic                     NaN           NaN      
 harmonia:concrete ~ Protreptics                  NaN           NaN      
 harmonia:concrete ~ Hymns                        NaN           NaN      
 harmonia:concrete ~ Tragedy                      NaN           NaN      
+harmonia:concrete ~ Mythology                    NaN           NaN      
 harmonia:concrete ~ Bucolic                      NaN           NaN      
-harmonia:concrete ~ Homily                       NaN           NaN      
-harmonia:concrete ~ Hunting                      NaN           NaN      
-harmonia:concrete ~ Novel                        NaN           NaN      
 
 ####################################################################################################
 #   harmonia:musical                                                                               #
 ####################################################################################################
 
-	-8	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
-Art History	0	0	0	0	0	0	0	0	0	0	3	2	0	5	
-Biography	0	0	0	0	0	0	0	0	3	0	5	0	0	8	
-Bucolic	0	0	0	0	0	1	0	0	0	0	0	0	0	1	
-Choral	0	0	0	1	0	0	0	0	0	0	0	0	0	1	
-Church history	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Comedy	0	0	0	4	0	0	0	0	0	0	0	0	0	4	
-Didactic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Epic	0	0	0	0	0	0	0	0	0	0	0	0	11	11	
-Essay	0	0	0	0	0	0	0	0	23	6	22	0	0	51	
-Geography	0	0	0	0	0	0	0	0	0	3	0	0	0	3	
-History	0	0	0	0	0	0	0	4	0	0	0	0	0	4	
-Homily	0	0	0	0	0	0	0	0	0	0	0	3	0	3	
-Hunting	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Hymns	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Letters	0	0	0	0	0	0	0	0	0	0	0	2	0	2	
-Medicine	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Miscellanea	0	0	0	0	0	0	0	0	0	0	32	0	0	32	
-Mythology	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Narrative	0	0	0	0	0	0	1	0	0	0	0	0	0	1	
-Natural History	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Novel	0	0	0	0	0	0	0	0	0	3	0	0	0	3	
-Oratory	0	0	0	0	0	0	0	0	9	9	0	1	0	19	
-Philosophy	0	0	0	0	96	0	0	0	0	0	14	0	0	110	
-Protreptics	0	0	0	0	0	0	0	0	0	5	0	0	0	5	
-Rhetoric, poetics, criticism	0	0	0	0	7	1	0	3	3	0	0	0	0	14	
-Science	0	0	0	0	2	0	0	0	0	0	0	0	0	2	
-Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-TOTAL	0	0	0	5	105	2	1	7	38	26	76	8	11	279	
-
-harmonia:musical ~ Essay
-       -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Essay  0   0   0   0   0    0   0   0   23  6   22  0  0 
-TOTAL  0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.5903088555552568, pvalue=0.0336753787547606)
-
-harmonia:musical ~ Epic
-       -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Epic   0   0   0   0   0    0   0   0   0   0   0   0  11
-TOTAL  0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.1551582227085438, pvalue=0.6127543506395834)
-
-harmonia:musical ~ Science
-         -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Science  0   0   0   0   2    0   0   0   0   0   0   0  0 
-TOTAL    0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.4654746681256314, pvalue=0.10894690130961245)
-
-harmonia:musical ~ Narrative
-           -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Narrative  0   0   0   0   0    0   1   0   0   0   0   0  0 
-TOTAL      0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=-0.2327373340628157, pvalue=0.4441560428417193)
+	-8	-7	-6	-5	-4	-3	-2	-1	1	2	TOTAL
+Art History	0	0	0	0	0	0	0	0	0	0	0	
+Biography	0	0	0	0	0	0	0	0	3	0	3	
+Bucolic	0	0	0	0	0	1	0	0	0	0	1	
+Choral	0	0	0	1	0	0	0	0	0	0	1	
+Church history	0	0	0	0	0	0	0	0	0	0	0	
+Comedy	0	0	0	4	0	0	0	0	0	0	4	
+Didactic	0	0	0	0	0	0	0	0	0	0	0	
+Epic	0	0	0	0	0	0	0	0	0	0	0	
+Essay	0	0	0	0	0	0	0	0	23	6	29	
+Geography	0	0	0	0	0	0	0	0	0	3	3	
+History	0	0	0	0	0	0	0	4	0	0	4	
+Homily	0	0	0	0	0	0	0	0	0	0	0	
+Horsemanship	0	0	0	0	0	0	0	0	0	0	0	
+Hunting	0	0	0	0	0	0	0	0	0	0	0	
+Hymns	0	0	0	0	0	0	0	0	0	0	0	
+Letters	0	0	0	0	0	0	0	0	0	0	0	
+Medicine	0	0	0	0	0	0	0	0	0	0	0	
+Military	0	0	0	0	0	0	0	0	0	0	0	
+Miscellanea	0	0	0	0	0	0	0	0	0	0	0	
+Mythology	0	0	0	0	0	0	0	0	0	0	0	
+Narrative	0	0	0	0	0	0	1	0	0	0	1	
+Natural History	0	0	0	0	0	0	0	0	0	0	0	
+Novel	0	0	0	0	0	0	0	0	0	3	3	
+Oratory	0	0	0	0	0	0	0	0	9	9	18	
+Philosophy	0	0	0	0	96	0	0	0	0	0	96	
+Politics	0	0	0	0	0	0	0	0	0	0	0	
+Protreptics	0	0	0	0	0	0	0	0	0	5	5	
+Rhetoric, poetics, criticism	0	0	0	0	7	1	0	3	3	0	14	
+Science	0	0	0	0	2	0	0	0	0	0	2	
+Theology	0	0	0	0	0	0	0	0	0	0	0	
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	
+TOTAL	0	0	0	5	105	2	1	7	38	26	184	
 
 harmonia:musical ~ Geography
-           -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Geography  0   0   0   0   0    0   0   0   0   3   0   0  0 
-TOTAL      0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.2327373340628157, pvalue=0.4441560428417193)
-
-harmonia:musical ~ Miscellanea
-             -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Miscellanea  0   0   0   0   0    0   0   0   0   0   32  0  0 
-TOTAL        0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.3878955567713594, pvalue=0.19031167485537337)
-
-harmonia:musical ~ Letters
-         -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Letters  0   0   0   0   0    0   0   0   0   0   0   2  0 
-TOTAL    0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.0775791113542719, pvalue=0.8011110143862086)
-
-harmonia:musical ~ Mythology
-           -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Mythology  0   0   0   0   0    0   0   0   0   0   0   0  0 
-TOTAL      0   0   0   5   105  2   1   7   38  26  76  8  11
-(nan, nan)
-
-harmonia:musical ~ Comedy
-        -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Comedy  0   0   0   4   0    0   0   0   0   0   0   0  0 
-TOTAL   0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=-0.0775791113542719, pvalue=0.8011110143862086)
+           -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Geography  0   0   0   0   0    0   0   0   0   3 
+TOTAL      0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.2937114070209339, pvalue=0.41012201381906044)
 
 harmonia:musical ~ Oratory
-         -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Oratory  0   0   0   0   0    0   0   0   9   9   0   1  0 
-TOTAL    0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.4082654722694077, pvalue=0.16606724687711777)
-
-harmonia:musical ~ Art History
-             -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Art History  0   0   0   0   0    0   0   0   0   0   3   2  0 
-TOTAL        0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.36014828907473206, pvalue=0.22674572692043202)
-
-harmonia:musical ~ Choral
-        -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Choral  0   0   0   1   0    0   0   0   0   0   0   0  0 
-TOTAL   0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=-0.0775791113542719, pvalue=0.8011110143862086)
-
-harmonia:musical ~ Natural History
-                 -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Natural History  0   0   0   0   0    0   0   0   0   0   0   0  0 
-TOTAL            0   0   0   5   105  2   1   7   38  26  76  8  11
-(nan, nan)
-
-harmonia:musical ~ Rhetoric, poetics, criticism
-                              -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Rhetoric, poetics, criticism  0   0   0   0   7    1   0   3   3   0   0   0  0 
-TOTAL                         0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.43276844049790897, pvalue=0.1396583508845842)
-
-harmonia:musical ~ Didactic
-          -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Didactic  0   0   0   0   0    0   0   0   0   0   0   0  0 
-TOTAL     0   0   0   5   105  2   1   7   38  26  76  8  11
-(nan, nan)
-
-harmonia:musical ~ Protreptics
-             -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Protreptics  0   0   0   0   0    0   0   0   0   5   0   0  0 
-TOTAL        0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.2327373340628157, pvalue=0.4441560428417193)
-
-harmonia:musical ~ Biography
-           -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Biography  0   0   0   0   0    0   0   0   3   0   5   0  0 
-TOTAL      0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.5182621720831511, pvalue=0.069616533980518)
-
-harmonia:musical ~ Church history
-                -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Church history  0   0   0   0   0    0   0   0   0   0   0   0  0 
-TOTAL           0   0   0   5   105  2   1   7   38  26  76  8  11
-(nan, nan)
-
-harmonia:musical ~ Hymns
-       -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Hymns  0   0   0   0   0    0   0   0   0   0   0   0  0 
-TOTAL  0   0   0   5   105  2   1   7   38  26  76  8  11
-(nan, nan)
-
-harmonia:musical ~ Tragedy
-         -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Tragedy  0   0   0   0   0    0   0   0   0   0   0   0  0 
-TOTAL    0   0   0   5   105  2   1   7   38  26  76  8  11
-(nan, nan)
+         -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Oratory  0   0   0   0   0    0   0   0   9   9 
+TOTAL    0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.528680532637681, pvalue=0.11615266790042493)
 
 harmonia:musical ~ Philosophy
-            -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Philosophy  0   0   0   0   96   0   0   0   0   0   14  0  0 
-TOTAL       0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.632455532033676, pvalue=0.020363073376541387)
+            -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Philosophy  0   0   0   0   96   0   0   0   0   0 
+TOTAL       0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.528680532637681, pvalue=0.11615266790042493)
 
 harmonia:musical ~ Medicine
-          -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Medicine  0   0   0   0   0    0   0   0   0   0   0   0  0 
-TOTAL     0   0   0   5   105  2   1   7   38  26  76  8  11
+          -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Medicine  0   0   0   0   0    0   0   0   0   0 
+TOTAL     0   0   0   5   105  2   1   7   38  26
 (nan, nan)
 
-harmonia:musical ~ Bucolic
-         -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Bucolic  0   0   0   0   0    1   0   0   0   0   0   0  0 
-TOTAL    0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=-0.1551582227085438, pvalue=0.6127543506395834)
-
-harmonia:musical ~ Homily
-        -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Homily  0   0   0   0   0    0   0   0   0   0   0   3  0 
-TOTAL   0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.0775791113542719, pvalue=0.8011110143862086)
-
-harmonia:musical ~ Hunting
-         -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Hunting  0   0   0   0   0    0   0   0   0   0   0   0  0 
-TOTAL    0   0   0   5   105  2   1   7   38  26  76  8  11
+harmonia:musical ~ Miscellanea
+             -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Miscellanea  0   0   0   0   0    0   0   0   0   0 
+TOTAL        0   0   0   5   105  2   1   7   38  26
 (nan, nan)
 
 harmonia:musical ~ History
-         -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-History  0   0   0   0   0    0   0   4   0   0   0   0  0 
-TOTAL    0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.0, pvalue=1.0)
+         -8  -7  -6  -5   -4  -3  -2  -1   1   2
+History  0   0   0   0   0    0   0   4   0   0 
+TOTAL    0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.17622684421256032, pvalue=0.6262542806597817)
+
+harmonia:musical ~ Epic
+       -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Epic   0   0   0   0   0    0   0   0   0   0 
+TOTAL  0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Natural History
+                 -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Natural History  0   0   0   0   0    0   0   0   0   0 
+TOTAL            0   0   0   5   105  2   1   7   38  26
+(nan, nan)
 
 harmonia:musical ~ Novel
-       -8  -7  -6  -5   -4  -3  -2  -1   1   2   3  4   5
-Novel  0   0   0   0   0    0   0   0   0   3   0   0  0 
-TOTAL  0   0   0   5   105  2   1   7   38  26  76  8  11
-SpearmanrResult(correlation=0.2327373340628157, pvalue=0.4441560428417193)
+       -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Novel  0   0   0   0   0    0   0   0   0   3 
+TOTAL  0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.2937114070209339, pvalue=0.41012201381906044)
+
+harmonia:musical ~ Science
+         -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Science  0   0   0   0   2    0   0   0   0   0 
+TOTAL    0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.528680532637681, pvalue=0.11615266790042493)
+
+harmonia:musical ~ Choral
+        -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Choral  0   0   0   1   0    0   0   0   0   0 
+TOTAL   0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.05874228140418679, pvalue=0.871943747061907)
+
+harmonia:musical ~ Letters
+         -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Letters  0   0   0   0   0    0   0   0   0   0 
+TOTAL    0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Homily
+        -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Homily  0   0   0   0   0    0   0   0   0   0 
+TOTAL   0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Military
+          -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Military  0   0   0   0   0    0   0   0   0   0 
+TOTAL     0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Comedy
+        -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Comedy  0   0   0   4   0    0   0   0   0   0 
+TOTAL   0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.05874228140418679, pvalue=0.871943747061907)
+
+harmonia:musical ~ Politics
+          -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Politics  0   0   0   0   0    0   0   0   0   0 
+TOTAL     0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Theology
+          -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Theology  0   0   0   0   0    0   0   0   0   0 
+TOTAL     0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Church history
+                -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Church history  0   0   0   0   0    0   0   0   0   0 
+TOTAL           0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Horsemanship
+              -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Horsemanship  0   0   0   0   0    0   0   0   0   0 
+TOTAL         0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Art History
+             -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Art History  0   0   0   0   0    0   0   0   0   0 
+TOTAL        0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Biography
+           -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Biography  0   0   0   0   0    0   0   0   3   0 
+TOTAL      0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.41119596982930745, pvalue=0.23778863552946983)
+
+harmonia:musical ~ Rhetoric, poetics, criticism
+                              -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Rhetoric, poetics, criticism  0   0   0   0   7    1   0   3   3   0 
+TOTAL                         0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.7285871475307653, pvalue=0.016849226358822796)
+
+harmonia:musical ~ Hunting
+         -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Hunting  0   0   0   0   0    0   0   0   0   0 
+TOTAL    0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Narrative
+           -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Narrative  0   0   0   0   0    0   1   0   0   0 
+TOTAL      0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=-0.17622684421256032, pvalue=0.6262542806597817)
+
+harmonia:musical ~ Didactic
+          -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Didactic  0   0   0   0   0    0   0   0   0   0 
+TOTAL     0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Protreptics
+             -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Protreptics  0   0   0   0   0    0   0   0   0   5 
+TOTAL        0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.2937114070209339, pvalue=0.41012201381906044)
+
+harmonia:musical ~ Hymns
+       -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Hymns  0   0   0   0   0    0   0   0   0   0 
+TOTAL  0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Tragedy
+         -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Tragedy  0   0   0   0   0    0   0   0   0   0 
+TOTAL    0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Essay
+       -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Essay  0   0   0   0   0    0   0   0   23  6 
+TOTAL  0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=0.5341637197842795, pvalue=0.11172052425280643)
+
+harmonia:musical ~ Mythology
+           -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Mythology  0   0   0   0   0    0   0   0   0   0 
+TOTAL      0   0   0   5   105  2   1   7   38  26
+(nan, nan)
+
+harmonia:musical ~ Bucolic
+         -8  -7  -6  -5   -4  -3  -2  -1   1   2
+Bucolic  0   0   0   0   0    1   0   0   0   0 
+TOTAL    0   0   0   5   105  2   1   7   38  26
+SpearmanrResult(correlation=-0.05874228140418679, pvalue=0.871943747061907)
 
                                                  Spearman's ρ         p
-harmonia:musical ~ Philosophy                    0.632456      0.020363
-harmonia:musical ~ Essay                         0.590309      0.033675
-harmonia:musical ~ Biography                     0.518262      0.069617
-harmonia:musical ~ Science                       0.465475      0.108947
-harmonia:musical ~ Rhetoric, poetics, criticism  0.432768      0.139658
-harmonia:musical ~ Oratory                       0.408265      0.166067
-harmonia:musical ~ Miscellanea                   0.387896      0.190312
-harmonia:musical ~ Art History                   0.360148      0.226746
-harmonia:musical ~ Protreptics                   0.232737      0.444156
-harmonia:musical ~ Geography                     0.232737      0.444156
-harmonia:musical ~ Narrative                    -0.232737      0.444156
-harmonia:musical ~ Novel                         0.232737      0.444156
-harmonia:musical ~ Epic                          0.155158      0.612754
-harmonia:musical ~ Bucolic                      -0.155158      0.612754
-harmonia:musical ~ Comedy                       -0.077579      0.801111
-harmonia:musical ~ Choral                       -0.077579      0.801111
-harmonia:musical ~ Letters                       0.077579      0.801111
-harmonia:musical ~ Homily                        0.077579      0.801111
-harmonia:musical ~ History                       0.000000      1.000000
-harmonia:musical ~ Mythology                    NaN           NaN      
+harmonia:musical ~ Rhetoric, poetics, criticism  0.728587      0.016849
+harmonia:musical ~ Essay                         0.534164      0.111721
+harmonia:musical ~ Oratory                       0.528681      0.116153
+harmonia:musical ~ Philosophy                    0.528681      0.116153
+harmonia:musical ~ Science                       0.528681      0.116153
+harmonia:musical ~ Biography                     0.411196      0.237789
+harmonia:musical ~ Geography                     0.293711      0.410122
+harmonia:musical ~ Novel                         0.293711      0.410122
+harmonia:musical ~ Protreptics                   0.293711      0.410122
+harmonia:musical ~ History                       0.176227      0.626254
+harmonia:musical ~ Narrative                    -0.176227      0.626254
+harmonia:musical ~ Choral                        0.058742      0.871944
+harmonia:musical ~ Comedy                        0.058742      0.871944
+harmonia:musical ~ Bucolic                      -0.058742      0.871944
+harmonia:musical ~ Medicine                     NaN           NaN      
+harmonia:musical ~ Miscellanea                  NaN           NaN      
+harmonia:musical ~ Epic                         NaN           NaN      
 harmonia:musical ~ Natural History              NaN           NaN      
-harmonia:musical ~ Didactic                     NaN           NaN      
+harmonia:musical ~ Letters                      NaN           NaN      
+harmonia:musical ~ Homily                       NaN           NaN      
+harmonia:musical ~ Military                     NaN           NaN      
+harmonia:musical ~ Politics                     NaN           NaN      
+harmonia:musical ~ Theology                     NaN           NaN      
 harmonia:musical ~ Church history               NaN           NaN      
+harmonia:musical ~ Horsemanship                 NaN           NaN      
+harmonia:musical ~ Art History                  NaN           NaN      
+harmonia:musical ~ Hunting                      NaN           NaN      
+harmonia:musical ~ Didactic                     NaN           NaN      
 harmonia:musical ~ Hymns                        NaN           NaN      
 harmonia:musical ~ Tragedy                      NaN           NaN      
-harmonia:musical ~ Medicine                     NaN           NaN      
-harmonia:musical ~ Hunting                      NaN           NaN      
+harmonia:musical ~ Mythology                    NaN           NaN      
 
 ####################################################################################################
 #   mus:mouse                                                                                      #
 ####################################################################################################
 
-	-8	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
-Art History	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Biography	0	0	0	0	0	0	0	0	5	0	1	0	0	6	
-Bucolic	0	0	0	0	0	1	0	0	0	0	0	0	0	1	
-Choral	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Church history	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Comedy	0	0	0	5	0	0	0	0	0	0	0	0	0	5	
-Didactic	0	0	0	0	0	3	0	0	0	2	0	0	0	5	
-Epic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Essay	0	0	0	0	0	0	0	0	16	4	0	0	0	20	
-Geography	0	0	0	0	0	0	0	8	0	0	0	0	0	8	
-History	0	0	0	6	0	0	0	3	3	0	0	0	0	12	
-Homily	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Hunting	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Hymns	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Letters	0	0	0	0	0	0	0	0	0	0	0	1	0	1	
-Medicine	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Miscellanea	0	0	0	0	0	0	0	0	0	0	6	0	0	6	
-Mythology	0	0	0	0	0	0	0	0	0	1	0	0	0	1	
-Narrative	0	0	0	0	0	1	4	0	0	0	0	0	0	5	
-Natural History	0	0	0	0	0	0	0	0	0	0	37	0	0	37	
-Novel	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Oratory	0	0	0	0	1	0	0	0	0	0	0	0	0	1	
-Philosophy	0	0	0	0	3	0	0	0	0	3	0	0	0	6	
-Protreptics	0	0	0	0	0	0	0	0	0	2	0	0	0	2	
-Rhetoric, poetics, criticism	0	0	0	0	2	0	0	0	0	0	0	0	0	2	
-Science	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-TOTAL	0	0	0	11	6	5	4	11	24	12	44	1	0	118	
-
-mus:mouse ~ Essay
-       -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Essay  0   0   0   0   0   0   0   0   16  4   0   0  0
-TOTAL  0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.5233755238221437, pvalue=0.06643166149383807)
-
-mus:mouse ~ Epic
-       -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Epic   0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL  0   0   0   11  6   5   4   11  24  12  44  1  0
-(nan, nan)
-
-mus:mouse ~ Science
-         -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Science  0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL    0   0   0   11  6   5   4   11  24  12  44  1  0
-(nan, nan)
-
-mus:mouse ~ Narrative
-           -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Narrative  0   0   0   0   0   1   4   0   0   0   0   0  0
-TOTAL      0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=-0.06209540113144077, pvalue=0.8402907631309873)
+	-8	-7	-6	-5	-4	-3	-2	-1	1	2	TOTAL
+Art History	0	0	0	0	0	0	0	0	0	0	0	
+Biography	0	0	0	0	0	0	0	0	5	0	5	
+Bucolic	0	0	0	0	0	1	0	0	0	0	1	
+Choral	0	0	0	0	0	0	0	0	0	0	0	
+Church history	0	0	0	0	0	0	0	0	0	0	0	
+Comedy	0	0	0	5	0	0	0	0	0	0	5	
+Didactic	0	0	0	0	0	3	0	0	0	2	5	
+Epic	0	0	0	0	0	0	0	0	0	0	0	
+Essay	0	0	0	0	0	0	0	0	16	4	20	
+Geography	0	0	0	0	0	0	0	8	0	0	8	
+History	0	0	0	6	0	0	0	3	3	0	12	
+Homily	0	0	0	0	0	0	0	0	0	0	0	
+Horsemanship	0	0	0	0	0	0	0	0	0	0	0	
+Hunting	0	0	0	0	0	0	0	0	0	0	0	
+Hymns	0	0	0	0	0	0	0	0	0	0	0	
+Letters	0	0	0	0	0	0	0	0	0	0	0	
+Medicine	0	0	0	0	0	0	0	0	0	0	0	
+Military	0	0	0	0	0	0	0	0	0	0	0	
+Miscellanea	0	0	0	0	0	0	0	0	0	0	0	
+Mythology	0	0	0	0	0	0	0	0	0	1	1	
+Narrative	0	0	0	0	0	1	4	0	0	0	5	
+Natural History	0	0	0	0	0	0	0	0	0	0	0	
+Novel	0	0	0	0	0	0	0	0	0	0	0	
+Oratory	0	0	0	0	1	0	0	0	0	0	1	
+Philosophy	0	0	0	0	3	0	0	0	0	3	6	
+Politics	0	0	0	0	0	0	0	0	0	0	0	
+Protreptics	0	0	0	0	0	0	0	0	0	2	2	
+Rhetoric, poetics, criticism	0	0	0	0	2	0	0	0	0	0	2	
+Science	0	0	0	0	0	0	0	0	0	0	0	
+Theology	0	0	0	0	0	0	0	0	0	0	0	
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	
+TOTAL	0	0	0	11	6	5	4	11	24	12	73	
 
 mus:mouse ~ Geography
-           -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Geography  0   0   0   0   0   0   0   8   0   0   0   0  0
-TOTAL      0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.19586133346128162, pvalue=0.5213338457875556)
-
-mus:mouse ~ Miscellanea
-             -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Miscellanea  0   0   0   0   0   0   0   0   0   0   6   0  0
-TOTAL        0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.4700672003070759, pvalue=0.10503631484089325)
-
-mus:mouse ~ Letters
-         -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Letters  0   0   0   0   0   0   0   0   0   0   0   1  0
-TOTAL    0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=-0.15668906676902528, pvalue=0.6092094085965741)
-
-mus:mouse ~ Mythology
-           -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Mythology  0   0   0   0   0   0   0   0   0   1   0   0  0
-TOTAL      0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.31337813353805055, pvalue=0.2971274982707889)
-
-mus:mouse ~ Comedy
-        -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Comedy  0   0   0   5   0   0   0   0   0   0   0   0  0
-TOTAL   0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.19586133346128162, pvalue=0.5213338457875556)
+           -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Geography  0   0   0   0   0   0   0   8   0   0 
+TOTAL      0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.23570226039551584, pvalue=0.5121034947040566)
 
 mus:mouse ~ Oratory
-         -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Oratory  0   0   0   0   1   0   0   0   0   0   0   0  0
-TOTAL    0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.07834453338451264, pvalue=0.7991845291677558)
-
-mus:mouse ~ Art History
-             -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Art History  0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL        0   0   0   11  6   5   4   11  24  12  44  1  0
-(nan, nan)
-
-mus:mouse ~ Choral
-        -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Choral  0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL   0   0   0   11  6   5   4   11  24  12  44  1  0
-(nan, nan)
-
-mus:mouse ~ Natural History
-                 -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Natural History  0   0   0   0   0   0   0   0   0   0   37  0  0
-TOTAL            0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.4700672003070759, pvalue=0.10503631484089325)
-
-mus:mouse ~ Rhetoric, poetics, criticism
-                              -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Rhetoric, poetics, criticism  0   0   0   0   2   0   0   0   0   0   0   0  0
-TOTAL                         0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.07834453338451264, pvalue=0.7991845291677558)
-
-mus:mouse ~ Didactic
-          -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Didactic  0   0   0   0   0   3   0   0   0   2   0   0  0
-TOTAL     0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.21289851816493982, pvalue=0.4849628933655775)
-
-mus:mouse ~ Protreptics
-             -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Protreptics  0   0   0   0   0   0   0   0   0   2   0   0  0
-TOTAL        0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.31337813353805055, pvalue=0.2971274982707889)
-
-mus:mouse ~ Biography
-           -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Biography  0   0   0   0   0   0   0   0   5   0   1   0  0
-TOTAL      0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.6298247829046135, pvalue=0.021054829060610698)
-
-mus:mouse ~ Church history
-                -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Church history  0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL           0   0   0   11  6   5   4   11  24  12  44  1  0
-(nan, nan)
-
-mus:mouse ~ Hymns
-       -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Hymns  0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL  0   0   0   11  6   5   4   11  24  12  44  1  0
-(nan, nan)
-
-mus:mouse ~ Tragedy
-         -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Tragedy  0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL    0   0   0   11  6   5   4   11  24  12  44  1  0
-(nan, nan)
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Oratory  0   0   0   0   1   0   0   0   0   0 
+TOTAL    0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.05892556509887896, pvalue=0.8715469629943797)
 
 mus:mouse ~ Philosophy
-            -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Philosophy  0   0   0   0   3   0   0   0   0   3   0   0  0
-TOTAL       0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.28930636273139315, pvalue=0.3376978153457474)
+            -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Philosophy  0   0   0   0   3   0   0   0   0   3 
+TOTAL       0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.35355339059327373, pvalue=0.31624189853891155)
 
 mus:mouse ~ Medicine
-          -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Medicine  0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL     0   0   0   11  6   5   4   11  24  12  44  1  0
+          -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Medicine  0   0   0   0   0   0   0   0   0   0 
+TOTAL     0   0   0   11  6   5   4   11  24  12
 (nan, nan)
 
-mus:mouse ~ Bucolic
-         -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Bucolic  0   0   0   0   0   1   0   0   0   0   0   0  0
-TOTAL    0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.0, pvalue=1.0)
-
-mus:mouse ~ Homily
-        -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Homily  0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL   0   0   0   11  6   5   4   11  24  12  44  1  0
-(nan, nan)
-
-mus:mouse ~ Hunting
-         -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Hunting  0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL    0   0   0   11  6   5   4   11  24  12  44  1  0
+mus:mouse ~ Miscellanea
+             -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Miscellanea  0   0   0   0   0   0   0   0   0   0 
+TOTAL        0   0   0   11  6   5   4   11  24  12
 (nan, nan)
 
 mus:mouse ~ History
-         -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-History  0   0   0   6   0   0   0   3   3   0   0   0  0
-TOTAL    0   0   0   11  6   5   4   11  24  12  44  1  0
-SpearmanrResult(correlation=0.48226998870301424, pvalue=0.09511097587207307)
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+History  0   0   0   6   0   0   0   3   3   0 
+TOTAL    0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.6275987638080028, pvalue=0.052065780619203736)
 
-mus:mouse ~ Novel
-       -8  -7  -6  -5  -4  -3  -2  -1   1   2   3  4  5
-Novel  0   0   0   0   0   0   0   0   0   0   0   0  0
-TOTAL  0   0   0   11  6   5   4   11  24  12  44  1  0
+mus:mouse ~ Epic
+       -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Epic   0   0   0   0   0   0   0   0   0   0 
+TOTAL  0   0   0   11  6   5   4   11  24  12
 (nan, nan)
 
+mus:mouse ~ Natural History
+                 -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Natural History  0   0   0   0   0   0   0   0   0   0 
+TOTAL            0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Novel
+       -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Novel  0   0   0   0   0   0   0   0   0   0 
+TOTAL  0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Science
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Science  0   0   0   0   0   0   0   0   0   0 
+TOTAL    0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Choral
+        -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Choral  0   0   0   0   0   0   0   0   0   0 
+TOTAL   0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Letters
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Letters  0   0   0   0   0   0   0   0   0   0 
+TOTAL    0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Homily
+        -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Homily  0   0   0   0   0   0   0   0   0   0 
+TOTAL   0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Military
+          -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Military  0   0   0   0   0   0   0   0   0   0 
+TOTAL     0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Comedy
+        -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Comedy  0   0   0   5   0   0   0   0   0   0 
+TOTAL   0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.23570226039551584, pvalue=0.5121034947040566)
+
+mus:mouse ~ Politics
+          -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Politics  0   0   0   0   0   0   0   0   0   0 
+TOTAL     0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Theology
+          -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Theology  0   0   0   0   0   0   0   0   0   0 
+TOTAL     0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Church history
+                -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Church history  0   0   0   0   0   0   0   0   0   0 
+TOTAL           0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Horsemanship
+              -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Horsemanship  0   0   0   0   0   0   0   0   0   0 
+TOTAL         0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Art History
+             -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Art History  0   0   0   0   0   0   0   0   0   0 
+TOTAL        0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Biography
+           -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Biography  0   0   0   0   0   0   0   0   5   0 
+TOTAL      0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.5303300858899106, pvalue=0.1148079481642494)
+
+mus:mouse ~ Rhetoric, poetics, criticism
+                              -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Rhetoric, poetics, criticism  0   0   0   0   2   0   0   0   0   0 
+TOTAL                         0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.05892556509887896, pvalue=0.8715469629943797)
+
+mus:mouse ~ Hunting
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Hunting  0   0   0   0   0   0   0   0   0   0 
+TOTAL    0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Narrative
+           -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Narrative  0   0   0   0   0   1   4   0   0   0 
+TOTAL      0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=-0.18446619684315546, pvalue=0.6099330090966766)
+
+mus:mouse ~ Didactic
+          -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Didactic  0   0   0   0   0   3   0   0   0   2 
+TOTAL     0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.22838671990104964, pvalue=0.525657794639245)
+
+mus:mouse ~ Protreptics
+             -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Protreptics  0   0   0   0   0   0   0   0   0   2 
+TOTAL        0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.41247895569215265, pvalue=0.23618163479731888)
+
+mus:mouse ~ Hymns
+       -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Hymns  0   0   0   0   0   0   0   0   0   0 
+TOTAL  0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Tragedy
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Tragedy  0   0   0   0   0   0   0   0   0   0 
+TOTAL    0   0   0   11  6   5   4   11  24  12
+(nan, nan)
+
+mus:mouse ~ Essay
+       -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Essay  0   0   0   0   0   0   0   0   16  4 
+TOTAL  0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.7115124735378854, pvalue=0.02102159968105799)
+
+mus:mouse ~ Mythology
+           -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Mythology  0   0   0   0   0   0   0   0   0   1 
+TOTAL      0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=0.41247895569215265, pvalue=0.23618163479731888)
+
+mus:mouse ~ Bucolic
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Bucolic  0   0   0   0   0   1   0   0   0   0 
+TOTAL    0   0   0   11  6   5   4   11  24  12
+SpearmanrResult(correlation=-0.05892556509887896, pvalue=0.8715469629943797)
+
                                           Spearman's ρ         p
-mus:mouse ~ Biography                     0.629825      0.021055
-mus:mouse ~ Essay                         0.523376      0.066432
-mus:mouse ~ History                       0.482270      0.095111
-mus:mouse ~ Miscellanea                   0.470067      0.105036
-mus:mouse ~ Natural History               0.470067      0.105036
-mus:mouse ~ Mythology                     0.313378      0.297127
-mus:mouse ~ Protreptics                   0.313378      0.297127
-mus:mouse ~ Philosophy                    0.289306      0.337698
-mus:mouse ~ Didactic                      0.212899      0.484963
-mus:mouse ~ Geography                     0.195861      0.521334
-mus:mouse ~ Comedy                        0.195861      0.521334
-mus:mouse ~ Letters                      -0.156689      0.609209
-mus:mouse ~ Oratory                       0.078345      0.799185
-mus:mouse ~ Rhetoric, poetics, criticism  0.078345      0.799185
-mus:mouse ~ Narrative                    -0.062095      0.840291
-mus:mouse ~ Bucolic                       0.000000      1.000000
+mus:mouse ~ Essay                         0.711512      0.021022
+mus:mouse ~ History                       0.627599      0.052066
+mus:mouse ~ Biography                     0.530330      0.114808
+mus:mouse ~ Protreptics                   0.412479      0.236182
+mus:mouse ~ Mythology                     0.412479      0.236182
+mus:mouse ~ Philosophy                    0.353553      0.316242
+mus:mouse ~ Geography                     0.235702      0.512103
+mus:mouse ~ Comedy                        0.235702      0.512103
+mus:mouse ~ Didactic                      0.228387      0.525658
+mus:mouse ~ Narrative                    -0.184466      0.609933
+mus:mouse ~ Oratory                       0.058926      0.871547
+mus:mouse ~ Rhetoric, poetics, criticism  0.058926      0.871547
+mus:mouse ~ Bucolic                      -0.058926      0.871547
+mus:mouse ~ Medicine                     NaN           NaN      
+mus:mouse ~ Miscellanea                  NaN           NaN      
 mus:mouse ~ Epic                         NaN           NaN      
+mus:mouse ~ Natural History              NaN           NaN      
+mus:mouse ~ Novel                        NaN           NaN      
 mus:mouse ~ Science                      NaN           NaN      
-mus:mouse ~ Art History                  NaN           NaN      
 mus:mouse ~ Choral                       NaN           NaN      
+mus:mouse ~ Letters                      NaN           NaN      
+mus:mouse ~ Homily                       NaN           NaN      
+mus:mouse ~ Military                     NaN           NaN      
+mus:mouse ~ Politics                     NaN           NaN      
+mus:mouse ~ Theology                     NaN           NaN      
 mus:mouse ~ Church history               NaN           NaN      
+mus:mouse ~ Horsemanship                 NaN           NaN      
+mus:mouse ~ Art History                  NaN           NaN      
+mus:mouse ~ Hunting                      NaN           NaN      
 mus:mouse ~ Hymns                        NaN           NaN      
 mus:mouse ~ Tragedy                      NaN           NaN      
-mus:mouse ~ Medicine                     NaN           NaN      
-mus:mouse ~ Homily                       NaN           NaN      
-mus:mouse ~ Hunting                      NaN           NaN      
-mus:mouse ~ Novel                        NaN           NaN      
 
 ####################################################################################################
 #   mus:muscle                                                                                     #
 ####################################################################################################
 
-	-8	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
-Art History	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Biography	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Bucolic	0	0	0	0	0	1	0	0	0	0	0	0	0	1	
-Choral	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Church history	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Didactic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Epic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Essay	0	0	0	0	0	0	0	0	0	0	2	0	0	2	
-Geography	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-History	0	0	0	0	0	0	0	2	0	0	0	0	0	2	
-Homily	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Hunting	0	0	0	0	1	0	0	0	0	0	0	0	0	1	
-Hymns	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Letters	0	0	0	0	0	0	0	0	0	0	0	1	0	1	
-Medicine	0	0	0	19	2	0	0	0	0	26	0	0	0	47	
-Miscellanea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Mythology	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Narrative	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Natural History	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Novel	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Oratory	0	0	0	0	0	0	0	0	1	0	0	0	0	1	
-Philosophy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Protreptics	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Rhetoric, poetics, criticism	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Science	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-TOTAL	0	0	0	19	3	1	0	2	1	26	2	1	0	55	
-
-mus:muscle ~ Essay
-       -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Essay  0   0   0   0   0   0   0   0   0  0   2  0  0
-TOTAL  0   0   0   19  3   1   0   2   1  26  2  1  0
-SpearmanrResult(correlation=0.199864752697163, pvalue=0.512680993628974)
-
-mus:muscle ~ Epic
-       -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Epic   0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL  0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Science
-         -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Science  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL    0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Narrative
-           -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Narrative  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL      0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
+	-8	-7	-6	-5	-4	-3	-2	-1	1	2	TOTAL
+Art History	0	0	0	0	0	0	0	0	0	0	0	
+Biography	0	0	0	0	0	0	0	0	0	0	0	
+Bucolic	0	0	0	0	0	1	0	0	0	0	1	
+Choral	0	0	0	0	0	0	0	0	0	0	0	
+Church history	0	0	0	0	0	0	0	0	0	0	0	
+Comedy	0	0	0	0	0	0	0	0	0	0	0	
+Didactic	0	0	0	0	0	0	0	0	0	0	0	
+Epic	0	0	0	0	0	0	0	0	0	0	0	
+Essay	0	0	0	0	0	0	0	0	0	0	0	
+Geography	0	0	0	0	0	0	0	0	0	0	0	
+History	0	0	0	0	0	0	0	2	0	0	2	
+Homily	0	0	0	0	0	0	0	0	0	0	0	
+Horsemanship	0	0	0	0	0	0	0	0	0	0	0	
+Hunting	0	0	0	0	1	0	0	0	0	0	1	
+Hymns	0	0	0	0	0	0	0	0	0	0	0	
+Letters	0	0	0	0	0	0	0	0	0	0	0	
+Medicine	0	0	0	19	2	0	0	0	0	26	47	
+Military	0	0	0	0	0	0	0	0	0	0	0	
+Miscellanea	0	0	0	0	0	0	0	0	0	0	0	
+Mythology	0	0	0	0	0	0	0	0	0	0	0	
+Narrative	0	0	0	0	0	0	0	0	0	0	0	
+Natural History	0	0	0	0	0	0	0	0	0	0	0	
+Novel	0	0	0	0	0	0	0	0	0	0	0	
+Oratory	0	0	0	0	0	0	0	0	1	0	1	
+Philosophy	0	0	0	0	0	0	0	0	0	0	0	
+Politics	0	0	0	0	0	0	0	0	0	0	0	
+Protreptics	0	0	0	0	0	0	0	0	0	0	0	
+Rhetoric, poetics, criticism	0	0	0	0	0	0	0	0	0	0	0	
+Science	0	0	0	0	0	0	0	0	0	0	0	
+Theology	0	0	0	0	0	0	0	0	0	0	0	
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	
+TOTAL	0	0	0	19	3	1	0	2	1	26	52	
 
 mus:muscle ~ Geography
-           -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Geography  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL      0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Miscellanea
-             -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Miscellanea  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL        0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Letters
-         -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Letters  0   0   0   0   0   0   0   0   0  0   0  1  0
-TOTAL    0   0   0   19  3   1   0   2   1  26  2  1  0
-SpearmanrResult(correlation=0.0, pvalue=1.0)
-
-mus:muscle ~ Mythology
-           -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Mythology  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL      0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Comedy
-        -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Comedy  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL   0   0   0   19  3   1   0   2   1  26  2  1  0
+           -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Geography  0   0   0   0   0   0   0   0   0  0 
+TOTAL      0   0   0   19  3   1   0   2   1  26
 (nan, nan)
 
 mus:muscle ~ Oratory
-         -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Oratory  0   0   0   0   0   0   0   0   1  0   0  0  0
-TOTAL    0   0   0   19  3   1   0   2   1  26  2  1  0
+         -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Oratory  0   0   0   0   0   0   0   0   1  0 
+TOTAL    0   0   0   19  3   1   0   2   1  26
 SpearmanrResult(correlation=0.0, pvalue=1.0)
 
-mus:muscle ~ Art History
-             -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Art History  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL        0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Choral
-        -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Choral  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL   0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Natural History
-                 -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Natural History  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL            0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Rhetoric, poetics, criticism
-                              -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Rhetoric, poetics, criticism  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL                         0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Didactic
-          -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Didactic  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL     0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Protreptics
-             -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Protreptics  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL        0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Biography
-           -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Biography  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL      0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Church history
-                -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Church history  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL           0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Hymns
-       -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Hymns  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL  0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
-mus:muscle ~ Tragedy
-         -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Tragedy  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL    0   0   0   19  3   1   0   2   1  26  2  1  0
-(nan, nan)
-
 mus:muscle ~ Philosophy
-            -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Philosophy  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL       0   0   0   19  3   1   0   2   1  26  2  1  0
+            -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Philosophy  0   0   0   0   0   0   0   0   0  0 
+TOTAL       0   0   0   19  3   1   0   2   1  26
 (nan, nan)
 
 mus:muscle ~ Medicine
-          -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Medicine  0   0   0   19  2   0   0   0   0  26  0  0  0
-TOTAL     0   0   0   19  3   1   0   2   1  26  2  1  0
-SpearmanrResult(correlation=0.7661727278933592, pvalue=0.002256375945540575)
+          -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Medicine  0   0   0   19  2   0   0   0   0  26
+TOTAL     0   0   0   19  3   1   0   2   1  26
+SpearmanrResult(correlation=0.841303873634377, pvalue=0.0022805900787030127)
 
-mus:muscle ~ Bucolic
-         -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Bucolic  0   0   0   0   0   1   0   0   0  0   0  0  0
-TOTAL    0   0   0   19  3   1   0   2   1  26  2  1  0
-SpearmanrResult(correlation=0.0, pvalue=1.0)
+mus:muscle ~ Miscellanea
+             -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Miscellanea  0   0   0   0   0   0   0   0   0  0 
+TOTAL        0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ History
+         -8  -7  -6  -5  -4  -3  -2  -1  1   2
+History  0   0   0   0   0   0   0   2   0  0 
+TOTAL    0   0   0   19  3   1   0   2   1  26
+SpearmanrResult(correlation=0.18018749253911176, pvalue=0.6183898942531914)
+
+mus:muscle ~ Epic
+       -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Epic   0   0   0   0   0   0   0   0   0  0 
+TOTAL  0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Natural History
+                 -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Natural History  0   0   0   0   0   0   0   0   0  0 
+TOTAL            0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Novel
+       -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Novel  0   0   0   0   0   0   0   0   0  0 
+TOTAL  0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Science
+         -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Science  0   0   0   0   0   0   0   0   0  0 
+TOTAL    0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Choral
+        -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Choral  0   0   0   0   0   0   0   0   0  0 
+TOTAL   0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Letters
+         -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Letters  0   0   0   0   0   0   0   0   0  0 
+TOTAL    0   0   0   19  3   1   0   2   1  26
+(nan, nan)
 
 mus:muscle ~ Homily
-        -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Homily  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL   0   0   0   19  3   1   0   2   1  26  2  1  0
+        -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Homily  0   0   0   0   0   0   0   0   0  0 
+TOTAL   0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Military
+          -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Military  0   0   0   0   0   0   0   0   0  0 
+TOTAL     0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Comedy
+        -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Comedy  0   0   0   0   0   0   0   0   0  0 
+TOTAL   0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Politics
+          -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Politics  0   0   0   0   0   0   0   0   0  0 
+TOTAL     0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Theology
+          -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Theology  0   0   0   0   0   0   0   0   0  0 
+TOTAL     0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Church history
+                -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Church history  0   0   0   0   0   0   0   0   0  0 
+TOTAL           0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Horsemanship
+              -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Horsemanship  0   0   0   0   0   0   0   0   0  0 
+TOTAL         0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Art History
+             -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Art History  0   0   0   0   0   0   0   0   0  0 
+TOTAL        0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Biography
+           -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Biography  0   0   0   0   0   0   0   0   0  0 
+TOTAL      0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Rhetoric, poetics, criticism
+                              -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Rhetoric, poetics, criticism  0   0   0   0   0   0   0   0   0  0 
+TOTAL                         0   0   0   19  3   1   0   2   1  26
 (nan, nan)
 
 mus:muscle ~ Hunting
-         -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Hunting  0   0   0   0   1   0   0   0   0  0   0  0  0
-TOTAL    0   0   0   19  3   1   0   2   1  26  2  1  0
-SpearmanrResult(correlation=0.3197836043154608, pvalue=0.28682517955480846)
+         -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Hunting  0   0   0   0   1   0   0   0   0  0 
+TOTAL    0   0   0   19  3   1   0   2   1  26
+SpearmanrResult(correlation=0.3003124875651863, pvalue=0.3991765120540628)
 
-mus:muscle ~ History
-         -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-History  0   0   0   0   0   0   0   2   0  0   0  0  0
-TOTAL    0   0   0   19  3   1   0   2   1  26  2  1  0
-SpearmanrResult(correlation=0.199864752697163, pvalue=0.512680993628974)
-
-mus:muscle ~ Novel
-       -8  -7  -6  -5  -4  -3  -2  -1  1   2  3  4  5
-Novel  0   0   0   0   0   0   0   0   0  0   0  0  0
-TOTAL  0   0   0   19  3   1   0   2   1  26  2  1  0
+mus:muscle ~ Narrative
+           -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Narrative  0   0   0   0   0   0   0   0   0  0 
+TOTAL      0   0   0   19  3   1   0   2   1  26
 (nan, nan)
 
+mus:muscle ~ Didactic
+          -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Didactic  0   0   0   0   0   0   0   0   0  0 
+TOTAL     0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Protreptics
+             -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Protreptics  0   0   0   0   0   0   0   0   0  0 
+TOTAL        0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Hymns
+       -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Hymns  0   0   0   0   0   0   0   0   0  0 
+TOTAL  0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Tragedy
+         -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Tragedy  0   0   0   0   0   0   0   0   0  0 
+TOTAL    0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Essay
+       -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Essay  0   0   0   0   0   0   0   0   0  0 
+TOTAL  0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Mythology
+           -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Mythology  0   0   0   0   0   0   0   0   0  0 
+TOTAL      0   0   0   19  3   1   0   2   1  26
+(nan, nan)
+
+mus:muscle ~ Bucolic
+         -8  -7  -6  -5  -4  -3  -2  -1  1   2
+Bucolic  0   0   0   0   0   1   0   0   0  0 
+TOTAL    0   0   0   19  3   1   0   2   1  26
+SpearmanrResult(correlation=0.0, pvalue=1.0)
+
                                            Spearman's ρ         p
-mus:muscle ~ Medicine                      0.766173      0.002256
-mus:muscle ~ Hunting                       0.319784      0.286825
-mus:muscle ~ Essay                         0.199865      0.512681
-mus:muscle ~ History                       0.199865      0.512681
-mus:muscle ~ Letters                       0.000000      1.000000
+mus:muscle ~ Medicine                      0.841304      0.002281
+mus:muscle ~ Hunting                       0.300312      0.399177
+mus:muscle ~ History                       0.180187      0.618390
 mus:muscle ~ Oratory                       0.000000      1.000000
 mus:muscle ~ Bucolic                       0.000000      1.000000
-mus:muscle ~ Epic                         NaN           NaN      
-mus:muscle ~ Science                      NaN           NaN      
-mus:muscle ~ Narrative                    NaN           NaN      
 mus:muscle ~ Geography                    NaN           NaN      
+mus:muscle ~ Philosophy                   NaN           NaN      
 mus:muscle ~ Miscellanea                  NaN           NaN      
-mus:muscle ~ Mythology                    NaN           NaN      
-mus:muscle ~ Comedy                       NaN           NaN      
-mus:muscle ~ Art History                  NaN           NaN      
-mus:muscle ~ Choral                       NaN           NaN      
+mus:muscle ~ Epic                         NaN           NaN      
 mus:muscle ~ Natural History              NaN           NaN      
+mus:muscle ~ Novel                        NaN           NaN      
+mus:muscle ~ Science                      NaN           NaN      
+mus:muscle ~ Choral                       NaN           NaN      
+mus:muscle ~ Letters                      NaN           NaN      
+mus:muscle ~ Homily                       NaN           NaN      
+mus:muscle ~ Military                     NaN           NaN      
+mus:muscle ~ Comedy                       NaN           NaN      
+mus:muscle ~ Politics                     NaN           NaN      
+mus:muscle ~ Theology                     NaN           NaN      
+mus:muscle ~ Church history               NaN           NaN      
+mus:muscle ~ Horsemanship                 NaN           NaN      
+mus:muscle ~ Art History                  NaN           NaN      
+mus:muscle ~ Biography                    NaN           NaN      
 mus:muscle ~ Rhetoric, poetics, criticism NaN           NaN      
+mus:muscle ~ Narrative                    NaN           NaN      
 mus:muscle ~ Didactic                     NaN           NaN      
 mus:muscle ~ Protreptics                  NaN           NaN      
-mus:muscle ~ Biography                    NaN           NaN      
-mus:muscle ~ Church history               NaN           NaN      
 mus:muscle ~ Hymns                        NaN           NaN      
 mus:muscle ~ Tragedy                      NaN           NaN      
-mus:muscle ~ Philosophy                   NaN           NaN      
-mus:muscle ~ Homily                       NaN           NaN      
-mus:muscle ~ Novel                        NaN           NaN      
+mus:muscle ~ Essay                        NaN           NaN      
+mus:muscle ~ Mythology                    NaN           NaN      
 
 ####################################################################################################
 #   mus:mussel                                                                                     #
 ####################################################################################################
 
-	-8	-7	-6	-5	-4	-3	-2	-1	1	2	3	4	5	TOTAL
-Art History	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Biography	0	0	0	0	0	0	0	0	0	0	1	0	0	1	
-Bucolic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Choral	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Church history	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Comedy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Didactic	0	0	0	0	0	0	0	0	0	1	0	0	0	1	
-Epic	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Essay	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Geography	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-History	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Homily	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Hunting	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Hymns	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Letters	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Medicine	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Miscellanea	0	0	0	0	0	0	0	0	0	0	23	0	0	23	
-Mythology	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Narrative	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Natural History	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Novel	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Oratory	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Philosophy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Protreptics	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Rhetoric, poetics, criticism	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Science	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-Tragedy	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
-TOTAL	0	0	0	0	0	0	0	0	0	1	24	0	0	25	
-
-mus:mussel ~ Essay
-       -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Essay  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL  0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Epic
-       -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Epic   0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL  0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Science
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Science  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL    0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Narrative
-           -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Narrative  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL      0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
+	-8	-7	-6	-5	-4	-3	-2	-1	1	2	TOTAL
+Art History	0	0	0	0	0	0	0	0	0	0	0	
+Biography	0	0	0	0	0	0	0	0	0	0	0	
+Bucolic	0	0	0	0	0	0	0	0	0	0	0	
+Choral	0	0	0	0	0	0	0	0	0	0	0	
+Church history	0	0	0	0	0	0	0	0	0	0	0	
+Comedy	0	0	0	0	0	0	0	0	0	0	0	
+Didactic	0	0	0	0	0	0	0	0	0	1	1	
+Epic	0	0	0	0	0	0	0	0	0	0	0	
+Essay	0	0	0	0	0	0	0	0	0	0	0	
+Geography	0	0	0	0	0	0	0	0	0	0	0	
+History	0	0	0	0	0	0	0	0	0	0	0	
+Homily	0	0	0	0	0	0	0	0	0	0	0	
+Horsemanship	0	0	0	0	0	0	0	0	0	0	0	
+Hunting	0	0	0	0	0	0	0	0	0	0	0	
+Hymns	0	0	0	0	0	0	0	0	0	0	0	
+Letters	0	0	0	0	0	0	0	0	0	0	0	
+Medicine	0	0	0	0	0	0	0	0	0	0	0	
+Military	0	0	0	0	0	0	0	0	0	0	0	
+Miscellanea	0	0	0	0	0	0	0	0	0	0	0	
+Mythology	0	0	0	0	0	0	0	0	0	0	0	
+Narrative	0	0	0	0	0	0	0	0	0	0	0	
+Natural History	0	0	0	0	0	0	0	0	0	0	0	
+Novel	0	0	0	0	0	0	0	0	0	0	0	
+Oratory	0	0	0	0	0	0	0	0	0	0	0	
+Philosophy	0	0	0	0	0	0	0	0	0	0	0	
+Politics	0	0	0	0	0	0	0	0	0	0	0	
+Protreptics	0	0	0	0	0	0	0	0	0	0	0	
+Rhetoric, poetics, criticism	0	0	0	0	0	0	0	0	0	0	0	
+Science	0	0	0	0	0	0	0	0	0	0	0	
+Theology	0	0	0	0	0	0	0	0	0	0	0	
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	
+TOTAL	0	0	0	0	0	0	0	0	0	1	1	
 
 mus:mussel ~ Geography
-           -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Geography  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL      0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Miscellanea
-             -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Miscellanea  0   0   0   0   0   0   0   0   0  0  23  0  0
-TOTAL        0   0   0   0   0   0   0   0   0  1  24  0  0
-SpearmanrResult(correlation=0.7359800721939873, pvalue=0.0041295874849609235)
-
-mus:mussel ~ Letters
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Letters  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL    0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Mythology
-           -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Mythology  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL      0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Comedy
-        -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Comedy  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL   0   0   0   0   0   0   0   0   0  1  24  0  0
+           -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Geography  0   0   0   0   0   0   0   0   0  0
+TOTAL      0   0   0   0   0   0   0   0   0  1
 (nan, nan)
 
 mus:mussel ~ Oratory
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Oratory  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL    0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Art History
-             -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Art History  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL        0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Choral
-        -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Choral  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL   0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Natural History
-                 -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Natural History  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL            0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Rhetoric, poetics, criticism
-                              -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Rhetoric, poetics, criticism  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL                         0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Didactic
-          -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Didactic  0   0   0   0   0   0   0   0   0  1  0   0  0
-TOTAL     0   0   0   0   0   0   0   0   0  1  24  0  0
-SpearmanrResult(correlation=0.6133167268283227, pvalue=0.02580123057920975)
-
-mus:mussel ~ Protreptics
-             -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Protreptics  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL        0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Biography
-           -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Biography  0   0   0   0   0   0   0   0   0  0  1   0  0
-TOTAL      0   0   0   0   0   0   0   0   0  1  24  0  0
-SpearmanrResult(correlation=0.7359800721939873, pvalue=0.0041295874849609235)
-
-mus:mussel ~ Church history
-                -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Church history  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL           0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Hymns
-       -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Hymns  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL  0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Tragedy
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Tragedy  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL    0   0   0   0   0   0   0   0   0  1  24  0  0
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Oratory  0   0   0   0   0   0   0   0   0  0
+TOTAL    0   0   0   0   0   0   0   0   0  1
 (nan, nan)
 
 mus:mussel ~ Philosophy
-            -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Philosophy  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL       0   0   0   0   0   0   0   0   0  1  24  0  0
+            -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Philosophy  0   0   0   0   0   0   0   0   0  0
+TOTAL       0   0   0   0   0   0   0   0   0  1
 (nan, nan)
 
 mus:mussel ~ Medicine
-          -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Medicine  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL     0   0   0   0   0   0   0   0   0  1  24  0  0
+          -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Medicine  0   0   0   0   0   0   0   0   0  0
+TOTAL     0   0   0   0   0   0   0   0   0  1
 (nan, nan)
 
-mus:mussel ~ Bucolic
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Bucolic  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL    0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Homily
-        -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Homily  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL   0   0   0   0   0   0   0   0   0  1  24  0  0
-(nan, nan)
-
-mus:mussel ~ Hunting
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Hunting  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL    0   0   0   0   0   0   0   0   0  1  24  0  0
+mus:mussel ~ Miscellanea
+             -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Miscellanea  0   0   0   0   0   0   0   0   0  0
+TOTAL        0   0   0   0   0   0   0   0   0  1
 (nan, nan)
 
 mus:mussel ~ History
-         -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-History  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL    0   0   0   0   0   0   0   0   0  1  24  0  0
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+History  0   0   0   0   0   0   0   0   0  0
+TOTAL    0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Epic
+       -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Epic   0   0   0   0   0   0   0   0   0  0
+TOTAL  0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Natural History
+                 -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Natural History  0   0   0   0   0   0   0   0   0  0
+TOTAL            0   0   0   0   0   0   0   0   0  1
 (nan, nan)
 
 mus:mussel ~ Novel
-       -8  -7  -6  -5  -4  -3  -2  -1  1  2   3  4  5
-Novel  0   0   0   0   0   0   0   0   0  0  0   0  0
-TOTAL  0   0   0   0   0   0   0   0   0  1  24  0  0
+       -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Novel  0   0   0   0   0   0   0   0   0  0
+TOTAL  0   0   0   0   0   0   0   0   0  1
 (nan, nan)
 
-                                           Spearman's ρ         p
-mus:mussel ~ Miscellanea                   0.735980      0.004130
-mus:mussel ~ Biography                     0.735980      0.004130
-mus:mussel ~ Didactic                      0.613317      0.025801
-mus:mussel ~ Essay                        NaN           NaN      
-mus:mussel ~ Epic                         NaN           NaN      
-mus:mussel ~ Science                      NaN           NaN      
-mus:mussel ~ Narrative                    NaN           NaN      
-mus:mussel ~ Geography                    NaN           NaN      
-mus:mussel ~ Letters                      NaN           NaN      
-mus:mussel ~ Mythology                    NaN           NaN      
-mus:mussel ~ Comedy                       NaN           NaN      
-mus:mussel ~ Oratory                      NaN           NaN      
-mus:mussel ~ Art History                  NaN           NaN      
-mus:mussel ~ Choral                       NaN           NaN      
-mus:mussel ~ Natural History              NaN           NaN      
-mus:mussel ~ Rhetoric, poetics, criticism NaN           NaN      
-mus:mussel ~ Protreptics                  NaN           NaN      
-mus:mussel ~ Church history               NaN           NaN      
-mus:mussel ~ Hymns                        NaN           NaN      
-mus:mussel ~ Tragedy                      NaN           NaN      
-mus:mussel ~ Philosophy                   NaN           NaN      
-mus:mussel ~ Medicine                     NaN           NaN      
-mus:mussel ~ Bucolic                      NaN           NaN      
-mus:mussel ~ Homily                       NaN           NaN      
-mus:mussel ~ Hunting                      NaN           NaN      
-mus:mussel ~ History                      NaN           NaN      
-mus:mussel ~ Novel                        NaN           NaN      
+mus:mussel ~ Science
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Science  0   0   0   0   0   0   0   0   0  0
+TOTAL    0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Choral
+        -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Choral  0   0   0   0   0   0   0   0   0  0
+TOTAL   0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Letters
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Letters  0   0   0   0   0   0   0   0   0  0
+TOTAL    0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Homily
+        -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Homily  0   0   0   0   0   0   0   0   0  0
+TOTAL   0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Military
+          -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Military  0   0   0   0   0   0   0   0   0  0
+TOTAL     0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Comedy
+        -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Comedy  0   0   0   0   0   0   0   0   0  0
+TOTAL   0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Politics
+          -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Politics  0   0   0   0   0   0   0   0   0  0
+TOTAL     0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Theology
+          -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Theology  0   0   0   0   0   0   0   0   0  0
+TOTAL     0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Church history
+                -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Church history  0   0   0   0   0   0   0   0   0  0
+TOTAL           0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Horsemanship
+              -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Horsemanship  0   0   0   0   0   0   0   0   0  0
+TOTAL         0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Art History
+             -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Art History  0   0   0   0   0   0   0   0   0  0
+TOTAL        0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Biography
+           -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Biography  0   0   0   0   0   0   0   0   0  0
+TOTAL      0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Rhetoric, poetics, criticism
+                              -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Rhetoric, poetics, criticism  0   0   0   0   0   0   0   0   0  0
+TOTAL                         0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Hunting
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Hunting  0   0   0   0   0   0   0   0   0  0
+TOTAL    0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Narrative
+           -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Narrative  0   0   0   0   0   0   0   0   0  0
+TOTAL      0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Didactic
+          -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Didactic  0   0   0   0   0   0   0   0   0  1
+TOTAL     0   0   0   0   0   0   0   0   0  1
+SpearmanrResult(correlation=0.9999999999999999, pvalue=6.646897422032013e-64)
+
+mus:mussel ~ Protreptics
+             -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Protreptics  0   0   0   0   0   0   0   0   0  0
+TOTAL        0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Hymns
+       -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Hymns  0   0   0   0   0   0   0   0   0  0
+TOTAL  0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Tragedy
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Tragedy  0   0   0   0   0   0   0   0   0  0
+TOTAL    0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Essay
+       -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Essay  0   0   0   0   0   0   0   0   0  0
+TOTAL  0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Mythology
+           -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Mythology  0   0   0   0   0   0   0   0   0  0
+TOTAL      0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+mus:mussel ~ Bucolic
+         -8  -7  -6  -5  -4  -3  -2  -1  1  2
+Bucolic  0   0   0   0   0   0   0   0   0  0
+TOTAL    0   0   0   0   0   0   0   0   0  1
+(nan, nan)
+
+                                           Spearman's ρ             p
+mus:mussel ~ Didactic                      1.0           6.646897e-64
+mus:mussel ~ Geography                    NaN           NaN          
+mus:mussel ~ Oratory                      NaN           NaN          
+mus:mussel ~ Philosophy                   NaN           NaN          
+mus:mussel ~ Medicine                     NaN           NaN          
+mus:mussel ~ Miscellanea                  NaN           NaN          
+mus:mussel ~ History                      NaN           NaN          
+mus:mussel ~ Epic                         NaN           NaN          
+mus:mussel ~ Natural History              NaN           NaN          
+mus:mussel ~ Novel                        NaN           NaN          
+mus:mussel ~ Science                      NaN           NaN          
+mus:mussel ~ Choral                       NaN           NaN          
+mus:mussel ~ Letters                      NaN           NaN          
+mus:mussel ~ Homily                       NaN           NaN          
+mus:mussel ~ Military                     NaN           NaN          
+mus:mussel ~ Comedy                       NaN           NaN          
+mus:mussel ~ Politics                     NaN           NaN          
+mus:mussel ~ Theology                     NaN           NaN          
+mus:mussel ~ Church history               NaN           NaN          
+mus:mussel ~ Horsemanship                 NaN           NaN          
+mus:mussel ~ Art History                  NaN           NaN          
+mus:mussel ~ Biography                    NaN           NaN          
+mus:mussel ~ Rhetoric, poetics, criticism NaN           NaN          
+mus:mussel ~ Hunting                      NaN           NaN          
+mus:mussel ~ Narrative                    NaN           NaN          
+mus:mussel ~ Protreptics                  NaN           NaN          
+mus:mussel ~ Hymns                        NaN           NaN          
+mus:mussel ~ Tragedy                      NaN           NaN          
+mus:mussel ~ Essay                        NaN           NaN          
+mus:mussel ~ Mythology                    NaN           NaN          
+mus:mussel ~ Bucolic                      NaN           NaN          
+
+####################################################################################################
+#   kosmos:order                                                                                   #
+####################################################################################################
+
+	-8	-7	-6	-5	-4	-3	-2	-1	1	2	TOTAL
+Art History	0	0	0	0	0	0	0	0	0	0	0	
+Biography	0	0	0	0	0	0	0	0	36	0	36	
+Bucolic	0	0	0	0	0	2	0	0	0	0	2	
+Choral	0	0	0	1	0	0	0	0	0	0	1	
+Church history	0	0	0	0	0	0	0	0	0	0	0	
+Comedy	0	0	0	1	0	0	0	0	0	0	1	
+Didactic	0	0	0	0	0	0	0	0	0	0	0	
+Epic	16	0	0	0	0	5	0	0	0	0	21	
+Essay	0	0	0	0	0	0	0	0	13	0	13	
+Geography	0	0	0	0	0	0	0	2	0	0	2	
+History	0	0	0	35	1	9	0	75	23	24	167	
+Homily	0	0	0	0	0	0	0	0	0	0	0	
+Horsemanship	0	0	0	0	0	0	0	0	0	0	0	
+Hunting	0	0	0	0	1	0	0	0	0	1	2	
+Hymns	0	4	0	0	0	0	0	0	0	0	4	
+Letters	0	0	0	0	0	0	0	0	0	0	0	
+Medicine	0	0	0	1	0	0	0	0	0	0	1	
+Military	0	0	0	0	0	0	0	0	3	1	4	
+Miscellanea	0	0	0	0	0	0	0	0	0	0	0	
+Mythology	0	0	0	0	0	0	0	0	0	0	0	
+Narrative	0	0	0	0	0	0	1	0	0	0	1	
+Natural History	0	0	0	0	0	0	0	0	0	0	0	
+Novel	0	0	0	0	0	0	0	0	0	1	1	
+Oratory	0	0	0	0	6	0	0	0	16	1	23	
+Philosophy	0	0	0	0	41	0	0	0	0	2	43	
+Politics	0	0	0	0	1	0	0	0	0	0	1	
+Protreptics	0	0	0	0	0	0	0	0	0	0	0	
+Rhetoric, poetics, criticism	0	0	0	0	0	0	0	2	0	0	2	
+Science	0	0	0	0	5	0	0	0	0	0	5	
+Theology	0	0	0	0	0	0	0	0	0	0	0	
+Tragedy	0	0	0	6	0	0	0	0	0	0	6	
+TOTAL	16	4	0	44	55	16	1	79	91	30	336	
+
+kosmos:order ~ Geography
+           -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Geography  0   0   0   0   0   0   0   2   0   0 
+TOTAL      16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.40741767253225397, pvalue=0.24255674651066567)
+
+kosmos:order ~ Oratory
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Oratory  0   0   0   0   6   0   0   0   16  1 
+TOTAL    16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.6207874369249211, pvalue=0.05545422088784906)
+
+kosmos:order ~ Philosophy
+            -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Philosophy  0   0   0   0   41  0   0   0   0   2 
+TOTAL       16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.2776422433575219, pvalue=0.43734911012805044)
+
+kosmos:order ~ Medicine
+          -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Medicine  0   0   0   1   0   0   0   0   0   0 
+TOTAL     16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.17460757394239454, pvalue=0.6294794021755559)
+
+kosmos:order ~ Miscellanea
+             -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Miscellanea  0   0   0   0   0   0   0   0   0   0 
+TOTAL        16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ History
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+History  0   0   0   35  1   9   0   75  23  24
+TOTAL    16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.7746030175359292, pvalue=0.008515374642456152)
+
+kosmos:order ~ Epic
+       -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Epic   16  0   0   0   0   5   0   0   0   0 
+TOTAL  16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=-0.17352640209845122, pvalue=0.6316359335445694)
+
+kosmos:order ~ Natural History
+                 -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Natural History  0   0   0   0   0   0   0   0   0   0 
+TOTAL            16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ Novel
+       -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Novel  0   0   0   0   0   0   0   0   0   1 
+TOTAL  16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.05820252464746485, pvalue=0.8731123955413778)
+
+kosmos:order ~ Science
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Science  0   0   0   0   5   0   0   0   0   0 
+TOTAL    16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.29101262323732424, pvalue=0.4146374694365895)
+
+kosmos:order ~ Choral
+        -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Choral  0   0   0   1   0   0   0   0   0   0 
+TOTAL   16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.17460757394239454, pvalue=0.6294794021755559)
+
+kosmos:order ~ Letters
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Letters  0   0   0   0   0   0   0   0   0   0 
+TOTAL    16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ Homily
+        -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Homily  0   0   0   0   0   0   0   0   0   0 
+TOTAL   16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ Military
+          -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Military  0   0   0   0   0   0   0   0   3   1 
+TOTAL     16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.4685212856658183, pvalue=0.17200329195191114)
+
+kosmos:order ~ Comedy
+        -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Comedy  0   0   0   1   0   0   0   0   0   0 
+TOTAL   16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.17460757394239454, pvalue=0.6294794021755559)
+
+kosmos:order ~ Politics
+          -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Politics  0   0   0   0   1   0   0   0   0   0 
+TOTAL     16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.29101262323732424, pvalue=0.4146374694365895)
+
+kosmos:order ~ Theology
+          -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Theology  0   0   0   0   0   0   0   0   0   0 
+TOTAL     16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ Church history
+                -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Church history  0   0   0   0   0   0   0   0   0   0 
+TOTAL           16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ Horsemanship
+              -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Horsemanship  0   0   0   0   0   0   0   0   0   0 
+TOTAL         16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ Art History
+             -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Art History  0   0   0   0   0   0   0   0   0   0 
+TOTAL        16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ Biography
+           -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Biography  0   0   0   0   0   0   0   0   36  0 
+TOTAL      16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.5238227218271836, pvalue=0.12016976341187231)
+
+kosmos:order ~ Rhetoric, poetics, criticism
+                              -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Rhetoric, poetics, criticism  0   0   0   0   0   0   0   2   0   0 
+TOTAL                         16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.40741767253225397, pvalue=0.24255674651066567)
+
+kosmos:order ~ Hunting
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Hunting  0   0   0   0   1   0   0   0   0   1 
+TOTAL    16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.2619113609135918, pvalue=0.46477939457986694)
+
+kosmos:order ~ Narrative
+           -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Narrative  0   0   0   0   0   0   1   0   0   0 
+TOTAL      16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=-0.40741767253225397, pvalue=0.24255674651066567)
+
+kosmos:order ~ Didactic
+          -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Didactic  0   0   0   0   0   0   0   0   0   0 
+TOTAL     16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ Protreptics
+             -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Protreptics  0   0   0   0   0   0   0   0   0   0 
+TOTAL        16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ Hymns
+       -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Hymns  0   4   0   0   0   0   0   0   0   0 
+TOTAL  16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=-0.29101262323732424, pvalue=0.4146374694365895)
+
+kosmos:order ~ Tragedy
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Tragedy  0   0   0   6   0   0   0   0   0   0 
+TOTAL    16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.17460757394239454, pvalue=0.6294794021755559)
+
+kosmos:order ~ Essay
+       -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Essay  0   0   0   0   0   0   0   0   13  0 
+TOTAL  16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=0.5238227218271836, pvalue=0.12016976341187231)
+
+kosmos:order ~ Mythology
+           -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Mythology  0   0   0   0   0   0   0   0   0   0 
+TOTAL      16  4   0   44  55  16  1   79  91  30
+(nan, nan)
+
+kosmos:order ~ Bucolic
+         -8  -7  -6  -5  -4  -3  -2  -1   1   2
+Bucolic  0   0   0   0   0   2   0   0   0   0 
+TOTAL    16  4   0   44  55  16  1   79  91  30
+SpearmanrResult(correlation=-0.1164050492949297, pvalue=0.7487863464362601)
+
+                                             Spearman's ρ         p
+kosmos:order ~ History                       0.774603      0.008515
+kosmos:order ~ Oratory                       0.620787      0.055454
+kosmos:order ~ Essay                         0.523823      0.120170
+kosmos:order ~ Biography                     0.523823      0.120170
+kosmos:order ~ Military                      0.468521      0.172003
+kosmos:order ~ Geography                     0.407418      0.242557
+kosmos:order ~ Narrative                    -0.407418      0.242557
+kosmos:order ~ Rhetoric, poetics, criticism  0.407418      0.242557
+kosmos:order ~ Hymns                        -0.291013      0.414637
+kosmos:order ~ Science                       0.291013      0.414637
+kosmos:order ~ Politics                      0.291013      0.414637
+kosmos:order ~ Philosophy                    0.277642      0.437349
+kosmos:order ~ Hunting                       0.261911      0.464779
+kosmos:order ~ Tragedy                       0.174608      0.629479
+kosmos:order ~ Comedy                        0.174608      0.629479
+kosmos:order ~ Choral                        0.174608      0.629479
+kosmos:order ~ Medicine                      0.174608      0.629479
+kosmos:order ~ Epic                         -0.173526      0.631636
+kosmos:order ~ Bucolic                      -0.116405      0.748786
+kosmos:order ~ Novel                         0.058203      0.873112
+kosmos:order ~ Miscellanea                  NaN           NaN      
+kosmos:order ~ Natural History              NaN           NaN      
+kosmos:order ~ Letters                      NaN           NaN      
+kosmos:order ~ Homily                       NaN           NaN      
+kosmos:order ~ Theology                     NaN           NaN      
+kosmos:order ~ Church history               NaN           NaN      
+kosmos:order ~ Horsemanship                 NaN           NaN      
+kosmos:order ~ Art History                  NaN           NaN      
+kosmos:order ~ Didactic                     NaN           NaN      
+kosmos:order ~ Protreptics                  NaN           NaN      
+kosmos:order ~ Mythology                    NaN           NaN      
+
+####################################################################################################
+#   kosmos:decoration                                                                              #
+####################################################################################################
+
+	-8	-7	-6	-5	-4	-3	-2	-1	1	2	TOTAL
+Art History	0	0	0	0	0	0	0	0	0	0	0	
+Biography	0	0	0	0	11	0	0	0	55	1	67	
+Bucolic	0	0	0	0	0	3	0	0	0	0	3	
+Choral	0	0	0	7	0	0	0	0	0	0	7	
+Church history	0	0	0	0	0	0	0	0	0	0	0	
+Comedy	0	0	0	1	0	0	0	0	0	0	1	
+Didactic	0	0	0	0	0	0	0	0	0	0	0	
+Epic	3	0	0	0	0	0	0	0	0	0	3	
+Essay	0	0	0	0	3	0	0	0	34	0	37	
+Geography	0	0	0	0	0	0	0	20	0	0	20	
+History	0	0	0	10	3	10	0	51	65	13	152	
+Homily	0	0	0	0	0	0	0	0	0	0	0	
+Horsemanship	0	0	0	0	1	0	0	0	0	0	1	
+Hunting	0	0	0	0	1	0	0	0	0	0	1	
+Hymns	0	3	0	0	0	0	0	0	0	0	3	
+Letters	0	0	0	0	0	0	0	0	0	0	0	
+Medicine	0	0	0	0	0	0	0	0	0	0	0	
+Military	0	0	0	0	0	0	0	0	2	0	2	
+Miscellanea	0	0	0	0	0	0	0	0	0	0	0	
+Mythology	0	0	0	0	0	0	0	0	0	0	0	
+Narrative	0	0	0	0	0	2	30	0	0	0	32	
+Natural History	0	0	0	0	0	0	0	0	0	0	0	
+Novel	0	0	0	0	0	0	0	0	0	15	15	
+Oratory	0	0	0	1	10	0	0	0	9	2	22	
+Philosophy	0	0	0	0	41	0	0	0	0	0	41	
+Politics	0	0	0	0	2	0	0	0	0	0	2	
+Protreptics	0	0	0	0	0	0	0	0	0	0	0	
+Rhetoric, poetics, criticism	0	0	0	0	6	4	0	19	4	0	33	
+Science	0	0	0	0	0	0	0	0	0	0	0	
+Theology	0	0	0	0	0	0	0	0	1	0	1	
+Tragedy	0	0	0	27	0	0	0	0	0	0	27	
+TOTAL	3	3	0	46	78	19	30	90	170	31	470	
+
+kosmos:decoration ~ Geography
+           -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Geography  0   0   0   0   0   0   0   20  0    0 
+TOTAL      3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.40741767253225397, pvalue=0.24255674651066567)
+
+kosmos:decoration ~ Oratory
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Oratory  0   0   0   1   10  0   0   0   9    2 
+TOTAL    3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.66432123380828, pvalue=0.03615238913248209)
+
+kosmos:decoration ~ Philosophy
+            -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Philosophy  0   0   0   0   41  0   0   0   0    0 
+TOTAL       3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.29101262323732424, pvalue=0.4146374694365895)
+
+kosmos:decoration ~ Medicine
+          -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Medicine  0   0   0   0   0   0   0   0   0    0 
+TOTAL     3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ Miscellanea
+             -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Miscellanea  0   0   0   0   0   0   0   0   0    0 
+TOTAL        3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ History
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+History  0   0   0   10  3   10  0   51  65   13
+TOTAL    3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.824307044287862, pvalue=0.0033524913617077145)
+
+kosmos:decoration ~ Epic
+       -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Epic   3   0   0   0   0   0   0   0   0    0 
+TOTAL  3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=-0.3492151478847891, pvalue=0.32263276729911006)
+
+kosmos:decoration ~ Natural History
+                 -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Natural History  0   0   0   0   0   0   0   0   0    0 
+TOTAL            3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ Novel
+       -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Novel  0   0   0   0   0   0   0   0   0    15
+TOTAL  3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.05820252464746485, pvalue=0.8731123955413778)
+
+kosmos:decoration ~ Science
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Science  0   0   0   0   0   0   0   0   0    0 
+TOTAL    3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ Choral
+        -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Choral  0   0   0   7   0   0   0   0   0    0 
+TOTAL   3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.17460757394239454, pvalue=0.6294794021755559)
+
+kosmos:decoration ~ Letters
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Letters  0   0   0   0   0   0   0   0   0    0 
+TOTAL    3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ Homily
+        -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Homily  0   0   0   0   0   0   0   0   0    0 
+TOTAL   3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ Military
+          -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Military  0   0   0   0   0   0   0   0   2    0 
+TOTAL     3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.5238227218271836, pvalue=0.12016976341187231)
+
+kosmos:decoration ~ Comedy
+        -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Comedy  0   0   0   1   0   0   0   0   0    0 
+TOTAL   3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.17460757394239454, pvalue=0.6294794021755559)
+
+kosmos:decoration ~ Politics
+          -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Politics  0   0   0   0   2   0   0   0   0    0 
+TOTAL     3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.29101262323732424, pvalue=0.4146374694365895)
+
+kosmos:decoration ~ Theology
+          -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Theology  0   0   0   0   0   0   0   0   1    0 
+TOTAL     3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.5238227218271836, pvalue=0.12016976341187231)
+
+kosmos:decoration ~ Church history
+                -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Church history  0   0   0   0   0   0   0   0   0    0 
+TOTAL           3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ Horsemanship
+              -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Horsemanship  0   0   0   0   1   0   0   0   0    0 
+TOTAL         3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.29101262323732424, pvalue=0.4146374694365895)
+
+kosmos:decoration ~ Art History
+             -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Art History  0   0   0   0   0   0   0   0   0    0 
+TOTAL        3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ Biography
+           -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Biography  0   0   0   0   11  0   0   0   55   1 
+TOTAL      3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.6207874369249211, pvalue=0.05545422088784906)
+
+kosmos:decoration ~ Rhetoric, poetics, criticism
+                              -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Rhetoric, poetics, criticism  0   0   0   0   6   4   0   19  4    0 
+TOTAL                         3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.6668911514656611, pvalue=0.035181070459375144)
+
+kosmos:decoration ~ Hunting
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Hunting  0   0   0   0   1   0   0   0   0    0 
+TOTAL    3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.29101262323732424, pvalue=0.4146374694365895)
+
+kosmos:decoration ~ Narrative
+           -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Narrative  0   0   0   0   0   2   30  0   0    0 
+TOTAL      3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=-0.16485008199352866, pvalue=0.6490314539717852)
+
+kosmos:decoration ~ Didactic
+          -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Didactic  0   0   0   0   0   0   0   0   0    0 
+TOTAL     3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ Protreptics
+             -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Protreptics  0   0   0   0   0   0   0   0   0    0 
+TOTAL        3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ Hymns
+       -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Hymns  0   3   0   0   0   0   0   0   0    0 
+TOTAL  3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=-0.3492151478847891, pvalue=0.32263276729911006)
+
+kosmos:decoration ~ Tragedy
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Tragedy  0   0   0   27  0   0   0   0   0    0 
+TOTAL    3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.17460757394239454, pvalue=0.6294794021755559)
+
+kosmos:decoration ~ Essay
+       -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Essay  0   0   0   0   3   0   0   0   34   0 
+TOTAL  3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=0.6246950475544244, pvalue=0.05349298735195429)
+
+kosmos:decoration ~ Mythology
+           -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Mythology  0   0   0   0   0   0   0   0   0    0 
+TOTAL      3   3   0   46  78  19  30  90  170  31
+(nan, nan)
+
+kosmos:decoration ~ Bucolic
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Bucolic  0   0   0   0   0   3   0   0   0    0 
+TOTAL    3   3   0   46  78  19  30  90  170  31
+SpearmanrResult(correlation=-0.17460757394239454, pvalue=0.6294794021755559)
+
+                                                  Spearman's ρ         p
+kosmos:decoration ~ History                       0.824307      0.003352
+kosmos:decoration ~ Rhetoric, poetics, criticism  0.666891      0.035181
+kosmos:decoration ~ Oratory                       0.664321      0.036152
+kosmos:decoration ~ Essay                         0.624695      0.053493
+kosmos:decoration ~ Biography                     0.620787      0.055454
+kosmos:decoration ~ Theology                      0.523823      0.120170
+kosmos:decoration ~ Military                      0.523823      0.120170
+kosmos:decoration ~ Geography                     0.407418      0.242557
+kosmos:decoration ~ Epic                         -0.349215      0.322633
+kosmos:decoration ~ Hymns                        -0.349215      0.322633
+kosmos:decoration ~ Politics                      0.291013      0.414637
+kosmos:decoration ~ Horsemanship                  0.291013      0.414637
+kosmos:decoration ~ Hunting                       0.291013      0.414637
+kosmos:decoration ~ Philosophy                    0.291013      0.414637
+kosmos:decoration ~ Comedy                        0.174608      0.629479
+kosmos:decoration ~ Choral                        0.174608      0.629479
+kosmos:decoration ~ Tragedy                       0.174608      0.629479
+kosmos:decoration ~ Bucolic                      -0.174608      0.629479
+kosmos:decoration ~ Narrative                    -0.164850      0.649031
+kosmos:decoration ~ Novel                         0.058203      0.873112
+kosmos:decoration ~ Medicine                     NaN           NaN      
+kosmos:decoration ~ Miscellanea                  NaN           NaN      
+kosmos:decoration ~ Natural History              NaN           NaN      
+kosmos:decoration ~ Science                      NaN           NaN      
+kosmos:decoration ~ Letters                      NaN           NaN      
+kosmos:decoration ~ Homily                       NaN           NaN      
+kosmos:decoration ~ Church history               NaN           NaN      
+kosmos:decoration ~ Art History                  NaN           NaN      
+kosmos:decoration ~ Didactic                     NaN           NaN      
+kosmos:decoration ~ Protreptics                  NaN           NaN      
+kosmos:decoration ~ Mythology                    NaN           NaN      
+
+####################################################################################################
+#   kosmos:world                                                                                   #
+####################################################################################################
+
+	-8	-7	-6	-5	-4	-3	-2	-1	1	2	TOTAL
+Art History	0	0	0	0	0	0	0	0	0	0	0	
+Biography	0	0	0	0	0	0	0	0	7	0	7	
+Bucolic	0	0	0	0	0	0	0	0	0	0	0	
+Choral	0	0	0	0	0	0	0	0	0	0	0	
+Church history	0	0	0	0	0	0	0	0	0	0	0	
+Comedy	0	0	0	0	0	0	0	0	0	0	0	
+Didactic	0	0	0	0	0	0	0	0	0	0	0	
+Epic	0	0	0	0	0	0	0	0	0	0	0	
+Essay	0	0	0	0	0	0	0	0	222	0	222	
+Geography	0	0	0	0	0	0	0	15	0	0	15	
+History	0	0	0	0	0	4	0	33	13	0	50	
+Homily	0	0	0	0	0	0	0	0	0	0	0	
+Horsemanship	0	0	0	0	0	0	0	0	0	0	0	
+Hunting	0	0	0	0	0	0	0	0	0	0	0	
+Hymns	0	0	0	0	0	0	0	0	0	0	0	
+Letters	0	0	0	0	0	0	0	0	0	0	0	
+Medicine	0	0	0	0	0	0	0	0	0	0	0	
+Military	0	0	0	0	0	0	0	0	0	0	0	
+Miscellanea	0	0	0	0	0	0	0	0	0	0	0	
+Mythology	0	0	0	0	0	0	0	0	0	1	1	
+Narrative	0	0	0	0	0	3	31	0	77	0	111	
+Natural History	0	0	0	0	0	0	0	0	0	0	0	
+Novel	0	0	0	0	0	0	0	0	0	2	2	
+Oratory	0	0	0	0	4	0	0	0	15	0	19	
+Philosophy	0	0	0	0	42	0	0	0	0	29	71	
+Politics	0	0	0	0	0	0	0	0	0	0	0	
+Protreptics	0	0	0	0	0	0	0	0	0	0	0	
+Rhetoric, poetics, criticism	0	0	0	0	0	0	0	0	4	0	4	
+Science	0	0	0	0	18	0	0	0	0	0	18	
+Theology	0	0	0	0	0	0	0	0	72	8	80	
+Tragedy	0	0	0	0	0	0	0	0	0	0	0	
+TOTAL	0	0	0	0	64	7	31	48	410	40	600	
+
+kosmos:world ~ Geography
+           -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Geography  0   0   0   0   0   0   0   15  0    0 
+TOTAL      0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.2993421700446248, pvalue=0.4007765648942623)
+
+kosmos:world ~ Oratory
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Oratory  0   0   0   0   4   0   0   0   15   0 
+TOTAL    0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.722897396012249, pvalue=0.01816891484111254)
+
+kosmos:world ~ Philosophy
+            -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Philosophy  0   0   0   0   42  0   0   0   0    29
+TOTAL       0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.4640822789214438, pvalue=0.17665691836682632)
+
+kosmos:world ~ Medicine
+          -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Medicine  0   0   0   0   0   0   0   0   0    0 
+TOTAL     0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Miscellanea
+             -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Miscellanea  0   0   0   0   0   0   0   0   0    0 
+TOTAL        0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ History
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+History  0   0   0   0   0   4   0   33  13   0 
+TOTAL    0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.5462346560745598, pvalue=0.1023418085387046)
+
+kosmos:world ~ Epic
+       -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Epic   0   0   0   0   0   0   0   0   0    0 
+TOTAL  0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Natural History
+                 -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Natural History  0   0   0   0   0   0   0   0   0    0 
+TOTAL            0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Novel
+       -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Novel  0   0   0   0   0   0   0   0   0    2 
+TOTAL  0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.17960530202677488, pvalue=0.6195437484575324)
+
+kosmos:world ~ Science
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Science  0   0   0   0   18  0   0   0   0    0 
+TOTAL    0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.4190790380624747, pvalue=0.22801177932596048)
+
+kosmos:world ~ Choral
+        -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Choral  0   0   0   0   0   0   0   0   0    0 
+TOTAL   0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Letters
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Letters  0   0   0   0   0   0   0   0   0    0 
+TOTAL    0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Homily
+        -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Homily  0   0   0   0   0   0   0   0   0    0 
+TOTAL   0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Military
+          -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Military  0   0   0   0   0   0   0   0   0    0 
+TOTAL     0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Comedy
+        -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Comedy  0   0   0   0   0   0   0   0   0    0 
+TOTAL   0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Politics
+          -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Politics  0   0   0   0   0   0   0   0   0    0 
+TOTAL     0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Theology
+          -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Theology  0   0   0   0   0   0   0   0   72   8 
+TOTAL     0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.5622535302317493, pvalue=0.09068820730616435)
+
+kosmos:world ~ Church history
+                -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Church history  0   0   0   0   0   0   0   0   0    0 
+TOTAL           0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Horsemanship
+              -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Horsemanship  0   0   0   0   0   0   0   0   0    0 
+TOTAL         0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Art History
+             -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Art History  0   0   0   0   0   0   0   0   0    0 
+TOTAL        0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Biography
+           -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Biography  0   0   0   0   0   0   0   0   7    0 
+TOTAL      0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.5388159060803247, pvalue=0.10804453612643775)
+
+kosmos:world ~ Rhetoric, poetics, criticism
+                              -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Rhetoric, poetics, criticism  0   0   0   0   0   0   0   0   4    0 
+TOTAL                         0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.5388159060803247, pvalue=0.10804453612643775)
+
+kosmos:world ~ Hunting
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Hunting  0   0   0   0   0   0   0   0   0    0 
+TOTAL    0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Narrative
+           -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Narrative  0   0   0   0   0   3   31  0   77   0 
+TOTAL      0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.4231395223112787, pvalue=0.22306642081575656)
+
+kosmos:world ~ Didactic
+          -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Didactic  0   0   0   0   0   0   0   0   0    0 
+TOTAL     0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Protreptics
+             -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Protreptics  0   0   0   0   0   0   0   0   0    0 
+TOTAL        0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Hymns
+       -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Hymns  0   0   0   0   0   0   0   0   0    0 
+TOTAL  0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Tragedy
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Tragedy  0   0   0   0   0   0   0   0   0    0 
+TOTAL    0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+kosmos:world ~ Essay
+       -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Essay  0   0   0   0   0   0   0   0   222  0 
+TOTAL  0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.5388159060803247, pvalue=0.10804453612643775)
+
+kosmos:world ~ Mythology
+           -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Mythology  0   0   0   0   0   0   0   0   0    1 
+TOTAL      0   0   0   0   64  7   31  48  410  40
+SpearmanrResult(correlation=0.17960530202677488, pvalue=0.6195437484575324)
+
+kosmos:world ~ Bucolic
+         -8  -7  -6  -5  -4  -3  -2  -1    1   2
+Bucolic  0   0   0   0   0   0   0   0   0    0 
+TOTAL    0   0   0   0   64  7   31  48  410  40
+(nan, nan)
+
+                                             Spearman's ρ         p
+kosmos:world ~ Oratory                       0.722897      0.018169
+kosmos:world ~ Theology                      0.562254      0.090688
+kosmos:world ~ History                       0.546235      0.102342
+kosmos:world ~ Biography                     0.538816      0.108045
+kosmos:world ~ Rhetoric, poetics, criticism  0.538816      0.108045
+kosmos:world ~ Essay                         0.538816      0.108045
+kosmos:world ~ Philosophy                    0.464082      0.176657
+kosmos:world ~ Narrative                     0.423140      0.223066
+kosmos:world ~ Science                       0.419079      0.228012
+kosmos:world ~ Geography                     0.299342      0.400777
+kosmos:world ~ Novel                         0.179605      0.619544
+kosmos:world ~ Mythology                     0.179605      0.619544
+kosmos:world ~ Medicine                     NaN           NaN      
+kosmos:world ~ Miscellanea                  NaN           NaN      
+kosmos:world ~ Epic                         NaN           NaN      
+kosmos:world ~ Natural History              NaN           NaN      
+kosmos:world ~ Choral                       NaN           NaN      
+kosmos:world ~ Letters                      NaN           NaN      
+kosmos:world ~ Homily                       NaN           NaN      
+kosmos:world ~ Military                     NaN           NaN      
+kosmos:world ~ Comedy                       NaN           NaN      
+kosmos:world ~ Politics                     NaN           NaN      
+kosmos:world ~ Church history               NaN           NaN      
+kosmos:world ~ Horsemanship                 NaN           NaN      
+kosmos:world ~ Art History                  NaN           NaN      
+kosmos:world ~ Hunting                      NaN           NaN      
+kosmos:world ~ Didactic                     NaN           NaN      
+kosmos:world ~ Protreptics                  NaN           NaN      
+kosmos:world ~ Hymns                        NaN           NaN      
+kosmos:world ~ Tragedy                      NaN           NaN      
+kosmos:world ~ Bucolic                      NaN           NaN      
 
 
 
@@ -1355,18 +2318,23 @@ mus:mussel ~ Novel                        NaN           NaN
 Parameters: sense = macro, genres = micro
 
 harmonia:abstract is correlated with 
-		Rhetoric, poetics, criticism (Spearman's ρ = 0.75, p = 0.003)
-		History (Spearman's ρ = 0.742, p = 0.004)
-		Essay (Spearman's ρ = 0.555, p = 0.049)
-harmonia:concrete is correlated with no particular genre
+		Rhetoric, poetics, criticism (Spearman's ρ = 0.723, p = 0.018)
+		History (Spearman's ρ = 0.718, p = 0.019)
+harmonia:concrete is correlated with 
+		History (Spearman's ρ = 0.771, p = 0.009)
 harmonia:musical is correlated with 
-		Philosophy (Spearman's ρ = 0.632, p = 0.02)
-		Essay (Spearman's ρ = 0.59, p = 0.034)
+		Rhetoric, poetics, criticism (Spearman's ρ = 0.729, p = 0.017)
+kosmos:decoration is correlated with 
+		History (Spearman's ρ = 0.824, p = 0.003)
+		Rhetoric, poetics, criticism (Spearman's ρ = 0.667, p = 0.035)
+		Oratory (Spearman's ρ = 0.664, p = 0.036)
+kosmos:order is correlated with 
+		History (Spearman's ρ = 0.775, p = 0.009)
+kosmos:world is correlated with 
+		Oratory (Spearman's ρ = 0.723, p = 0.018)
 mus:mouse is correlated with 
-		Biography (Spearman's ρ = 0.63, p = 0.021)
+		Essay (Spearman's ρ = 0.712, p = 0.021)
 mus:muscle is correlated with 
-		Medicine (Spearman's ρ = 0.766, p = 0.002)
+		Medicine (Spearman's ρ = 0.841, p = 0.002)
 mus:mussel is correlated with 
-		Miscellanea (Spearman's ρ = 0.736, p = 0.004)
-		Biography (Spearman's ρ = 0.736, p = 0.004)
-		Didactic (Spearman's ρ = 0.613, p = 0.026)
+		Didactic (Spearman's ρ = 1.0, p = 0.0)
