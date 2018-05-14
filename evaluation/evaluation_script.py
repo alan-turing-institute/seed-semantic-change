@@ -28,9 +28,9 @@ from  more_itertools import unique_everseen
 
 dir_in = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src", "dynamic-senses","greek_input","all_results"))
 dir_out = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_output"))
-dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input"))
+#dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input"))
 
-#dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input","new_texts"))
+dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input","new_texts"))
 #  SENSES MERGED harmonia
 #dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "corpus_scripts_output")) 
 
@@ -41,8 +41,8 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
 s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # expert senses annotation
-k_senses = io.open(dir_in+"/output_mus_K5_partial.dat","r") # model output
-parameter_file = io.open(dir_parameter+"/params_v5.txt","r")
+k_senses = io.open(dir_in+"/3_output_K15/69419_fixed_time_no_ghost_original_var/output.dat","r") # model output
+parameter_file = io.open(dir_parameter+"/parameters_v12_mus.txt","r")
 
 bugfix = 0
 

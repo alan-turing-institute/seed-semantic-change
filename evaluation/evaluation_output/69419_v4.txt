@@ -1,9 +1,0 @@
-Target ID 69419 Window size 5 Start time -430 End time 359 Time Interval 101 Iterations 1000
-Expert senses ['mus-1', 'NA', 'mus-4', 'mus-2'] Total 4 
-Output senses 5 
-
-MATCH: k 1 and s 0 
-MATCH: k 3 and s 0 
-MATCH: k 4 and s 0 
-Averaged scores: P 0.0 R 0.0 F 0.0
-

@@ -1,9 +1,0 @@
-Target ID 69419 Window size 5 Start time -430 End time 359 Time Interval 100 Iterations 1000
-Expert senses ['mus-1', 'NA', 'mus-4', 'mus-2'] Total 4 
-Output senses 5 
-
-MATCH: k 1 and s 2 
-SCORES FOR PAIR S= NA <-> {K...K}= [0, 2, 3, 4]: P 0.5349885191215046 R 0.607350188121222 F 0.5688774715783117 
-SCORES FOR PAIR S= 2 <-> {K...K}= [1]: P 0.447019867549669 R 0.4759817181233093 F 0.4610464118247608 
-Averaged scores: P 0.24550209666779338 R 0.2708329765611328 F 0.25748097085076815
-
