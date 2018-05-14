@@ -1,0 +1,18 @@
+Target ID 69419 Window size 5 Start time -430 End time 365 Time Interval 100 Iterations 1000
+Expert senses ['mus-1', 'NA', 'mus-4', 'mus-2'] Total 4 
+Output senses 15 
+
+MATCH: k 0 and s 2 
+MATCH: k 1 and s 2 
+MATCH: k 2 and s 1 
+MATCH: k 5 and s 1 
+MATCH: k 6 and s 1 
+MATCH: k 8 and s 1 
+MATCH: k 11 and s 1 
+MATCH: k 13 and s 1 
+SCORES FOR PAIR S= 2 <-> {K...K}= [0, 1]: P 0.8437222639448351 R 0.8983859599187258 F 0.8701964959649322 
+SCORES FOR PAIR S= 1 <-> {K...K}= [2, 5, 6, 8, 11, 13]: P 0.6208358839855783 R 0.7048091266523203 F 0.660162854572565 
+SCORES FOR PAIR S= NA <-> {K...K}= [3, 4, 7, 9, 10, 12, 14]: P 0.6215522348642177 R 0.7056223699750306 F 0.6609245828378226 
+Averaged scores: P 0.5215275956986578 R 0.5772043641365192 F 0.5478209833438299
+
+Significant correlations [] Positive significant correlations 0 Pos signi. correlations/number of sk matches 0.0 sk matches 3

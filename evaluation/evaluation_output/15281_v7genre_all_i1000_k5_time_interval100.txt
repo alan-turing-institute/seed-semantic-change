@@ -3,7 +3,8 @@ Expert senses ['harmonia-1', 'NA', 'harmonia-4.3', 'harmonia-4.3β', 'harmonia-4
 Output senses 5 
 
 MATCH: k 1 and s 2 
-SCORES FOR PAIR S= NA <-> {K...K}= [0, 2, 3, 4]: P 0.871721828426766 R 1.2524534600229271 F 1.0279669725255562 
+SCORES FOR PAIR S= NA <-> {K...K}= [0, 2, 3, 4]: P 0.871721828426766 R 1.2524534600229276 F 1.0279669725255565 
 SCORES FOR PAIR S= 2 <-> {K...K}= [1]: P 0.759493670886076 R 0.9593050951584662 F 0.8477852819248985 
-Averaged scores: P 0.1482923181193493 R 0.20106895956194484 F 0.17052293222276863
+Averaged scores: P 0.1482923181193493 R 0.2010689595619449 F 0.17052293222276863
 
+Significant correlations [-0.7845423605559583] Positive significant correlations 0 Pos signi. correlations/number of sk matches 0.0 sk matches 2

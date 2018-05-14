@@ -1,0 +1,2 @@
+Target ID 69419 Window size 5 Start time -430 End time 365 Time Interval 100 Iterations 1000
+Expert senses ['mus-1', 'NA', 'mus-4', 'mus-2'] Total 4 
