@@ -22,7 +22,7 @@ wb = load_workbook('%s/word_senses.xlsx'%resources)
 ws = wb.active
 headers = ws[config['excel_range']['headers']]
 h_sense = {cell.value : n for n, cell in enumerate(headers[0])}
-data = ws['A2:F23']
+data = ws[config['excel_range']['senses']]
 
 sep = ':'
 
@@ -34,6 +34,7 @@ for record in data:
 	word_senses.setdefault(sense_id, sense)
 
 input_files = ['15281', '69419']
+input_files = ['59339']
 scores={}
 colour={}
 colours={hex for name, hex in colors.cnames.items()}
@@ -122,6 +123,7 @@ for (sense,genre,century),score in scores.items():
 #a plot per genre
 for genre,words in genres.items():
 	colLabels=[str(x) for x in [-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
+	if input_files==['59339']:colLabels=[str(x) for x in [-8,-7,-6,-5,-4,-3,-2,-1,1,2]]
 	Ncols=numpy.arange(len(colLabels))
 	fig,ax=plot.subplots()
 	ax.set_xlabel('Centuries')
@@ -283,6 +285,7 @@ for (sense,genre,century),score in scores.items():
 for word,senses in words.items():
 	#plot prelims
 	colLabels=[str(x) for x in [-8,-7,-6,-5,-4,-3,-2,-1,1,2,3,4,5]]
+	if input_files==['59339']:colLabels=[str(x) for x in [-8,-7,-6,-5,-4,-3,-2,-1,1,2]]
 	Ncols=numpy.arange(len(colLabels))
 	width = round(0.66/len(senses),2)
 	

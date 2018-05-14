@@ -22,16 +22,26 @@ o_dir = '%s/%s'%(dir,'var_change')
 wb = load_workbook('%s/word_senses.xlsx'%resources)
 ws = wb.active
 headers = ws[config['excel_range']['headers']]
-h_sense = {cell.value : n for n, cell in enumerate(headers[0])}
-data = ws['A2:E23']
+h = {cell.value : n for n, cell in enumerate(headers[0])}
+senses_xsl = ws[config['excel_range']['senses']]
 
-input_files = ['15281', '69419']
+input_files = ['15281', '69419', '59339']
 
 params={'sense':{'micro':{'sep':'-', 'col':-1, 'wrong':'w'},'macro':{'sep':':','col':-4, 'wrong':'wrong'}}, 'genre':{'micro':{'col':-2},'macro':{'col':1}}}
 
 def extract_data(gengr, sengr):
 
-	global data
+	def sense_meaning(*args):
+		if sengr == 'macro': return args[0]
+		global senses_xsl
+		to_return=('unknown')
+		for row in senses_xsl:
+			if row[h['SENSE LSJ']].value==args[0]:
+				to_return = row[h['SENSE']].value
+				break
+		if len(args) > 1: to_return = '%s (%s)'%(args[0], to_return)
+		return(to_return)
+
 	global input_files
 	
 	sep = params['sense'][sengr]['sep']
@@ -51,7 +61,7 @@ def extract_data(gengr, sengr):
 			if re.search('[\-\d]', line[0]) == None:
 				continue
 			sense = line.split('\t')[params['sense'][sengr]['col']].strip()
-			if sense ==params['sense'][sengr]['wrong']:
+			if sense ==params['sense'][sengr]['wrong'] or sense == 'None':
 				continue
 			genre = line.split('\t')[params['genre'][gengr]['col']].strip()
 			year = int(line.split('\t')[0])
@@ -85,6 +95,7 @@ def extract_data(gengr, sengr):
 			scores[(sense,genre,century)]+=1
 
 	centuries=['-8','-7','-6','-5','-4','-3','-2','-1','1','2','3','4','5']
+	if file=='59339':centuries=centuries[0:10]
 	genres = set()
 	for (sense,genre,century),score in scores.items():
 		word=sense[:sense.find(sep)]
@@ -123,8 +134,8 @@ def extract_data(gengr, sengr):
 		table_tots=table[[x for x in table]].sum()
 		table=table.transpose()
 		table['TOTAL']=table_tots
-		print('\033[1m'+100*'#'+'\n'+'#   '+sense+(95-len(sense))*' '+'#\n'+100*'#'+'\033[0m\n')
-		variation_file.write(100*'#'+'\n#   '+sense+(95-len(sense))*' '+'#\n'+100*'#'+'\n')
+		print('\033[1m'+100*'#'+'\n'+'#   '+sense_meaning(sense,1)+(95-len(sense_meaning(sense,1)))*' '+'#\n'+100*'#'+'\033[0m\n')
+		variation_file.write(100*'#'+'\n#   '+sense_meaning(sense,1)+(95-len(sense_meaning(sense,1)))*' '+'#\n'+100*'#'+'\n')
 		with pd.option_context('expand_frame_repr', False):
 			if verbose ==True: print(table,'\n')
 			variation_file.write('\n'+re.sub(' {2,}','\t',table.to_string())+'\n')
@@ -132,8 +143,8 @@ def extract_data(gengr, sengr):
 		#subplots
 		corr_ranking = []
 		for x in genres:
-			if verbose ==True: print(sense, '~', x)
-			variation_file.write('\n'+sense+' ~ '+x)
+			if verbose ==True: print(sense_meaning(sense,1), '~', x)
+			variation_file.write('\n'+sense_meaning(sense,1)+' ~ '+x)
 			if verbose ==True: print(table.loc[[x,'TOTAL'],[x for x in centuries]])
 			variation_file.write('\n'+table.loc[[x,'TOTAL'],[x for x in centuries]].to_string())
 			new_matrix = table.loc[[x,'TOTAL'],[x for x in centuries]].values.tolist()
@@ -143,7 +154,7 @@ def extract_data(gengr, sengr):
 				r = stats.spearmanr(new_matrix[0], new_matrix[1])
 			if verbose ==True: print(r, '\n')
 			variation_file.write('\n'+str(r)+'\n')
-			corr_ranking.append(('%s ~ %s'%(sense,x),r[0],r[1]))
+			corr_ranking.append(('%s ~ %s'%(sense_meaning(sense,1),x),r[0],r[1]))
 		ranking=pd.DataFrame([x[1:] for x in corr_ranking], columns=['Spearman\'s ρ','p'],index=[x[0] for x in corr_ranking])
 		ranking=ranking.reindex(ranking[['Spearman\'s ρ']].abs().sort_values(by=['Spearman\'s ρ'], ascending=False).index)
 		print(ranking,'\n')
@@ -158,7 +169,7 @@ def extract_data(gengr, sengr):
 			list_corr = 'no particular genre'
 		else:
 			list_corr='\n\t\t%s'%list_corr
-		summary.add('%s is correlated with %s'%(sense,list_corr))
+		summary.add('%s is correlated with %s'%(sense_meaning(sense,1),list_corr))
 		del list_corr
 	print('\n'.join(summary))
 	variation_file.write('\n\n### SUMMARY ###\n\n')
@@ -184,7 +195,7 @@ def extract_data(gengr, sengr):
 	change_scores = {}
 	for (sense,genre,century),score in scores.items():
 		word=sense[:sense.find(sep)]
-		change_scores.setdefault(word,{}).setdefault(sense,{}).setdefault(int(century),set()).add(genre)
+		change_scores.setdefault(word,{}).setdefault(sense_meaning(sense,1),{}).setdefault(int(century),set()).add(genre)
 
 	words_in_genres = {}
 	for (sense,genre,century),score in scores.items():
