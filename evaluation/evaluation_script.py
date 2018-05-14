@@ -31,8 +31,8 @@ dir_out = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation
 #dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input"))
 
 dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input","new_texts"))
-#  SENSES MERGED harmonia
-#dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "corpus_scripts_output")) 
+#  SENSES MERGED harmonia, kosmos
+dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "corpus_scripts_output")) 
 
 dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src", "dynamic-senses","greek_input","all_parameters"))
 
@@ -40,9 +40,9 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 
 genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
-s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # expert senses annotation
-k_senses = io.open(dir_in+"/3_output_K15/69419_fixed_time_no_ghost_original_var/output.dat","r") # model output
-parameter_file = io.open(dir_parameter+"/parameters_v12_mus.txt","r")
+s_senses = io.open(dir_expert+"/senses_59339.txt","r")  # expert senses annotation
+k_senses = io.open(dir_in+"/3_output_K15_var2/59339/output.dat","r") # model output
+parameter_file = io.open(dir_parameter+"/params_v8.txt","r")
 
 bugfix = 0
 
