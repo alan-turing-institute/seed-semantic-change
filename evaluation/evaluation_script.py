@@ -28,7 +28,7 @@ from  more_itertools import unique_everseen
 
 dir_in = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src", "dynamic-senses","greek_input","all_results"))
 dir_out = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_output"))
-#dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input"))
+dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input"))
 
 dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input","new_texts"))
 #  SENSES MERGED harmonia
@@ -41,8 +41,8 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
 s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # expert senses annotation
-k_senses = io.open(dir_in+"/3_output_K15/69419_fixed_time_no_ghost/output.dat","r") # model output
-parameter_file = io.open(dir_parameter+"/parameters_v11_mus.txt","r")
+k_senses = io.open(dir_in+"/output_mus_K5_100it.dat","r") # model output
+parameter_file = io.open(dir_parameter+"/parameters_v1.txt","r")
 
 bugfix = 0
 
@@ -185,32 +185,34 @@ for period in range(0,number_of_slices):
 # ## Q2: How well does the model identify the correct senses for the target word?
 
 # ### Pseudocode 
-# For each target word, we have a list of senses  s (given by the expert)
-# For each target word, we have a list of senses k (given by the model)
-# This Q consists in matching s and k, and doing so in a confident way --> confidence score
 
-for each k:
-    for each s:
-        create conf(k,s)
+# # For each target word, we have a list of senses  s (given by the expert)
+# # For each target word, we have a list of senses k (given by the model)
+# # This Q consists in matching s and k, and doing so in a confident way --> confidence score
+# 
+# for each k:
+#     for each s:
+#         create conf(k,s)
+# 
+# # What is conf(k,s)?
+#         conf(k,s) = (p1*match(w1,s)+p2*match(w1,s)+px(wx,s))/10 WHERE
+#     
+#             px = probability of word wx 
+#                 
+#                 and
+#             
+#             match(wx,s) =   1/number_of_senses_assigned_to_wx if s_is_one_of_them 
+#             
+#                     or 
+#                             0 if w_is_not_associated_to_s
+#                 
+# # Once we have gone through all s for one k, we have to choose the best k for s. How? (TBD, cfr Valerio and Barbara)
+# 
+# # Once all ks have been assigned to all ss (or NA), we can calculate a general confidence score for the model.
+# # One easy way to do that: 
+# 
+# conf_score_model = number_of_non_NA/k
 
-# What is conf(k,s)?
-        conf(k,s) = (p1*match(w1,s)+p2*match(w1,s)+px(wx,s))/10 WHERE
-    
-            px = probability of word wx 
-                
-                and
-            
-            match(wx,s) =   1/number_of_senses_assigned_to_wx if s_is_one_of_them 
-            
-                    or 
-                            0 if w_is_not_associated_to_s
-                
-# Once we have gone through all s for one k, we have to choose the best k for s. How? (TBD, cfr Valerio and Barbara)
-
-# Once all ks have been assigned to all ss (or NA), we can calculate a general confidence score for the model.
-# One easy way to do that: 
-
-conf_score_model = number_of_non_NA/k
 # ### Real code
 # 
 # Steps:
@@ -698,19 +700,6 @@ results_file.write("Output senses %s \n\n" %(number_of_the_k))
 # #### k_words_with_prob
 # This dictionary has the sense number 'k' as keys and the a dictionary of [word] = probability as values.
 # Example below.
-for word in set(list_of_all_words):
-    if word == "105344":
-        print("found all")
-        
-for word in set(list_of_NA_words):
-    if word == "105344":
-        print("found NA")#print("Probability for word ID 5390 in sense k = 4:",k_words_with_prob[4]["5390"])
-print(type(k_words_with_prob[4]))
-
-#print(k_words_with_prob[4]["15047"])
-
-print(word_weight["105344"])
-#print(word_weight_NA["105344"])
 
 # In[89]:
 
@@ -956,71 +945,73 @@ for each k:
 # 
 
 # ### This is Pr and Re for Ks -> not taken into account
-precision_recall_k = dict()
 
-print("\t\t\tTHIS IS P and R FOR Ks, WE LOOK AT P and R for Ss now: below\n\n\n")
+# precision_recall_k = dict()
+# 
+# print("\t\t\tTHIS IS P and R FOR Ks, WE LOOK AT P and R for Ss now: below\n\n\n")
+# 
+# for key in k_s_match.keys():
+#     precision_recall_k[key] = list() # this list has first the recall then the precision then the f score
+#     numerator_recall = 0
+#     denominator_precision = 0
+#     numerator_precision = 0
+#     denominator_recall = 0
+#    # print()
+# 
+# 
+# 
+# ############# NEED TO ADJUST FOR PAIRS THAT ARE NAs  --> actually no
+# 
+# 
+#     if k_s_match[key] == "NA":
+#         print("K",key,"s is NA")
+# 
+#     else: 
+#     
+#         for word in k_words_with_prob[int(key)]: 
+#             w_weight_precision = k_words_with_prob[int(key)][word] * 1
+#             denominator_precision += float(w_weight_precision)
+#         
+#         
+#         
+#             if word in dict_of_words[expert_senses[int(k_s_match[key])]]:   
+#                 w_weight_recall = k_words_with_prob[int(key)][word] * 1
+#                 numerator_recall += float(w_weight_recall)
+# 
+#                 numerator_precision += float(w_weight_precision)
+#     
+#         for mot in dict_of_words[expert_senses[int(k_s_match[key])]]:
+#             denominator_recall += word_weight[mot]
+#         
+# 
+#     #denominator_recall = len(dict_of_words[expert_senses[int(key[2])]])
+#     #numerator_recall = numerator_recall*10
+#      
+#     
+#         #print("For pair ks",key,k_s_match[key],":")
+#         recall = numerator_recall*1/denominator_recall
+#         recall = recall*len(dict_of_words[expert_senses[k_s_match[key]]])
+#     
+#         precision_recall_k[key].append(recall)
+#     
+#         #print(len(dict_of_words[expert_senses[k_s_match[key]]]))
+#         #print("The RECALL is",numerator_recall,"/",denominator_recall,"=",recall) 
+#         if numerator_precision == 0:
+#             print("The PRECISION IS NA")
+#         else:
+#             precision = numerator_precision/denominator_precision
+#             print("The PRECISION is",numerator_precision,"* number of expert words in that sense/",denominator_precision,"=",precision,"\n")
+#             precision_recall_k[key].append(precision)
+#         
+#         if (numerator_precision/denominator_precision)+(numerator_recall/denominator_recall) != 0: 
+#             fscore = (2*(precision)*(recall)/((precision)+(recall)))
+#             print("The F-SCORE is", fscore,"\n")
+#             precision_recall_k[key].append(fscore)
+#         
+#         else:
+#             print("No F-SCORE, can't divide by 0\n\n")
+#         
 
-for key in k_s_match.keys():
-    precision_recall_k[key] = list() # this list has first the recall then the precision then the f score
-    numerator_recall = 0
-    denominator_precision = 0
-    numerator_precision = 0
-    denominator_recall = 0
-   # print()
-
-
-
-############# NEED TO ADJUST FOR PAIRS THAT ARE NAs  --> actually no
-
-
-    if k_s_match[key] == "NA":
-        print("K",key,"s is NA")
-
-    else: 
-    
-        for word in k_words_with_prob[int(key)]: 
-            w_weight_precision = k_words_with_prob[int(key)][word] * 1
-            denominator_precision += float(w_weight_precision)
-        
-        
-        
-            if word in dict_of_words[expert_senses[int(k_s_match[key])]]:   
-                w_weight_recall = k_words_with_prob[int(key)][word] * 1
-                numerator_recall += float(w_weight_recall)
-
-                numerator_precision += float(w_weight_precision)
-    
-        for mot in dict_of_words[expert_senses[int(k_s_match[key])]]:
-            denominator_recall += word_weight[mot]
-        
-
-    #denominator_recall = len(dict_of_words[expert_senses[int(key[2])]])
-    #numerator_recall = numerator_recall*10
-     
-    
-        #print("For pair ks",key,k_s_match[key],":")
-        recall = numerator_recall*1/denominator_recall
-        recall = recall*len(dict_of_words[expert_senses[k_s_match[key]]])
-    
-        precision_recall_k[key].append(recall)
-    
-        #print(len(dict_of_words[expert_senses[k_s_match[key]]]))
-        #print("The RECALL is",numerator_recall,"/",denominator_recall,"=",recall) 
-        if numerator_precision == 0:
-            print("The PRECISION IS NA")
-        else:
-            precision = numerator_precision/denominator_precision
-            print("The PRECISION is",numerator_precision,"* number of expert words in that sense/",denominator_precision,"=",precision,"\n")
-            precision_recall_k[key].append(precision)
-        
-        if (numerator_precision/denominator_precision)+(numerator_recall/denominator_recall) != 0: 
-            fscore = (2*(precision)*(recall)/((precision)+(recall)))
-            print("The F-SCORE is", fscore,"\n")
-            precision_recall_k[key].append(fscore)
-        
-        else:
-            print("No F-SCORE, can't divide by 0\n\n")
-        
 # ## P and R based on S, with adapted word weight for NA
 
 # In[50]:
@@ -1450,35 +1441,37 @@ print("number of periods for expert:",len(period_relative))
 
 print("s_k_match:",s_k_match)
 
-for key in s_k_match.keys():
-    #print("looking at S",key,"with Ks",s_k_match[key])
-    correl_pairs[key] = list()
-    temp_list_s = list()
-    temp_list_k = list()
-    
-    for i in range(0,len(period_relative)):  # for every period
-        #print("KEY LOOKED AT ",key)
-        if (key != "NA" and key !=NA_key):         
-            #print("we have",len(s_k_match[key]),"Ks for S",key)
-            #print("period",i,"freq",period_relative[i][key])
-            #print("vs")
-            #print("period",i,"freq",period_relative[i][key])
-            #print("TEMP LIST S is appended",temp_list_s.append(period_relative[i][key]))
-            temp_score_k = 0
 
-            
-            for k in s_k_match[key]:
-                #print("K:",k,"period",i)
-                #print("période",i,"prob",period_relative_model[str(i)][k])
-                temp_score_k += period_relative_model[str(i)][k]
-                
-            #print("total score for Ks",temp_score_k,"\n")
-            #print("TEMP LIST K is appended")
-            temp_list_k.append(temp_score_k)
-            
-    #print("TEMP LIST S=",key,"at PERIOD",i,temp_list_s)
-    #print("TEMP LIST K for S=",key,"at PERIOD",i,temp_list_k)
-            
+# for key in s_k_match.keys():
+#     #print("looking at S",key,"with Ks",s_k_match[key])
+#     correl_pairs[key] = list()
+#     temp_list_s = list()
+#     temp_list_k = list()
+#     
+#     for i in range(0,len(period_relative)):  # for every period
+#         #print("KEY LOOKED AT ",key)
+#         if (key != "NA" and key !=NA_key):         
+#             #print("we have",len(s_k_match[key]),"Ks for S",key)
+#             #print("period",i,"freq",period_relative[i][key])
+#             #print("vs")
+#             #print("period",i,"freq",period_relative[i][key])
+#             #print("TEMP LIST S is appended",temp_list_s.append(period_relative[i][key]))
+#             temp_score_k = 0
+# 
+#             
+#             for k in s_k_match[key]:
+#                 #print("K:",k,"period",i)
+#                 #print("période",i,"prob",period_relative_model[str(i)][k])
+#                 temp_score_k += period_relative_model[str(i)][k]
+#                 
+#             #print("total score for Ks",temp_score_k,"\n")
+#             #print("TEMP LIST K is appended")
+#             temp_list_k.append(temp_score_k)
+#             
+#     #print("TEMP LIST S=",key,"at PERIOD",i,temp_list_s)
+#     #print("TEMP LIST K for S=",key,"at PERIOD",i,temp_list_k)
+#             
+
 # In[112]:
 
 
