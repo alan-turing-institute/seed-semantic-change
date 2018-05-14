@@ -20,7 +20,7 @@ wb = load_workbook('%s/word_senses.xlsx'%resources)
 ws = wb.active
 headers = ws[config['excel_range']['headers']]
 h_sense = {cell.value : n for n, cell in enumerate(headers[0])}
-data = ws['A2:F23']
+data = ws[config['excel_range']['senses']]
 
 wb2 = load_workbook('%s/file_list.xlsx'%resources)
 ws2 = wb2.active
