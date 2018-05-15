@@ -429,7 +429,13 @@ for word,senses in words.items():
 		err_upper = [w-scores_plot[i] for i,w in enumerate([y*100 for x,y in err_ranges])]
 		ax.errorbar(colPositions[sense_idx], scores_plot, yerr=[err_lower,err_upper], fmt='none', ecolor='black', elinewidth=0.2)
 	for genre in genres:
-		ax.plot(Ncols, genres_plot[genre],linewidth=0.8,label=genre, ls=':')
+		if genre not in ['Technical', 'Narrative']:
+			ax.plot(Ncols, genres_plot[genre],linewidth=0.8,label=genre, ls=':')
+		else:
+			if genre == 'Technical':
+				ax.plot(Ncols, genres_plot[genre], color='r', linewidth=1,label=genre, ls='-', marker = '.', markersize='6')
+			else:
+				ax.plot(Ncols, genres_plot[genre],color='b',linewidth=1,label=genre, ls='-', marker = '.', markersize='6')
 	#write plots to files
 	chartBox = ax.get_position()
 	ax.set_position([chartBox.x0, chartBox.y0, chartBox.width*0.8, chartBox.height])
