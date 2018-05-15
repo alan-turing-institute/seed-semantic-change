@@ -4,25 +4,25 @@
 
 	First attestation	First genres Word attested before	Genres attested before Innovation
 harmonia-1 (fastening, joint)	-8	[Poetry]	False	{}	False	
-harmonia-1.4 (framework)	3	[Technical]	True	{Oratory, Narrative, Philosophy, Religion, Comedy, Tragedy, Essays, Technical, Poetry}	True	
+harmonia-1.4 (framework)	3	[Technical]	True	{Comedy, Narrative, Poetry, Technical, Oratory, Essays, Philosophy, Tragedy, Religion}	True	
 harmonia-2 (covenant)	-8	[Poetry]	False	{}	False	
 harmonia-3 (ordering, government)	-5	[Tragedy]	True	{Poetry}	False	
-harmonia-4.1 (stringing)	1	[Oratory, Essays]	True	{Narrative, Philosophy, Religion, Comedy, Tragedy, Technical, Poetry}	False	
-harmonia-4.3 (musical mode)	-5	[Comedy, Poetry]	True	{Poetry}	True	
-harmonia-4.3α (abstract rationale (proportion))	-4	[Philosophy, Technical]	True	{Narrative, Comedy, Tragedy, Technical, Poetry}	True	
+harmonia-4.1 (stringing)	1	[Essays, Oratory]	True	{Comedy, Narrative, Poetry, Technical, Philosophy, Tragedy, Religion}	False	
+harmonia-4.3 (musical mode)	-5	[Poetry, Comedy]	True	{Poetry}	True	
+harmonia-4.3α (abstract rationale (proportion))	-4	[Philosophy, Technical]	True	{Comedy, Narrative, Poetry, Technical, Tragedy}	True	
 harmonia-4.3β (melody)	-5	[Comedy]	True	{Poetry}	False	
-harmonia-4.4 (composition (texts/art))	-4	[Philosophy]	True	{Narrative, Comedy, Tragedy, Technical, Poetry}	False	
-harmonia-4.5 (intonation)	-4	[Philosophy, Technical]	True	{Narrative, Comedy, Tragedy, Technical, Poetry}	True	
-harmonia-4.6 (harmony, concord)	-1	[Technical]	True	{Narrative, Philosophy, Religion, Comedy, Tragedy, Technical, Poetry}	True	
-harmonia-5 (Ηarmonia (mythology))	5	[Poetry]	True	{Oratory, Narrative, Letters, Philosophy, Religion, Comedy, Tragedy, Essays, Technical, Poetry}	True	
+harmonia-4.4 (composition (texts/art))	-4	[Philosophy]	True	{Comedy, Narrative, Poetry, Technical, Tragedy}	False	
+harmonia-4.5 (intonation)	-4	[Philosophy, Technical]	True	{Comedy, Narrative, Poetry, Technical, Tragedy}	True	
+harmonia-4.6 (harmony, concord)	-1	[Technical]	True	{Comedy, Narrative, Poetry, Technical, Philosophy, Tragedy, Religion}	True	
+harmonia-5 (Ηarmonia (mythology))	5	[Poetry]	True	{Comedy, Narrative, Poetry, Technical, Oratory, Letters, Essays, Philosophy, Tragedy, Religion}	True	
 
 ########################################
 #   mus                                #
 ########################################
 
 	First attestation	First genres Word attested before	Genres attested before Innovation
-mus-1 (mouse)	-5	[Narrative, Comedy]	False	{}	False	
-mus-2 (mussel)	2	[Poetry]	True	{Oratory, Narrative, Philosophy, Religion, Comedy, Essays, Technical, Poetry}	True	
+mus-1 (mouse)	-5	[Comedy, Narrative]	False	{}	False	
+mus-2 (mussel)	2	[Poetry]	True	{Comedy, Narrative, Poetry, Technical, Oratory, Essays, Philosophy, Religion}	True	
 mus-4 (muscle)	-5	[Technical]	False	{}	False	
 
 ########################################
@@ -35,8 +35,8 @@ kosmos-1.2 (propriety)	-8	[Poetry]	False	{}	False
 kosmos-1.3 (form)	-8	[Poetry]	False	{}	False	
 kosmos-1.4 (government)	-5	[Narrative]	True	{Religion, Poetry}	False	
 kosmos-2.1 (decoration)	-8	[Poetry]	False	{}	False	
-kosmos-2.2 (honour)	-5	[Tragedy, Narrative, Poetry]	True	{Religion, Poetry}	True	
-kosmos-3.1 (world)	-4	[Oratory, Philosophy, Technical]	True	{Oratory, Narrative, Religion, Comedy, Tragedy, Technical, Poetry}	True	
-kosmos-3.2 (whole)	-4	[Philosophy]	True	{Oratory, Narrative, Religion, Comedy, Tragedy, Technical, Poetry}	False	
-kosmos-3.3 (humankind)	-2	[Religion]	True	{Oratory, Narrative, Philosophy, Religion, Comedy, Tragedy, Essays, Technical, Poetry}	True	
+kosmos-2.2 (honour)	-5	[Tragedy, Poetry, Narrative]	True	{Religion, Poetry}	True	
+kosmos-3.1 (world)	-4	[Philosophy, Technical, Oratory]	True	{Comedy, Narrative, Poetry, Technical, Oratory, Tragedy, Religion}	True	
+kosmos-3.2 (whole)	-4	[Philosophy]	True	{Comedy, Narrative, Poetry, Technical, Oratory, Tragedy, Religion}	False	
+kosmos-3.3 (humankind)	-2	[Religion]	True	{Comedy, Narrative, Poetry, Technical, Oratory, Essays, Philosophy, Tragedy, Religion}	True	
 

@@ -95,10 +95,8 @@ def extract_data(gengr, sengr):
 			scores[(sense,genre,century)]+=1
 
 	centuries=['-8','-7','-6','-5','-4','-3','-2','-1','1','2','3','4','5']
-	if file=='59339':centuries=centuries[0:10]
 	genres = set()
 	for (sense,genre,century),score in scores.items():
-		word=sense[:sense.find(sep)]
 		genres.add(genre)
 
 ###### VARIATION ######	
@@ -134,6 +132,7 @@ def extract_data(gengr, sengr):
 		table_tots=table[[x for x in table]].sum()
 		table=table.transpose()
 		table['TOTAL']=table_tots
+		if sense[:sense.find(sep)]=='kosmos':table=table.iloc[:,0:10]
 		print('\033[1m'+100*'#'+'\n'+'#   '+sense_meaning(sense,1)+(95-len(sense_meaning(sense,1)))*' '+'#\n'+100*'#'+'\033[0m\n')
 		variation_file.write(100*'#'+'\n#   '+sense_meaning(sense,1)+(95-len(sense_meaning(sense,1)))*' '+'#\n'+100*'#'+'\n')
 		with pd.option_context('expand_frame_repr', False):
@@ -145,9 +144,11 @@ def extract_data(gengr, sengr):
 		for x in genres:
 			if verbose ==True: print(sense_meaning(sense,1), '~', x)
 			variation_file.write('\n'+sense_meaning(sense,1)+' ~ '+x)
-			if verbose ==True: print(table.loc[[x,'TOTAL'],[x for x in centuries]])
-			variation_file.write('\n'+table.loc[[x,'TOTAL'],[x for x in centuries]].to_string())
-			new_matrix = table.loc[[x,'TOTAL'],[x for x in centuries]].values.tolist()
+			table_for_corr=table.loc[[x,'TOTAL'],[x for x in centuries]]
+			if sense[:sense.find(sep)]=='kosmos':table_for_corr=table_for_corr.iloc[:,0:10]
+			if verbose ==True: print(table_for_corr)
+			variation_file.write('\n'+table_for_corr.to_string())
+			new_matrix = table_for_corr.values.tolist()
 			if sum(new_matrix[0]) == 0:
 				r=(np.nan,np.nan)
 			else: 

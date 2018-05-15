@@ -5,16 +5,16 @@
 	First attestation	First genres Word attested before Genres attested before Innovation
 harmonia:abstract	-8	[Poetry]	False	{}	False	
 harmonia:concrete	-8	[Poetry]	False	{}	False	
-harmonia:musical	-5	[Comedy, Poetry]	True	{Poetry}	True	
+harmonia:musical	-5	[Poetry, Comedy]	True	{Poetry}	True	
 
 ########################################
 #   mus                                #
 ########################################
 
 	First attestation	First genres Word attested before	Genres attested before Innovation
-mus:mouse	-5	[Narrative, Comedy]	False	{}	False	
+mus:mouse	-5	[Comedy, Narrative]	False	{}	False	
 mus:muscle	-5	[Technical]	False	{}	False	
-mus:mussel	2	[Poetry]	True	{Oratory, Narrative, Philosophy, Religion, Comedy, Essays, Technical, Poetry}	True	
+mus:mussel	2	[Poetry]	True	{Comedy, Narrative, Poetry, Technical, Oratory, Essays, Philosophy, Religion}	True	
 
 ########################################
 #   kosmos                             #
@@ -23,5 +23,5 @@ mus:mussel	2	[Poetry]	True	{Oratory, Narrative, Philosophy, Religion, Comedy, Es
 	First attestation	First genres Word attested before	Genres attested before Innovation
 kosmos:decoration	-8	[Poetry]	False	{}	False	
 kosmos:order	-8	[Poetry]	False	{}	False	
-kosmos:world	-4	[Oratory, Philosophy, Technical]	True	{Oratory, Narrative, Religion, Comedy, Tragedy, Technical, Poetry}	True	
+kosmos:world	-4	[Philosophy, Technical, Oratory]	True	{Comedy, Narrative, Poetry, Technical, Oratory, Tragedy, Religion}	True	
 
