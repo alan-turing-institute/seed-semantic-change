@@ -1,21 +1,9 @@
+###########
 
-# coding: utf-8
+#  THIS SCRIPT IS ONLY FOR THE GENRE-NAIVE MODELS
+# (more specifically the "all other genres")
 
-# # This is a work-in-progress notebook
-# 
-# We wish to know this:
-# 
-# 1. How well does the model identify the correct number of senses for the target word?
-# 2. **How well does the model identify the correct senses for the target word?**
-# 3. **How well does the model assign the right words to a given sense of the target word?**
-# 4. How well does the model assign the senses to the time intervals for the target word?
-# 
-# The script will evaluate **Q2** and **Q3**. Q4 will follow.
-
-# ### Output filenames are based on target+param+iteration+K+variance
-
-# In[78]:
-
+###########
 
 # Basic variables and imports:
 
@@ -31,8 +19,8 @@ dir_out = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation
 #dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input"))
 
 dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input","new_texts"))
-#  SENSES MERGED harmonia, kosmos
-dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "corpus_scripts_output")) 
+#  SENSES MERGED harmonia
+#dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "corpus_scripts_output")) 
 
 dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src", "dynamic-senses","greek_input","all_parameters"))
 
@@ -40,9 +28,9 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 
 genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
-s_senses = io.open(dir_expert+"/senses_59339.txt","r")  # expert senses annotation
-k_senses = io.open(dir_in+"/3_output_K15_var2/59339/output.dat","r") # model output
-parameter_file = io.open(dir_parameter+"/params_v8.txt","r")
+s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # expert senses annotation
+k_senses = io.open(dir_in+"/3_output_K15/69419_fixed_time_no_ghost_original_var/output.dat","r") # model output
+parameter_file = io.open(dir_parameter+"/parameters_v12_mus.txt","r")
 
 bugfix = 0
 
@@ -110,7 +98,8 @@ for line in file_senses:
         annotation_dates.append(int(cells[0]))
     
     else:
-        if cells[1] == genre:
+        if cells[1] != genre:  ### WE ONLY TAKE THE LINES THAT DO NOT MATCH THE GENRE
+                                ### in other words: the "all other genres"
             annotation_dates.append(int(cells[0]))
             
 start_time = min(annotation_dates)
@@ -254,7 +243,7 @@ for line in file_senses:
                 
     else: # specific genre only
         
-        if cells[1] == genre:
+        if cells[1] != genre:  ### FOCUS ON "all genres but this one"
 
             sense = cells[11] # The sense ID is after the 10th tab
             if sense != 'w':
@@ -373,7 +362,7 @@ for i in range(0,number_of_s): # for each sense, we create a dictionary entry wh
                 
         else:
             
-            if cells[1] == genre:
+            if cells[1] != genre:     #### all genres except this one
                 if int(cells[12]) == 1:  # senses inferred from collocates
                     if cells[11] == expert_senses[i]:      # we store all words for one sense 
 
@@ -529,7 +518,7 @@ for line in file_senses:
                     
 
     else:
-        if genre == cells[1]:
+        if genre != cells[1]:   #### All other genres
             sense = cells[11] # The sense ID is after the 10th tab
             if sense != 'w':
                 #print(sense)
