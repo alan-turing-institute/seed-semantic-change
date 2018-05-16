@@ -40,15 +40,16 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 
 genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
-s_senses = io.open(dir_expert+"/senses_59339.txt","r")  # expert senses annotation
-k_senses = io.open(dir_in+"/3_output_K15_var2/59339/output.dat","r") # model output
-parameter_file = io.open(dir_parameter+"/params_v8.txt","r")
+s_senses = io.open(dir_expert+"/senses_59339_142.txt","r")  # expert senses annotation
+k_senses = io.open(dir_in+"/kosmos_new_experiments/3_output_K5_kosmos/59339/output.dat","r") # model output
+parameter_file = io.open(dir_parameter+"/parameters_v24.txt","r")
 
 bugfix = 0
 
 target_id = os.path.basename(s_senses.name)
 target_id = target_id.replace("senses_","")
 target_id = target_id.replace(".txt","")
+target_id = target_id.replace("_142","") # FUCKING KOSMOS
 print("Target ID:",target_id)
 
 param_name = os.path.basename(parameter_file.name)

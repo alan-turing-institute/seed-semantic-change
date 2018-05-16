@@ -1,9 +1,9 @@
-text_corpus	./greek_input/corpus_id.txt
+text_corpus	./greek_input/full_corpus_ids.txt
 target_words	./greek_input/targets_mus.txt
-bin_corpus_store	./greek_input/corpus_id.bin
+bin_corpus_store	./greek_input/full_corpus_ids.bin
 window_size	10
-full_corpus_path	./greek_input/corpus_id.bin
-word_corpus_path	./greek_input/3_target_corpora/
+full_corpus_path	./greek_input/full_corpus_ids.bin
+word_corpus_path	./greek_input/target_corpora/
 output_path	./greek_input/3_output_K15_win/
 kappaF	10.0
 kappaK	4.0
