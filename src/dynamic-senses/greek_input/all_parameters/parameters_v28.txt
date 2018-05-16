@@ -7,7 +7,7 @@ word_corpus_path	./greek_input/3_target_corpora/
 output_path	./greek_input/3_output_K15/
 kappaF	10.0
 kappaK	4.0
-a0	7.0
+a0	5.0
 b0	3.0
 num_top	15
 iterations	1000
