@@ -4,7 +4,7 @@ bin_corpus_store	./greek_input/full_corpus_ids.bin
 window_size	5
 full_corpus_path	./greek_input/full_corpus_ids.bin
 word_corpus_path	./greek_input/3_target_corpora/
-output_path	./greek_input/3_output_K15_var2/
+output_path	./greek_input/all_results/mus_simon_k15_technical/
 kappaF	10.0
 kappaK	4.0
 a0	7.0
