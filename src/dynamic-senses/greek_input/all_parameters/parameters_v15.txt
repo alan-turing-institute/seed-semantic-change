@@ -11,8 +11,8 @@ a0	7.0
 b0	3.0
 num_top	15
 iterations	1000
-start_time	-430
-end_time	364
+start_time	-425
+end_time	365
 time_interval	100
 min_doc_per_word	0
 max_docs_per_slice	2000
