@@ -38,11 +38,11 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 
 # change parameter file and senses etc here
 
-genre = "Religion"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
+genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
 s_senses = io.open(dir_expert+"/senses_59339_142.txt","r")  # expert senses annotation
-k_senses = io.open(dir_in+"/kosmos_simon_k15_religion/59339/output.dat","r") # model output
-parameter_file = io.open(dir_parameter+"/parameters_v37.txt","r")
+k_senses = io.open(dir_in+"/kosmos_simon_k15_win/59339/output.dat","r") # model output
+parameter_file = io.open(dir_parameter+"/parameters_v27.txt","r")
 
 bugfix = 0
 
