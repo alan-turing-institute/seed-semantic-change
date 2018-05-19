@@ -18,31 +18,33 @@ done <greek_input/targets_50.txt
 
 //create target  file for each word
 
+cd greek_input;
 while read p;  do
-sed "s/1083/$p/" target_1083_backup.txt > target_$p.txt
+sed "s/1083/$p/" target_copyfile.txt > target_$p.txt
 done <targets_50.txt
 
 //create outputdir
 
+cd ..;
 while read p;  do
-mkdir /Users/Valerio/seed-semantic-change/src/dynamic-senses/greek_input/subcorpora/training/$p'_target_corpora'
+mkdir ./greek_input/subcorpora/training/$p'_target_corpora'
 done <greek_input/targets_50.txt
 
 while read p;  do
-mkdir /Users/Valerio/seed-semantic-change/src/dynamic-senses/greek_input/subcorpora/training/$p'_output'
+mkdir ./greek_input/subcorpora/training/$p'_output'
 done <greek_input/targets_50.txt
 
 
 ##### CREATE TRAIN CORPUS FOR EACH WORD
 
 while read p;  do
-go run *.go -parameter_file=/Users/Valerio/seed-semantic-change/src/dynamic-senses/params_$p.txt  -create_corpus  -store=true;
+go run *.go -parameter_file=./params_$p.txt  -create_corpus  -store=true;
 done <greek_input/targets_50.txt
 
 ##### CREATE TEST CORPUS FOR EACH WORD
 
 while read p;  do
-go run *.go -parameter_file=/Users/Valerio/seed-semantic-change/src/dynamic-senses/params_test_$p.txt  -create_corpus  -store=true;
+go run *.go -parameter_file=./params_test_$p.txt  -create_corpus  -store=true;
 done <greek_input/targets_50.txt
 
 ________________
@@ -57,7 +59,7 @@ rm -r ./greek_input/subcorpora/training/*_output/*
 ##### RUN CODE FOR EACH WORD (most expensive part)
 
 while read p;  do
-go run *.go -parameter_file=/Users/Valerio/seed-semantic-change/src/dynamic-senses/params_$p.txt  -store=true;
+go run *.go -parameter_file=./params_$p.txt  -store=true;
 done <greek_input/targets_50.txt
 
 
