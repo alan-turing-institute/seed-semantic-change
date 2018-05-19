@@ -1,6 +1,7 @@
 package main
 
 import (
+    "bufio"
     "dynamic-senses_release/data"
     "dynamic-senses_release/model"
     "dynamic-senses_release/gibbs"
@@ -161,6 +162,14 @@ func train_model(store, mode string, parameters map[string]string) {
 
                 fmt.Println("\nFinal test loglikelihood: ", s.Model.Predict(&data.Corpus{word_docs_heldout, tgtfeatures_heldout, cxtfeatures_heldout}))
                 fmt.Println("\nFinal train loglikelihood: ", s.Model.Predict(s.Corpus))
+
+                fmt.Println("Saving likelihoods to file")
+                f, err := os.Create(path.Join(tmp_outputdir, "final_likelihoods.txt"))
+                w := bufio.NewWriter(f)
+                _, err = fmt.Fprintf(w, "Train_likelihood: %f", s.Model.Predict(s.Corpus))
+                _, err = fmt.Fprintf(w, "\nTest_likelihood: %f", s.Model.Predict(&data.Corpus{word_docs_heldout, tgtfeatures_heldout, cxtfeatures_heldout}))
+                w.Flush()
+                fmt.Println("Saved likelihoods to file")
 
 
                 /*** print model ***/
