@@ -1,8 +1,9 @@
 #!/usr/bin/env Rscript
+#Function to aggregate log-likelihood results across 50 train/test words.
+#Input: likelihood results for each subcorpora
+#Output: aggregated_loglike.txt file with mean +- sderr train and test negative loglike
 
-#Function to aggregate log-likelihood results across 50 train/test words
-
-all_files = list.files("/Users/Valerio/seed-semantic-change/src/dynamic-senses/greek_input/subcorpora/training/", pattern="final_likelihoods.txt", recursive=TRUE, full.names=FALSE)
+all_files = list.files("./greek_input/subcorpora/training/", pattern="final_likelihoods.txt", recursive=TRUE, full.names=FALSE)
 
 train_likelihoods = numeric(50)
 test_likelihoods = numeric(50)
