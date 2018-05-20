@@ -79,8 +79,9 @@ func Sample_logisticnormal_parameters_independent_f(mode string, generator *rand
           semaphore <- 1
         }(kk);
       }
-    }
+      
     for ss:=0 ; ss<k ; ss++ {<- semaphore}
+    }
   }
   return err
 }

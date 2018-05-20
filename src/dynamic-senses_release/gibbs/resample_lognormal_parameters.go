@@ -18,10 +18,15 @@ func Sample_logisticnormal_parameters_f(mode string, generator *rand.Rand, t, g,
   for ii:=0 ; ii<iterations ; ii++ {
 
     semaphore := make(chan int , k)
+    print("ii is equal to ", ii, "\n")
     for gg:=0 ; gg<g ; gg++ { //TODO new
+      print("gg is equal to ", gg, " out of ", g,
+        "\n")
+
 
 
       for kk:=0 ; kk<k ; kk++ {
+        print("kk is equal to ", kk, " out of ", k,"\n")
         go func(kk int) {
           var new_phi float64
 
@@ -89,6 +94,7 @@ func Sample_logisticnormal_parameters_f(mode string, generator *rand.Rand, t, g,
               tmp_betas[vv] = new_phi
 
             }
+
             logNormals[gg][kk].FillRow(tt, tmp_betas)
             psi_k := model.Additive_logistic_transform(logNormals[gg][kk].RowCopy(tt))
             psi[kk].FillRow(tt, psi_k)
@@ -96,10 +102,17 @@ func Sample_logisticnormal_parameters_f(mode string, generator *rand.Rand, t, g,
           semaphore <- 1
         }(kk);
       }
+      print("done loop over k\n")
 
-    }
+
+
     for ss:=0 ; ss<k ; ss++ {<- semaphore}
+    }
+    print("done loop over g\n")
   }
+  print("done loop over i\n")
+
+
   return err
 }
 
