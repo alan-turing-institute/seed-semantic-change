@@ -1,6 +1,6 @@
 package gibbs
 
-import ( 
+import (
 "fmt"
 "math/rand"
 "math"
@@ -12,34 +12,125 @@ import (
 )
 
 
-
-func Sample_logisticnormal_parameters(mode string, generator *rand.Rand, t, k, v int, kappa float64, iterations int, 
+// TODO new
+func Sample_logisticnormal_parameters_f(mode string, generator *rand.Rand, t, g, k, v int, kappa float64, iterations int,
                                       logNormals, psi map[int]*matrix.DenseMatrix, n_k_f, n_k_sum_f map[int]*matrix.SparseMatrix) (err error) {
   for ii:=0 ; ii<iterations ; ii++ {
-    
+
+    for gg:=0 ; gg<g ; gg++ { //TODO new
+      semaphore := make(chan int , k)
+
+      for kk:=0 ; kk<k ; kk++ {
+        go func(kk int) {
+          var new_phi float64
+
+          generator := rand.New(rand.NewSource(time.Now().UTC().UnixNano()))
+          for tt:=0 ; tt < t ; tt++ {
+            total_data := n_k_sum_f[kk].Get(tt,0)
+
+            /* compute full constant */
+            c_full := compute_constant_full(logNormals[gg][kk].RowCopy(tt))
+
+            /* struct for storing tmp beta updates before updating the vector in the end after updating each component */
+            tmp_betas := make([]float64, psi[kk].Cols())
+            /* pre-compute threshold denominator */
+            denom:=0.0
+            for _,val := range(logNormals[gg][kk].RowCopy(tt)) {denom+=math.Exp(val)}
+
+            for vv:=0 ; vv<v ; vv++ {
+
+              upper_bound, lower_bound := 0.0, 0.0
+              var mu, sigma float64
+
+              switch {
+                case tt==0:
+                  mu    = logNormals[gg][kk].Get(tt+1,vv)
+                  sigma = math.Sqrt(1.0/(1.0*kappa))
+                case tt==t-1:
+                  mu    = logNormals[kk].Get(tt-1,vv)
+                  sigma = math.Sqrt(1.0/(1.0*kappa))
+                default:
+                  mu    = 0.5*(logNormals[gg][kk].Get(tt-1,vv)+logNormals[gg][kk].Get(tt+1,vv))
+                  sigma = math.Sqrt(1.0/(2.0*kappa))
+              }
+
+              threshold := math.Exp(logNormals[gg][kk].Get(tt,vv))/denom
+              c := c_full - math.Exp(logNormals[gg][kk].Get(tt,vv))
+
+
+                lower_bound, upper_bound = Sample_uniform(generator, kk, tt, vv, threshold, total_data, n_k_f)
+
+                upper_bound = math.Log(c*upper_bound/(1.0-upper_bound))
+                lower_bound = math.Log(c*lower_bound/(1.0-lower_bound))
+
+                if lower_bound >= upper_bound {
+                  fmt.Println(ii, t, k,upper_bound, lower_bound,total_data)
+                  panic("lowerbound >= upperbound!")
+                }
+
+                //           if mode == "beta" {
+                //             if n_k_f[kk].Get(tt,vv) == 0 {
+                //               lower_bound = math.Inf(-1)
+                //             } else if total_data-n_k_f[kk].Get(tt,vv) == 0 {
+                //               upper_bound = math.Inf(1)
+                //             }
+                //           }
+
+                new_phi = SampleTruncatednormal(generator, 1, mu, sigma, lower_bound, upper_bound)[0]
+
+                if math.IsNaN(new_phi) || math.IsNaN(upper_bound) || math.IsNaN(lower_bound) || math.IsNaN(mu) || math.IsNaN(sigma) || math.IsNaN(threshold){
+                  fmt.Println(kk, tt, vv, n_k_f[kk].Get(tt,vv), total_data,  n_k_sum_f[kk].String())
+                  fmt.Printf("phi %.3f, lo %.3f, up %.3f, mu %.3f, sigma %.3f, c %.3f, c_full %.3f, thres %.3f\n\n", new_phi, lower_bound, upper_bound, mu, sigma, c, c_full, threshold)
+                  err = errors.New("NaN in lognormal resampling!")
+                }
+
+              tmp_betas[vv] = new_phi
+
+            }
+            logNormals[gg][kk].FillRow(tt, tmp_betas)
+            psi_k := model.Additive_logistic_transform(logNormals[gg][kk].RowCopy(tt))
+            psi[kk].FillRow(tt, psi_k)
+          }
+          semaphore <- 1
+        }(kk);
+      }
+
+    }
+    for ss:=0 ; ss<k ; ss++ {<- semaphore}
+  }
+  return err
+}
+
+
+
+
+func Sample_logisticnormal_parameters(mode string, generator *rand.Rand, t, k, v int, kappa float64, iterations int,
+                                      logNormals, psi map[int]*matrix.DenseMatrix, n_k_f, n_k_sum_f map[int]*matrix.SparseMatrix) (err error) {
+  for ii:=0 ; ii<iterations ; ii++ {
+
     semaphore := make(chan int , k)
     for kk:=0 ; kk<k ; kk++ {
       go func(kk int) {
         var new_phi float64
-        
+
         generator := rand.New(rand.NewSource(time.Now().UTC().UnixNano()))
         for tt:=0 ; tt < t ; tt++ {
           total_data := n_k_sum_f[kk].Get(tt,0)
-          
+
           /* compute full constant */
           c_full := compute_constant_full(logNormals[kk].RowCopy(tt))
-          
+
           /* struct for storing tmp beta updates before updating the vector in the end after updating each component */
           tmp_betas := make([]float64, psi[kk].Cols())
           /* pre-compute threshold denominator */
-          denom:=0.0        
+          denom:=0.0
           for _,val := range(logNormals[kk].RowCopy(tt)) {denom+=math.Exp(val)}
-          
+
           for vv:=0 ; vv<v ; vv++ {
-            
+
             upper_bound, lower_bound := 0.0, 0.0
             var mu, sigma float64
-            
+
             switch {
               case tt==0:
                 mu    = logNormals[kk].Get(tt+1,vv)
@@ -51,21 +142,21 @@ func Sample_logisticnormal_parameters(mode string, generator *rand.Rand, t, k, v
                 mu    = 0.5*(logNormals[kk].Get(tt-1,vv)+logNormals[kk].Get(tt+1,vv))
                 sigma = math.Sqrt(1.0/(2.0*kappa))
             }
-            
+
             threshold := math.Exp(logNormals[kk].Get(tt,vv))/denom
             c := c_full - math.Exp(logNormals[kk].Get(tt,vv))
-            
-                          
+
+
               lower_bound, upper_bound = Sample_uniform(generator, kk, tt, vv, threshold, total_data, n_k_f)
 
               upper_bound = math.Log(c*upper_bound/(1.0-upper_bound))
               lower_bound = math.Log(c*lower_bound/(1.0-lower_bound))
-              
+
               if lower_bound >= upper_bound {
                 fmt.Println(ii, t, k,upper_bound, lower_bound,total_data)
                 panic("lowerbound >= upperbound!")
               }
-              
+
               //           if mode == "beta" {
               //             if n_k_f[kk].Get(tt,vv) == 0 {
               //               lower_bound = math.Inf(-1)
@@ -73,9 +164,9 @@ func Sample_logisticnormal_parameters(mode string, generator *rand.Rand, t, k, v
               //               upper_bound = math.Inf(1)
               //             }
               //           }
-              
+
               new_phi = SampleTruncatednormal(generator, 1, mu, sigma, lower_bound, upper_bound)[0]
-              
+
               if math.IsNaN(new_phi) || math.IsNaN(upper_bound) || math.IsNaN(lower_bound) || math.IsNaN(mu) || math.IsNaN(sigma) || math.IsNaN(threshold){
                 fmt.Println(kk, tt, vv, n_k_f[kk].Get(tt,vv), total_data,  n_k_sum_f[kk].String())
                 fmt.Printf("phi %.3f, lo %.3f, up %.3f, mu %.3f, sigma %.3f, c %.3f, c_full %.3f, thres %.3f\n\n", new_phi, lower_bound, upper_bound, mu, sigma, c, c_full, threshold)
@@ -83,7 +174,7 @@ func Sample_logisticnormal_parameters(mode string, generator *rand.Rand, t, k, v
               }
 
             tmp_betas[vv] = new_phi
-            
+
           }
           logNormals[kk].FillRow(tt, tmp_betas)
           psi_k := model.Additive_logistic_transform(logNormals[kk].RowCopy(tt))
@@ -96,6 +187,8 @@ func Sample_logisticnormal_parameters(mode string, generator *rand.Rand, t, k, v
   }
   return err
 }
+
+
 
 
 
@@ -144,10 +237,10 @@ func Sample_beta(n, t, k int, threshold, total_data float64, data map[int]*matri
 
 
 func Sample_uniform(generator *rand.Rand, n, t, k int, threshold, total_data float64, data map[int]*matrix.SparseMatrix) (float64, float64) {
-  
-  
+
+
   lower_bound :=        math.Pow(generator.Float64(), 1.0 /  data[n].Get(t,k)               ) * (threshold - 0        ) + 0
   upper_bound := (1.0 - math.Pow(generator.Float64(), 1.0 / (total_data - data[n].Get(t,k)))) * (1.0       - threshold) + threshold
-  
+
   return lower_bound, upper_bound
 }

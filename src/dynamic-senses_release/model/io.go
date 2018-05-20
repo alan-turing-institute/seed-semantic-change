@@ -1,9 +1,9 @@
 /*
- *  Takes a model and, for storing turns all *DenseMatrices 
+ *  Takes a model and, for storing turns all *DenseMatrices
  *  to [][]float64 (model_storable type)
  *  (because DenseMatrices have only private fields)
- * 
- *  Conversely, it reads a model_storable into a byte array and from 
+ *
+ *  Conversely, it reads a model_storable into a byte array and from
  *  that reconstructs a prober model with *DenseMatrces
  */
 package model
@@ -16,39 +16,49 @@ import (
   "os"
 )
 
+
 type model_storable struct {
   //parameters
   Parameters *Model_parameters
-  LogNormals_k map[int][][]float64 
-  LogNormals_f map[int][][]float64
+  LogNormals_k map[int][][]float64
+  //LogNormals_f map[int][][]float64 // TODO old
+  LogNormals_f []map[int][][]float64 // TODO new
   Phi        map[int][][]float64
   Psi        map[int][][]float64
-  N_k        map[int][][]float64 
-  N_sum_k    map[int][][]float64 
-  N_k_f      map[int][][]float64 
-  N_k_sum_f  map[int][][]float64 
+  N_k        map[int][][]float64
+  N_sum_k    map[int][][]float64
+  N_k_f      map[int][][]float64
+  N_k_sum_f  map[int][][]float64
 }
 
 
 func (model *Model) to_storable() (m *model_storable) {
-  
+
   m                 = new(model_storable)
   m.Parameters      = model.Parameters
   m.LogNormals_k    = map[int][][]float64{0:model.LogNormals_k[0].Arrays()}
   m.Phi             = map[int][][]float64{0:model.Phi[0].Arrays()}
   m.N_k             = map[int][][]float64{0:model.N_k[0].DenseMatrix().Arrays()}
   m.N_sum_k         = map[int][][]float64{0:model.N_sum_k[0].DenseMatrix().Arrays()}
-  
-  m.LogNormals_f    = make(map[int][][]float64 , m.Parameters.Num_categories)
+
+  //m.LogNormals_f    = make(map[int][][]float64 , m.Parameters.Num_categories) // TODO old
+  m.LogNormals_f    = make([]map[int][][]float64 , m.Parameters.Num_genres)  //TODO new
+  for idx, _ := range(m.LogNormals_f) {  //TODO new
+      m.LogNormals_f[idx] = make(map[int][][]float64 , m.Parameters.Num_categories) //TODO new
+  }  //TODO new
+
   m.Psi             = make(map[int][][]float64 , m.Parameters.Num_categories)
   m.N_k_f           = make(map[int][][]float64 , m.Parameters.Num_categories)
   m.N_k_sum_f       = make(map[int][][]float64 , m.Parameters.Num_categories)
-  
-  for k:=0 ; k<m.Parameters.Num_categories ; k++ {
-    m.LogNormals_f[k] = model.LogNormals_f[k].Arrays()
-    m.Psi[k]          = model.Psi[k].Arrays()
-    m.N_k_f[k]        = model.N_k_f[k].DenseMatrix().Arrays()
-    m.N_k_sum_f[k]    = model.N_k_sum_f[k].DenseMatrix().Arrays()
+
+  for g:=0 ; g<m.Parameters.Num_genres ; g++ {   // TODO new
+    for k:=0 ; k<m.Parameters.Num_categories ; k++ {
+      //m.LogNormals_f[k] = model.LogNormals_f[k].Arrays() // TODO old
+      m.LogNormals_f[g][k] = model.LogNormals_f[g][k].Arrays()  // TODO new
+      m.Psi[k]          = model.Psi[k].Arrays()
+      m.N_k_f[k]        = model.N_k_f[k].DenseMatrix().Arrays()
+      m.N_k_sum_f[k]    = model.N_k_sum_f[k].DenseMatrix().Arrays()
+    }
   }
   return
 }
@@ -61,12 +71,15 @@ func (model *model_storable) to_model() (m *Model) {
   m.Phi             = map[int]*matrix.DenseMatrix{0:matrix.MakeDenseMatrixStacked(model.Phi[0])}
   m.N_k             = map[int]*matrix.SparseMatrix{0:matrix.MakeDenseMatrixStacked(model.N_k[0]).SparseMatrix()}
   m.N_sum_k         = map[int]*matrix.SparseMatrix{0:matrix.MakeDenseMatrixStacked(model.N_sum_k[0]).SparseMatrix()}
-  
-  for k:=0 ; k<m.Parameters.Num_categories ; k++ {
-    m.LogNormals_f[k] = matrix.MakeDenseMatrixStacked(model.LogNormals_f[k])
-    m.Psi[k]          = matrix.MakeDenseMatrixStacked(model.Psi[k])
-    m.N_k_f[k]        = matrix.MakeDenseMatrixStacked(model.N_k_f[k]).SparseMatrix()
-    m.N_k_sum_f[k]    = matrix.MakeDenseMatrixStacked(model.N_k_sum_f[k]).SparseMatrix()
+
+  for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+    for k:=0 ; k<m.Parameters.Num_categories ; k++ {
+      //m.LogNormals_f[k] = matrix.MakeDenseMatrixStacked(model.LogNormals_f[k]) // TODO old
+      m.LogNormals_f[g][k] = matrix.MakeDenseMatrixStacked(model.LogNormals_f[g][k]) // TODO new
+      m.Psi[k]          = matrix.MakeDenseMatrixStacked(model.Psi[k])
+      m.N_k_f[k]        = matrix.MakeDenseMatrixStacked(model.N_k_f[k]).SparseMatrix()
+      m.N_k_sum_f[k]    = matrix.MakeDenseMatrixStacked(model.N_k_sum_f[k]).SparseMatrix()
+    }
   }
   return
 }
@@ -74,9 +87,9 @@ func (model *model_storable) to_model() (m *Model) {
 
 // Storing a go struct containing a codemap (for lemmas or c5 tags) in a file
 func (m *Model) Store(filename string) {
-  
+
   storable := m.to_storable()
-  
+
   b := new(bytes.Buffer)
   g := gob.NewEncoder(b)
   err := g.Encode(storable)
@@ -95,9 +108,9 @@ func (m *Model) Store(filename string) {
 }
 
 func Load_model(filename string) (model *Model){
-  
+
   storable := new(model_storable)
-  
+
   fh, err := os.Open(filename)
   if err != nil {
     fmt.Println(err)

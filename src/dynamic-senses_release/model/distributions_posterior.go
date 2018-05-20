@@ -14,7 +14,7 @@ func (m *Model) hard_sense_clustering(t int) (hard_senses map[int]map[int]float6
     for s:=0 ; s<m.Parameters.Num_categories ; s++ {
         hard_senses[s] = make(map[int]float64, 0)
     }
-    
+
     /* return argmax_s p(f|s,t) for every f given t */
     for f:=0 ; f<m.Parameters.Num_features ; f++ {
         max_sense := 0
@@ -42,7 +42,7 @@ func (m *Model) Hard_sense_clustering_matrix(t int) (hard_senses map[int]*matrix
     for s:=0 ; s<m.Parameters.Num_categories ; s++ {
         hard_senses[s] = matrix.Zeros(1, m.Parameters.Num_features)
     }
-    
+
     /* return argmax_s p(f|s,t) for every f given t */
     for f:=0 ; f<m.Parameters.Num_features ; f++ {
         max_sense := 0
@@ -77,12 +77,15 @@ func (m *Model) Top_features_given_k_t (k, t int, mode string) (psi []float64, i
   if mode == "p_w_given_s" {
     psi = m.P_w_given_s(k)
   } else {
-    psi = Additive_logistic_transform(m.LogNormals_f[k].RowCopy(t))
+    for g:=0 ; g<m.Parameters.Num_genres ; g++ {   // TODO new
+    //psi = Additive_logistic_transform(m.LogNormals_f[k].RowCopy(t)) //TODO old
+       psi = Additive_logistic_transform(m.LogNormals_f[g][k].RowCopy(t)) //TODO old
+    }
   }
   indices = make([]int, len(psi))
   floats.Argsort(psi, indices)
   return psi, indices
-} 
+}
 
 /* ***************************************************** *
  * Input: - model                                        *
