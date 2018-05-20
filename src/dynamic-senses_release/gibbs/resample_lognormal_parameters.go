@@ -14,11 +14,12 @@ import (
 
 // TODO new
 func Sample_logisticnormal_parameters_f(mode string, generator *rand.Rand, t, g, k, v int, kappa float64, iterations int,
-                                      logNormals, psi map[int]*matrix.DenseMatrix, n_k_f, n_k_sum_f map[int]*matrix.SparseMatrix) (err error) {
+                                      logNormals []map[int]*matrix.DenseMatrix, psi map[int]*matrix.DenseMatrix, n_k_f, n_k_sum_f map[int]*matrix.SparseMatrix) (err error) {
   for ii:=0 ; ii<iterations ; ii++ {
 
+    semaphore := make(chan int , k)
     for gg:=0 ; gg<g ; gg++ { //TODO new
-      semaphore := make(chan int , k)
+
 
       for kk:=0 ; kk<k ; kk++ {
         go func(kk int) {
@@ -34,6 +35,7 @@ func Sample_logisticnormal_parameters_f(mode string, generator *rand.Rand, t, g,
             /* struct for storing tmp beta updates before updating the vector in the end after updating each component */
             tmp_betas := make([]float64, psi[kk].Cols())
             /* pre-compute threshold denominator */
+
             denom:=0.0
             for _,val := range(logNormals[gg][kk].RowCopy(tt)) {denom+=math.Exp(val)}
 
@@ -47,7 +49,7 @@ func Sample_logisticnormal_parameters_f(mode string, generator *rand.Rand, t, g,
                   mu    = logNormals[gg][kk].Get(tt+1,vv)
                   sigma = math.Sqrt(1.0/(1.0*kappa))
                 case tt==t-1:
-                  mu    = logNormals[kk].Get(tt-1,vv)
+                  mu    = logNormals[gg][kk].Get(tt-1,vv)
                   sigma = math.Sqrt(1.0/(1.0*kappa))
                 default:
                   mu    = 0.5*(logNormals[gg][kk].Get(tt-1,vv)+logNormals[gg][kk].Get(tt+1,vv))

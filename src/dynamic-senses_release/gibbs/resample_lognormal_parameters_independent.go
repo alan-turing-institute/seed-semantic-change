@@ -13,11 +13,13 @@ import (
 
 
 func Sample_logisticnormal_parameters_independent_f(mode string, generator *rand.Rand, t, g, k, v int, kappa float64, iterations int,
-                                      logNormals, psi map[int]*matrix.DenseMatrix, n_k_f, n_k_sum_f map[int]*matrix.SparseMatrix) (err error) {
+                                      logNormals []map[int]*matrix.DenseMatrix,
+                                       psi map[int]*matrix.DenseMatrix, n_k_f, n_k_sum_f map[int]*matrix.SparseMatrix) (err error) {
   for ii:=0 ; ii<iterations ; ii++ {
 
+    semaphore := make(chan int , k)
     for gg:=0 ; gg<g ; gg++ { //TODO new
-      semaphore := make(chan int , k)
+
       for kk:=0 ; kk<k ; kk++ {
         go func(kk int) {
           var new_phi float64
