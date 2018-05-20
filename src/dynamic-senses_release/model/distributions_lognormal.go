@@ -26,7 +26,7 @@ func (model *Model) Posterior_categories(doc *data.Document, posterior, pFgKT, p
   }
   util.Normalize(posterior, floats.Sum(posterior))
   return
-}  
+}
 
 func (model *Model) Log_Posterior_categories(doc *data.Document, posterior, pFgKT, pKgT []float64, time int, regularizer float64) {
   model.log_pCategoryGivenT_distribution(pKgT, time)
@@ -35,7 +35,7 @@ func (model *Model) Log_Posterior_categories(doc *data.Document, posterior, pFgK
     posterior[k] = pKgT[k] + (regularizer * pFgKT[k])
   }
   return
-}  
+}
 
 
 /* *************************************************************************
@@ -71,18 +71,23 @@ func (m *Model) log_pFeaturesGivenKT_distribution(dist []float64, fs [][2]int, t
 
 
 func (m *Model) pCategoryGivenT_distribution(dist []float64, time int) {
-  for k:=0 ; k<m.Parameters.Num_categories ; k++ {
-    dist[k] = m.Phi[0].Get(time,k)
+  for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+    for k:=0 ; k<m.Parameters.Num_categories ; k++ {
+      dist[k] = m.Phi[g][0].Get(time,k)
+    }
   }
 }
 
 
 
+
 func (m *Model) log_pCategoryGivenT_distribution(dist []float64, time int) {
-  for k:=0 ; k<m.Parameters.Num_categories ; k++ {
-    dist[k] = math.Log(m.Phi[0].Get(time,k))
-    if math.IsNaN(dist[k]) {
-      fmt.Println("NaN at p(s|t)[s]", k, m.Phi[k].RowCopy(time))
+  for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+    for k:=0 ; k<m.Parameters.Num_categories ; k++ {
+      dist[k] = math.Log(m.Phi[g][0].Get(time,k))
+      if math.IsNaN(dist[k]) {
+        fmt.Println("NaN at p(s|t)[s]", k, m.Phi[g][k].RowCopy(time))
+      }
     }
   }
 }

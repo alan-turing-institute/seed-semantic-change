@@ -22,11 +22,14 @@ func (m *Model) Predict(corpus *data.Corpus) (loglikelihood float64) {
   for _,doc := range(corpus.Documents) {
     /* compute log p(d|model) */
     doc_likelihood := make([]float64, m.Parameters.Num_categories)
-    for k:=0 ; k<m.Parameters.Num_categories ; k++ {
-      /* compute log p(d|k) */
-      doc_likelihood[k] += math.Log(m.Phi[0].Get(t_minus_1,k))
-      for _,w := range(doc.Context) {
-        doc_likelihood[k] += (math.Log(m.Psi[k].Get(t_minus_1,w[0]))) * float64(w[1])
+
+    for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+      for k:=0 ; k<m.Parameters.Num_categories ; k++ {
+        /* compute log p(d|k) */
+        doc_likelihood[k] += math.Log(m.Phi[g][0].Get(t_minus_1,k))
+        for _,w := range(doc.Context) {
+          doc_likelihood[k] += (math.Log(m.Psi[k].Get(t_minus_1,w[0]))) * float64(w[1])
+        }
       }
     }
     loglikelihood += math.Log(util.SumExp(doc_likelihood))

@@ -98,20 +98,22 @@ func (m *Model) Top_features_given_k_t (k, t int, mode string) (psi []float64, i
  * ***************************************************** */
 
 func (m *Model) P_t_given_doc(document *data.Document) (dist []float64) {
-  dist = make([]float64, m.Phi[0].Rows())
-  for t:=0 ; t<m.Phi[0].Rows() ; t++ {
-    p_doc_given_t := 1.0
-    for _,f := range(document.Context) {
-      p_w_given_t := 0.0
-      for k:=0 ; k<m.Phi[0].Cols() ; k++ {
-        p_k_given_t  := m.Phi[0].Get(t,k)
-        p_w_given_st := m.Psi[k].Get(t,f[0])
-        p_w_given_t  += p_k_given_t * p_w_given_st
-        // 	fmt.Println(p_k_given_t, p_w_given_st, p_w_given_t)
+  for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+    dist = make([]float64, m.Phi[g][0].Rows())
+    for t:=0 ; t<m.Phi[g][0].Rows() ; t++ {
+      p_doc_given_t := 1.0
+      for _,f := range(document.Context) {
+        p_w_given_t := 0.0
+        for k:=0 ; k<m.Phi[g][0].Cols() ; k++ {
+          p_k_given_t  := m.Phi[g][0].Get(t,k)
+          p_w_given_st := m.Psi[k].Get(t,f[0])
+          p_w_given_t  += p_k_given_t * p_w_given_st
+          // 	fmt.Println(p_k_given_t, p_w_given_st, p_w_given_t)
+        }
+        p_doc_given_t *= p_w_given_t
       }
-      p_doc_given_t *= p_w_given_t
+      dist[t] = p_doc_given_t
     }
-    dist[t] = p_doc_given_t
   }
   return util.Normalize(dist, floats.Sum(dist))
 }
@@ -123,10 +125,12 @@ func (m *Model) P_t_given_doc(document *data.Document) (dist []float64) {
  * Output: p(w|s) = \sum_t p(w|t,s)                      *
  * ***************************************************** */
 func (m *Model) P_w_given_s(k int) (dist []float64) {
-  dist = make([]float64, m.Psi[0].Cols())
-  for w:=0 ; w<m.Psi[0].Cols() ; w++ {
-    for t:=0 ; t<m.Phi[0].Rows() ; t++ {
-      dist[w] += m.Psi[k].Get(t,w)
+  for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+    dist = make([]float64, m.Psi[0].Cols())
+    for w:=0 ; w<m.Psi[0].Cols() ; w++ {
+      for t:=0 ; t<m.Phi[g][0].Rows() ; t++ {
+        dist[w] += m.Psi[k].Get(t,w)
+      }
     }
   }
   return util.Normalize(dist, floats.Sum(dist))
@@ -138,17 +142,19 @@ func (m *Model) P_w_given_s(k int) (dist []float64) {
  * Output: p(w|s) = \sum_t p(w|t,s)                      *
  * ***************************************************** */
 func (m *Model) P_t_given_w(document *data.Document) (dist []float64) {
-  dist = make([]float64, m.Phi[0].Rows())
-  for t:=0 ; t<m.Phi[0].Rows() ; t++ {
-    p_doc_given_t := 0.0
-    for k:=0 ; k<m.Phi[0].Cols() ; k++ {
-      p_w_given_tk := 1.0
-      for _,f := range(document.Context) {
-        p_w_given_tk  *= m.Psi[k].Get(t,f[0])
+  for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+    dist = make([]float64, m.Phi[g][0].Rows())
+    for t:=0 ; t<m.Phi[g][0].Rows() ; t++ {
+      p_doc_given_t := 0.0
+      for k:=0 ; k<m.Phi[g][0].Cols() ; k++ {
+        p_w_given_tk := 1.0
+        for _,f := range(document.Context) {
+          p_w_given_tk  *= m.Psi[k].Get(t,f[0])
+        }
+        p_doc_given_t += p_w_given_tk
       }
-      p_doc_given_t += p_w_given_tk
+      dist[t] = p_doc_given_t
     }
-    dist[t] = p_doc_given_t
   }
   return util.Normalize(dist, floats.Sum(dist))
 }

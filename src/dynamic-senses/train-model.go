@@ -180,11 +180,11 @@ func train_model(store, mode string, parameters map[string]string) {
                 /*** print model ***/
                 if strings.ToLower(store) == "true" && err == nil {
                     model_string := s.Model.Print_categories(10, s.Corpus.TargetFeatures.IDtoString, s.Corpus.ContextFeatures.IDtoString)
-                    fmt.Println("...storing model")
+                    //fmt.Println("...storing model")
                     _, err = tmp_outputfile.WriteString(model_string)
                     _, err = tmp_outputfile.WriteString(fmt.Sprintf("\n\n-----------------------\n kappa_c %f , kappa_f %f", s.Model.Parameters.Kappa_c, s.Model.Parameters.Kappa_f))
                     if err != nil{panic(err)}
-                    s.Model.Store(path.Join(tmp_outputdir, "model.bin"))
+                    //s.Model.Store(path.Join(tmp_outputdir, "model.bin"))  //TODO: do not save model for now
                 }
                 fmt.Println(word, "done!")
             }

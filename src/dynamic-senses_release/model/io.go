@@ -23,7 +23,7 @@ type model_storable struct {
   LogNormals_k map[int][][]float64
   //LogNormals_f map[int][][]float64 // TODO old
   LogNormals_f []map[int][][]float64 // TODO new
-  Phi        map[int][][]float64
+  Phi        []map[int][][]float64
   Psi        map[int][][]float64
   N_k        map[int][][]float64
   N_sum_k    map[int][][]float64
@@ -37,7 +37,16 @@ func (model *Model) to_storable() (m *model_storable) {
   m                 = new(model_storable)
   m.Parameters      = model.Parameters
   m.LogNormals_k    = map[int][][]float64{0:model.LogNormals_k[0].Arrays()}
-  m.Phi             = map[int][][]float64{0:model.Phi[0].Arrays()}
+
+
+  for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+    print("storing g ", g, "\n")
+    m.Phi[g]            = map[int][][]float64{0:model.Phi[g][0].Arrays()}
+  }
+  print("ok up to here")
+
+
+
   m.N_k             = map[int][][]float64{0:model.N_k[0].DenseMatrix().Arrays()}
   m.N_sum_k         = map[int][][]float64{0:model.N_sum_k[0].DenseMatrix().Arrays()}
 
@@ -68,7 +77,11 @@ func (model *model_storable) to_model() (m *Model) {
   m                 = New_model(model.Parameters)
   m.Parameters      = model.Parameters
   m.LogNormals_k    = map[int]*matrix.DenseMatrix{0:matrix.MakeDenseMatrixStacked(model.LogNormals_k[0])}
-  m.Phi             = map[int]*matrix.DenseMatrix{0:matrix.MakeDenseMatrixStacked(model.Phi[0])}
+
+  for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+    m.Phi[g]             = map[int]*matrix.DenseMatrix{0:matrix.MakeDenseMatrixStacked(model.Phi[g][0])}
+  }
+
   m.N_k             = map[int]*matrix.SparseMatrix{0:matrix.MakeDenseMatrixStacked(model.N_k[0]).SparseMatrix()}
   m.N_sum_k         = map[int]*matrix.SparseMatrix{0:matrix.MakeDenseMatrixStacked(model.N_sum_k[0]).SparseMatrix()}
 
