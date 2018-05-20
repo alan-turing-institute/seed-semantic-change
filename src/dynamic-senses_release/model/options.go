@@ -8,6 +8,7 @@ type Model_parameters struct {
   Kappa_c      float64
   /* other fixed parameters */
   Num_categories   int
+  Num_genres       int
   /* misc known counts */
   Num_documents    int
   Num_concepts     int
@@ -16,7 +17,7 @@ type Model_parameters struct {
 }
 
 
-func New_model_parameters(a0, b0, kappa_f, kappa_c float64, numD, numT, numTime, numTgt, numCxt int) (mp *Model_parameters) {
+func New_model_parameters(a0, b0, kappa_f, kappa_c float64, numD, numT, numG, numTime, numTgt, numCxt int) (mp *Model_parameters) {
   mp = new(Model_parameters)
   mp.A0   = a0
   mp.B0    = b0
@@ -24,6 +25,7 @@ func New_model_parameters(a0, b0, kappa_f, kappa_c float64, numD, numT, numTime,
   mp.Kappa_c = kappa_c
   mp.Num_documents    = numD
   mp.Num_categories   = numT
+  mp.Num_genres       = numG
   mp.Num_concepts     = numTgt
   mp.Num_features     = numCxt
   mp.Num_timestamps   = numTime
@@ -31,7 +33,7 @@ func New_model_parameters(a0, b0, kappa_f, kappa_c float64, numD, numT, numTime,
 }
 
 // func (m *Model) GetParameters() (*Model_parameters) {
-//  return m.Parameters 
+//  return m.Parameters
 // }
 
 

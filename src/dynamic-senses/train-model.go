@@ -34,6 +34,8 @@ func train_model(store, mode string, parameters map[string]string) {
     concept_path    = parameters["target_words"]
     output_path     = parameters["output_path"]
 
+    const num_genres = 1   /// TODO: read the correct number of genres
+
 
     /* ******************************************************************************************** */
     /* ***********          *************        parameters      **********         *************   */
@@ -139,9 +141,12 @@ func train_model(store, mode string, parameters map[string]string) {
                 }
 
                 /** initialize model **/
-                parameters := model.New_model_parameters(a0, b0, kappaF, kappaK, len(word_corpus.Documents), num_top, max_slice_id, len(word_corpus.TargetFeatures.IDtoString), len(word_corpus.ContextFeatures.IDtoString))
+                parameters := model.New_model_parameters(a0, b0, kappaF, kappaK, len(word_corpus.Documents), num_top, num_genres, max_slice_id, len(word_corpus.TargetFeatures.IDtoString), len(word_corpus.ContextFeatures.IDtoString))
                 m          := model.New_model(parameters)
                 m.Initialize_batch(word_corpus)
+
+                println("Number of meanings:", m.Parameters.Num_categories)
+                println("Number of genres:", m.Parameters.Num_genres)
 
                 /** initialize sampler **/
                 s = gibbs.New_sampler()

@@ -43,11 +43,18 @@ func New_model(parameters *Model_parameters) (m *Model) {
   m.N_sum_k[0]      = matrix.ZerosSparse(m.Parameters.Num_timestamps, 1)
   m.N_k_f           = make(map[int]*matrix.SparseMatrix, parameters.Num_categories)
   m.N_k_sum_f       = make(map[int]*matrix.SparseMatrix, parameters.Num_categories)
-  for k:=0 ; k<parameters.Num_categories ; k++ {
-    m.LogNormals_f[k] = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_features)
-    m.Psi[k]          = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_features)
-    m.N_k_f[k]        = matrix.ZerosSparse(m.Parameters.Num_timestamps, m.Parameters.Num_features)
-    m.N_k_sum_f[k]    = matrix.ZerosSparse(m.Parameters.Num_timestamps,1)
+  for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+    print("genre index: ", g, "\n")
+    //m.LogNormals_f[g] = make(map[int]*matrix.DenseMatrix, parameters.Num_categories)
+    //m.Psi[g] = make(map[int]*matrix.DenseMatrix, parameters.Num_categories)
+    //m.N_k_f[g] = make(map[int]*matrix.SparseMatrix, parameters.Num_categories)
+    //m.N_k_sum_f[g] = make(map[int]*matrix.SparseMatrix, parameters.Num_categories)
+    for k:=0 ; k<parameters.Num_categories ; k++ {
+      m.LogNormals_f[k] = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_features)
+      m.Psi[k]          = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_features)
+      m.N_k_f[k]        = matrix.ZerosSparse(m.Parameters.Num_timestamps, m.Parameters.Num_features)
+      m.N_k_sum_f[k]    = matrix.ZerosSparse(m.Parameters.Num_timestamps,1)
+    }
   }
   return
 }
