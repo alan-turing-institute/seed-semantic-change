@@ -1,0 +1,11 @@
+dic_of_genres = dict()
+dic_of_genres["Comedy"] = 0
+dic_of_genres["Essays"] = 1
+dic_of_genres["Letters"] = 2
+dic_of_genres["Narrative"] = 3
+dic_of_genres["Oratory"] = 4
+dic_of_genres["Philosophy"] = 5
+dic_of_genres["Poetry"] = 6
+dic_of_genres["Religion"] = 7
+dic_of_genres["Technical"] = 8
+dic_of_genres["Tragedy"] = 9

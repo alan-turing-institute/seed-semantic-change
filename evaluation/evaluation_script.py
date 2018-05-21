@@ -40,9 +40,10 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 
 genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
-s_senses = io.open(dir_expert+"/senses_59339_142.txt","r")  # expert senses annotation
+s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # expert senses annotation
 k_senses = io.open(dir_in+"/kosmos_simon_k15_win/59339/output.dat","r") # model output
-parameter_file = io.open(dir_parameter+"/parameters_v27.txt","r")
+k_senses = io.open(dir_in+"/example_3genre_output.dat","r")
+parameter_file = io.open(dir_parameter+"/parameters_v100_test.txt","r")
 
 bugfix = 0
 
@@ -1367,7 +1368,7 @@ for key,vals in period_relative.items():
 lines_output_plot = output_senses.split("===============  per time  ===============")[1].split("\n")
 period_relative_model = dict()
 
-
+test_simon=0
 for i in range(0,len(lines_output_plot)):
     if lines_output_plot[i][0:5] == "Time=":  # if a line starts with "time" we take it into account
         for x in range(i,i+number_of_the_k+1): # for every "number of  the k" lines that follow
@@ -1383,13 +1384,17 @@ for i in range(0,len(lines_output_plot)):
             if lines_output_plot[x][0:5] != "Time=":  # if a line doesn't start with "time" but is considered(cf line3)
                 ligne = re.split("\s{3,}",lines_output_plot[x]) # we take the first part of the line (importance of that K)
                 
+                print(lines_output_plot[x])
+                print("THIS BUGS",ligne)
                 
                 templist.append(float(ligne[0]))
-            
+                
+
+
             #print(period,templist)
             
         period_relative_model[str(period)] = templist
-
+        #print("test_simon",test_simon)
 
 
 # ## plotting model output (draft)
