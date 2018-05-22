@@ -52,8 +52,8 @@ ________________
 
 ##### Clean target corpora (needed for loglikelihood)
 
-rm -r ./greek_input/subcorpora/training/*_target_corpora/*
-rm -r ./greek_input/subcorpora/training/*_output/*
+rm -r ./greek_input/subcorpora/training/\*_target_corpora/\*        
+rm -r ./greek_input/subcorpora/training/\*_output/\*      
 
 
 ##### RUN CODE FOR EACH WORD (most expensive part)
