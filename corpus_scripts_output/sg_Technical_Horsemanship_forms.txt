@@ -387,4 +387,782 @@
 -355	γράφω βραχύς κράτιστος ἀκοντίζω 
 -355	προβάλλω ἀριστερός ἐπανάγω δεξιός ἐξανίστημι μηρός μικρός ἐπανακύπτω λόγχη ἀφίημι σφοδρός μακρός φέρω ἀκόντιον εὔστοχος σκοπός ἀφίημι ἀεί ὁράω λόγχη 
 -355	ἰδιώτης ὑπόμνημα μάθημα μελέτημα γράφω 
+-355	ἵππαρχος προσήκω οἶδα πράσσω ἕτερος λόγος δηλόω-355	None~None συμβαίνω	None~None πολύς	None~None χρόνος	None~None ἱππεύω	None~None οἴομαι	None~None ἔμπειρος	None~None ἱππικός	None~None γίγνομαι	None~None βούλομαι	None~None νέος	None~None φίλος	None~None δηλόω	None~None νομίζω	None~None ὀρθός	None~None ἵππος	None~None προσφέρω	None~None 
+-355	None~None συγγράφω	None~None Σίμων	None~None ἱππικός	None~None Ἐλευσίνιος	None~None Ἀθήνησιν	None~None ἵππος	None~None χάλκεος	None~None ἀνατίθημι	None~None βάθρον	None~None ἔργον	None~None ἐκτυπόω	None~None 
+-355	None~None ὅσος	None~None συντυγχάνω	None~None ταυτός	None~None γιγνώσκω	None~None ἐξαλείφω	None~None ἡμέτερος	None~None πολύς	None~None ἡδύς	None~None παραδίδωμι	None~None φίλος	None~None νομίζω	None~None ἀξιόπιστος	None~None ταυτός	None~None γιγνώσκω	None~None ἱππικός	None~None 
+-355	None~None ὅσος	None~None παραλείπω	None~None πειράω	None~None δηλόω	None~None 
+-355	None~None πρότερος	None~None γράφω	None~None ἥκιστος	None~None ἐξαπατάω	None~None ἱππωνία	None~None 
+-355	None~None ἀδάμαστος	None~None πώλης	None~None δῆλος	None~None σῶμα	None~None δέομαι	None~None δοκιμάζω	None~None 
+-355	None~None ψυχή	None~None πάνυ	None~None σαφής	None~None τεκμήριον	None~None παρέχω	None~None μήπω	None~None ἀναβαίνω	None~None 
+-355	None~None σῶμα	None~None πρότερος	None~None φημί	None~None χρή	None~None πούς	None~None σκοπάω	None~None 
+-355	None~None οἰκία	None~None ὄφελος	None~None ἀίω	None~None ἄνω	None~None πάνυ	None~None καλός	None~None ἔχω	None~None ὑπόκειμαι	None~None οἷος	None~None δέομαι	None~None θεμέλιος	None~None ἵππος	None~None πολεμιστήριος	None~None ὄφελος	None~None ἀίω	None~None ἀγαθός	None~None ἔχω	None~None κακόπους	None~None ἀίω	None~None 
+-355	None~None δύναμαι	None~None ἀγαθός	None~None χράομαι	None~None 
+-355	None~None πούς	None~None δοκιμάζω	None~None πρότερος	None~None ὄνυξ	None~None σκοπάω	None~None 
+-355	None~None παχύς	None~None πολύς	None~None λεπτός	None~None διαφέρω	None~None εὐποδία	None~None 
+-355	None~None ἔπειτα	None~None δέομαι	None~None λανθάνω	None~None πότερος	None~None ὁπλή	None~None ὑψηλός	None~None ἔμπροσθεν	None~None ὄπισθεν	None~None χαμηλός	None~None 
+-355	None~None ὑψηλός	None~None πρόσω	None~None δάπεδον	None~None ἔχω	None~None χελιδών	None~None καλέω	None~None ταπεινός	None~None ὅμοιος	None~None βαίνω	None~None ἰσχυρός	None~None μαλακός	None~None πούς	None~None βλαισός	None~None ἄνθρωπος	None~None 
+-355	None~None ψόφος	None~None φημί	None~None Σίμων	None~None δῆλος	None~None εὔπους	None~None καλός	None~None λέγω	None~None 
+-355	None~None κύμβαλον	None~None ψοφέω	None~None δάπεδον	None~None κόιλος	None~None ὁπλή	None~None 
+-355	None~None ἄρχω	None~None ἐντεῦθεν	None~None ἀνάπτω	None~None σῶμα	None~None 
+-355	None~None δέομαι	None~None ἄνω	None~None ὁπλή	None~None κάτος	None~None κυνήποδες	None~None ὀστέον	None~None ἄγαν	None~None ὀρθός	None~None αἴξ	None~None 
+-355	None~None ἀντίτυπος	None~None κόπτω	None~None ἀναβάτης	None~None παραπίμπραμαι	None~None μᾶλλον	None~None σκέλος	None~None 
+-355	None~None ἄγαν	None~None ταπεινός	None~None ὀστέον	None~None δέομαι	None~None 
+-355	None~None ψιλόω	None~None ἑλκέω	None~None κυνήποδες	None~None εἴτε	None~None βῶλος	None~None εἴτε	None~None λίθος	None~None ἐλαύνω	None~None ἵππος	None~None 
+-355	None~None κνημός	None~None ὀστέον	None~None παχύς	None~None χρή	None~None 
+-355	None~None στῆριγξ	None~None σῶμα	None~None 
+-355	None~None φλέψ	None~None σάρξ	None~None παχύς	None~None 
+-355	None~None σκληρός	None~None ἐλαύνω	None~None ἀνάγκη	None~None αἷμα	None~None πληρόω	None~None κρισσός	None~None γίγνομαι	None~None παχύνω	None~None σκέλος	None~None ἀφίστημι	None~None δέρμα	None~None 
+-355	None~None χαλάω	None~None πολλάκις	None~None περόνη	None~None ἀφίστημι	None~None χωλός	None~None ἀποδείκνυμι	None~None ἵππος	None~None 
+-355	None~None γόνυ	None~None βαδίζω	None~None πῶλος	None~None ὑγρός	None~None κάμπτω	None~None εἰκάζω	None~None ἱππεύω	None~None ὑγρός	None~None ἔχω	None~None σκέλος	None~None 
+-355	None~None πρόειμι	None~None χρόνος	None~None ὑγρός	None~None κάμπτω	None~None γόνυ	None~None 
+-355	None~None ὑγρός	None~None δίκαιος	None~None εὐδοκιμέω	None~None 
+-355	None~None ἄπταιστος	None~None ἄκοπος	None~None ἵππος	None~None σκληρός	None~None σκέλος	None~None παραχέω	None~None 
+-355	None~None μηρός	None~None ὠμοπλάτη	None~None παχύς	None~None ἰσχυρός	None~None εὐπρεπής	None~None ἀνήρ	None~None φαίνω	None~None 
+-355	None~None στέρνον	None~None πλατύς	None~None κάλλος	None~None ἰσχύς	None~None ἐπαλλάξ	None~None πολύς	None~None σκέλος	None~None φέρω	None~None εὐφυής	None~None 
+-355	None~None μείς	None~None στέρνον	None~None αὐχήν	None~None κάπρος	None~None προπετής	None~None φύω	None~None ἀλεκτρυών	None~None ὀρθός	None~None κορυφή	None~None ἥκω	None~None λαγαρός	None~None ἀίω	None~None συγκαμπή	None~None κεφαλή	None~None ὀστώδης	None~None μικρός	None~None σιαγών	None~None ἔχω	None~None 
+-355	None~None τράχηλος	None~None ἀναβάτης	None~None ἀίω	None~None ὄμμα	None~None πούς	None~None ὁράω	None~None 
+-355	None~None βιάζω	None~None ἥκιστος	None~None δύναμαι	None~None σχῆμα	None~None ἔχω	None~None πάνυ	None~None θυμοειδής	None~None ἀίω	None~None 
+-355	None~None ἐγκάμπτω	None~None ἐκτείνω	None~None τράχηλος	None~None κεφαλή	None~None βιάζω	None~None ἵππος	None~None ἐπιχειρέω	None~None 
+-355	None~None σκοπάω	None~None χρή	None~None ἀμφότερος	None~None μαλακός	None~None γνάθος	None~None σκληρός	None~None ἕτερος	None~None 
+-355	None~None ἑτερόγναθος	None~None πολύς	None~None ὅμοιος	None~None γνάθος	None~None ἔχω	None~None γίγνομαι	None~None 
+-355	None~None μείς	None~None ἐξόφθαλμος	None~None ἐγείρω	None~None μᾶλλον	None~None φαίνω	None~None κοιλόφθαλμος	None~None πλέος	None~None ὁράω	None~None 
+-355	None~None μυκτήρ	None~None ἀναπετάννυμι	None~None συμπίτνω	None~None εὔπνοος	None~None ἅμα	None~None γοργός	None~None ἵππος	None~None ἀποδείκνυμι	None~None 
+-355	None~None ὀργίζω	None~None ἵππος	None~None ἵππος	None~None ἱππασία	None~None θυμόω	None~None εὐρύνω	None~None μᾶλλον	None~None μυκτήρ	None~None 
+-355	None~None κορυφή	None~None μέγας	None~None οὖς	None~None μικρός	None~None ἱππώδης	None~None κεφαλή	None~None ἀποφαίνω	None~None 
+-355	None~None ὑψηλός	None~None ἀκρωμία	None~None ἀναβάτης	None~None ἀσφαλής	None~None ἕδρα	None~None ὦμος	None~None ἰσχυρός	None~None πρόσφυσις	None~None παρέχω	None~None 
+-355	None~None ῥάχις	None~None μείς	None~None διπλόος	None~None ἁπλόος	None~None ἐγκάθημαι	None~None μαλακός	None~None εἶδον	None~None ἡδύς	None~None 
+-355	None~None πλευρά	None~None βαθύς	None~None γαστήρ	None~None ὀγκώδης	None~None ἅμα	None~None εὔεδρος	None~None ἰσχυρός	None~None εὔχιλος	None~None πολύς	None~None ἵππος	None~None παρέχω	None~None 
+-355	None~None ὀσφύς	None~None ὅσος	None~None πλατύς	None~None βραχύς	None~None τοσοῦτος	None~None ῥάιος	None~None ἵππος	None~None πρόσθεν	None~None αἴρω	None~None ῥάιος	None~None ὄπισθεν	None~None προσάγω	None~None 
+-355	None~None κενεών	None~None μικρός	None~None φαίνω	None~None μέγας	None~None μέρος	None~None αἰσχύνω	None~None μέρος	None~None ἀσθενής	None~None δύσφορος	None~None ἵππος	None~None παρέχω	None~None 
+-355	None~None ἰσχίον	None~None πλατύς	None~None χρή	None~None εὔσαρκος	None~None ἀκόλουθος	None~None πλευρά	None~None στέρνον	None~None 
+-355	None~None στερεός	None~None κοῦφος	None~None δρόμος	None~None ἀίω	None~None ὀξύς	None~None μᾶλλον	None~None ἵππος	None~None παρέχω	None~None 
+-355	None~None μηρός	None~None μείς	None~None οὐρά	None~None ἅμα	None~None πλατεῖα	None~None γραμμή	None~None διορίζω	None~None ἔχω	None~None ὄπισθεν	None~None σκέλος	None~None πολύς	None~None ὑποθέω	None~None 
+-355	None~None ποιέω	None~None ἅμα	None~None γοργός	None~None ἰσχυρός	None~None ἔχω	None~None ὑπόβασις	None~None ἱππασία	None~None βελτίων	None~None 
+-355	None~None τεκμαίρομαι	None~None ἄνθρωπος	None~None 
+-355	None~None γῆ	None~None αἴρω	None~None βούλομαι	None~None διαβαίνω	None~None μᾶλλον	None~None συμβαίνω	None~None ἐπιχειρέω	None~None αἴρω	None~None 
+-355	None~None ὄρχις	None~None δέομαι	None~None μέγας	None~None ἵππος	None~None ἔχω	None~None πώλης	None~None κατεῖδον	None~None 
+-355	None~None μείς	None~None κάτωθεν	None~None ἀστράγαλος	None~None κνημός	None~None κυνήποδες	None~None ὁπλέω	None~None ταυτός	None~None λέγω	None~None ἔμπροσθεν	None~None 
+-355	None~None γράφω	None~None βούλομαι	None~None μέγεθος	None~None ἥκιστος	None~None ἀποτυγχάνω	None~None 
+-355	None~None κνήμη	None~None εὐθύς	None~None γίγνομαι	None~None ὑψηλός	None~None μέγας	None~None γίγνομαι	None~None 
+-355	None~None πρόειμι	None~None χρόνος	None~None τετράπους	None~None κνήμη	None~None μέγεθος	None~None μάλα	None~None αὐξάνω	None~None σύμμετρος	None~None ἔχω	None~None συναυξάνω	None~None σῶμα	None~None 
+-355	None~None εἶδος	None~None πώλης	None~None δοκιμάζω	None~None μάλιστα	None~None δοκέω	None~None τυγχάνω	None~None εὔπους	None~None ἰσχυρός	None~None εὔσαρκος	None~None εὐσχήμων	None~None εὐμεγέθης	None~None 
+-355	None~None αὐξάνω	None~None μεταβάλλω	None~None θαρσέω	None~None δοκιμάζω	None~None 
+-355	None~None πολύς	None~None πλείων	None~None εὔχρηστος	None~None αἰσχρός	None~None αἰσχρός	None~None γίγνομαι	None~None 
+-355	None~None δέομαι	None~None πωλεύω	None~None δοκέω	None~None γραπτέος	None~None 
+-355	None~None τάσσω	None~None πόλις	None~None ἱππεύω	None~None χρῆμα	None~None ἱκανός	None~None πόλις	None~None ἐλάχιστος	None~None μετέχω	None~None 
+-355	None~None πολύς	None~None κρείσσων	None~None πωλοδαμνέω	None~None νέος	None~None εὐεξία	None~None ἐπιμελέομαι	None~None ἱππικός	None~None ἐφίστημι	None~None ἤδη	None~None ἱππάζομαι	None~None μελέτη	None~None πρέσβυς	None~None οἶκος	None~None φίλος	None~None πολιτικός	None~None πολεμικός	None~None μᾶλλον	None~None πώλευσις	None~None διατρίβω	None~None 
+-355	None~None γιγνώσκω	None~None πωλεία	None~None δῆλος	None~None ἐκδίδωμι	None~None πῶλος	None~None 
+-355	None~None χρή	None~None παῖς	None~None τέχνη	None~None ἐκδίδωμι	None~None συγγράφω	None~None δέησις	None~None ἐφίστημι	None~None ἀποδίδωμι	None~None ἐκδίδωμι	None~None 
+-355	None~None ὑπόμνημα	None~None πωλοδάμνης	None~None δέομαι	None~None ἐπιμελέομαι	None~None μέλλω	None~None μισθός	None~None ἀπολαμβάνω	None~None 
+-355	None~None πρᾶος	None~None χειροήθης	None~None φιλάνθρωπος	None~None πῶλος	None~None ἐκδίδωμι	None~None πωλοδάμνης	None~None ἐπιμελητέον	None~None 
+-355	None~None οἴκοι	None~None πλεῖστος	None~None ἱππόκομος	None~None ἀποτελέω	None~None ἐφίστημι	None~None πεινάω	None~None διψάω	None~None μυωπίζω	None~None παρασκευάζω	None~None ἐρημία	None~None γίγνομαι	None~None πῶλος	None~None ἐσθίω	None~None πίνω	None~None λυπέω	None~None ἀπαλλάσσω	None~None ἄνθρωπος	None~None 
+-355	None~None γίγνομαι	None~None ἀνάγκη	None~None μόνος	None~None φιλέω	None~None ποθέω	None~None πῶλος	None~None ἄνθρωπος	None~None 
+-355	None~None ἅπτω	None~None χρή	None~None ψηλαφάω	None~None ἵππος	None~None μάλιστα	None~None ἥδομαι	None~None 
+-355	None~None λάσιος	None~None ἥκιστος	None~None δύναμαι	None~None ἵππος	None~None λυπέω	None~None ἐπεπικουρέω	None~None 
+-355	None~None προστάσσω	None~None ἱπποκόμος	None~None ὄχλος	None~None διάγω	None~None παντοδαπός	None~None ὄψις	None~None παντοδαπός	None~None ψόφος	None~None πλησιάζω	None~None 
+-355	None~None ὅσος	None~None πῶλος	None~None φοβέω	None~None χαλεπαίνω	None~None δέομαι	None~None πραύνω	None~None διδάσκω	None~None δεινός	None~None 
+-355	None~None πωλεία	None~None ἀρκέω	None~None δοκέω	None~None ἰδιώτης	None~None εἶπον	None~None τοσοῦτος	None~None πράσσω	None~None 
+-355	None~None ἱππάζομαι	None~None ὠνέομαι	None~None ὑπόμνημα	None~None γράφω	None~None δέομαι	None~None καταμανθάνω	None~None μέλλω	None~None ἐξαπατάω	None~None ἱππωνία	None~None 
+-355	None~None πρότερος	None~None λανθάνω	None~None ἡλικία	None~None 
+-355	None~None μηκέτι	None~None ἔχω	None~None γνώμων	None~None ἐλπίς	None~None εὐφραίνω	None~None ὅμοιος	None~None εὐαπάλλακτος	None~None γίγνομαι	None~None 
+-355	None~None ὁπότε	None~None νεότης	None~None σαφής	None~None δέομαι	None~None λανθάνω	None~None πῶς	None~None στόμα	None~None δέχομαι	None~None χαλινός	None~None πῶς	None~None οὖς	None~None κορυφαία	None~None 
+-355	None~None ἥκιστος	None~None λανθάνω	None~None ὁράω	None~None ὠνέομαι	None~None ἐμβάλλω	None~None χαλινός	None~None ὁράω	None~None ἐξαιρέω	None~None 
+-355	None~None ἔπειτα	None~None προσέχω	None~None δέομαι	None~None νόος	None~None πῶς	None~None νῶτον	None~None δέχομαι	None~None ἀναβάτης	None~None 
+-355	None~None πολύς	None~None ἵππος	None~None χαλεπός	None~None προσίημι	None~None πρόδηλος	None~None προσίημι	None~None πονέω	None~None ἀναγκάζω	None~None 
+-355	None~None σκεπτέος	None~None ἀναβαίνω	None~None ἐθέλω	None~None ἵππος	None~None ἀποχωρέω	None~None ἵστημι	None~None ἱππεύω	None~None ἐκφέρω	None~None 
+-355	None~None κακός	None~None ἀγωγή	None~None οἴκαδε	None~None ἄφοδος	None~None φεύγω	None~None ἱππασία	None~None 
+-355	None~None ἑτερόγναθος	None~None μηνύω	None~None πέδη	None~None καλέω	None~None ἱππασία	None~None πολύς	None~None μᾶλλον	None~None μεταβάλλω	None~None ἱππασία	None~None 
+-355	None~None πολύς	None~None ἐγχειρέω	None~None ἐκφέρω	None~None ἅμα	None~None συμβαίνω	None~None ἄδικος	None~None γνάθος	None~None οἶκος	None~None ἐκφορά	None~None 
+-355	None~None δέομαι	None~None οἶδα	None~None ἀφίημι	None~None τάχος	None~None ἀναλαμβάνω	None~None βραχύς	None~None ἀποστρέφω	None~None ἐθέλω	None~None 
+-355	None~None ἀγαθός	None~None ἄπειρος	None~None πληγή	None~None ἐγείρω	None~None ἐθέλω	None~None ὅμοιος	None~None πείθω	None~None 
+-355	None~None ἄχρηστος	None~None οἰκέτης	None~None στράτευμα	None~None ἀπειθής	None~None 
+-355	None~None ἵππος	None~None ἀπειθής	None~None μόνος	None~None ἄχρηστος	None~None πολλάκις	None~None ὅσος	None~None προδότης	None~None διαπράσσω	None~None 
+-355	None~None πολεμιστήριος	None~None ἵππος	None~None ὑποτίθημι	None~None ὠνέομαι	None~None ληπτέος	None~None πεῖρα	None~None ὅσος	None~None πόλεμος	None~None πεῖρα	None~None λαμβάνω	None~None 
+-355	None~None τάφρος	None~None διαπηδάω	None~None τειχίον	None~None ὑπερβαίνω	None~None ὄχθος	None~None ἀνορούω	None~None ὄχθος	None~None καθάλλομαι	None~None 
+-355	None~None ἀνάντομαι	None~None πρανής	None~None πλάγιον	None~None ἐλαύνω	None~None πεῖρα	None~None λαμβάνω	None~None 
+-355	None~None ψυχή	None~None καρτερός	None~None σῶμα	None~None ὑγιής	None~None δοκιμάζω	None~None 
+-355	None~None καλός	None~None πάνυ	None~None ποιέω	None~None ἀποδοκιμαστέος	None~None 
+-355	None~None πολύς	None~None δύναμαι	None~None ἄπειρος	None~None ἐλλείπω	None~None 
+-355	None~None μανθάνω	None~None ἐθίζω	None~None μελετάω	None~None καλός	None~None ποιέω	None~None ἄλλως	None~None ὑγιής	None~None κακός	None~None 
+-355	None~None ὑποπτάω	None~None φύσις	None~None φυλακτέος	None~None 
+-355	None~None ὑπέρφοβος	None~None βλάπτω	None~None πολέμιος	None~None ἀίω	None~None ἀναβάτης	None~None σφάλλω	None~None πολλάκις	None~None χαλεπός	None~None ἐμβάλλω	None~None 
+-355	None~None δέομαι	None~None χαλεπότης	None~None ἔχω	None~None ἵππος	None~None καταμανθάνω	None~None εἴτε	None~None ἵππος	None~None εἴτε	None~None ἄνθρωπος	None~None δυσγάργαλις	None~None ἀίω	None~None 
+-355	None~None χαλεπός	None~None κτάομαι	None~None γίγνομαι	None~None 
+-355	None~None χαλίνωσις	None~None ἀνάβασις	None~None ἀποκωλύω	None~None νεῦμα	None~None πολύς	None~None μᾶλλον	None~None καταμανθάνω	None~None πονέω	None~None ἤδη	None~None ἵππος	None~None πάλιν	None~None πειράω	None~None ποιέω	None~None ταυτός	None~None ὅσος	None~None πρίν	None~None ἄρχω	None~None ἱππεύω	None~None 
+-355	None~None ὅσος	None~None πονέω	None~None ἐθέλω	None~None πάλιν	None~None ὑποδύομαι	None~None πόνος	None~None ἱκανός	None~None τεκμήριον	None~None παρέχω	None~None ψυχή	None~None καρτερός	None~None 
+-355	None~None συναιρέω	None~None εἶπον	None~None εὔπους	None~None ἀίω	None~None πρᾶος	None~None ἀρκεόντως	None~None ποδώκης	None~None ἐθέλω	None~None δύναμαι	None~None πόνος	None~None ὑποφέρω	None~None πείθω	None~None μάλιστα	None~None ἐοικότως	None~None ἄλυπος	None~None ἀίω	None~None σωτήριος	None~None ἀναβάτης	None~None πολεμικός	None~None 
+-355	None~None βλακεία	None~None ἔλασις	None~None πολύς	None~None δέομαι	None~None ὑπέρθυμος	None~None πολύς	None~None θωπεία	None~None πραγματεία	None~None ἀσχολία	None~None χείρ	None~None ἀναβάτης	None~None παρέχω	None~None ἀθυμία	None~None κίνδυνος	None~None 
+-355	None~None ἄγαμαι	None~None ἵππος	None~None πρίαμαι	None~None οἴκαδε	None~None ἄγω	None~None καλός	None~None οἰκία	None~None σταθμόν	None~None ὅπου	None~None πλειστάκις	None~None δεσπότης	None~None ὁράω	None~None ἵππος	None~None 
+-355	None~None ἀγαθός	None~None κατασκευάζω	None~None ἱππών	None~None μᾶλλον	None~None οἷος	None~None ἵππος	None~None σῖτος	None~None κλέπτω	None~None φάτνη	None~None δεσπότης	None~None ταμιεῖον	None~None 
+-355	None~None ἀμελέω	None~None δοκέω	None~None ἀμελέω	None~None 
+-355	None~None δῆλος	None~None κίνδυνος	None~None σῶμα	None~None ἵππος	None~None δεσπότης	None~None παρακατατίθεμαι	None~None 
+-355	None~None μόνος	None~None κλέπτω	None~None σῖτος	None~None ἀγαθός	None~None ἐχυρός	None~None ἱππών	None~None ἐκκομίζω	None~None σῖτος	None~None ἵππος	None~None φανερός	None~None γίγνομαι	None~None 
+-355	None~None αἰσθάνομαι	None~None γιγνώσκω	None~None σῶμα	None~None ὑπεραιμέω	None~None δέομαι	None~None θεραπεία	None~None κόπος	None~None ἔνειμι	None~None δέομαι	None~None ἀνάπαυσις	None~None κριθίασις	None~None ἀρρωστία	None~None ὑποδύομαι	None~None 
+-355	None~None ἄνθρωπος	None~None ἵππος	None~None ἄρχω	None~None εὐίατος	None~None ἐνσκιρόομαι	None~None ἐξαμαρτάνω	None~None νόσημα	None~None 
+-355	None~None ἵππος	None~None σῖτος	None~None γύμνασις	None~None ἐπιμελητέον	None~None σῶμα	None~None ἰσχύω	None~None πούς	None~None ἀσκητέος	None~None 
+-355	None~None ὑγρός	None~None λεῖος	None~None στάθμη	None~None λυμαίνομαι	None~None εὐφυής	None~None ὁπλή	None~None 
+-355	None~None ὑγρός	None~None ἀπόρρυτος	None~None λεῖος	None~None λίθος	None~None ἔχω	None~None κατορύσσω	None~None προσάλληλος	None~None παραπλήσιος	None~None ὁπλή	None~None μέγεθος	None~None σταθμόν	None~None ἐφίστημι	None~None ἅμα	None~None στερεόω	None~None πούς	None~None 
+-355	None~None ἔπειτα	None~None μείς	None~None ἱπποκόμος	None~None ἐξακτέω	None~None ἵππος	None~None ὅπου	None~None ψήχω	None~None μεταδετέον	None~None ἄριστος	None~None φάτνη	None~None ἡδύς	None~None δεῖπνον	None~None εἶμι	None~None 
+-355	None~None ὧδε	None~None ἔξω	None~None σταθμός	None~None βέλτιστος	None~None ἀίω	None~None πούς	None~None καρτερύνω	None~None λίθος	None~None στρογγύλος	None~None ἀμφίδοχμος	None~None ὅσος	None~None μνααῖος	None~None ἄμαξα	None~None τέσσαρες	None~None πέντε	None~None χύδην	None~None καταβάλλω	None~None περιχειλόω	None~None σίδηρον	None~None σκεδάννυμι	None~None 
+-355	None~None ἵστημι	None~None ὁδός	None~None λιθώδης	None~None ἀεί	None~None μέρος	None~None ἥμερος	None~None πορεύω	None~None ἀνάγκη	None~None ψήχω	None~None χράομαι	None~None ὁπλή	None~None βαδίζω	None~None 
+-355	None~None χελιδών	None~None πούς	None~None χέω	None~None λίθος	None~None στερεόω	None~None 
+-355	None~None ὁπλή	None~None στερεός	None~None ἐπιμελητέον	None~None στόμα	None~None μαλακός	None~None ἐπιμελέομαι	None~None δέομαι	None~None 
+-355	None~None ἄνθρωπος	None~None σάρξ	None~None ἵππος	None~None στόμα	None~None ἁπαλύνω	None~None 
+-355	None~None ἱππικός	None~None ἀνήρ	None~None δοκέω	None~None ἱπποκόμος	None~None παιδεύω	None~None δέομαι	None~None ἵππος	None~None πράσσω	None~None 
+-355	None~None πρότερος	None~None ἐπιφατνίδιος	None~None φορβειά	None~None ἐφίστημι	None~None δέομαι	None~None μήποτε	None~None ἅμμα	None~None ποιέω	None~None ἔνθαπερ	None~None κορυφαία	None~None περιτίθημι	None~None 
+-355	None~None πολλάκις	None~None κνάω	None~None ἵππος	None~None φάτνη	None~None κεφαλή	None~None ἀσινής	None~None φορβειά	None~None οὖς	None~None πολλάκις	None~None ἕλκος	None~None ποιέω	None~None 
+-355	None~None ἑλκέω	None~None ἀνάγκη	None~None ἵππος	None~None χαλινόω	None~None ψήχω	None~None δύσκολος	None~None 
+-355	None~None ἀγαθός	None~None τάσσω	None~None ἱπποκόμος	None~None ἥμερος	None~None κόπρον	None~None ὑπόστρωμα	None~None ἵππος	None~None ἐκφέρω	None~None χωρίον	None~None 
+-355	None~None ποιέω	None~None ῥᾴδιος	None~None ἀπαλλάσσω	None~None ἅμα	None~None ἵππος	None~None ὠφελέω	None~None 
+-355	None~None οἶδα	None~None χρή	None~None ἱπποκόμος	None~None κημός	None~None περιτίθημι	None~None ἵππος	None~None ψῆξις	None~None καλίστρα	None~None ἐξάγω	None~None 
+-355	None~None ἀεί	None~None ὅποι	None~None ἀχαλίνωτος	None~None ἄγη	None~None κημόω	None~None δέομαι	None~None 
+-355	None~None κημός	None~None ἀναπνέω	None~None κωλύω	None~None δάκνω	None~None ἀίω	None~None 
+-355	None~None ἐπιβουλεύω	None~None περίκειμαι	None~None μᾶλλον	None~None ἐξαιρέω	None~None ἵππος	None~None 
+-355	None~None δεσμεύω	None~None ἵππος	None~None ἄνωθεν	None~None κεφαλή	None~None δέομαι	None~None 
+-355	None~None ὁπόσος	None~None δύσκολος	None~None πρόσωπον	None~None ἵππος	None~None ἐκνεύω	None~None φύω	None~None ἄνω	None~None 
+-355	None~None ἐκνεύω	None~None δέω	None~None χαλάω	None~None μᾶλλον	None~None διασπάω	None~None δεσμός	None~None 
+-355	None~None ψήχω	None~None ἄρχω	None~None κεφαλή	None~None χαίτη	None~None 
+-355	None~None καθαρός	None~None ἄνω	None~None μάταιος	None~None κάτος	None~None καθαίρω	None~None 
+-355	None~None ἔπειτα	None~None σῶμα	None~None κάθαρσις	None~None ὄργανον	None~None ἀνίστημι	None~None δέομαι	None~None θρίξ	None~None σοβέω	None~None κόνις	None~None φύσις	None~None θρίξ	None~None 
+-355	None~None ῥάχις	None~None θρίξ	None~None ὄργανον	None~None δέομαι	None~None ἅπτω	None~None χείρ	None~None τρίβω	None~None ἁπαλύνω	None~None φύσις	None~None κλίνω	None~None 
+-355	None~None ἥκιστος	None~None βλάπτω	None~None ἕδρα	None~None ἵππος	None~None 
+-355	None~None ὕδωρ	None~None καταπλύνω	None~None κεφαλή	None~None χρή	None~None 
+-355	None~None ὀστώδης	None~None σίδηρον	None~None ξύλον	None~None καθαίρω	None~None λυπέω	None~None ἵππος	None~None 
+-355	None~None προκόμιον	None~None χρή	None~None βρέχω	None~None 
+-355	None~None εὐμήκης	None~None θρίξ	None~None ὁράω	None~None κωλύω	None~None ἵππος	None~None ἀποσοβέω	None~None ὀφθαλμός	None~None λυπέω	None~None 
+-355	None~None θεός	None~None οἴομαι	None~None χρή	None~None δίδωμι	None~None θρίξ	None~None ἵππος	None~None μέγας	None~None ἄατος	None~None ὄνος	None~None ἡμίονος	None~None δίδωμι	None~None ἀλεξητήριος	None~None ὄμμα	None~None 
+-355	None~None οὐρά	None~None χαίτη	None~None πλύνω	None~None χρή	None~None αὐξάνω	None~None δέομαι	None~None θρίξ	None~None οὐρά	None~None πλεῖστος	None~None ἐξικνέομαι	None~None ἀποσοβέω	None~None ἵππος	None~None λυπέω	None~None τράχηλος	None~None ἀναβάτης	None~None ἄφθονος	None~None ἀντίληψις	None~None 
+-355	None~None δίδωμι	None~None θέα	None~None ἀγλαία	None~None ἵππος	None~None χαίτη	None~None προκόμιον	None~None οὐρά	None~None 
+-355	None~None τεκμήριον	None~None 
+-355	None~None ἀγελαῖος	None~None ἵππος	None~None ὅμοιος	None~None ὑπομένω	None~None ὄνος	None~None ὀχεία	None~None κομάω	None~None 
+-355	None~None ἀποκείρω	None~None ὀχεία	None~None ἵππος	None~None ὀνοβατέω	None~None 
+-355	None~None μείς	None~None σκέλος	None~None κατάπλυσις	None~None ἀφαιρέω	None~None 
+-355	None~None ὠφελέω	None~None βλάπτω	None~None ὁπλή	None~None ἥμερος	None~None βρέξις	None~None 
+-355	None~None γαστήρ	None~None ἄγαν	None~None κάθαρσις	None~None μειόω	None~None χρή	None~None 
+-355	None~None λυπέω	None~None μάλιστα	None~None ἵππος	None~None ὅσος	None~None καθαρός	None~None γίγνομαι	None~None τοσοῦτος	None~None πλέως	None~None λυπέω	None~None ἀθροίζω	None~None γαστήρ	None~None 
+-355	None~None πάνυ	None~None διαπονέω	None~None φθάνω	None~None ἐξάγω	None~None ἵππος	None~None εὐθύς	None~None ὅμοιος	None~None ἀκάθαρτος	None~None 
+-355	None~None ἀίω	None~None χρή	None~None 
+-355	None~None ἀρκέω	None~None σκέλος	None~None ψῆξις	None~None χείρ	None~None γίγνομαι	None~None 
+-355	None~None δηλόω	None~None ἀβλαβής	None~None ἵππος	None~None ὠφέλιμος	None~None πρόσθεν	None~None ψήχω	None~None 
+-355	None~None βλέπω	None~None ἵππος	None~None καθαίρω	None~None κίνδυνος	None~None γόνυ	None~None ὁπλή	None~None πρόσωπον	None~None πλήσσω	None~None 
+-355	None~None ἀντίον	None~None ἵππος	None~None ὁράω	None~None ἔξω	None~None σκέλος	None~None καθαίρω	None~None ὠμοπλάτη	None~None καθίζω	None~None ἀποτρίβω	None~None πάσχω	None~None δύναμαι	None~None χελιδών	None~None ἵππος	None~None θεραπεύω	None~None ἀναπτύσσω	None~None ὁπλή	None~None 
+-355	None~None αὔτως	None~None ὄπισθεν	None~None σκέλος	None~None καθαίρω	None~None 
+-355	None~None οἶδα	None~None χρή	None~None ἵππος	None~None ὅσος	None~None πράσσω	None~None δέομαι	None~None ἥκιστος	None~None χρή	None~None πρόσωπον	None~None οὐρά	None~None ἀντίον	None~None ποιέω	None~None πρόσειμι	None~None 
+-355	None~None ἐπιχειρέω	None~None ἀδικέω	None~None ἀμφότερος	None~None κρείσσων	None~None ἵππος	None~None ἄνθρωπος	None~None 
+-355	None~None πλάγιον	None~None πρόσειμι	None~None ἀβλαβής	None~None πλεῖστος	None~None ἵππος	None~None δύναμαι	None~None χράομαι	None~None 
+-355	None~None ἄγω	None~None δέομαι	None~None ἵππος	None~None ὄπισθεν	None~None ἀγωγή	None~None ἐπαινέω	None~None ἄγω	None~None ἥκιστος	None~None φυλάσσω	None~None ἵππος	None~None μάλιστα	None~None ἔξεστι	None~None ποιέω	None~None βούλομαι	None~None 
+-355	None~None ἔμπροσθεν	None~None μακρός	None~None ἀγωγεύς	None~None πρόειμι	None~None διδάσκω	None~None ὑφηγέομαι	None~None ἵππος	None~None ψέγω	None~None 
+-355	None~None ἔξεστι	None~None ἵππος	None~None ὁπότερος	None~None βούλομαι	None~None πλάγιον	None~None κακουργέω	None~None ἔξεστι	None~None ἀναστρέφω	None~None ἀντίον	None~None γίγνομαι	None~None ἄγω	None~None 
+-355	None~None ἀθρόος	None~None ἵππος	None~None πῶς	None~None δύναμαι	None~None ἀπέχω	None~None ἄγω	None~None 
+-355	None~None πλάγιος	None~None ἵππος	None~None ἐθίζω	None~None παράγω	None~None ἥκιστος	None~None ἵππος	None~None ἄνθρωπος	None~None δύναμαι	None~None κακουργέω	None~None κάλλιστα	None~None παρασκευάζω	None~None ἀναβάτης	None~None ἀίω	None~None τάχος	None~None ἀνάπτω	None~None δέω	None~None 
+-355	None~None ἱπποκόμος	None~None χαλινός	None~None ὀρθός	None~None ἐμβάλλω	None~None πρότερος	None~None πρόσειμι	None~None ἀριστερός	None~None ἵππος	None~None 
+-355	None~None ἔπειτα	None~None ἡνία	None~None περιβάλλω	None~None κεφαλή	None~None καθέτης	None~None ἀκρωμία	None~None κορυφαία	None~None δεξιός	None~None αἴρω	None~None στόμιον	None~None ἀριστερός	None~None προσφέρω	None~None 
+-355	None~None δέχομαι	None~None δῆλος	None~None περιτίθημι	None~None δέομαι	None~None κεκρύφαλος	None~None 
+-355	None~None ὑποχάσκω	None~None ἔχω	None~None δέομαι	None~None ὀδούς	None~None χαλινός	None~None μέγας	None~None δάκτυλος	None~None ἀριστερός	None~None χείρ	None~None εἴδομαι	None~None γνάθος	None~None ἵππος	None~None ποιέω	None~None 
+-355	None~None πολύς	None~None γίγνομαι	None~None χαλάω	None~None στόμα	None~None 
+-355	None~None δέχομαι	None~None πιέζω	None~None χεῖλος	None~None κυνόδους	None~None 
+-355	None~None πάνυ	None~None ὀλίγος	None~None δέχομαι	None~None πάσχω	None~None 
+-355	None~None διδάσκω	None~None ἱπποκόμος	None~None πρότερος	None~None μήποτε	None~None ἄγω	None~None ἡνία	None~None ἵππος	None~None 
+-355	None~None ἑτερόγναθος	None~None ποιέω	None~None 
+-355	None~None ἔπειτα	None~None ὅσος	None~None δέομαι	None~None ἀπέχω	None~None χαλινός	None~None γνάθων	None~None 
+-355	None~None ἄγαν	None~None τυλόω	None~None στόμα	None~None εὐαίσθητος	None~None ἄγαν	None~None ἄκρος	None~None στόμα	None~None καθίημι	None~None ἐξουσία	None~None παραχέω	None~None συνδάκνω	None~None στόμιον	None~None πείθω	None~None 
+-355	None~None χρή	None~None ἱπποκόμος	None~None τοιόσδε	None~None παρατηρέω	None~None ῥᾴδιος	None~None χαλινός	None~None ἵππος	None~None δέχομαι	None~None αἰσθάνομαι	None~None δέομαι	None~None πονέω	None~None 
+-355	None~None μέγας	None~None λαμβάνω	None~None ἐθέλω	None~None ἵππος	None~None χαλινός	None~None δέχομαι	None~None παντάπασι	None~None ἄχρηστος	None~None 
+-355	None~None μόνος	None~None πονέω	None~None μέλλω	None~None χαλινόω	None~None σῖτος	None~None ἱππασία	None~None οἶκος	None~None ἀφηγέομαι	None~None ἀίω	None~None θαυμαστός	None~None ἁρπάζω	None~None χαλινός	None~None αὐτόματος	None~None προτείνω	None~None 
+-355	None~None ἀγαθός	None~None ἱπποκόμος	None~None ἀναβάλλω	None~None ἐφίστημι	None~None Περσικός	None~None τρόπος	None~None δεσπότης	None~None ἀρρωστέω	None~None πρέσβυς	None~None γίγνομαι	None~None ἔχω	None~None εὐπετής	None~None ἀναβιβάζω	None~None βούλομαι	None~None ἀναβάλλω	None~None ἐπιχαρίζομαι	None~None 
+-355	None~None μήποτε	None~None ὀργή	None~None ἵππος	None~None προσφέρω	None~None δίδαγμα	None~None ἔθισμα	None~None ἵππος	None~None ἄριστος	None~None 
+-355	None~None ἀπρονόητος	None~None ὀργή	None~None πολλάκις	None~None ἐξεργάζομαι	None~None μεταμέλομαι	None~None ἀνάγκη	None~None 
+-355	None~None ὑποπτάω	None~None ἵππος	None~None ἐθέλω	None~None πρόσειμι	None~None διδάσκω	None~None δέομαι	None~None δεινός	None~None μάλιστα	None~None ἵππος	None~None εὐκάρδιος	None~None ἅπτω	None~None δεινός	None~None δοκέω	None~None ἵππος	None~None πρᾶος	None~None προσάγω	None~None 
+-355	None~None πληγή	None~None ἀναγκάζω	None~None πλέως	None~None φόβος	None~None παρέχω	None~None 
+-355	None~None οἴομαι	None~None ἵππος	None~None χαλεπός	None~None πάσχω	None~None ὑποπτεύω	None~None αἴτιος	None~None 
+-355	None~None μείς	None~None ἱπποκόμος	None~None ἵππος	None~None παραδίδωμι	None~None ἀναβάτης	None~None ἐφίστημι	None~None ὑποβιβάζω	None~None ἵππος	None~None εὐπετής	None~None ἀνάπτω	None~None μέμφομαι	None~None 
+-355	None~None ἱππεύς	None~None νομίζω	None~None χρή	None~None μελέτη	None~None παρέχω	None~None ἵππος	None~None δύναμαι	None~None ἀναβαίνω	None~None 
+-355	None~None ἄλλοτε	None~None ἀλλοῖος	None~None ἵππος	None~None παράπειμι	None~None ἄλλοτε	None~None ἄλλως	None~None ὑπηρετέω	None~None 
+-355	None~None παραδέχομαι	None~None ἵππος	None~None ἀνάπτω	None~None γράφω	None~None ὅσος	None~None ποιέω	None~None ἱππεύς	None~None ἵππος	None~None ὠφέλιμος	None~None ἱππικός	None~None ἀίω	None~None 
+-355	None~None πρότερος	None~None ῥυταγωγεύς	None~None χρή	None~None ὑποχαλινίδιος	None~None ψάλιον	None~None ἀρτάω	None~None εὐτρεπής	None~None ἀριστερός	None~None χείρ	None~None λαμβάνω	None~None χαλαρός	None~None θρίξ	None~None οὖς	None~None λαμβάνω	None~None μέλλω	None~None ἀνάπτω	None~None δόρυ	None~None ἀναπηδάω	None~None σπάω	None~None ἵππος	None~None 
+-355	None~None δεξιός	None~None ἡνία	None~None ἀκρωμία	None~None λαμβάνω	None~None ὁμοῦ	None~None χαίτη	None~None ἕνος	None~None τρόπος	None~None ἀναβαίνω	None~None σπάσις	None~None χαλινός	None~None στόμα	None~None ἵππος	None~None 
+-355	None~None ἀνακουφίζω	None~None ἀνάβασις	None~None ἀριστερός	None~None ἀνιμάω	None~None σῶμα	None~None δεξιός	None~None ἐκτείνω	None~None συνεπαίρω	None~None ἀναβαίνω	None~None ὄπισθεν	None~None αἰσχρός	None~None θέα	None~None παραξέω	None~None συγκάπτω	None~None σκέλος	None~None γόνυ	None~None ῥάχις	None~None τίθημι	None~None ἵππος	None~None ὑπερβαίνω	None~None δεξιός	None~None πλευρά	None~None κνήμη	None~None 
+-355	None~None περιφέρω	None~None πούς	None~None τότε	None~None γλουτός	None~None καθέτης	None~None ἵππος	None~None 
+-355	None~None τυγχάνω	None~None ἱππεύς	None~None ἀριστερός	None~None ἄγω	None~None ἵππος	None~None δεξιός	None~None δόρυ	None~None ἔχω	None~None ἀγαθός	None~None δοκέω	None~None δεξιός	None~None μελετάω	None~None ἀναπηδάω	None~None 
+-355	None~None μανθάνω	None~None δέομαι	None~None τότε	None~None δεξιός	None~None σῶμα	None~None ποιέω	None~None ἀριστερός	None~None ποιέω	None~None τότε	None~None ἀριστερός	None~None δεξιός	None~None 
+-355	None~None ἐπαινέω	None~None ἀνάβασις	None~None ἅμα	None~None ἀναβαίνω	None~None ἀίω	None~None κατασκευάζω	None~None δέω	None~None ἐξαίφνης	None~None πολέμιος	None~None ἀγωνίζομαι	None~None 
+-355	None~None καθέζομαι	None~None ψιλός	None~None ἐφίππιος	None~None δίφρος	None~None ἕδρα	None~None ἐπαινέω	None~None ὀρθός	None~None διαβαίνω	None~None ἀίω	None~None σκέλος	None~None 
+-355	None~None μηρός	None~None ἔχω	None~None μᾶλλον	None~None ἵππος	None~None ὀρθός	None~None ἐρρωμένος	None~None δύναμαι	None~None ἀκοντίζω	None~None πατάσσω	None~None ἵππος	None~None δέω	None~None 
+-355	None~None χρή	None~None χαλαρός	None~None γόνυ	None~None ἀφίημι	None~None κνήμη	None~None ποδίς	None~None 
+-355	None~None σκληρός	None~None ἔχω	None~None σκέλος	None~None προσκόπτω	None~None προσκλάομαι	None~None ἀίω	None~None 
+-355	None~None ὑγρός	None~None κνήμη	None~None προσπίτνω	None~None ὑφίημι	None~None μηρός	None~None μετακινέω	None~None 
+-355	None~None δέομαι	None~None ἱππεύς	None~None ἄνωθεν	None~None ἴσχιον	None~None σῶμα	None~None ὑγρός	None~None ἐθίζω	None~None 
+-355	None~None πονέω	None~None μᾶλλον	None~None δύναμαι	None~None ἕλκω	None~None ὠθέω	None~None ἥσσων	None~None σφάλλω	None~None 
+-355	None~None καθέζομαι	None~None πρότερος	None~None ἠρεμέω	None~None δέομαι	None~None διδάσκω	None~None ἵππος	None~None ὑποσπάω	None~None δέομαι	None~None ἡνία	None~None ἰσόω	None~None δόρυ	None~None λαμβάνω	None~None εὔφορος	None~None ἀίω	None~None 
+-355	None~None ἔπειτα	None~None ἔχω	None~None ἀριστερός	None~None βραχίων	None~None πλευρά	None~None 
+-355	None~None εὐσταλής	None~None ἱππεύς	None~None χείρ	None~None ἐγκρατής	None~None 
+-355	None~None ἡνία	None~None ἐπαινέω	None~None ὁποῖος	None~None ἴσος	None~None ἀσθενής	None~None ὀλισθήεις	None~None παχύς	None~None δόρυ	None~None δέομαι	None~None δέχομαι	None~None χείρ	None~None δύναμαι	None~None 
+-355	None~None προχωρέω	None~None σημαίνω	None~None ἵππος	None~None βάδην	None~None ἄρχω	None~None 
+-355	None~None ἀτάρακτος	None~None 
+-355	None~None ἡνιοχέω	None~None κυφαγωγός	None~None ἵππος	None~None ἄνω	None~None χείρ	None~None μᾶλλον	None~None ἀνακύπτω	None~None κάτος	None~None 
+-355	None~None μάλιστα	None~None κοσμέω	None~None σχῆμα	None~None 
+-355	None~None αὐτοφυής	None~None διατροχάζω	None~None διαχαλάω	None~None ἄλυπος	None~None σῶμα	None~None ἐπιρραβδοφορέω	None~None ἡδύς	None~None ἀφικνέομαι	None~None 
+-355	None~None ἀριστερός	None~None ἄρχω	None~None εὐδόκιμος	None~None ὧδε	None~None μάλιστα	None~None ἄρχω	None~None διατροχάζω	None~None ὁπότε	None~None ἐμβαίνω	None~None δεξιός	None~None τότε	None~None σημαίνω	None~None ἵππος	None~None ἐπιρραβδοφορέω	None~None 
+-355	None~None ἀριστερός	None~None μέλλω	None~None αἴρω	None~None ἄρχω	None~None ὁπότε	None~None εὐώνυμος	None~None ἀναστρέφω	None~None τότε	None~None ἐπισκέλισις	None~None ἄρχω	None~None 
+-355	None~None φύω	None~None ἵππος	None~None δεξιός	None~None στρέφω	None~None δεξιός	None~None ἀφηγέομαι	None~None εὐώνυμος	None~None ἀριστερός	None~None 
+-355	None~None ἱππασία	None~None ἐπαινέω	None~None πέδη	None~None καλέω	None~None 
+-355	None~None ἀμφότερος	None~None γνάθος	None~None στρέφω	None~None ἐθίζω	None~None 
+-355	None~None μεταβάλλω	None~None ἱππασία	None~None ἀγαθός	None~None ἀμφότερος	None~None γνάθος	None~None ἑκάτερος	None~None ἱππασία	None~None ἰσάζω	None~None 
+-355	None~None ἐπαινέω	None~None ἑτερομήκης	None~None πέδη	None~None μᾶλλον	None~None κυκλοτερής	None~None 
+-355	None~None ἡδύς	None~None στρέφω	None~None ἵππος	None~None ἤδη	None~None πλήρης	None~None εὐθύς	None~None ὀρθοδρομέω	None~None ἀποκάμπτω	None~None ἅμα	None~None μελετάω	None~None 
+-355	None~None δέομαι	None~None ὑπολαμβάνω	None~None στροφή	None~None 
+-355	None~None ῥαίδιον	None~None ἵππος	None~None ἀσφαλής	None~None τάχος	None~None κάμπτω	None~None μικρός	None~None ἄλλως	None~None ἀπόκροτος	None~None ὀλισθήεις	None~None χωρίον	None~None 
+-355	None~None ὑπολαμβάνω	None~None ἥκιστος	None~None χρή	None~None ἵππος	None~None πλαγιόω	None~None χαλινός	None~None ἥκιστος	None~None πλαγιόω	None~None 
+-355	None~None εὖ	None~None χρή	None~None οἶδα	None~None μικρός	None~None πρόφασις	None~None ἀρκέω	None~None κέω	None~None ἵππος	None~None 
+-355	None~None μείς	None~None στροφεύς	None~None εὐθύς	None~None βλέπω	None~None ἵππος	None~None θάσσων	None~None ὁρμάω	None~None 
+-355	None~None δῆλος	None~None πόλεμος	None~None στροφή	None~None διώκω	None~None ἀποχωρέω	None~None 
+-355	None~None ἀγαθός	None~None στράπτω	None~None ταχύνω	None~None μελέτη	None~None 
+-355	None~None ἱκανός	None~None ἤδη	None~None δοκάζω	None~None γυμνάσιον	None~None ἵππος	None~None ἔχω	None~None ἀγαθός	None~None διαναπαύομαι	None~None ὁρμάω	None~None αὖθις	None~None ἐξαίφνης	None~None τάχιστος	None~None ἵππος	None~None ἵππος	None~None 
+-355	None~None ταχύς	None~None ἐγγύς	None~None ἠρεμίζω	None~None ἵστημι	None~None στρέφω	None~None πάλιν	None~None ὁρμάω	None~None 
+-355	None~None πρόδηλος	None~None ποτός	None~None ἑκάτερος	None~None δέησις	None~None 
+-355	None~None καταβαίνω	None~None ἤδη	None~None καιρός	None~None ἵππος	None~None ποτός	None~None καταβαίνω	None~None σύστασις	None~None ἄνθρωπος	None~None ἔξω	None~None ἱππασία	None~None ὅπου	None~None πονέω	None~None ἀναγκάζω	None~None ἵππος	None~None ἐνταῦθα	None~None ῥᾳστώνη	None~None τυγχάνω	None~None 
+-355	None~None ὅπου	None~None τρέχω	None~None δέησις	None~None ἵππος	None~None πρανής	None~None ὄρθιος	None~None πλάγιον	None~None ὅπου	None~None διαπηδάω	None~None ὅπου	None~None ἐκπηδάω	None~None ἔνθα	None~None καθάλλομαι	None~None διδάσκω	None~None δέομαι	None~None μελετάω	None~None ἵππος	None~None 
+-355	None~None σωτήριος	None~None καθόλου	None~None χρήσιμος	None~None δοκέω	None~None 
+-355	None~None διλογέω	None~None οἴομαι	None~None λέγω	None~None πρόσθεν	None~None διλογία	None~None 
+-355	None~None ὠνέομαι	None~None πειράω	None~None κελεύω	None~None δύναμαι	None~None ἵππος	None~None ποιέω	None~None 
+-355	None~None διδάσκω	None~None φημί	None~None χρή	None~None γράφω	None~None δέομαι	None~None διδάσκω	None~None 
+-355	None~None παντάπασι	None~None ἄπειρος	None~None διαπηδάω	None~None λαμβάνω	None~None δέομαι	None~None ἀγωγεύς	None~None καταβάλλω	None~None προδιαβαίνω	None~None τάφρος	None~None ἔπειτα	None~None ἐντείνω	None~None δέομαι	None~None ἀγωγεύς	None~None διάλλομαι	None~None 
+-355	None~None ἐθέλω	None~None ἔχω	None~None μάστιξ	None~None ῥάβδος	None~None ἐμβάλλω	None~None ἰσχυρός	None~None 
+-355	None~None ὑπεράλλομαι	None~None μέτρον	None~None πολύς	None~None πλέος	None~None καίριος	None~None 
+-355	None~None λοιπός	None~None δέησις	None~None παίω	None~None μόνος	None~None εἶδον	None~None ὀπίζω	None~None ἐπέρχομαι	None~None ἅλλομαι	None~None 
+-355	None~None διαπηδάω	None~None ἐθίζω	None~None ἀναβαίνω	None~None ἐπάγω	None~None πρότερος	None~None μικρός	None~None ἔπειτα	None~None μέγας	None~None 
+-355	None~None μέλλω	None~None πηδάω	None~None παίω	None~None μύωψ	None~None 
+-355	None~None ἀναπηδάω	None~None κατάπειμι	None~None διδάσκω	None~None παίω	None~None μύωψ	None~None 
+-355	None~None ἀθρόος	None~None σῶμα	None~None ποιέω	None~None ἵππος	None~None ἀναβάτης	None~None ἀσφαλής	None~None ποιέω	None~None μᾶλλον	None~None ἐκλείπω	None~None ὄπισθεν	None~None διαπηδάω	None~None ἀνορούω	None~None καθάλλομαι	None~None 
+-355	None~None μείς	None~None κατάντομαι	None~None πρότερος	None~None χρή	None~None μαλακός	None~None χωρίον	None~None διδάσκω	None~None τελευτάω	None~None ἐθίζω	None~None πολύς	None~None ἡδύς	None~None πρανής	None~None ὄρθιος	None~None τρέχω	None~None 
+-355	None~None φοβέω	None~None ἀπορρήγνυμι	None~None ὦμος	None~None πρανής	None~None ἐλαύνω	None~None θαρσέω	None~None μανθάνω	None~None Πέρσης	None~None Ὄδρυσος	None~None κατάντης	None~None ἁμιλλάομαι	None~None ἥσσων	None~None Ἕλλην	None~None ὑγιής	None~None ἵππος	None~None ἔχω	None~None 
+-355	None~None παρίημι	None~None ἀναβάτης	None~None ὑπηρετέω	None~None δέομαι	None~None 
+-355	None~None χρή	None~None ὁρμάω	None~None ἐξαίφνης	None~None ἵππος	None~None προνεύω	None~None 
+-355	None~None ἥσσων	None~None ὑποδύομαι	None~None ἵππος	None~None ἀναβάλλω	None~None ἀναβάτης	None~None 
+-355	None~None μικρός	None~None ἀναλαμβάνω	None~None ἀναπίπτω	None~None 
+-355	None~None ἥσσων	None~None κόπτω	None~None 
+-355	None~None τάφρος	None~None διάλλομαι	None~None ὄρθιος	None~None ἵημι	None~None καλός	None~None χαίτη	None~None ἐπιλαμβάνω	None~None ἵππος	None~None χωρίον	None~None ἅμα	None~None χαλινός	None~None βαρύνω	None~None 
+-355	None~None μείς	None~None πρανής	None~None ὕπτιος	None~None ποιητέος	None~None ἵππος	None~None ἀντιληπτέον	None~None χαλινός	None~None προπετής	None~None κατάντομαι	None~None ἵππος	None~None φέρω	None~None 
+-355	None~None ὀρθός	None~None ἔχω	None~None ἄλλοτε	None~None τόπος	None~None ἄλλοτε	None~None μακρός	None~None ἄλλοτε	None~None βραχύς	None~None ἱππασία	None~None ποιέω	None~None 
+-355	None~None ἀμισής	None~None ἵππος	None~None ἀεί	None~None τόπος	None~None ὅμοιος	None~None ἱππασία	None~None ποιέω	None~None 
+-355	None~None δέομαι	None~None παντοῖος	None~None χωρίον	None~None ἱππεύς	None~None κράτος	None~None ἐλαύνω	None~None ἔποχον	None~None ἵππος	None~None ὅπλον	None~None καλός	None~None δύναμαι	None~None χράομαι	None~None ὅπου	None~None χωρίον	None~None ἐπιτήδειος	None~None θηρίον	None~None ἄμεμπτος	None~None θήρα	None~None μελετάω	None~None ἱππικός	None~None 
+-355	None~None ὅπου	None~None ὑπάρχω	None~None ἀγαθός	None~None ἄσκησις	None~None δύο	None~None ἱππότης	None~None συντίθημι	None~None φεύγω	None~None ἵππος	None~None παντοῖος	None~None χωρίον	None~None δόρυ	None~None ὄπισθεν	None~None μεταβάλλω	None~None ὑποχωρέω	None~None διώκω	None~None σφαιρόω	None~None ἔχω	None~None ἀκόντιον	None~None δόρυ	None~None πραγματεύομαι	None~None ὅπου	None~None ἀκόντιον	None~None ἀφικνέομαι	None~None ἀκοντίζω	None~None φεύγω	None~None σφαιρωτός	None~None ὅπου	None~None δόρυ	None~None πληγή	None~None δόρυ	None~None παίω	None~None ἁλίσκομαι	None~None 
+-355	None~None ἀγαθός	None~None συμπίτνω	None~None ἕλκω	None~None πολέμιος	None~None ἐξαίφνης	None~None ἀπωθέω	None~None 
+-355	None~None καταβλητικός	None~None 
+-355	None~None ὀρθός	None~None ἔχω	None~None ἕλκω	None~None ἐπελαύνω	None~None ἵππος	None~None 
+-355	None~None ποιέω	None~None ἕλκω	None~None καταβάλλω	None~None μᾶλλον	None~None ἕλκω	None~None καταπίπτω	None~None 
+-355	None~None στρατόπεδον	None~None ἀντικάθημαι	None~None ἀνθιππεύω	None~None διώκω	None~None πολέμιος	None~None φάλαγξ	None~None ἀντίος	None~None φεύγω	None~None φιλία	None~None ἀγαθός	None~None ἐνταῦθα	None~None ἐφίστημι	None~None φῖλος	None~None καλός	None~None ἀσφαλής	None~None πρότερος	None~None ἀναστρέφω	None~None κράτος	None~None ἐπίκειμαι	None~None ἐγγύς	None~None ἐναντίος	None~None γίγνομαι	None~None ὑποχείριος	None~None ἵππος	None~None ἔχω	None~None 
+-355	None~None ἔοικα	None~None μάλιστα	None~None δύναμαι	None~None βλάπτω	None~None ἐναντίος	None~None βλάπτω	None~None 
+-355	None~None ἄνθρωπος	None~None ἄνθρωπος	None~None δίδωμι	None~None θεός	None~None λόγος	None~None διδάσκω	None~None δέομαι	None~None ποιέω	None~None ἵππος	None~None δῆλος	None~None λόγος	None~None διδάσκω	None~None 
+-355	None~None ποιέω	None~None βούλομαι	None~None ἀντιχαρίζομαι	None~None ἀπειθέω	None~None κολάζω	None~None μάλιστα	None~None μανθάνω	None~None δέον	None~None ὑπηρετέω	None~None 
+-355	None~None βραχύς	None~None εἶπον	None~None ὅλος	None~None ἱππικός	None~None παρακολουθέω	None~None 
+-355	None~None χαλινός	None~None μᾶλλον	None~None λαμβάνω	None~None ὁπότε	None~None δέχομαι	None~None ἀγαθός	None~None ἀποβαίνω	None~None 
+-355	None~None διαπηδάω	None~None ἐξάλλομαι	None~None ὑπηρετέω	None~None προσδοκάω	None~None ὁπότε	None~None σημαίνω	None~None πράσσω	None~None ῥᾳστώνη	None~None 
+-355	None~None ἐρῶ	None~None ἥκιστος	None~None ἐξαπατάω	None~None πῶλος	None~None ἵππος	None~None ὠνέομαι	None~None ἥκιστος	None~None διαφθείρω	None~None χράομαι	None~None μάλιστα	None~None ἵππος	None~None ἀποδείκνυμι	None~None δέω	None~None ἔχω	None~None ἱππεύς	None~None δέομαι	None~None πόλεμος	None~None 
+-355	None~None καιρός	None~None ἴσως	None~None γράφω	None~None συμβαίνω	None~None θυμοειδής	None~None ἵππος	None~None καίριος	None~None χράομαι	None~None βλακώδης	None~None ὀρθός	None~None ἑκάτερος	None~None χράομαι	None~None 
+-355	None~None πρότερος	None~None χρή	None~None γιγνώσκω	None~None θυμός	None~None ἵππος	None~None ὅσπερ	None~None ὀργή	None~None ἄνθρωπος	None~None 
+-355	None~None ἄνθρωπος	None~None ἥκιστος	None~None ὀργίζω	None~None λέγω	None~None χαλεπός	None~None ποιέω	None~None ἵππος	None~None θυμοειδής	None~None ἀνιάω	None~None ἥκιστος	None~None ἐξοργίζω	None~None 
+-355	None~None εὐθύς	None~None χρή	None~None ἀνάβασις	None~None ἐπιμελέομαι	None~None ἥκιστος	None~None ἀναβαίνω	None~None λυπέω	None~None 
+-355	None~None ἀνάπτω	None~None ἠρεμέω	None~None πλέως	None~None χρόνος	None~None ἐπιτυγχάνω	None~None προκλῄζω	None~None πρᾶος	None~None σημεῖον	None~None 
+-355	None~None ἔπειτα	None~None βραδύς	None~None ἄρχω	None~None θάσσων	None~None προάγω	None~None μάλιστα	None~None λανθάνω	None~None ἵππος	None~None ταχύς	None~None ἀφικνέομαι	None~None 
+-355	None~None ἐξαίφνης	None~None σημαίνω	None~None θυμοειδής	None~None ἵππος	None~None ἄνθρωπος	None~None ταράσσω	None~None ἐξαπίναιος	None~None ὅραμα	None~None ἄκουσμα	None~None πάθημα	None~None 
+-355	None~None οἶδα	None~None χρή	None~None ἵππος	None~None ἐξαπίναιος	None~None τάραχος	None~None ἐξεργάζομαι	None~None 
+-355	None~None θάσσων	None~None ὁρμάω	None~None καιρός	None~None ὑπολαμβάνω	None~None βούλομαι	None~None θυμοειδής	None~None δέομαι	None~None ἐξαπίναιος	None~None σπάω	None~None ἠρεμαῖος	None~None προσάγω	None~None χαλινός	None~None πραύνω	None~None βιάζω	None~None ἠρεμέω	None~None 
+-355	None~None μακρός	None~None ἔλασις	None~None μᾶλλον	None~None πυκνός	None~None ἀποστροφή	None~None πραύνω	None~None ἵππος	None~None ἡσυχαῖος	None~None πολυχρόνιος	None~None καθέψω	None~None πραύνω	None~None ἀνεγείρω	None~None θυμοειδής	None~None 
+-355	None~None οἴομαι	None~None ταχύς	None~None πολύς	None~None ἐλαύνω	None~None ἀπεῖπον	None~None ποιέω	None~None ἵππος	None~None πραύνω	None~None ἐναντίος	None~None γιγνώσκω	None~None γίγνομαι	None~None 
+-355	None~None θυμοειδής	None~None ἄγω	None~None βία	None~None μάλιστα	None~None ἐπιχειρέω	None~None ὀργή	None~None ἄνθρωπος	None~None ὀργίλος	None~None πολλάκις	None~None ἀναβάτης	None~None πολύς	None~None ἀνήκεστος	None~None ποιέω	None~None 
+-355	None~None ἐπιλαμβάνω	None~None χρή	None~None ἵππος	None~None θυμοειδής	None~None τότε	None~None τάχιστος	None~None ὁρμή	None~None παραβάλλω	None~None ἵππος	None~None παντάπασι	None~None ἀπέχω	None~None 
+-355	None~None σχεδόν	None~None θυμοειδής	None~None φιλόνεικος	None~None ἵππος	None~None γίγνομαι	None~None 
+-355	None~None χαλινός	None~None λεῖος	None~None ἐπιτήδειος	None~None τραχύς	None~None 
+-355	None~None τραχύς	None~None ἐμβάλλω	None~None χαλαρότης	None~None λεῖος	None~None δέομαι	None~None ἀφομοιόω	None~None 
+-355	None~None ἀγαθός	None~None ἐθίζω	None~None ἠρεμέω	None~None μάλιστα	None~None θυμοειδής	None~None ἵππος	None~None ἥκιστος	None~None ἅπτω	None~None κάθημαι	None~None ἀσφαλής	None~None ἅπτω	None~None 
+-355	None~None οἶδα	None~None χρή	None~None δίδαγμα	None~None ποππυσμός	None~None πραύνω	None~None κλωγμός	None~None ἐγείρω	None~None ἀρχή	None~None κλωγμός	None~None πρᾶος	None~None ποππυσμός	None~None χαλεπός	None~None προσφέρω	None~None μανθάνω	None~None ἵππος	None~None ποππυσμός	None~None ἐγείρω	None~None κλωγμός	None~None πραύνω	None~None 
+-355	None~None δέομαι	None~None κραυγή	None~None σάλπιγξ	None~None φαίνω	None~None θορυβέω	None~None ἵππος	None~None μείς	None~None θορυβώδης	None~None προσφέρω	None~None δυνατός	None~None ἀναπαύω	None~None ἄριστος	None~None δεῖπνον	None~None ἐγχωρέω	None~None προσφέρω	None~None 
+-355	None~None καλός	None~None συμβούλευμα	None~None ἄγαν	None~None θυμοειδής	None~None ἵππος	None~None κτάομαι	None~None πόλεμος	None~None 
+-355	None~None βλάξ	None~None ἵππος	None~None ἀρκέω	None~None δοκέω	None~None γράφω	None~None ἐναντίος	None~None ποιέω	None~None ὅσος	None~None θυμοειδής	None~None χράομαι	None~None συμβουλεύω	None~None 
+-355	None~None βούλομαι	None~None χράομαι	None~None χρήσιμος	None~None πόλεμος	None~None ἵππος	None~None μεγαλοπρεπής	None~None περίβλεπτος	None~None ἱππάζομαι	None~None ἕλκω	None~None στόμα	None~None χαλινός	None~None μυωπίζω	None~None μαστιγόω	None~None ἵππος	None~None πολύς	None~None ποιέω	None~None λαμπρύνω	None~None οἴομαι	None~None ἀπέχω	None~None δέομαι	None~None 
+-355	None~None ἐναντίος	None~None ποιέω	None~None βούλομαι	None~None 
+-355	None~None στόμα	None~None ἕλκω	None~None ἄνω	None~None προοράω	None~None ἐκτυφλόω	None~None ἵππος	None~None μυωπίζω	None~None παίω	None~None ἐκπλήσσω	None~None ταράσσω	None~None κινδυνεύω	None~None 
+-355	None~None ἵππος	None~None ἔργον	None~None μάλιστα	None~None ἄχθομαι	None~None ἱππασία	None~None αἰσχρός	None~None καλός	None~None ποιέω	None~None 
+-355	None~None διδάσκω	None~None ἵππος	None~None χαλαρός	None~None χαλινός	None~None ἱππεύω	None~None ἄνω	None~None αὐχήν	None~None αἴρω	None~None κεφαλή	None~None κυρτόω	None~None ἀπεργάζομαι	None~None ποιέω	None~None ἵππος	None~None οἷος	None~None ἥδομαι	None~None ἀγάλλω	None~None 
+-355	None~None τεκμήριον	None~None ἥδομαι	None~None 
+-355	None~None σχηματοποιέω	None~None ἐθέλω	None~None ἵππος	None~None μάλιστα	None~None θῆλυς	None~None τότε	None~None αἴρω	None~None αὐχήν	None~None ἄνω	None~None κυρτόω	None~None μάλιστα	None~None κεφαλή	None~None γοργόομαι	None~None σκέλος	None~None ὑγρός	None~None μετεωρίζω	None~None οὐρά	None~None ἄνω	None~None ἀνατείνω	None~None 
+-355	None~None προάγω	None~None σχηματοποιέω	None~None μάλιστα	None~None καλλωπίζω	None~None ἥδομαι	None~None ἱππασία	None~None μεγαλοπρεπής	None~None γοργός	None~None περίβλεπτος	None~None ἀποφαίνω	None~None ἵππος	None~None 
+-355	None~None ἁγέομαι	None~None ἀπεργάζομαι	None~None πειράω	None~None διηγέομαι	None~None 
+-355	None~None πρότερος	None~None χρή	None~None μείων	None~None δύο	None~None χαλινός	None~None κτάομαι	None~None 
+-355	None~None λεῖος	None~None τροχός	None~None εὐμεγέθης	None~None ἔχω	None~None ἕτερος	None~None τροχός	None~None βαρύς	None~None ταπεινός	None~None ἐχῖνος	None~None ὀξύς	None~None ὁπόταν	None~None λαμβάνω	None~None ἀσχάλλω	None~None τραχύτης	None~None ἀφίημι	None~None λείων	None~None μεταλαμβάνω	None~None λειότης	None~None ἥδομαι	None~None τραχύς	None~None παιδεύω	None~None ταυτός	None~None λεῖος	None~None ποιέω	None~None 
+-355	None~None καταφρονέω	None~None λειότης	None~None θαμινός	None~None ἀπερείδω	None~None τροχός	None~None μέγας	None~None λεῖος	None~None προστίθημι	None~None χάσκω	None~None ἀναγκάζω	None~None ἀφίημι	None~None στόμιον	None~None 
+-355	None~None οἷος	None~None τραχύς	None~None παντοδαπός	None~None ποιέω	None~None κατειλέω	None~None κατατείνω	None~None 
+-355	None~None ὁποῖος	None~None χαλινός	None~None ὑγρός	None~None 
+-355	None~None σκληρός	None~None ὅπη	None~None ἵππος	None~None λαμβάνω	None~None ὅλος	None~None ἔχω	None~None γνάθος	None~None ὀβελίσκος	None~None ὁπόθεν	None~None λαμβάνω	None~None ὅλος	None~None αἴρω	None~None 
+-355	None~None ἕτερος	None~None ἅλυσις	None~None ποιέω	None~None 
+-355	None~None ἔχω	None~None μόνος	None~None ἄκαμπτος	None~None μένω	None~None ἀπαρτάω	None~None 
+-355	None~None φεύγω	None~None στόμα	None~None ἀεί	None~None θηρεύω	None~None ἀφίημι	None~None γνάθων	None~None στόμιον	None~None 
+-355	None~None μέσος	None~None ἄξων	None~None δακτύλιος	None~None κρεμάννυμι	None~None διώκω	None~None γλῶσσα	None~None ὀδούς	None~None ἀμελέω	None~None ἀναλαμβάνω	None~None γνάθος	None~None χαλινός	None~None 
+-355	None~None ἀγνοέω	None~None ὑγρός	None~None χαλινός	None~None σκληρός	None~None γράφω	None~None 
+-355	None~None ὑγρός	None~None ἄξων	None~None εὐρέιος	None~None λεία	None~None ἔχω	None~None συμβολή	None~None ῥᾴδιος	None~None κάμπτω	None~None 
+-355	None~None ὁπόσος	None~None περιτίθημι	None~None ἄξων	None~None εὐρύστομος	None~None σύμπυκνος	None~None ὑγρός	None~None 
+-355	None~None χαλεπός	None~None χαλινός	None~None διατρέχω	None~None συνθέω	None~None σκληρός	None~None 
+-355	None~None ὁποῖος	None~None ταυτός	None~None ποιητέος	None~None ἤνπερ	None~None βούλομαι	None~None ἀποδείκνυμι	None~None ἵππος	None~None οἷονπερ	None~None ἔρομαι	None~None 
+-355	None~None ἀνακρουστέον	None~None στόμα	None~None ἵππος	None~None ἄγαν	None~None χαλεπός	None~None ἐκνεύω	None~None ἄγαν	None~None ἥσυχος	None~None αἰσθάνομαι	None~None 
+-355	None~None ἀνακρούω	None~None αἴρω	None~None αὐχήν	None~None δοτέος	None~None εὐθύς	None~None χαλινός	None~None 
+-355	None~None δέομαι	None~None παύω	None~None λέγω	None~None καλός	None~None ὑπηρετέω	None~None χαρίζομαι	None~None ἵππος	None~None 
+-355	None~None αἰσθάνομαι	None~None ἥδομαι	None~None ἵππος	None~None ὑψαυχενία	None~None χαλαρότης	None~None δέομαι	None~None χαλεπός	None~None προσφέρω	None~None πονέω	None~None ἀναγκάζω	None~None θωπεύω	None~None ἱππάζομαι	None~None βούλομαι	None~None 
+-355	None~None μάλιστα	None~None θάρσος	None~None πρόειμι	None~None ταχύς	None~None ἱππασία	None~None 
+-355	None~None ταχύς	None~None θέω	None~None ἵππος	None~None ἥδομαι	None~None τεκμήριον	None~None 
+-355	None~None ἐκφεύγω	None~None βάδην	None~None πορεύω	None~None θέω	None~None 
+-355	None~None φύω	None~None ἥδομαι	None~None πλέως	None~None καιρός	None~None θέω	None~None ἀναγκάζω	None~None 
+-355	None~None ὑπερβάλλω	None~None καιρός	None~None ἡδύς	None~None ἵππος	None~None ἄνθρωπος	None~None 
+-355	None~None μείς	None~None ἱππάζομαι	None~None κυδρός	None~None ἀφίζω	None~None ἐθίζω	None~None πρότερος	None~None ἱππασία	None~None στροφή	None~None θάσσων	None~None ὁρμάω	None~None 
+-355	None~None μανθάνω	None~None ἅμα	None~None ἀντινέω	None~None χαλινός	None~None σημαίνω	None~None ὁρμητήριον	None~None χαλινός	None~None πιέζω	None~None ὁρμή	None~None σημαίνω	None~None ἐγείρω	None~None προβάλλω	None~None στέρνον	None~None αἴρω	None~None ἄνω	None~None σκέλος	None~None ὀργίζω	None~None ὑγρός	None~None 
+-355	None~None μάλα	None~None λυπέω	None~None ὑγρός	None~None σκέλος	None~None ἵππος	None~None χράομαι	None~None 
+-355	None~None ἀναζωπυρέω	None~None δίδωμι	None~None χαλινός	None~None ἐνταῦθα	None~None ἡδονά	None~None χαλαρότης	None~None στόμιον	None~None λύω	None~None νομίζω	None~None κυδρός	None~None σχῆμα	None~None ὑγρός	None~None σκέλος	None~None γαυριάω	None~None φέρω	None~None παντάπασι	None~None ἐκμιμέομαι	None~None ἵππος	None~None καλλωπισμός	None~None 
+-355	None~None θεάομαι	None~None ἵππος	None~None ἐπικαλέω	None~None ἐλευθέριος	None~None ἐθελουργός	None~None ἱππαστής	None~None θυμοειδής	None~None σοβαρός	None~None ἅμα	None~None ἡδύς	None~None γοργός	None~None εἶδον	None~None 
+-355	None~None ἐπιθυμέω	None~None γράφω	None~None 
+-355	None~None ἄρος	None~None βούλομαι	None~None πομπικός	None~None μετέωρος	None~None λαμπρός	None~None ἵππος	None~None χράω	None~None μάλα	None~None ἵππος	None~None γίγνομαι	None~None δέομαι	None~None ὑπάρχω	None~None ψυχή	None~None μεγαλόφρων	None~None σῶμα	None~None εὔρωστος	None~None 
+-355	None~None οἴομαι	None~None σκέλος	None~None ὑγρός	None~None ἔχω	None~None σῶμα	None~None αἴρω	None~None δύναμαι	None~None ἔχω	None~None 
+-355	None~None μᾶλλον	None~None ὀσφύς	None~None ὑγρός	None~None βραχύς	None~None ἰσχυρός	None~None ἔχω	None~None οὐρά	None~None λέγω	None~None φύω	None~None μεταξύ	None~None πλευρά	None~None ἴσχιον	None~None κενεών	None~None δύναμαι	None~None πρόσω	None~None ὑποτίθημι	None~None ὀπίσθιος	None~None σκέλος	None~None ἐμπρόσθιος	None~None 
+-355	None~None ὑποτίθημι	None~None ἀνακρούω	None~None χαλινός	None~None ὀκλάζω	None~None ὀπίσθιος	None~None ἀστράγαλος	None~None αἴρω	None~None πρόσθεν	None~None σῶμα	None~None ἐναντίος	None~None φαίνω	None~None γαστήρ	None~None αἰδοῖον	None~None 
+-355	None~None δέομαι	None~None ποιέω	None~None δίδωμι	None~None χαλινός	None~None κάλλιστα	None~None ἵππος	None~None ἑκών	None~None ποιέω	None~None δοκάζω	None~None ὁράω	None~None 
+-355	None~None διδάσκω	None~None ῥάβδος	None~None ἀστράγαλος	None~None κρούω	None~None βακτηρία	None~None παρατρέχω	None~None κελεύω	None~None μηριαῖος	None~None παίω	None~None 
+-355	None~None κράτιστος	None~None διδασκάλιον	None~None νομίζω	None~None ἀεί	None~None λέγω	None~None παρέπομαι	None~None ποιέω	None~None ἀναβάτης	None~None γνώμη	None~None τυγχάνω	None~None ῥᾳστώνη	None~None 
+-355	None~None ἵππος	None~None ἀναγκάζω	None~None ποιέω	None~None Σίμων	None~None λέγω	None~None ἐφίστημι	None~None καλός	None~None μᾶλλον	None~None ὀρχηστής	None~None μαστιγόω	None~None κεντρίζω	None~None ῥυθμίζω	None~None πολύς	None~None πλέως	None~None ἀσχημονέω	None~None καλός	None~None ποιέω	None~None πάσχω	None~None ἵππος	None~None ἄνθρωπος	None~None 
+-355	None~None δέομαι	None~None σημεῖον	None~None ἑκών	None~None κάλλιστα	None~None λαμπρός	None~None ἐπιδείκνυμι	None~None 
+-355	None~None ἱππάζομαι	None~None πολύς	None~None ἱδρώς	None~None ἐλαύνω	None~None καλός	None~None μετεωρίζω	None~None ταχύς	None~None καταβαίνω	None~None ἀποχαλινόω	None~None εὖ	None~None χρή	None~None οἶδα	None~None ἑκών	None~None εἴσειμι	None~None μετεωρίζω	None~None 
+-355	None~None ἱππάζομαι	None~None ἵππος	None~None θεός	None~None ἥρως	None~None γράφω	None~None ἀνήρ	None~None καλός	None~None χράομαι	None~None μεγαλοπρεπής	None~None φαίνω	None~None 
+-355	None~None μετεωρίζω	None~None ἵππος	None~None σφόδρα	None~None ἀγαστός	None~None ὁράω	None~None νέος	None~None γεραιός	None~None ὄμμα	None~None κατέχω	None~None 
+-355	None~None ἀπολείπω	None~None ἀπαγορεύω	None~None θεάομαι	None~None ἐπιδείκνυμι	None~None λαμπρότης	None~None 
+-355	None~None συμβαίνω	None~None ἵππος	None~None κτάομαι	None~None φυλαρχέω	None~None ἱππαρχέω	None~None δέομαι	None~None σπουδάζω	None~None μόνος	None~None λαμπρός	None~None πολύς	None~None μᾶλλον	None~None ὅλος	None~None ἕπομαι	None~None ἀξιοθέατος	None~None φαίνω	None~None 
+-355	None~None ἡγέομαι	None~None ἄνω	None~None αἴρω	None~None πυκνος	None~None σῶμα	None~None βραχύς	None~None προβαίνω	None~None δῆλος	None~None βάδην	None~None ἕπομαι	None~None ἵππος	None~None 
+-355	None~None ὄψις	None~None λαμπρός	None~None γίγνομαι	None~None 
+-355	None~None ἐξεγείρω	None~None ἵππος	None~None ἡγέομαι	None~None ἄγαν	None~None ταχύς	None~None ἄγαν	None~None βραδύς	None~None εὔθυμος	None~None ἵππος	None~None γοργός	None~None εὐσχήμων	None~None γίγνομαι	None~None ἡγέομαι	None~None ἀθρόος	None~None κτύπος	None~None ἀθρόος	None~None φρύαγμα	None~None φύσημα	None~None ἵππος	None~None συμπαρέπομαι	None~None μόνος	None~None συμπαρέπομαι	None~None ἀξιοθέατος	None~None φαίνω	None~None 
+-355	None~None καλός	None~None ἱππωνέω	None~None τρέφω	None~None πόνος	None~None δύναμαι	None~None ὑποφέρω	None~None ὀρθός	None~None χράομαι	None~None πόλεμος	None~None μελέτημα	None~None ἐπίδειξις	None~None ἱππασία	None~None πολεμικός	None~None ἀγώνισμα	None~None ἐμποδών	None~None πλείων	None~None ἄξιος	None~None ἵππος	None~None ποιέω	None~None οἷος	None~None παραλαμβάνω	None~None εὐδόκιμος	None~None ἵππος	None~None ἔχω	None~None εὐδοκιμέω	None~None ἱππικός	None~None δαιμόνιον	None~None κωλύω	None~None 
+-355	None~None γράφω	None~None βούλομαι	None~None δέομαι	None~None ὁπλίζω	None~None μέλλω	None~None ἵππος	None~None κινδυνεύω	None~None 
+-355	None~None πρότερος	None~None φημί	None~None χρή	None~None σῶμα	None~None θώραξ	None~None ποιέω	None~None 
+-355	None~None καλός	None~None ἁρμόζω	None~None φέρω	None~None σῶμα	None~None ἄγαν	None~None χαλαρός	None~None ὦμος	None~None μόνος	None~None φέρω	None~None 
+-355	None~None λίαν	None~None στενός	None~None δεσμός	None~None ὅπλον	None~None 
+-355	None~None αὐχήν	None~None καίριος	None~None φημί	None~None χρή	None~None θώραξ	None~None ὅμοιος	None~None αὐχήν	None~None στέγασμα	None~None ποιέω	None~None 
+-355	None~None ἅμα	None~None κόσμος	None~None παραξέω	None~None οἷος	None~None δέομαι	None~None ἐργάζομαι	None~None δέχομαι	None~None βούλομαι	None~None ἀναβάτης	None~None πρόσωπον	None~None ῥίς	None~None 
+-355	None~None κράνος	None~None κράτιστος	None~None νομίζω	None~None βοιωτιουργής	None~None 
+-355	None~None στεγάζω	None~None μάλιστα	None~None ὑπερέχω	None~None θώραξ	None~None ὁράω	None~None κωλύω	None~None 
+-355	None~None θώραξ	None~None ἐργάζομαι	None~None κωλύω	None~None καθίζω	None~None ἐπικύπτω	None~None 
+-355	None~None ἦτρον	None~None αἰδοῖον	None~None κύκλος	None~None πτέρυξ	None~None τοσοῦτος	None~None στέγω	None~None βέλος	None~None 
+-355	None~None ἀριστερός	None~None χείρ	None~None πάσχω	None~None καταλύω	None~None ἱππεύς	None~None ταύτῃ	None~None ἐπαινέω	None~None εὑρίσκω	None~None ὅπλον	None~None χείρ	None~None καλέω	None~None 
+-355	None~None ὦμος	None~None σκεπάζω	None~None βραχίων	None~None πῆχυς	None~None ἔχω	None~None ἡνία	None~None ἐκτείνω	None~None συγκάμπτω	None~None 
+-355	None~None διαλείπω	None~None θώραξ	None~None μασχάλη	None~None καλύπτω	None~None 
+-355	None~None δεξιός	None~None ἐπαίρω	None~None δέομαι	None~None ἀκοντίζω	None~None πατάσσω	None~None βούλομαι	None~None 
+-355	None~None θώραξ	None~None κωλύω	None~None ἀφαιρετέος	None~None 
+-355	None~None πτέρυξ	None~None γίγγλυμος	None~None προσθετέον	None~None διαίρω	None~None ὅμοιος	None~None ἀναπτύσσω	None~None καταίρω	None~None ἐπικλείω	None~None 
+-355	None~None βραχίων	None~None κνημίς	None~None παρατίθημι	None~None βελτίων	None~None δοκέω	None~None συνδέω	None~None ὅπλον	None~None 
+-355	None~None ψιλόω	None~None αἴρω	None~None δεξιός	None~None στεγαστέον	None~None ἐγγύς	None~None θώραξ	None~None μόσχειος	None~None χάλκειος	None~None 
+-355	None~None ἐπίκαιρος	None~None ἀφύλακτος	None~None 
+-355	None~None ἤνπερ	None~None πάσχω	None~None ἵππος	None~None κίνδυνος	None~None ἀναβάτης	None~None γίγνομαι	None~None ὁπλίζω	None~None δέομαι	None~None ἵππος	None~None προμετωπίδιος	None~None προστερνίδιον	None~None παραμηρίδιος	None~None 
+-355	None~None ἅμα	None~None ἀναβάτης	None~None παραμηρίδιος	None~None γίγνομαι	None~None 
+-355	None~None μάλιστα	None~None ἵππος	None~None κενεών	None~None δέομαι	None~None σκεπάζω	None~None 
+-355	None~None καίριος	None~None ἀφαυρός	None~None 
+-355	None~None δυνατός	None~None ἐφίππιος	None~None σκεπάω	None~None 
+-355	None~None χρή	None~None ἔποχον	None~None ῥάπτω	None~None ἀσφαλής	None~None ἱππεύς	None~None κάθημαι	None~None ἕδρα	None~None ἵππος	None~None σίνομαι	None~None 
+-355	None~None ἵππος	None~None ἱππεύς	None~None ὁπλίζω	None~None 
+-355	None~None κνήμη	None~None πούς	None~None ὑπερέχω	None~None ἐοικότως	None~None παραμηρίδιος	None~None ὁπλίζω	None~None ἐμβάς	None~None γίγνομαι	None~None σκῦτος	None~None οὗπερ	None~None κρηπίς	None~None ποιέω	None~None 
+-355	None~None ἅμα	None~None ὅπλον	None~None κνήμη	None~None πούς	None~None ὑπόδημα	None~None ἀίω	None~None 
+-355	None~None βλάπτω	None~None θέα	None~None ἴλαος	None~None ὅπλον	None~None 
+-355	None~None ἐναντίος	None~None βλάπτω	None~None μάχαιρα	None~None μᾶλλον	None~None ξίφος	None~None ἐπαινέω	None~None 
+-355	None~None ὑψηλός	None~None ἱππεύς	None~None κοπίς	None~None μᾶλλον	None~None πληγή	None~None ξίφος	None~None ἀρκέω	None~None 
+-355	None~None δόρυ	None~None καμάκινος	None~None ἀσθενής	None~None δύσφορος	None~None κρανέινος	None~None δύο	None~None παλτός	None~None μᾶλλον	None~None ἐπαινέω	None~None 
+-355	None~None ἐξαφίημι	None~None ἕτερος	None~None δυνατός	None~None ἐφίστημι	None~None λείπω	None~None οἷος	None~None χράομαι	None~None ἀντίον	None~None πλάγιον	None~None ὄπισθεν	None~None 
+-355	None~None ἅμα	None~None ἰσχυρός	None~None δόρυ	None~None εὔφορος	None~None 
+-355	None~None ἀκόντισμα	None~None μείς	None~None μακρός	None~None ἐπαινέω	None~None 
+-355	None~None ἀποστρέφω	None~None μεταλαμβάνω	None~None παλτός	None~None μᾶλλον	None~None χρόνος	None~None ἐγχωρέω	None~None 
+-355	None~None γράφω	None~None βραχύς	None~None κράτιστος	None~None ἀκοντίζω	None~None 
+-355	None~None προβάλλω	None~None ἀριστερός	None~None ἐπανάγω	None~None δεξιός	None~None ἐξανίστημι	None~None μηρός	None~None μικρός	None~None ἐπανακύπτω	None~None λόγχη	None~None ἀφίημι	None~None σφοδρός	None~None μακρός	None~None φέρω	None~None ἀκόντιον	None~None εὔστοχος	None~None σκοπός	None~None ἀφίημι	None~None ἀεί	None~None ὁράω	None~None λόγχη	None~None 
+-355	None~None ἰδιώτης	None~None ὑπόμνημα	None~None μάθημα	None~None μελέτημα	None~None γράφω	None~None 
+-355	None~None ἵππαρχος	None~None προσήκω	None~None οἶδα	None~None πράσσω	None~None ἕτερος	None~None λόγος	None~None δηλόω	None~None-355	συμβαίνω πολύς χρόνος ἱππεύω οἴομαι ἔμπειρος ἱππικός γίγνομαι βούλομαι νέος φίλος δηλόω νομίζω ὀρθός ἵππος προσφέρω 
+-355	συγγράφω Σίμων ἱππικός Ἐλευσίνιος Ἀθήνησιν ἵππος χάλκεος ἀνατίθημι βάθρον ἔργον ἐκτυπόω 
+-355	ὅσος συντυγχάνω ταυτός γιγνώσκω ἐξαλείφω ἡμέτερος πολύς ἡδύς παραδίδωμι φίλος νομίζω ἀξιόπιστος ταυτός γιγνώσκω ἱππικός 
+-355	ὅσος παραλείπω πειράω δηλόω 
+-355	πρότερος γράφω ἥκιστος ἐξαπατάω ἱππωνία 
+-355	ἀδάμαστος πώλης δῆλος σῶμα δέομαι δοκιμάζω 
+-355	ψυχή πάνυ σαφής τεκμήριον παρέχω μήπω ἀναβαίνω 
+-355	σῶμα πρότερος φημί χρή πούς σκοπάω 
+-355	οἰκία ὄφελος ἀίω ἄνω πάνυ καλός ἔχω ὑπόκειμαι οἷος δέομαι θεμέλιος ἵππος πολεμιστήριος ὄφελος ἀίω ἀγαθός ἔχω κακόπους ἀίω 
+-355	δύναμαι ἀγαθός χράομαι 
+-355	πούς δοκιμάζω πρότερος ὄνυξ σκοπάω 
+-355	παχύς πολύς λεπτός διαφέρω εὐποδία 
+-355	ἔπειτα δέομαι λανθάνω πότερος ὁπλή ὑψηλός ἔμπροσθεν ὄπισθεν χαμηλός 
+-355	ὑψηλός πρόσω δάπεδον ἔχω χελιδών καλέω ταπεινός ὅμοιος βαίνω ἰσχυρός μαλακός πούς βλαισός ἄνθρωπος 
+-355	ψόφος φημί Σίμων δῆλος εὔπους καλός λέγω 
+-355	κύμβαλον ψοφέω δάπεδον κόιλος ὁπλή 
+-355	ἄρχω ἐντεῦθεν ἀνάπτω σῶμα 
+-355	δέομαι ἄνω ὁπλή κάτος κυνήποδες ὀστέον ἄγαν ὀρθός αἴξ 
+-355	ἀντίτυπος κόπτω ἀναβάτης παραπίμπραμαι μᾶλλον σκέλος 
+-355	ἄγαν ταπεινός ὀστέον δέομαι 
+-355	ψιλόω ἑλκέω κυνήποδες εἴτε βῶλος εἴτε λίθος ἐλαύνω ἵππος 
+-355	κνημός ὀστέον παχύς χρή 
+-355	στῆριγξ σῶμα 
+-355	φλέψ σάρξ παχύς 
+-355	σκληρός ἐλαύνω ἀνάγκη αἷμα πληρόω κρισσός γίγνομαι παχύνω σκέλος ἀφίστημι δέρμα 
+-355	χαλάω πολλάκις περόνη ἀφίστημι χωλός ἀποδείκνυμι ἵππος 
+-355	γόνυ βαδίζω πῶλος ὑγρός κάμπτω εἰκάζω ἱππεύω ὑγρός ἔχω σκέλος 
+-355	πρόειμι χρόνος ὑγρός κάμπτω γόνυ 
+-355	ὑγρός δίκαιος εὐδοκιμέω 
+-355	ἄπταιστος ἄκοπος ἵππος σκληρός σκέλος παραχέω 
+-355	μηρός ὠμοπλάτη παχύς ἰσχυρός εὐπρεπής ἀνήρ φαίνω 
+-355	στέρνον πλατύς κάλλος ἰσχύς ἐπαλλάξ πολύς σκέλος φέρω εὐφυής 
+-355	μείς στέρνον αὐχήν κάπρος προπετής φύω ἀλεκτρυών ὀρθός κορυφή ἥκω λαγαρός ἀίω συγκαμπή κεφαλή ὀστώδης μικρός σιαγών ἔχω 
+-355	τράχηλος ἀναβάτης ἀίω ὄμμα πούς ὁράω 
+-355	βιάζω ἥκιστος δύναμαι σχῆμα ἔχω πάνυ θυμοειδής ἀίω 
+-355	ἐγκάμπτω ἐκτείνω τράχηλος κεφαλή βιάζω ἵππος ἐπιχειρέω 
+-355	σκοπάω χρή ἀμφότερος μαλακός γνάθος σκληρός ἕτερος 
+-355	ἑτερόγναθος πολύς ὅμοιος γνάθος ἔχω γίγνομαι 
+-355	μείς ἐξόφθαλμος ἐγείρω μᾶλλον φαίνω κοιλόφθαλμος πλέος ὁράω 
+-355	μυκτήρ ἀναπετάννυμι συμπίτνω εὔπνοος ἅμα γοργός ἵππος ἀποδείκνυμι 
+-355	ὀργίζω ἵππος ἵππος ἱππασία θυμόω εὐρύνω μᾶλλον μυκτήρ 
+-355	κορυφή μέγας οὖς μικρός ἱππώδης κεφαλή ἀποφαίνω 
+-355	ὑψηλός ἀκρωμία ἀναβάτης ἀσφαλής ἕδρα ὦμος ἰσχυρός πρόσφυσις παρέχω 
+-355	ῥάχις μείς διπλόος ἁπλόος ἐγκάθημαι μαλακός εἶδον ἡδύς 
+-355	πλευρά βαθύς γαστήρ ὀγκώδης ἅμα εὔεδρος ἰσχυρός εὔχιλος πολύς ἵππος παρέχω 
+-355	ὀσφύς ὅσος πλατύς βραχύς τοσοῦτος ῥάιος ἵππος πρόσθεν αἴρω ῥάιος ὄπισθεν προσάγω 
+-355	κενεών μικρός φαίνω μέγας μέρος αἰσχύνω μέρος ἀσθενής δύσφορος ἵππος παρέχω 
+-355	ἰσχίον πλατύς χρή εὔσαρκος ἀκόλουθος πλευρά στέρνον 
+-355	στερεός κοῦφος δρόμος ἀίω ὀξύς μᾶλλον ἵππος παρέχω 
+-355	μηρός μείς οὐρά ἅμα πλατεῖα γραμμή διορίζω ἔχω ὄπισθεν σκέλος πολύς ὑποθέω 
+-355	ποιέω ἅμα γοργός ἰσχυρός ἔχω ὑπόβασις ἱππασία βελτίων 
+-355	τεκμαίρομαι ἄνθρωπος 
+-355	γῆ αἴρω βούλομαι διαβαίνω μᾶλλον συμβαίνω ἐπιχειρέω αἴρω 
+-355	ὄρχις δέομαι μέγας ἵππος ἔχω πώλης κατεῖδον 
+-355	μείς κάτωθεν ἀστράγαλος κνημός κυνήποδες ὁπλέω ταυτός λέγω ἔμπροσθεν 
+-355	γράφω βούλομαι μέγεθος ἥκιστος ἀποτυγχάνω 
+-355	κνήμη εὐθύς γίγνομαι ὑψηλός μέγας γίγνομαι 
+-355	πρόειμι χρόνος τετράπους κνήμη μέγεθος μάλα αὐξάνω σύμμετρος ἔχω συναυξάνω σῶμα 
+-355	εἶδος πώλης δοκιμάζω μάλιστα δοκέω τυγχάνω εὔπους ἰσχυρός εὔσαρκος εὐσχήμων εὐμεγέθης 
+-355	αὐξάνω μεταβάλλω θαρσέω δοκιμάζω 
+-355	πολύς πλείων εὔχρηστος αἰσχρός αἰσχρός γίγνομαι 
+-355	δέομαι πωλεύω δοκέω γραπτέος 
+-355	τάσσω πόλις ἱππεύω χρῆμα ἱκανός πόλις ἐλάχιστος μετέχω 
+-355	πολύς κρείσσων πωλοδαμνέω νέος εὐεξία ἐπιμελέομαι ἱππικός ἐφίστημι ἤδη ἱππάζομαι μελέτη πρέσβυς οἶκος φίλος πολιτικός πολεμικός μᾶλλον πώλευσις διατρίβω 
+-355	γιγνώσκω πωλεία δῆλος ἐκδίδωμι πῶλος 
+-355	χρή παῖς τέχνη ἐκδίδωμι συγγράφω δέησις ἐφίστημι ἀποδίδωμι ἐκδίδωμι 
+-355	ὑπόμνημα πωλοδάμνης δέομαι ἐπιμελέομαι μέλλω μισθός ἀπολαμβάνω 
+-355	πρᾶος χειροήθης φιλάνθρωπος πῶλος ἐκδίδωμι πωλοδάμνης ἐπιμελητέον 
+-355	οἴκοι πλεῖστος ἱππόκομος ἀποτελέω ἐφίστημι πεινάω διψάω μυωπίζω παρασκευάζω ἐρημία γίγνομαι πῶλος ἐσθίω πίνω λυπέω ἀπαλλάσσω ἄνθρωπος 
+-355	γίγνομαι ἀνάγκη μόνος φιλέω ποθέω πῶλος ἄνθρωπος 
+-355	ἅπτω χρή ψηλαφάω ἵππος μάλιστα ἥδομαι 
+-355	λάσιος ἥκιστος δύναμαι ἵππος λυπέω ἐπεπικουρέω 
+-355	προστάσσω ἱπποκόμος ὄχλος διάγω παντοδαπός ὄψις παντοδαπός ψόφος πλησιάζω 
+-355	ὅσος πῶλος φοβέω χαλεπαίνω δέομαι πραύνω διδάσκω δεινός 
+-355	πωλεία ἀρκέω δοκέω ἰδιώτης εἶπον τοσοῦτος πράσσω 
+-355	ἱππάζομαι ὠνέομαι ὑπόμνημα γράφω δέομαι καταμανθάνω μέλλω ἐξαπατάω ἱππωνία 
+-355	πρότερος λανθάνω ἡλικία 
+-355	μηκέτι ἔχω γνώμων ἐλπίς εὐφραίνω ὅμοιος εὐαπάλλακτος γίγνομαι 
+-355	ὁπότε νεότης σαφής δέομαι λανθάνω πῶς στόμα δέχομαι χαλινός πῶς οὖς κορυφαία 
+-355	ἥκιστος λανθάνω ὁράω ὠνέομαι ἐμβάλλω χαλινός ὁράω ἐξαιρέω 
+-355	ἔπειτα προσέχω δέομαι νόος πῶς νῶτον δέχομαι ἀναβάτης 
+-355	πολύς ἵππος χαλεπός προσίημι πρόδηλος προσίημι πονέω ἀναγκάζω 
+-355	σκεπτέος ἀναβαίνω ἐθέλω ἵππος ἀποχωρέω ἵστημι ἱππεύω ἐκφέρω 
+-355	κακός ἀγωγή οἴκαδε ἄφοδος φεύγω ἱππασία 
+-355	ἑτερόγναθος μηνύω πέδη καλέω ἱππασία πολύς μᾶλλον μεταβάλλω ἱππασία 
+-355	πολύς ἐγχειρέω ἐκφέρω ἅμα συμβαίνω ἄδικος γνάθος οἶκος ἐκφορά 
+-355	δέομαι οἶδα ἀφίημι τάχος ἀναλαμβάνω βραχύς ἀποστρέφω ἐθέλω 
+-355	ἀγαθός ἄπειρος πληγή ἐγείρω ἐθέλω ὅμοιος πείθω 
+-355	ἄχρηστος οἰκέτης στράτευμα ἀπειθής 
+-355	ἵππος ἀπειθής μόνος ἄχρηστος πολλάκις ὅσος προδότης διαπράσσω 
+-355	πολεμιστήριος ἵππος ὑποτίθημι ὠνέομαι ληπτέος πεῖρα ὅσος πόλεμος πεῖρα λαμβάνω 
+-355	τάφρος διαπηδάω τειχίον ὑπερβαίνω ὄχθος ἀνορούω ὄχθος καθάλλομαι 
+-355	ἀνάντομαι πρανής πλάγιον ἐλαύνω πεῖρα λαμβάνω 
+-355	ψυχή καρτερός σῶμα ὑγιής δοκιμάζω 
+-355	καλός πάνυ ποιέω ἀποδοκιμαστέος 
+-355	πολύς δύναμαι ἄπειρος ἐλλείπω 
+-355	μανθάνω ἐθίζω μελετάω καλός ποιέω ἄλλως ὑγιής κακός 
+-355	ὑποπτάω φύσις φυλακτέος 
+-355	ὑπέρφοβος βλάπτω πολέμιος ἀίω ἀναβάτης σφάλλω πολλάκις χαλεπός ἐμβάλλω 
+-355	δέομαι χαλεπότης ἔχω ἵππος καταμανθάνω εἴτε ἵππος εἴτε ἄνθρωπος δυσγάργαλις ἀίω 
+-355	χαλεπός κτάομαι γίγνομαι 
+-355	χαλίνωσις ἀνάβασις ἀποκωλύω νεῦμα πολύς μᾶλλον καταμανθάνω πονέω ἤδη ἵππος πάλιν πειράω ποιέω ταυτός ὅσος πρίν ἄρχω ἱππεύω 
+-355	ὅσος πονέω ἐθέλω πάλιν ὑποδύομαι πόνος ἱκανός τεκμήριον παρέχω ψυχή καρτερός 
+-355	συναιρέω εἶπον εὔπους ἀίω πρᾶος ἀρκεόντως ποδώκης ἐθέλω δύναμαι πόνος ὑποφέρω πείθω μάλιστα ἐοικότως ἄλυπος ἀίω σωτήριος ἀναβάτης πολεμικός 
+-355	βλακεία ἔλασις πολύς δέομαι ὑπέρθυμος πολύς θωπεία πραγματεία ἀσχολία χείρ ἀναβάτης παρέχω ἀθυμία κίνδυνος 
+-355	ἄγαμαι ἵππος πρίαμαι οἴκαδε ἄγω καλός οἰκία σταθμόν ὅπου πλειστάκις δεσπότης ὁράω ἵππος 
+-355	ἀγαθός κατασκευάζω ἱππών μᾶλλον οἷος ἵππος σῖτος κλέπτω φάτνη δεσπότης ταμιεῖον 
+-355	ἀμελέω δοκέω ἀμελέω 
+-355	δῆλος κίνδυνος σῶμα ἵππος δεσπότης παρακατατίθεμαι 
+-355	μόνος κλέπτω σῖτος ἀγαθός ἐχυρός ἱππών ἐκκομίζω σῖτος ἵππος φανερός γίγνομαι 
+-355	αἰσθάνομαι γιγνώσκω σῶμα ὑπεραιμέω δέομαι θεραπεία κόπος ἔνειμι δέομαι ἀνάπαυσις κριθίασις ἀρρωστία ὑποδύομαι 
+-355	ἄνθρωπος ἵππος ἄρχω εὐίατος ἐνσκιρόομαι ἐξαμαρτάνω νόσημα 
+-355	ἵππος σῖτος γύμνασις ἐπιμελητέον σῶμα ἰσχύω πούς ἀσκητέος 
+-355	ὑγρός λεῖος στάθμη λυμαίνομαι εὐφυής ὁπλή 
+-355	ὑγρός ἀπόρρυτος λεῖος λίθος ἔχω κατορύσσω προσάλληλος παραπλήσιος ὁπλή μέγεθος σταθμόν ἐφίστημι ἅμα στερεόω πούς 
+-355	ἔπειτα μείς ἱπποκόμος ἐξακτέω ἵππος ὅπου ψήχω μεταδετέον ἄριστος φάτνη ἡδύς δεῖπνον εἶμι 
+-355	ὧδε ἔξω σταθμός βέλτιστος ἀίω πούς καρτερύνω λίθος στρογγύλος ἀμφίδοχμος ὅσος μνααῖος ἄμαξα τέσσαρες πέντε χύδην καταβάλλω περιχειλόω σίδηρον σκεδάννυμι 
+-355	ἵστημι ὁδός λιθώδης ἀεί μέρος ἥμερος πορεύω ἀνάγκη ψήχω χράομαι ὁπλή βαδίζω 
+-355	χελιδών πούς χέω λίθος στερεόω 
+-355	ὁπλή στερεός ἐπιμελητέον στόμα μαλακός ἐπιμελέομαι δέομαι 
+-355	ἄνθρωπος σάρξ ἵππος στόμα ἁπαλύνω 
+-355	ἱππικός ἀνήρ δοκέω ἱπποκόμος παιδεύω δέομαι ἵππος πράσσω 
+-355	πρότερος ἐπιφατνίδιος φορβειά ἐφίστημι δέομαι μήποτε ἅμμα ποιέω ἔνθαπερ κορυφαία περιτίθημι 
+-355	πολλάκις κνάω ἵππος φάτνη κεφαλή ἀσινής φορβειά οὖς πολλάκις ἕλκος ποιέω 
+-355	ἑλκέω ἀνάγκη ἵππος χαλινόω ψήχω δύσκολος 
+-355	ἀγαθός τάσσω ἱπποκόμος ἥμερος κόπρον ὑπόστρωμα ἵππος ἐκφέρω χωρίον 
+-355	ποιέω ῥᾴδιος ἀπαλλάσσω ἅμα ἵππος ὠφελέω 
+-355	οἶδα χρή ἱπποκόμος κημός περιτίθημι ἵππος ψῆξις καλίστρα ἐξάγω 
+-355	ἀεί ὅποι ἀχαλίνωτος ἄγη κημόω δέομαι 
+-355	κημός ἀναπνέω κωλύω δάκνω ἀίω 
+-355	ἐπιβουλεύω περίκειμαι μᾶλλον ἐξαιρέω ἵππος 
+-355	δεσμεύω ἵππος ἄνωθεν κεφαλή δέομαι 
+-355	ὁπόσος δύσκολος πρόσωπον ἵππος ἐκνεύω φύω ἄνω 
+-355	ἐκνεύω δέω χαλάω μᾶλλον διασπάω δεσμός 
+-355	ψήχω ἄρχω κεφαλή χαίτη 
+-355	καθαρός ἄνω μάταιος κάτος καθαίρω 
+-355	ἔπειτα σῶμα κάθαρσις ὄργανον ἀνίστημι δέομαι θρίξ σοβέω κόνις φύσις θρίξ 
+-355	ῥάχις θρίξ ὄργανον δέομαι ἅπτω χείρ τρίβω ἁπαλύνω φύσις κλίνω 
+-355	ἥκιστος βλάπτω ἕδρα ἵππος 
+-355	ὕδωρ καταπλύνω κεφαλή χρή 
+-355	ὀστώδης σίδηρον ξύλον καθαίρω λυπέω ἵππος 
+-355	προκόμιον χρή βρέχω 
+-355	εὐμήκης θρίξ ὁράω κωλύω ἵππος ἀποσοβέω ὀφθαλμός λυπέω 
+-355	θεός οἴομαι χρή δίδωμι θρίξ ἵππος μέγας ἄατος ὄνος ἡμίονος δίδωμι ἀλεξητήριος ὄμμα 
+-355	οὐρά χαίτη πλύνω χρή αὐξάνω δέομαι θρίξ οὐρά πλεῖστος ἐξικνέομαι ἀποσοβέω ἵππος λυπέω τράχηλος ἀναβάτης ἄφθονος ἀντίληψις 
+-355	δίδωμι θέα ἀγλαία ἵππος χαίτη προκόμιον οὐρά 
+-355	τεκμήριον 
+-355	ἀγελαῖος ἵππος ὅμοιος ὑπομένω ὄνος ὀχεία κομάω 
+-355	ἀποκείρω ὀχεία ἵππος ὀνοβατέω 
+-355	μείς σκέλος κατάπλυσις ἀφαιρέω 
+-355	ὠφελέω βλάπτω ὁπλή ἥμερος βρέξις 
+-355	γαστήρ ἄγαν κάθαρσις μειόω χρή 
+-355	λυπέω μάλιστα ἵππος ὅσος καθαρός γίγνομαι τοσοῦτος πλέως λυπέω ἀθροίζω γαστήρ 
+-355	πάνυ διαπονέω φθάνω ἐξάγω ἵππος εὐθύς ὅμοιος ἀκάθαρτος 
+-355	ἀίω χρή 
+-355	ἀρκέω σκέλος ψῆξις χείρ γίγνομαι 
+-355	δηλόω ἀβλαβής ἵππος ὠφέλιμος πρόσθεν ψήχω 
+-355	βλέπω ἵππος καθαίρω κίνδυνος γόνυ ὁπλή πρόσωπον πλήσσω 
+-355	ἀντίον ἵππος ὁράω ἔξω σκέλος καθαίρω ὠμοπλάτη καθίζω ἀποτρίβω πάσχω δύναμαι χελιδών ἵππος θεραπεύω ἀναπτύσσω ὁπλή 
+-355	αὔτως ὄπισθεν σκέλος καθαίρω 
+-355	οἶδα χρή ἵππος ὅσος πράσσω δέομαι ἥκιστος χρή πρόσωπον οὐρά ἀντίον ποιέω πρόσειμι 
+-355	ἐπιχειρέω ἀδικέω ἀμφότερος κρείσσων ἵππος ἄνθρωπος 
+-355	πλάγιον πρόσειμι ἀβλαβής πλεῖστος ἵππος δύναμαι χράομαι 
+-355	ἄγω δέομαι ἵππος ὄπισθεν ἀγωγή ἐπαινέω ἄγω ἥκιστος φυλάσσω ἵππος μάλιστα ἔξεστι ποιέω βούλομαι 
+-355	ἔμπροσθεν μακρός ἀγωγεύς πρόειμι διδάσκω ὑφηγέομαι ἵππος ψέγω 
+-355	ἔξεστι ἵππος ὁπότερος βούλομαι πλάγιον κακουργέω ἔξεστι ἀναστρέφω ἀντίον γίγνομαι ἄγω 
+-355	ἀθρόος ἵππος πῶς δύναμαι ἀπέχω ἄγω 
+-355	πλάγιος ἵππος ἐθίζω παράγω ἥκιστος ἵππος ἄνθρωπος δύναμαι κακουργέω κάλλιστα παρασκευάζω ἀναβάτης ἀίω τάχος ἀνάπτω δέω 
+-355	ἱπποκόμος χαλινός ὀρθός ἐμβάλλω πρότερος πρόσειμι ἀριστερός ἵππος 
+-355	ἔπειτα ἡνία περιβάλλω κεφαλή καθέτης ἀκρωμία κορυφαία δεξιός αἴρω στόμιον ἀριστερός προσφέρω 
+-355	δέχομαι δῆλος περιτίθημι δέομαι κεκρύφαλος 
+-355	ὑποχάσκω ἔχω δέομαι ὀδούς χαλινός μέγας δάκτυλος ἀριστερός χείρ εἴδομαι γνάθος ἵππος ποιέω 
+-355	πολύς γίγνομαι χαλάω στόμα 
+-355	δέχομαι πιέζω χεῖλος κυνόδους 
+-355	πάνυ ὀλίγος δέχομαι πάσχω 
+-355	διδάσκω ἱπποκόμος πρότερος μήποτε ἄγω ἡνία ἵππος 
+-355	ἑτερόγναθος ποιέω 
+-355	ἔπειτα ὅσος δέομαι ἀπέχω χαλινός γνάθων 
+-355	ἄγαν τυλόω στόμα εὐαίσθητος ἄγαν ἄκρος στόμα καθίημι ἐξουσία παραχέω συνδάκνω στόμιον πείθω 
+-355	χρή ἱπποκόμος τοιόσδε παρατηρέω ῥᾴδιος χαλινός ἵππος δέχομαι αἰσθάνομαι δέομαι πονέω 
+-355	μέγας λαμβάνω ἐθέλω ἵππος χαλινός δέχομαι παντάπασι ἄχρηστος 
+-355	μόνος πονέω μέλλω χαλινόω σῖτος ἱππασία οἶκος ἀφηγέομαι ἀίω θαυμαστός ἁρπάζω χαλινός αὐτόματος προτείνω 
+-355	ἀγαθός ἱπποκόμος ἀναβάλλω ἐφίστημι Περσικός τρόπος δεσπότης ἀρρωστέω πρέσβυς γίγνομαι ἔχω εὐπετής ἀναβιβάζω βούλομαι ἀναβάλλω ἐπιχαρίζομαι 
+-355	μήποτε ὀργή ἵππος προσφέρω δίδαγμα ἔθισμα ἵππος ἄριστος 
+-355	ἀπρονόητος ὀργή πολλάκις ἐξεργάζομαι μεταμέλομαι ἀνάγκη 
+-355	ὑποπτάω ἵππος ἐθέλω πρόσειμι διδάσκω δέομαι δεινός μάλιστα ἵππος εὐκάρδιος ἅπτω δεινός δοκέω ἵππος πρᾶος προσάγω 
+-355	πληγή ἀναγκάζω πλέως φόβος παρέχω 
+-355	οἴομαι ἵππος χαλεπός πάσχω ὑποπτεύω αἴτιος 
+-355	μείς ἱπποκόμος ἵππος παραδίδωμι ἀναβάτης ἐφίστημι ὑποβιβάζω ἵππος εὐπετής ἀνάπτω μέμφομαι 
+-355	ἱππεύς νομίζω χρή μελέτη παρέχω ἵππος δύναμαι ἀναβαίνω 
+-355	ἄλλοτε ἀλλοῖος ἵππος παράπειμι ἄλλοτε ἄλλως ὑπηρετέω 
+-355	παραδέχομαι ἵππος ἀνάπτω γράφω ὅσος ποιέω ἱππεύς ἵππος ὠφέλιμος ἱππικός ἀίω 
+-355	πρότερος ῥυταγωγεύς χρή ὑποχαλινίδιος ψάλιον ἀρτάω εὐτρεπής ἀριστερός χείρ λαμβάνω χαλαρός θρίξ οὖς λαμβάνω μέλλω ἀνάπτω δόρυ ἀναπηδάω σπάω ἵππος 
+-355	δεξιός ἡνία ἀκρωμία λαμβάνω ὁμοῦ χαίτη ἕνος τρόπος ἀναβαίνω σπάσις χαλινός στόμα ἵππος 
+-355	ἀνακουφίζω ἀνάβασις ἀριστερός ἀνιμάω σῶμα δεξιός ἐκτείνω συνεπαίρω ἀναβαίνω ὄπισθεν αἰσχρός θέα παραξέω συγκάπτω σκέλος γόνυ ῥάχις τίθημι ἵππος ὑπερβαίνω δεξιός πλευρά κνήμη 
+-355	περιφέρω πούς τότε γλουτός καθέτης ἵππος 
+-355	τυγχάνω ἱππεύς ἀριστερός ἄγω ἵππος δεξιός δόρυ ἔχω ἀγαθός δοκέω δεξιός μελετάω ἀναπηδάω 
+-355	μανθάνω δέομαι τότε δεξιός σῶμα ποιέω ἀριστερός ποιέω τότε ἀριστερός δεξιός 
+-355	ἐπαινέω ἀνάβασις ἅμα ἀναβαίνω ἀίω κατασκευάζω δέω ἐξαίφνης πολέμιος ἀγωνίζομαι 
+-355	καθέζομαι ψιλός ἐφίππιος δίφρος ἕδρα ἐπαινέω ὀρθός διαβαίνω ἀίω σκέλος 
+-355	μηρός ἔχω μᾶλλον ἵππος ὀρθός ἐρρωμένος δύναμαι ἀκοντίζω πατάσσω ἵππος δέω 
+-355	χρή χαλαρός γόνυ ἀφίημι κνήμη ποδίς 
+-355	σκληρός ἔχω σκέλος προσκόπτω προσκλάομαι ἀίω 
+-355	ὑγρός κνήμη προσπίτνω ὑφίημι μηρός μετακινέω 
+-355	δέομαι ἱππεύς ἄνωθεν ἴσχιον σῶμα ὑγρός ἐθίζω 
+-355	πονέω μᾶλλον δύναμαι ἕλκω ὠθέω ἥσσων σφάλλω 
+-355	καθέζομαι πρότερος ἠρεμέω δέομαι διδάσκω ἵππος ὑποσπάω δέομαι ἡνία ἰσόω δόρυ λαμβάνω εὔφορος ἀίω 
+-355	ἔπειτα ἔχω ἀριστερός βραχίων πλευρά 
+-355	εὐσταλής ἱππεύς χείρ ἐγκρατής 
+-355	ἡνία ἐπαινέω ὁποῖος ἴσος ἀσθενής ὀλισθήεις παχύς δόρυ δέομαι δέχομαι χείρ δύναμαι 
+-355	προχωρέω σημαίνω ἵππος βάδην ἄρχω 
+-355	ἀτάρακτος 
+-355	ἡνιοχέω κυφαγωγός ἵππος ἄνω χείρ μᾶλλον ἀνακύπτω κάτος 
+-355	μάλιστα κοσμέω σχῆμα 
+-355	αὐτοφυής διατροχάζω διαχαλάω ἄλυπος σῶμα ἐπιρραβδοφορέω ἡδύς ἀφικνέομαι 
+-355	ἀριστερός ἄρχω εὐδόκιμος ὧδε μάλιστα ἄρχω διατροχάζω ὁπότε ἐμβαίνω δεξιός τότε σημαίνω ἵππος ἐπιρραβδοφορέω 
+-355	ἀριστερός μέλλω αἴρω ἄρχω ὁπότε εὐώνυμος ἀναστρέφω τότε ἐπισκέλισις ἄρχω 
+-355	φύω ἵππος δεξιός στρέφω δεξιός ἀφηγέομαι εὐώνυμος ἀριστερός 
+-355	ἱππασία ἐπαινέω πέδη καλέω 
+-355	ἀμφότερος γνάθος στρέφω ἐθίζω 
+-355	μεταβάλλω ἱππασία ἀγαθός ἀμφότερος γνάθος ἑκάτερος ἱππασία ἰσάζω 
+-355	ἐπαινέω ἑτερομήκης πέδη μᾶλλον κυκλοτερής 
+-355	ἡδύς στρέφω ἵππος ἤδη πλήρης εὐθύς ὀρθοδρομέω ἀποκάμπτω ἅμα μελετάω 
+-355	δέομαι ὑπολαμβάνω στροφή 
+-355	ῥαίδιον ἵππος ἀσφαλής τάχος κάμπτω μικρός ἄλλως ἀπόκροτος ὀλισθήεις χωρίον 
+-355	ὑπολαμβάνω ἥκιστος χρή ἵππος πλαγιόω χαλινός ἥκιστος πλαγιόω 
+-355	εὖ χρή οἶδα μικρός πρόφασις ἀρκέω κέω ἵππος 
+-355	μείς στροφεύς εὐθύς βλέπω ἵππος θάσσων ὁρμάω 
+-355	δῆλος πόλεμος στροφή διώκω ἀποχωρέω 
+-355	ἀγαθός στράπτω ταχύνω μελέτη 
+-355	ἱκανός ἤδη δοκάζω γυμνάσιον ἵππος ἔχω ἀγαθός διαναπαύομαι ὁρμάω αὖθις ἐξαίφνης τάχιστος ἵππος ἵππος 
+-355	ταχύς ἐγγύς ἠρεμίζω ἵστημι στρέφω πάλιν ὁρμάω 
+-355	πρόδηλος ποτός ἑκάτερος δέησις 
+-355	καταβαίνω ἤδη καιρός ἵππος ποτός καταβαίνω σύστασις ἄνθρωπος ἔξω ἱππασία ὅπου πονέω ἀναγκάζω ἵππος ἐνταῦθα ῥᾳστώνη τυγχάνω 
+-355	ὅπου τρέχω δέησις ἵππος πρανής ὄρθιος πλάγιον ὅπου διαπηδάω ὅπου ἐκπηδάω ἔνθα καθάλλομαι διδάσκω δέομαι μελετάω ἵππος 
+-355	σωτήριος καθόλου χρήσιμος δοκέω 
+-355	διλογέω οἴομαι λέγω πρόσθεν διλογία 
+-355	ὠνέομαι πειράω κελεύω δύναμαι ἵππος ποιέω 
+-355	διδάσκω φημί χρή γράφω δέομαι διδάσκω 
+-355	παντάπασι ἄπειρος διαπηδάω λαμβάνω δέομαι ἀγωγεύς καταβάλλω προδιαβαίνω τάφρος ἔπειτα ἐντείνω δέομαι ἀγωγεύς διάλλομαι 
+-355	ἐθέλω ἔχω μάστιξ ῥάβδος ἐμβάλλω ἰσχυρός 
+-355	ὑπεράλλομαι μέτρον πολύς πλέος καίριος 
+-355	λοιπός δέησις παίω μόνος εἶδον ὀπίζω ἐπέρχομαι ἅλλομαι 
+-355	διαπηδάω ἐθίζω ἀναβαίνω ἐπάγω πρότερος μικρός ἔπειτα μέγας 
+-355	μέλλω πηδάω παίω μύωψ 
+-355	ἀναπηδάω κατάπειμι διδάσκω παίω μύωψ 
+-355	ἀθρόος σῶμα ποιέω ἵππος ἀναβάτης ἀσφαλής ποιέω μᾶλλον ἐκλείπω ὄπισθεν διαπηδάω ἀνορούω καθάλλομαι 
+-355	μείς κατάντομαι πρότερος χρή μαλακός χωρίον διδάσκω τελευτάω ἐθίζω πολύς ἡδύς πρανής ὄρθιος τρέχω 
+-355	φοβέω ἀπορρήγνυμι ὦμος πρανής ἐλαύνω θαρσέω μανθάνω Πέρσης Ὄδρυσος κατάντης ἁμιλλάομαι ἥσσων Ἕλλην ὑγιής ἵππος ἔχω 
+-355	παρίημι ἀναβάτης ὑπηρετέω δέομαι 
+-355	χρή ὁρμάω ἐξαίφνης ἵππος προνεύω 
+-355	ἥσσων ὑποδύομαι ἵππος ἀναβάλλω ἀναβάτης 
+-355	μικρός ἀναλαμβάνω ἀναπίπτω 
+-355	ἥσσων κόπτω 
+-355	τάφρος διάλλομαι ὄρθιος ἵημι καλός χαίτη ἐπιλαμβάνω ἵππος χωρίον ἅμα χαλινός βαρύνω 
+-355	μείς πρανής ὕπτιος ποιητέος ἵππος ἀντιληπτέον χαλινός προπετής κατάντομαι ἵππος φέρω 
+-355	ὀρθός ἔχω ἄλλοτε τόπος ἄλλοτε μακρός ἄλλοτε βραχύς ἱππασία ποιέω 
+-355	ἀμισής ἵππος ἀεί τόπος ὅμοιος ἱππασία ποιέω 
+-355	δέομαι παντοῖος χωρίον ἱππεύς κράτος ἐλαύνω ἔποχον ἵππος ὅπλον καλός δύναμαι χράομαι ὅπου χωρίον ἐπιτήδειος θηρίον ἄμεμπτος θήρα μελετάω ἱππικός 
+-355	ὅπου ὑπάρχω ἀγαθός ἄσκησις δύο ἱππότης συντίθημι φεύγω ἵππος παντοῖος χωρίον δόρυ ὄπισθεν μεταβάλλω ὑποχωρέω διώκω σφαιρόω ἔχω ἀκόντιον δόρυ πραγματεύομαι ὅπου ἀκόντιον ἀφικνέομαι ἀκοντίζω φεύγω σφαιρωτός ὅπου δόρυ πληγή δόρυ παίω ἁλίσκομαι 
+-355	ἀγαθός συμπίτνω ἕλκω πολέμιος ἐξαίφνης ἀπωθέω 
+-355	καταβλητικός 
+-355	ὀρθός ἔχω ἕλκω ἐπελαύνω ἵππος 
+-355	ποιέω ἕλκω καταβάλλω μᾶλλον ἕλκω καταπίπτω 
+-355	στρατόπεδον ἀντικάθημαι ἀνθιππεύω διώκω πολέμιος φάλαγξ ἀντίος φεύγω φιλία ἀγαθός ἐνταῦθα ἐφίστημι φῖλος καλός ἀσφαλής πρότερος ἀναστρέφω κράτος ἐπίκειμαι ἐγγύς ἐναντίος γίγνομαι ὑποχείριος ἵππος ἔχω 
+-355	ἔοικα μάλιστα δύναμαι βλάπτω ἐναντίος βλάπτω 
+-355	ἄνθρωπος ἄνθρωπος δίδωμι θεός λόγος διδάσκω δέομαι ποιέω ἵππος δῆλος λόγος διδάσκω 
+-355	ποιέω βούλομαι ἀντιχαρίζομαι ἀπειθέω κολάζω μάλιστα μανθάνω δέον ὑπηρετέω 
+-355	βραχύς εἶπον ὅλος ἱππικός παρακολουθέω 
+-355	χαλινός μᾶλλον λαμβάνω ὁπότε δέχομαι ἀγαθός ἀποβαίνω 
+-355	διαπηδάω ἐξάλλομαι ὑπηρετέω προσδοκάω ὁπότε σημαίνω πράσσω ῥᾳστώνη 
+-355	ἐρῶ ἥκιστος ἐξαπατάω πῶλος ἵππος ὠνέομαι ἥκιστος διαφθείρω χράομαι μάλιστα ἵππος ἀποδείκνυμι δέω ἔχω ἱππεύς δέομαι πόλεμος 
+-355	καιρός ἴσως γράφω συμβαίνω θυμοειδής ἵππος καίριος χράομαι βλακώδης ὀρθός ἑκάτερος χράομαι 
+-355	πρότερος χρή γιγνώσκω θυμός ἵππος ὅσπερ ὀργή ἄνθρωπος 
+-355	ἄνθρωπος ἥκιστος ὀργίζω λέγω χαλεπός ποιέω ἵππος θυμοειδής ἀνιάω ἥκιστος ἐξοργίζω 
+-355	εὐθύς χρή ἀνάβασις ἐπιμελέομαι ἥκιστος ἀναβαίνω λυπέω 
+-355	ἀνάπτω ἠρεμέω πλέως χρόνος ἐπιτυγχάνω προκλῄζω πρᾶος σημεῖον 
+-355	ἔπειτα βραδύς ἄρχω θάσσων προάγω μάλιστα λανθάνω ἵππος ταχύς ἀφικνέομαι 
+-355	ἐξαίφνης σημαίνω θυμοειδής ἵππος ἄνθρωπος ταράσσω ἐξαπίναιος ὅραμα ἄκουσμα πάθημα 
+-355	οἶδα χρή ἵππος ἐξαπίναιος τάραχος ἐξεργάζομαι 
+-355	θάσσων ὁρμάω καιρός ὑπολαμβάνω βούλομαι θυμοειδής δέομαι ἐξαπίναιος σπάω ἠρεμαῖος προσάγω χαλινός πραύνω βιάζω ἠρεμέω 
+-355	μακρός ἔλασις μᾶλλον πυκνός ἀποστροφή πραύνω ἵππος ἡσυχαῖος πολυχρόνιος καθέψω πραύνω ἀνεγείρω θυμοειδής 
+-355	οἴομαι ταχύς πολύς ἐλαύνω ἀπεῖπον ποιέω ἵππος πραύνω ἐναντίος γιγνώσκω γίγνομαι 
+-355	θυμοειδής ἄγω βία μάλιστα ἐπιχειρέω ὀργή ἄνθρωπος ὀργίλος πολλάκις ἀναβάτης πολύς ἀνήκεστος ποιέω 
+-355	ἐπιλαμβάνω χρή ἵππος θυμοειδής τότε τάχιστος ὁρμή παραβάλλω ἵππος παντάπασι ἀπέχω 
+-355	σχεδόν θυμοειδής φιλόνεικος ἵππος γίγνομαι 
+-355	χαλινός λεῖος ἐπιτήδειος τραχύς 
+-355	τραχύς ἐμβάλλω χαλαρότης λεῖος δέομαι ἀφομοιόω 
+-355	ἀγαθός ἐθίζω ἠρεμέω μάλιστα θυμοειδής ἵππος ἥκιστος ἅπτω κάθημαι ἀσφαλής ἅπτω 
+-355	οἶδα χρή δίδαγμα ποππυσμός πραύνω κλωγμός ἐγείρω ἀρχή κλωγμός πρᾶος ποππυσμός χαλεπός προσφέρω μανθάνω ἵππος ποππυσμός ἐγείρω κλωγμός πραύνω 
+-355	δέομαι κραυγή σάλπιγξ φαίνω θορυβέω ἵππος μείς θορυβώδης προσφέρω δυνατός ἀναπαύω ἄριστος δεῖπνον ἐγχωρέω προσφέρω 
+-355	καλός συμβούλευμα ἄγαν θυμοειδής ἵππος κτάομαι πόλεμος 
+-355	βλάξ ἵππος ἀρκέω δοκέω γράφω ἐναντίος ποιέω ὅσος θυμοειδής χράομαι συμβουλεύω 
+-355	βούλομαι χράομαι χρήσιμος πόλεμος ἵππος μεγαλοπρεπής περίβλεπτος ἱππάζομαι ἕλκω στόμα χαλινός μυωπίζω μαστιγόω ἵππος πολύς ποιέω λαμπρύνω οἴομαι ἀπέχω δέομαι 
+-355	ἐναντίος ποιέω βούλομαι 
+-355	στόμα ἕλκω ἄνω προοράω ἐκτυφλόω ἵππος μυωπίζω παίω ἐκπλήσσω ταράσσω κινδυνεύω 
+-355	ἵππος ἔργον μάλιστα ἄχθομαι ἱππασία αἰσχρός καλός ποιέω 
+-355	διδάσκω ἵππος χαλαρός χαλινός ἱππεύω ἄνω αὐχήν αἴρω κεφαλή κυρτόω ἀπεργάζομαι ποιέω ἵππος οἷος ἥδομαι ἀγάλλω 
+-355	τεκμήριον ἥδομαι 
+-355	σχηματοποιέω ἐθέλω ἵππος μάλιστα θῆλυς τότε αἴρω αὐχήν ἄνω κυρτόω μάλιστα κεφαλή γοργόομαι σκέλος ὑγρός μετεωρίζω οὐρά ἄνω ἀνατείνω 
+-355	προάγω σχηματοποιέω μάλιστα καλλωπίζω ἥδομαι ἱππασία μεγαλοπρεπής γοργός περίβλεπτος ἀποφαίνω ἵππος 
+-355	ἁγέομαι ἀπεργάζομαι πειράω διηγέομαι 
+-355	πρότερος χρή μείων δύο χαλινός κτάομαι 
+-355	λεῖος τροχός εὐμεγέθης ἔχω ἕτερος τροχός βαρύς ταπεινός ἐχῖνος ὀξύς ὁπόταν λαμβάνω ἀσχάλλω τραχύτης ἀφίημι λείων μεταλαμβάνω λειότης ἥδομαι τραχύς παιδεύω ταυτός λεῖος ποιέω 
+-355	καταφρονέω λειότης θαμινός ἀπερείδω τροχός μέγας λεῖος προστίθημι χάσκω ἀναγκάζω ἀφίημι στόμιον 
+-355	οἷος τραχύς παντοδαπός ποιέω κατειλέω κατατείνω 
+-355	ὁποῖος χαλινός ὑγρός 
+-355	σκληρός ὅπη ἵππος λαμβάνω ὅλος ἔχω γνάθος ὀβελίσκος ὁπόθεν λαμβάνω ὅλος αἴρω 
+-355	ἕτερος ἅλυσις ποιέω 
+-355	ἔχω μόνος ἄκαμπτος μένω ἀπαρτάω 
+-355	φεύγω στόμα ἀεί θηρεύω ἀφίημι γνάθων στόμιον 
+-355	μέσος ἄξων δακτύλιος κρεμάννυμι διώκω γλῶσσα ὀδούς ἀμελέω ἀναλαμβάνω γνάθος χαλινός 
+-355	ἀγνοέω ὑγρός χαλινός σκληρός γράφω 
+-355	ὑγρός ἄξων εὐρέιος λεία ἔχω συμβολή ῥᾴδιος κάμπτω 
+-355	ὁπόσος περιτίθημι ἄξων εὐρύστομος σύμπυκνος ὑγρός 
+-355	χαλεπός χαλινός διατρέχω συνθέω σκληρός 
+-355	ὁποῖος ταυτός ποιητέος ἤνπερ βούλομαι ἀποδείκνυμι ἵππος οἷονπερ ἔρομαι 
+-355	ἀνακρουστέον στόμα ἵππος ἄγαν χαλεπός ἐκνεύω ἄγαν ἥσυχος αἰσθάνομαι 
+-355	ἀνακρούω αἴρω αὐχήν δοτέος εὐθύς χαλινός 
+-355	δέομαι παύω λέγω καλός ὑπηρετέω χαρίζομαι ἵππος 
+-355	αἰσθάνομαι ἥδομαι ἵππος ὑψαυχενία χαλαρότης δέομαι χαλεπός προσφέρω πονέω ἀναγκάζω θωπεύω ἱππάζομαι βούλομαι 
+-355	μάλιστα θάρσος πρόειμι ταχύς ἱππασία 
+-355	ταχύς θέω ἵππος ἥδομαι τεκμήριον 
+-355	ἐκφεύγω βάδην πορεύω θέω 
+-355	φύω ἥδομαι πλέως καιρός θέω ἀναγκάζω 
+-355	ὑπερβάλλω καιρός ἡδύς ἵππος ἄνθρωπος 
+-355	μείς ἱππάζομαι κυδρός ἀφίζω ἐθίζω πρότερος ἱππασία στροφή θάσσων ὁρμάω 
+-355	μανθάνω ἅμα ἀντινέω χαλινός σημαίνω ὁρμητήριον χαλινός πιέζω ὁρμή σημαίνω ἐγείρω προβάλλω στέρνον αἴρω ἄνω σκέλος ὀργίζω ὑγρός 
+-355	μάλα λυπέω ὑγρός σκέλος ἵππος χράομαι 
+-355	ἀναζωπυρέω δίδωμι χαλινός ἐνταῦθα ἡδονά χαλαρότης στόμιον λύω νομίζω κυδρός σχῆμα ὑγρός σκέλος γαυριάω φέρω παντάπασι ἐκμιμέομαι ἵππος καλλωπισμός 
+-355	θεάομαι ἵππος ἐπικαλέω ἐλευθέριος ἐθελουργός ἱππαστής θυμοειδής σοβαρός ἅμα ἡδύς γοργός εἶδον 
+-355	ἐπιθυμέω γράφω 
+-355	ἄρος βούλομαι πομπικός μετέωρος λαμπρός ἵππος χράω μάλα ἵππος γίγνομαι δέομαι ὑπάρχω ψυχή μεγαλόφρων σῶμα εὔρωστος 
+-355	οἴομαι σκέλος ὑγρός ἔχω σῶμα αἴρω δύναμαι ἔχω 
+-355	μᾶλλον ὀσφύς ὑγρός βραχύς ἰσχυρός ἔχω οὐρά λέγω φύω μεταξύ πλευρά ἴσχιον κενεών δύναμαι πρόσω ὑποτίθημι ὀπίσθιος σκέλος ἐμπρόσθιος 
+-355	ὑποτίθημι ἀνακρούω χαλινός ὀκλάζω ὀπίσθιος ἀστράγαλος αἴρω πρόσθεν σῶμα ἐναντίος φαίνω γαστήρ αἰδοῖον 
+-355	δέομαι ποιέω δίδωμι χαλινός κάλλιστα ἵππος ἑκών ποιέω δοκάζω ὁράω 
+-355	διδάσκω ῥάβδος ἀστράγαλος κρούω βακτηρία παρατρέχω κελεύω μηριαῖος παίω 
+-355	κράτιστος διδασκάλιον νομίζω ἀεί λέγω παρέπομαι ποιέω ἀναβάτης γνώμη τυγχάνω ῥᾳστώνη 
+-355	ἵππος ἀναγκάζω ποιέω Σίμων λέγω ἐφίστημι καλός μᾶλλον ὀρχηστής μαστιγόω κεντρίζω ῥυθμίζω πολύς πλέως ἀσχημονέω καλός ποιέω πάσχω ἵππος ἄνθρωπος 
+-355	δέομαι σημεῖον ἑκών κάλλιστα λαμπρός ἐπιδείκνυμι 
+-355	ἱππάζομαι πολύς ἱδρώς ἐλαύνω καλός μετεωρίζω ταχύς καταβαίνω ἀποχαλινόω εὖ χρή οἶδα ἑκών εἴσειμι μετεωρίζω 
+-355	ἱππάζομαι ἵππος θεός ἥρως γράφω ἀνήρ καλός χράομαι μεγαλοπρεπής φαίνω 
+-355	μετεωρίζω ἵππος σφόδρα ἀγαστός ὁράω νέος γεραιός ὄμμα κατέχω 
+-355	ἀπολείπω ἀπαγορεύω θεάομαι ἐπιδείκνυμι λαμπρότης 
+-355	συμβαίνω ἵππος κτάομαι φυλαρχέω ἱππαρχέω δέομαι σπουδάζω μόνος λαμπρός πολύς μᾶλλον ὅλος ἕπομαι ἀξιοθέατος φαίνω 
+-355	ἡγέομαι ἄνω αἴρω πυκνος σῶμα βραχύς προβαίνω δῆλος βάδην ἕπομαι ἵππος 
+-355	ὄψις λαμπρός γίγνομαι 
+-355	ἐξεγείρω ἵππος ἡγέομαι ἄγαν ταχύς ἄγαν βραδύς εὔθυμος ἵππος γοργός εὐσχήμων γίγνομαι ἡγέομαι ἀθρόος κτύπος ἀθρόος φρύαγμα φύσημα ἵππος συμπαρέπομαι μόνος συμπαρέπομαι ἀξιοθέατος φαίνω 
+-355	καλός ἱππωνέω τρέφω πόνος δύναμαι ὑποφέρω ὀρθός χράομαι πόλεμος μελέτημα ἐπίδειξις ἱππασία πολεμικός ἀγώνισμα ἐμποδών πλείων ἄξιος ἵππος ποιέω οἷος παραλαμβάνω εὐδόκιμος ἵππος ἔχω εὐδοκιμέω ἱππικός δαιμόνιον κωλύω 
+-355	γράφω βούλομαι δέομαι ὁπλίζω μέλλω ἵππος κινδυνεύω 
+-355	πρότερος φημί χρή σῶμα θώραξ ποιέω 
+-355	καλός ἁρμόζω φέρω σῶμα ἄγαν χαλαρός ὦμος μόνος φέρω 
+-355	λίαν στενός δεσμός ὅπλον 
+-355	αὐχήν καίριος φημί χρή θώραξ ὅμοιος αὐχήν στέγασμα ποιέω 
+-355	ἅμα κόσμος παραξέω οἷος δέομαι ἐργάζομαι δέχομαι βούλομαι ἀναβάτης πρόσωπον ῥίς 
+-355	κράνος κράτιστος νομίζω βοιωτιουργής 
+-355	στεγάζω μάλιστα ὑπερέχω θώραξ ὁράω κωλύω 
+-355	θώραξ ἐργάζομαι κωλύω καθίζω ἐπικύπτω 
+-355	ἦτρον αἰδοῖον κύκλος πτέρυξ τοσοῦτος στέγω βέλος 
+-355	ἀριστερός χείρ πάσχω καταλύω ἱππεύς ταύτῃ ἐπαινέω εὑρίσκω ὅπλον χείρ καλέω 
+-355	ὦμος σκεπάζω βραχίων πῆχυς ἔχω ἡνία ἐκτείνω συγκάμπτω 
+-355	διαλείπω θώραξ μασχάλη καλύπτω 
+-355	δεξιός ἐπαίρω δέομαι ἀκοντίζω πατάσσω βούλομαι 
+-355	θώραξ κωλύω ἀφαιρετέος 
+-355	πτέρυξ γίγγλυμος προσθετέον διαίρω ὅμοιος ἀναπτύσσω καταίρω ἐπικλείω 
+-355	βραχίων κνημίς παρατίθημι βελτίων δοκέω συνδέω ὅπλον 
+-355	ψιλόω αἴρω δεξιός στεγαστέον ἐγγύς θώραξ μόσχειος χάλκειος 
+-355	ἐπίκαιρος ἀφύλακτος 
+-355	ἤνπερ πάσχω ἵππος κίνδυνος ἀναβάτης γίγνομαι ὁπλίζω δέομαι ἵππος προμετωπίδιος προστερνίδιον παραμηρίδιος 
+-355	ἅμα ἀναβάτης παραμηρίδιος γίγνομαι 
+-355	μάλιστα ἵππος κενεών δέομαι σκεπάζω 
+-355	καίριος ἀφαυρός 
+-355	δυνατός ἐφίππιος σκεπάω 
+-355	χρή ἔποχον ῥάπτω ἀσφαλής ἱππεύς κάθημαι ἕδρα ἵππος σίνομαι 
+-355	ἵππος ἱππεύς ὁπλίζω 
+-355	κνήμη πούς ὑπερέχω ἐοικότως παραμηρίδιος ὁπλίζω ἐμβάς γίγνομαι σκῦτος οὗπερ κρηπίς ποιέω 
+-355	ἅμα ὅπλον κνήμη πούς ὑπόδημα ἀίω 
+-355	βλάπτω θέα ἴλαος ὅπλον 
+-355	ἐναντίος βλάπτω μάχαιρα μᾶλλον ξίφος ἐπαινέω 
+-355	ὑψηλός ἱππεύς κοπίς μᾶλλον πληγή ξίφος ἀρκέω 
+-355	δόρυ καμάκινος ἀσθενής δύσφορος κρανέινος δύο παλτός μᾶλλον ἐπαινέω 
+-355	ἐξαφίημι ἕτερος δυνατός ἐφίστημι λείπω οἷος χράομαι ἀντίον πλάγιον ὄπισθεν 
+-355	ἅμα ἰσχυρός δόρυ εὔφορος 
+-355	ἀκόντισμα μείς μακρός ἐπαινέω 
+-355	ἀποστρέφω μεταλαμβάνω παλτός μᾶλλον χρόνος ἐγχωρέω 
+-355	γράφω βραχύς κράτιστος ἀκοντίζω 
+-355	προβάλλω ἀριστερός ἐπανάγω δεξιός ἐξανίστημι μηρός μικρός ἐπανακύπτω λόγχη ἀφίημι σφοδρός μακρός φέρω ἀκόντιον εὔστοχος σκοπός ἀφίημι ἀεί ὁράω λόγχη 
+-355	ἰδιώτης ὑπόμνημα μάθημα μελέτημα γράφω 
 -355	ἵππαρχος προσήκω οἶδα πράσσω ἕτερος λόγος δηλόω

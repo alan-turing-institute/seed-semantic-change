@@ -213,4 +213,434 @@
 365	μικρός πάθος κάμνω ἰατρός ἔρχομαι 
 365	μέγας καταλαμβάνω ἀρρώστημα καλέω θεραπεύω 
 365	ἀνήκεστος παντελής μελαγχολία παραφέρω πρόσειμι προσίημι 
-365	πάσχω νῦν ὀρθός ἔχω λογισμός ἀποφεύγω
+365	πάσχω νῦν ὀρθός ἔχω λογισμός ἀποφεύγω365	None~None πολύς	None~None παρακαλέω	None~None συμβουλεύω	None~None παῖς	None~None βέλτιστος	None~None κρίνω	None~None συμφέρω	None~None αἱρέω	None~None πιστεύω	None~None 
+365	None~None ἡλικία	None~None ἔχω	None~None πολύς	None~None ἤδη	None~None γυμνάζω	None~None πρᾶγμα	None~None μείς	None~None παιδεύω	None~None ἄμφω	None~None μεταβολεύς	None~None ἱκανός	None~None μετέχω	None~None ἔμπειρος	None~None ἀνθρώπινος	None~None ποιέω	None~None ἄρτι	None~None καθίστημι	None~None βίος	None~None ἔχω	None~None ὁδός	None~None ἀσφαλής	None~None ὑποδείκνυμι	None~None 
+365	None~None φύσις	None~None οἰκειότης	None~None εὐθύς	None~None γονεύς	None~None τυγχάνω	None~None ἐλάσσων	None~None πατήρ	None~None εὔνοια	None~None νέμω	None~None 
+365	None~None νομίζω	None~None διαμαρτάνω	None~None γνώμη	None~None ποθέω	None~None τίκτω	None~None βλέπω	None~None 
+365	None~None πρόθυμος	None~None δέχομαι	None~None λέγω	None~None δεύτερος	None~None ἐπαινέω	None~None πηρός	None~None Ἡσίοδος	None~None τάξις	None~None 
+365	None~None εἶπον	None~None δυσχερής	None~None μιμνήσκω	None~None ἔπος	None~None δηλονότι	None~None φημί	None~None ἄριστος	None~None πηρός	None~None δέω	None~None συνοράω	None~None ἐσθλός	None~None πηρός	None~None ἕτερος	None~None ὑποδείκνυμι	None~None ἕπομαι	None~None οὐδέτερος	None~None ἐπιτήδειος	None~None ἀχρεῖος	None~None 
+365	None~None θαυμάζω	None~None ἡμέρα	None~None διδάσκαλος	None~None φοιτάω	None~None ἐλλόγιμος	None~None παλαιός	None~None ἀνήρ	None~None καταλιμπάνω	None~None λόγος	None~None συγγίγνομαι	None~None πηρός	None~None λυσιτελής	None~None ἐξευρίσκω	None~None φημί	None~None 
+365	None~None συμβουλεύω	None~None ἥκω	None~None δέω	None~None ἅπαξ	None~None ἀνήρ	None~None πλοῖον	None~None πηδάλιον	None~None διάνοια	None~None παραδίδωμι	None~None ἄγω	None~None συνέπομαι	None~None 
+365	None~None ὅσος	None~None χρήσιμος	None~None δέχομαι	None~None οἶδα	None~None χρή	None~None παρεῖδον	None~None 
+365	None~None διακρίνω	None~None διδάσκω	None~None ἔνθεν	None~None αἱρέω	None~None 
+365	None~None παῖς	None~None χρῆμα	None~None παντάπασι	None~None ἀνθρώπινος	None~None βίος	None~None ὑπολαμβάνω	None~None ἀγαθός	None~None νομίζω	None~None ὅλος	None~None ὀνομάζω	None~None συντέλεια	None~None ἄχρι	None~None παρέχω	None~None 
+365	None~None οὔκουν	None~None πρόγονος	None~None περιφάνεια	None~None ἰσχύς	None~None σῶμα	None~None κάλλος	None~None μέγεθος	None~None ἄνθρωπος	None~None τιμή	None~None βασιλεία	None~None εἶπον	None~None ἀνθρώπινος	None~None μέγας	None~None εὐχή	None~None ἄξιος	None~None κρίνω	None~None ἔχω	None~None ἀποβλέπω	None~None μακρός	None~None πρόειμι	None~None ἐλπίς	None~None ἕτερος	None~None βίος	None~None παρασκευή	None~None πράσσω	None~None 
+365	None~None συντελέω	None~None ἀγαπάω	None~None διώκω	None~None σθένω	None~None χρή	None~None φημί	None~None ἐξικνέομαι	None~None ἄξιος	None~None παροράω	None~None 
+365	None~None βίος	None~None ὅπη	None~None βιόω	None~None μακρός	None~None πάρειμι	None~None ὁρμή	None~None ἐφικνέομαι	None~None μέγας	None~None ἀκροατής	None~None ἀκέω	None~None 
+365	None~None τοσοῦτος	None~None εἶπον	None~None ἱκανός	None~None ἴσως	None~None ἐνδείκνυμι	None~None ὁμοῦ	None~None γίγνομαι	None~None ἄνθρωπος	None~None λόγος	None~None συλλαμβάνω	None~None ἀθρέω	None~None εὐδαιμονία	None~None πολλοστός	None~None μέρος	None~None ἀγαθός	None~None εὑρίσκω	None~None παρισόομαι	None~None πλέως	None~None ἐλάχιστος	None~None σύμπας	None~None κάλη	None~None ἄξιος	None~None ἀφίστημι	None~None ὅσος	None~None σκιά	None~None ὄναρ	None~None ἀληθής	None~None ἀπολείπω	None~None 
+365	None~None μᾶλλον	None~None οἰκεῖος	None~None χράω	None~None παράδειγμα	None~None ὅσος	None~None ψυχή	None~None τίμιος	None~None σῶμα	None~None τοσοῦτος	None~None βίος	None~None ἑκάτερος	None~None διάφορος	None~None 
+365	None~None ἄγω	None~None ἱερός	None~None λόγος	None~None ἀπόρρητος	None~None ἐκπαιδεύω	None~None 
+365	None~None μείς	None~None ἡλικία	None~None ἐπακούω	None~None βάθος	None~None διάνοια	None~None οἷος	None~None ἕτερος	None~None πάντῃ	None~None διίστημι	None~None σκιά	None~None κάτοπτρον	None~None ψυχή	None~None ὄμμα	None~None τέως	None~None προγυμνάζω	None~None τακτικός	None~None μελέτη	None~None ποιέω	None~None μιμέομαι	None~None χειρονομία	None~None ὄρχησις	None~None ἐμπειρία	None~None κτάομαι	None~None ἀγών	None~None παιδιή	None~None ἀπολαύω	None~None κέρδος	None~None 
+365	None~None ἀγών	None~None πρόκειμαι	None~None ἀγών	None~None μέγας	None~None νομίζω	None~None χρεών	None~None ποιητέος	None~None πονητέον	None~None δύναμις	None~None παρασκευή	None~None ποιητής	None~None λογοποιέω	None~None ῥήτωρ	None~None ἄνθρωπος	None~None ὁμιλητέον	None~None ὅθεν	None~None μέλλω	None~None ψυχή	None~None ἐπιμέλεια	None~None ὠφέλεια	None~None 
+365	None~None δευσοποιός	None~None παρασκευάζω	None~None πρότερος	None~None θεραπεία	None~None ποτός	None~None δέχομαι	None~None βαφή	None~None ἄνθος	None~None ἐπάγω	None~None ἁλουργής	None~None ἕτερος	None~None τρόπος	None~None μέλλω	None~None ἀνέκπλυτος	None~None χρόνος	None~None καλέω	None~None παραμένω	None~None δόξα	None~None ἔξω	None~None προτελέω	None~None τηνικαῦτα	None~None ἱερά	None~None ἀπόρρητος	None~None ἐπακούω	None~None παίδευμα	None~None 
+365	None~None οἷος	None~None ὕδωρ	None~None ἥλιος	None~None ὁράω	None~None ἐθίζω	None~None προσδαίω	None~None φάος	None~None ὄψις	None~None 
+365	None~None οἰκειότης	None~None λόγος	None~None προύργου	None~None γνῶσις	None~None γίγνομαι	None~None 
+365	None~None παραλάω	None~None τίθημι	None~None καταμανθάνω	None~None διάφορος	None~None μικρός	None~None βεβαίωσις	None~None βελτίων	None~None 
+365	None~None παρεικάζω	None~None παίδευσις	None~None ἑκάτερος	None~None εἰκών	None~None τυγχάνω	None~None 
+365	None~None φυτόν	None~None οἰκεῖος	None~None ἀρετή	None~None καρπός	None~None βρύω	None~None ὡραῖος	None~None φέρω	None~None κόσμος	None~None φύλλον	None~None κλάδος	None~None περισείομαι	None~None ψυχή	None~None προηγουμένως	None~None καρπός	None~None ἀλήθεια	None~None ἄχαρις	None~None θύραθεν	None~None σοφία	None~None περιβάλλω	None~None οἷος	None~None φύλλον	None~None σκέπη	None~None καρπός	None~None ὄψις	None~None ἄωρος	None~None παρέχω	None~None 
+365	None~None λέγω	None~None πάνυ	None~None μέγας	None~None σοφία	None~None ἄνθρωπος	None~None ὄνομα	None~None Αἰγύπτιος	None~None μάθημα	None~None ἐγγυμνάζω	None~None διάνοια	None~None προσέρχομαι	None~None θεωρία	None~None 
+365	None~None παραπλήσιος	None~None κάτος	None~None χρόνος	None~None σοφός	None~None Βαβυλών	None~None φημί	None~None σοφία	None~None Χαλδαῖος	None~None καταμανθάνω	None~None τότε	None~None θεῖος	None~None ἅπτω	None~None παίδευμα	None~None 
+365	None~None ἄχρηστος	None~None ψυχή	None~None μάθημα	None~None ἔξωθεν	None~None ἱκανός	None~None ἔρομαι	None~None 
+365	None~None μεθεκτέος	None~None ἑξῆς	None~None ἀίω	None~None λέγω	None~None 
+365	None~None πρότερος	None~None ποιητής	None~None ἐντεῦθεν	None~None ἄρχω	None~None 
+365	None~None παντοδαπός	None~None λόγος	None~None ἐφεξῆς	None~None προσέχω	None~None νόος	None~None 
+365	None~None ἀγαθός	None~None ἀνήρ	None~None πρᾶξις	None~None λόγος	None~None διέξειμι	None~None ἀγαπάω	None~None ζηλέω	None~None μάλιστα	None~None πειράω	None~None 
+365	None~None μοχθηρός	None~None ἀνήρ	None~None ἔρχομαι	None~None μίμησις	None~None δέομαι	None~None φεύγω	None~None ἐπιφράσσω	None~None οὖς	None~None ἥσσων	None~None Ὀδυσσεύς	None~None φημί	None~None Σειρήν	None~None μέλη	None~None 
+365	None~None φαῦλος	None~None λόγος	None~None συνήθεια	None~None ὁδός	None~None πρᾶγμα	None~None 
+365	None~None φυλακεύς	None~None ψυχή	None~None τηρητέον	None~None λόγος	None~None ἡδονά	None~None παραδέχομαι	None~None λανθάνω	None~None χείρων	None~None δηλητήριος	None~None μέλι	None~None προσίημι	None~None 
+365	None~None ἐπαινέω	None~None ποιητής	None~None λοιδορέω	None~None εἰσλάω	None~None ἐράω	None~None μεθύω	None~None μιμέομαι	None~None τράπεζα	None~None πλήθω	None~None ἀοιδός	None~None ἀνίημι	None~None εὐδαιμονία	None~None ὁρίζω	None~None 
+365	None~None ἥκιστος	None~None θέα	None~None διαλέγω	None~None προσέχω	None~None μάλιστα	None~None πολύς	None~None διέξειμι	None~None ὁμονοέω	None~None 
+365	None~None ἀδελφός	None~None πηρός	None~None διαστασιάζω	None~None ἀδελφός	None~None γονεύς	None~None παῖς	None~None αὖθις	None~None τίκτω	None~None πόλεμος	None~None ἀκήρυκτος	None~None 
+365	None~None μοιχεία	None~None θέα	None~None ἔρως	None~None μίγνυμι	None~None ἀναφανδά	None~None μάλιστα	None~None κορυφαῖον	None~None ὕπατος	None~None Ζεύς	None~None λέγω	None~None βόσκημα	None~None λέγω	None~None ἐρυθριάω	None~None σκηνή	None~None καταλείβω	None~None 
+365	None~None ταυτός	None~None λέγω	None~None συγγραφεύς	None~None ἔχω	None~None μάλιστα	None~None ψυχαγωγία	None~None ἀκούω	None~None λογοποιέω	None~None 
+365	None~None ῥήτωρ	None~None ψεύδω	None~None τέχνη	None~None μιμέομαι	None~None 
+365	None~None δικαστήριον	None~None πρᾶξις	None~None ἐπιτήδειος	None~None ψεῦδος	None~None ὀρθός	None~None ὁδός	None~None ἀληθής	None~None προαιρέω	None~None βίος	None~None δικάζω	None~None νόμος	None~None προστάσσω	None~None 
+365	None~None μᾶλλον	None~None ἀποδέχομαι	None~None ἀρετή	None~None ἐπαινέω	None~None πονηρία	None~None διαβάλλω	None~None 
+365	None~None ἄνθη	None~None λοιπός	None~None ἄχρι	None~None εὐωδία	None~None χροιά	None~None ἀπόλαυσις	None~None μέλισσα	None~None ἄρος	None~None μέλι	None~None λαμβάνω	None~None ὑπάρχω	None~None ἐνταῦθα	None~None ἡδύς	None~None ἐπίχαρις	None~None μόνος	None~None λόγος	None~None διώκω	None~None ὠφέλεια	None~None ψυχή	None~None ἀποτίθημι	None~None 
+365	None~None μέλισσα	None~None εἰκών	None~None λόγος	None~None μεθεκτέος	None~None 
+365	None~None ἄνθος	None~None παραπλήσιος	None~None ἐπέρχομαι	None~None ἐπιπτάζω	None~None ὅλος	None~None φέρω	None~None ἐπιχειρέω	None~None ὅσος	None~None ἐπιτήδειος	None~None ἐργασία	None~None λαμβάνω	None~None λοιπός	None~None χαίρω	None~None ἀφίημι	None~None 
+365	None~None σωφρονέω	None~None ὅσος	None~None οἰκεῖος	None~None συγγενής	None~None ἀλήθεια	None~None πηρός	None~None κομίζω	None~None ὑπερβαίνω	None~None λείπω	None~None 
+365	None~None ῥοδωνιά	None~None ἄνθος	None~None δρέπω	None~None ἄκανθα	None~None ἐκκλίνω	None~None λόγος	None~None ὅσος	None~None χρήσιμος	None~None καρπόω	None~None βλαβερός	None~None φυλάσσω	None~None 
+365	None~None εὐθύς	None~None ἀρχή	None~None ἐπισκοπέω	None~None μάθημα	None~None συναρμόζω	None~None τέλος	None~None προσήκω	None~None Δωρικός	None~None παροιμία	None~None λίθος	None~None σπάρτον	None~None ἄγω	None~None 
+365	None~None ἀρετή	None~None βίος	None~None καθίημι	None~None δέομαι	None~None ἡμέτερος	None~None πολύς	None~None ποιητής	None~None πολύς	None~None συγγραφεύς	None~None πολύς	None~None πλέως	None~None φιλόσοφος	None~None ὑμνέω	None~None λόγος	None~None μάλιστα	None~None προσεκτέος	None~None 
+365	None~None μικρός	None~None ὄφελος	None~None οἰκειότης	None~None συνήθεια	None~None νέος	None~None ψυχή	None~None ἀρετή	None~None ἐγγίγνομαι	None~None ἀμετάστατος	None~None φύω	None~None μάθημα	None~None ἁπαλότης	None~None ψῦχος	None~None βάθος	None~None ἐνσημαίνομαι	None~None 
+365	None~None διανοέομαι	None~None Ἡσίοδος	None~None ὑπολαμβάνω	None~None ποιέω	None~None ἔπος	None~None προτρέπω	None~None νέος	None~None ἀρετή	None~None 
+365	None~None τραχύς	None~None πρότερος	None~None δύσβατος	None~None ἱδρώς	None~None συχνός	None~None πόνος	None~None πλήρης	None~None ἀρετή	None~None φέρω	None~None ἀνάντης	None~None ὁδός	None~None 
+365	None~None προσβαίνω	None~None ὄρθιος	None~None ῥᾴδιος	None~None ἄκρον	None~None ἔρχομαι	None~None 
+365	None~None ἄνω	None~None γίγνομαι	None~None ὁράω	None~None ὑπάρχω	None~None λεία	None~None καλός	None~None ῥᾴδιος	None~None εὔπορος	None~None ἕτερος	None~None ἡδύς	None~None κακία	None~None ἄγω	None~None ἀθρόος	None~None λαμβάνω	None~None σύνεγγυς	None~None ποιητής	None~None φημί	None~None 
+365	None~None δοκέω	None~None ἕτερος	None~None προτρέπω	None~None ἀρετή	None~None προκαλέω	None~None ἀγαθός	None~None διέρχομαι	None~None καταμαλακίζω	None~None πόνος	None~None προαφίσταμαι	None~None τέλος	None~None 
+365	None~None ἕτερος	None~None ἔοικα	None~None ἀρετή	None~None ὑμνέω	None~None 
+365	None~None ταυτός	None~None φέρω	None~None λόγος	None~None ἀποδέχομαι	None~None 
+365	None~None ἀκούω	None~None δεινός	None~None καταμανθάνω	None~None ἀνήρ	None~None ποιητής	None~None διάνοια	None~None ποίησις	None~None Ὅμηρος	None~None ἀρετή	None~None ἔπαινος	None~None φέρω	None~None πάρεργος	None~None ἥκιστος	None~None στρατηγός	None~None Κεφαλλήν	None~None ποιέω	None~None γυμνός	None~None ναυάγιον	None~None πρότερος	None~None βασιλίς	None~None φαίνω	None~None μόνος	None~None 
+365	None~None τοσοῦτος	None~None δέω	None~None αἰσχύνη	None~None ὀφλέω	None~None γυμνός	None~None ὁράω	None~None μόνος	None~None ἀρετή	None~None ἱμάτιον	None~None κοσμέω	None~None ποιέω	None~None 
+365	None~None ἔπειτα	None~None λοιπός	None~None Φαίαξ	None~None τοσοῦτος	None~None ἄξιος	None~None νομίζω	None~None ἀφίημι	None~None τρυφή	None~None συζάω	None~None ἀποβλέπω	None~None ζηλέω	None~None Φαίαξ	None~None τότε	None~None εὔχομαι	None~None μᾶλλον	None~None Ὀδυσσεύς	None~None γίγνομαι	None~None ναυάγιον	None~None 
+365	None~None λέγω	None~None ποιητής	None~None διάνοια	None~None ἐξηγητής	None~None μόνος	None~None βοάω	None~None λέγω	None~None Ὅμηρος	None~None 
+365	None~None ἀρετή	None~None ἐπιμελητέον	None~None ἄνθρωπος	None~None ναυαγέω	None~None σύνεκνήχομαι	None~None χέρσος	None~None γίγνομαι	None~None γυμνός	None~None τίμιος	None~None ἀποδείκνυμι	None~None εὐδαίμων	None~None Φαίαξ	None~None 
+365	None~None ἔχω	None~None 
+365	None~None κτῆμα	None~None μᾶλλον	None~None ἔχω	None~None ἐπιτυγχάνω	None~None παιδιή	None~None κύβος	None~None ἐκεῖσε	None~None μεταβάλλω	None~None 
+365	None~None μόνος	None~None κτῆμα	None~None ἀρετή	None~None ἀναφαίρετος	None~None ζάω	None~None τελευτάω	None~None παραμένω	None~None 
+365	None~None ὅθεν	None~None Σόλων	None~None δοκέω	None~None εὔπορος	None~None εἶπον	None~None 
+365	None~None διαμείβω	None~None ἀρετή	None~None πλοῦτος	None~None ἔμπεδος	None~None ἀεί	None~None χρῆμα	None~None ἄνθρωπος	None~None ἄλλοτε	None~None ἔχω	None~None 
+365	None~None παραπλήσιος	None~None Θέογνις	None~None φημί	None~None θεός	None~None φημί	None~None ἄνθρωπος	None~None τάλαντον	None~None ἐπιρρέπω	None~None ἄλλοτε	None~None ἄλλως	None~None 
+365	None~None ἄλλοτε	None~None πλουτέω	None~None ἄλλοτε	None~None ἔχω	None~None 
+365	None~None Κέως	None~None πού	None~None σοφιστής	None~None Πρόδικος	None~None σύγγραμμα	None~None ἀδελφή	None~None ἀρετή	None~None κακία	None~None φιλοσοφέω	None~None 
+365	None~None διάνοια	None~None προσεκτέος	None~None 
+365	None~None ἀπόβλητος	None~None ἀνήρ	None~None 
+365	None~None ἔχω	None~None λόγος	None~None ὅσος	None~None ἀνήρ	None~None διάνοια	None~None μιμνήσκω	None~None ῥῆμα	None~None ἐφίστημι	None~None ἁπλῶς	None~None ἐρῶ	None~None μέτρον	None~None νέος	None~None Ἡρακλέης	None~None κομιδῇ	None~None σχεδόν	None~None ἄγω	None~None ἡλικία	None~None βουλεύω	None~None πότερος	None~None τρέπω	None~None ὁδός	None~None πόνος	None~None ἄγω	None~None ἀρετή	None~None ῥᾴδιος	None~None προσέρχομαι	None~None δύο	None~None γυνή	None~None Ἀρετή	None~None κακία	None~None 
+365	None~None εὐθύς	None~None σιωπάω	None~None ἐμφαίνω	None~None σχῆμα	None~None διάφορος	None~None 
+365	None~None κομμωτικός	None~None διασκευάζω	None~None κάλλος	None~None τρυφή	None~None διαρρέω	None~None ἑσμός	None~None ἡδονά	None~None ἐξαρτάω	None~None ἄγω	None~None 
+365	None~None δείκνυμι	None~None πλέως	None~None ὑποσχέθω	None~None ἕλκω	None~None ἐπιχειρέω	None~None Ἡράκλεα	None~None 
+365	None~None ἕτερος	None~None κατασκλῆναι	None~None αὐχμάω	None~None σύντονος	None~None βλέπω	None~None λέγω	None~None ἕτερος	None~None 
+365	None~None ὑποσχέθω	None~None ἀνίημι	None~None ἡδύς	None~None ἱδρώς	None~None μυρίος	None~None πόνος	None~None κίνδυνος	None~None ἤπειρος	None~None θάλασσα	None~None 
+365	None~None ἆθλον	None~None θεός	None~None γίγνομαι	None~None λόγος	None~None 
+365	None~None τελευτάω	None~None Ἡράκλεα	None~None συνέπομαι	None~None 
+365	None~None σχεδόν	None~None λόγος	None~None σοφία	None~None μικρός	None~None μέγας	None~None δύναμις	None~None σύγγραμμα	None~None ἀρετή	None~None ἔπαινος	None~None διεξέρχομαι	None~None πειστέον	None~None πειρατέον	None~None βίος	None~None δείκνυμι	None~None λόγος	None~None 
+365	None~None ἄχρι	None~None ῥῆμα	None~None φιλοσοφία	None~None ἔργον	None~None βεβαιόω	None~None οἶος	None~None πέπνυμαι	None~None σκιά	None~None ἀίσσω	None~None 
+365	None~None δοκέω	None~None παραπλήσιος	None~None ζώγραφος	None~None θαυμαστός	None~None οἷος	None~None κάλλος	None~None ἄνθρωπος	None~None μιμέομαι	None~None ἀίω	None~None ἀλήθεια	None~None οἷος	None~None πίναξ	None~None δείκνυμι	None~None 
+365	None~None λαμπρός	None~None ἐπαινέω	None~None ἀρετή	None~None μέσος	None~None μακρός	None~None ἀποτείνω	None~None λόγος	None~None ἴδιος	None~None ἡδύς	None~None σωφροσύνη	None~None πλέος	None~None ἔχω	None~None δίκαιος	None~None τιμάω	None~None ἔοικα	None~None φημί	None~None σκηνή	None~None ὑποκρίνομαι	None~None δρᾶμα	None~None βασιλεύς	None~None δυνάστης	None~None πολλάκις	None~None εἰσέρχομαι	None~None βασιλεύς	None~None δυνάστης	None~None τυγχάνω	None~None ἐλεύθερος	None~None παράπαν	None~None 
+365	None~None εἶτα	None~None μουσικός	None~None ἑκών	None~None δέχομαι	None~None ἀνάρμοστος	None~None λύρα	None~None χορός	None~None κορυφαῖος	None~None μάλιστα	None~None συνᾴδω	None~None χορός	None~None ἔχω	None~None 
+365	None~None διαστασιάζω	None~None λόγος	None~None ὁμολογέω	None~None βίος	None~None παρέχω	None~None γλῶσσα	None~None ὄμνυμι	None~None φρήν	None~None ἀνώμοτος	None~None Εὐριπίδης	None~None ἐράομαι	None~None δοκέω	None~None ἀγαθός	None~None διώκω	None~None 
+365	None~None σχέθω	None~None ἀδικία	None~None ὅρος	None~None δέομαι	None~None Πλάτων	None~None πείθω	None~None δοκέω	None~None δίκαιος	None~None 
+365	None~None λόγος	None~None κάλη	None~None ἔχω	None~None ὑποθήκη	None~None ἀποδέχομαι	None~None 
+365	None~None πρᾶξις	None~None σπουδαῖος	None~None παλαιός	None~None ἀνήρ	None~None μνήμη	None~None ἀκολουθία	None~None διασῴζω	None~None ποιητής	None~None συγγραφεύς	None~None φυλάσσω	None~None λόγος	None~None ἐντεῦθεν	None~None ὠφέλεια	None~None ἀπολείπω	None~None 
+365	None~None οἷος	None~None λοιδορέω	None~None Περικλέης	None~None ἀγορά	None~None ἄνθρωπος	None~None 
+365	None~None προσέχω	None~None 
+365	None~None διαρκέω	None~None ἡμέρα	None~None ἀφειδής	None~None πλύνω	None~None ὄνειδος	None~None μέλω	None~None 
+365	None~None εἶτα	None~None ἑσπέρα	None~None ἤδη	None~None σκότος	None~None ἀπαλλάσσω	None~None μόλις	None~None φάος	None~None παραπέμπω	None~None Περικλέης	None~None διαφθείρω	None~None φιλοσοφία	None~None γυμνάσιον	None~None 
+365	None~None πάλιν	None~None Εὐκλείδης	None~None Μεγαρόθεν	None~None παροξύνω	None~None θάνατος	None~None ἀπειλέω	None~None ἐπόμνυμι	None~None 
+365	None~None ἀντόμνυμι	None~None ἦ	None~None μείς	None~None ἱλάομαι	None~None παύω	None~None χαλεπός	None~None ἔχω	None~None 
+365	None~None πόσος	None~None ἄξιος	None~None παράδειγμα	None~None εἰσέρχομαι	None~None μνήμη	None~None ἀνήρ	None~None ὀργή	None~None ἤδη	None~None κατέχω	None~None 
+365	None~None τραγῳδία	None~None πιστευτέος	None~None ἁπλῶς	None~None λέγω	None~None ἐχθρός	None~None θυμός	None~None ὁπλίζω	None~None χείρ	None~None 
+365	None~None μάλιστα	None~None διανίσταμαι	None~None θυμός	None~None παράπαν	None~None 
+365	None~None ῥαίδιον	None~None χαλινός	None~None λογισμός	None~None ἐμβάλλω	None~None ἀίω	None~None ἐκφέρω	None~None περαίτερος	None~None 
+365	None~None ἐπανάγω	None~None λόγος	None~None αὖθις	None~None σπουδαῖος	None~None πρᾶξις	None~None παράδειγμα	None~None 
+365	None~None τύπτω	None~None Σωφρόνισκος	None~None Σωκράτης	None~None πρόσωπον	None~None ἐμπίτνω	None~None ἀφειδής	None~None 
+365	None~None ἀνταίρω	None~None παρέχω	None~None παροινέω	None~None ὀργή	None~None ἐμφορέω	None~None ἐξοιδέω	None~None ἤδη	None~None ὕπουλος	None~None πρόσωπον	None~None πλήξ	None~None 
+365	None~None ἐπαύω	None~None τύπτω	None~None Σωκράτης	None~None ποιέω	None~None ἐπιγράφω	None~None μέτωπον	None~None λέγω	None~None ἀνδριάς	None~None δημιουργός	None~None 
+365	None~None δεῖνα	None~None ποιέω	None~None 
+365	None~None τοσοῦτος	None~None ἀμύνω	None~None 
+365	None~None σχεδόν	None~None ταυτός	None~None ἡμέτερος	None~None φέρω	None~None πολύς	None~None ἄξιος	None~None μιμέομαι	None~None τηλικοῦτος	None~None φημί	None~None 
+365	None~None Σωκράτης	None~None ἀδελφός	None~None παράγγελμα	None~None τύπτω	None~None σιαγών	None~None ἕτερος	None~None παρέχω	None~None προσήκω	None~None 
+365	None~None τοσοῦτος	None~None δέω	None~None ἀπαμύνω	None~None 
+365	None~None Περικλέης	None~None Εὐκλείδης	None~None διώκω	None~None ὑπομένω	None~None πρᾶος	None~None ὀργή	None~None ἀνέχω	None~None ἐχθρός	None~None εὔχομαι	None~None ἀγαθός	None~None ἐπαράομαι	None~None 
+365	None~None προπαιδεύω	None~None ἔται	None~None ἀδύνατος	None~None διαπιστέω	None~None 
+365	None~None παρέρχομαι	None~None Ἀλέξανδρος	None~None θυγάτηρ	None~None Δαρεῖος	None~None αἰχμάλωτος	None~None λαμβάνω	None~None θαυμαστός	None~None οἷος	None~None κάλλος	None~None παρέχω	None~None μαρτύρομαι	None~None προσεῖδον	None~None ἀξιόω	None~None αἰσχρός	None~None κρίνω	None~None ἀνήρ	None~None αἱρέω	None~None γυνή	None~None ἡσσάομαι	None~None 
+365	None~None ταυτός	None~None φέρω	None~None ἐμβλέπω	None~None ἡδονά	None~None γυνή	None~None ἔργον	None~None μοιχεία	None~None ἐπιτελέω	None~None ἐπιθυμία	None~None ψυχή	None~None παραδέχομαι	None~None ἀφίημι	None~None ἔγκλημα	None~None 
+365	None~None Κλεινίης	None~None Πυθαγόρας	None~None γνώριμος	None~None χαλεπός	None~None πιστεύω	None~None αὐτόματος	None~None συμβαίνω	None~None ἡμέτερος	None~None μιμέομαι	None~None σπουδή	None~None 
+365	None~None ποιέω	None~None 
+365	None~None ἔξεστι	None~None ὅρκος	None~None τρεῖς	None~None τάλαντον	None~None ζημία	None~None ἀποφεύγω	None~None ἀποτίνω	None~None μᾶλλον	None~None ὄμνυμι	None~None εὐορκέω	None~None μέλλω	None~None 
+365	None~None ἀκέω	None~None δοκέω	None~None πρόσταγμα	None~None ὅρκος	None~None ἀπαγορεύω	None~None 
+365	None~None ὅσπερ	None~None ἀρχή	None~None λέγω	None~None πάλιν	None~None ταυτός	None~None ἐπάνειμι	None~None 
+365	None~None ἑξῆς	None~None παραδεκτέος	None~None ὅσος	None~None χρήσιμος	None~None 
+365	None~None αἰσχρός	None~None σιτίον	None~None βλαβερός	None~None διωθέω	None~None μάθημα	None~None ψυχή	None~None τρέφω	None~None λόγος	None~None ἔχω	None~None χειμάρρους	None~None παρασύρω	None~None προστυγχάνω	None~None ἐμβάλλω	None~None 
+365	None~None ἔχω	None~None λόγος	None~None κυβερνάω	None~None εἰκῇ	None~None πνεῦμα	None~None ἐφίημι	None~None ὅρμος	None~None εὐθύνω	None~None σκάφος	None~None 
+365	None~None τοξότης	None~None σκοπός	None~None βάλλω	None~None 
+365	None~None χαλκευτικός	None~None τεκτονικός	None~None τέχνη	None~None ἐφίημι	None~None τέλος	None~None 
+365	None~None δημιουργός	None~None ἀπολείπω	None~None συνοράω	None~None δύναμαι	None~None ἡμέτερος	None~None 
+365	None~None χειρωνάκτης	None~None πέρας	None~None ἐργασία	None~None ἀνθρώπινος	None~None βίος	None~None σκοπός	None~None ἀφοράω	None~None ποιέω	None~None λέγω	None~None χρή	None~None ἄλογος	None~None παντάπασι	None~None προσέοικα	None~None μέλλω	None~None 
+365	None~None ἄτεχνος	None~None πλοῖον	None~None ἀνερμάτιστος	None~None νόος	None~None ψυχή	None~None οἴαξ	None~None καθέζομαι	None~None εἰκῇ	None~None βίος	None~None ἄνω	None~None κάτος	None~None περιφέρω	None~None 
+365	None~None γυμνικός	None~None ἀγών	None~None βούλομαι	None~None μουσική	None~None 
+365	None~None ἀγών	None~None μελέτη	None~None στέφανος	None~None πρόκειμαι	None~None πάλα	None~None ἀσκέω	None~None παγκράτιον	None~None εἶτα	None~None κιθαρίζω	None~None αὐλέω	None~None μελετάω	None~None 
+365	None~None οὔκουν	None~None Πολυδάμας	None~None 
+365	None~None ἀγών	None~None Ὀλυμπιάς	None~None ἅρμα	None~None ἵστημι	None~None τρέχω	None~None ἰσχύς	None~None κρατύνω	None~None 
+365	None~None Μίλων	None~None ἀσπίς	None~None ἐξωθέω	None~None ἀντέχω	None~None ὠθέω	None~None ἥσσων	None~None ἀνδριάς	None~None μόλυβδος	None~None συνδέω	None~None 
+365	None~None ἁπαξαπλῶς	None~None μελέτη	None~None παρασκευή	None~None ἆθλον	None~None 
+365	None~None Μαρσύης	None~None Ὄλυμπος	None~None Φρύξ	None~None περιεργάζομαι	None~None κροῦμα	None~None καταλιμπάνω	None~None κόνις	None~None γυμνάσιον	None~None ταχύς	None~None στέφανος	None~None δόξα	None~None τυγχάνω	None~None διαφεύγω	None~None καταγέλαστος	None~None σῶμα	None~None 
+365	None~None Τιμόθεος	None~None μελῳδία	None~None ἀφίημι	None~None παλαίστρα	None~None διάγω	None~None 
+365	None~None τοσοῦτος	None~None ὑπάρχω	None~None διαφέρω	None~None μουσική	None~None 
+365	None~None τοσοῦτος	None~None περίειμι	None~None τέχνη	None~None θυμός	None~None ἐγείρω	None~None σύντονος	None~None αὐστηρός	None~None ἁρμονία	None~None χαλάω	None~None μαλάσσω	None~None πάλιν	None~None ἀνίημι	None~None ὁπότε	None~None βούλομαι	None~None 
+365	None~None Ἀλέξανδρος	None~None ποτός	None~None Φρύγιος	None~None ἐπαυλέω	None~None ἐξανίστημι	None~None ὅπλον	None~None λέγω	None~None μεταξύ	None~None δειπνέω	None~None ἐπανάγω	None~None πάλιν	None~None συμπότης	None~None ἁρμονία	None~None χαλάω	None~None 
+365	None~None τοσοῦτος	None~None ἰσχύς	None~None μουσική	None~None γυμνικός	None~None ἀγών	None~None τέλος	None~None κτῆσις	None~None μελέτη	None~None παρέχω	None~None 
+365	None~None στέφανος	None~None ἀθλητής	None~None μιμνήσκω	None~None μυρίος	None~None πάσχω	None~None μυρίος	None~None πολλαχόθεν	None~None ῥώμη	None~None συναυξάνω	None~None πολύς	None~None γυμναστικός	None~None ἐνιδρόω	None~None πόνος	None~None πολύς	None~None πληγάς	None~None παιδοτρίβης	None~None λαμβάνω	None~None δίαιτα	None~None ἡδύς	None~None γυμναστής	None~None αἱρέω	None~None διατρίβω	None~None λέγω	None~None διάγω	None~None ἀγωνία	None~None βίος	None~None μελέτη	None~None ἀγωνία	None~None τηνικαῦτα	None~None ἀποδύω	None~None στάδιον	None~None πονέω	None~None κινδυνεύω	None~None κότινον	None~None λαμβάνω	None~None στέφανος	None~None σέλινον	None~None νικάω	None~None ἀναρρέω	None~None κῆρυξ	None~None 
+365	None~None ἆθλον	None~None βίος	None~None πρόκειμαι	None~None θαυμαστός	None~None πλῆθος	None~None μέγεθος	None~None ἀδύνατος	None~None ἐρῶ	None~None λόγος	None~None ἄμφω	None~None καθεύδω	None~None πολύς	None~None διαιτάω	None~None ἄδεια	None~None ἕτερος	None~None λαμβάνω	None~None χείρ	None~None ὑπάρχω	None~None 
+365	None~None πολύς	None~None ἄξιος	None~None ῥαθυμία	None~None βίος	None~None Σαρδανάπαλος	None~None πρότερος	None~None εὐδαιμονία	None~None φέρω	None~None Μαργίτης	None~None βούλομαι	None~None ἀροτήρ	None~None σκαπτήρ	None~None βίος	None~None ἐπιτήδειος	None~None Ὅμηρος	None~None φημί	None~None Ὅμηρος	None~None 
+365	None~None ἀληθής	None~None μᾶλλον	None~None Πιττακός	None~None λόγος	None~None χαλεπός	None~None φημί	None~None ἐσθλός	None~None 
+365	None~None πολύς	None~None πόνος	None~None διεξέρχομαι	None~None μόλις	None~None ἀγαθός	None~None τυγχάνω	None~None περιγίγνομαι	None~None ἄνω	None~None λόγος	None~None παράδειγμα	None~None ἀνθρώπινος	None~None λέγω	None~None 
+365	None~None βραχύς	None~None ῥᾳστώνη	None~None μέγας	None~None ἐλπίς	None~None ἀνταλλακτέον	None~None μέλλω	None~None ὄνειδος	None~None ἔχω	None~None τιμωρία	None~None ὑπέχω	None~None ἄνθρωπος	None~None ἐνθάδε	None~None μικρός	None~None νόος	None~None ἔχω	None~None εἴτε	None~None γῆ	None~None εἴτε	None~None ὅπου	None~None τυγχάνω	None~None δικαιωτήριον	None~None 
+365	None~None ἀεκούσιος	None~None προσήκω	None~None ἁμαρτάνω	None~None συγγνώμη	None~None ἴσως	None~None θεός	None~None γίγνομαι	None~None 
+365	None~None ἐξεπίτηδες	None~None χείρων	None~None προαιρέω	None~None παραίτησις	None~None πολλαπλάσιος	None~None κόλασις	None~None ὑπέχω	None~None 
+365	None~None ποιέω	None~None 
+365	None~None φημί	None~None 
+365	None~None ψυχή	None~None ἐπιμέλεια	None~None ἔχω	None~None σχολή	None~None ἄγω	None~None 
+365	None~None σῶμα	None~None δουλευτέον	None~None ἀνάγκη	None~None 
+365	None~None ψυχή	None~None βέλτιστος	None~None ποριστέον	None~None δεσμωτήριον	None~None σῶμα	None~None πάθη	None~None κοινωνία	None~None φιλοσοφία	None~None λύω	None~None ἅμα	None~None σῶμα	None~None πάθος	None~None κρείσσων	None~None ἀπεργάζομαι	None~None γαστήρ	None~None ἀναγκαῖος	None~None ὑπηρετέω	None~None ἡδύς	None~None τραπεζοποιός	None~None μάγειρος	None~None περινοέω	None~None διερευνάω	None~None γῆ	None~None θάλασσα	None~None οἷος	None~None χαλεπός	None~None δεσπότης	None~None φόρος	None~None ἀπάγω	None~None ἐλεεινός	None~None ἀσχολία	None~None ᾅδης	None~None κολάζω	None~None πάσχω	None~None ἀνεκτός	None~None ἄτεχνος	None~None πῦρ	None~None ξαίνω	None~None κόσκινον	None~None φέρω	None~None ὕδωρ	None~None τετραίνω	None~None ἀντλέω	None~None πίθος	None~None πέρας	None~None πόνος	None~None ἔχω	None~None 
+365	None~None κουρά	None~None ἀμπεχόνη	None~None ἔξω	None~None ἀναγκαῖον	None~None περιεργάζομαι	None~None δυστυχέω	None~None Διογένης	None~None λόγος	None~None ἀδικέω	None~None 
+365	None~None καλλωπιστής	None~None ὀνομάζω	None~None ὅμοιος	None~None αἰσχρός	None~None ἡγέομαι	None~None φημί	None~None δέω	None~None ἑταιρέω	None~None ἀλλότριος	None~None γάμος	None~None ἐπιβουλεύω	None~None 
+365	None~None διαφέρω	None~None νόος	None~None ἔχω	None~None ξυστίς	None~None ἀναβάλλω	None~None φαῦλος	None~None ἱμάτιον	None~None φέρω	None~None ἐνδέω	None~None χειμών	None~None θάλπος	None~None ἀλεξητήριος	None~None 
+365	None~None τρόπος	None~None περισσός	None~None χρεία	None~None κατασκευάζω	None~None περιέπω	None~None σῶμα	None~None πλέος	None~None ἀμείνων	None~None ψυχή	None~None 
+365	None~None ἥσσων	None~None ὄνειδος	None~None ἀνδρίς	None~None ἀληθής	None~None προσηγορία	None~None ἄξιος	None~None καλλωπιστής	None~None φιλοσώματος	None~None πάθος	None~None ἀγεννής	None~None διάκειμαι	None~None 
+365	None~None σπουδή	None~None εἰσφέρω	None~None κάλλιστα	None~None σῶμα	None~None ἔχω	None~None διαγιγνώσκω	None~None συνίημι	None~None σοφός	None~None παράγγελμα	None~None ὁράω	None~None ἄνθρωπος	None~None 
+365	None~None δέομαι	None~None περισσός	None~None σοφία	None~None ἐπιγιγνώσκω	None~None 
+365	None~None καθαίρω	None~None νόος	None~None ἀδύνατος	None~None λημάω	None~None ἥλιος	None~None ἀναβλέπω	None~None 
+365	None~None κάθαρσις	None~None ψυχή	None~None ἀθρόος	None~None εἶπον	None~None ἱκανός	None~None αἴσθησις	None~None ἡδονά	None~None ἀτιμάζω	None~None ὀφθαλμός	None~None ἑστία	None~None ἄτοπος	None~None θαυματοποιός	None~None ἐπίδειξις	None~None σῶμα	None~None θέα	None~None ἡδονά	None~None κέντρον	None~None ἐναφίημι	None~None ἄατος	None~None διαφθείρω	None~None μελῳδία	None~None ψῦχος	None~None καταχέω	None~None 
+365	None~None ἀνελευθερία	None~None ταπεινότης	None~None κίκω	None~None πάθη	None~None τοιόσδε	None~None μουσική	None~None εἶδος	None~None ἐγγίγνομαι	None~None φύω	None~None 
+365	None~None ἕτερος	None~None μεταδιωκτέον	None~None ἀμείνων	None~None ἀμείνων	None~None φέρω	None~None χράομαι	None~None ποιητής	None~None ἱερά	None~None ἄεισμα	None~None μανία	None~None φημί	None~None βασιλεύς	None~None καθίστημι	None~None 
+365	None~None λέγω	None~None Πυθαγόρας	None~None κωμαστής	None~None περιτυγχάνω	None~None μεθύω	None~None κέλλω	None~None αὐλητής	None~None κῶμος	None~None κατάρχω	None~None μεταβάλλω	None~None ἁρμονία	None~None ἐπαυλέω	None~None Δώριος	None~None ἀναφρονέω	None~None μέλος	None~None στέφανος	None~None ῥίπτω	None~None αἰσχύνω	None~None ἐπανέρχομαι	None~None 
+365	None~None ἕτερος	None~None αὐλός	None~None Κορυβαντιάω	None~None ἐκβακχεύω	None~None 
+365	None~None τοσοῦτος	None~None διάφορος	None~None ὑγιής	None~None μοχθηρός	None~None μελῳδία	None~None ἀναπίμπλημι	None~None 
+365	None~None κρατέω	None~None ἥσσων	None~None μεθεκτέος	None~None αἰσχρός	None~None 
+365	None~None ἀτμός	None~None παντοδαπός	None~None ἡδονά	None~None ὄσφρησις	None~None φέρω	None~None ἀήρ	None~None καταμίγνυμι	None~None μῦρος	None~None ἀναχρώζω	None~None ἀπαγορεύω	None~None αἰσχύνω	None~None 
+365	None~None εἶπον	None~None χρή	None~None ἁφή	None~None γεῦσις	None~None διώκω	None~None ἡδονά	None~None καταναγκάζω	None~None θήρα	None~None σχολάζω	None~None θρέμμα	None~None γαστήρ	None~None συννεύω	None~None ζάω	None~None 
+365	None~None λόγος	None~None ὑπεροπτέον	None~None σῶμα	None~None βόρβορος	None~None ἡδονά	None~None κατορύσσω	None~None μέλλω	None~None τοσοῦτος	None~None ἀνθεκτέον	None~None ὅσος	None~None φημί	None~None Πλάτων	None~None 
+365	None~None ὑπηρεσία	None~None φιλοσοφία	None~None κτάομαι	None~None ἔοικα	None~None πού	None~None λέγω	None~None Παῦλος	None~None παραινέω	None~None χρή	None~None σῶμα	None~None πρόνοια	None~None ἔχω	None~None ἐπιθυμία	None~None ἀφορμή	None~None 
+365	None~None διαφέρω	None~None σῶμα	None~None κάλλιστα	None~None ἔχω	None~None φροντίζω	None~None χράω	None~None ψυχή	None~None ἄξιος	None~None περιοράω	None~None ὄργανον	None~None σπουδάζω	None~None ἐνεργέω	None~None τέχνη	None~None καταμελέω	None~None 
+365	None~None ἐναντίον	None~None κολάζω	None~None κατέχω	None~None θηρίον	None~None ὁρμή	None~None προσήκω	None~None θόρυβος	None~None ἐγγίγνομαι	None~None ψυχή	None~None μάστιξ	None~None λογισμός	None~None καθικνέομαι	None~None κοιμίζω	None~None χαλινός	None~None ἡδονά	None~None ἀνίημι	None~None περιοράω	None~None νόος	None~None ἡνίοχος	None~None δυσήνιος	None~None ἵππος	None~None ὕβρις	None~None φέρω	None~None παρασύρω	None~None ἄγω	None~None 
+365	None~None Πυθαγόρας	None~None μιμνήσκω	None~None σύνειμι	None~None καταμανθάνω	None~None γυμνάσιον	None~None σιτίον	None~None εὖ	None~None μάλα	None~None κατασαρκέω	None~None φημί	None~None 
+365	None~None παύω	None~None χαλεπός	None~None κατασκευάζω	None~None δεσμωτήριον	None~None 
+365	None~None Πλάτων	None~None φημί	None~None σῶμα	None~None βλάβος	None~None προείδομαι	None~None νοσώδης	None~None χωρίον	None~None Ἀττικός	None~None Ἀκαδήμεια	None~None καταλαμβάνω	None~None ἐξεπίτηδες	None~None ἄγαν	None~None εὐπάθεια	None~None σῶμα	None~None οἷος	None~None ἄμπελος	None~None περισσός	None~None φορά	None~None περικόπτω	None~None 
+365	None~None σφαλερός	None~None ἄκρος	None~None εὐεξία	None~None ἰατρός	None~None ἀκούω	None~None 
+365	None~None ἄγαν	None~None σῶμα	None~None ἐπιμέλεια	None~None ἀλυσιτελής	None~None σῶμα	None~None ψυχή	None~None ἐμποδέω	None~None ὑποπίπτω	None~None θεραπεύω	None~None μανία	None~None σαφής	None~None 
+365	None~None ὑπεροράω	None~None μελετάω	None~None σχολή	None~None ἀνθρώπινος	None~None θαυμάζω	None~None 
+365	None~None χράω	None~None πλοῦτος	None~None σῶμα	None~None ἡδονά	None~None ἀτιμάζω	None~None 
+365	None~None ὁράω	None~None μῦθος	None~None δράκων	None~None ἡδονά	None~None φέρω	None~None θησαυρός	None~None κατορύσσω	None~None ἐπαγρυπνέω	None~None 
+365	None~None ἐλευθέριος	None~None διάκειμαι	None~None παιδεύω	None~None πολύς	None~None δέω	None~None ταπεινός	None~None αἰσχρός	None~None ἔργον	None~None λόγος	None~None ποτός	None~None προαιρέω	None~None 
+365	None~None χρεία	None~None περισσός	None~None Λύδιος	None~None ψῆγμα	None~None μύρμηξ	None~None ἔργον	None~None χρυσοφόρος	None~None τοσοῦτος	None~None πλέος	None~None ἀτιμάω	None~None ὅσος	None~None ἥσσων	None~None προσδέομαι	None~None 
+365	None~None χρεία	None~None φύσις	None~None ἀναγκαῖος	None~None ἡδονά	None~None ὁρίζω	None~None 
+365	None~None ἀναγκαῖον	None~None ὅρος	None~None ἔξω	None~None γίγνομαι	None~None παραπλήσιος	None~None πρανής	None~None φέρω	None~None στάσιμος	None~None ἔχω	None~None ἀποβαίνω	None~None οὐδαμός	None~None πρόσω	None~None φορά	None~None ἵστημι	None~None 
+365	None~None ὅσος	None~None πλέως	None~None προσπεριβάλλω	None~None ἴσος	None~None δέομαι	None~None πλείων	None~None ἐπιθυμία	None~None ἐκπλήρωσις	None~None Ἐξηκεστίδης	None~None Σόλων	None~None φημί	None~None 
+365	None~None Πλοῦτος	None~None τέρμα	None~None φαίνω	None~None ἀνήρ	None~None κέω	None~None 
+365	None~None Θέογνις	None~None διδάσκαλος	None~None χρηστέον	None~None λέγω	None~None 
+365	None~None ἔραμαι	None~None πλουτέω	None~None εὔχομαι	None~None ἀίω	None~None Ζεύς	None~None ὀλίγος	None~None ἔχω	None~None κακός	None~None 
+365	None~None Διογένης	None~None ἄγαμαι	None~None ὁμοῦ	None~None ἀνθρώπινος	None~None ὑπεροψία	None~None 
+365	None~None βασιλεύς	None~None μέγας	None~None ἀποφαίνω	None~None πλούσιος	None~None ἐλάσσων	None~None βίος	None~None προσδέομαι	None~None 
+365	None~None Πύθιον	None~None Μυσός	None~None πρόσειμι	None~None τάλαντον	None~None πλέθρον	None~None γῆ	None~None τόσος	None~None τόσος	None~None βόσκημα	None~None ἑσμός	None~None πλέως	None~None ἀριθμέω	None~None ἐξαρκέω	None~None 
+365	None~None οἴομαι	None~None προσήκω	None~None ἄπειμι	None~None ποθέω	None~None πλοῦτος	None~None πάρειμι	None~None κτάομαι	None~None μᾶλλον	None~None φρονέω	None~None οἶδα	None~None εὖ	None~None διατίθημι	None~None 
+365	None~None Σωκράτης	None~None εὖ	None~None ἔχω	None~None 
+365	None~None μέγας	None~None φρονέω	None~None πλούσιος	None~None ἀνήρ	None~None χρῆμα	None~None πρότερος	None~None θαυμάζω	None~None φημί	None~None πρίν	None~None χράω	None~None ἐφίστημι	None~None πειράω	None~None 
+365	None~None Φειδίης	None~None Πολύκλειτος	None~None χρυσίον	None~None μέγας	None~None φρονέω	None~None ἐλέφας	None~None Ἠλεῖος	None~None Δίη	None~None Ἥρα	None~None Ἀργεῖος	None~None ποιέω	None~None καταγέλαστος	None~None ἀλλότριος	None~None πλοῦτος	None~None καλλωπίζω	None~None ἀφίημι	None~None τέχνη	None~None ὑφή	None~None χρυσός	None~None ἡδύς	None~None τίμιος	None~None ἀποδείκνυμι	None~None 
+365	None~None ἀνθρώπειος	None~None ἀρετή	None~None ἐξαρκέω	None~None κόσμος	None~None ὑπολαμβάνω	None~None ἐλάσσων	None~None αἰσχύνη	None~None ἄξιος	None~None ποιέω	None~None οἴομαι	None~None 
+365	None~None δῆτα	None~None πλοῦτος	None~None ὑπεροράω	None~None αἴσθησις	None~None ἡδονά	None~None ἀτιμάω	None~None κολακεία	None~None θωπεία	None~None διώκω	None~None Ἀρχίλοχος	None~None ἀλώπηξ	None~None κερδαλέος	None~None ποικίλος	None~None ζηλόω	None~None 
+365	None~None μᾶλλον	None~None φευκτέος	None~None σωφρονέω	None~None δόξα	None~None ζάω	None~None πολύς	None~None δοκέω	None~None περισκοπέω	None~None ὀρθός	None~None λόγος	None~None ἡγεμών	None~None ποιέω	None~None βίος	None~None ἄνθρωπος	None~None ἀντιλέγω	None~None ἀδοξέω	None~None κινδυνεύω	None~None καλέω	None~None δέομαι	None~None αἱρέω	None~None ὀρθός	None~None γιγνώσκω	None~None παρακινέω	None~None 
+365	None~None ἔχω	None~None Αἰγύπτιος	None~None σοφιστής	None~None φημί	None~None ἀπολείπω	None~None φυτόν	None~None γίγνομαι	None~None θηρίον	None~None ὁπότε	None~None βούλομαι	None~None πῦρ	None~None ὕδωρ	None~None χρῆμα	None~None δίκαιος	None~None ἐπαινέω	None~None τιμάω	None~None ἐναντίος	None~None ἀφίημι	None~None λόγος	None~None ἀδικία	None~None εὐδοκιμέω	None~None αἰσθάνομαι	None~None ὅσπερ	None~None δίκη	None~None κόλαξ	None~None φημί	None~None πολύπους	None~None χροιά	None~None ὑπόκειμαι	None~None γῆ	None~None διάνοια	None~None σύνειμι	None~None γνώμη	None~None μεταβάλλω	None~None 
+365	None~None πού	None~None ἡμέτερος	None~None λόγος	None~None τέλειος	None~None μανθάνω	None~None 
+365	None~None ὅσος	None~None σκιαγραφία	None~None ἀρετή	None~None ἔξωθεν	None~None παίδευμα	None~None περιγράφω	None~None 
+365	None~None ἐπιμελής	None~None ὠφέλεια	None~None ἀθροίζω	None~None μέγας	None~None ποταμός	None~None πολύς	None~None γίγνομαι	None~None πολλαχόθεν	None~None προσθήκη	None~None 
+365	None~None μικρός	None~None μικρός	None~None κατατίθημι	None~None μᾶλλον	None~None ἀργύριον	None~None προσθήκη	None~None ἐπιστήμη	None~None ὀρθός	None~None ἡγέομαι	None~None ἔχω	None~None ποιητής	None~None προσήκω	None~None 
+365	None~None Βίας	None~None υἱός	None~None Αἰγύπτιος	None~None ἀπαίρω	None~None πυνθάνομαι	None~None ποιέω	None~None μάλιστα	None~None χαρίζομαι	None~None πράσσω	None~None 
+365	None~None ἐφόδιον	None~None φημί	None~None γῆρας	None~None κτάομαι	None~None ἀρετή	None~None ἐφόδιον	None~None λέγω	None~None μικρός	None~None ὅρος	None~None περιγράφω	None~None ἀνθρώπινος	None~None βίος	None~None ὠφέλεια	None~None ὁρίζω	None~None 
+365	None~None Τιθωνός	None~None γῆρας	None~None Ἀργανθώνιος	None~None λέγω	None~None μακρόβιος	None~None πηρός	None~None χίλιοι	None~None ἔτης	None~None τριάκοντα	None~None δέω	None~None βιόω	None~None λέγω	None~None σύμπας	None~None γίγνομαι	None~None ἄνθρωπος	None~None χρόνος	None~None ἀναμετρέω	None~None παῖς	None~None διάνοια	None~None γελάω	None~None μακρός	None~None ἀποσκοπέω	None~None ἀγήραος	None~None αἰών	None~None πέρας	None~None ἐπίνοια	None~None λαμβάνω	None~None μᾶλλον	None~None τελευτή	None~None ὑποτίθημι	None~None ἀθάνατος	None~None ψυχή	None~None 
+365	None~None κτάομαι	None~None παραινέω	None~None ἐφόδια	None~None λίθος	None~None παροιμία	None~None κινέω	None~None ὅθεν	None~None μέλλω	None~None ὠφέλεια	None~None γίγνομαι	None~None 
+365	None~None χαλεπός	None~None πόνος	None~None δέομαι	None~None ἀποκνέω	None~None 
+365	None~None ἀναμιμνήσκω	None~None παραινέω	None~None δέω	None~None βίος	None~None ἄριστος	None~None προαιρέω	None~None ἡδύς	None~None προσδοκάω	None~None συνήθεια	None~None γίγνομαι	None~None ἐγχειρέω	None~None βέλτιστος	None~None 
+365	None~None αἰσχρός	None~None πάρειμι	None~None καιρός	None~None προίημι	None~None ὕστερος	None~None ποτός	None~None ἀνακαλέω	None~None παρέρχομαι	None~None πλέος	None~None ἀνιάομαι	None~None 
+365	None~None κράτιστος	None~None κρίνω	None~None ἐρῶ	None~None βίος	None~None συμβουλεύω	None~None 
+365	None~None τρεῖς	None~None ἀρρώστημα	None~None ἀνίατος	None~None προσέοικα	None~None δοκέω	None~None γνώμη	None~None νόσος	None~None παραπλήσιος	None~None σῶμα	None~None δυστυχέω	None~None δείκνυμι	None~None 
+365	None~None μικρός	None~None πάθος	None~None κάμνω	None~None ἰατρός	None~None ἔρχομαι	None~None 
+365	None~None μέγας	None~None καταλαμβάνω	None~None ἀρρώστημα	None~None καλέω	None~None θεραπεύω	None~None 
+365	None~None ἀνήκεστος	None~None παντελής	None~None μελαγχολία	None~None παραφέρω	None~None πρόσειμι	None~None προσίημι	None~None 
+365	None~None πάσχω	None~None ὀρθός	None~None ἔχω	None~None λογισμός	None~None ἀποφεύγω	None~None365	πολύς παρακαλέω συμβουλεύω παῖς βέλτιστος κρίνω συμφέρω αἱρέω πιστεύω 
+365	ἡλικία ἔχω πολύς ἤδη γυμνάζω πρᾶγμα μείς παιδεύω ἄμφω μεταβολεύς ἱκανός μετέχω ἔμπειρος ἀνθρώπινος ποιέω ἄρτι καθίστημι βίος ἔχω ὁδός ἀσφαλής ὑποδείκνυμι 
+365	φύσις οἰκειότης εὐθύς γονεύς τυγχάνω ἐλάσσων πατήρ εὔνοια νέμω 
+365	νομίζω διαμαρτάνω γνώμη ποθέω τίκτω βλέπω 
+365	πρόθυμος δέχομαι λέγω δεύτερος ἐπαινέω πηρός Ἡσίοδος τάξις 
+365	εἶπον δυσχερής μιμνήσκω ἔπος δηλονότι φημί ἄριστος πηρός δέω συνοράω ἐσθλός πηρός ἕτερος ὑποδείκνυμι ἕπομαι οὐδέτερος ἐπιτήδειος ἀχρεῖος 
+365	θαυμάζω ἡμέρα διδάσκαλος φοιτάω ἐλλόγιμος παλαιός ἀνήρ καταλιμπάνω λόγος συγγίγνομαι πηρός λυσιτελής ἐξευρίσκω φημί 
+365	συμβουλεύω ἥκω δέω ἅπαξ ἀνήρ πλοῖον πηδάλιον διάνοια παραδίδωμι ἄγω συνέπομαι 
+365	ὅσος χρήσιμος δέχομαι οἶδα χρή παρεῖδον 
+365	διακρίνω διδάσκω ἔνθεν αἱρέω 
+365	παῖς χρῆμα παντάπασι ἀνθρώπινος βίος ὑπολαμβάνω ἀγαθός νομίζω ὅλος ὀνομάζω συντέλεια ἄχρι παρέχω 
+365	οὔκουν πρόγονος περιφάνεια ἰσχύς σῶμα κάλλος μέγεθος ἄνθρωπος τιμή βασιλεία εἶπον ἀνθρώπινος μέγας εὐχή ἄξιος κρίνω ἔχω ἀποβλέπω μακρός πρόειμι ἐλπίς ἕτερος βίος παρασκευή πράσσω 
+365	συντελέω ἀγαπάω διώκω σθένω χρή φημί ἐξικνέομαι ἄξιος παροράω 
+365	βίος ὅπη βιόω μακρός πάρειμι ὁρμή ἐφικνέομαι μέγας ἀκροατής ἀκέω 
+365	τοσοῦτος εἶπον ἱκανός ἴσως ἐνδείκνυμι ὁμοῦ γίγνομαι ἄνθρωπος λόγος συλλαμβάνω ἀθρέω εὐδαιμονία πολλοστός μέρος ἀγαθός εὑρίσκω παρισόομαι πλέως ἐλάχιστος σύμπας κάλη ἄξιος ἀφίστημι ὅσος σκιά ὄναρ ἀληθής ἀπολείπω 
+365	μᾶλλον οἰκεῖος χράω παράδειγμα ὅσος ψυχή τίμιος σῶμα τοσοῦτος βίος ἑκάτερος διάφορος 
+365	ἄγω ἱερός λόγος ἀπόρρητος ἐκπαιδεύω 
+365	μείς ἡλικία ἐπακούω βάθος διάνοια οἷος ἕτερος πάντῃ διίστημι σκιά κάτοπτρον ψυχή ὄμμα τέως προγυμνάζω τακτικός μελέτη ποιέω μιμέομαι χειρονομία ὄρχησις ἐμπειρία κτάομαι ἀγών παιδιή ἀπολαύω κέρδος 
+365	ἀγών πρόκειμαι ἀγών μέγας νομίζω χρεών ποιητέος πονητέον δύναμις παρασκευή ποιητής λογοποιέω ῥήτωρ ἄνθρωπος ὁμιλητέον ὅθεν μέλλω ψυχή ἐπιμέλεια ὠφέλεια 
+365	δευσοποιός παρασκευάζω πρότερος θεραπεία ποτός δέχομαι βαφή ἄνθος ἐπάγω ἁλουργής ἕτερος τρόπος μέλλω ἀνέκπλυτος χρόνος καλέω παραμένω δόξα ἔξω προτελέω τηνικαῦτα ἱερά ἀπόρρητος ἐπακούω παίδευμα 
+365	οἷος ὕδωρ ἥλιος ὁράω ἐθίζω προσδαίω φάος ὄψις 
+365	οἰκειότης λόγος προύργου γνῶσις γίγνομαι 
+365	παραλάω τίθημι καταμανθάνω διάφορος μικρός βεβαίωσις βελτίων 
+365	παρεικάζω παίδευσις ἑκάτερος εἰκών τυγχάνω 
+365	φυτόν οἰκεῖος ἀρετή καρπός βρύω ὡραῖος φέρω κόσμος φύλλον κλάδος περισείομαι ψυχή προηγουμένως καρπός ἀλήθεια ἄχαρις θύραθεν σοφία περιβάλλω οἷος φύλλον σκέπη καρπός ὄψις ἄωρος παρέχω 
+365	λέγω πάνυ μέγας σοφία ἄνθρωπος ὄνομα Αἰγύπτιος μάθημα ἐγγυμνάζω διάνοια προσέρχομαι θεωρία 
+365	παραπλήσιος κάτος χρόνος σοφός Βαβυλών φημί σοφία Χαλδαῖος καταμανθάνω τότε θεῖος ἅπτω παίδευμα 
+365	ἄχρηστος ψυχή μάθημα ἔξωθεν ἱκανός ἔρομαι 
+365	μεθεκτέος ἑξῆς ἀίω λέγω 
+365	πρότερος ποιητής ἐντεῦθεν ἄρχω 
+365	παντοδαπός λόγος ἐφεξῆς προσέχω νόος 
+365	ἀγαθός ἀνήρ πρᾶξις λόγος διέξειμι ἀγαπάω ζηλέω μάλιστα πειράω 
+365	μοχθηρός ἀνήρ ἔρχομαι μίμησις δέομαι φεύγω ἐπιφράσσω οὖς ἥσσων Ὀδυσσεύς φημί Σειρήν μέλη 
+365	φαῦλος λόγος συνήθεια ὁδός πρᾶγμα 
+365	φυλακεύς ψυχή τηρητέον λόγος ἡδονά παραδέχομαι λανθάνω χείρων δηλητήριος μέλι προσίημι 
+365	ἐπαινέω ποιητής λοιδορέω εἰσλάω ἐράω μεθύω μιμέομαι τράπεζα πλήθω ἀοιδός ἀνίημι εὐδαιμονία ὁρίζω 
+365	ἥκιστος θέα διαλέγω προσέχω μάλιστα πολύς διέξειμι ὁμονοέω 
+365	ἀδελφός πηρός διαστασιάζω ἀδελφός γονεύς παῖς αὖθις τίκτω πόλεμος ἀκήρυκτος 
+365	μοιχεία θέα ἔρως μίγνυμι ἀναφανδά μάλιστα κορυφαῖον ὕπατος Ζεύς λέγω βόσκημα λέγω ἐρυθριάω σκηνή καταλείβω 
+365	ταυτός λέγω συγγραφεύς ἔχω μάλιστα ψυχαγωγία ἀκούω λογοποιέω 
+365	ῥήτωρ ψεύδω τέχνη μιμέομαι 
+365	δικαστήριον πρᾶξις ἐπιτήδειος ψεῦδος ὀρθός ὁδός ἀληθής προαιρέω βίος δικάζω νόμος προστάσσω 
+365	μᾶλλον ἀποδέχομαι ἀρετή ἐπαινέω πονηρία διαβάλλω 
+365	ἄνθη λοιπός ἄχρι εὐωδία χροιά ἀπόλαυσις μέλισσα ἄρος μέλι λαμβάνω ὑπάρχω ἐνταῦθα ἡδύς ἐπίχαρις μόνος λόγος διώκω ὠφέλεια ψυχή ἀποτίθημι 
+365	μέλισσα εἰκών λόγος μεθεκτέος 
+365	ἄνθος παραπλήσιος ἐπέρχομαι ἐπιπτάζω ὅλος φέρω ἐπιχειρέω ὅσος ἐπιτήδειος ἐργασία λαμβάνω λοιπός χαίρω ἀφίημι 
+365	σωφρονέω ὅσος οἰκεῖος συγγενής ἀλήθεια πηρός κομίζω ὑπερβαίνω λείπω 
+365	ῥοδωνιά ἄνθος δρέπω ἄκανθα ἐκκλίνω λόγος ὅσος χρήσιμος καρπόω βλαβερός φυλάσσω 
+365	εὐθύς ἀρχή ἐπισκοπέω μάθημα συναρμόζω τέλος προσήκω Δωρικός παροιμία λίθος σπάρτον ἄγω 
+365	ἀρετή βίος καθίημι δέομαι ἡμέτερος πολύς ποιητής πολύς συγγραφεύς πολύς πλέως φιλόσοφος ὑμνέω λόγος μάλιστα προσεκτέος 
+365	μικρός ὄφελος οἰκειότης συνήθεια νέος ψυχή ἀρετή ἐγγίγνομαι ἀμετάστατος φύω μάθημα ἁπαλότης ψῦχος βάθος ἐνσημαίνομαι 
+365	διανοέομαι Ἡσίοδος ὑπολαμβάνω ποιέω ἔπος προτρέπω νέος ἀρετή 
+365	τραχύς πρότερος δύσβατος ἱδρώς συχνός πόνος πλήρης ἀρετή φέρω ἀνάντης ὁδός 
+365	προσβαίνω ὄρθιος ῥᾴδιος ἄκρον ἔρχομαι 
+365	ἄνω γίγνομαι ὁράω ὑπάρχω λεία καλός ῥᾴδιος εὔπορος ἕτερος ἡδύς κακία ἄγω ἀθρόος λαμβάνω σύνεγγυς ποιητής φημί 
+365	δοκέω ἕτερος προτρέπω ἀρετή προκαλέω ἀγαθός διέρχομαι καταμαλακίζω πόνος προαφίσταμαι τέλος 
+365	ἕτερος ἔοικα ἀρετή ὑμνέω 
+365	ταυτός φέρω λόγος ἀποδέχομαι 
+365	ἀκούω δεινός καταμανθάνω ἀνήρ ποιητής διάνοια ποίησις Ὅμηρος ἀρετή ἔπαινος φέρω πάρεργος ἥκιστος στρατηγός Κεφαλλήν ποιέω γυμνός ναυάγιον πρότερος βασιλίς φαίνω μόνος 
+365	τοσοῦτος δέω αἰσχύνη ὀφλέω γυμνός ὁράω μόνος ἀρετή ἱμάτιον κοσμέω ποιέω 
+365	ἔπειτα λοιπός Φαίαξ τοσοῦτος ἄξιος νομίζω ἀφίημι τρυφή συζάω ἀποβλέπω ζηλέω Φαίαξ τότε εὔχομαι μᾶλλον Ὀδυσσεύς γίγνομαι ναυάγιον 
+365	λέγω ποιητής διάνοια ἐξηγητής μόνος βοάω λέγω Ὅμηρος 
+365	ἀρετή ἐπιμελητέον ἄνθρωπος ναυαγέω σύνεκνήχομαι χέρσος γίγνομαι γυμνός τίμιος ἀποδείκνυμι εὐδαίμων Φαίαξ 
+365	ἔχω 
+365	κτῆμα μᾶλλον ἔχω ἐπιτυγχάνω παιδιή κύβος ἐκεῖσε μεταβάλλω 
+365	μόνος κτῆμα ἀρετή ἀναφαίρετος ζάω τελευτάω παραμένω 
+365	ὅθεν Σόλων δοκέω εὔπορος εἶπον 
+365	διαμείβω ἀρετή πλοῦτος ἔμπεδος ἀεί χρῆμα ἄνθρωπος ἄλλοτε ἔχω 
+365	παραπλήσιος Θέογνις φημί θεός φημί ἄνθρωπος τάλαντον ἐπιρρέπω ἄλλοτε ἄλλως 
+365	ἄλλοτε πλουτέω ἄλλοτε ἔχω 
+365	Κέως πού σοφιστής Πρόδικος σύγγραμμα ἀδελφή ἀρετή κακία φιλοσοφέω 
+365	διάνοια προσεκτέος 
+365	ἀπόβλητος ἀνήρ 
+365	ἔχω λόγος ὅσος ἀνήρ διάνοια μιμνήσκω ῥῆμα ἐφίστημι ἁπλῶς ἐρῶ μέτρον νέος Ἡρακλέης κομιδῇ σχεδόν ἄγω ἡλικία βουλεύω πότερος τρέπω ὁδός πόνος ἄγω ἀρετή ῥᾴδιος προσέρχομαι δύο γυνή Ἀρετή κακία 
+365	εὐθύς σιωπάω ἐμφαίνω σχῆμα διάφορος 
+365	κομμωτικός διασκευάζω κάλλος τρυφή διαρρέω ἑσμός ἡδονά ἐξαρτάω ἄγω 
+365	δείκνυμι πλέως ὑποσχέθω ἕλκω ἐπιχειρέω Ἡράκλεα 
+365	ἕτερος κατασκλῆναι αὐχμάω σύντονος βλέπω λέγω ἕτερος 
+365	ὑποσχέθω ἀνίημι ἡδύς ἱδρώς μυρίος πόνος κίνδυνος ἤπειρος θάλασσα 
+365	ἆθλον θεός γίγνομαι λόγος 
+365	τελευτάω Ἡράκλεα συνέπομαι 
+365	σχεδόν λόγος σοφία μικρός μέγας δύναμις σύγγραμμα ἀρετή ἔπαινος διεξέρχομαι πειστέον πειρατέον βίος δείκνυμι λόγος 
+365	ἄχρι ῥῆμα φιλοσοφία ἔργον βεβαιόω οἶος πέπνυμαι σκιά ἀίσσω 
+365	δοκέω παραπλήσιος ζώγραφος θαυμαστός οἷος κάλλος ἄνθρωπος μιμέομαι ἀίω ἀλήθεια οἷος πίναξ δείκνυμι 
+365	λαμπρός ἐπαινέω ἀρετή μέσος μακρός ἀποτείνω λόγος ἴδιος ἡδύς σωφροσύνη πλέος ἔχω δίκαιος τιμάω ἔοικα φημί σκηνή ὑποκρίνομαι δρᾶμα βασιλεύς δυνάστης πολλάκις εἰσέρχομαι βασιλεύς δυνάστης τυγχάνω ἐλεύθερος παράπαν 
+365	εἶτα μουσικός ἑκών δέχομαι ἀνάρμοστος λύρα χορός κορυφαῖος μάλιστα συνᾴδω χορός ἔχω 
+365	διαστασιάζω λόγος ὁμολογέω βίος παρέχω γλῶσσα ὄμνυμι φρήν ἀνώμοτος Εὐριπίδης ἐράομαι δοκέω ἀγαθός διώκω 
+365	σχέθω ἀδικία ὅρος δέομαι Πλάτων πείθω δοκέω δίκαιος 
+365	λόγος κάλη ἔχω ὑποθήκη ἀποδέχομαι 
+365	πρᾶξις σπουδαῖος παλαιός ἀνήρ μνήμη ἀκολουθία διασῴζω ποιητής συγγραφεύς φυλάσσω λόγος ἐντεῦθεν ὠφέλεια ἀπολείπω 
+365	οἷος λοιδορέω Περικλέης ἀγορά ἄνθρωπος 
+365	προσέχω 
+365	διαρκέω ἡμέρα ἀφειδής πλύνω ὄνειδος μέλω 
+365	εἶτα ἑσπέρα ἤδη σκότος ἀπαλλάσσω μόλις φάος παραπέμπω Περικλέης διαφθείρω φιλοσοφία γυμνάσιον 
+365	πάλιν Εὐκλείδης Μεγαρόθεν παροξύνω θάνατος ἀπειλέω ἐπόμνυμι 
+365	ἀντόμνυμι ἦ μείς ἱλάομαι παύω χαλεπός ἔχω 
+365	πόσος ἄξιος παράδειγμα εἰσέρχομαι μνήμη ἀνήρ ὀργή ἤδη κατέχω 
+365	τραγῳδία πιστευτέος ἁπλῶς λέγω ἐχθρός θυμός ὁπλίζω χείρ 
+365	μάλιστα διανίσταμαι θυμός παράπαν 
+365	ῥαίδιον χαλινός λογισμός ἐμβάλλω ἀίω ἐκφέρω περαίτερος 
+365	ἐπανάγω λόγος αὖθις σπουδαῖος πρᾶξις παράδειγμα 
+365	τύπτω Σωφρόνισκος Σωκράτης πρόσωπον ἐμπίτνω ἀφειδής 
+365	ἀνταίρω παρέχω παροινέω ὀργή ἐμφορέω ἐξοιδέω ἤδη ὕπουλος πρόσωπον πλήξ 
+365	ἐπαύω τύπτω Σωκράτης ποιέω ἐπιγράφω μέτωπον λέγω ἀνδριάς δημιουργός 
+365	δεῖνα ποιέω 
+365	τοσοῦτος ἀμύνω 
+365	σχεδόν ταυτός ἡμέτερος φέρω πολύς ἄξιος μιμέομαι τηλικοῦτος φημί 
+365	Σωκράτης ἀδελφός παράγγελμα τύπτω σιαγών ἕτερος παρέχω προσήκω 
+365	τοσοῦτος δέω ἀπαμύνω 
+365	Περικλέης Εὐκλείδης διώκω ὑπομένω πρᾶος ὀργή ἀνέχω ἐχθρός εὔχομαι ἀγαθός ἐπαράομαι 
+365	προπαιδεύω ἔται ἀδύνατος διαπιστέω 
+365	παρέρχομαι Ἀλέξανδρος θυγάτηρ Δαρεῖος αἰχμάλωτος λαμβάνω θαυμαστός οἷος κάλλος παρέχω μαρτύρομαι προσεῖδον ἀξιόω αἰσχρός κρίνω ἀνήρ αἱρέω γυνή ἡσσάομαι 
+365	ταυτός φέρω ἐμβλέπω ἡδονά γυνή ἔργον μοιχεία ἐπιτελέω ἐπιθυμία ψυχή παραδέχομαι ἀφίημι ἔγκλημα 
+365	Κλεινίης Πυθαγόρας γνώριμος χαλεπός πιστεύω αὐτόματος συμβαίνω ἡμέτερος μιμέομαι σπουδή 
+365	ποιέω 
+365	ἔξεστι ὅρκος τρεῖς τάλαντον ζημία ἀποφεύγω ἀποτίνω μᾶλλον ὄμνυμι εὐορκέω μέλλω 
+365	ἀκέω δοκέω πρόσταγμα ὅρκος ἀπαγορεύω 
+365	ὅσπερ ἀρχή λέγω πάλιν ταυτός ἐπάνειμι 
+365	ἑξῆς παραδεκτέος ὅσος χρήσιμος 
+365	αἰσχρός σιτίον βλαβερός διωθέω μάθημα ψυχή τρέφω λόγος ἔχω χειμάρρους παρασύρω προστυγχάνω ἐμβάλλω 
+365	ἔχω λόγος κυβερνάω εἰκῇ πνεῦμα ἐφίημι ὅρμος εὐθύνω σκάφος 
+365	τοξότης σκοπός βάλλω 
+365	χαλκευτικός τεκτονικός τέχνη ἐφίημι τέλος 
+365	δημιουργός ἀπολείπω συνοράω δύναμαι ἡμέτερος 
+365	χειρωνάκτης πέρας ἐργασία ἀνθρώπινος βίος σκοπός ἀφοράω ποιέω λέγω χρή ἄλογος παντάπασι προσέοικα μέλλω 
+365	ἄτεχνος πλοῖον ἀνερμάτιστος νόος ψυχή οἴαξ καθέζομαι εἰκῇ βίος ἄνω κάτος περιφέρω 
+365	γυμνικός ἀγών βούλομαι μουσική 
+365	ἀγών μελέτη στέφανος πρόκειμαι πάλα ἀσκέω παγκράτιον εἶτα κιθαρίζω αὐλέω μελετάω 
+365	οὔκουν Πολυδάμας 
+365	ἀγών Ὀλυμπιάς ἅρμα ἵστημι τρέχω ἰσχύς κρατύνω 
+365	Μίλων ἀσπίς ἐξωθέω ἀντέχω ὠθέω ἥσσων ἀνδριάς μόλυβδος συνδέω 
+365	ἁπαξαπλῶς μελέτη παρασκευή ἆθλον 
+365	Μαρσύης Ὄλυμπος Φρύξ περιεργάζομαι κροῦμα καταλιμπάνω κόνις γυμνάσιον ταχύς στέφανος δόξα τυγχάνω διαφεύγω καταγέλαστος σῶμα 
+365	Τιμόθεος μελῳδία ἀφίημι παλαίστρα διάγω 
+365	τοσοῦτος ὑπάρχω διαφέρω μουσική 
+365	τοσοῦτος περίειμι τέχνη θυμός ἐγείρω σύντονος αὐστηρός ἁρμονία χαλάω μαλάσσω πάλιν ἀνίημι ὁπότε βούλομαι 
+365	Ἀλέξανδρος ποτός Φρύγιος ἐπαυλέω ἐξανίστημι ὅπλον λέγω μεταξύ δειπνέω ἐπανάγω πάλιν συμπότης ἁρμονία χαλάω 
+365	τοσοῦτος ἰσχύς μουσική γυμνικός ἀγών τέλος κτῆσις μελέτη παρέχω 
+365	στέφανος ἀθλητής μιμνήσκω μυρίος πάσχω μυρίος πολλαχόθεν ῥώμη συναυξάνω πολύς γυμναστικός ἐνιδρόω πόνος πολύς πληγάς παιδοτρίβης λαμβάνω δίαιτα ἡδύς γυμναστής αἱρέω διατρίβω λέγω διάγω ἀγωνία βίος μελέτη ἀγωνία τηνικαῦτα ἀποδύω στάδιον πονέω κινδυνεύω κότινον λαμβάνω στέφανος σέλινον νικάω ἀναρρέω κῆρυξ 
+365	ἆθλον βίος πρόκειμαι θαυμαστός πλῆθος μέγεθος ἀδύνατος ἐρῶ λόγος ἄμφω καθεύδω πολύς διαιτάω ἄδεια ἕτερος λαμβάνω χείρ ὑπάρχω 
+365	πολύς ἄξιος ῥαθυμία βίος Σαρδανάπαλος πρότερος εὐδαιμονία φέρω Μαργίτης βούλομαι ἀροτήρ σκαπτήρ βίος ἐπιτήδειος Ὅμηρος φημί Ὅμηρος 
+365	ἀληθής μᾶλλον Πιττακός λόγος χαλεπός φημί ἐσθλός 
+365	πολύς πόνος διεξέρχομαι μόλις ἀγαθός τυγχάνω περιγίγνομαι ἄνω λόγος παράδειγμα ἀνθρώπινος λέγω 
+365	βραχύς ῥᾳστώνη μέγας ἐλπίς ἀνταλλακτέον μέλλω ὄνειδος ἔχω τιμωρία ὑπέχω ἄνθρωπος ἐνθάδε μικρός νόος ἔχω εἴτε γῆ εἴτε ὅπου τυγχάνω δικαιωτήριον 
+365	ἀεκούσιος προσήκω ἁμαρτάνω συγγνώμη ἴσως θεός γίγνομαι 
+365	ἐξεπίτηδες χείρων προαιρέω παραίτησις πολλαπλάσιος κόλασις ὑπέχω 
+365	ποιέω 
+365	φημί 
+365	ψυχή ἐπιμέλεια ἔχω σχολή ἄγω 
+365	σῶμα δουλευτέον ἀνάγκη 
+365	ψυχή βέλτιστος ποριστέον δεσμωτήριον σῶμα πάθη κοινωνία φιλοσοφία λύω ἅμα σῶμα πάθος κρείσσων ἀπεργάζομαι γαστήρ ἀναγκαῖος ὑπηρετέω ἡδύς τραπεζοποιός μάγειρος περινοέω διερευνάω γῆ θάλασσα οἷος χαλεπός δεσπότης φόρος ἀπάγω ἐλεεινός ἀσχολία ᾅδης κολάζω πάσχω ἀνεκτός ἄτεχνος πῦρ ξαίνω κόσκινον φέρω ὕδωρ τετραίνω ἀντλέω πίθος πέρας πόνος ἔχω 
+365	κουρά ἀμπεχόνη ἔξω ἀναγκαῖον περιεργάζομαι δυστυχέω Διογένης λόγος ἀδικέω 
+365	καλλωπιστής ὀνομάζω ὅμοιος αἰσχρός ἡγέομαι φημί δέω ἑταιρέω ἀλλότριος γάμος ἐπιβουλεύω 
+365	διαφέρω νόος ἔχω ξυστίς ἀναβάλλω φαῦλος ἱμάτιον φέρω ἐνδέω χειμών θάλπος ἀλεξητήριος 
+365	τρόπος περισσός χρεία κατασκευάζω περιέπω σῶμα πλέος ἀμείνων ψυχή 
+365	ἥσσων ὄνειδος ἀνδρίς ἀληθής προσηγορία ἄξιος καλλωπιστής φιλοσώματος πάθος ἀγεννής διάκειμαι 
+365	σπουδή εἰσφέρω κάλλιστα σῶμα ἔχω διαγιγνώσκω συνίημι σοφός παράγγελμα ὁράω ἄνθρωπος 
+365	δέομαι περισσός σοφία ἐπιγιγνώσκω 
+365	καθαίρω νόος ἀδύνατος λημάω ἥλιος ἀναβλέπω 
+365	κάθαρσις ψυχή ἀθρόος εἶπον ἱκανός αἴσθησις ἡδονά ἀτιμάζω ὀφθαλμός ἑστία ἄτοπος θαυματοποιός ἐπίδειξις σῶμα θέα ἡδονά κέντρον ἐναφίημι ἄατος διαφθείρω μελῳδία ψῦχος καταχέω 
+365	ἀνελευθερία ταπεινότης κίκω πάθη τοιόσδε μουσική εἶδος ἐγγίγνομαι φύω 
+365	ἕτερος μεταδιωκτέον ἀμείνων ἀμείνων φέρω χράομαι ποιητής ἱερά ἄεισμα μανία φημί βασιλεύς καθίστημι 
+365	λέγω Πυθαγόρας κωμαστής περιτυγχάνω μεθύω κέλλω αὐλητής κῶμος κατάρχω μεταβάλλω ἁρμονία ἐπαυλέω Δώριος ἀναφρονέω μέλος στέφανος ῥίπτω αἰσχύνω ἐπανέρχομαι 
+365	ἕτερος αὐλός Κορυβαντιάω ἐκβακχεύω 
+365	τοσοῦτος διάφορος ὑγιής μοχθηρός μελῳδία ἀναπίμπλημι 
+365	κρατέω ἥσσων μεθεκτέος αἰσχρός 
+365	ἀτμός παντοδαπός ἡδονά ὄσφρησις φέρω ἀήρ καταμίγνυμι μῦρος ἀναχρώζω ἀπαγορεύω αἰσχύνω 
+365	εἶπον χρή ἁφή γεῦσις διώκω ἡδονά καταναγκάζω θήρα σχολάζω θρέμμα γαστήρ συννεύω ζάω 
+365	λόγος ὑπεροπτέον σῶμα βόρβορος ἡδονά κατορύσσω μέλλω τοσοῦτος ἀνθεκτέον ὅσος φημί Πλάτων 
+365	ὑπηρεσία φιλοσοφία κτάομαι ἔοικα πού λέγω Παῦλος παραινέω χρή σῶμα πρόνοια ἔχω ἐπιθυμία ἀφορμή 
+365	διαφέρω σῶμα κάλλιστα ἔχω φροντίζω χράω ψυχή ἄξιος περιοράω ὄργανον σπουδάζω ἐνεργέω τέχνη καταμελέω 
+365	ἐναντίον κολάζω κατέχω θηρίον ὁρμή προσήκω θόρυβος ἐγγίγνομαι ψυχή μάστιξ λογισμός καθικνέομαι κοιμίζω χαλινός ἡδονά ἀνίημι περιοράω νόος ἡνίοχος δυσήνιος ἵππος ὕβρις φέρω παρασύρω ἄγω 
+365	Πυθαγόρας μιμνήσκω σύνειμι καταμανθάνω γυμνάσιον σιτίον εὖ μάλα κατασαρκέω φημί 
+365	παύω χαλεπός κατασκευάζω δεσμωτήριον 
+365	Πλάτων φημί σῶμα βλάβος προείδομαι νοσώδης χωρίον Ἀττικός Ἀκαδήμεια καταλαμβάνω ἐξεπίτηδες ἄγαν εὐπάθεια σῶμα οἷος ἄμπελος περισσός φορά περικόπτω 
+365	σφαλερός ἄκρος εὐεξία ἰατρός ἀκούω 
+365	ἄγαν σῶμα ἐπιμέλεια ἀλυσιτελής σῶμα ψυχή ἐμποδέω ὑποπίπτω θεραπεύω μανία σαφής 
+365	ὑπεροράω μελετάω σχολή ἀνθρώπινος θαυμάζω 
+365	χράω πλοῦτος σῶμα ἡδονά ἀτιμάζω 
+365	ὁράω μῦθος δράκων ἡδονά φέρω θησαυρός κατορύσσω ἐπαγρυπνέω 
+365	ἐλευθέριος διάκειμαι παιδεύω πολύς δέω ταπεινός αἰσχρός ἔργον λόγος ποτός προαιρέω 
+365	χρεία περισσός Λύδιος ψῆγμα μύρμηξ ἔργον χρυσοφόρος τοσοῦτος πλέος ἀτιμάω ὅσος ἥσσων προσδέομαι 
+365	χρεία φύσις ἀναγκαῖος ἡδονά ὁρίζω 
+365	ἀναγκαῖον ὅρος ἔξω γίγνομαι παραπλήσιος πρανής φέρω στάσιμος ἔχω ἀποβαίνω οὐδαμός πρόσω φορά ἵστημι 
+365	ὅσος πλέως προσπεριβάλλω ἴσος δέομαι πλείων ἐπιθυμία ἐκπλήρωσις Ἐξηκεστίδης Σόλων φημί 
+365	Πλοῦτος τέρμα φαίνω ἀνήρ κέω 
+365	Θέογνις διδάσκαλος χρηστέον λέγω 
+365	ἔραμαι πλουτέω εὔχομαι ἀίω Ζεύς ὀλίγος ἔχω κακός 
+365	Διογένης ἄγαμαι ὁμοῦ ἀνθρώπινος ὑπεροψία 
+365	βασιλεύς μέγας ἀποφαίνω πλούσιος ἐλάσσων βίος προσδέομαι 
+365	Πύθιον Μυσός πρόσειμι τάλαντον πλέθρον γῆ τόσος τόσος βόσκημα ἑσμός πλέως ἀριθμέω ἐξαρκέω 
+365	οἴομαι προσήκω ἄπειμι ποθέω πλοῦτος πάρειμι κτάομαι μᾶλλον φρονέω οἶδα εὖ διατίθημι 
+365	Σωκράτης εὖ ἔχω 
+365	μέγας φρονέω πλούσιος ἀνήρ χρῆμα πρότερος θαυμάζω φημί πρίν χράω ἐφίστημι πειράω 
+365	Φειδίης Πολύκλειτος χρυσίον μέγας φρονέω ἐλέφας Ἠλεῖος Δίη Ἥρα Ἀργεῖος ποιέω καταγέλαστος ἀλλότριος πλοῦτος καλλωπίζω ἀφίημι τέχνη ὑφή χρυσός ἡδύς τίμιος ἀποδείκνυμι 
+365	ἀνθρώπειος ἀρετή ἐξαρκέω κόσμος ὑπολαμβάνω ἐλάσσων αἰσχύνη ἄξιος ποιέω οἴομαι 
+365	δῆτα πλοῦτος ὑπεροράω αἴσθησις ἡδονά ἀτιμάω κολακεία θωπεία διώκω Ἀρχίλοχος ἀλώπηξ κερδαλέος ποικίλος ζηλόω 
+365	μᾶλλον φευκτέος σωφρονέω δόξα ζάω πολύς δοκέω περισκοπέω ὀρθός λόγος ἡγεμών ποιέω βίος ἄνθρωπος ἀντιλέγω ἀδοξέω κινδυνεύω καλέω δέομαι αἱρέω ὀρθός γιγνώσκω παρακινέω 
+365	ἔχω Αἰγύπτιος σοφιστής φημί ἀπολείπω φυτόν γίγνομαι θηρίον ὁπότε βούλομαι πῦρ ὕδωρ χρῆμα δίκαιος ἐπαινέω τιμάω ἐναντίος ἀφίημι λόγος ἀδικία εὐδοκιμέω αἰσθάνομαι ὅσπερ δίκη κόλαξ φημί πολύπους χροιά ὑπόκειμαι γῆ διάνοια σύνειμι γνώμη μεταβάλλω 
+365	πού ἡμέτερος λόγος τέλειος μανθάνω 
+365	ὅσος σκιαγραφία ἀρετή ἔξωθεν παίδευμα περιγράφω 
+365	ἐπιμελής ὠφέλεια ἀθροίζω μέγας ποταμός πολύς γίγνομαι πολλαχόθεν προσθήκη 
+365	μικρός μικρός κατατίθημι μᾶλλον ἀργύριον προσθήκη ἐπιστήμη ὀρθός ἡγέομαι ἔχω ποιητής προσήκω 
+365	Βίας υἱός Αἰγύπτιος ἀπαίρω πυνθάνομαι ποιέω μάλιστα χαρίζομαι πράσσω 
+365	ἐφόδιον φημί γῆρας κτάομαι ἀρετή ἐφόδιον λέγω μικρός ὅρος περιγράφω ἀνθρώπινος βίος ὠφέλεια ὁρίζω 
+365	Τιθωνός γῆρας Ἀργανθώνιος λέγω μακρόβιος πηρός χίλιοι ἔτης τριάκοντα δέω βιόω λέγω σύμπας γίγνομαι ἄνθρωπος χρόνος ἀναμετρέω παῖς διάνοια γελάω μακρός ἀποσκοπέω ἀγήραος αἰών πέρας ἐπίνοια λαμβάνω μᾶλλον τελευτή ὑποτίθημι ἀθάνατος ψυχή 
+365	κτάομαι παραινέω ἐφόδια λίθος παροιμία κινέω ὅθεν μέλλω ὠφέλεια γίγνομαι 
+365	χαλεπός πόνος δέομαι ἀποκνέω 
+365	ἀναμιμνήσκω παραινέω δέω βίος ἄριστος προαιρέω ἡδύς προσδοκάω συνήθεια γίγνομαι ἐγχειρέω βέλτιστος 
+365	αἰσχρός πάρειμι καιρός προίημι ὕστερος ποτός ἀνακαλέω παρέρχομαι πλέος ἀνιάομαι 
+365	κράτιστος κρίνω ἐρῶ βίος συμβουλεύω 
+365	τρεῖς ἀρρώστημα ἀνίατος προσέοικα δοκέω γνώμη νόσος παραπλήσιος σῶμα δυστυχέω δείκνυμι 
+365	μικρός πάθος κάμνω ἰατρός ἔρχομαι 
+365	μέγας καταλαμβάνω ἀρρώστημα καλέω θεραπεύω 
+365	ἀνήκεστος παντελής μελαγχολία παραφέρω πρόσειμι προσίημι 
+365	πάσχω ὀρθός ἔχω λογισμός ἀποφεύγω

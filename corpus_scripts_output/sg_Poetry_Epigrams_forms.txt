@@ -707,4 +707,1422 @@
 -270	γῆ λιάζομαι 
 -270	κλαίω ἀμηχανάω ὁράω παῖς ἀποσεύω νήδυμος ὕπνος ὀφθαλμός ἠώς παραυτίκα φαινόλις ἔρχομαι 
 -270	τοῖος φίλος ὄνειρος φρήν πτοέω παννύχιος 
+-270	Εὐρυσθεύς τρέπω οἶκος ἡμέτερος γίγνομαι μάντις θυμός τελέω δαίμων-270	None~None ξένος	None~None ἀναίρω	None~None Πιττακός	None~None Μυτιληναῖος	None~None παῖς	None~None 
+-270	None~None γέρων	None~None καλέω	None~None γάμος	None~None 
+-270	None~None νύμφη	None~None πλοῦτος	None~None γενεά	None~None ἕτερος	None~None προβαίνω	None~None 
+-270	None~None λωίων	None~None 
+-270	None~None ἄγε	None~None βουλεύω	None~None πότερος	None~None ὑμέναιος	None~None ἄγαμαι	None~None 
+-270	None~None εἶπον	None~None 
+-270	None~None σκίπων	None~None γεροντικός	None~None ὅπλον	None~None ἀείρω	None~None ἐρέω	None~None ἔπος	None~None 
+-270	None~None θοός	None~None βέμβιξ	None~None ἔχω	None~None στρέφω	None~None παῖς	None~None τρίοδος	None~None 
+-270	None~None ἔρχομαι	None~None φημί	None~None ἴχνιον	None~None 
+-270	None~None ἐφίστημι	None~None πλησίος	None~None 
+-270	None~None λέγω	None~None 
+-270	None~None ἐλαύνω	None~None 
+-270	None~None ἀίω	None~None ξένος	None~None μέγας	None~None οἶκος	None~None δράσσομαι	None~None παῖς	None~None κληδών	None~None συντίθημι	None~None 
+-270	None~None ὀλίγος	None~None οἰκίον	None~None ἄγω	None~None νύμφη	None~None Δίος	None~None ἐλαύνω	None~None 
+-270	None~None εἶπον	None~None Ἡράκλειτος	None~None τεός	None~None μόρον	None~None δάκρυον	None~None ἄγω	None~None μιμνήσκω	None~None ἀμφότερος	None~None ἥλιος	None~None καταδύω	None~None 
+-270	None~None πού	None~None ξένος	None~None τετράπαλαι	None~None σποδιά	None~None 
+-270	None~None τεός	None~None ζώω	None~None ἀηδών	None~None ἁρπακτής	None~None Ἅιδης	None~None χείρ	None~None βάλλω	None~None 
+-270	None~None Τίμων	None~None σκότος	None~None φάος	None~None ἐχθρός	None~None 
+-270	None~None σκότος	None~None 
+-270	None~None πλείων	None~None ἀείδω	None~None 
+-270	None~None κόγχος	None~None Ζεφυρῖτις	None~None πάλαι	None~None τέρας	None~None 
+-270	None~None Κύπρις	None~None σεληναῖος	None~None ἄνθεμα	None~None πρότερος	None~None ἔχω	None~None ναυτίλος	None~None πέλαγος	None~None ἐπιπλέω	None~None ἀάω	None~None τείνω	None~None οἰκεῖος	None~None λαῖφος	None~None πρότονοι	None~None γαληναίη	None~None λιπαρός	None~None θεός	None~None οὖλος	None~None ἐρέσσω	None~None πούς	None~None ἔργον	None~None ὄνομα	None~None συμφέρω	None~None ἐφέζομαι	None~None θίς	None~None ἰουλίς	None~None γίγνομαι	None~None περίσκεπτος	None~None παίγνιον	None~None Ἀρσινόη	None~None ἄπνοος	None~None τίκτω	None~None ὤεον	None~None ἀλκυονίς	None~None 
+-270	None~None Κλεινίης	None~None θυγάτηρ	None~None δίδημι	None~None χάρις	None~None οἶδα	None~None ἐσθλός	None~None ῥέζω	None~None Σμύρνα	None~None Αἰολεύς	None~None 
+-270	None~None Σάμιος	None~None πόνος	None~None δόμος	None~None ποτός	None~None θεῖος	None~None ἀοιδός	None~None 
+-270	None~None δέχομαι	None~None κλέω	None~None Εὔρυτος	None~None ὅσος	None~None πάσχω	None~None ξανθός	None~None Ὁμήρειον	None~None καλέω	None~None γράμμα	None~None 
+-270	None~None Ζεύς	None~None φίλος	None~None μέγας	None~None 
+-270	None~None ἔρχομαι	None~None Θεαίτητος	None~None καθαρός	None~None ὁδός	None~None 
+-270	None~None κισσός	None~None τεός	None~None Βάκχος	None~None κέλευθος	None~None ἄγω	None~None 
+-270	None~None κῆρυξ	None~None βραχύς	None~None ὄνομα	None~None καιρός	None~None φθέγγομαι	None~None Ἑλλάς	None~None ἀεί	None~None σοφία	None~None 
+-270	None~None μικρός	None~None Διόνυσος	None~None καλός	None~None πράσσω	None~None ποιητής	None~None ῥῆσις	None~None 
+-270	None~None νικάω	None~None φημί	None~None μακρός	None~None ἐπιδέξιος	None~None ἔρομαι	None~None πῶς	None~None βάλλω	None~None 
+-270	None~None φημί	None~None σκληρός	None~None γίγνομαι	None~None 
+-270	None~None μερμηρίζω	None~None γίγνομαι	None~None ἔπος	None~None 
+-270	None~None ἄναξ	None~None βραχυσυλλαβία	None~None 
+-270	None~None Σάων	None~None Δίκων	None~None ἱερός	None~None ὕπνον	None~None κοιμάω	None~None 
+-270	None~None λέγω	None~None ἀγαθός	None~None 
+-270	None~None Τίμαρχος	None~None Αἵδης	None~None πύθω	None~None ψυχή	None~None πάλιν	None~None πῶς	None~None δίζημαι	None~None φυλή	None~None Πτολεμαίς	None~None υἱός	None~None πατήρ	None~None Παυσανίης	None~None 
+-270	None~None δήω	None~None εὐσεβής	None~None 
+-270	None~None σύντομος	None~None ξένος	None~None στίχος	None~None μακρός	None~None λέγω	None~None Ἀρισταῖος	None~None δολιχός	None~None 
+-270	None~None Κύζικος	None~None ἔρχομαι	None~None ὀλίγος	None~None πόνος	None~None εὑρίσκω	None~None Διδύμη	None~None 
+-270	None~None ἀφανής	None~None γενεά	None~None 
+-270	None~None ἀνιαρός	None~None ἐρέω	None~None ἔπος	None~None ἔμπας	None~None λέγω	None~None ὧδε	None~None ἐπέχω	None~None Κριτίης	None~None 
+-270	None~None ἀναπαύω	None~None 
+-270	None~None Κυρηναῖος	None~None παῖς	None~None λέγω	None~None 
+-270	None~None νέρθε	None~None 
+-270	None~None πολύς	None~None σκότος	None~None 
+-270	None~None ἄνοδος	None~None 
+-270	None~None ψεῦδος	None~None 
+-270	None~None Πλούτων	None~None 
+-270	None~None μῦθος	None~None 
+-270	None~None ἀπόλλυμι	None~None 
+-270	None~None λόγος	None~None ἀληθινός	None~None 
+-270	None~None ἡδύς	None~None βούλομαι	None~None πελλαῖος	None~None βοῦς	None~None μέγας	None~None Ἅιδης	None~None 
+-270	None~None δαίμων	None~None εὖ	None~None οἶδα	None~None αὔριον	None~None 
+-270	None~None ἡνίκα	None~None Χάρμις	None~None ὀφθαλμός	None~None χθιζός	None~None ἡμέτερος	None~None ἕτερος	None~None κλαίω	None~None θάπτω	None~None 
+-270	None~None εἶδον	None~None πατήρ	None~None χρήμη	None~None ἀνιαρός	None~None 
+-270	None~None δαίμων	None~None ἐπιγιγνώσκω	None~None Τιμόθεος	None~None πατήρ	None~None ἔπειμι	None~None ὄνομα	None~None Μήθυμνα	None~None τεός	None~None πόλις	None~None 
+-270	None~None ἦ	None~None μέγας	None~None φημί	None~None χήρα	None~None ἀνιάομαι	None~None πόσις	None~None Εὐθυμένης	None~None 
+-270	None~None πολύμυθος	None~None ἐφίστημι	None~None καλός	None~None παίω	None~None δίζημαι	None~None Σάμιος	None~None πολλάκις	None~None θυγάτηρ	None~None ἡδύς	None~None συνέριθος	None~None ἀεί	None~None λάλος	None~None 
+-270	None~None ἀποβρίζω	None~None ἐνθάδε	None~None ὕπνον	None~None ὀφείλω	None~None 
+-270	None~None ὀφείλω	None~None γίγνομαι	None~None θοός	None~None ναῦς	None~None 
+-270	None~None παῖς	None~None Διοκλείδης	None~None Σώπολις	None~None στένω	None~None 
+-270	None~None ἁλίς	None~None πού	None~None φέρω	None~None νέκυς	None~None ὄνομα	None~None κενός	None~None σῆμα	None~None παρέρχομαι	None~None 
+-270	None~None Νάξιος	None~None γῆ	None~None θνήσκω	None~None Λύκος	None~None πόντος	None~None ναῦς	None~None ἅμα	None~None ψυχή	None~None εἶδον	None~None ἀπόλλυμι	None~None ἔμπορος	None~None πλέω	None~None 
+-270	None~None νεκρός	None~None ἄλλως	None~None ὄνομα	None~None τύμβος	None~None ἔχω	None~None κηρύσσω	None~None ἔπος	None~None φεύγω	None~None θάλασσα	None~None συμμίγνυμι	None~None ἔριφος	None~None ναυτίλος	None~None δύω	None~None 
+-270	None~None δωδεκέτης	None~None παῖς	None~None πατήρ	None~None ἀποτίθημι	None~None Φίλιππος	None~None ἐνθάδε	None~None πολύς	None~None ἐλπίς	None~None 
+-270	None~None Μελάνιππος	None~None θάπτω	None~None ἥλιος	None~None δύω	None~None καταθνήσκω	None~None παρθενική	None~None αὐτοχερί	None~None 
+-270	None~None ζώω	None~None ἀδελφός	None~None πῦρ	None~None τίθημι	None~None τλάω	None~None 
+-270	None~None δίδυμος	None~None οἶκος	None~None ἐπεῖδον	None~None κακός	None~None πατήρ	None~None Ἀρίστιππος	None~None κατηφέω	None~None Κυρήνη	None~None εὔτεκνος	None~None χήρα	None~None εἶδον	None~None δόμος	None~None 
+-270	None~None σῆμα	None~None φέρω	None~None πούς	None~None Καλλίμαχος	None~None Κυρηναῖος	None~None παῖς	None~None γενετή	None~None 
+-270	None~None οἶδα	None~None ἄμφω	None~None 
+-270	None~None πατρίς	None~None ὅπλον	None~None ἄρχω	None~None ἀείδω	None~None κρείσσων	None~None βασκανία	None~None 
+-270	None~None νέμεσις	None~None 
+-270	None~None Μοῦσα	None~None ὅσος	None~None εἶδον	None~None ὄμμα	None~None παῖς	None~None πολιός	None~None ἀποτίθημι	None~None φῖλος	None~None 
+-270	None~None Κρής	None~None αἰπόλος	None~None ἁρπάζω	None~None Νύμφης	None~None ὄρος	None~None ἱερός	None~None 
+-270	None~None δρῦς	None~None Δάφνις	None~None ποιμήν	None~None ἀεί	None~None ἀείδω	None~None 
+-270	None~None εἶπον	None~None ἥλιος	None~None χαίρω	None~None Κλεόμβροτος	None~None ἅλλομαι	None~None ὑψηλός	None~None τεῖχος	None~None Ἅιδης	None~None ἄξιος	None~None εἶδον	None~None θάνατος	None~None κακός	None~None Πλάτων	None~None ψυχή	None~None γράμμα	None~None ἀναλέγω	None~None 
+-270	None~None ἐπίσταθμος	None~None ἱδρύω	None~None μικρός	None~None μικρός	None~None λοξός	None~None ὄφις	None~None μόνος	None~None ἔχω	None~None ξίφος	None~None 
+-270	None~None ἀνδρίς	None~None θυμόω	None~None πεζός	None~None 
+-270	None~None ὄμνυμι	None~None Καλλίγνωτος	None~None Ἰωνίς	None~None μήποτε	None~None ἔχω	None~None φίλος	None~None κρείσσων	None~None φίλος	None~None 
+-270	None~None ὄμνυμι	None~None 
+-270	None~None λέγω	None~None ἀληθής	None~None ἔρως	None~None ὅρκος	None~None δύω	None~None οὖς	None~None ἀθάνατος	None~None 
+-270	None~None ἀρσενικόν	None~None θέρω	None~None πῦρ	None~None 
+-270	None~None τάλας	None~None νύμφη	None~None Μεγάρη	None~None λόγος	None~None ἀριθμός	None~None 
+-270	None~None ἔχω	None~None μικρός	None~None ὀλίγος	None~None βίος	None~None δεινός	None~None ῥέζω	None~None ἀδικέω	None~None 
+-270	None~None γαῖα	None~None φίλος	None~None πονηρός	None~None ἐπαινέω	None~None κοῦφος	None~None γίγνομαι	None~None ἴλαος	None~None δαίμων	None~None ἔχω	None~None 
+-270	None~None Ἡσίοδος	None~None ἄεισμα	None~None τρόπος	None~None 
+-270	None~None ἀοιδός	None~None σχέθω	None~None ὀκνέω	None~None μελιχρός	None~None ἔπος	None~None ἀπομάσσω	None~None 
+-270	None~None χαίρω	None~None λεπτός	None~None ῥῆσις	None~None Ἄρητος	None~None σύμβολον	None~None ἀγρυπνία	None~None 
+-270	None~None ἐχθαίρω	None~None ποίημα	None~None κυκλικός	None~None κέλευθος	None~None χαίρω	None~None πολύς	None~None ὧδε	None~None ὧδε	None~None φέρω	None~None μισέω	None~None περίφοιτος	None~None ἐράομαι	None~None κρήνη	None~None πίνω	None~None 
+-270	None~None δημόσιος	None~None 
+-270	None~None Λυσανίας	None~None καλός	None~None καλός	None~None πρίν	None~None εἶπον	None~None σαφής	None~None Ἠχώ	None~None φημί	None~None ἔχω	None~None 
+-270	None~None ἔγχος	None~None πάλιν	None~None εἶπον	None~None 
+-270	None~None ἱερά	None~None αἰσθάνομαι	None~None κύαθος	None~None 
+-270	None~None καλός	None~None λίαν	None~None καλός	None~None φημί	None~None ἐφίστημι	None~None μόνος	None~None καλός	None~None 
+-270	None~None Θεσσαλικός	None~None Κλεόνικος	None~None τάλας	None~None τάλας	None~None ὀξύς	None~None ἥλιος	None~None γιγνώσκω	None~None 
+-270	None~None σχέτλιος	None~None πού	None~None γίγνομαι	None~None 
+-270	None~None ὀστέον	None~None μόνος	None~None θρίξ	None~None 
+-270	None~None ἦ	None~None δαίμων	None~None ἔχω	None~None χαλεπός	None~None ἄντομαι	None~None 
+-270	None~None γιγνώσκω	None~None 
+-270	None~None Εὐξίθεος	None~None συναρπάζω	None~None ἔρχομαι	None~None καλός	None~None μοχθηρός	None~None βλέπω	None~None ἀμφότερος	None~None 
+-270	None~None Ἐπικύδης	None~None ὄρος	None~None λαγῶς	None~None ἴχνιον	None~None δορκαλίς	None~None χαίρω	None~None εἶπον	None~None τῆ	None~None βάλλω	None~None θηρίον	None~None λάπτω	None~None 
+-270	None~None ἔρος	None~None τοιόσδε	None~None 
+-270	None~None φεύγω	None~None διώκω	None~None οἶδα	None~None μέσος	None~None κεῖμαι	None~None 
+-270	None~None οἶδα	None~None πλοῦτος	None~None κενός	None~None χείρ	None~None Μένιππος	None~None λέγω	None~None Χάρις	None~None ὄνειρος	None~None 
+-270	None~None ἀλγέω	None~None ἔπος	None~None πικρός	None~None ἀκούω	None~None 
+-270	None~None ναί	None~None φίλος	None~None ἀνέραστος	None~None 
+-270	None~None Ἄρτεμις	None~None ἄγαλμα	None~None ἵζω	None~None 
+-270	None~None δέχομαι	None~None πότνια	None~None σαόω	None~None 
+-270	None~None λεοντάγχης	None~None ἄναξ	None~None συοκτόνος	None~None φήγινος	None~None ὄζος	None~None τίθημι	None~None 
+-270	None~None Ἀρχῖνος	None~None ποῖος	None~None 
+-270	None~None Κρής	None~None δέχομαι	None~None 
+-270	None~None σῆμα	None~None φέρω	None~None πούς	None~None εὖ	None~None ἀοιδός	None~None οἶδα	None~None εὖ	None~None οἶνον	None~None καίριος	None~None συγγελάω	None~None 
+-270	None~None Λύκτιος	None~None Μενοίτης	None~None τόξον	None~None ἐπεῖπον	None~None τίθημι	None~None τῆ	None~None κέρας	None~None δίδωμι	None~None φαρέτρα	None~None Σάραπις	None~None 
+-270	None~None ὀιστός	None~None ἔχω	None~None 
+-270	None~None δῶρον	None~None Σῖμος	None~None περίφοιτος	None~None εἰκών	None~None τίθημι	None~None μίτρα	None~None φιλέω	None~None ὁράω	None~None τάλας	None~None θάρσος	None~None 
+-270	None~None τῇ	None~None τῇ	None~None Πελασγός	None~None Ἀκρίσιος	None~None ναός	None~None δέμω	None~None Ναυκρατίτης	None~None τῇ	None~None κάτος	None~None θυγάτηρ	None~None δῶρον	None~None Τιμόδημος	None~None ἵζω	None~None κέρδος	None~None δεκάτευμα	None~None 
+-270	None~None εὔχομαι	None~None 
+-270	None~None Δημήτηρ	None~None πάλιν	None~None Κάβειροι	None~None ἀνήρ	None~None μετέπειμι	None~None Δινδυμήνη	None~None γραῦς	None~None γίγνομαι	None~None κόνις	None~None πολύς	None~None προστασία	None~None νέος	None~None γυνή	None~None 
+-270	None~None γίγνομαι	None~None δύη	None~None ἄρσην	None~None χείρ	None~None 
+-270	None~None ἕρπω	None~None χαίρω	None~None 
+-270	None~None ἥμισυς	None~None ψυχή	None~None πνέω	None~None ἥμισυς	None~None οἶδα	None~None εἴτε	None~None ἔρος	None~None εἴτε	None~None Ἅιδης	None~None ἁρπάζω	None~None ἀφανής	None~None 
+-270	None~None ἦ	None~None παῖς	None~None πάλιν	None~None οἴχομαι	None~None 
+-270	None~None ἀπεῖπον	None~None πολλάκις	None~None δρηστήρ	None~None ὑποδέχομαι	None~None νέω	None~None 
+-270	None~None ἐκεῖσε	None~None λιθόλευστος	None~None δύσερως	None~None οἶδα	None~None πού	None~None στρέφω	None~None 
+-270	None~None ἑκών	None~None Ἀρχῖνος	None~None ἐπικωμάζω	None~None μυρίος	None~None μέμφομαι	None~None ἀέκων	None~None ἥκω	None~None προπέτεια	None~None ἀίω	None~None 
+-270	None~None ἔρως	None~None ἀναγκάζω	None~None ἕλκω	None~None ἀίω	None~None προπέτεια	None~None ἀίω	None~None 
+-270	None~None ἔρχομαι	None~None βοάω	None~None φιλέω	None~None φλιά	None~None 
+-270	None~None ἀδίκημα	None~None ἀδικέω	None~None 
+-270	None~None ἔχω	None~None ξένος	None~None λανθάνω	None~None 
+-270	None~None ἀνιαρός	None~None πνεῦμα	None~None στῆθος	None~None εἶδον	None~None 
+-270	None~None ἀνάγω	None~None τρίτος	None~None ἡνίκα	None~None πίνω	None~None ῥόδον	None~None φυλλοβολέω	None~None ἀνήρ	None~None στέφανος	None~None γίγνομαι	None~None χαμαί	None~None 
+-270	None~None ὀπτάω	None~None μέγας	None~None 
+-270	None~None δαίμων	None~None ῥυθμός	None~None εἰκάζω	None~None φώρ	None~None ἴχνιον	None~None φώρ	None~None μανθάνω	None~None 
+-270	None~None ναί	None~None Πάν	None~None κρύπτω	None~None ταύτῃ	None~None ναί	None~None Διόνυσος	None~None πῦρ	None~None τῇ	None~None 
+-270	None~None θαρσέω	None~None 
+-270	None~None περιπλέκω	None~None 
+-270	None~None πολλάκις	None~None λανθάνω	None~None τοῖχος	None~None ὑποτρώγω	None~None ἡσύχιος	None~None ποταμός	None~None 
+-270	None~None δείδω	None~None Μενέξενος	None~None παρεισδύνω	None~None ἔρως	None~None βάλλω	None~None 
+-270	None~None λαμβάνω	None~None περιφεύγω	None~None εἶπον	None~None πάνημος	None~None εἰκάς	None~None τῇ	None~None 
+-270	None~None τῇ	None~None δεκάτη	None~None ἔρχομαι	None~None βοῦς	None~None ἄροτρον	None~None ἑκούσιος	None~None 
+-270	None~None εὖ	None~None Ἑρμῆς	None~None εὖ	None~None 
+-270	None~None εἴκοσι	None~None μέμφομαι	None~None 
+-270	None~None ἀγαθός	None~None πολύφαμος	None~None ἀνευρίσκω	None~None ἐπαοιδή	None~None 
+-270	None~None ναί	None~None Γαῖα	None~None ἀμαθής	None~None Κύκλωψ	None~None 
+-270	None~None Μοῦσα	None~None ἔρως	None~None Φίλιππος	None~None 
+-270	None~None ἦ	None~None πανακής	None~None φάρμακον	None~None σοφία	None~None 
+-270	None~None δοκέω	None~None λιμός	None~None ἔχω	None~None πονηρός	None~None ἀγαθός	None~None 
+-270	None~None ἐκκόπτω	None~None φιλόπαις	None~None νόσος	None~None 
+-270	None~None ἔσθω	None~None ἔρως	None~None εἶπον	None~None κείρω	None~None πτερόν	None~None παιδάριον	None~None ὅσος	None~None ἀττάραγος	None~None 
+-270	None~None ἐπῳδή	None~None οἴκοι	None~None χαλεπός	None~None τραῦμα	None~None ἀμφότερος	None~None 
+-270	None~None ἁλίη	None~None Εὔδημος	None~None ἅλς	None~None λιτός	None~None ἐφίημι	None~None χειμών	None~None μέγας	None~None ἐκφεύγω	None~None δάνος	None~None τίθημι	None~None θεός	None~None λέγω	None~None εὐχή	None~None μέγας	None~None σώζω	None~None ἅλς	None~None ὧδε	None~None ἔθω	None~None 
+-270	None~None εὐμάθεια	None~None αἰτέω	None~None δίδωμι	None~None Σῖμος	None~None Μοῦσα	None~None 
+-270	None~None Γλαύκος	None~None δίδωμι	None~None ὀλίγος	None~None μέγας	None~None δῶρον	None~None 
+-270	None~None χάσκω	None~None κεῖμαι	None~None Σάμιος	None~None διπλόος	None~None τραγικός	None~None παιδάριον	None~None Διόνυσος	None~None ἐπήκοος	None~None 
+-270	None~None λέγω	None~None ἱερός	None~None πλόκαμος	None~None ὄνειαρ	None~None 
+-270	None~None λέγω	None~None ξένος	None~None κωμικός	None~None ὄντως	None~None ἀνάκειμαι	None~None νίκη	None~None μάρτυς	None~None Πάμφιλος	None~None ἔρως	None~None δάκνω	None~None ἥμισυς	None~None ὀπτός	None~None ἰσχάς	None~None λύχνον	None~None Ἴσις	None~None εἴδομαι	None~None 
+-270	None~None Φρύγιος	None~None ἀγαθός	None~None γάλα	None~None ἐσθλός	None~None ζωή	None~None γηροκομέω	None~None φθίω	None~None ἀνατίθημι	None~None ἔπειμι	None~None ὁράω	None~None γραῦς	None~None μαστός	None~None ἀπέχω	None~None χάρις	None~None 
+-270	None~None τέσσαρες	None~None Χάρις	None~None τρεῖς	None~None ἄρτι	None~None προσπλάσσω	None~None μῦρος	None~None νοτέω	None~None 
+-270	None~None εὐαίων	None~None Βερενίκη	None~None Χάρις	None~None Χάρις	None~None 
+-270	None~None καλός	None~None μελαίνω	None~None Θεόκριτος	None~None ἔχθος	None~None τετράκις	None~None μισέω	None~None φιλέω	None~None φιλέω	None~None 
+-270	None~None εὐχαίτης	None~None Γανυμήδης	None~None οὐράνιος	None~None Ζεύς	None~None 
+-270	None~None ἀράζω	None~None μακρός	None~None λέγω	None~None 
+-270	None~None πάλιν	None~None Εἰλήθυια	None~None λυκαινίς	None~None ἔρχομαι	None~None καλέω	None~None εὔλυρος	None~None ὠδίς	None~None ὧδε	None~None ἄνασσα	None~None κόρη	None~None παῖς	None~None ὕστερος	None~None εὐώδης	None~None ναός	None~None ἔχω	None~None 
+-270	None~None χρέος	None~None ἀπέχω	None~None γυνή	None~None ὀφείλω	None~None εὔχομαι	None~None γιγνώσκω	None~None λανθάνω	None~None φημί	None~None παρέχω	None~None πίναξ	None~None 
+-270	None~None εἴκοσι	None~None μύξα	None~None πλούσιος	None~None Κριτίης	None~None λύχνον	None~None τίθημι	None~None θεός	None~None εὔχομαι	None~None παῖς	None~None 
+-270	None~None φέγγος	None~None ἀθρέω	None~None φάσις	None~None ἕσπερος	None~None πῶς	None~None πίπτω	None~None 
+-270	None~None φημί	None~None ἵστημι	None~None Εὐαίνετος	None~None γιγνώσκω	None~None νίκη	None~None ἴδιος	None~None ἀνάκειμαι	None~None χάλκειος	None~None ἀλέκτωρ	None~None 
+-270	None~None πιστεύω	None~None Φαῖδρας	None~None παῖς	None~None 
+-270	None~None ἵστημι	None~None Ἴσις	None~None Θάλης	None~None Εἰρήνη	None~None μήτηρ	None~None 
+-270	None~None ξένος	None~None ναυαγός	None~None 
+-270	None~None Λεόντιχος	None~None ἐνθάδε	None~None 
+-270	None~None νεκρός	None~None εὑρίσκω	None~None αἰγιαλός	None~None χόω	None~None τάφος	None~None δακρύω	None~None ἐπίκηρος	None~None ἑός	None~None βίος	None~None 
+-270	None~None ἥσυχος	None~None ἴσος	None~None θαλασσοπορέω	None~None 
+-270	None~None εὐδαίμων	None~None μαίνομαι	None~None Ὀρέστης	None~None μαίνομαι	None~None μανία	None~None λαμβάνω	None~None ἐξέτασις	None~None Φωκεύς	None~None ἐλέγχω	None~None φίλος	None~None δρᾶμα	None~None διδάσκω	None~None μόνος	None~None 
+-270	None~None ἦ	None~None τάχα	None~None ἑταῖρος	None~None ἀπόλλυμι	None~None ποιέω	None~None τώς	None~None πολύς	None~None ἔχω	None~None Πυλάδης	None~None 
+-270	None~None παρέρπω	None~None σῆμα	None~None Κίμων	None~None οἶδα	None~None παῖς	None~None παρέρχομαι	None~None 
+-270	None~None Αἴνιος	None~None ὧδε	None~None πολύς	None~None 
+-270	None~None ξένος	None~None κατεργάζομαι	None~None 
+-270	None~None ἦ	None~None Κένταυρος	None~None 
+-270	None~None πόρω	None~None ὕπνος	None~None ἔρχομαι	None~None τλήμων	None~None οἶνος	None~None ἔχω	None~None πρόφασις	None~None 
+-270	None~None θαρσέω	None~None Κρής	None~None κέω	None~None Ὀρτυγία	None~None τόξον	None~None Ἄρτεμις	None~None κενόω	None~None ὄρος	None~None μέγας	None~None 
+-270	None~None παύω	None~None αἴξ	None~None σπονδή	None~None θεός	None~None ἐργάζομαι	None~None 
+-270	None~None ὑπνάω	None~None κωνώπιον	None~None ποιέω	None~None κοιμάω	None~None ψυχρός	None~None πρόθυρον	None~None 
+-270	None~None ὑπνάω	None~None ἄδικος	None~None ἐραστής	None~None κοιμίζω	None~None ἔλεος	None~None ὄναρ	None~None ἀντιάω	None~None 
+-270	None~None γείτων	None~None οἰκτείρω	None~None ὄναρ	None~None 
+-270	None~None πολιά	None~None αὐτίκα	None~None ἀναμιμνήσκω	None~None κόμη	None~None-270	None~None ξένος	None~None ἀνέρομαι	None~None Πιττακός	None~None Μυτιληναῖος	None~None παῖς	None~None γέρων	None~None καλέω	None~None γάμος	None~None 
+-270	None~None νύμφη	None~None πλοῦτος	None~None γενεά	None~None ἕτερος	None~None προβαίνω	None~None 
+-270	None~None λωίων	None~None 
+-270	None~None ἄγε	None~None βουλεύω	None~None πότερος	None~None ὑμέναιος	None~None ἄγαμαι	None~None 
+-270	None~None εἶπον	None~None 
+-270	None~None σκίπων	None~None γεροντικός	None~None ὅπλον	None~None ἀείρω	None~None ἐρέω	None~None ἔπος	None~None 
+-270	None~None πληγή	None~None θοός	None~None βέμβιξ	None~None ἔχω	None~None στρέφω	None~None εὐρέιος	None~None παῖς	None~None τρίοδος	None~None 
+-270	None~None ἔρχομαι	None~None φημί	None~None ἴχνιον	None~None 
+-270	None~None ἐφίστημι	None~None πλησίος	None~None 
+-270	None~None λέγω	None~None 
+-270	None~None ἐλαύνω	None~None 
+-270	None~None ἀίω	None~None ξένος	None~None 
+-270	None~None ἐφίζω	None~None μέγας	None~None οἶκος	None~None δράσσομαι	None~None παῖς	None~None κληδών	None~None συντίθημι	None~None ὀλίγος	None~None οἰκίον	None~None ἄγω	None~None νύμφη	None~None 
+-270	None~None εἶμι	None~None ἐλαύνω	None~None 
+-270	None~None ξένος	None~None ἀνέρομαι	None~None Πιττακός	None~None Μυτιληναῖος	None~None παῖς	None~None γέρων	None~None καλέω	None~None γάμος	None~None 
+-270	None~None νύμφη	None~None πλοῦτος	None~None γενεά	None~None ἕτερος	None~None προβαίνω	None~None 
+-270	None~None λωίων	None~None 
+-270	None~None ἄγε	None~None βουλεύω	None~None πότερος	None~None ὑμέναιος	None~None ἄγαμαι	None~None 
+-270	None~None εἶπον	None~None 
+-270	None~None σκίπων	None~None γεροντικός	None~None ὅπλον	None~None ἀείρω	None~None ἐρέω	None~None ἔπος	None~None 
+-270	None~None πληγή	None~None θοός	None~None βέμβιξ	None~None ἔχω	None~None στρέφω	None~None εὐρέιος	None~None παῖς	None~None τρίοδος	None~None 
+-270	None~None ἔρχομαι	None~None φημί	None~None ἴχνιον	None~None 
+-270	None~None ἐφίστημι	None~None πλησίος	None~None 
+-270	None~None λέγω	None~None 
+-270	None~None ἐλαύνω	None~None 
+-270	None~None ἀίω	None~None ξένος	None~None 
+-270	None~None ἐφίζω	None~None μέγας	None~None οἶκος	None~None δράσσομαι	None~None παῖς	None~None κληδών	None~None συντίθημι	None~None ὀλίγος	None~None οἰκίον	None~None ἄγω	None~None νύμφη	None~None 
+-270	None~None εἶμι	None~None ἐλαύνω	None~None 
+-270	None~None εἶπον	None~None Ἡράκλειτος	None~None τεός	None~None μόρον	None~None δάκρυον	None~None ἄγω	None~None μιμνήσκω	None~None ἀμφότερος	None~None ἥλιος	None~None λέσχη	None~None καταδύω	None~None 
+-270	None~None πού	None~None ξένος	None~None Ἁλικαρνασσεύς	None~None τετράπαλαι	None~None σποδιά	None~None 
+-270	None~None τεός	None~None ζώω	None~None ἀηδών	None~None ἵημι	None~None ἁρπακτής	None~None Ἅιδης	None~None χείρ	None~None βάλλω	None~None 
+-270	None~None εἶπον	None~None Ἡράκλειτος	None~None τεός	None~None μόρον	None~None δάκρυον	None~None ἄγω	None~None μιμνήσκω	None~None ἀμφότερος	None~None ἥλιος	None~None λέσχη	None~None καταδύω	None~None 
+-270	None~None πού	None~None ξένος	None~None Ἁλικαρνασσεύς	None~None τετράπαλαι	None~None σποδιά	None~None 
+-270	None~None τεός	None~None ζώω	None~None ἀηδών	None~None ἵημι	None~None ἁρπακτής	None~None Ἅιδης	None~None χείρ	None~None βάλλω	None~None 
+-270	None~None ὀξύς	None~None πάντῃ	None~None τάφος	None~None ἄκανθα	None~None σκόλοψ	None~None 
+-270	None~None βλάψις	None~None πούς	None~None πρόσειμι	None~None 
+-270	None~None Τίμων	None~None μισάνθρωπος	None~None ἐνοικέω	None~None 
+-270	None~None παρέρχομαι	None~None οἰμώζω	None~None εἶπον	None~None πολύς	None~None παρέρχομαι	None~None μόνος	None~None 
+-270	None~None ὀξύς	None~None πάντῃ	None~None τάφος	None~None ἄκανθα	None~None σκόλοψ	None~None 
+-270	None~None βλάψις	None~None πούς	None~None πρόσειμι	None~None 
+-270	None~None Τίμων	None~None μισάνθρωπος	None~None ἐνοικέω	None~None 
+-270	None~None παρέρχομαι	None~None οἰμώζω	None~None εἶπον	None~None πολύς	None~None παρέρχομαι	None~None μόνος	None~None 
+-270	None~None χαίρω	None~None εἶπον	None~None κακός	None~None κῆρ	None~None παρέρχομαι	None~None 
+-270	None~None ἴσος	None~None χαίρω	None~None γελάω	None~None 
+-270	None~None χαίρω	None~None εἶπον	None~None κακός	None~None κῆρ	None~None παρέρχομαι	None~None 
+-270	None~None ἴσος	None~None χαίρω	None~None γελάω	None~None 
+-270	None~None Τίμων	None~None σκότος	None~None φάος	None~None ἐχθρός	None~None 
+-270	None~None σκότος	None~None 
+-270	None~None πλείων	None~None Ἅιδης	None~None 
+-270	None~None Τίμων	None~None σκότος	None~None φάος	None~None ἐχθρός	None~None 
+-270	None~None σκότος	None~None 
+-270	None~None πλείων	None~None Ἅιδης	None~None 
+-270	None~None κόγχος	None~None Ζεφυρῖτις	None~None παλαιός	None~None Κύπρις	None~None σεληναῖος	None~None ἄνθεμα	None~None πρότερος	None~None ἔχω	None~None ναυτίλος	None~None πέλαγος	None~None ἐπιπλέω	None~None ἀάω	None~None τείνω	None~None οἰκεῖος	None~None λαῖφος	None~None πρότονοι	None~None γαληναίη	None~None λιπαρός	None~None θεός	None~None οὖλος	None~None ἐρέσσω	None~None πούς	None~None ἔργον	None~None ὄνομα	None~None συμφέρω	None~None ἐφέζομαι	None~None θίς	None~None ἰουλίς	None~None γίγνομαι	None~None περίσκεπτος	None~None παίγνιον	None~None Ἀρσινόη	None~None θαλάμη	None~None ἄπνοος	None~None τίκτω	None~None νοτερός	None~None ὤεον	None~None 
+-270	None~None Κλεινίης	None~None θυγάτηρ	None~None δίδημι	None~None χάρις	None~None 
+-270	None~None οἶδα	None~None ἐσθλός	None~None ῥέζω	None~None Σμύρνα	None~None Αἰολεύς	None~None 
+-270	None~None κόγχος	None~None Ζεφυρῖτις	None~None παλαιός	None~None Κύπρις	None~None σεληναῖος	None~None ἄνθεμα	None~None πρότερος	None~None ἔχω	None~None ναυτίλος	None~None πέλαγος	None~None ἐπιπλέω	None~None ἀάω	None~None τείνω	None~None οἰκεῖος	None~None λαῖφος	None~None πρότονοι	None~None γαληναίη	None~None λιπαρός	None~None θεός	None~None οὖλος	None~None ἐρέσσω	None~None πούς	None~None ἔργον	None~None ὄνομα	None~None συμφέρω	None~None ἐφέζομαι	None~None θίς	None~None ἰουλίς	None~None γίγνομαι	None~None περίσκεπτος	None~None παίγνιον	None~None Ἀρσινόη	None~None θαλάμη	None~None ἄπνοος	None~None τίκτω	None~None νοτερός	None~None ὤεον	None~None 
+-270	None~None Κλεινίης	None~None θυγάτηρ	None~None δίδημι	None~None χάρις	None~None 
+-270	None~None οἶδα	None~None ἐσθλός	None~None ῥέζω	None~None Σμύρνα	None~None Αἰολεύς	None~None 
+-270	None~None Σάμιος	None~None πόνος	None~None δόμος	None~None ποτός	None~None θεῖος	None~None ἀοιδός	None~None δέχομαι	None~None κλέω	None~None Εὔρυτος	None~None ὅσος	None~None πάσχω	None~None ξανθός	None~None Ὁμήρειον	None~None καλέω	None~None γράμμα	None~None 
+-270	None~None Κρεώφυλος	None~None Ζεύς	None~None φίλος	None~None μέγας	None~None 
+-270	None~None Σάμιος	None~None πόνος	None~None δόμος	None~None ποτός	None~None θεῖος	None~None ἀοιδός	None~None δέχομαι	None~None κλέω	None~None Εὔρυτος	None~None ὅσος	None~None πάσχω	None~None ξανθός	None~None Ὁμήρειον	None~None καλέω	None~None γράμμα	None~None 
+-270	None~None Κρεώφυλος	None~None Ζεύς	None~None φίλος	None~None μέγας	None~None 
+-270	None~None στήλη	None~None μητρυιά	None~None μικρός	None~None λίθος	None~None στέφω	None~None κόρος	None~None βίος	None~None ἀλλάσσω	None~None τρόπος	None~None οἴομαι	None~None 
+-270	None~None τάφος	None~None κατακτείνω	None~None παῖς	None~None πίπτω	None~None 
+-270	None~None φεύγω	None~None μητρυιά	None~None τάφος	None~None πρόγονος	None~None 
+-270	None~None στήλη	None~None μητρυιά	None~None μικρός	None~None λίθος	None~None στέφω	None~None κόρος	None~None βίος	None~None ἀλλάσσω	None~None τρόπος	None~None οἴομαι	None~None 
+-270	None~None τάφος	None~None κατακτείνω	None~None παῖς	None~None πίπτω	None~None 
+-270	None~None φεύγω	None~None μητρυιά	None~None τάφος	None~None πρόγονος	None~None 
+-270	None~None ἔρχομαι	None~None Θεαίτητος	None~None καθαρός	None~None ὁδός	None~None 
+-270	None~None κισσός	None~None τεός	None~None Βάκχος	None~None κέλευθος	None~None ἀλέω	None~None κῆρυξ	None~None βραχύς	None~None ὄνομα	None~None καιρός	None~None φθέγγομαι	None~None Ἑλλάς	None~None ἀεί	None~None σοφία	None~None 
+-270	None~None ἔρχομαι	None~None Θεαίτητος	None~None καθαρός	None~None ὁδός	None~None 
+-270	None~None κισσός	None~None τεός	None~None Βάκχος	None~None κέλευθος	None~None ἀλέω	None~None κῆρυξ	None~None βραχύς	None~None ὄνομα	None~None καιρός	None~None φθέγγομαι	None~None Ἑλλάς	None~None ἀεί	None~None σοφία	None~None 
+-270	None~None μικρός	None~None Διόνυσος	None~None καλός	None~None πράσσω	None~None ποιητής	None~None ῥῆσις	None~None 
+-270	None~None νικάω	None~None φημί	None~None μακρός	None~None ὄις	None~None πνέω	None~None ἐνδέξιος	None~None ἔρομαι	None~None πῶς	None~None βάλλω	None~None φημί	None~None σκληρός	None~None γίγνομαι	None~None 
+-270	None~None μερμηρίζω	None~None ἔνδικος	None~None γίγνομαι	None~None ἔπος	None~None 
+-270	None~None ἄναξ	None~None βραχυσυλλαβία	None~None 
+-270	None~None μικρός	None~None Διόνυσος	None~None καλός	None~None πράσσω	None~None ποιητής	None~None ῥῆσις	None~None 
+-270	None~None νικάω	None~None φημί	None~None μακρός	None~None ὄις	None~None πνέω	None~None ἐνδέξιος	None~None ἔρομαι	None~None πῶς	None~None βάλλω	None~None φημί	None~None σκληρός	None~None γίγνομαι	None~None 
+-270	None~None μερμηρίζω	None~None ἔνδικος	None~None γίγνομαι	None~None ἔπος	None~None 
+-270	None~None ἄναξ	None~None βραχυσυλλαβία	None~None 
+-270	None~None Σάων	None~None Δίκων	None~None ἱερός	None~None ὕπνον	None~None κοιμάω	None~None 
+-270	None~None θνήσκω	None~None λέγω	None~None ἀγαθός	None~None 
+-270	None~None Σάων	None~None Δίκων	None~None ἱερός	None~None ὕπνον	None~None κοιμάω	None~None 
+-270	None~None θνήσκω	None~None λέγω	None~None ἀγαθός	None~None 
+-270	None~None δίζω	None~None Τίμαρχος	None~None Αἵδης	None~None πύθω	None~None ψυχή	None~None πάλιν	None~None πῶς	None~None δίζω	None~None φυλή	None~None Πτολεμαίς	None~None υἱός	None~None πατήρ	None~None Παυσανίης	None~None 
+-270	None~None δήω	None~None εὐσεβής	None~None 
+-270	None~None δίζω	None~None Τίμαρχος	None~None Αἵδης	None~None πύθω	None~None ψυχή	None~None πάλιν	None~None πῶς	None~None δίζω	None~None φυλή	None~None Πτολεμαίς	None~None υἱός	None~None πατήρ	None~None Παυσανίης	None~None 
+-270	None~None δήω	None~None εὐσεβής	None~None 
+-270	None~None σύντομος	None~None ξένος	None~None 
+-270	None~None στίχος	None~None μακρός	None~None λέγω	None~None Ἀρισταῖος	None~None Κρής	None~None δολιχός	None~None 
+-270	None~None σύντομος	None~None ξένος	None~None 
+-270	None~None στίχος	None~None μακρός	None~None λέγω	None~None Ἀρισταῖος	None~None Κρής	None~None δολιχός	None~None 
+-270	None~None Κύζικος	None~None ἔρχομαι	None~None ὀλίγος	None~None πόνος	None~None εὑρίσκω	None~None Διδύμη	None~None 
+-270	None~None ἀφανής	None~None γενεά	None~None 
+-270	None~None ἀνιαρός	None~None ἐρέω	None~None ἔπος	None~None ἔμπας	None~None λέγω	None~None ὧδε	None~None ἐπέχω	None~None Κριτίης	None~None 
+-270	None~None Κύζικος	None~None ἔρχομαι	None~None ὀλίγος	None~None πόνος	None~None εὑρίσκω	None~None Διδύμη	None~None 
+-270	None~None ἀφανής	None~None γενεά	None~None 
+-270	None~None ἀνιαρός	None~None ἐρέω	None~None ἔπος	None~None ἔμπας	None~None λέγω	None~None ὧδε	None~None ἐπέχω	None~None Κριτίης	None~None 
+-270	None~None ἦ	None~None ἀναπαύω	None~None 
+-270	None~None Κυρηναῖος	None~None παῖς	None~None λέγω	None~None 
+-270	None~None νέρθε	None~None 
+-270	None~None πολύς	None~None σκότος	None~None 
+-270	None~None ἄνοδος	None~None 
+-270	None~None ψεῦδος	None~None 
+-270	None~None Πλούτων	None~None 
+-270	None~None μῦθος	None~None 
+-270	None~None ἀπόλλυμι	None~None 
+-270	None~None λόγος	None~None ἀληθινός	None~None 
+-270	None~None ἡδύς	None~None βούλομαι	None~None πελλαῖος	None~None βοῦς	None~None μέγας	None~None Ἅιδης	None~None 
+-270	None~None ἦ	None~None ἀναπαύω	None~None 
+-270	None~None Κυρηναῖος	None~None παῖς	None~None λέγω	None~None 
+-270	None~None νέρθε	None~None 
+-270	None~None πολύς	None~None σκότος	None~None 
+-270	None~None ἄνοδος	None~None 
+-270	None~None ψεῦδος	None~None 
+-270	None~None Πλούτων	None~None 
+-270	None~None μῦθος	None~None 
+-270	None~None ἀπόλλυμι	None~None 
+-270	None~None λόγος	None~None ἀληθινός	None~None 
+-270	None~None ἡδύς	None~None βούλομαι	None~None πελλαῖος	None~None βοῦς	None~None μέγας	None~None Ἅιδης	None~None 
+-270	None~None δαίμων	None~None εὖ	None~None οἶδα	None~None αὔριον	None~None 
+-270	None~None ἡνίκα	None~None Χάρμις	None~None ὀφθαλμός	None~None χθιζός	None~None ἡμέτερος	None~None ἕτερος	None~None κλαίω	None~None θάπτω	None~None 
+-270	None~None εἶδον	None~None πατήρ	None~None χρήμη	None~None ἀνιαρός	None~None 
+-270	None~None δαίμων	None~None εὖ	None~None οἶδα	None~None αὔριον	None~None 
+-270	None~None ἡνίκα	None~None Χάρμις	None~None ὀφθαλμός	None~None χθιζός	None~None ἡμέτερος	None~None ἕτερος	None~None κλαίω	None~None θάπτω	None~None 
+-270	None~None εἶδον	None~None πατήρ	None~None χρήμη	None~None ἀνιαρός	None~None 
+-270	None~None δαίμων	None~None ἐπιγιγνώσκω	None~None Τιμόθεος	None~None πατήρ	None~None ἔπειμι	None~None ὄνομα	None~None στήλη	None~None Μήθυμνα	None~None τεός	None~None 
+-270	None~None ἦ	None~None μέγας	None~None φημί	None~None χήρα	None~None ἀνιάομαι	None~None πόσις	None~None Εὐθυμένης	None~None 
+-270	None~None δαίμων	None~None ἐπιγιγνώσκω	None~None Τιμόθεος	None~None πατήρ	None~None ἔπειμι	None~None ὄνομα	None~None στήλη	None~None Μήθυμνα	None~None τεός	None~None 
+-270	None~None ἦ	None~None μέγας	None~None φημί	None~None χήρα	None~None ἀνιάομαι	None~None πόσις	None~None Εὐθυμένης	None~None 
+-270	None~None πολύμυθος	None~None ἐφίστημι	None~None καλός	None~None παίω	None~None δίζημαι	None~None Σάμιος	None~None πολλάκις	None~None θυγάτηρ	None~None ἡδύς	None~None συνέριθος	None~None ἀεί	None~None λάλος	None~None 
+-270	None~None ἐνθάδε	None~None ὕπνον	None~None ὀφείλω	None~None 
+-270	None~None πολύμυθος	None~None ἐφίστημι	None~None καλός	None~None παίω	None~None δίζημαι	None~None Σάμιος	None~None πολλάκις	None~None θυγάτηρ	None~None ἡδύς	None~None συνέριθος	None~None ἀεί	None~None λάλος	None~None 
+-270	None~None ἐνθάδε	None~None ὕπνον	None~None ὀφείλω	None~None 
+-270	None~None ὀφείλω	None~None γίγνομαι	None~None θοός	None~None ναῦς	None~None 
+-270	None~None παῖς	None~None Διοκλείδης	None~None Σώπολις	None~None στένω	None~None 
+-270	None~None ἁλίς	None~None πού	None~None φέρω	None~None νέκυς	None~None ὄνομα	None~None κενός	None~None σῆμα	None~None παρέρχομαι	None~None 
+-270	None~None ὀφείλω	None~None γίγνομαι	None~None θοός	None~None ναῦς	None~None 
+-270	None~None παῖς	None~None Διοκλείδης	None~None Σώπολις	None~None στένω	None~None 
+-270	None~None ἁλίς	None~None πού	None~None φέρω	None~None νέκυς	None~None ὄνομα	None~None κενός	None~None σῆμα	None~None παρέρχομαι	None~None 
+-270	None~None Νάξιος	None~None γῆ	None~None θνήσκω	None~None Λύκος	None~None πόντος	None~None ναῦς	None~None ἅμα	None~None ψυχή	None~None εἶδον	None~None ἀπόλλυμι	None~None ἔμπορος	None~None πλέω	None~None 
+-270	None~None ὑγρός	None~None νεκρός	None~None ἄλλως	None~None ὄνομα	None~None τύμβος	None~None ἔχω	None~None κηρύσσω	None~None ἔπος	None~None φεύγω	None~None θάλασσα	None~None συμμίγνυμι	None~None ἔριφος	None~None ναυτίλος	None~None 
+-270	None~None Νάξιος	None~None γῆ	None~None θνήσκω	None~None Λύκος	None~None πόντος	None~None ναῦς	None~None ἅμα	None~None ψυχή	None~None εἶδον	None~None ἀπόλλυμι	None~None ἔμπορος	None~None πλέω	None~None 
+-270	None~None ὑγρός	None~None νεκρός	None~None ἄλλως	None~None ὄνομα	None~None τύμβος	None~None ἔχω	None~None κηρύσσω	None~None ἔπος	None~None φεύγω	None~None θάλασσα	None~None συμμίγνυμι	None~None ἔριφος	None~None ναυτίλος	None~None 
+-270	None~None δωδεκέτης	None~None παῖς	None~None πατήρ	None~None ἀποτίθημι	None~None ἐνθάδε	None~None πολύς	None~None ἐλπίς	None~None 
+-270	None~None δωδεκέτης	None~None παῖς	None~None πατήρ	None~None ἀποτίθημι	None~None ἐνθάδε	None~None πολύς	None~None ἐλπίς	None~None 
+-270	None~None ἠῷος	None~None Μελάνιππος	None~None θάπτω	None~None ἥλιος	None~None δύω	None~None καταθνήσκω	None~None παρθενικός	None~None αὐτοχερί	None~None 
+-270	None~None ζώω	None~None ἀδελφός	None~None πῦρ	None~None τίθημι	None~None τλάω	None~None 
+-270	None~None δίδυμος	None~None οἶκος	None~None εἰσεῖδον	None~None κακός	None~None πατήρ	None~None Ἀρίστιππος	None~None κατηφέω	None~None Κυρήνη	None~None εὔτεκνος	None~None χήρα	None~None εἶδον	None~None δόμος	None~None 
+-270	None~None ἠῷος	None~None Μελάνιππος	None~None θάπτω	None~None ἥλιος	None~None δύω	None~None καταθνήσκω	None~None παρθενικός	None~None αὐτοχερί	None~None 
+-270	None~None ζώω	None~None ἀδελφός	None~None πῦρ	None~None τίθημι	None~None τλάω	None~None 
+-270	None~None δίδυμος	None~None οἶκος	None~None εἰσεῖδον	None~None κακός	None~None πατήρ	None~None Ἀρίστιππος	None~None κατηφέω	None~None Κυρήνη	None~None εὔτεκνος	None~None χήρα	None~None εἶδον	None~None δόμος	None~None 
+-270	None~None σῆμα	None~None φέρω	None~None πούς	None~None Καλλίμαχος	None~None Κυρηναῖος	None~None παῖς	None~None γενέτης	None~None 
+-270	None~None οἶδα	None~None ἄμφω	None~None 
+-270	None~None πατρίς	None~None ὅπλον	None~None ἄρχω	None~None ἀείδω	None~None κρείσσων	None~None βασκανία	None~None 
+-270	None~None νέμεσις	None~None 
+-270	None~None Μοῦσα	None~None ὅσος	None~None εἶδον	None~None ὄμμα	None~None παῖς	None~None λοξός	None~None πολιός	None~None ἀποτίθημι	None~None φῖλος	None~None 
+-270	None~None σῆμα	None~None φέρω	None~None πούς	None~None Καλλίμαχος	None~None Κυρηναῖος	None~None παῖς	None~None γενέτης	None~None 
+-270	None~None οἶδα	None~None ἄμφω	None~None 
+-270	None~None πατρίς	None~None ὅπλον	None~None ἄρχω	None~None ἀείδω	None~None κρείσσων	None~None βασκανία	None~None 
+-270	None~None νέμεσις	None~None 
+-270	None~None Μοῦσα	None~None ὅσος	None~None εἶδον	None~None ὄμμα	None~None παῖς	None~None λοξός	None~None πολιός	None~None ἀποτίθημι	None~None φῖλος	None~None 
+-270	None~None Κρής	None~None αἰπόλος	None~None ἁρπάζω	None~None Νύμφης	None~None ὄρος	None~None ἱερός	None~None 
+-270	None~None δρῦς	None~None Δάφνις	None~None ποιμήν	None~None ἀεί	None~None ἀείδω	None~None 
+-270	None~None Κρής	None~None αἰπόλος	None~None ἁρπάζω	None~None Νύμφης	None~None ὄρος	None~None ἱερός	None~None 
+-270	None~None δρῦς	None~None Δάφνις	None~None ποιμήν	None~None ἀεί	None~None ἀείδω	None~None 
+-270	None~None εἶπον	None~None Ἥλιος	None~None χαίρω	None~None Κλεόμβροτος	None~None ἅλλομαι	None~None ὑψηλός	None~None τεῖχος	None~None Ἅιδης	None~None ἄξιος	None~None εἶδον	None~None θάνατος	None~None κακός	None~None Πλάτων	None~None ψυχή	None~None γράμμα	None~None ἀναλέγω	None~None 
+-270	None~None εἶπον	None~None Ἥλιος	None~None χαίρω	None~None Κλεόμβροτος	None~None ἅλλομαι	None~None ὑψηλός	None~None τεῖχος	None~None Ἅιδης	None~None ἄξιος	None~None εἶδον	None~None θάνατος	None~None κακός	None~None Πλάτων	None~None ψυχή	None~None γράμμα	None~None ἀναλέγω	None~None 
+-270	None~None ἥρως	None~None Ἠετίων	None~None ἐπίσταθμος	None~None ἱδρύω	None~None μικρός	None~None μικρός	None~None πρόθυρον	None~None λοξός	None~None ὄφις	None~None μόνος	None~None ἔχω	None~None ξίφος	None~None 
+-270	None~None ἀνδρίς	None~None Ἐπειός	None~None θυμόω	None~None πεζός	None~None παροικίζω	None~None 
+-270	None~None ἥρως	None~None Ἠετίων	None~None ἐπίσταθμος	None~None ἱδρύω	None~None μικρός	None~None μικρός	None~None πρόθυρον	None~None λοξός	None~None ὄφις	None~None μόνος	None~None ἔχω	None~None ξίφος	None~None 
+-270	None~None ἀνδρίς	None~None Ἐπειός	None~None θυμόω	None~None πεζός	None~None παροικίζω	None~None 
+-270	None~None ὄμνυμι	None~None Καλλίγνωτος	None~None Ἰωνίς	None~None μήποτε	None~None ἔχω	None~None φίλος	None~None κρείσσων	None~None φίλος	None~None 
+-270	None~None ὄμνυμι	None~None 
+-270	None~None λέγω	None~None ἀληθής	None~None ἔρως	None~None ὅρκος	None~None δύω	None~None οὖς	None~None ἀθάνατος	None~None 
+-270	None~None ἀρσενικόν	None~None θέρω	None~None πῦρ	None~None 
+-270	None~None τάλας	None~None νύμφη	None~None Μεγάρη	None~None λόγος	None~None ἀριθμός	None~None 
+-270	None~None ὄμνυμι	None~None Καλλίγνωτος	None~None Ἰωνίς	None~None μήποτε	None~None ἔχω	None~None φίλος	None~None κρείσσων	None~None φίλος	None~None 
+-270	None~None ὄμνυμι	None~None 
+-270	None~None λέγω	None~None ἀληθής	None~None ἔρως	None~None ὅρκος	None~None δύω	None~None οὖς	None~None ἀθάνατος	None~None 
+-270	None~None ἀρσενικόν	None~None θέρω	None~None πῦρ	None~None 
+-270	None~None τάλας	None~None νύμφη	None~None Μεγάρη	None~None λόγος	None~None ἀριθμός	None~None 
+-270	None~None ἔχω	None~None μικρός	None~None ὀλίγος	None~None βίος	None~None δεινός	None~None ῥέζω	None~None ἀδικέω	None~None 
+-270	None~None γαῖα	None~None φίλος	None~None πονηρός	None~None ἐπαινέω	None~None κοῦφος	None~None γίγνομαι	None~None δαίμων	None~None ὄις	None~None ἔχω	None~None 
+-270	None~None ἔχω	None~None μικρός	None~None ὀλίγος	None~None βίος	None~None δεινός	None~None ῥέζω	None~None ἀδικέω	None~None 
+-270	None~None γαῖα	None~None φίλος	None~None πονηρός	None~None ἐπαινέω	None~None κοῦφος	None~None γίγνομαι	None~None δαίμων	None~None ὄις	None~None ἔχω	None~None 
+-270	None~None Ἡσίοδος	None~None ἄεισμα	None~None τρόπος	None~None 
+-270	None~None ἀοιδός	None~None σχέθω	None~None ὀκνέω	None~None μελιχρός	None~None ἔπος	None~None 
+-270	None~None χαίρω	None~None λεπτός	None~None ῥῆσις	None~None Ἄρητος	None~None σύντονος	None~None ἀγρυπνία	None~None 
+-270	None~None Ἡσίοδος	None~None ἄεισμα	None~None τρόπος	None~None 
+-270	None~None ἀοιδός	None~None σχέθω	None~None ὀκνέω	None~None μελιχρός	None~None ἔπος	None~None 
+-270	None~None χαίρω	None~None λεπτός	None~None ῥῆσις	None~None Ἄρητος	None~None σύντονος	None~None ἀγρυπνία	None~None 
+-270	None~None ἐχθαίρω	None~None ποίημα	None~None κυκλικός	None~None κέλευθος	None~None χαίρω	None~None πολύς	None~None ὧδε	None~None φέρω	None~None μισέω	None~None περίφοιτος	None~None ἐράομαι	None~None κρήνη	None~None πίνω	None~None 
+-270	None~None δημόσιος	None~None 
+-270	None~None Λυσανίας	None~None καλός	None~None καλός	None~None πρίν	None~None εἶπον	None~None σαφής	None~None Ἠχώ	None~None φημί	None~None ἔχω	None~None 
+-270	None~None ἐχθαίρω	None~None ποίημα	None~None κυκλικός	None~None κέλευθος	None~None χαίρω	None~None πολύς	None~None ὧδε	None~None φέρω	None~None μισέω	None~None περίφοιτος	None~None ἐράομαι	None~None κρήνη	None~None πίνω	None~None 
+-270	None~None δημόσιος	None~None 
+-270	None~None Λυσανίας	None~None καλός	None~None καλός	None~None πρίν	None~None εἶπον	None~None σαφής	None~None Ἠχώ	None~None φημί	None~None ἔχω	None~None 
+-270	None~None ἔγχος	None~None πάλιν	None~None εἶπον	None~None Διοκλέης	None~None 
+-270	None~None Ἀχελῷος	None~None ἱερά	None~None αἰσθάνομαι	None~None κύαθος	None~None 
+-270	None~None καλός	None~None Ἀχελῷος	None~None λίαν	None~None καλός	None~None φημί	None~None ἐφίστημι	None~None μόνος	None~None καλός	None~None 
+-270	None~None ἔγχος	None~None πάλιν	None~None εἶπον	None~None Διοκλέης	None~None 
+-270	None~None Ἀχελῷος	None~None ἱερά	None~None αἰσθάνομαι	None~None κύαθος	None~None 
+-270	None~None καλός	None~None Ἀχελῷος	None~None λίαν	None~None καλός	None~None φημί	None~None ἐφίστημι	None~None μόνος	None~None καλός	None~None 
+-270	None~None Θεσσαλικός	None~None Κλεόνικος	None~None τάλας	None~None τάλας	None~None ὀξύς	None~None ἥλιος	None~None γιγνώσκω	None~None 
+-270	None~None σχέτλιος	None~None πού	None~None γίγνομαι	None~None 
+-270	None~None ὀστέον	None~None μόνος	None~None θρίξ	None~None 
+-270	None~None ἦ	None~None δαίμων	None~None ἔχω	None~None χαλεπός	None~None ἄντομαι	None~None θεομορία	None~None 
+-270	None~None γιγνώσκω	None~None 
+-270	None~None Εὐξίθεος	None~None συναρπάζω	None~None ἔρχομαι	None~None καλός	None~None μοχθηρός	None~None βλέπω	None~None ἀμφότερος	None~None 
+-270	None~None Θεσσαλικός	None~None Κλεόνικος	None~None τάλας	None~None τάλας	None~None ὀξύς	None~None ἥλιος	None~None γιγνώσκω	None~None 
+-270	None~None σχέτλιος	None~None πού	None~None γίγνομαι	None~None 
+-270	None~None ὀστέον	None~None μόνος	None~None θρίξ	None~None 
+-270	None~None ἦ	None~None δαίμων	None~None ἔχω	None~None χαλεπός	None~None ἄντομαι	None~None θεομορία	None~None 
+-270	None~None γιγνώσκω	None~None 
+-270	None~None Εὐξίθεος	None~None συναρπάζω	None~None ἔρχομαι	None~None καλός	None~None μοχθηρός	None~None βλέπω	None~None ἀμφότερος	None~None 
+-270	None~None Ἐπικύδης	None~None ὄρος	None~None λαγῶς	None~None διφάω	None~None ἴχνιον	None~None δορκαλίς	None~None νιφετός	None~None χράω	None~None εἶπον	None~None τῆ	None~None βάλλω	None~None θηρίον	None~None λάπτω	None~None 
+-270	None~None ἔρος	None~None τοιόσδε	None~None 
+-270	None~None φεύγω	None~None διώκω	None~None οἶδα	None~None μέσος	None~None κεῖμαι	None~None 
+-270	None~None Ἐπικύδης	None~None ὄρος	None~None λαγῶς	None~None διφάω	None~None ἴχνιον	None~None δορκαλίς	None~None νιφετός	None~None χράω	None~None εἶπον	None~None τῆ	None~None βάλλω	None~None θηρίον	None~None λάπτω	None~None 
+-270	None~None ἔρος	None~None τοιόσδε	None~None 
+-270	None~None φεύγω	None~None διώκω	None~None οἶδα	None~None μέσος	None~None κεῖμαι	None~None 
+-270	None~None οἶδα	None~None πλοῦτος	None~None κενός	None~None κενός	None~None χείρ	None~None Μένιππος	None~None λέγω	None~None Χάρις	None~None ὄνειρος	None~None 
+-270	None~None ἀλγέω	None~None ἔπος	None~None πικρός	None~None ἀκούω	None~None 
+-270	None~None ναί	None~None φίλος	None~None ἀνέραστος	None~None 
+-270	None~None οἶδα	None~None πλοῦτος	None~None κενός	None~None κενός	None~None χείρ	None~None Μένιππος	None~None λέγω	None~None Χάρις	None~None ὄνειρος	None~None 
+-270	None~None ἀλγέω	None~None ἔπος	None~None πικρός	None~None ἀκούω	None~None 
+-270	None~None ναί	None~None φίλος	None~None ἀνέραστος	None~None 
+-270	None~None Ἄρτεμις	None~None ἄγαλμα	None~None ἵζω	None~None 
+-270	None~None δέχομαι	None~None πότνια	None~None σαόω	None~None 
+-270	None~None Ἄρτεμις	None~None ἄγαλμα	None~None ἵζω	None~None 
+-270	None~None δέχομαι	None~None πότνια	None~None σαόω	None~None 
+-270	None~None λεοντάγχης	None~None ἄναξ	None~None συοκτόνος	None~None φήγινος	None~None ὄζος	None~None τίθημι	None~None 
+-270	None~None Ἀρχῖνος	None~None 
+-270	None~None ποῖος	None~None 
+-270	None~None Κρής	None~None 
+-270	None~None δέχομαι	None~None 
+-270	None~None λεοντάγχης	None~None ἄναξ	None~None συοκτόνος	None~None φήγινος	None~None ὄζος	None~None τίθημι	None~None 
+-270	None~None Ἀρχῖνος	None~None 
+-270	None~None ποῖος	None~None 
+-270	None~None Κρής	None~None 
+-270	None~None δέχομαι	None~None 
+-270	None~None σῆμα	None~None φέρω	None~None πούς	None~None εὖ	None~None ἀοιδός	None~None οἶδα	None~None εὖ	None~None οἶνον	None~None καίριος	None~None συγγελάω	None~None 
+-270	None~None σῆμα	None~None φέρω	None~None πούς	None~None εὖ	None~None ἀοιδός	None~None οἶδα	None~None εὖ	None~None οἶνον	None~None καίριος	None~None συγγελάω	None~None 
+-270	None~None Λύκτιος	None~None τόξον	None~None ἐπεῖπον	None~None τίθημι	None~None τῆ	None~None κέρας	None~None δίδωμι	None~None φαρέτρα	None~None Σάραπις	None~None 
+-270	None~None ὀιστός	None~None ἔχω	None~None Ἑσπερίτης	None~None 
+-270	None~None Λύκτιος	None~None τόξον	None~None ἐπεῖπον	None~None τίθημι	None~None τῆ	None~None κέρας	None~None δίδωμι	None~None φαρέτρα	None~None Σάραπις	None~None 
+-270	None~None ὀιστός	None~None ἔχω	None~None Ἑσπερίτης	None~None 
+-270	None~None δῶρον	None~None Ἀφροδίτη	None~None Σῖμος	None~None περίφοιτος	None~None εἰκών	None~None τίθημι	None~None μίτρα	None~None μαστός	None~None φιλέω	None~None πανός	None~None ἐφοράω	None~None τάλας	None~None θύρσος	None~None 
+-270	None~None δῶρον	None~None Ἀφροδίτη	None~None Σῖμος	None~None περίφοιτος	None~None εἰκών	None~None τίθημι	None~None μίτρα	None~None μαστός	None~None φιλέω	None~None πανός	None~None ἐφοράω	None~None τάλας	None~None θύρσος	None~None 
+-270	None~None Πυλαία	None~None Πελασγός	None~None Ἀκρίσιος	None~None ναός	None~None δέμω	None~None Ναυκρατίτης	None~None κάτος	None~None θυγάτηρ	None~None δῶρον	None~None Τιμόδημος	None~None ἵζω	None~None κέρδος	None~None δεκάτευμα	None~None 
+-270	None~None εὔχομαι	None~None 
+-270	None~None Πυλαία	None~None Πελασγός	None~None Ἀκρίσιος	None~None ναός	None~None δέμω	None~None Ναυκρατίτης	None~None κάτος	None~None θυγάτηρ	None~None δῶρον	None~None Τιμόδημος	None~None ἵζω	None~None κέρδος	None~None δεκάτευμα	None~None 
+-270	None~None εὔχομαι	None~None 
+-270	None~None Δημήτηρ	None~None πάλιν	None~None Κάβειροι	None~None ἀνήρ	None~None μετέπειμι	None~None Δινδυμήνη	None~None γραῦς	None~None γίγνομαι	None~None κόνις	None~None πολύς	None~None προστασία	None~None νέος	None~None γυνή	None~None 
+-270	None~None τέκνον	None~None γίγνομαι	None~None δύη	None~None ἄρσην	None~None χείρ	None~None 
+-270	None~None ἕρπω	None~None χαίρω	None~None 
+-270	None~None Δημήτηρ	None~None πάλιν	None~None Κάβειροι	None~None ἀνήρ	None~None μετέπειμι	None~None Δινδυμήνη	None~None γραῦς	None~None γίγνομαι	None~None κόνις	None~None πολύς	None~None προστασία	None~None νέος	None~None γυνή	None~None 
+-270	None~None τέκνον	None~None γίγνομαι	None~None δύη	None~None ἄρσην	None~None χείρ	None~None 
+-270	None~None ἕρπω	None~None χαίρω	None~None 
+-270	None~None ἥμισυς	None~None ψυχή	None~None πνέω	None~None ἥμισυς	None~None οἶδα	None~None εἴτε	None~None ἔρος	None~None εἴτε	None~None Ἅιδης	None~None ἁρπάζω	None~None ἀφανής	None~None 
+-270	None~None ἦ	None~None παῖς	None~None πάλιν	None~None 
+-270	None~None ἀπεῖπον	None~None πολλάκις	None~None δρηστήρ	None~None ὑποδέχομαι	None~None νέος	None~None 
+-270	None~None ἐκεῖσε	None~None λιθόλευστος	None~None δύσερως	None~None οἶδα	None~None πού	None~None στρέφω	None~None 
+-270	None~None ἥμισυς	None~None ψυχή	None~None πνέω	None~None ἥμισυς	None~None οἶδα	None~None εἴτε	None~None ἔρος	None~None εἴτε	None~None Ἅιδης	None~None ἁρπάζω	None~None ἀφανής	None~None 
+-270	None~None ἦ	None~None παῖς	None~None πάλιν	None~None 
+-270	None~None ἀπεῖπον	None~None πολλάκις	None~None δρηστήρ	None~None ὑποδέχομαι	None~None νέος	None~None 
+-270	None~None ἐκεῖσε	None~None λιθόλευστος	None~None δύσερως	None~None οἶδα	None~None πού	None~None στρέφω	None~None 
+-270	None~None ἑκών	None~None Ἀρχῖνος	None~None ἐπικωμάζω	None~None μυρίος	None~None μέμφομαι	None~None ἀέκων	None~None ἥκω	None~None προπέτεια	None~None ἀίω	None~None 
+-270	None~None ἄκρατος	None~None ἔρως	None~None ἀναγκάζω	None~None ἕλκω	None~None ἀίω	None~None προπέτεια	None~None ἀίω	None~None 
+-270	None~None ἔρχομαι	None~None βοάω	None~None φιλέω	None~None φλιά	None~None 
+-270	None~None ἀδίκημα	None~None ἀδικέω	None~None 
+-270	None~None ἑκών	None~None Ἀρχῖνος	None~None ἐπικωμάζω	None~None μυρίος	None~None μέμφομαι	None~None ἀέκων	None~None ἥκω	None~None προπέτεια	None~None ἀίω	None~None 
+-270	None~None ἄκρατος	None~None ἔρως	None~None ἀναγκάζω	None~None ἕλκω	None~None ἀίω	None~None προπέτεια	None~None ἀίω	None~None 
+-270	None~None ἔρχομαι	None~None βοάω	None~None φιλέω	None~None φλιά	None~None 
+-270	None~None ἀδίκημα	None~None ἀδικέω	None~None 
+-270	None~None ἕλκος	None~None ἔχω	None~None ξένος	None~None λανθάνω	None~None 
+-270	None~None ἀνιαρός	None~None πνεῦμα	None~None στῆθος	None~None εἶδον	None~None ἀνάγω	None~None τρίτος	None~None ἡνίκα	None~None πίνω	None~None ῥόδον	None~None φυλλοβολέω	None~None ἀνήρ	None~None στέφανος	None~None γίγνομαι	None~None χαμαί	None~None 
+-270	None~None ὀπτάω	None~None μέγας	None~None 
+-270	None~None δαίμων	None~None ῥυθμός	None~None εἰκάζω	None~None φώρ	None~None ἴχνιον	None~None φώρ	None~None μανθάνω	None~None 
+-270	None~None ἕλκος	None~None ἔχω	None~None ξένος	None~None λανθάνω	None~None 
+-270	None~None ἀνιαρός	None~None πνεῦμα	None~None στῆθος	None~None εἶδον	None~None ἀνάγω	None~None τρίτος	None~None ἡνίκα	None~None πίνω	None~None ῥόδον	None~None φυλλοβολέω	None~None ἀνήρ	None~None στέφανος	None~None γίγνομαι	None~None χαμαί	None~None 
+-270	None~None ὀπτάω	None~None μέγας	None~None 
+-270	None~None δαίμων	None~None ῥυθμός	None~None εἰκάζω	None~None φώρ	None~None ἴχνιον	None~None φώρ	None~None μανθάνω	None~None 
+-270	None~None ναί	None~None Πάν	None~None κρύπτω	None~None ταύτῃ	None~None ναί	None~None Διόνυσος	None~None πῦρ	None~None σποδιά	None~None 
+-270	None~None θαρσέω	None~None 
+-270	None~None περιπλέκω	None~None 
+-270	None~None πολλάκις	None~None λανθάνω	None~None τοῖχος	None~None ὑποτρώγω	None~None ἡσύχιος	None~None ποταμός	None~None 
+-270	None~None δείδω	None~None Μενέξενος	None~None παρεισδύνω	None~None σιγέρπης	None~None ἔρως	None~None βάλλω	None~None 
+-270	None~None ναί	None~None Πάν	None~None κρύπτω	None~None ταύτῃ	None~None ναί	None~None Διόνυσος	None~None πῦρ	None~None σποδιά	None~None 
+-270	None~None θαρσέω	None~None 
+-270	None~None περιπλέκω	None~None 
+-270	None~None πολλάκις	None~None λανθάνω	None~None τοῖχος	None~None ὑποτρώγω	None~None ἡσύχιος	None~None ποταμός	None~None 
+-270	None~None δείδω	None~None Μενέξενος	None~None παρεισδύνω	None~None σιγέρπης	None~None ἔρως	None~None βάλλω	None~None 
+-270	None~None λαμβάνω	None~None περιφεύγω	None~None εἶπον	None~None πάνημος	None~None εἰκάς	None~None δέκατος	None~None ἔρχομαι	None~None βοῦς	None~None ἄροτρον	None~None ἑκούσιος	None~None 
+-270	None~None εὖ	None~None Ἑρμῆς	None~None εὖ	None~None 
+-270	None~None εἴκοσι	None~None μέμφομαι	None~None 
+-270	None~None λαμβάνω	None~None περιφεύγω	None~None εἶπον	None~None πάνημος	None~None εἰκάς	None~None δέκατος	None~None ἔρχομαι	None~None βοῦς	None~None ἄροτρον	None~None ἑκούσιος	None~None 
+-270	None~None εὖ	None~None Ἑρμῆς	None~None εὖ	None~None 
+-270	None~None εἴκοσι	None~None μέμφομαι	None~None 
+-270	None~None ἀγαθός	None~None πολύφαμος	None~None ἀνευρίσκω	None~None ἐπαοιδή	None~None ἀράομαι	None~None 
+-270	None~None ναί	None~None Γαῖα	None~None ἀμαθής	None~None Κύκλωψ	None~None 
+-270	None~None Μοῦσα	None~None ἔρως	None~None κατισχναίνω	None~None Φίλιππος	None~None 
+-270	None~None ἦ	None~None πανακής	None~None φάρμακον	None~None σοφία	None~None 
+-270	None~None δοκέω	None~None λιμός	None~None ἔχω	None~None μόνος	None~None πονηρός	None~None ἀγαθός	None~None 
+-270	None~None ἐκκόπτω	None~None φιλόπαις	None~None νόσος	None~None 
+-270	None~None ἔσθω	None~None ἀφειδής	None~None ἔρως	None~None 
+-270	None~None παῖς	None~None κείρω	None~None πτερόν	None~None παιδάριον	None~None ὅσος	None~None ἀττάραγος	None~None 
+-270	None~None ἐπῳδή	None~None οἴκοι	None~None χαλεπός	None~None τραῦμα	None~None ἀμφότερος	None~None 
+-270	None~None ἀγαθός	None~None πολύφαμος	None~None ἀνευρίσκω	None~None ἐπαοιδή	None~None ἀράομαι	None~None 
+-270	None~None ναί	None~None Γαῖα	None~None ἀμαθής	None~None Κύκλωψ	None~None 
+-270	None~None Μοῦσα	None~None ἔρως	None~None κατισχναίνω	None~None Φίλιππος	None~None 
+-270	None~None ἦ	None~None πανακής	None~None φάρμακον	None~None σοφία	None~None 
+-270	None~None δοκέω	None~None λιμός	None~None ἔχω	None~None μόνος	None~None πονηρός	None~None ἀγαθός	None~None 
+-270	None~None ἐκκόπτω	None~None φιλόπαις	None~None νόσος	None~None 
+-270	None~None ἔσθω	None~None ἀφειδής	None~None ἔρως	None~None 
+-270	None~None παῖς	None~None κείρω	None~None πτερόν	None~None παιδάριον	None~None ὅσος	None~None ἀττάραγος	None~None 
+-270	None~None ἐπῳδή	None~None οἴκοι	None~None χαλεπός	None~None τραῦμα	None~None ἀμφότερος	None~None 
+-270	None~None ἁλίη	None~None Εὔδημος	None~None ἅλς	None~None λιτός	None~None ἐφίημι	None~None χειμών	None~None μέγας	None~None ἐκφεύγω	None~None δάνος	None~None τίθημι	None~None θεός	None~None λέγω	None~None εὐχή	None~None λαός	None~None σώζω	None~None ἅλς	None~None ὧδε	None~None ἔθω	None~None 
+-270	None~None ἁλίη	None~None Εὔδημος	None~None ἅλς	None~None λιτός	None~None ἐφίημι	None~None χειμών	None~None μέγας	None~None ἐκφεύγω	None~None δάνος	None~None τίθημι	None~None θεός	None~None λέγω	None~None εὐχή	None~None λαός	None~None σώζω	None~None ἅλς	None~None ὧδε	None~None ἔθω	None~None 
+-270	None~None εὐμάθεια	None~None αἰτέω	None~None δίδωμι	None~None Σῖμος	None~None Μοῦσα	None~None 
+-270	None~None Γλαύκος	None~None δίδωμι	None~None ὀλίγος	None~None μέγας	None~None δῶρον	None~None 
+-270	None~None χάσκω	None~None κεῖμαι	None~None Σάμιος	None~None διπλόος	None~None τραγικός	None~None παιδάριον	None~None Διόνυσος	None~None ἐπήκοος	None~None 
+-270	None~None λέγω	None~None ἱερός	None~None πλόκαμος	None~None ὄνειαρ	None~None 
+-270	None~None εὐμάθεια	None~None αἰτέω	None~None δίδωμι	None~None Σῖμος	None~None Μοῦσα	None~None 
+-270	None~None Γλαύκος	None~None δίδωμι	None~None ὀλίγος	None~None μέγας	None~None δῶρον	None~None 
+-270	None~None χάσκω	None~None κεῖμαι	None~None Σάμιος	None~None διπλόος	None~None τραγικός	None~None παιδάριον	None~None Διόνυσος	None~None ἐπήκοος	None~None 
+-270	None~None λέγω	None~None ἱερός	None~None πλόκαμος	None~None ὄνειαρ	None~None 
+-270	None~None λέγω	None~None ξένος	None~None κωμικός	None~None ὄντως	None~None ἀνάκειμαι	None~None νίκη	None~None μάρτυς	None~None Πάμφιλος	None~None ἕνος	None~None ἔρως	None~None δάκνω	None~None ἥμισυς	None~None ὀπτός	None~None ἰσχάς	None~None λύχνον	None~None Ἴσις	None~None εἴδομαι	None~None 
+-270	None~None λέγω	None~None ξένος	None~None κωμικός	None~None ὄντως	None~None ἀνάκειμαι	None~None νίκη	None~None μάρτυς	None~None Πάμφιλος	None~None ἕνος	None~None ἔρως	None~None δάκνω	None~None ἥμισυς	None~None ὀπτός	None~None ἰσχάς	None~None λύχνον	None~None Ἴσις	None~None εἴδομαι	None~None 
+-270	None~None Φρύγιος	None~None ἀγαθός	None~None γάλα	None~None ἐσθλός	None~None ζωή	None~None γηροκομέω	None~None φθίω	None~None ἀνατίθημι	None~None ἔπειμι	None~None ὁράω	None~None γραῦς	None~None μαστός	None~None ἀπέχω	None~None 
+-270	None~None Φρύγιος	None~None ἀγαθός	None~None γάλα	None~None ἐσθλός	None~None ζωή	None~None γηροκομέω	None~None φθίω	None~None ἀνατίθημι	None~None ἔπειμι	None~None ὁράω	None~None γραῦς	None~None μαστός	None~None ἀπέχω	None~None 
+-270	None~None τέσσαρες	None~None Χάρις	None~None 
+-270	None~None τρεῖς	None~None ἄρτι	None~None προσπλάσσω	None~None μῦρος	None~None νοτέω	None~None 
+-270	None~None εὐαίων	None~None Βερενίκη	None~None Χάρις	None~None Χάρις	None~None 
+-270	None~None τέσσαρες	None~None Χάρις	None~None 
+-270	None~None τρεῖς	None~None ἄρτι	None~None προσπλάσσω	None~None μῦρος	None~None νοτέω	None~None 
+-270	None~None εὐαίων	None~None Βερενίκη	None~None Χάρις	None~None Χάρις	None~None 
+-270	None~None καλός	None~None μελαίνω	None~None Θεόκριτος	None~None ἔχθος	None~None τετράκις	None~None μισέω	None~None φιλέω	None~None φιλέω	None~None 
+-270	None~None εὐχαίτης	None~None Γανυμήδης	None~None οὐράνιος	None~None Ζεύς	None~None ἀράζω	None~None μακρός	None~None λέγω	None~None 
+-270	None~None καλός	None~None μελαίνω	None~None Θεόκριτος	None~None ἔχθος	None~None τετράκις	None~None μισέω	None~None φιλέω	None~None φιλέω	None~None 
+-270	None~None εὐχαίτης	None~None Γανυμήδης	None~None οὐράνιος	None~None Ζεύς	None~None ἀράζω	None~None μακρός	None~None λέγω	None~None 
+-270	None~None πάλιν	None~None Εἰλήθυια	None~None λυκαινίς	None~None ἔρχομαι	None~None καλέω	None~None εὔλυρος	None~None ὠδίς	None~None ὧδε	None~None εὐτοκία	None~None ἄνασσα	None~None κόρη	None~None παῖς	None~None ὕστερος	None~None εὐώδης	None~None ναός	None~None ἔχω	None~None 
+-270	None~None πάλιν	None~None Εἰλήθυια	None~None λυκαινίς	None~None ἔρχομαι	None~None καλέω	None~None εὔλυρος	None~None ὠδίς	None~None ὧδε	None~None εὐτοκία	None~None ἄνασσα	None~None κόρη	None~None παῖς	None~None ὕστερος	None~None εὐώδης	None~None ναός	None~None ἔχω	None~None 
+-270	None~None χρέος	None~None ἀπέχω	None~None Ἀσκληπιός	None~None γυνή	None~None ὀφείλω	None~None εὔχομαι	None~None γιγνώσκω	None~None 
+-270	None~None λανθάνω	None~None πάλιν	None~None ἀπαιτέω	None~None φημί	None~None παρέχω	None~None μαρτυρία	None~None πίναξ	None~None 
+-270	None~None χρέος	None~None ἀπέχω	None~None Ἀσκληπιός	None~None γυνή	None~None ὀφείλω	None~None εὔχομαι	None~None γιγνώσκω	None~None 
+-270	None~None λανθάνω	None~None πάλιν	None~None ἀπαιτέω	None~None φημί	None~None παρέχω	None~None μαρτυρία	None~None πίναξ	None~None 
+-270	None~None εἴκοσι	None~None μύξα	None~None πλούσιος	None~None Κριτίης	None~None λύχνον	None~None τίθημι	None~None θεός	None~None εὔχομαι	None~None παῖς	None~None 
+-270	None~None φέγγος	None~None ἀθρέω	None~None φάσις	None~None Ἕσπερος	None~None πῶς	None~None πίπτω	None~None 
+-270	None~None εἴκοσι	None~None μύξα	None~None πλούσιος	None~None Κριτίης	None~None λύχνον	None~None τίθημι	None~None θεός	None~None εὔχομαι	None~None παῖς	None~None 
+-270	None~None φέγγος	None~None ἀθρέω	None~None φάσις	None~None Ἕσπερος	None~None πῶς	None~None πίπτω	None~None 
+-270	None~None φημί	None~None ἵστημι	None~None Εὐαίνετος	None~None γιγνώσκω	None~None νίκη	None~None ἴδιος	None~None ἀνάκειμαι	None~None χάλκειος	None~None ἀλέκτωρ	None~None Τυνδάρεος	None~None 
+-270	None~None πιστεύω	None~None Φαῖδρας	None~None παῖς	None~None 
+-270	None~None φημί	None~None ἵστημι	None~None Εὐαίνετος	None~None γιγνώσκω	None~None νίκη	None~None ἴδιος	None~None ἀνάκειμαι	None~None χάλκειος	None~None ἀλέκτωρ	None~None Τυνδάρεος	None~None 
+-270	None~None πιστεύω	None~None Φαῖδρας	None~None παῖς	None~None 
+-270	None~None ἵστημι	None~None Ἴσις	None~None Θάλης	None~None Εἰρήνη	None~None μήτηρ	None~None ὑποσχεσίη	None~None 
+-270	None~None ἵστημι	None~None Ἴσις	None~None Θάλης	None~None Εἰρήνη	None~None μήτηρ	None~None ὑποσχεσίη	None~None 
+-270	None~None ξένος	None~None ναυαγός	None~None 
+-270	None~None Λεόντιχος	None~None ἐνθάδε	None~None νεκρός	None~None εὑρίσκω	None~None αἰγιαλός	None~None χόω	None~None τάφος	None~None δακρύω	None~None ἐπίκηρος	None~None ἑός	None~None βίος	None~None 
+-270	None~None ἥσυχος	None~None αἴθυια	None~None ἴσος	None~None θαλασσοπορέω	None~None 
+-270	None~None ξένος	None~None ναυαγός	None~None 
+-270	None~None Λεόντιχος	None~None ἐνθάδε	None~None νεκρός	None~None εὑρίσκω	None~None αἰγιαλός	None~None χόω	None~None τάφος	None~None δακρύω	None~None ἐπίκηρος	None~None ἑός	None~None βίος	None~None 
+-270	None~None ἥσυχος	None~None αἴθυια	None~None ἴσος	None~None θαλασσοπορέω	None~None 
+-270	None~None εὐδαίμων	None~None μαίνομαι	None~None Ὀρέστης	None~None μαίνομαι	None~None μανία	None~None λαμβάνω	None~None ἐξέτασις	None~None Φωκεύς	None~None ἐλέγχω	None~None φίλος	None~None 
+-270	None~None δρᾶμα	None~None διδάσκω	None~None μόνος	None~None ἦ	None~None τάχα	None~None ἑταῖρος	None~None ἀπόλλυμι	None~None ποιέω	None~None τώς	None~None πολύς	None~None ἔχω	None~None Πυλάδης	None~None 
+-270	None~None εὐδαίμων	None~None μαίνομαι	None~None Ὀρέστης	None~None μαίνομαι	None~None μανία	None~None λαμβάνω	None~None ἐξέτασις	None~None Φωκεύς	None~None ἐλέγχω	None~None φίλος	None~None 
+-270	None~None δρᾶμα	None~None διδάσκω	None~None μόνος	None~None ἦ	None~None τάχα	None~None ἑταῖρος	None~None ἀπόλλυμι	None~None ποιέω	None~None τώς	None~None πολύς	None~None ἔχω	None~None Πυλάδης	None~None 
+-270	None~None παρέρπω	None~None σῆμα	None~None Κίμων	None~None οἶδα	None~None παῖς	None~None παρέρχομαι	None~None 
+-270	None~None παρέρπω	None~None σῆμα	None~None Κίμων	None~None οἶδα	None~None παῖς	None~None παρέρχομαι	None~None 
+-270	None~None Αἴνιος	None~None ὧδε	None~None πολύς	None~None 
+-270	None~None ξένος	None~None λῷστος	None~None κατεργάζομαι	None~None 
+-270	None~None ἦ	None~None Κένταυρος	None~None 
+-270	None~None πόρω	None~None ὕπνος	None~None ἔρχομαι	None~None τλήμων	None~None οἶνος	None~None ἔχω	None~None πρόφασις	None~None 
+-270	None~None Αἴνιος	None~None ὧδε	None~None πολύς	None~None 
+-270	None~None ξένος	None~None λῷστος	None~None κατεργάζομαι	None~None 
+-270	None~None ἦ	None~None Κένταυρος	None~None 
+-270	None~None πόρω	None~None ὕπνος	None~None ἔρχομαι	None~None τλήμων	None~None οἶνος	None~None ἔχω	None~None πρόφασις	None~None 
+-270	None~None θαρσέω	None~None Κρής	None~None Ὀρτυγία	None~None τόξον	None~None Ἄρτεμις	None~None κενόω	None~None ὄρος	None~None μέγας	None~None 
+-270	None~None παύω	None~None αἴξ	None~None σπονδή	None~None θεός	None~None ἐργάζομαι	None~None 
+-270	None~None θαρσέω	None~None Κρής	None~None Ὀρτυγία	None~None τόξον	None~None Ἄρτεμις	None~None κενόω	None~None ὄρος	None~None μέγας	None~None 
+-270	None~None παύω	None~None αἴξ	None~None σπονδή	None~None θεός	None~None ἐργάζομαι	None~None 
+-270	None~None ὑπνάω	None~None κωνώπιον	None~None ποιέω	None~None κοιμάω	None~None ψυχρός	None~None πρόθυρον	None~None 
+-270	None~None ὑπνάω	None~None ἄδικος	None~None ἐραστής	None~None κοιμίζω	None~None ἔλεος	None~None ὄναρ	None~None ἀντιάω	None~None 
+-270	None~None γείτων	None~None οἰκτείρω	None~None ὄναρ	None~None 
+-270	None~None πολιά	None~None αὐτίκα	None~None ἀναμιμνήσκω	None~None κόμη	None~None 
+-270	None~None ὑπνάω	None~None κωνώπιον	None~None ποιέω	None~None κοιμάω	None~None ψυχρός	None~None πρόθυρον	None~None 
+-270	None~None ὑπνάω	None~None ἄδικος	None~None ἐραστής	None~None κοιμίζω	None~None ἔλεος	None~None ὄναρ	None~None ἀντιάω	None~None 
+-270	None~None γείτων	None~None οἰκτείρω	None~None ὄναρ	None~None 
+-270	None~None πολιά	None~None αὐτίκα	None~None ἀναμιμνήσκω	None~None κόμη	None~None-270	None~None ῥόδον	None~None δροσόεις	None~None κατάπυκνος	None~None ἕρπυλλος	None~None κέω	None~None μελάμφυλλος	None~None δάφνη	None~None Πύθιος	None~None Παιάν	None~None δελφίς	None~None πέτρα	None~None ἀγλαίζω	None~None 
+-270	None~None βωμός	None~None κεραός	None~None τράγος	None~None μαλός	None~None τέρμινθος	None~None τρώγω	None~None σχέθω	None~None ἀκρέμων	None~None 
+-270	None~None Δάφνις	None~None λευκόχρως	None~None καλός	None~None σῦριγξ	None~None μελίσσω	None~None βουκολικός	None~None ὕμνος	None~None ἀνατίθημι	None~None Πάν	None~None τρητός	None~None δόναξ	None~None ὀξύς	None~None ἄκων	None~None νεβρίς	None~None πήρα	None~None 
+-270	None~None εὕδω	None~None φυλλόστρωτος	None~None πέδον	None~None Δάφνις	None~None σῶμα	None~None κάμνω	None~None ἀναπαύω	None~None 
+-270	None~None στάλιξ	None~None ἀρτιπαγής	None~None ὄρος	None~None 
+-270	None~None ἀγρεύω	None~None Πάν	None~None κροκόεις	None~None Πρίαπος	None~None κισσός	None~None ἱμερτός	None~None κράς	None~None καθάπτω	None~None ἄντρον	None~None ἔσω	None~None στείχω	None~None ὁμόρροθος	None~None 
+-270	None~None φεύγω	None~None φεύγω	None~None μεθίημι	None~None ὕπνον	None~None κῶμα	None~None καταγείρω	None~None 
+-270	None~None λαύρα	None~None δρῦς	None~None αἰπόλος	None~None κάμπτω	None~None σύκινος	None~None εὑρίσκω	None~None ἀρτιγλυφής	None~None ξόανον	None~None τρισκελής	None~None αὐτόφλοιος	None~None ἀνούατος	None~None παιδογόνος	None~None δυνατός	None~None Κύπρις	None~None ἔργον	None~None τέλλω	None~None 
+-270	None~None σακός	None~None ἱερός	None~None περιτρέχω	None~None ἀέναος	None~None ῥεῖθρον	None~None σπιλάς	None~None πάντοσε	None~None τηλεθάω	None~None δάφνη	None~None μύρτον	None~None εὐώδης	None~None κυπάρισσος	None~None 
+-270	None~None ἔνθα	None~None χέω	None~None βοτρυόπαις	None~None ἕλιξ	None~None ἄμπελος	None~None ἐαρινός	None~None λιγύφθογγος	None~None ἀοιδός	None~None κόσσυφος	None~None ἠχώ	None~None ποικιλότραυλος	None~None μέλη	None~None 
+-270	None~None ξουθός	None~None ἀηδονίς	None~None μινύρισμα	None~None ἀντηχέω	None~None μέλπω	None~None στόμα	None~None μελίγηρυς	None~None ὄψ	None~None 
+-270	None~None ἕζομαι	None~None τηνεῖ	None~None χαρίεις	None~None Πρίαπος	None~None εὔχομαι	None~None ἀποστέργω	None~None Δάφνις	None~None πόθος	None~None εὐθύς	None~None ἐπιρρέζω	None~None χίμαρος	None~None καλός	None~None 
+-270	None~None ἀνάνευσις	None~None τυγχάνω	None~None ἐθέλω	None~None τρισσός	None~None θύα	None~None τελέω	None~None 
+-270	None~None ῥέζω	None~None δάμαλις	None~None λάσιον	None~None τράγος	None~None ἀρνός	None~None ἴσχω	None~None σηκίτης	None~None 
+-270	None~None ἀίω	None~None εὐμενής	None~None θεός	None~None 
+-270	None~None λάω	None~None τᾶν	None~None Νύμφης	None~None δίδυμος	None~None αὐλός	None~None ἄημι	None~None ἡδύς	None~None 
+-270	None~None πηκτίς	None~None ἀείρω	None~None ἄρχω	None~None κρέκω	None~None βουκόλος	None~None ἄμμιγα	None~None Δάφνις	None~None κηρόδετος	None~None πνεῦμα	None~None μέλπω	None~None 
+-270	None~None ἐγγύς	None~None ἵστημι	None~None λάσιος	None~None δρῦς	None~None ἄντρον	None~None ὄπισθεν	None~None Πάν	None~None αἰγιβάτης	None~None ὀρφανίζω	None~None ὕπνον	None~None 
+-270	None~None πλέος	None~None κατατάσσω	None~None δάκρυον	None~None δίγληνος	None~None ὤψ	None~None ὀδύρομαι	None~None 
+-270	None~None οἴχομαι	None~None χίμαρος	None~None καλός	None~None τέκος	None~None οἴχομαι	None~None 
+-270	None~None τραχύς	None~None ἀμφιπιέζω	None~None λύκος	None~None 
+-270	None~None κύων	None~None κλαγγέω	None~None 
+-270	None~None πλέος	None~None ἡνίκα	None~None ὀστέον	None~None τέφρα	None~None λείπω	None~None οἴχομαι	None~None 
+-270	None~None νήπιος	None~None υἱός	None~None λείπω	None~None ἁλικία	None~None τύμβος	None~None θνήσκω	None~None τυγχάνω	None~None 
+-270	None~None ἕδρα	None~None θεῖος	None~None ἀνήρ	None~None 
+-270	None~None πολίτης	None~None τιμάω	None~None πατήρ	None~None μνάομαι	None~None ἀγαθός	None~None 
+-270	None~None Μίλητος	None~None Παιάν	None~None υἱός	None~None ἰατήρ	None~None νόσος	None~None ἀνδρίς	None~None συμφέρω	None~None Νικίας	None~None ἦμαρ	None~None ἀεί	None~None θύος	None~None ἱκνέομαι	None~None εὐώδης	None~None γλύφω	None~None ἄγαλμα	None~None κέδρον	None~None χάρις	None~None γλαφυρός	None~None χείρ	None~None ἄκρος	None~None ὑφίστημι	None~None μισθός	None~None 
+-270	None~None ἔργον	None~None ἀφήκω	None~None τέχνη	None~None 
+-270	None~None ξένος	None~None Συρακόσιος	None~None ἀνήρ	None~None 
+-270	None~None χειμέριος	None~None μεθύω	None~None μηδαμός	None~None νύξ	None~None ἴα	None~None 
+-270	None~None ἔχω	None~None πότμος	None~None 
+-270	None~None πολύς	None~None πατρίς	None~None ὀθνεῖος	None~None κεῖμαι	None~None ἐφίζω	None~None 
+-270	None~None θεά	None~None χαρίζομαι	None~None ἐννέα	None~None ἄγαλμα	None~None Ξενοκλέης	None~None τίθημι	None~None μαρμάρινος	None~None μουσικός	None~None 
+-270	None~None ἑτέρως	None~None ἐράομαι	None~None 
+-270	None~None σοφία	None~None αἶνος	None~None ἔχω	None~None Μοῦσα	None~None ἐπιλανθάνομαι	None~None 
+-270	None~None μνῆμα	None~None 
+-270	None~None φυσιγνώμων	None~None σοφιστής	None~None δεινός	None~None ὀφθαλμός	None~None νόημα	None~None μανθάνω	None~None 
+-270	None~None εὖ	None~None θάπτω	None~None ἑταῖρος	None~None ξένος	None~None ξένος	None~None 
+-270	None~None δαιμόνιος	None~None φίλος	None~None 
+-270	None~None ἐπέοικε	None~None ἔχω	None~None θνήσκω	None~None σοφιστής	None~None ἄκικυς	None~None ἔοικα	None~None κηδεμών	None~None 
+-270	None~None χορηγός	None~None τρίπους	None~None Διόνυσος	None~None ἡδύς	None~None θέα	None~None μάκαρος	None~None ἀνατίθημι	None~None μέτριος	None~None χορός	None~None κτάομαι	None~None νίκη	None~None ἀνήρ	None~None καλός	None~None προσήκω	None~None ὁράω	None~None 
+-270	None~None Κύπρις	None~None πάνδημος	None~None 
+-270	None~None ἱλάομαι	None~None θεός	None~None εἶπον	None~None οὐράνιος	None~None ἁγνός	None~None ἄνθεμα	None~None οἶκος	None~None τέκνον	None~None βίος	None~None ἔχω	None~None ξυνός	None~None 
+-270	None~None ἀεί	None~None λωίων	None~None ἔτος	None~None ἄρχω	None~None πότνια	None~None 
+-270	None~None κήδω	None~None ἀθάνατος	None~None πλέως	None~None ἔχω	None~None βροτός	None~None 
+-270	None~None ξένος	None~None ἴσος	None~None νέμω	None~None τράπεζα	None~None 
+-270	None~None τίθημι	None~None ἀναιρέω	None~None ψῆφος	None~None λόγος	None~None ἔρχομαι	None~None 
+-270	None~None πρόφασις	None~None λέγω	None~None 
+-270	None~None ὀθνεῖος	None~None χρῆμα	None~None νύξ	None~None βούλομαι	None~None ἀριθμέω	None~None 
+-270	None~None γιγνώσκω	None~None νέμω	None~None ἀγαθός	None~None πλέος	None~None δειλός	None~None ἴσος	None~None ὁδοιπόρος	None~None ἔχω	None~None 
+-270	None~None χαίρω	None~None τύμβος	None~None ἐρέω	None~None Εὐρυμέδων	None~None κέω	None~None ἱερά	None~None κοῦφος	None~None κεφαλή	None~None 
+-270	None~None ὀίζω	None~None ἄωρος	None~None ἕβδομος	None~None ἐνιαυτός	None~None πολύς	None~None ἡλικία	None~None πρότερος	None~None δείλαιος	None~None ποθέω	None~None εἰκοσάμηνος	None~None ἀδελφός	None~None νήπιος	None~None ἄστοργος	None~None γεύω	None~None θάνατος	None~None 
+-270	None~None ἐλεεινός	None~None πάσχω	None~None ἑτοῖμος	None~None ἄνθρωπος	None~None δαίμων	None~None τίθημι	None~None λυγρός	None~None 
+-270	None~None θάομαι	None~None ἀνδριάς	None~None ξένος	None~None σπουδή	None~None λέγω	None~None οἶκος	None~None ἔρχομαι	None~None 
+-270	None~None εἰκών	None~None εἶδον	None~None Τέως	None~None πρόσθεν	None~None περισσός	None~None ᾠδοποιός	None~None 
+-270	None~None προστίθημι	None~None νέος	None~None ἁνδάνω	None~None ἐρέω	None~None ἀτρεκής	None~None ὅλος	None~None ἀνήρ	None~None 
+-270	None~None φωνή	None~None Δώριος	None~None κωμῳδία	None~None 
+-270	None~None Βάκχος	None~None χάλκεος	None~None ἀληθινός	None~None ὧδε	None~None ἀνατίθημι	None~None ἐνιδρύω	None~None πόλις	None~None οἷος	None~None ἀνδρίς	None~None πολίτης	None~None 
+-270	None~None σωρός	None~None ἔχω	None~None ῥῆμα	None~None τέλλω	None~None ἐπίχειρα	None~None 
+-270	None~None πολύς	None~None ζόη	None~None εἶπον	None~None χρήσιμος	None~None 
+-270	None~None μέγας	None~None χάρις	None~None 
+-270	None~None μουσοποιός	None~None κέω	None~None 
+-270	None~None πονηρός	None~None προσέρχομαι	None~None τύμβος	None~None 
+-270	None~None κρήγυος	None~None χρηστός	None~None θάρσος	None~None καθίζω	None~None ἐθέλω	None~None ἀποβρίζω	None~None 
+-270	None~None μικκός	None~None τεύχω	None~None Μήδειος	None~None μνῆμα	None~None ὁδός	None~None ἐπιγράφω	None~None Κλείτη	None~None 
+-270	None~None ἔχω	None~None χάρις	None~None γυνή	None~None κόρος	None~None τρέφω	None~None 
+-270	None~None χρήσιμος	None~None καλέω	None~None 
+-270	None~None ἵστημι	None~None εἰσεῖδον	None~None πάλαι	None~None ποιητός	None~None ἴαμβος	None~None μυρίος	None~None κλέος	None~None διέρχομαι	None~None νύξ	None~None ἠώς	None~None 
+-270	None~None ἦ	None~None Μοῖσα	None~None Δήλιος	None~None ἐμμελής	None~None γίγνομαι	None~None ἐπίδεξις	None~None ἔπος	None~None ποιέω	None~None λύρα	None~None ἀείδω	None~None 
+-270	None~None υἱός	None~None ἀνήρ	None~None ὀξύχειρ	None~None πρᾶτος	None~None ἐπάνωθεν	None~None μουσοποιός	None~None Πείσανδρος	None~None συγγράφω	None~None εἶπος	None~None ἆθλος	None~None 
+-270	None~None δῆμος	None~None σάφα	None~None οἶδα	None~None ἵστημι	None~None ἐνθάδε	None~None χάλκεος	None~None ποιέω	None~None πολύς	None~None μείς	None~None ὄπισθεν	None~None ἐνιαυτός	None~None 
+-270	None~None ἀνήρ	None~None αἰτέω	None~None ἐπαγροσύνη	None~None ὄλβος	None~None ἅλς	None~None ζωή	None~None δίκτυον	None~None ἄροτρον	None~None σφάζω	None~None ἀκρόνυχος	None~None θεός	None~None ἱερός	None~None ἰχθύς	None~None λεῦκος	None~None καλέω	None~None λίνον	None~None ἵστημι	None~None ἐξερύω	None~None θάλασσα	None~None ἔμπλεος	None~None 
+-270	None~None μήτηρ	None~None τίπτε	None~None ὧδε	None~None φίλος	None~None θυμός	None~None ἰάπτω	None~None ἔκπαγλος	None~None ἀχέω	None~None πρίν	None~None ἔρευθος	None~None ῥέθος	None~None 
+-270	None~None τόσος	None~None ἀνιάομαι	None~None 
+-270	None~None ἦ	None~None ἄλγος	None~None πάσχω	None~None ἀπείριτος	None~None φαίδιμος	None~None υἱός	None~None ἀνήρ	None~None οὐτιδανός	None~None λέων	None~None νεβρός	None~None 
+-270	None~None θεός	None~None τόσος	None~None ἀτιμάω	None~None ἀθάνατος	None~None 
+-270	None~None ὧδε	None~None κακός	None~None γονεύς	None~None τίκτω	None~None αἶσις	None~None 
+-270	None~None δύσμορος	None~None ἀνήρ	None~None ἀμύμων	None~None λέχος	None~None ἔρχομαι	None~None τίω	None~None ἴσος	None~None φάος	None~None σέβομαι	None~None αἰδέομαι	None~None θυμός	None~None 
+-270	None~None γίγνομαι	None~None ἄποτμος	None~None ζάω	None~None τόσος	None~None σφέτερος	None~None γεύω	None~None φρόντισις	None~None κῆδος	None~None 
+-270	None~None σχέτλιος	None~None τόξον	None~None πόρω	None~None Κήρ	None~None αἰνός	None~None βέλεμνον	None~None παῖς	None~None ἑός	None~None κατέπεφνον	None~None φίλος	None~None αἱρέω	None~None θυμός	None~None μαίνομαι	None~None οἶκος	None~None ἔμπλεος	None~None φόνος	None~None 
+-270	None~None δύστηνος	None~None εἶδον	None~None ὀφθαλμός	None~None βάλλω	None~None πατήρ	None~None 
+-270	None~None ὄναρ	None~None ἔρχομαι	None~None 
+-270	None~None δύναμαι	None~None ἀδινός	None~None καλέω	None~None ἀρήγω	None~None μήτηρ	None~None ἑός	None~None ἐγγύς	None~None ἀνίκητος	None~None κακός	None~None 
+-270	None~None ὄρνις	None~None ὀδύρομαι	None~None σφέτερος	None~None νεοσσός	None~None ὄλλυμι	None~None αἰνός	None~None ὄφις	None~None νηπιάχω	None~None θάμνος	None~None πυκινός	None~None κατεσθίω	None~None 
+-270	None~None πωτάομαι	None~None κλάζω	None~None μάλα	None~None λιγύς	None~None πότνια	None~None μήτηρ	None~None ἔχω	None~None τέκνον	None~None ἐπαρκέω	None~None 
+-270	None~None ἦ	None~None ἆσσον	None~None εἶμι	None~None μέγας	None~None τάρβος	None~None ἀμείλικτος	None~None πέλωρον	None~None 
+-270	None~None αἰνοτόκεια	None~None φίλος	None~None γόνος	None~None αἰάζω	None~None μαίνομαι	None~None πούς	None~None δόμος	None~None πολύς	None~None φοιτάω	None~None 
+-270	None~None ὀφείλω	None~None παῖς	None~None ἅμα	None~None θνήσκω	None~None κέω	None~None φαρμακόεις	None~None ἥπατος	None~None ἰός	None~None ἔχω	None~None ἀγανός	None~None βέλος	None~None δαμάω	None~None θῆλυς	None~None μέγας	None~None κρείουσα	None~None γυνή	None~None 
+-270	None~None κλαίω	None~None χείρ	None~None τοκεύς	None~None πολύς	None~None κτέρεα	None~None πυρεύς	None~None ἐπιβαίνω	None~None ὅμοιος	None~None ἕνος	None~None χρύσεος	None~None ὀστέον	None~None κρωσσός	None~None λέγω	None~None καταθάπτω	None~None ὅθι	None~None πρότερος	None~None γίγνομαι	None~None 
+-270	None~None Θήβη	None~None ἱπποτρόφος	None~None ἐνναίω	None~None πέδιον	None~None βαθύς	None~None βῶλος	None~None ἀείρω	None~None 
+-270	None~None Τίρυνς	None~None κραναός	None~None πολύς	None~None δύστηνος	None~None ἰάπτω	None~None ἄλγος	None~None ἦτορ	None~None ἀεί	None~None ὁμῶς	None~None 
+-270	None~None δάκρυον	None~None πάρειμι	None~None ἴα	None~None ἐρωή	None~None 
+-270	None~None πόσις	None~None ὁράω	None~None παῦρος	None~None χρόνος	None~None ὀφθαλμός	None~None οἶκος	None~None ἡμέτερος	None~None 
+-270	None~None πολύς	None~None ἔργον	None~None ἑτοῖμος	None~None μόχθος	None~None γαῖα	None~None ἀλάομαι	None~None θάλασσα	None~None μοχθίζω	None~None πέτρα	None~None ἔχω	None~None νόος	None~None σίδηρον	None~None καρτερός	None~None στῆθος	None~None 
+-270	None~None λείβω	None~None ὕδωρ	None~None νύξ	None~None κλαίω	None~None Ζεύς	None~None ἦμαρ	None~None ὁπόσος	None~None 
+-270	None~None εὐφραίνω	None~None παρίστημι	None~None κηδεμών	None~None 
+-270	None~None δόμος	None~None τεῖχος	None~None ἔργω	None~None 
+-270	None~None λίαν	None~None πέρα	None~None ναίω	None~None βλέπω	None~None γυνή	None~None πανάποτμος	None~None ἀναψύχω	None~None φίλος	None~None κῆρ	None~None Πύρρα	None~None συνομαίμων	None~None 
+-270	None~None πόσις	None~None σφέτερος	None~None πλέος	None~None υἱός	None~None 
+-270	None~None ὀιζυρός	None~None τέκνον	None~None γείνομαι	None~None θεός	None~None ἀνήρ	None~None θνητός	None~None ἔλπω	None~None 
+-270	None~None φημί	None~None 
+-270	None~None θαλερός	None~None δάκρυον	None~None μῆλον	None~None κόλπος	None~None ἱμερόεις	None~None βλέφαρον	None~None χάω	None~None μιμνήσκω	None~None τέκνον	None~None μετέπειμι	None~None τοκεύς	None~None 
+-270	None~None αὔτως	None~None δακρύω	None~None παρήιον	None~None λεύκη	None~None διαίνω	None~None 
+-270	None~None βαρύς	None~None θυμός	None~None στενάχω	None~None μῦθος	None~None πυκινός	None~None φίλος	None~None νυός	None~None ὧδε	None~None μεταυδάω	None~None 
+-270	None~None δαιμόνιος	None~None παῖς	None~None φρήν	None~None ἐμπίτνω	None~None πευκάλιμος	None~None 
+-270	None~None πῶς	None~None ἐθέλω	None~None ὀροθύνω	None~None ἄμφω	None~None κῆδος	None~None ἄλαστος	None~None λέγω	None~None 
+-270	None~None πρότερος	None~None κλαίω	None~None 
+-270	None~None ἅλις	None~None ἔχω	None~None δεύτατος	None~None ἀεί	None~None ἦμαρ	None~None γίγνομαι	None~None 
+-270	None~None μάλα	None~None φιλοθρηνής	None~None ἀίω	None~None ἀριθμέω	None~None ἡμέτερος	None~None ἄχος	None~None θαρσέω	None~None 
+-270	None~None τοιόσδε	None~None κυρέω	None~None θεός	None~None αἶσις	None~None 
+-270	None~None ὁράω	None~None φίλος	None~None τέκος	None~None ἄτρυτος	None~None ἄλγος	None~None μοχθίζω	None~None 
+-270	None~None ἐπιγνώμων	None~None ἀσχαλάω	None~None εὐφροσύνη	None~None κόρος	None~None 
+-270	None~None μάλα	None~None ἔκπαγλος	None~None ὀλοφύρομαι	None~None ἐλεαίρω	None~None ἡμέτερος	None~None λυγρός	None~None δαίμων	None~None ἔχω	None~None ἐφύπερθε	None~None κάρα	None~None βαρύς	None~None αἰωρέω	None~None 
+-270	None~None οἶδα	None~None κόρη	None~None εὐέανος	None~None Δημήτηρ	None~None μέγας	None~None βλάπτω	None~None ἑκών	None~None ἐπίορκος	None~None ὄμνυμι	None~None δυσμενέων	None~None χερειότερος	None~None φρήν	None~None ἵημι	None~None στέργω	None~None ἔρχομαι	None~None τηλύγετος	None~None δῶμα	None~None παρθένος	None~None 
+-270	None~None πάμπαν	None~None ἔλπω	None~None λανθάνω	None~None 
+-270	None~None ἐξεῖπον	None~None πότις	None~None θάλος	None~None ἀκηδέω	None~None εὔκομος	None~None Νιόβη	None~None πυκινός	None~None κλαίω	None~None 
+-270	None~None νεμεσητός	None~None τέκνον	None~None γοάω	None~None μήτηρ	None~None δυσπαθέω	None~None 
+-270	None~None δέκα	None~None μείς	None~None κάμνω	None~None πρίν	None~None ἠπειρωτικός	None~None εἶδον	None~None ἥπατος	None~None ἔχω	None~None πυλάρτης	None~None σχεδόν	None~None ἄγω	None~None 
+-270	None~None ὧδε	None~None δυστοκέω	None~None κακός	None~None ὠδίς	None~None ἀνατλῆναι	None~None 
+-270	None~None οἴχομαι	None~None υἱός	None~None ἀλλότριος	None~None νέος	None~None ἆθλον	None~None ἐκτελής	None~None 
+-270	None~None οἶδα	None~None δυσάμμορος	None~None εἴτε	None~None ἐνθάδε	None~None νοστέω	None~None ὑποδέχομαι	None~None εἴτε	None~None 
+-270	None~None πτοέω	None~None γλυκύς	None~None αἰνός	None~None ὄνειρος	None~None ὕπνον	None~None 
+-270	None~None δειμαίνω	None~None παλίγκοτος	None~None ὄψις	None~None εἶδον	None~None ἔκπαγλος	None~None τέκνον	None~None ἀποθύμιος	None~None ἔρδω	None~None 
+-270	None~None εἶμι	None~None ἔχω	None~None μακέλας	None~None εὐεργής	None~None χείρ	None~None ἀμφότερος	None~None 
+-270	None~None μέγας	None~None λαχαίνω	None~None δέχομαι	None~None μισθός	None~None τάφρος	None~None τηλεθάω	None~None ἐσχατιά	None~None ἀγρός	None~None γυμνός	None~None χλαῖνα	None~None εὔμιτρος	None~None χιτών	None~None 
+-270	None~None ἀφικνέομαι	None~None τέλος	None~None ἔργον	None~None καρτερός	None~None οἰνοφόρον	None~None πονέομαι	None~None ἕρκος	None~None ἀλωεύς	None~None λίστρον	None~None μέλλω	None~None προέχω	None~None ἐρείδω	None~None ἄνδηρον	None~None καταδύνω	None~None εἷμα	None~None ἕννυμι	None~None 
+-270	None~None ἐξαπίνης	None~None ἀναλάμπω	None~None κάπετος	None~None βαθύς	None~None πῦρ	None~None ἄμοτος	None~None ἀθέσφατος	None~None εἱλέω	None~None φλόξ	None~None 
+-270	None~None ἀεί	None~None ὄπισθεν	None~None θοός	None~None ἀναχάζω	None~None πούς	None~None ἐκφεύγω	None~None μέμαα	None~None ὀλοός	None~None 
+-270	None~None ἀεί	None~None ἑός	None~None χρώς	None~None γέρρον	None~None νωμάω	None~None μακέλας	None~None 
+-270	None~None ὄμμα	None~None ἔνθα	None~None ἔνθα	None~None παπταίνω	None~None ἐπίφλεξις	None~None δάιος	None~None πῦρ	None~None 
+-270	None~None ἀοσσέω	None~None λελίημαι	None~None ἔοικα	None~None μεγάθυμος	None~None οὖδας	None~None καταπίπτω	None~None ὀλισθάνω	None~None πρίν	None~None ἔρχομαι	None~None ὀρθός	None~None ἀνίστημι	None~None δύναμαι	None~None αὖθις	None~None ἀστεμφής	None~None κεῖμαι	None~None γέρων	None~None ὡσεί	None~None ἀμενηνός	None~None ἐθέλω	None~None βιάω	None~None γῆρας	None~None ἀτερπής	None~None καταπίπτω	None~None κέω	None~None χθών	None~None ἔμπεδος	None~None χείρ	None~None πάρειμι	None~None αἰδέομαι	None~None ὄπις	None~None τρομερός	None~None πολιός	None~None γένειον	None~None 
+-270	None~None γῆ	None~None λιάζομαι	None~None 
+-270	None~None κλαίω	None~None ἀμηχανάω	None~None ὁράω	None~None παῖς	None~None ἀποσεύω	None~None νήδυμος	None~None ὕπνος	None~None ὀφθαλμός	None~None ἠώς	None~None παραυτίκα	None~None φαινόλις	None~None ἔρχομαι	None~None 
+-270	None~None τοῖος	None~None φίλος	None~None ὄνειρος	None~None φρήν	None~None πτοέω	None~None παννύχιος	None~None 
+-270	None~None Εὐρυσθεύς	None~None τρέπω	None~None οἶκος	None~None ἡμέτερος	None~None γίγνομαι	None~None μάντις	None~None θυμός	None~None τελέω	None~None δαίμων	None~None-270	ξένος ἀναίρω Πιττακός Μυτιληναῖος παῖς 
+-270	γέρων καλέω γάμος 
+-270	νύμφη πλοῦτος γενεά ἕτερος προβαίνω 
+-270	λωίων 
+-270	ἄγε βουλεύω πότερος ὑμέναιος ἄγαμαι 
+-270	εἶπον 
+-270	σκίπων γεροντικός ὅπλον ἀείρω ἐρέω ἔπος 
+-270	θοός βέμβιξ ἔχω στρέφω παῖς τρίοδος 
+-270	ἔρχομαι φημί ἴχνιον 
+-270	ἐφίστημι πλησίος 
+-270	λέγω 
+-270	ἐλαύνω 
+-270	ἀίω ξένος μέγας οἶκος δράσσομαι παῖς κληδών συντίθημι 
+-270	ὀλίγος οἰκίον ἄγω νύμφη Δίος ἐλαύνω 
+-270	εἶπον Ἡράκλειτος τεός μόρον δάκρυον ἄγω μιμνήσκω ἀμφότερος ἥλιος καταδύω 
+-270	πού ξένος τετράπαλαι σποδιά 
+-270	τεός ζώω ἀηδών ἁρπακτής Ἅιδης χείρ βάλλω 
+-270	Τίμων σκότος φάος ἐχθρός 
+-270	σκότος 
+-270	πλείων ἀείδω 
+-270	κόγχος Ζεφυρῖτις πάλαι τέρας 
+-270	Κύπρις σεληναῖος ἄνθεμα πρότερος ἔχω ναυτίλος πέλαγος ἐπιπλέω ἀάω τείνω οἰκεῖος λαῖφος πρότονοι γαληναίη λιπαρός θεός οὖλος ἐρέσσω πούς ἔργον ὄνομα συμφέρω ἐφέζομαι θίς ἰουλίς γίγνομαι περίσκεπτος παίγνιον Ἀρσινόη ἄπνοος τίκτω ὤεον ἀλκυονίς 
+-270	Κλεινίης θυγάτηρ δίδημι χάρις οἶδα ἐσθλός ῥέζω Σμύρνα Αἰολεύς 
+-270	Σάμιος πόνος δόμος ποτός θεῖος ἀοιδός 
+-270	δέχομαι κλέω Εὔρυτος ὅσος πάσχω ξανθός Ὁμήρειον καλέω γράμμα 
+-270	Ζεύς φίλος μέγας 
+-270	ἔρχομαι Θεαίτητος καθαρός ὁδός 
+-270	κισσός τεός Βάκχος κέλευθος ἄγω 
+-270	κῆρυξ βραχύς ὄνομα καιρός φθέγγομαι Ἑλλάς ἀεί σοφία 
+-270	μικρός Διόνυσος καλός πράσσω ποιητής ῥῆσις 
+-270	νικάω φημί μακρός ἐπιδέξιος ἔρομαι πῶς βάλλω 
+-270	φημί σκληρός γίγνομαι 
+-270	μερμηρίζω γίγνομαι ἔπος 
+-270	ἄναξ βραχυσυλλαβία 
+-270	Σάων Δίκων ἱερός ὕπνον κοιμάω 
+-270	λέγω ἀγαθός 
+-270	Τίμαρχος Αἵδης πύθω ψυχή πάλιν πῶς δίζημαι φυλή Πτολεμαίς υἱός πατήρ Παυσανίης 
+-270	δήω εὐσεβής 
+-270	σύντομος ξένος στίχος μακρός λέγω Ἀρισταῖος δολιχός 
+-270	Κύζικος ἔρχομαι ὀλίγος πόνος εὑρίσκω Διδύμη 
+-270	ἀφανής γενεά 
+-270	ἀνιαρός ἐρέω ἔπος ἔμπας λέγω ὧδε ἐπέχω Κριτίης 
+-270	ἀναπαύω 
+-270	Κυρηναῖος παῖς λέγω 
+-270	νέρθε 
+-270	πολύς σκότος 
+-270	ἄνοδος 
+-270	ψεῦδος 
+-270	Πλούτων 
+-270	μῦθος 
+-270	ἀπόλλυμι 
+-270	λόγος ἀληθινός 
+-270	ἡδύς βούλομαι πελλαῖος βοῦς μέγας Ἅιδης 
+-270	δαίμων εὖ οἶδα αὔριον 
+-270	ἡνίκα Χάρμις ὀφθαλμός χθιζός ἡμέτερος ἕτερος κλαίω θάπτω 
+-270	εἶδον πατήρ χρήμη ἀνιαρός 
+-270	δαίμων ἐπιγιγνώσκω Τιμόθεος πατήρ ἔπειμι ὄνομα Μήθυμνα τεός πόλις 
+-270	ἦ μέγας φημί χήρα ἀνιάομαι πόσις Εὐθυμένης 
+-270	πολύμυθος ἐφίστημι καλός παίω δίζημαι Σάμιος πολλάκις θυγάτηρ ἡδύς συνέριθος ἀεί λάλος 
+-270	ἀποβρίζω ἐνθάδε ὕπνον ὀφείλω 
+-270	ὀφείλω γίγνομαι θοός ναῦς 
+-270	παῖς Διοκλείδης Σώπολις στένω 
+-270	ἁλίς πού φέρω νέκυς ὄνομα κενός σῆμα παρέρχομαι 
+-270	Νάξιος γῆ θνήσκω Λύκος πόντος ναῦς ἅμα ψυχή εἶδον ἀπόλλυμι ἔμπορος πλέω 
+-270	νεκρός ἄλλως ὄνομα τύμβος ἔχω κηρύσσω ἔπος φεύγω θάλασσα συμμίγνυμι ἔριφος ναυτίλος δύω 
+-270	δωδεκέτης παῖς πατήρ ἀποτίθημι Φίλιππος ἐνθάδε πολύς ἐλπίς 
+-270	Μελάνιππος θάπτω ἥλιος δύω καταθνήσκω παρθενική αὐτοχερί 
+-270	ζώω ἀδελφός πῦρ τίθημι τλάω 
+-270	δίδυμος οἶκος ἐπεῖδον κακός πατήρ Ἀρίστιππος κατηφέω Κυρήνη εὔτεκνος χήρα εἶδον δόμος 
+-270	σῆμα φέρω πούς Καλλίμαχος Κυρηναῖος παῖς γενετή 
+-270	οἶδα ἄμφω 
+-270	πατρίς ὅπλον ἄρχω ἀείδω κρείσσων βασκανία 
+-270	νέμεσις 
+-270	Μοῦσα ὅσος εἶδον ὄμμα παῖς πολιός ἀποτίθημι φῖλος 
+-270	Κρής αἰπόλος ἁρπάζω Νύμφης ὄρος ἱερός 
+-270	δρῦς Δάφνις ποιμήν ἀεί ἀείδω 
+-270	εἶπον ἥλιος χαίρω Κλεόμβροτος ἅλλομαι ὑψηλός τεῖχος Ἅιδης ἄξιος εἶδον θάνατος κακός Πλάτων ψυχή γράμμα ἀναλέγω 
+-270	ἐπίσταθμος ἱδρύω μικρός μικρός λοξός ὄφις μόνος ἔχω ξίφος 
+-270	ἀνδρίς θυμόω πεζός 
+-270	ὄμνυμι Καλλίγνωτος Ἰωνίς μήποτε ἔχω φίλος κρείσσων φίλος 
+-270	ὄμνυμι 
+-270	λέγω ἀληθής ἔρως ὅρκος δύω οὖς ἀθάνατος 
+-270	ἀρσενικόν θέρω πῦρ 
+-270	τάλας νύμφη Μεγάρη λόγος ἀριθμός 
+-270	ἔχω μικρός ὀλίγος βίος δεινός ῥέζω ἀδικέω 
+-270	γαῖα φίλος πονηρός ἐπαινέω κοῦφος γίγνομαι ἴλαος δαίμων ἔχω 
+-270	Ἡσίοδος ἄεισμα τρόπος 
+-270	ἀοιδός σχέθω ὀκνέω μελιχρός ἔπος ἀπομάσσω 
+-270	χαίρω λεπτός ῥῆσις Ἄρητος σύμβολον ἀγρυπνία 
+-270	ἐχθαίρω ποίημα κυκλικός κέλευθος χαίρω πολύς ὧδε ὧδε φέρω μισέω περίφοιτος ἐράομαι κρήνη πίνω 
+-270	δημόσιος 
+-270	Λυσανίας καλός καλός πρίν εἶπον σαφής Ἠχώ φημί ἔχω 
+-270	ἔγχος πάλιν εἶπον 
+-270	ἱερά αἰσθάνομαι κύαθος 
+-270	καλός λίαν καλός φημί ἐφίστημι μόνος καλός 
+-270	Θεσσαλικός Κλεόνικος τάλας τάλας ὀξύς ἥλιος γιγνώσκω 
+-270	σχέτλιος πού γίγνομαι 
+-270	ὀστέον μόνος θρίξ 
+-270	ἦ δαίμων ἔχω χαλεπός ἄντομαι 
+-270	γιγνώσκω 
+-270	Εὐξίθεος συναρπάζω ἔρχομαι καλός μοχθηρός βλέπω ἀμφότερος 
+-270	Ἐπικύδης ὄρος λαγῶς ἴχνιον δορκαλίς χαίρω εἶπον τῆ βάλλω θηρίον λάπτω 
+-270	ἔρος τοιόσδε 
+-270	φεύγω διώκω οἶδα μέσος κεῖμαι 
+-270	οἶδα πλοῦτος κενός χείρ Μένιππος λέγω Χάρις ὄνειρος 
+-270	ἀλγέω ἔπος πικρός ἀκούω 
+-270	ναί φίλος ἀνέραστος 
+-270	Ἄρτεμις ἄγαλμα ἵζω 
+-270	δέχομαι πότνια σαόω 
+-270	λεοντάγχης ἄναξ συοκτόνος φήγινος ὄζος τίθημι 
+-270	Ἀρχῖνος ποῖος 
+-270	Κρής δέχομαι 
+-270	σῆμα φέρω πούς εὖ ἀοιδός οἶδα εὖ οἶνον καίριος συγγελάω 
+-270	Λύκτιος Μενοίτης τόξον ἐπεῖπον τίθημι τῆ κέρας δίδωμι φαρέτρα Σάραπις 
+-270	ὀιστός ἔχω 
+-270	δῶρον Σῖμος περίφοιτος εἰκών τίθημι μίτρα φιλέω ὁράω τάλας θάρσος 
+-270	τῇ τῇ Πελασγός Ἀκρίσιος ναός δέμω Ναυκρατίτης τῇ κάτος θυγάτηρ δῶρον Τιμόδημος ἵζω κέρδος δεκάτευμα 
+-270	εὔχομαι 
+-270	Δημήτηρ πάλιν Κάβειροι ἀνήρ μετέπειμι Δινδυμήνη γραῦς γίγνομαι κόνις πολύς προστασία νέος γυνή 
+-270	γίγνομαι δύη ἄρσην χείρ 
+-270	ἕρπω χαίρω 
+-270	ἥμισυς ψυχή πνέω ἥμισυς οἶδα εἴτε ἔρος εἴτε Ἅιδης ἁρπάζω ἀφανής 
+-270	ἦ παῖς πάλιν οἴχομαι 
+-270	ἀπεῖπον πολλάκις δρηστήρ ὑποδέχομαι νέω 
+-270	ἐκεῖσε λιθόλευστος δύσερως οἶδα πού στρέφω 
+-270	ἑκών Ἀρχῖνος ἐπικωμάζω μυρίος μέμφομαι ἀέκων ἥκω προπέτεια ἀίω 
+-270	ἔρως ἀναγκάζω ἕλκω ἀίω προπέτεια ἀίω 
+-270	ἔρχομαι βοάω φιλέω φλιά 
+-270	ἀδίκημα ἀδικέω 
+-270	ἔχω ξένος λανθάνω 
+-270	ἀνιαρός πνεῦμα στῆθος εἶδον 
+-270	ἀνάγω τρίτος ἡνίκα πίνω ῥόδον φυλλοβολέω ἀνήρ στέφανος γίγνομαι χαμαί 
+-270	ὀπτάω μέγας 
+-270	δαίμων ῥυθμός εἰκάζω φώρ ἴχνιον φώρ μανθάνω 
+-270	ναί Πάν κρύπτω ταύτῃ ναί Διόνυσος πῦρ τῇ 
+-270	θαρσέω 
+-270	περιπλέκω 
+-270	πολλάκις λανθάνω τοῖχος ὑποτρώγω ἡσύχιος ποταμός 
+-270	δείδω Μενέξενος παρεισδύνω ἔρως βάλλω 
+-270	λαμβάνω περιφεύγω εἶπον πάνημος εἰκάς τῇ 
+-270	τῇ δεκάτη ἔρχομαι βοῦς ἄροτρον ἑκούσιος 
+-270	εὖ Ἑρμῆς εὖ 
+-270	εἴκοσι μέμφομαι 
+-270	ἀγαθός πολύφαμος ἀνευρίσκω ἐπαοιδή 
+-270	ναί Γαῖα ἀμαθής Κύκλωψ 
+-270	Μοῦσα ἔρως Φίλιππος 
+-270	ἦ πανακής φάρμακον σοφία 
+-270	δοκέω λιμός ἔχω πονηρός ἀγαθός 
+-270	ἐκκόπτω φιλόπαις νόσος 
+-270	ἔσθω ἔρως εἶπον κείρω πτερόν παιδάριον ὅσος ἀττάραγος 
+-270	ἐπῳδή οἴκοι χαλεπός τραῦμα ἀμφότερος 
+-270	ἁλίη Εὔδημος ἅλς λιτός ἐφίημι χειμών μέγας ἐκφεύγω δάνος τίθημι θεός λέγω εὐχή μέγας σώζω ἅλς ὧδε ἔθω 
+-270	εὐμάθεια αἰτέω δίδωμι Σῖμος Μοῦσα 
+-270	Γλαύκος δίδωμι ὀλίγος μέγας δῶρον 
+-270	χάσκω κεῖμαι Σάμιος διπλόος τραγικός παιδάριον Διόνυσος ἐπήκοος 
+-270	λέγω ἱερός πλόκαμος ὄνειαρ 
+-270	λέγω ξένος κωμικός ὄντως ἀνάκειμαι νίκη μάρτυς Πάμφιλος ἔρως δάκνω ἥμισυς ὀπτός ἰσχάς λύχνον Ἴσις εἴδομαι 
+-270	Φρύγιος ἀγαθός γάλα ἐσθλός ζωή γηροκομέω φθίω ἀνατίθημι ἔπειμι ὁράω γραῦς μαστός ἀπέχω χάρις 
+-270	τέσσαρες Χάρις τρεῖς ἄρτι προσπλάσσω μῦρος νοτέω 
+-270	εὐαίων Βερενίκη Χάρις Χάρις 
+-270	καλός μελαίνω Θεόκριτος ἔχθος τετράκις μισέω φιλέω φιλέω 
+-270	εὐχαίτης Γανυμήδης οὐράνιος Ζεύς 
+-270	ἀράζω μακρός λέγω 
+-270	πάλιν Εἰλήθυια λυκαινίς ἔρχομαι καλέω εὔλυρος ὠδίς ὧδε ἄνασσα κόρη παῖς ὕστερος εὐώδης ναός ἔχω 
+-270	χρέος ἀπέχω γυνή ὀφείλω εὔχομαι γιγνώσκω λανθάνω φημί παρέχω πίναξ 
+-270	εἴκοσι μύξα πλούσιος Κριτίης λύχνον τίθημι θεός εὔχομαι παῖς 
+-270	φέγγος ἀθρέω φάσις ἕσπερος πῶς πίπτω 
+-270	φημί ἵστημι Εὐαίνετος γιγνώσκω νίκη ἴδιος ἀνάκειμαι χάλκειος ἀλέκτωρ 
+-270	πιστεύω Φαῖδρας παῖς 
+-270	ἵστημι Ἴσις Θάλης Εἰρήνη μήτηρ 
+-270	ξένος ναυαγός 
+-270	Λεόντιχος ἐνθάδε 
+-270	νεκρός εὑρίσκω αἰγιαλός χόω τάφος δακρύω ἐπίκηρος ἑός βίος 
+-270	ἥσυχος ἴσος θαλασσοπορέω 
+-270	εὐδαίμων μαίνομαι Ὀρέστης μαίνομαι μανία λαμβάνω ἐξέτασις Φωκεύς ἐλέγχω φίλος δρᾶμα διδάσκω μόνος 
+-270	ἦ τάχα ἑταῖρος ἀπόλλυμι ποιέω τώς πολύς ἔχω Πυλάδης 
+-270	παρέρπω σῆμα Κίμων οἶδα παῖς παρέρχομαι 
+-270	Αἴνιος ὧδε πολύς 
+-270	ξένος κατεργάζομαι 
+-270	ἦ Κένταυρος 
+-270	πόρω ὕπνος ἔρχομαι τλήμων οἶνος ἔχω πρόφασις 
+-270	θαρσέω Κρής κέω Ὀρτυγία τόξον Ἄρτεμις κενόω ὄρος μέγας 
+-270	παύω αἴξ σπονδή θεός ἐργάζομαι 
+-270	ὑπνάω κωνώπιον ποιέω κοιμάω ψυχρός πρόθυρον 
+-270	ὑπνάω ἄδικος ἐραστής κοιμίζω ἔλεος ὄναρ ἀντιάω 
+-270	γείτων οἰκτείρω ὄναρ 
+-270	πολιά αὐτίκα ἀναμιμνήσκω κόμη-270	ξένος ἀνέρομαι Πιττακός Μυτιληναῖος παῖς γέρων καλέω γάμος 
+-270	νύμφη πλοῦτος γενεά ἕτερος προβαίνω 
+-270	λωίων 
+-270	ἄγε βουλεύω πότερος ὑμέναιος ἄγαμαι 
+-270	εἶπον 
+-270	σκίπων γεροντικός ὅπλον ἀείρω ἐρέω ἔπος 
+-270	πληγή θοός βέμβιξ ἔχω στρέφω εὐρέιος παῖς τρίοδος 
+-270	ἔρχομαι φημί ἴχνιον 
+-270	ἐφίστημι πλησίος 
+-270	λέγω 
+-270	ἐλαύνω 
+-270	ἀίω ξένος 
+-270	ἐφίζω μέγας οἶκος δράσσομαι παῖς κληδών συντίθημι ὀλίγος οἰκίον ἄγω νύμφη 
+-270	εἶμι ἐλαύνω 
+-270	ξένος ἀνέρομαι Πιττακός Μυτιληναῖος παῖς γέρων καλέω γάμος 
+-270	νύμφη πλοῦτος γενεά ἕτερος προβαίνω 
+-270	λωίων 
+-270	ἄγε βουλεύω πότερος ὑμέναιος ἄγαμαι 
+-270	εἶπον 
+-270	σκίπων γεροντικός ὅπλον ἀείρω ἐρέω ἔπος 
+-270	πληγή θοός βέμβιξ ἔχω στρέφω εὐρέιος παῖς τρίοδος 
+-270	ἔρχομαι φημί ἴχνιον 
+-270	ἐφίστημι πλησίος 
+-270	λέγω 
+-270	ἐλαύνω 
+-270	ἀίω ξένος 
+-270	ἐφίζω μέγας οἶκος δράσσομαι παῖς κληδών συντίθημι ὀλίγος οἰκίον ἄγω νύμφη 
+-270	εἶμι ἐλαύνω 
+-270	εἶπον Ἡράκλειτος τεός μόρον δάκρυον ἄγω μιμνήσκω ἀμφότερος ἥλιος λέσχη καταδύω 
+-270	πού ξένος Ἁλικαρνασσεύς τετράπαλαι σποδιά 
+-270	τεός ζώω ἀηδών ἵημι ἁρπακτής Ἅιδης χείρ βάλλω 
+-270	εἶπον Ἡράκλειτος τεός μόρον δάκρυον ἄγω μιμνήσκω ἀμφότερος ἥλιος λέσχη καταδύω 
+-270	πού ξένος Ἁλικαρνασσεύς τετράπαλαι σποδιά 
+-270	τεός ζώω ἀηδών ἵημι ἁρπακτής Ἅιδης χείρ βάλλω 
+-270	ὀξύς πάντῃ τάφος ἄκανθα σκόλοψ 
+-270	βλάψις πούς πρόσειμι 
+-270	Τίμων μισάνθρωπος ἐνοικέω 
+-270	παρέρχομαι οἰμώζω εἶπον πολύς παρέρχομαι μόνος 
+-270	ὀξύς πάντῃ τάφος ἄκανθα σκόλοψ 
+-270	βλάψις πούς πρόσειμι 
+-270	Τίμων μισάνθρωπος ἐνοικέω 
+-270	παρέρχομαι οἰμώζω εἶπον πολύς παρέρχομαι μόνος 
+-270	χαίρω εἶπον κακός κῆρ παρέρχομαι 
+-270	ἴσος χαίρω γελάω 
+-270	χαίρω εἶπον κακός κῆρ παρέρχομαι 
+-270	ἴσος χαίρω γελάω 
+-270	Τίμων σκότος φάος ἐχθρός 
+-270	σκότος 
+-270	πλείων Ἅιδης 
+-270	Τίμων σκότος φάος ἐχθρός 
+-270	σκότος 
+-270	πλείων Ἅιδης 
+-270	κόγχος Ζεφυρῖτις παλαιός Κύπρις σεληναῖος ἄνθεμα πρότερος ἔχω ναυτίλος πέλαγος ἐπιπλέω ἀάω τείνω οἰκεῖος λαῖφος πρότονοι γαληναίη λιπαρός θεός οὖλος ἐρέσσω πούς ἔργον ὄνομα συμφέρω ἐφέζομαι θίς ἰουλίς γίγνομαι περίσκεπτος παίγνιον Ἀρσινόη θαλάμη ἄπνοος τίκτω νοτερός ὤεον 
+-270	Κλεινίης θυγάτηρ δίδημι χάρις 
+-270	οἶδα ἐσθλός ῥέζω Σμύρνα Αἰολεύς 
+-270	κόγχος Ζεφυρῖτις παλαιός Κύπρις σεληναῖος ἄνθεμα πρότερος ἔχω ναυτίλος πέλαγος ἐπιπλέω ἀάω τείνω οἰκεῖος λαῖφος πρότονοι γαληναίη λιπαρός θεός οὖλος ἐρέσσω πούς ἔργον ὄνομα συμφέρω ἐφέζομαι θίς ἰουλίς γίγνομαι περίσκεπτος παίγνιον Ἀρσινόη θαλάμη ἄπνοος τίκτω νοτερός ὤεον 
+-270	Κλεινίης θυγάτηρ δίδημι χάρις 
+-270	οἶδα ἐσθλός ῥέζω Σμύρνα Αἰολεύς 
+-270	Σάμιος πόνος δόμος ποτός θεῖος ἀοιδός δέχομαι κλέω Εὔρυτος ὅσος πάσχω ξανθός Ὁμήρειον καλέω γράμμα 
+-270	Κρεώφυλος Ζεύς φίλος μέγας 
+-270	Σάμιος πόνος δόμος ποτός θεῖος ἀοιδός δέχομαι κλέω Εὔρυτος ὅσος πάσχω ξανθός Ὁμήρειον καλέω γράμμα 
+-270	Κρεώφυλος Ζεύς φίλος μέγας 
+-270	στήλη μητρυιά μικρός λίθος στέφω κόρος βίος ἀλλάσσω τρόπος οἴομαι 
+-270	τάφος κατακτείνω παῖς πίπτω 
+-270	φεύγω μητρυιά τάφος πρόγονος 
+-270	στήλη μητρυιά μικρός λίθος στέφω κόρος βίος ἀλλάσσω τρόπος οἴομαι 
+-270	τάφος κατακτείνω παῖς πίπτω 
+-270	φεύγω μητρυιά τάφος πρόγονος 
+-270	ἔρχομαι Θεαίτητος καθαρός ὁδός 
+-270	κισσός τεός Βάκχος κέλευθος ἀλέω κῆρυξ βραχύς ὄνομα καιρός φθέγγομαι Ἑλλάς ἀεί σοφία 
+-270	ἔρχομαι Θεαίτητος καθαρός ὁδός 
+-270	κισσός τεός Βάκχος κέλευθος ἀλέω κῆρυξ βραχύς ὄνομα καιρός φθέγγομαι Ἑλλάς ἀεί σοφία 
+-270	μικρός Διόνυσος καλός πράσσω ποιητής ῥῆσις 
+-270	νικάω φημί μακρός ὄις πνέω ἐνδέξιος ἔρομαι πῶς βάλλω φημί σκληρός γίγνομαι 
+-270	μερμηρίζω ἔνδικος γίγνομαι ἔπος 
+-270	ἄναξ βραχυσυλλαβία 
+-270	μικρός Διόνυσος καλός πράσσω ποιητής ῥῆσις 
+-270	νικάω φημί μακρός ὄις πνέω ἐνδέξιος ἔρομαι πῶς βάλλω φημί σκληρός γίγνομαι 
+-270	μερμηρίζω ἔνδικος γίγνομαι ἔπος 
+-270	ἄναξ βραχυσυλλαβία 
+-270	Σάων Δίκων ἱερός ὕπνον κοιμάω 
+-270	θνήσκω λέγω ἀγαθός 
+-270	Σάων Δίκων ἱερός ὕπνον κοιμάω 
+-270	θνήσκω λέγω ἀγαθός 
+-270	δίζω Τίμαρχος Αἵδης πύθω ψυχή πάλιν πῶς δίζω φυλή Πτολεμαίς υἱός πατήρ Παυσανίης 
+-270	δήω εὐσεβής 
+-270	δίζω Τίμαρχος Αἵδης πύθω ψυχή πάλιν πῶς δίζω φυλή Πτολεμαίς υἱός πατήρ Παυσανίης 
+-270	δήω εὐσεβής 
+-270	σύντομος ξένος 
+-270	στίχος μακρός λέγω Ἀρισταῖος Κρής δολιχός 
+-270	σύντομος ξένος 
+-270	στίχος μακρός λέγω Ἀρισταῖος Κρής δολιχός 
+-270	Κύζικος ἔρχομαι ὀλίγος πόνος εὑρίσκω Διδύμη 
+-270	ἀφανής γενεά 
+-270	ἀνιαρός ἐρέω ἔπος ἔμπας λέγω ὧδε ἐπέχω Κριτίης 
+-270	Κύζικος ἔρχομαι ὀλίγος πόνος εὑρίσκω Διδύμη 
+-270	ἀφανής γενεά 
+-270	ἀνιαρός ἐρέω ἔπος ἔμπας λέγω ὧδε ἐπέχω Κριτίης 
+-270	ἦ ἀναπαύω 
+-270	Κυρηναῖος παῖς λέγω 
+-270	νέρθε 
+-270	πολύς σκότος 
+-270	ἄνοδος 
+-270	ψεῦδος 
+-270	Πλούτων 
+-270	μῦθος 
+-270	ἀπόλλυμι 
+-270	λόγος ἀληθινός 
+-270	ἡδύς βούλομαι πελλαῖος βοῦς μέγας Ἅιδης 
+-270	ἦ ἀναπαύω 
+-270	Κυρηναῖος παῖς λέγω 
+-270	νέρθε 
+-270	πολύς σκότος 
+-270	ἄνοδος 
+-270	ψεῦδος 
+-270	Πλούτων 
+-270	μῦθος 
+-270	ἀπόλλυμι 
+-270	λόγος ἀληθινός 
+-270	ἡδύς βούλομαι πελλαῖος βοῦς μέγας Ἅιδης 
+-270	δαίμων εὖ οἶδα αὔριον 
+-270	ἡνίκα Χάρμις ὀφθαλμός χθιζός ἡμέτερος ἕτερος κλαίω θάπτω 
+-270	εἶδον πατήρ χρήμη ἀνιαρός 
+-270	δαίμων εὖ οἶδα αὔριον 
+-270	ἡνίκα Χάρμις ὀφθαλμός χθιζός ἡμέτερος ἕτερος κλαίω θάπτω 
+-270	εἶδον πατήρ χρήμη ἀνιαρός 
+-270	δαίμων ἐπιγιγνώσκω Τιμόθεος πατήρ ἔπειμι ὄνομα στήλη Μήθυμνα τεός 
+-270	ἦ μέγας φημί χήρα ἀνιάομαι πόσις Εὐθυμένης 
+-270	δαίμων ἐπιγιγνώσκω Τιμόθεος πατήρ ἔπειμι ὄνομα στήλη Μήθυμνα τεός 
+-270	ἦ μέγας φημί χήρα ἀνιάομαι πόσις Εὐθυμένης 
+-270	πολύμυθος ἐφίστημι καλός παίω δίζημαι Σάμιος πολλάκις θυγάτηρ ἡδύς συνέριθος ἀεί λάλος 
+-270	ἐνθάδε ὕπνον ὀφείλω 
+-270	πολύμυθος ἐφίστημι καλός παίω δίζημαι Σάμιος πολλάκις θυγάτηρ ἡδύς συνέριθος ἀεί λάλος 
+-270	ἐνθάδε ὕπνον ὀφείλω 
+-270	ὀφείλω γίγνομαι θοός ναῦς 
+-270	παῖς Διοκλείδης Σώπολις στένω 
+-270	ἁλίς πού φέρω νέκυς ὄνομα κενός σῆμα παρέρχομαι 
+-270	ὀφείλω γίγνομαι θοός ναῦς 
+-270	παῖς Διοκλείδης Σώπολις στένω 
+-270	ἁλίς πού φέρω νέκυς ὄνομα κενός σῆμα παρέρχομαι 
+-270	Νάξιος γῆ θνήσκω Λύκος πόντος ναῦς ἅμα ψυχή εἶδον ἀπόλλυμι ἔμπορος πλέω 
+-270	ὑγρός νεκρός ἄλλως ὄνομα τύμβος ἔχω κηρύσσω ἔπος φεύγω θάλασσα συμμίγνυμι ἔριφος ναυτίλος 
+-270	Νάξιος γῆ θνήσκω Λύκος πόντος ναῦς ἅμα ψυχή εἶδον ἀπόλλυμι ἔμπορος πλέω 
+-270	ὑγρός νεκρός ἄλλως ὄνομα τύμβος ἔχω κηρύσσω ἔπος φεύγω θάλασσα συμμίγνυμι ἔριφος ναυτίλος 
+-270	δωδεκέτης παῖς πατήρ ἀποτίθημι ἐνθάδε πολύς ἐλπίς 
+-270	δωδεκέτης παῖς πατήρ ἀποτίθημι ἐνθάδε πολύς ἐλπίς 
+-270	ἠῷος Μελάνιππος θάπτω ἥλιος δύω καταθνήσκω παρθενικός αὐτοχερί 
+-270	ζώω ἀδελφός πῦρ τίθημι τλάω 
+-270	δίδυμος οἶκος εἰσεῖδον κακός πατήρ Ἀρίστιππος κατηφέω Κυρήνη εὔτεκνος χήρα εἶδον δόμος 
+-270	ἠῷος Μελάνιππος θάπτω ἥλιος δύω καταθνήσκω παρθενικός αὐτοχερί 
+-270	ζώω ἀδελφός πῦρ τίθημι τλάω 
+-270	δίδυμος οἶκος εἰσεῖδον κακός πατήρ Ἀρίστιππος κατηφέω Κυρήνη εὔτεκνος χήρα εἶδον δόμος 
+-270	σῆμα φέρω πούς Καλλίμαχος Κυρηναῖος παῖς γενέτης 
+-270	οἶδα ἄμφω 
+-270	πατρίς ὅπλον ἄρχω ἀείδω κρείσσων βασκανία 
+-270	νέμεσις 
+-270	Μοῦσα ὅσος εἶδον ὄμμα παῖς λοξός πολιός ἀποτίθημι φῖλος 
+-270	σῆμα φέρω πούς Καλλίμαχος Κυρηναῖος παῖς γενέτης 
+-270	οἶδα ἄμφω 
+-270	πατρίς ὅπλον ἄρχω ἀείδω κρείσσων βασκανία 
+-270	νέμεσις 
+-270	Μοῦσα ὅσος εἶδον ὄμμα παῖς λοξός πολιός ἀποτίθημι φῖλος 
+-270	Κρής αἰπόλος ἁρπάζω Νύμφης ὄρος ἱερός 
+-270	δρῦς Δάφνις ποιμήν ἀεί ἀείδω 
+-270	Κρής αἰπόλος ἁρπάζω Νύμφης ὄρος ἱερός 
+-270	δρῦς Δάφνις ποιμήν ἀεί ἀείδω 
+-270	εἶπον Ἥλιος χαίρω Κλεόμβροτος ἅλλομαι ὑψηλός τεῖχος Ἅιδης ἄξιος εἶδον θάνατος κακός Πλάτων ψυχή γράμμα ἀναλέγω 
+-270	εἶπον Ἥλιος χαίρω Κλεόμβροτος ἅλλομαι ὑψηλός τεῖχος Ἅιδης ἄξιος εἶδον θάνατος κακός Πλάτων ψυχή γράμμα ἀναλέγω 
+-270	ἥρως Ἠετίων ἐπίσταθμος ἱδρύω μικρός μικρός πρόθυρον λοξός ὄφις μόνος ἔχω ξίφος 
+-270	ἀνδρίς Ἐπειός θυμόω πεζός παροικίζω 
+-270	ἥρως Ἠετίων ἐπίσταθμος ἱδρύω μικρός μικρός πρόθυρον λοξός ὄφις μόνος ἔχω ξίφος 
+-270	ἀνδρίς Ἐπειός θυμόω πεζός παροικίζω 
+-270	ὄμνυμι Καλλίγνωτος Ἰωνίς μήποτε ἔχω φίλος κρείσσων φίλος 
+-270	ὄμνυμι 
+-270	λέγω ἀληθής ἔρως ὅρκος δύω οὖς ἀθάνατος 
+-270	ἀρσενικόν θέρω πῦρ 
+-270	τάλας νύμφη Μεγάρη λόγος ἀριθμός 
+-270	ὄμνυμι Καλλίγνωτος Ἰωνίς μήποτε ἔχω φίλος κρείσσων φίλος 
+-270	ὄμνυμι 
+-270	λέγω ἀληθής ἔρως ὅρκος δύω οὖς ἀθάνατος 
+-270	ἀρσενικόν θέρω πῦρ 
+-270	τάλας νύμφη Μεγάρη λόγος ἀριθμός 
+-270	ἔχω μικρός ὀλίγος βίος δεινός ῥέζω ἀδικέω 
+-270	γαῖα φίλος πονηρός ἐπαινέω κοῦφος γίγνομαι δαίμων ὄις ἔχω 
+-270	ἔχω μικρός ὀλίγος βίος δεινός ῥέζω ἀδικέω 
+-270	γαῖα φίλος πονηρός ἐπαινέω κοῦφος γίγνομαι δαίμων ὄις ἔχω 
+-270	Ἡσίοδος ἄεισμα τρόπος 
+-270	ἀοιδός σχέθω ὀκνέω μελιχρός ἔπος 
+-270	χαίρω λεπτός ῥῆσις Ἄρητος σύντονος ἀγρυπνία 
+-270	Ἡσίοδος ἄεισμα τρόπος 
+-270	ἀοιδός σχέθω ὀκνέω μελιχρός ἔπος 
+-270	χαίρω λεπτός ῥῆσις Ἄρητος σύντονος ἀγρυπνία 
+-270	ἐχθαίρω ποίημα κυκλικός κέλευθος χαίρω πολύς ὧδε φέρω μισέω περίφοιτος ἐράομαι κρήνη πίνω 
+-270	δημόσιος 
+-270	Λυσανίας καλός καλός πρίν εἶπον σαφής Ἠχώ φημί ἔχω 
+-270	ἐχθαίρω ποίημα κυκλικός κέλευθος χαίρω πολύς ὧδε φέρω μισέω περίφοιτος ἐράομαι κρήνη πίνω 
+-270	δημόσιος 
+-270	Λυσανίας καλός καλός πρίν εἶπον σαφής Ἠχώ φημί ἔχω 
+-270	ἔγχος πάλιν εἶπον Διοκλέης 
+-270	Ἀχελῷος ἱερά αἰσθάνομαι κύαθος 
+-270	καλός Ἀχελῷος λίαν καλός φημί ἐφίστημι μόνος καλός 
+-270	ἔγχος πάλιν εἶπον Διοκλέης 
+-270	Ἀχελῷος ἱερά αἰσθάνομαι κύαθος 
+-270	καλός Ἀχελῷος λίαν καλός φημί ἐφίστημι μόνος καλός 
+-270	Θεσσαλικός Κλεόνικος τάλας τάλας ὀξύς ἥλιος γιγνώσκω 
+-270	σχέτλιος πού γίγνομαι 
+-270	ὀστέον μόνος θρίξ 
+-270	ἦ δαίμων ἔχω χαλεπός ἄντομαι θεομορία 
+-270	γιγνώσκω 
+-270	Εὐξίθεος συναρπάζω ἔρχομαι καλός μοχθηρός βλέπω ἀμφότερος 
+-270	Θεσσαλικός Κλεόνικος τάλας τάλας ὀξύς ἥλιος γιγνώσκω 
+-270	σχέτλιος πού γίγνομαι 
+-270	ὀστέον μόνος θρίξ 
+-270	ἦ δαίμων ἔχω χαλεπός ἄντομαι θεομορία 
+-270	γιγνώσκω 
+-270	Εὐξίθεος συναρπάζω ἔρχομαι καλός μοχθηρός βλέπω ἀμφότερος 
+-270	Ἐπικύδης ὄρος λαγῶς διφάω ἴχνιον δορκαλίς νιφετός χράω εἶπον τῆ βάλλω θηρίον λάπτω 
+-270	ἔρος τοιόσδε 
+-270	φεύγω διώκω οἶδα μέσος κεῖμαι 
+-270	Ἐπικύδης ὄρος λαγῶς διφάω ἴχνιον δορκαλίς νιφετός χράω εἶπον τῆ βάλλω θηρίον λάπτω 
+-270	ἔρος τοιόσδε 
+-270	φεύγω διώκω οἶδα μέσος κεῖμαι 
+-270	οἶδα πλοῦτος κενός κενός χείρ Μένιππος λέγω Χάρις ὄνειρος 
+-270	ἀλγέω ἔπος πικρός ἀκούω 
+-270	ναί φίλος ἀνέραστος 
+-270	οἶδα πλοῦτος κενός κενός χείρ Μένιππος λέγω Χάρις ὄνειρος 
+-270	ἀλγέω ἔπος πικρός ἀκούω 
+-270	ναί φίλος ἀνέραστος 
+-270	Ἄρτεμις ἄγαλμα ἵζω 
+-270	δέχομαι πότνια σαόω 
+-270	Ἄρτεμις ἄγαλμα ἵζω 
+-270	δέχομαι πότνια σαόω 
+-270	λεοντάγχης ἄναξ συοκτόνος φήγινος ὄζος τίθημι 
+-270	Ἀρχῖνος 
+-270	ποῖος 
+-270	Κρής 
+-270	δέχομαι 
+-270	λεοντάγχης ἄναξ συοκτόνος φήγινος ὄζος τίθημι 
+-270	Ἀρχῖνος 
+-270	ποῖος 
+-270	Κρής 
+-270	δέχομαι 
+-270	σῆμα φέρω πούς εὖ ἀοιδός οἶδα εὖ οἶνον καίριος συγγελάω 
+-270	σῆμα φέρω πούς εὖ ἀοιδός οἶδα εὖ οἶνον καίριος συγγελάω 
+-270	Λύκτιος τόξον ἐπεῖπον τίθημι τῆ κέρας δίδωμι φαρέτρα Σάραπις 
+-270	ὀιστός ἔχω Ἑσπερίτης 
+-270	Λύκτιος τόξον ἐπεῖπον τίθημι τῆ κέρας δίδωμι φαρέτρα Σάραπις 
+-270	ὀιστός ἔχω Ἑσπερίτης 
+-270	δῶρον Ἀφροδίτη Σῖμος περίφοιτος εἰκών τίθημι μίτρα μαστός φιλέω πανός ἐφοράω τάλας θύρσος 
+-270	δῶρον Ἀφροδίτη Σῖμος περίφοιτος εἰκών τίθημι μίτρα μαστός φιλέω πανός ἐφοράω τάλας θύρσος 
+-270	Πυλαία Πελασγός Ἀκρίσιος ναός δέμω Ναυκρατίτης κάτος θυγάτηρ δῶρον Τιμόδημος ἵζω κέρδος δεκάτευμα 
+-270	εὔχομαι 
+-270	Πυλαία Πελασγός Ἀκρίσιος ναός δέμω Ναυκρατίτης κάτος θυγάτηρ δῶρον Τιμόδημος ἵζω κέρδος δεκάτευμα 
+-270	εὔχομαι 
+-270	Δημήτηρ πάλιν Κάβειροι ἀνήρ μετέπειμι Δινδυμήνη γραῦς γίγνομαι κόνις πολύς προστασία νέος γυνή 
+-270	τέκνον γίγνομαι δύη ἄρσην χείρ 
+-270	ἕρπω χαίρω 
+-270	Δημήτηρ πάλιν Κάβειροι ἀνήρ μετέπειμι Δινδυμήνη γραῦς γίγνομαι κόνις πολύς προστασία νέος γυνή 
+-270	τέκνον γίγνομαι δύη ἄρσην χείρ 
+-270	ἕρπω χαίρω 
+-270	ἥμισυς ψυχή πνέω ἥμισυς οἶδα εἴτε ἔρος εἴτε Ἅιδης ἁρπάζω ἀφανής 
+-270	ἦ παῖς πάλιν 
+-270	ἀπεῖπον πολλάκις δρηστήρ ὑποδέχομαι νέος 
+-270	ἐκεῖσε λιθόλευστος δύσερως οἶδα πού στρέφω 
+-270	ἥμισυς ψυχή πνέω ἥμισυς οἶδα εἴτε ἔρος εἴτε Ἅιδης ἁρπάζω ἀφανής 
+-270	ἦ παῖς πάλιν 
+-270	ἀπεῖπον πολλάκις δρηστήρ ὑποδέχομαι νέος 
+-270	ἐκεῖσε λιθόλευστος δύσερως οἶδα πού στρέφω 
+-270	ἑκών Ἀρχῖνος ἐπικωμάζω μυρίος μέμφομαι ἀέκων ἥκω προπέτεια ἀίω 
+-270	ἄκρατος ἔρως ἀναγκάζω ἕλκω ἀίω προπέτεια ἀίω 
+-270	ἔρχομαι βοάω φιλέω φλιά 
+-270	ἀδίκημα ἀδικέω 
+-270	ἑκών Ἀρχῖνος ἐπικωμάζω μυρίος μέμφομαι ἀέκων ἥκω προπέτεια ἀίω 
+-270	ἄκρατος ἔρως ἀναγκάζω ἕλκω ἀίω προπέτεια ἀίω 
+-270	ἔρχομαι βοάω φιλέω φλιά 
+-270	ἀδίκημα ἀδικέω 
+-270	ἕλκος ἔχω ξένος λανθάνω 
+-270	ἀνιαρός πνεῦμα στῆθος εἶδον ἀνάγω τρίτος ἡνίκα πίνω ῥόδον φυλλοβολέω ἀνήρ στέφανος γίγνομαι χαμαί 
+-270	ὀπτάω μέγας 
+-270	δαίμων ῥυθμός εἰκάζω φώρ ἴχνιον φώρ μανθάνω 
+-270	ἕλκος ἔχω ξένος λανθάνω 
+-270	ἀνιαρός πνεῦμα στῆθος εἶδον ἀνάγω τρίτος ἡνίκα πίνω ῥόδον φυλλοβολέω ἀνήρ στέφανος γίγνομαι χαμαί 
+-270	ὀπτάω μέγας 
+-270	δαίμων ῥυθμός εἰκάζω φώρ ἴχνιον φώρ μανθάνω 
+-270	ναί Πάν κρύπτω ταύτῃ ναί Διόνυσος πῦρ σποδιά 
+-270	θαρσέω 
+-270	περιπλέκω 
+-270	πολλάκις λανθάνω τοῖχος ὑποτρώγω ἡσύχιος ποταμός 
+-270	δείδω Μενέξενος παρεισδύνω σιγέρπης ἔρως βάλλω 
+-270	ναί Πάν κρύπτω ταύτῃ ναί Διόνυσος πῦρ σποδιά 
+-270	θαρσέω 
+-270	περιπλέκω 
+-270	πολλάκις λανθάνω τοῖχος ὑποτρώγω ἡσύχιος ποταμός 
+-270	δείδω Μενέξενος παρεισδύνω σιγέρπης ἔρως βάλλω 
+-270	λαμβάνω περιφεύγω εἶπον πάνημος εἰκάς δέκατος ἔρχομαι βοῦς ἄροτρον ἑκούσιος 
+-270	εὖ Ἑρμῆς εὖ 
+-270	εἴκοσι μέμφομαι 
+-270	λαμβάνω περιφεύγω εἶπον πάνημος εἰκάς δέκατος ἔρχομαι βοῦς ἄροτρον ἑκούσιος 
+-270	εὖ Ἑρμῆς εὖ 
+-270	εἴκοσι μέμφομαι 
+-270	ἀγαθός πολύφαμος ἀνευρίσκω ἐπαοιδή ἀράομαι 
+-270	ναί Γαῖα ἀμαθής Κύκλωψ 
+-270	Μοῦσα ἔρως κατισχναίνω Φίλιππος 
+-270	ἦ πανακής φάρμακον σοφία 
+-270	δοκέω λιμός ἔχω μόνος πονηρός ἀγαθός 
+-270	ἐκκόπτω φιλόπαις νόσος 
+-270	ἔσθω ἀφειδής ἔρως 
+-270	παῖς κείρω πτερόν παιδάριον ὅσος ἀττάραγος 
+-270	ἐπῳδή οἴκοι χαλεπός τραῦμα ἀμφότερος 
+-270	ἀγαθός πολύφαμος ἀνευρίσκω ἐπαοιδή ἀράομαι 
+-270	ναί Γαῖα ἀμαθής Κύκλωψ 
+-270	Μοῦσα ἔρως κατισχναίνω Φίλιππος 
+-270	ἦ πανακής φάρμακον σοφία 
+-270	δοκέω λιμός ἔχω μόνος πονηρός ἀγαθός 
+-270	ἐκκόπτω φιλόπαις νόσος 
+-270	ἔσθω ἀφειδής ἔρως 
+-270	παῖς κείρω πτερόν παιδάριον ὅσος ἀττάραγος 
+-270	ἐπῳδή οἴκοι χαλεπός τραῦμα ἀμφότερος 
+-270	ἁλίη Εὔδημος ἅλς λιτός ἐφίημι χειμών μέγας ἐκφεύγω δάνος τίθημι θεός λέγω εὐχή λαός σώζω ἅλς ὧδε ἔθω 
+-270	ἁλίη Εὔδημος ἅλς λιτός ἐφίημι χειμών μέγας ἐκφεύγω δάνος τίθημι θεός λέγω εὐχή λαός σώζω ἅλς ὧδε ἔθω 
+-270	εὐμάθεια αἰτέω δίδωμι Σῖμος Μοῦσα 
+-270	Γλαύκος δίδωμι ὀλίγος μέγας δῶρον 
+-270	χάσκω κεῖμαι Σάμιος διπλόος τραγικός παιδάριον Διόνυσος ἐπήκοος 
+-270	λέγω ἱερός πλόκαμος ὄνειαρ 
+-270	εὐμάθεια αἰτέω δίδωμι Σῖμος Μοῦσα 
+-270	Γλαύκος δίδωμι ὀλίγος μέγας δῶρον 
+-270	χάσκω κεῖμαι Σάμιος διπλόος τραγικός παιδάριον Διόνυσος ἐπήκοος 
+-270	λέγω ἱερός πλόκαμος ὄνειαρ 
+-270	λέγω ξένος κωμικός ὄντως ἀνάκειμαι νίκη μάρτυς Πάμφιλος ἕνος ἔρως δάκνω ἥμισυς ὀπτός ἰσχάς λύχνον Ἴσις εἴδομαι 
+-270	λέγω ξένος κωμικός ὄντως ἀνάκειμαι νίκη μάρτυς Πάμφιλος ἕνος ἔρως δάκνω ἥμισυς ὀπτός ἰσχάς λύχνον Ἴσις εἴδομαι 
+-270	Φρύγιος ἀγαθός γάλα ἐσθλός ζωή γηροκομέω φθίω ἀνατίθημι ἔπειμι ὁράω γραῦς μαστός ἀπέχω 
+-270	Φρύγιος ἀγαθός γάλα ἐσθλός ζωή γηροκομέω φθίω ἀνατίθημι ἔπειμι ὁράω γραῦς μαστός ἀπέχω 
+-270	τέσσαρες Χάρις 
+-270	τρεῖς ἄρτι προσπλάσσω μῦρος νοτέω 
+-270	εὐαίων Βερενίκη Χάρις Χάρις 
+-270	τέσσαρες Χάρις 
+-270	τρεῖς ἄρτι προσπλάσσω μῦρος νοτέω 
+-270	εὐαίων Βερενίκη Χάρις Χάρις 
+-270	καλός μελαίνω Θεόκριτος ἔχθος τετράκις μισέω φιλέω φιλέω 
+-270	εὐχαίτης Γανυμήδης οὐράνιος Ζεύς ἀράζω μακρός λέγω 
+-270	καλός μελαίνω Θεόκριτος ἔχθος τετράκις μισέω φιλέω φιλέω 
+-270	εὐχαίτης Γανυμήδης οὐράνιος Ζεύς ἀράζω μακρός λέγω 
+-270	πάλιν Εἰλήθυια λυκαινίς ἔρχομαι καλέω εὔλυρος ὠδίς ὧδε εὐτοκία ἄνασσα κόρη παῖς ὕστερος εὐώδης ναός ἔχω 
+-270	πάλιν Εἰλήθυια λυκαινίς ἔρχομαι καλέω εὔλυρος ὠδίς ὧδε εὐτοκία ἄνασσα κόρη παῖς ὕστερος εὐώδης ναός ἔχω 
+-270	χρέος ἀπέχω Ἀσκληπιός γυνή ὀφείλω εὔχομαι γιγνώσκω 
+-270	λανθάνω πάλιν ἀπαιτέω φημί παρέχω μαρτυρία πίναξ 
+-270	χρέος ἀπέχω Ἀσκληπιός γυνή ὀφείλω εὔχομαι γιγνώσκω 
+-270	λανθάνω πάλιν ἀπαιτέω φημί παρέχω μαρτυρία πίναξ 
+-270	εἴκοσι μύξα πλούσιος Κριτίης λύχνον τίθημι θεός εὔχομαι παῖς 
+-270	φέγγος ἀθρέω φάσις Ἕσπερος πῶς πίπτω 
+-270	εἴκοσι μύξα πλούσιος Κριτίης λύχνον τίθημι θεός εὔχομαι παῖς 
+-270	φέγγος ἀθρέω φάσις Ἕσπερος πῶς πίπτω 
+-270	φημί ἵστημι Εὐαίνετος γιγνώσκω νίκη ἴδιος ἀνάκειμαι χάλκειος ἀλέκτωρ Τυνδάρεος 
+-270	πιστεύω Φαῖδρας παῖς 
+-270	φημί ἵστημι Εὐαίνετος γιγνώσκω νίκη ἴδιος ἀνάκειμαι χάλκειος ἀλέκτωρ Τυνδάρεος 
+-270	πιστεύω Φαῖδρας παῖς 
+-270	ἵστημι Ἴσις Θάλης Εἰρήνη μήτηρ ὑποσχεσίη 
+-270	ἵστημι Ἴσις Θάλης Εἰρήνη μήτηρ ὑποσχεσίη 
+-270	ξένος ναυαγός 
+-270	Λεόντιχος ἐνθάδε νεκρός εὑρίσκω αἰγιαλός χόω τάφος δακρύω ἐπίκηρος ἑός βίος 
+-270	ἥσυχος αἴθυια ἴσος θαλασσοπορέω 
+-270	ξένος ναυαγός 
+-270	Λεόντιχος ἐνθάδε νεκρός εὑρίσκω αἰγιαλός χόω τάφος δακρύω ἐπίκηρος ἑός βίος 
+-270	ἥσυχος αἴθυια ἴσος θαλασσοπορέω 
+-270	εὐδαίμων μαίνομαι Ὀρέστης μαίνομαι μανία λαμβάνω ἐξέτασις Φωκεύς ἐλέγχω φίλος 
+-270	δρᾶμα διδάσκω μόνος ἦ τάχα ἑταῖρος ἀπόλλυμι ποιέω τώς πολύς ἔχω Πυλάδης 
+-270	εὐδαίμων μαίνομαι Ὀρέστης μαίνομαι μανία λαμβάνω ἐξέτασις Φωκεύς ἐλέγχω φίλος 
+-270	δρᾶμα διδάσκω μόνος ἦ τάχα ἑταῖρος ἀπόλλυμι ποιέω τώς πολύς ἔχω Πυλάδης 
+-270	παρέρπω σῆμα Κίμων οἶδα παῖς παρέρχομαι 
+-270	παρέρπω σῆμα Κίμων οἶδα παῖς παρέρχομαι 
+-270	Αἴνιος ὧδε πολύς 
+-270	ξένος λῷστος κατεργάζομαι 
+-270	ἦ Κένταυρος 
+-270	πόρω ὕπνος ἔρχομαι τλήμων οἶνος ἔχω πρόφασις 
+-270	Αἴνιος ὧδε πολύς 
+-270	ξένος λῷστος κατεργάζομαι 
+-270	ἦ Κένταυρος 
+-270	πόρω ὕπνος ἔρχομαι τλήμων οἶνος ἔχω πρόφασις 
+-270	θαρσέω Κρής Ὀρτυγία τόξον Ἄρτεμις κενόω ὄρος μέγας 
+-270	παύω αἴξ σπονδή θεός ἐργάζομαι 
+-270	θαρσέω Κρής Ὀρτυγία τόξον Ἄρτεμις κενόω ὄρος μέγας 
+-270	παύω αἴξ σπονδή θεός ἐργάζομαι 
+-270	ὑπνάω κωνώπιον ποιέω κοιμάω ψυχρός πρόθυρον 
+-270	ὑπνάω ἄδικος ἐραστής κοιμίζω ἔλεος ὄναρ ἀντιάω 
+-270	γείτων οἰκτείρω ὄναρ 
+-270	πολιά αὐτίκα ἀναμιμνήσκω κόμη 
+-270	ὑπνάω κωνώπιον ποιέω κοιμάω ψυχρός πρόθυρον 
+-270	ὑπνάω ἄδικος ἐραστής κοιμίζω ἔλεος ὄναρ ἀντιάω 
+-270	γείτων οἰκτείρω ὄναρ 
+-270	πολιά αὐτίκα ἀναμιμνήσκω κόμη-270	ῥόδον δροσόεις κατάπυκνος ἕρπυλλος κέω μελάμφυλλος δάφνη Πύθιος Παιάν δελφίς πέτρα ἀγλαίζω 
+-270	βωμός κεραός τράγος μαλός τέρμινθος τρώγω σχέθω ἀκρέμων 
+-270	Δάφνις λευκόχρως καλός σῦριγξ μελίσσω βουκολικός ὕμνος ἀνατίθημι Πάν τρητός δόναξ ὀξύς ἄκων νεβρίς πήρα 
+-270	εὕδω φυλλόστρωτος πέδον Δάφνις σῶμα κάμνω ἀναπαύω 
+-270	στάλιξ ἀρτιπαγής ὄρος 
+-270	ἀγρεύω Πάν κροκόεις Πρίαπος κισσός ἱμερτός κράς καθάπτω ἄντρον ἔσω στείχω ὁμόρροθος 
+-270	φεύγω φεύγω μεθίημι ὕπνον κῶμα καταγείρω 
+-270	λαύρα δρῦς αἰπόλος κάμπτω σύκινος εὑρίσκω ἀρτιγλυφής ξόανον τρισκελής αὐτόφλοιος ἀνούατος παιδογόνος δυνατός Κύπρις ἔργον τέλλω 
+-270	σακός ἱερός περιτρέχω ἀέναος ῥεῖθρον σπιλάς πάντοσε τηλεθάω δάφνη μύρτον εὐώδης κυπάρισσος 
+-270	ἔνθα χέω βοτρυόπαις ἕλιξ ἄμπελος ἐαρινός λιγύφθογγος ἀοιδός κόσσυφος ἠχώ ποικιλότραυλος μέλη 
+-270	ξουθός ἀηδονίς μινύρισμα ἀντηχέω μέλπω στόμα μελίγηρυς ὄψ 
+-270	ἕζομαι τηνεῖ χαρίεις Πρίαπος εὔχομαι ἀποστέργω Δάφνις πόθος εὐθύς ἐπιρρέζω χίμαρος καλός 
+-270	ἀνάνευσις τυγχάνω ἐθέλω τρισσός θύα τελέω 
+-270	ῥέζω δάμαλις λάσιον τράγος ἀρνός ἴσχω σηκίτης 
+-270	ἀίω εὐμενής θεός 
+-270	λάω τᾶν Νύμφης δίδυμος αὐλός ἄημι ἡδύς 
+-270	πηκτίς ἀείρω ἄρχω κρέκω βουκόλος ἄμμιγα Δάφνις κηρόδετος πνεῦμα μέλπω 
+-270	ἐγγύς ἵστημι λάσιος δρῦς ἄντρον ὄπισθεν Πάν αἰγιβάτης ὀρφανίζω ὕπνον 
+-270	πλέος κατατάσσω δάκρυον δίγληνος ὤψ ὀδύρομαι 
+-270	οἴχομαι χίμαρος καλός τέκος οἴχομαι 
+-270	τραχύς ἀμφιπιέζω λύκος 
+-270	κύων κλαγγέω 
+-270	πλέος ἡνίκα ὀστέον τέφρα λείπω οἴχομαι 
+-270	νήπιος υἱός λείπω ἁλικία τύμβος θνήσκω τυγχάνω 
+-270	ἕδρα θεῖος ἀνήρ 
+-270	πολίτης τιμάω πατήρ μνάομαι ἀγαθός 
+-270	Μίλητος Παιάν υἱός ἰατήρ νόσος ἀνδρίς συμφέρω Νικίας ἦμαρ ἀεί θύος ἱκνέομαι εὐώδης γλύφω ἄγαλμα κέδρον χάρις γλαφυρός χείρ ἄκρος ὑφίστημι μισθός 
+-270	ἔργον ἀφήκω τέχνη 
+-270	ξένος Συρακόσιος ἀνήρ 
+-270	χειμέριος μεθύω μηδαμός νύξ ἴα 
+-270	ἔχω πότμος 
+-270	πολύς πατρίς ὀθνεῖος κεῖμαι ἐφίζω 
+-270	θεά χαρίζομαι ἐννέα ἄγαλμα Ξενοκλέης τίθημι μαρμάρινος μουσικός 
+-270	ἑτέρως ἐράομαι 
+-270	σοφία αἶνος ἔχω Μοῦσα ἐπιλανθάνομαι 
+-270	μνῆμα 
+-270	φυσιγνώμων σοφιστής δεινός ὀφθαλμός νόημα μανθάνω 
+-270	εὖ θάπτω ἑταῖρος ξένος ξένος 
+-270	δαιμόνιος φίλος 
+-270	ἐπέοικε ἔχω θνήσκω σοφιστής ἄκικυς ἔοικα κηδεμών 
+-270	χορηγός τρίπους Διόνυσος ἡδύς θέα μάκαρος ἀνατίθημι μέτριος χορός κτάομαι νίκη ἀνήρ καλός προσήκω ὁράω 
+-270	Κύπρις πάνδημος 
+-270	ἱλάομαι θεός εἶπον οὐράνιος ἁγνός ἄνθεμα οἶκος τέκνον βίος ἔχω ξυνός 
+-270	ἀεί λωίων ἔτος ἄρχω πότνια 
+-270	κήδω ἀθάνατος πλέως ἔχω βροτός 
+-270	ξένος ἴσος νέμω τράπεζα 
+-270	τίθημι ἀναιρέω ψῆφος λόγος ἔρχομαι 
+-270	πρόφασις λέγω 
+-270	ὀθνεῖος χρῆμα νύξ βούλομαι ἀριθμέω 
+-270	γιγνώσκω νέμω ἀγαθός πλέος δειλός ἴσος ὁδοιπόρος ἔχω 
+-270	χαίρω τύμβος ἐρέω Εὐρυμέδων κέω ἱερά κοῦφος κεφαλή 
+-270	ὀίζω ἄωρος ἕβδομος ἐνιαυτός πολύς ἡλικία πρότερος δείλαιος ποθέω εἰκοσάμηνος ἀδελφός νήπιος ἄστοργος γεύω θάνατος 
+-270	ἐλεεινός πάσχω ἑτοῖμος ἄνθρωπος δαίμων τίθημι λυγρός 
+-270	θάομαι ἀνδριάς ξένος σπουδή λέγω οἶκος ἔρχομαι 
+-270	εἰκών εἶδον Τέως πρόσθεν περισσός ᾠδοποιός 
+-270	προστίθημι νέος ἁνδάνω ἐρέω ἀτρεκής ὅλος ἀνήρ 
+-270	φωνή Δώριος κωμῳδία 
+-270	Βάκχος χάλκεος ἀληθινός ὧδε ἀνατίθημι ἐνιδρύω πόλις οἷος ἀνδρίς πολίτης 
+-270	σωρός ἔχω ῥῆμα τέλλω ἐπίχειρα 
+-270	πολύς ζόη εἶπον χρήσιμος 
+-270	μέγας χάρις 
+-270	μουσοποιός κέω 
+-270	πονηρός προσέρχομαι τύμβος 
+-270	κρήγυος χρηστός θάρσος καθίζω ἐθέλω ἀποβρίζω 
+-270	μικκός τεύχω Μήδειος μνῆμα ὁδός ἐπιγράφω Κλείτη 
+-270	ἔχω χάρις γυνή κόρος τρέφω 
+-270	χρήσιμος καλέω 
+-270	ἵστημι εἰσεῖδον πάλαι ποιητός ἴαμβος μυρίος κλέος διέρχομαι νύξ ἠώς 
+-270	ἦ Μοῖσα Δήλιος ἐμμελής γίγνομαι ἐπίδεξις ἔπος ποιέω λύρα ἀείδω 
+-270	υἱός ἀνήρ ὀξύχειρ πρᾶτος ἐπάνωθεν μουσοποιός Πείσανδρος συγγράφω εἶπος ἆθλος 
+-270	δῆμος σάφα οἶδα ἵστημι ἐνθάδε χάλκεος ποιέω πολύς μείς ὄπισθεν ἐνιαυτός 
+-270	ἀνήρ αἰτέω ἐπαγροσύνη ὄλβος ἅλς ζωή δίκτυον ἄροτρον σφάζω ἀκρόνυχος θεός ἱερός ἰχθύς λεῦκος καλέω λίνον ἵστημι ἐξερύω θάλασσα ἔμπλεος 
+-270	μήτηρ τίπτε ὧδε φίλος θυμός ἰάπτω ἔκπαγλος ἀχέω πρίν ἔρευθος ῥέθος 
+-270	τόσος ἀνιάομαι 
+-270	ἦ ἄλγος πάσχω ἀπείριτος φαίδιμος υἱός ἀνήρ οὐτιδανός λέων νεβρός 
+-270	θεός τόσος ἀτιμάω ἀθάνατος 
+-270	ὧδε κακός γονεύς τίκτω αἶσις 
+-270	δύσμορος ἀνήρ ἀμύμων λέχος ἔρχομαι τίω ἴσος φάος σέβομαι αἰδέομαι θυμός 
+-270	γίγνομαι ἄποτμος ζάω τόσος σφέτερος γεύω φρόντισις κῆδος 
+-270	σχέτλιος τόξον πόρω Κήρ αἰνός βέλεμνον παῖς ἑός κατέπεφνον φίλος αἱρέω θυμός μαίνομαι οἶκος ἔμπλεος φόνος 
+-270	δύστηνος εἶδον ὀφθαλμός βάλλω πατήρ 
+-270	ὄναρ ἔρχομαι 
+-270	δύναμαι ἀδινός καλέω ἀρήγω μήτηρ ἑός ἐγγύς ἀνίκητος κακός 
+-270	ὄρνις ὀδύρομαι σφέτερος νεοσσός ὄλλυμι αἰνός ὄφις νηπιάχω θάμνος πυκινός κατεσθίω 
+-270	πωτάομαι κλάζω μάλα λιγύς πότνια μήτηρ ἔχω τέκνον ἐπαρκέω 
+-270	ἦ ἆσσον εἶμι μέγας τάρβος ἀμείλικτος πέλωρον 
+-270	αἰνοτόκεια φίλος γόνος αἰάζω μαίνομαι πούς δόμος πολύς φοιτάω 
+-270	ὀφείλω παῖς ἅμα θνήσκω κέω φαρμακόεις ἥπατος ἰός ἔχω ἀγανός βέλος δαμάω θῆλυς μέγας κρείουσα γυνή 
+-270	κλαίω χείρ τοκεύς πολύς κτέρεα πυρεύς ἐπιβαίνω ὅμοιος ἕνος χρύσεος ὀστέον κρωσσός λέγω καταθάπτω ὅθι πρότερος γίγνομαι 
+-270	Θήβη ἱπποτρόφος ἐνναίω πέδιον βαθύς βῶλος ἀείρω 
+-270	Τίρυνς κραναός πολύς δύστηνος ἰάπτω ἄλγος ἦτορ ἀεί ὁμῶς 
+-270	δάκρυον πάρειμι ἴα ἐρωή 
+-270	πόσις ὁράω παῦρος χρόνος ὀφθαλμός οἶκος ἡμέτερος 
+-270	πολύς ἔργον ἑτοῖμος μόχθος γαῖα ἀλάομαι θάλασσα μοχθίζω πέτρα ἔχω νόος σίδηρον καρτερός στῆθος 
+-270	λείβω ὕδωρ νύξ κλαίω Ζεύς ἦμαρ ὁπόσος 
+-270	εὐφραίνω παρίστημι κηδεμών 
+-270	δόμος τεῖχος ἔργω 
+-270	λίαν πέρα ναίω βλέπω γυνή πανάποτμος ἀναψύχω φίλος κῆρ Πύρρα συνομαίμων 
+-270	πόσις σφέτερος πλέος υἱός 
+-270	ὀιζυρός τέκνον γείνομαι θεός ἀνήρ θνητός ἔλπω 
+-270	φημί 
+-270	θαλερός δάκρυον μῆλον κόλπος ἱμερόεις βλέφαρον χάω μιμνήσκω τέκνον μετέπειμι τοκεύς 
+-270	αὔτως δακρύω παρήιον λεύκη διαίνω 
+-270	βαρύς θυμός στενάχω μῦθος πυκινός φίλος νυός ὧδε μεταυδάω 
+-270	δαιμόνιος παῖς φρήν ἐμπίτνω πευκάλιμος 
+-270	πῶς ἐθέλω ὀροθύνω ἄμφω κῆδος ἄλαστος λέγω 
+-270	πρότερος κλαίω 
+-270	ἅλις ἔχω δεύτατος ἀεί ἦμαρ γίγνομαι 
+-270	μάλα φιλοθρηνής ἀίω ἀριθμέω ἡμέτερος ἄχος θαρσέω 
+-270	τοιόσδε κυρέω θεός αἶσις 
+-270	ὁράω φίλος τέκος ἄτρυτος ἄλγος μοχθίζω 
+-270	ἐπιγνώμων ἀσχαλάω εὐφροσύνη κόρος 
+-270	μάλα ἔκπαγλος ὀλοφύρομαι ἐλεαίρω ἡμέτερος λυγρός δαίμων ἔχω ἐφύπερθε κάρα βαρύς αἰωρέω 
+-270	οἶδα κόρη εὐέανος Δημήτηρ μέγας βλάπτω ἑκών ἐπίορκος ὄμνυμι δυσμενέων χερειότερος φρήν ἵημι στέργω ἔρχομαι τηλύγετος δῶμα παρθένος 
+-270	πάμπαν ἔλπω λανθάνω 
+-270	ἐξεῖπον πότις θάλος ἀκηδέω εὔκομος Νιόβη πυκινός κλαίω 
+-270	νεμεσητός τέκνον γοάω μήτηρ δυσπαθέω 
+-270	δέκα μείς κάμνω πρίν ἠπειρωτικός εἶδον ἥπατος ἔχω πυλάρτης σχεδόν ἄγω 
+-270	ὧδε δυστοκέω κακός ὠδίς ἀνατλῆναι 
+-270	οἴχομαι υἱός ἀλλότριος νέος ἆθλον ἐκτελής 
+-270	οἶδα δυσάμμορος εἴτε ἐνθάδε νοστέω ὑποδέχομαι εἴτε 
+-270	πτοέω γλυκύς αἰνός ὄνειρος ὕπνον 
+-270	δειμαίνω παλίγκοτος ὄψις εἶδον ἔκπαγλος τέκνον ἀποθύμιος ἔρδω 
+-270	εἶμι ἔχω μακέλας εὐεργής χείρ ἀμφότερος 
+-270	μέγας λαχαίνω δέχομαι μισθός τάφρος τηλεθάω ἐσχατιά ἀγρός γυμνός χλαῖνα εὔμιτρος χιτών 
+-270	ἀφικνέομαι τέλος ἔργον καρτερός οἰνοφόρον πονέομαι ἕρκος ἀλωεύς λίστρον μέλλω προέχω ἐρείδω ἄνδηρον καταδύνω εἷμα ἕννυμι 
+-270	ἐξαπίνης ἀναλάμπω κάπετος βαθύς πῦρ ἄμοτος ἀθέσφατος εἱλέω φλόξ 
+-270	ἀεί ὄπισθεν θοός ἀναχάζω πούς ἐκφεύγω μέμαα ὀλοός 
+-270	ἀεί ἑός χρώς γέρρον νωμάω μακέλας 
+-270	ὄμμα ἔνθα ἔνθα παπταίνω ἐπίφλεξις δάιος πῦρ 
+-270	ἀοσσέω λελίημαι ἔοικα μεγάθυμος οὖδας καταπίπτω ὀλισθάνω πρίν ἔρχομαι ὀρθός ἀνίστημι δύναμαι αὖθις ἀστεμφής κεῖμαι γέρων ὡσεί ἀμενηνός ἐθέλω βιάω γῆρας ἀτερπής καταπίπτω κέω χθών ἔμπεδος χείρ πάρειμι αἰδέομαι ὄπις τρομερός πολιός γένειον 
+-270	γῆ λιάζομαι 
+-270	κλαίω ἀμηχανάω ὁράω παῖς ἀποσεύω νήδυμος ὕπνος ὀφθαλμός ἠώς παραυτίκα φαινόλις ἔρχομαι 
+-270	τοῖος φίλος ὄνειρος φρήν πτοέω παννύχιος 
 -270	Εὐρυσθεύς τρέπω οἶκος ἡμέτερος γίγνομαι μάντις θυμός τελέω δαίμων

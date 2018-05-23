@@ -387,4 +387,782 @@
 -355	22825 20885 59735 3325 
 -355	86767 15088 38046 24084 36801 67526 67762 38092 63783 18331 101713 64703 110598 3327 45192 95121 18331 1564 74735 63783 
 -355	49908 108802 64512 65967 22825 
+-355	50679 89366 72202 86219 43206 63772 24342-355	None~None 98234	None~None 85306	None~None 114753	None~None 50706	None~None 72610	None~None 34276	None~None 50721	None~None 22209	None~None 20621	None~None 70364	None~None nlsj56179	None~None 24342	None~None 70958	None~None 75005	None~None 50824	None~None 90305	None~None 
+-355	None~None 97555	None~None 94196	None~None 50721	None~None 33631	None~None nlsj2562	None~None 50824	None~None 113060	None~None 7618	None~None 19013	None~None 42214	None~None 33120	None~None 
+-355	None~None 75552	None~None 101089	None~None nlsj65911	None~None 22210	None~None 36644	None~None 47030	None~None 85306	None~None 46712	None~None 77928	None~None nlsj56179	None~None 70958	None~None 11052	None~None nlsj65911	None~None 22210	None~None 50721	None~None 
+-355	None~None 75552	None~None 78309	None~None 80357	None~None 24342	None~None 
+-355	None~None 90504	None~None 22825	None~None 46802	None~None 36827	None~None 50874	None~None 
+-355	None~None 1146	None~None 91947	None~None 24340	None~None 102000	None~None nlsj32160	None~None 27858	None~None 
+-355	None~None 115887	None~None 77699	None~None 93478	None~None 102847	None~None 79526	None~None 67509	None~None 6224	None~None 
+-355	None~None 102000	None~None 90504	None~None 110639	None~None 114615	None~None 86108	None~None 95100	None~None 
+-355	None~None 72287	None~None 76089	None~None 29883	None~None 10923	None~None 77699	None~None nlsj61372	None~None 45996	None~None 108536	None~None 72627	None~None nlsj32160	None~None 48106	None~None 50824	None~None 84423	None~None 76089	None~None 29883	None~None 260	None~None 45996	None~None 52310	None~None 29883	None~None 
+-355	None~None 28566	None~None 260	None~None 114548	None~None 
+-355	None~None 86108	None~None 27858	None~None 90504	None~None 74189	None~None 95100	None~None 
+-355	None~None 80181	None~None 85306	None~None 62528	None~None 26197	None~None 44810	None~None 
+-355	None~None 38547	None~None nlsj32160	None~None 61885	None~None 85982	None~None 74531	None~None 109918	None~None 34522	None~None 74463	None~None 113301	None~None 
+-355	None~None 109918	None~None 90410	None~None 23455	None~None 45996	None~None 113741	None~None 52571	None~None 102386	None~None 73672	None~None 19123	None~None 51358	None~None 64791	None~None 86108	None~None 20028	None~None 8909	None~None 
+-355	None~None 115818	None~None 110639	None~None 94196	None~None 24340	None~None 44844	None~None nlsj61372	None~None 62204	None~None 
+-355	None~None 60766	None~None 115810	None~None 23455	None~None nlsj67620	None~None 74531	None~None 
+-355	None~None 16051	None~None 36229	None~None 7327	None~None 102000	None~None 
+-355	None~None nlsj32160	None~None 10923	None~None 74531	None~None 54217	None~None 60855	None~None 75595	None~None 324	None~None 75005	None~None 2577	None~None 
+-355	None~None 10631	None~None 59034	None~None 6238	None~None 78576	None~None 64866	None~None 94677	None~None 
+-355	None~None 324	None~None 102386	None~None 75595	None~None nlsj32160	None~None 
+-355	None~None 115748	None~None 33740	None~None 60855	None~None 31565	None~None 21308	None~None 31565	None~None 63212	None~None 33457	None~None 50824	None~None 
+-355	None~None 58151	None~None 75595	None~None 80181	None~None 114615	None~None 
+-355	None~None 96744	None~None 102000	None~None 
+-355	None~None 111764	None~None 93388	None~None 80181	None~None 
+-355	None~None nlsj99416	None~None 33457	None~None 6339	None~None 2392	None~None 83834	None~None 60038	None~None 22209	None~None 80175	None~None 94677	None~None 18390	None~None 24132	None~None 
+-355	None~None 112980	None~None 84534	None~None 82643	None~None 18390	None~None 115159	None~None 12409	None~None 50824	None~None 
+-355	None~None 22660	None~None 18980	None~None 91967	None~None 106263	None~None 53015	None~None 30911	None~None 50706	None~None 106263	None~None 45996	None~None 94677	None~None 
+-355	None~None 87146	None~None 114753	None~None 106263	None~None 53015	None~None 22660	None~None 
+-355	None~None 106263	None~None 26886	None~None 43689	None~None 
+-355	None~None 14546	None~None 3346	None~None 50824	None~None nlsj99416	None~None 94677	None~None 79094	None~None 
+-355	None~None 67526	None~None 116216	None~None 80181	None~None 51358	None~None 44856	None~None 8665	None~None 110114	None~None 
+-355	None~None 96602	None~None 83605	None~None 52774	None~None 51366	None~None 37978	None~None 85306	None~None 94677	None~None 110598	None~None 45446	None~None 
+-355	None~None 65757	None~None 96602	None~None 18062	None~None 53224	None~None 88299	None~None 112794	None~None 3986	None~None 75005	None~None 59238	None~None 46804	None~None 61495	None~None 29883	None~None 97603	None~None 56991	None~None 75659	None~None 67762	None~None 93923	None~None 45996	None~None 
+-355	None~None 104624	None~None 6238	None~None 29883	None~None 73517	None~None 86108	None~None 74735	None~None 
+-355	None~None 19871	None~None 46802	None~None 28566	None~None 101851	None~None 45996	None~None 77699	None~None 49397	None~None 29883	None~None 
+-355	None~None 30108	None~None 32964	None~None 104624	None~None 56991	None~None 19871	None~None 50824	None~None 41619	None~None 
+-355	None~None 95100	None~None 114615	None~None 6174	None~None 64791	None~None 22467	None~None nlsj99416	None~None 43206	None~None 
+-355	None~None 43128	None~None 85306	None~None 73672	None~None 22467	None~None 45996	None~None 22209	None~None 
+-355	None~None 65757	None~None 37658	None~None 30040	None~None 64866	None~None 110114	None~None 58353	None~None 83718	None~None 74735	None~None 
+-355	None~None 69100	None~None 7174	None~None 98707	None~None 44809	None~None 4845	None~None 22689	None~None 50824	None~None 12409	None~None 
+-355	None~None 74777	None~None 50824	None~None 50824	None~None 50681	None~None 49423	None~None 45021	None~None 64866	None~None 69100	None~None 
+-355	None~None 59238	None~None 65552	None~None 76028	None~None 67762	None~None 50870	None~None 56991	None~None 14181	None~None 
+-355	None~None 109918	None~None 3694	None~None 6238	None~None 16864	None~None 30700	None~None 116218	None~None 51358	None~None 90347	None~None 79526	None~None 
+-355	None~None 92239	None~None 65757	None~None 27393	None~None 12210	None~None 30072	None~None 64791	None~None nlsj11198	None~None 46712	None~None 
+-355	None~None 83732	None~None 19082	None~None 21651	None~None 71984	None~None 4845	None~None 43719	None~None 51358	None~None 45494	None~None 85306	None~None 50824	None~None 79526	None~None 
+-355	None~None nlsj79694	None~None 75552	None~None 83605	None~None 20885	None~None 104421	None~None nlsj97331	None~None 50824	None~None 89405	None~None 2660	None~None nlsj97331	None~None 74463	None~None 88467	None~None 
+-355	None~None 56567	None~None 67762	None~None 110114	None~None 65552	None~None 66342	None~None 2749	None~None 66342	None~None 16171	None~None 29598	None~None 50824	None~None 79526	None~None 
+-355	None~None nlsj61122	None~None 83605	None~None 114615	None~None 45094	None~None 3295	None~None 83732	None~None 96602	None~None 
+-355	None~None 96560	None~None 59516	None~None 28433	None~None 29883	None~None 74378	None~None 64866	None~None 50824	None~None 79526	None~None 
+-355	None~None 67526	None~None 65757	None~None 75910	None~None 4845	None~None 83542	None~None 22773	None~None 27271	None~None 45996	None~None 74463	None~None 94677	None~None 85306	None~None 108418	None~None 
+-355	None~None 84234	None~None 4845	None~None 22689	None~None 51358	None~None 45996	None~None 108108	None~None 50681	None~None 19789	None~None 
+-355	None~None 102841	None~None 8909	None~None 
+-355	None~None 22100	None~None 2660	None~None 20621	None~None 24522	None~None 64866	None~None 98234	None~None 41619	None~None 2660	None~None 
+-355	None~None 75500	None~None nlsj32160	None~None 65552	None~None 50824	None~None 45996	None~None 91947	None~None 55714	None~None 
+-355	None~None 65757	None~None 56153	None~None 16591	None~None 58151	None~None 60855	None~None 74530	None~None nlsj65911	None~None 62204	None~None 34522	None~None 
+-355	None~None 22825	None~None 20621	None~None 65565	None~None 46802	None~None 14143	None~None 
+-355	None~None 58142	None~None 43977	None~None 22209	None~None 109918	None~None 65552	None~None 22209	None~None 
+-355	None~None 87146	None~None 114753	None~None 103504	None~None 58142	None~None 65565	None~None 64757	None~None 17478	None~None 98417	None~None 45996	None~None 99579	None~None 102000	None~None 
+-355	None~None 30866	None~None 91947	None~None 27858	None~None nlsj71743	None~None 27847	None~None 105829	None~None 44844	None~None 51358	None~None 45094	None~None 45252	None~None 44435	None~None 
+-355	None~None 17478	None~None 66574	None~None 47897	None~None 27858	None~None 
+-355	None~None 85306	None~None 83669	None~None 45513	None~None 2731	None~None 2731	None~None 22209	None~None 
+-355	None~None nlsj32160	None~None 91943	None~None 27847	None~None nlsj58891	None~None 
+-355	None~None 102515	None~None 84494	None~None 50706	None~None 114624	None~None 50236	None~None 84494	None~None 33494	None~None 67132	None~None 
+-355	None~None 85306	None~None 59794	None~None 91962	None~None 70364	None~None 43789	None~None 40154	None~None 50721	None~None 45794	None~None 46646	None~None 50658	None~None 65966	None~None 86305	None~None 72357	None~None nlsj56179	None~None 84513	None~None 84421	None~None 64866	None~None 91940	None~None 26116	None~None 
+-355	None~None 22210	None~None 91936	None~None 24340	None~None 31875	None~None 91967	None~None 
+-355	None~None 114615	None~None 76703	None~None 103701	None~None 31875	None~None 97555	None~None 23628	None~None 45794	None~None 12485	None~None 31875	None~None 
+-355	None~None 108802	None~None 91963	None~None nlsj32160	None~None 40154	None~None 66173	None~None 68011	None~None 13016	None~None 
+-355	None~None 86187	None~None 113631	None~None 110858	None~None 91967	None~None 31875	None~None 91963	None~None 40159	None~None 
+-355	None~None 72340	None~None 83665	None~None nlsj60261	None~None 14023	None~None 45794	None~None 80334	None~None 27731	None~None 69543	None~None 78757	None~None 42366	None~None 22209	None~None 91967	None~None 42890	None~None 83231	None~None 64151	None~None 11305	None~None 8909	None~None 
+-355	None~None 22209	None~None 6339	None~None 68641	None~None 110979	None~None 84205	None~None 91967	None~None 8909	None~None 
+-355	None~None 14568	None~None 114615	None~None 115616	None~None 50824	None~None nlsj71743	None~None 46648	None~None 
+-355	None~None 62012	None~None 46802	None~None 28566	None~None 50824	None~None 64151	None~None nlsj48569	None~None 
+-355	None~None 90122	None~None 50774	None~None 76258	None~None 24666	None~None 77627	None~None 76335	None~None 77627	None~None 115818	None~None 83840	None~None 
+-355	None~None 75552	None~None 91967	None~None 111895	None~None 112987	None~None nlsj32160	None~None nlsj51624	None~None 26412	None~None 23726	None~None 
+-355	None~None 91936	None~None 15173	None~None 27847	None~None 49908	None~None 31161	None~None 104421	None~None 86219	None~None 
+-355	None~None 50658	None~None 116244	None~None 108802	None~None 22825	None~None nlsj32160	None~None 54469	None~None 66173	None~None 36827	None~None 50874	None~None 
+-355	None~None 90504	None~None 61885	None~None 46858	None~None 
+-355	None~None 67344	None~None 45996	None~None 22521	None~None 33903	None~None 45432	None~None 73672	None~None 43419	None~None 22209	None~None 
+-355	None~None 74626	None~None 70413	None~None 93478	None~None nlsj32160	None~None 61885	None~None 92010	None~None 96981	None~None 24289	None~None 113013	None~None 92010	None~None 76028	None~None 59232	None~None 
+-355	None~None 46802	None~None 61885	None~None 74735	None~None 116244	None~None 33956	None~None 113013	None~None 74735	None~None 36571	None~None 
+-355	None~None 38547	None~None 89346	None~None nlsj32160	None~None 71023	None~None 92010	None~None 71413	None~None 24289	None~None 6238	None~None 
+-355	None~None 85306	None~None 50824	None~None 112989	None~None 89440	None~None 86948	None~None 89440	None~None 85643	None~None 6325	None~None 
+-355	None~None nlsj99242	None~None 6224	None~None 30790	None~None 50824	None~None 14339	None~None 51241	None~None 50706	None~None 33160	None~None 
+-355	None~None 52332	None~None 1087	None~None 72245	None~None 18425	None~None 110606	None~None 50681	None~None 
+-355	None~None 43128	None~None 67501	None~None 80223	None~None 52571	None~None 50681	None~None 85306	None~None 64866	None~None 66574	None~None 50681	None~None 
+-355	None~None 85306	None~None 30551	None~None 33160	None~None 4845	None~None 98234	None~None 1397	None~None 22467	None~None 72357	None~None 33193	None~None 
+-355	None~None nlsj32160	None~None 72202	None~None 18331	None~None 102676	None~None 6871	None~None 20885	None~None 13890	None~None 30790	None~None 
+-355	None~None 260	None~None 11760	None~None 83763	None~None 30040	None~None 30790	None~None 73672	None~None 80327	None~None 
+-355	None~None 18788	None~None 72268	None~None 97103	None~None 11690	None~None 
+-355	None~None 50824	None~None 11690	None~None 68641	None~None 18788	None~None 84534	None~None 75552	None~None 87091	None~None 25630	None~None 
+-355	None~None 84423	None~None 50824	None~None 109358	None~None 116244	None~None 62950	None~None 80340	None~None 75552	None~None 84434	None~None 80340	None~None 61791	None~None 
+-355	None~None 102663	None~None 25519	None~None 102808	None~None 107312	None~None 76225	None~None 9291	None~None 76225	None~None 51664	None~None 
+-355	None~None nlsj12593	None~None 86173	None~None nlsj87116	None~None 33457	None~None 80340	None~None 61791	None~None 
+-355	None~None 115887	None~None 53496	None~None 102000	None~None 106209	None~None 27858	None~None 
+-355	None~None nlsj61372	None~None 77699	None~None 84234	None~None nlsj24460	None~None 
+-355	None~None 85306	None~None 28566	None~None 11760	None~None 33809	None~None 
+-355	None~None 64914	None~None 30796	None~None 65965	None~None nlsj61372	None~None 84234	None~None 4548	None~None 106209	None~None 52332	None~None 
+-355	None~None 109006	None~None 112720	None~None 112542	None~None 
+-355	None~None 107950	None~None 20046	None~None 84422	None~None 29883	None~None 6238	None~None 101611	None~None 84534	None~None 112989	None~None 33956	None~None 
+-355	None~None nlsj32160	None~None 112991	None~None 45996	None~None 50824	None~None 54469	None~None 31565	None~None 50824	None~None 31565	None~None 8909	None~None 28777	None~None 29883	None~None 
+-355	None~None 112989	None~None 60308	None~None 22209	None~None 
+-355	None~None 113017	None~None 6231	None~None 13002	None~None 70473	None~None 85306	None~None 64866	None~None 54469	None~None 85643	None~None 46646	None~None 50824	None~None 76910	None~None 80357	None~None 84234	None~None nlsj65911	None~None 75552	None~None 86371	None~None 16051	None~None 50706	None~None 
+-355	None~None 75552	None~None 85643	None~None 30790	None~None 76910	None~None nlsj108959	None~None 85665	None~None 50236	None~None 102847	None~None 79526	None~None 115887	None~None 53496	None~None 
+-355	None~None 99096	None~None 31161	None~None 44844	None~None 29883	None~None 86187	None~None 15162	None~None 84185	None~None 30790	None~None 28566	None~None 85665	None~None 109486	None~None 80327	None~None nlsj71743	None~None 37777	None~None 4715	None~None 29883	None~None 102100	None~None 6238	None~None 84421	None~None 
+-355	None~None 20033	None~None 33415	None~None 85306	None~None nlsj32160	None~None 107581	None~None 85306	None~None 49610	None~None 86114	None~None 16918	None~None 113560	None~None 6238	None~None 79526	None~None 2068	None~None 57457	None~None 
+-355	None~None 316	None~None 50824	None~None 86352	None~None 72245	None~None 1083	None~None nlsj61372	None~None 72287	None~None 96193	None~None 74631	None~None 83650	None~None 24206	None~None 74735	None~None 50824	None~None 
+-355	None~None 260	None~None 55139	None~None 50872	None~None 64866	None~None 72627	None~None 50824	None~None 94426	None~None 57817	None~None 110427	None~None 24206	None~None 102267	None~None 
+-355	None~None 5131	None~None 27847	None~None 5131	None~None 
+-355	None~None 24340	None~None 57457	None~None 102000	None~None 50824	None~None 24206	None~None nlsj82273	None~None 
+-355	None~None 68641	None~None 57817	None~None 94426	None~None 260	None~None 45992	None~None 50872	None~None 32221	None~None 94426	None~None 50824	None~None 110243	None~None 22209	None~None 
+-355	None~None 2665	None~None 22210	None~None 102000	None~None 107204	None~None nlsj32160	None~None 48372	None~None 58972	None~None 35360	None~None nlsj32160	None~None 7155	None~None 59955	None~None 15552	None~None nlsj108959	None~None 
+-355	None~None 8909	None~None 50824	None~None 16051	None~None 44133	None~None nlsj46510	None~None 36677	None~None 71042	None~None 
+-355	None~None 50824	None~None 94426	None~None 22969	None~None 40159	None~None 102000	None~None 51368	None~None 86108	None~None 16274	None~None 
+-355	None~None 106263	None~None 62257	None~None 96174	None~None 64137	None~None 45446	None~None 74531	None~None 
+-355	None~None 106263	None~None 13642	None~None 62257	None~None 63212	None~None 45996	None~None 56101	None~None 88509	None~None 78607	None~None 74531	None~None 65565	None~None 96193	None~None 45794	None~None 4845	None~None 96565	None~None 86108	None~None 
+-355	None~None 38547	None~None 65757	None~None 50774	None~None 36628	None~None 50824	None~None 74631	None~None 115684	None~None 66630	None~None 15133	None~None 110427	None~None 46712	None~None 23762	None~None nlsj177	None~None 
+-355	None~None 116050	None~None 37720	None~None 96196	None~None 19788	None~None 29883	None~None 86108	None~None nlsj62969	None~None 63212	None~None 97252	None~None 5796	None~None 75552	None~None 68153	None~None 4906	None~None 103248	None~None 80761	None~None 115079	None~None 53653	None~None 82547	None~None 94033	None~None 94645	None~None 
+-355	None~None 51241	None~None nlsj75598	None~None 63240	None~None 1564	None~None 66342	None~None 47007	None~None 85734	None~None 6339	None~None 115684	None~None 114548	None~None 74531	None~None 18980	None~None 
+-355	None~None 113741	None~None 86108	None~None 113864	None~None 63212	None~None 96565	None~None 
+-355	None~None 74531	None~None 96560	None~None 40159	None~None 96981	None~None 64791	None~None 40154	None~None nlsj32160	None~None 
+-355	None~None 8909	None~None 93388	None~None 50824	None~None 96981	None~None 11336	None~None 
+-355	None~None 50721	None~None 8665	None~None 27847	None~None 50774	None~None 76586	None~None nlsj32160	None~None 50824	None~None 86219	None~None 
+-355	None~None 90504	None~None 41490	None~None 112082	None~None 45794	None~None nlsj32160	None~None 67507	None~None 5310	None~None 84234	None~None 35557	None~None 59232	None~None 82367	None~None 
+-355	None~None 84534	None~None 58113	None~None 50824	None~None 110427	None~None 56991	None~None 16207	None~None 112082	None~None 76028	None~None 84534	None~None 33751	None~None 84234	None~None 
+-355	None~None 33740	None~None 6339	None~None 50824	None~None nlsj53148	None~None 115684	None~None 29171	None~None 
+-355	None~None 260	None~None 102515	None~None 50774	None~None 47007	None~None 59006	None~None 109253	None~None 50824	None~None 33160	None~None 115212	None~None 
+-355	None~None 84234	None~None 92077	None~None 11305	None~None 4845	None~None 50824	None~None 116470	None~None 
+-355	None~None 72202	None~None 114615	None~None 50774	None~None 57126	None~None 82367	None~None 50824	None~None 115633	None~None 52597	None~None 36505	None~None 
+-355	None~None 1564	None~None 74601	None~None 18631	None~None 487	None~None 57128	None~None nlsj32160	None~None 
+-355	None~None 57126	None~None 7243	None~None 61265	None~None 23283	None~None 29883	None~None 
+-355	None~None 38965	None~None 81501	None~None 64866	None~None 36571	None~None 50824	None~None 
+-355	None~None 24173	None~None 50824	None~None 10933	None~None 56991	None~None nlsj32160	None~None 
+-355	None~None 74621	None~None 29171	None~None 90433	None~None 50824	None~None 32506	None~None 112794	None~None 10923	None~None 
+-355	None~None 32506	None~None 24292	None~None 112980	None~None 64866	None~None 25882	None~None 24184	None~None 
+-355	None~None 115684	None~None 16051	None~None 56991	None~None 112936	None~None 
+-355	None~None 51701	None~None 10923	None~None 65218	None~None 54217	None~None 51662	None~None 
+-355	None~None 38547	None~None 102000	None~None 51711	None~None 74752	None~None 9082	None~None nlsj32160	None~None 49173	None~None 95567	None~None 58902	None~None 112720	None~None 49173	None~None 
+-355	None~None 92239	None~None 49173	None~None 74752	None~None nlsj32160	None~None 14568	None~None 113560	None~None 104838	None~None 11336	None~None 112720	None~None 57964	None~None 
+-355	None~None 46802	None~None 20046	None~None 30700	None~None 50824	None~None 
+-355	None~None 106502	None~None 54854	None~None 56991	None~None 114615	None~None 
+-355	None~None 75659	None~None 94033	None~None 71751	None~None 51662	None~None 64151	None~None 50824	None~None 
+-355	None~None 87834	None~None 114615	None~None 20952	None~None 
+-355	None~None 44481	None~None 49173	None~None 74735	None~None 61265	None~None 50824	None~None 13752	None~None 76118	None~None 64151	None~None 
+-355	None~None 48291	None~None 72610	None~None 114615	None~None 26447	None~None 49173	None~None 50824	None~None 65552	None~None 28	None~None 74165	None~None 47211	None~None 26447	None~None 4005	None~None 73517	None~None 
+-355	None~None 75910	None~None 112936	None~None 84008	None~None 114615	None~None 17478	None~None nlsj32160	None~None 49173	None~None 75910	None~None 83665	None~None 37378	None~None 13752	None~None 50824	None~None 64151	None~None 104624	None~None 6238	None~None 18314	None~None 10104	None~None 
+-355	None~None 26447	None~None nlsj96033	None~None nlsj14552	None~None 50824	None~None 112936	None~None 87834	None~None 75910	None~None 
+-355	None~None 102847	None~None 
+-355	None~None 420	None~None 50824	None~None 73672	None~None 108780	None~None 74165	None~None 76187	None~None 58771	None~None 
+-355	None~None 12796	None~None 76187	None~None 50824	None~None 74105	None~None 
+-355	None~None 65757	None~None 94677	None~None 54855	None~None 18107	None~None 
+-355	None~None 116470	None~None 20046	None~None 74531	None~None 47007	None~None 20935	None~None 
+-355	None~None 21651	None~None 324	None~None 51711	None~None 65742	None~None 114615	None~None 
+-355	None~None 64151	None~None nlsj71743	None~None 50824	None~None 75552	None~None 51701	None~None 22209	None~None 104421	None~None 83756	None~None 64151	None~None 2055	None~None 21651	None~None 
+-355	None~None 77699	None~None 25597	None~None 110655	None~None 36505	None~None 50824	None~None 43977	None~None 73672	None~None 2834	None~None 
+-355	None~None 29883	None~None 114615	None~None 
+-355	None~None 15173	None~None 94677	None~None 115633	None~None 113560	None~None 22209	None~None 
+-355	None~None 24342	None~None 97	None~None 50824	None~None 116477	None~None 89405	None~None 115684	None~None 
+-355	None~None 20097	None~None 50824	None~None 51662	None~None 57457	None~None 22660	None~None 74531	None~None 90433	None~None 83869	None~None 
+-355	None~None 10223	None~None 50824	None~None 74735	None~None 37720	None~None 94677	None~None 51662	None~None 116216	None~None 51825	None~None 14107	None~None 79983	None~None 28566	None~None 113741	None~None 50824	None~None 48383	None~None 7323	None~None 74531	None~None 
+-355	None~None 18047	None~None 74463	None~None 94677	None~None 51662	None~None 
+-355	None~None 72202	None~None 114615	None~None 50824	None~None 75552	None~None 86219	None~None nlsj32160	None~None 46802	None~None 114615	None~None 90433	None~None 75910	None~None 10223	None~None 84234	None~None 88971	None~None 
+-355	None~None 41619	None~None 1377	None~None 6174	None~None 59794	None~None 50824	None~None 8909	None~None 
+-355	None~None nlsj87116	None~None 88971	None~None 97	None~None 83665	None~None 50824	None~None 28566	None~None 114548	None~None 
+-355	None~None 1083	None~None nlsj32160	None~None 50824	None~None 74463	None~None 1087	None~None 37885	None~None 1083	None~None 46802	None~None 112559	None~None 50824	None~None nlsj71743	None~None 37210	None~None 84234	None~None 20621	None~None 
+-355	None~None 34522	None~None 64703	None~None 1086	None~None 87146	None~None 26412	None~None 109842	None~None 50824	None~None 115391	None~None 
+-355	None~None 37210	None~None 50824	None~None 74627	None~None 20621	None~None nlsj87116	None~None 52398	None~None 37210	None~None 7561	None~None 10223	None~None 22209	None~None 1083	None~None 
+-355	None~None 2061	None~None 50824	None~None 92010	None~None 28566	None~None 12035	None~None 1083	None~None 
+-355	None~None 83398	None~None 50824	None~None 30796	None~None 77882	None~None 46802	None~None 50824	None~None 8909	None~None 28566	None~None 52398	None~None nlsj61373	None~None 78757	None~None 6238	None~None 29883	None~None 102676	None~None 7327	None~None 24293	None~None 
+-355	None~None 50774	None~None 113013	None~None 75005	None~None 33956	None~None 90504	None~None 88971	None~None 15088	None~None 50824	None~None 
+-355	None~None 38547	None~None 47401	None~None 81130	None~None 56991	None~None 51769	None~None 3694	None~None 59232	None~None 24084	None~None 2660	None~None 97004	None~None 15088	None~None 90305	None~None 
+-355	None~None 24289	None~None 24340	None~None 82367	None~None nlsj32160	None~None 56441	None~None 
+-355	None~None 109558	None~None 45996	None~None nlsj32160	None~None 72099	None~None 113013	None~None 65552	None~None 23332	None~None 15088	None~None 113560	None~None nlsj175	None~None 22467	None~None 50824	None~None 84234	None~None 
+-355	None~None 85306	None~None 22209	None~None 112980	None~None 96981	None~None 
+-355	None~None 24289	None~None 83057	None~None nlsj112815	None~None 60883	None~None 
+-355	None~None 77699	None~None 73064	None~None 24289	None~None 79983	None~None 
+-355	None~None 26412	None~None 50774	None~None 90504	None~None 67507	None~None 1083	None~None 47401	None~None 50824	None~None 
+-355	None~None 43128	None~None 84234	None~None 
+-355	None~None 38547	None~None 75552	None~None nlsj32160	None~None 12035	None~None 113013	None~None 22469	None~None 
+-355	None~None 324	None~None 105861	None~None 96981	None~None 43357	None~None 324	None~None 3630	None~None 96981	None~None 51826	None~None 37650	None~None 79094	None~None 99609	None~None 97004	None~None 80327	None~None 
+-355	None~None 114615	None~None 50774	None~None 104166	None~None 78919	None~None 92077	None~None 113013	None~None 50824	None~None 24289	None~None 2665	None~None nlsj32160	None~None 85643	None~None 
+-355	None~None 65552	None~None 61791	None~None 30790	None~None 50824	None~None 113013	None~None 24289	None~None 77574	None~None 18788	None~None 
+-355	None~None 68641	None~None 85643	None~None 66173	None~None nlsj53148	None~None 94426	None~None 50681	None~None 72357	None~None 18258	None~None 29883	None~None 47931	None~None 15399	None~None 113013	None~None 17807	None~None 90470	None~None 
+-355	None~None 260	None~None 50774	None~None 6227	None~None 45794	None~None 82670	None~None nlsj107632	None~None 24206	None~None 15548	None~None 86305	None~None 22209	None~None 45996	None~None 44767	None~None 6244	None~None 20621	None~None 6227	None~None 41604	None~None 
+-355	None~None 67507	None~None 74767	None~None 50824	None~None 90305	None~None 26397	None~None 30799	None~None 50824	None~None 15133	None~None 
+-355	None~None 14441	None~None 74767	None~None 84534	None~None 37155	None~None 66797	None~None 6339	None~None 
+-355	None~None 109006	None~None 50824	None~None 30790	None~None 88971	None~None 26412	None~None nlsj32160	None~None 23726	None~None nlsj71743	None~None 50824	None~None 44170	None~None 14568	None~None 23726	None~None 27847	None~None 50824	None~None 86187	None~None 88467	None~None 
+-355	None~None 83763	None~None 6325	None~None 83756	None~None 111908	None~None 79526	None~None 
+-355	None~None 72610	None~None 50824	None~None 112989	None~None 79983	None~None 109013	None~None 2777	None~None 
+-355	None~None 65757	None~None 50774	None~None 50824	None~None 77928	None~None 6238	None~None 45794	None~None 108119	None~None 50824	None~None 44767	None~None 7327	None~None 66252	None~None 
+-355	None~None 50702	None~None 70958	None~None 114615	None~None 65966	None~None 79526	None~None 50824	None~None 28566	None~None 6224	None~None 
+-355	None~None 4493	None~None 4462	None~None 50824	None~None 78578	None~None 4493	None~None 4548	None~None 108049	None~None 
+-355	None~None 77916	None~None 50824	None~None 7327	None~None 22825	None~None 75552	None~None 84234	None~None 50702	None~None 50824	None~None 116477	None~None 50721	None~None 29883	None~None 
+-355	None~None 90504	None~None 92876	None~None 114615	None~None 109552	None~None 115300	None~None 15591	None~None 45329	None~None 15088	None~None 113560	None~None 61791	None~None 112965	None~None 49173	None~None 76028	None~None 61791	None~None 66173	None~None 7327	None~None 28101	None~None 7182	None~None 95811	None~None 50824	None~None 
+-355	None~None 24084	None~None 47401	None~None 3694	None~None 61791	None~None 73881	None~None 112936	None~None 35983	None~None nlsj107632	None~None 6224	None~None 95786	None~None 113013	None~None 96981	None~None 50824	None~None 
+-355	None~None 6788	None~None 6231	None~None 15088	None~None 9033	None~None 102000	None~None 24084	None~None 32964	None~None 100179	None~None 6224	None~None 74463	None~None 2731	None~None nlsj96033	None~None 78514	None~None nlsj31013	None~None 94677	None~None 22660	None~None 92239	None~None 103922	None~None 50824	None~None 107312	None~None 24084	None~None 83732	None~None 58142	None~None 
+-355	None~None 82453	None~None 86108	None~None 104429	None~None 22336	None~None 51769	None~None 50824	None~None 
+-355	None~None 105829	None~None 50702	None~None 15088	None~None 1083	None~None 50824	None~None 24084	None~None 28101	None~None 45996	None~None 260	None~None 27847	None~None 24084	None~None 65965	None~None 7182	None~None 
+-355	None~None 64914	None~None nlsj32160	None~None 104429	None~None 24084	None~None 102000	None~None 84234	None~None 15088	None~None 84234	None~None 104429	None~None 15088	None~None 24084	None~None 
+-355	None~None 37885	None~None 6231	None~None 4845	None~None 6224	None~None 29883	None~None 55139	None~None 24292	None~None 36588	None~None 84422	None~None 1098	None~None 
+-355	None~None 51727	None~None 115744	None~None 45786	None~None 27618	None~None 30700	None~None 37885	None~None 75005	None~None 24522	None~None 29883	None~None 94677	None~None 
+-355	None~None 67526	None~None 45996	None~None 64866	None~None 50824	None~None 75005	None~None 42713	None~None 28566	None~None 3325	None~None 79998	None~None 50824	None~None 24292	None~None 
+-355	None~None 114615	None~None 112965	None~None 22660	None~None 18331	None~None 58142	None~None 84150	None~None 
+-355	None~None nlsj99416	None~None 45996	None~None 94677	None~None 89645	None~None 89601	None~None 29883	None~None 
+-355	None~None 106263	None~None 58142	None~None 89960	None~None 109862	None~None 67526	None~None 66705	None~None 
+-355	None~None nlsj32160	None~None 50702	None~None 10933	None~None 51313	None~None 102000	None~None 106263	None~None 30796	None~None 
+-355	None~None 85643	None~None 64866	None~None 28566	None~None 33770	None~None 116070	None~None 47617	None~None 101611	None~None 
+-355	None~None 51727	None~None 90504	None~None 47533	None~None nlsj32160	None~None 26412	None~None 50824	None~None 109174	None~None nlsj32160	None~None 47401	None~None 51224	None~None 28101	None~None 61791	None~None 45427	None~None 29883	None~None 
+-355	None~None 38547	None~None 45996	None~None 15088	None~None 20836	None~None 83732	None~None 
+-355	None~None 45163	None~None 50702	None~None 113560	None~None 30406	None~None 
+-355	None~None 47401	None~None 37885	None~None 74602	None~None 51148	None~None 16171	None~None 73143	None~None 80181	None~None 28101	None~None nlsj32160	None~None 24289	None~None 113560	None~None 28566	None~None 
+-355	None~None 90798	None~None 93789	None~None 50824	None~None 18979	None~None 16051	None~None 
+-355	None~None 16961	None~None 
+-355	None~None 47416	None~None nlsj69111	None~None 50824	None~None 10923	None~None 113560	None~None 64866	None~None 6853	None~None 54217	None~None 
+-355	None~None nlsj71743	None~None 59295	None~None 101851	None~None 
+-355	None~None 18006	None~None 26131	None~None 26279	None~None 4715	None~None 102000	None~None 40702	None~None 46712	None~None 18334	None~None 
+-355	None~None 15088	None~None 16051	None~None 43692	None~None 116050	None~None nlsj71743	None~None 16051	None~None 26131	None~None 74626	None~None 33953	None~None 24084	None~None 104429	None~None 93789	None~None 50824	None~None 40702	None~None 
+-355	None~None 15088	None~None 66173	None~None 2660	None~None 16051	None~None 74626	None~None 45560	None~None 7561	None~None 104429	None~None 40845	None~None 16051	None~None 
+-355	None~None 112794	None~None 50824	None~None 24084	None~None 97186	None~None 24084	None~None 18258	None~None 45560	None~None 15088	None~None 
+-355	None~None 50681	None~None 37885	None~None 80223	None~None 52571	None~None 
+-355	None~None 6174	None~None 22467	None~None 97186	None~None 30796	None~None 
+-355	None~None 66574	None~None 50681	None~None 260	None~None 6174	None~None 22467	None~None 31607	None~None 50681	None~None 50912	None~None 
+-355	None~None 37885	None~None 43176	None~None 80223	None~None 64866	None~None 60650	None~None 
+-355	None~None 46712	None~None 97186	None~None 50824	None~None 46646	None~None 83825	None~None 44000	None~None 74942	None~None 12747	None~None 4845	None~None 65965	None~None 
+-355	None~None nlsj32160	None~None 108660	None~None 97299	None~None 
+-355	None~None 92105	None~None 50824	None~None 16864	None~None 102676	None~None 53015	None~None 67762	None~None 4548	None~None 12956	None~None 73143	None~None 115212	None~None 
+-355	None~None 108660	None~None 46802	None~None 114615	None~None 50824	None~None 83405	None~None 113013	None~None 46802	None~None 83405	None~None 
+-355	None~None 43309	None~None 114615	None~None 72202	None~None 67762	None~None 90661	None~None 15173	None~None 57039	None~None 50824	None~None 
+-355	None~None 65757	None~None 97297	None~None 44000	None~None 20097	None~None 50824	None~None 47913	None~None 75152	None~None 
+-355	None~None 24340	None~None 84434	None~None 97299	None~None 27764	None~None 14339	None~None 
+-355	None~None 260	None~None 97094	None~None 102716	None~None 65966	None~None 
+-355	None~None 50236	None~None 46646	None~None 27842	None~None 22968	None~None 50824	None~None 45996	None~None 260	None~None nlsj34223	None~None 75152	None~None 17381	None~None 36588	None~None nlsj105352	None~None 50824	None~None 50824	None~None 
+-355	None~None 102736	None~None 30030	None~None 47538	None~None 51241	None~None 97186	None~None 76910	None~None 75152	None~None 
+-355	None~None 86948	None~None 86083	None~None 31607	None~None 23628	None~None 
+-355	None~None 53651	None~None 46646	None~None 52035	None~None 50824	None~None 86083	None~None 53651	None~None 101445	None~None 8909	None~None 37720	None~None 50681	None~None 74631	None~None 85643	None~None 6325	None~None 50824	None~None 36165	None~None 92204	None~None 105829	None~None 
+-355	None~None 74631	None~None 104695	None~None 23628	None~None 50824	None~None 86173	None~None 74921	None~None nlsj87116	None~None 74631	None~None 25519	None~None 74631	None~None 32630	None~None 35541	None~None 51664	None~None 26412	None~None nlsj32160	None~None 65965	None~None 50824	None~None 
+-355	None~None 102100	None~None 51867	None~None 114651	None~None 27847	None~None 
+-355	None~None 27052	None~None 72610	None~None 62204	None~None 89405	None~None 27054	None~None 
+-355	None~None 116244	None~None 80357	None~None 56496	None~None 28566	None~None 50824	None~None 84234	None~None 
+-355	None~None 26412	None~None 110639	None~None 114615	None~None 22825	None~None nlsj32160	None~None 26412	None~None 
+-355	None~None 77574	None~None 11760	None~None 25519	None~None 61791	None~None nlsj32160	None~None 1086	None~None 53653	None~None 86954	None~None 102663	None~None 38547	None~None 36180	None~None nlsj32160	None~None 1086	None~None 25163	None~None 
+-355	None~None 30790	None~None 45996	None~None 65161	None~None 92040	None~None 33956	None~None 51358	None~None 
+-355	None~None 107229	None~None 67260	None~None 85306	None~None 83718	None~None 52030	None~None 
+-355	None~None 63845	None~None 23628	None~None 76678	None~None 68641	None~None nlsj11198	None~None 74448	None~None 38732	None~None 4479	None~None 
+-355	None~None 25519	None~None 30796	None~None 6224	None~None 37851	None~None 90504	None~None 67762	None~None 38547	None~None 65552	None~None 
+-355	None~None 66173	None~None 82900	None~None 76678	None~None 69548	None~None 
+-355	None~None 7182	None~None 54795	None~None 26412	None~None 76678	None~None 69548	None~None 
+-355	None~None 2061	None~None 102000	None~None 84234	None~None 50824	None~None 6238	None~None 16864	None~None 84234	None~None 64866	None~None 32333	None~None 74463	None~None 25519	None~None 9291	None~None 51664	None~None 
+-355	None~None 65757	None~None nlsj61550	None~None 90504	None~None 114615	None~None 64791	None~None 115212	None~None 26412	None~None 102992	None~None 30796	None~None 85306	None~None 46712	None~None 86173	None~None 74921	None~None 104695	None~None 
+-355	None~None 111895	None~None 13610	None~None 116218	None~None 86173	None~None 33457	None~None 47897	None~None 64914	None~None 82665	None~None nlsj1748	None~None 54650	None~None 5276	None~None 47617	None~None 33819	None~None 106209	None~None 50824	None~None 45996	None~None 
+-355	None~None 79615	None~None 6238	None~None 108049	None~None nlsj32160	None~None 
+-355	None~None 114615	None~None 75152	None~None 36588	None~None 50824	None~None 88077	None~None 
+-355	None~None 47617	None~None nlsj108959	None~None 50824	None~None 6227	None~None 6238	None~None 
+-355	None~None 67762	None~None 6871	None~None 7202	None~None 
+-355	None~None 47617	None~None 59034	None~None 
+-355	None~None 102663	None~None 25163	None~None 74921	None~None 50165	None~None nlsj61372	None~None 112936	None~None 39984	None~None 50824	None~None 115212	None~None 4845	None~None 113013	None~None 19452	None~None 
+-355	None~None 65757	None~None 86173	None~None 109647	None~None 84247	None~None 50824	None~None 10100	None~None 113013	None~None 88299	None~None nlsj61550	None~None 50824	None~None 110598	None~None 
+-355	None~None 75005	None~None 45996	None~None 4493	None~None 104355	None~None 4493	None~None 64703	None~None 4493	None~None 20885	None~None 50681	None~None 84234	None~None 
+-355	None~None 5296	None~None 50824	None~None 1564	None~None 104355	None~None 73672	None~None 50681	None~None 84234	None~None 
+-355	None~None nlsj32160	None~None 77640	None~None 115212	None~None 50702	None~None 59741	None~None 33457	None~None 41899	None~None 50824	None~None 74571	None~None nlsj61372	None~None 28566	None~None 114548	None~None 74631	None~None 115212	None~None 41335	None~None 48760	None~None 5146	None~None 48704	None~None 65965	None~None 50721	None~None 
+-355	None~None 74631	None~None 106974	None~None 260	None~None 16273	None~None 28592	None~None 50838	None~None 101024	None~None 110606	None~None 50824	None~None 77640	None~None 115212	None~None 28101	None~None 74463	None~None 66574	None~None 109609	None~None 27764	None~None 101589	None~None 45996	None~None 3327	None~None 28101	None~None 86117	None~None 74631	None~None 3327	None~None 18334	None~None 3325	None~None 110606	None~None 101594	None~None 74631	None~None 28101	None~None 83763	None~None 28101	None~None 76678	None~None 4274	None~None 
+-355	None~None 260	None~None 98707	None~None 33770	None~None 84422	None~None 36588	None~None 14604	None~None 
+-355	None~None 53702	None~None 
+-355	None~None 75005	None~None 45996	None~None 33770	None~None 38589	None~None 50824	None~None 
+-355	None~None 84234	None~None 33770	None~None 53653	None~None 64866	None~None 33770	None~None 54812	None~None 
+-355	None~None 97148	None~None 9966	None~None 8772	None~None 27764	None~None 84422	None~None 110166	None~None 10226	None~None 110606	None~None 111023	None~None 260	None~None 36165	None~None 45794	None~None 111462	None~None nlsj61372	None~None 16864	None~None 90504	None~None 7561	None~None 59741	None~None 39661	None~None 30030	None~None 34855	None~None 22209	None~None 109562	None~None 50824	None~None 45996	None~None 
+-355	None~None 37776	None~None nlsj71743	None~None 28566	None~None 20046	None~None 34855	None~None 20046	None~None 
+-355	None~None 8909	None~None 8909	None~None 26447	None~None 48291	None~None 63772	None~None 26412	None~None nlsj32160	None~None 84234	None~None 50824	None~None 24340	None~None 63772	None~None 26412	None~None 
+-355	None~None 84234	None~None 20621	None~None 10695	None~None 11687	None~None 58541	None~None nlsj71743	None~None 64914	None~None 24103	None~None 108049	None~None 
+-355	None~None 20885	None~None 31161	None~None 73277	None~None 50721	None~None 78228	None~None 
+-355	None~None 113013	None~None 64866	None~None 61791	None~None 74626	None~None 24289	None~None 260	None~None 12252	None~None 
+-355	None~None 25519	None~None 36661	None~None 108049	None~None 88917	None~None 74626	None~None 93789	None~None 86219	None~None 92204	None~None 
+-355	None~None 42830	None~None 46802	None~None 36827	None~None 91967	None~None 50824	None~None 116244	None~None 46802	None~None 26207	None~None 114548	None~None nlsj71743	None~None 50824	None~None 12409	None~None 24292	None~None 45996	None~None 50702	None~None nlsj32160	None~None 84434	None~None 
+-355	None~None 52035	None~None 51373	None~None 22825	None~None 98234	None~None 49397	None~None 50824	None~None 52030	None~None 114548	None~None 20040	None~None 75005	None~None 31607	None~None 114548	None~None 
+-355	None~None 90504	None~None 114615	None~None 22210	None~None 49415	None~None 50824	None~None 75555	None~None 74767	None~None 8909	None~None 
+-355	None~None 8909	None~None 46802	None~None 74777	None~None 62204	None~None 112989	None~None 84234	None~None 50824	None~None 49397	None~None 8993	None~None 46802	None~None 37581	None~None 
+-355	None~None 43977	None~None 114615	None~None 6231	None~None 40154	None~None 46802	None~None 6224	None~None 64151	None~None 
+-355	None~None 7327	None~None 47533	None~None 83756	None~None 114753	None~None 41464	None~None 87791	None~None 86187	None~None 93812	None~None 
+-355	None~None 38547	None~None 20795	None~None 16051	None~None 47913	None~None 86429	None~None nlsj71743	None~None 61885	None~None 50824	None~None 102736	None~None 18334	None~None 
+-355	None~None 36588	None~None 93789	None~None 49397	None~None 50824	None~None 8909	None~None 102432	None~None 36849	None~None 74719	None~None 3389	None~None 76513	None~None 
+-355	None~None 72202	None~None 114615	None~None 50824	None~None 36849	None~None 102435	None~None 37155	None~None 
+-355	None~None 47913	None~None 75152	None~None 52035	None~None 108660	None~None 20621	None~None 49397	None~None nlsj32160	None~None 36849	None~None 95811	None~None 47530	None~None 88467	None~None 113013	None~None nlsj51624	None~None 19871	None~None 47533	None~None 
+-355	None~None 64703	None~None 33415	None~None 64866	None~None 91439	None~None 13891	None~None nlsj51624	None~None 50824	None~None 47621	None~None 85567	None~None 51781	None~None nlsj51624	None~None 8060	None~None 49397	None~None 
+-355	None~None 72610	None~None 102736	None~None 85306	None~None 33457	None~None 11711	None~None 84234	None~None 50824	None~None nlsj51624	None~None 34855	None~None 22210	None~None 22209	None~None 
+-355	None~None 49397	None~None 1083	None~None 19870	None~None nlsj71743	None~None 41619	None~None 74767	None~None 8909	None~None 74778	None~None 84534	None~None 6238	None~None 85306	None~None 8613	None~None 84234	None~None 
+-355	None~None 39984	None~None 114615	None~None 50824	None~None 49397	None~None 104429	None~None nlsj105352	None~None 75156	None~None 77768	None~None 50824	None~None 77574	None~None 12035	None~None 
+-355	None~None 101822	None~None 49397	None~None nlsj56504	None~None 50824	None~None 22209	None~None 
+-355	None~None 113013	None~None 62257	None~None 41335	None~None 104639	None~None 
+-355	None~None 104639	None~None 33956	None~None 112966	None~None 62257	None~None nlsj32160	None~None 18436	None~None 
+-355	None~None 260	None~None 30796	None~None 47533	None~None nlsj71743	None~None 49397	None~None 50824	None~None 46802	None~None 14568	None~None 51800	None~None 16864	None~None 14568	None~None 
+-355	None~None 72202	None~None 114615	None~None 26397	None~None 85717	None~None nlsj51624	None~None 58060	None~None 30040	None~None 15893	None~None 58060	None~None 86187	None~None 85717	None~None 112989	None~None 90305	None~None 64914	None~None 50824	None~None 85717	None~None 30040	None~None 58060	None~None nlsj51624	None~None 
+-355	None~None nlsj32160	None~None 59760	None~None 93165	None~None 110114	None~None 48970	None~None 50824	None~None 65757	None~None 48976	None~None 90305	None~None 28588	None~None 7159	None~None 15133	None~None 23762	None~None 30652	None~None 90305	None~None 
+-355	None~None nlsj61372	None~None 98318	None~None 324	None~None 49397	None~None 50824	None~None 60308	None~None 84434	None~None 
+-355	None~None 20043	None~None 50824	None~None 15173	None~None 27847	None~None 22825	None~None 34855	None~None 84234	None~None 75552	None~None 49397	None~None 114548	None~None 98323	None~None 
+-355	None~None 20621	None~None 114548	None~None 114651	None~None 84434	None~None 50824	None~None 65469	None~None 81142	None~None 50658	None~None 33770	None~None 96981	None~None 113013	None~None 69543	None~None 65152	None~None 50824	None~None 85306	None~None 84234	None~None 61866	None~None 72610	None~None 12035	None~None nlsj32160	None~None 
+-355	None~None 34855	None~None 84234	None~None 20621	None~None 
+-355	None~None 96981	None~None 33770	None~None 10923	None~None 88183	None~None 33124	None~None 50824	None~None 69543	None~None 76678	None~None 32686	None~None 102432	None~None 57456	None~None 
+-355	None~None 50824	None~None 42214	None~None nlsj71743	None~None 18706	None~None 50681	None~None 2731	None~None nlsj61372	None~None 84234	None~None 
+-355	None~None 26412	None~None 50824	None~None 112965	None~None 113013	None~None 50706	None~None 10923	None~None 18062	None~None 2660	None~None 56991	None~None 61095	None~None 11894	None~None 84234	None~None 50824	None~None 72627	None~None 46648	None~None 292	None~None 
+-355	None~None 102847	None~None 46648	None~None 
+-355	None~None 101863	None~None 30790	None~None 50824	None~None nlsj71743	None~None 48670	None~None 104429	None~None 2660	None~None 18062	None~None 10923	None~None 61095	None~None nlsj71743	None~None 56991	None~None 22688	None~None 94677	None~None 106263	None~None 67136	None~None 75910	None~None 10923	None~None 7608	None~None 
+-355	None~None 86429	None~None 101863	None~None nlsj71743	None~None 52782	None~None 46648	None~None 50681	None~None 65469	None~None 22689	None~None 81142	None~None 14181	None~None 50824	None~None 
+-355	None~None 463	None~None 11894	None~None 80357	None~None 26757	None~None 
+-355	None~None 90504	None~None 114615	None~None 65761	None~None 28592	None~None 113013	None~None 60308	None~None 
+-355	None~None 62257	None~None 105638	None~None 44435	None~None 45996	None~None 43206	None~None 105638	None~None 19477	None~None 102386	None~None 45980	None~None 74378	None~None 74625	None~None 61791	None~None nlsj13130	None~None 104643	None~None 18331	None~None 62320	None~None 66746	None~None 62259	None~None 46648	None~None 104639	None~None 76586	None~None nlsj65911	None~None 62257	None~None 84234	None~None 
+-355	None~None 55544	None~None 62259	None~None 47847	None~None 11901	None~None 105638	None~None 65552	None~None 62257	None~None 90166	None~None 113469	None~None 6325	None~None 18331	None~None 97004	None~None 
+-355	None~None 72627	None~None 104639	None~None 77627	None~None 84234	None~None 55720	None~None 55391	None~None 
+-355	None~None 74602	None~None 113013	None~None 106263	None~None 
+-355	None~None nlsj99416	None~None 74432	None~None 50824	None~None 61791	None~None 73277	None~None 45996	None~None 22467	None~None 71908	None~None 74599	None~None 61791	None~None 73277	None~None 2660	None~None 
+-355	None~None 43206	None~None 4725	None~None 84234	None~None 
+-355	None~None 45996	None~None 68641	None~None 2895	None~None 66294	None~None 11556	None~None 
+-355	None~None 110606	None~None 96981	None~None 1564	None~None 48735	None~None 18331	None~None 22469	None~None 97004	None~None 
+-355	None~None 66494	None~None 11096	None~None 23317	None~None 59803	None~None 27764	None~None 22425	None~None 72099	None~None 5131	None~None 6871	None~None 22467	None~None 113013	None~None 
+-355	None~None 715	None~None 106263	None~None 113013	None~None nlsj99416	None~None 22825	None~None 
+-355	None~None 106263	None~None 11096	None~None nlsj54109	None~None 62211	None~None 45996	None~None 98303	None~None 92077	None~None 53015	None~None 
+-355	None~None 74621	None~None 82367	None~None 11096	None~None 45045	None~None 98874	None~None 106263	None~None 
+-355	None~None 112989	None~None 113013	None~None 26108	None~None 100590	None~None nlsj99416	None~None 
+-355	None~None 74602	None~None nlsj65911	None~None 84247	None~None 47428	None~None 20621	None~None 12409	None~None 50824	None~None nlsj79934	None~None 42648	None~None 
+-355	None~None 6815	None~None 96981	None~None 50824	None~None 324	None~None 112989	None~None 32506	None~None 324	None~None 47637	None~None 2665	None~None 
+-355	None~None 6817	None~None 2660	None~None 18062	None~None 28143	None~None 43977	None~None 113013	None~None 
+-355	None~None nlsj32160	None~None 80140	None~None 62204	None~None nlsj61372	None~None 108049	None~None nlsj43224	None~None 50824	None~None 
+-355	None~None 2665	None~None 46648	None~None 50824	None~None 109894	None~None 112966	None~None nlsj32160	None~None 112989	None~None 90305	None~None 85643	None~None 6325	None~None 49613	None~None 50658	None~None 20621	None~None 
+-355	None~None nlsj71743	None~None 47904	None~None 87146	None~None 102736	None~None 50681	None~None 
+-355	None~None 102736	None~None 48574	None~None 50824	None~None 46648	None~None 102847	None~None 
+-355	None~None 33161	None~None 18979	None~None 85734	None~None 48574	None~None 
+-355	None~None 112794	None~None 46648	None~None 83756	None~None 52035	None~None 48574	None~None 6325	None~None 
+-355	None~None 107315	None~None 52035	None~None 46712	None~None 50824	None~None 8909	None~None 
+-355	None~None 65757	None~None 50658	None~None 60559	None~None nlsj14055	None~None 30796	None~None 90504	None~None 50681	None~None 97299	None~None 47913	None~None 75152	None~None 
+-355	None~None 64914	None~None 4845	None~None 10086	None~None 113013	None~None 93789	None~None 75162	None~None 113013	None~None 83057	None~None 75156	None~None 93789	None~None 30040	None~None 86767	None~None 96602	None~None 2660	None~None 10923	None~None 94677	None~None 74777	None~None 106263	None~None 
+-355	None~None 64757	None~None 64151	None~None 106263	None~None 94677	None~None 50824	None~None 114548	None~None 
+-355	None~None 6517	None~None 26447	None~None 113013	None~None 36165	None~None nlsj59172	None~None 112966	None~None 97004	None~None 64316	None~None 70958	None~None 60559	None~None 101851	None~None 106263	None~None 94677	None~None 21693	None~None 110598	None~None 77574	None~None 32470	None~None 50824	None~None 52784	None~None 
+-355	None~None 47964	None~None 50824	None~None 39550	None~None 33607	None~None 30787	None~None 50687	None~None 49397	None~None 95565	None~None 4845	None~None 46712	None~None 22689	None~None nlsj11198	None~None 
+-355	None~None 39482	None~None 22825	None~None 
+-355	None~None 15345	None~None 20621	None~None 85628	None~None 67156	None~None 61855	None~None 50824	None~None 114553	None~None 64757	None~None 50824	None~None 22209	None~None nlsj32160	None~None 106974	None~None 115887	None~None 65516	None~None 102000	None~None 45080	None~None 
+-355	None~None 72610	None~None 94677	None~None 106263	None~None 45996	None~None 102000	None~None 2660	None~None 28566	None~None 45996	None~None 
+-355	None~None 64866	None~None nlsj79694	None~None 106263	None~None 20885	None~None 51358	None~None 45996	None~None 75910	None~None 62204	None~None 112794	None~None 66838	None~None 83732	None~None 51313	None~None 56567	None~None 28566	None~None 90410	None~None 109358	None~None 74467	None~None 94677	None~None 34524	None~None 
+-355	None~None 109358	None~None 6817	None~None 113013	None~None 72756	None~None 74467	None~None 16591	None~None 2660	None~None 89405	None~None 102000	None~None 34855	None~None 110114	None~None 21651	None~None 2253	None~None 
+-355	None~None nlsj32160	None~None 84234	None~None 26447	None~None 113013	None~None nlsj61373	None~None 50824	None~None 33304	None~None 84234	None~None 27842	None~None 74735	None~None 
+-355	None~None 26412	None~None 92040	None~None 16591	None~None 60209	None~None 19153	None~None 78952	None~None 56496	None~None 67514	None~None 76678	None~None 
+-355	None~None 59735	None~None 26410	None~None 70958	None~None 1564	None~None 62204	None~None 79473	None~None 84234	None~None 6238	None~None 22502	None~None 105829	None~None 92204	None~None 
+-355	None~None 50824	None~None 6325	None~None 84234	None~None 94196	None~None 62204	None~None 45794	None~None nlsj61372	None~None 64866	None~None 75483	None~None 65152	None~None 56627	None~None 92776	None~None 85306	None~None 83756	None~None 16907	None~None nlsj61372	None~None 84234	None~None 79983	None~None 50824	None~None 8909	None~None 
+-355	None~None nlsj32160	None~None 93812	None~None 33304	None~None nlsj61373	None~None 61855	None~None 39125	None~None 
+-355	None~None 50658	None~None 85306	None~None 49938	None~None 33457	None~None nlsj61372	None~None 67136	None~None 102736	None~None 53651	None~None 14278	None~None 43309	None~None 114615	None~None 72202	None~None 33304	None~None 31333	None~None 67136	None~None 
+-355	None~None 50658	None~None 50824	None~None 48291	None~None 47601	None~None 22825	None~None 8665	None~None nlsj61372	None~None 114548	None~None 65469	None~None 110114	None~None 
+-355	None~None 67136	None~None 50824	None~None 101711	None~None 365	None~None 74735	None~None 70364	None~None 21936	None~None 73517	None~None 55905	None~None 
+-355	None~None 13039	None~None 11197	None~None 47964	None~None 39125	None~None 61856	None~None 
+-355	None~None 98234	None~None 50824	None~None 60308	None~None 112554	None~None 50674	None~None nlsj32160	None~None 96082	None~None 68641	None~None 61855	None~None 85306	None~None 64866	None~None 73277	None~None 41798	None~None 11027	None~None 110114	None~None 
+-355	None~None 46613	None~None 10923	None~None 2660	None~None nlsj95366	None~None 102000	None~None 20885	None~None 86763	None~None 24340	None~None 18979	None~None 41798	None~None 50824	None~None 
+-355	None~None 76335	None~None 61855	None~None 22209	None~None 
+-355	None~None 37043	None~None 50824	None~None 46613	None~None 324	None~None 102736	None~None 324	None~None 20795	None~None 44064	None~None 50824	None~None 22689	None~None 45252	None~None 22209	None~None 46613	None~None 2061	None~None 60402	None~None 2061	None~None 112397	None~None 112677	None~None 50824	None~None 98567	None~None 68641	None~None 98567	None~None 11027	None~None 110114	None~None 
+-355	None~None nlsj61372	None~None 50873	None~None 104690	None~None 85665	None~None 28566	None~None 109486	None~None 75005	None~None 114548	None~None 84434	None~None 65967	None~None 39131	None~None 50681	None~None 84421	None~None 1103	None~None 34450	None~None 83669	None~None 11058	None~None 50824	None~None 84234	None~None 72627	None~None 78297	None~None 43692	None~None 50824	None~None 45996	None~None 43689	None~None 50721	None~None 23230	None~None 61265	None~None 
+-355	None~None 22825	None~None 20621	None~None nlsj32160	None~None 74535	None~None 66173	None~None 50824	None~None 57456	None~None 
+-355	None~None 90504	None~None 110639	None~None 114615	None~None 102000	None~None 49629	None~None 84234	None~None 
+-355	None~None nlsj61372	None~None 15274	None~None 110598	None~None 102000	None~None 324	None~None 112965	None~None 116218	None~None 68641	None~None 110598	None~None 
+-355	None~None 63013	None~None 96503	None~None 24184	None~None 74571	None~None 
+-355	None~None 18062	None~None 52030	None~None 110639	None~None 114615	None~None 49629	None~None 73672	None~None 18062	None~None 96382	None~None 84234	None~None 
+-355	None~None 4845	None~None 59339	None~None 78514	None~None 72627	None~None nlsj32160	None~None 42159	None~None 24289	None~None 20621	None~None 6238	None~None 90433	None~None 92533	None~None 
+-355	None~None 59643	None~None 59735	None~None 70958	None~None nlsj29856	None~None 
+-355	None~None 96369	None~None nlsj71743	None~None 107520	None~None 49629	None~None 74735	None~None 61265	None~None 
+-355	None~None 49629	None~None 42159	None~None 61265	None~None 51825	None~None 39950	None~None 
+-355	None~None 47646	None~None 2253	None~None 60646	None~None 91170	None~None 104421	None~None 96404	None~None 19775	None~None 
+-355	None~None 15088	None~None 113560	None~None 79983	None~None 54452	None~None 50702	None~None nlsj105619	None~None 37885	None~None 44964	None~None 74571	None~None 113560	None~None 52571	None~None 
+-355	None~None 116218	None~None 94685	None~None 20836	None~None 83030	None~None 45996	None~None 47401	None~None 32964	None~None 97605	None~None 
+-355	None~None 25123	None~None 49629	None~None 65191	None~None 52893	None~None 
+-355	None~None 24084	None~None 37890	None~None nlsj32160	None~None 3325	None~None 79998	None~None 20621	None~None 
+-355	None~None 49629	None~None 61265	None~None nlsj13946	None~None 
+-355	None~None 91170	None~None 22200	None~None 89408	None~None 24849	None~None 73672	None~None 7323	None~None 54064	None~None 39739	None~None 
+-355	None~None 20836	None~None 58149	None~None 78926	None~None 19789	None~None 27847	None~None 99647	None~None 74571	None~None 
+-355	None~None 115748	None~None 2660	None~None 24084	None~None 96383	None~None 30030	None~None 49629	None~None 68815	None~None 113039	None~None 
+-355	None~None 39543	None~None 18568	None~None 
+-355	None~None 47428	None~None 79983	None~None 50824	None~None 57457	None~None 6238	None~None 22209	None~None 74535	None~None nlsj32160	None~None 50824	None~None 88010	None~None 90151	None~None 78414	None~None 
+-355	None~None 4845	None~None 6238	None~None 78414	None~None 22209	None~None 
+-355	None~None nlsj71743	None~None 50824	None~None 56567	None~None nlsj32160	None~None 94685	None~None 
+-355	None~None 52030	None~None 18168	None~None 
+-355	None~None 28588	None~None 45786	None~None 94704	None~None 
+-355	None~None 114615	None~None 41899	None~None 92189	None~None 16864	None~None 50702	None~None 51800	None~None 30700	None~None 50824	None~None 94244	None~None 
+-355	None~None 50824	None~None 50702	None~None 74535	None~None 
+-355	None~None 58142	None~None 86108	None~None 107520	None~None 37777	None~None 78414	None~None 74535	None~None 33963	None~None 22209	None~None 95381	None~None 75898	None~None 59905	None~None 84234	None~None 
+-355	None~None 4845	None~None 74571	None~None 58142	None~None 86108	None~None 108283	None~None 29883	None~None 
+-355	None~None 20046	None~None nlsj96033	None~None nlsj59923	None~None 74571	None~None 
+-355	None~None 34855	None~None 20046	None~None 65265	None~None 64866	None~None 71666	None~None 37885	None~None 
+-355	None~None 109918	None~None 50702	None~None nlsj67993	None~None 64866	None~None 83763	None~None 71666	None~None 15173	None~None 
+-355	None~None 28101	None~None 52912	None~None 16171	None~None 29598	None~None nlsj68353	None~None 28592	None~None 77048	None~None 64866	None~None 37885	None~None 
+-355	None~None 37019	None~None 43206	None~None 28588	None~None 45794	None~None 62274	None~None 72627	None~None 114548	None~None 10223	None~None nlsj87116	None~None 74463	None~None 
+-355	None~None 4845	None~None 51358	None~None 28101	None~None 45427	None~None 
+-355	None~None 3330	None~None 65757	None~None 64703	None~None 37885	None~None 
+-355	None~None 13890	None~None 66746	None~None 77048	None~None 64866	None~None 114753	None~None 30652	None~None 
+-355	None~None 22825	None~None 20885	None~None 59735	None~None 3325	None~None 
+-355	None~None 86767	None~None 15088	None~None 38046	None~None 24084	None~None 36801	None~None 67526	None~None 67762	None~None 38092	None~None 63783	None~None 18331	None~None 101713	None~None 64703	None~None 110598	None~None 3327	None~None 45192	None~None 95121	None~None 18331	None~None 1564	None~None 74735	None~None 63783	None~None 
+-355	None~None 49908	None~None 108802	None~None 64512	None~None 65967	None~None 22825	None~None 
+-355	None~None 50679	None~None 89366	None~None 72202	None~None 86219	None~None 43206	None~None 63772	None~None 24342	None~None-355	98234 85306 114753 50706 72610 34276 50721 22209 20621 70364 nlsj56179 24342 70958 75005 50824 90305 
+-355	97555 94196 50721 33631 nlsj2562 50824 113060 7618 19013 42214 33120 
+-355	75552 101089 nlsj65911 22210 36644 47030 85306 46712 77928 nlsj56179 70958 11052 nlsj65911 22210 50721 
+-355	75552 78309 80357 24342 
+-355	90504 22825 46802 36827 50874 
+-355	1146 91947 24340 102000 nlsj32160 27858 
+-355	115887 77699 93478 102847 79526 67509 6224 
+-355	102000 90504 110639 114615 86108 95100 
+-355	72287 76089 29883 10923 77699 nlsj61372 45996 108536 72627 nlsj32160 48106 50824 84423 76089 29883 260 45996 52310 29883 
+-355	28566 260 114548 
+-355	86108 27858 90504 74189 95100 
+-355	80181 85306 62528 26197 44810 
+-355	38547 nlsj32160 61885 85982 74531 109918 34522 74463 113301 
+-355	109918 90410 23455 45996 113741 52571 102386 73672 19123 51358 64791 86108 20028 8909 
+-355	115818 110639 94196 24340 44844 nlsj61372 62204 
+-355	60766 115810 23455 nlsj67620 74531 
+-355	16051 36229 7327 102000 
+-355	nlsj32160 10923 74531 54217 60855 75595 324 75005 2577 
+-355	10631 59034 6238 78576 64866 94677 
+-355	324 102386 75595 nlsj32160 
+-355	115748 33740 60855 31565 21308 31565 63212 33457 50824 
+-355	58151 75595 80181 114615 
+-355	96744 102000 
+-355	111764 93388 80181 
+-355	nlsj99416 33457 6339 2392 83834 60038 22209 80175 94677 18390 24132 
+-355	112980 84534 82643 18390 115159 12409 50824 
+-355	22660 18980 91967 106263 53015 30911 50706 106263 45996 94677 
+-355	87146 114753 106263 53015 22660 
+-355	106263 26886 43689 
+-355	14546 3346 50824 nlsj99416 94677 79094 
+-355	67526 116216 80181 51358 44856 8665 110114 
+-355	96602 83605 52774 51366 37978 85306 94677 110598 45446 
+-355	65757 96602 18062 53224 88299 112794 3986 75005 59238 46804 61495 29883 97603 56991 75659 67762 93923 45996 
+-355	104624 6238 29883 73517 86108 74735 
+-355	19871 46802 28566 101851 45996 77699 49397 29883 
+-355	30108 32964 104624 56991 19871 50824 41619 
+-355	95100 114615 6174 64791 22467 nlsj99416 43206 
+-355	43128 85306 73672 22467 45996 22209 
+-355	65757 37658 30040 64866 110114 58353 83718 74735 
+-355	69100 7174 98707 44809 4845 22689 50824 12409 
+-355	74777 50824 50824 50681 49423 45021 64866 69100 
+-355	59238 65552 76028 67762 50870 56991 14181 
+-355	109918 3694 6238 16864 30700 116218 51358 90347 79526 
+-355	92239 65757 27393 12210 30072 64791 nlsj11198 46712 
+-355	83732 19082 21651 71984 4845 43719 51358 45494 85306 50824 79526 
+-355	nlsj79694 75552 83605 20885 104421 nlsj97331 50824 89405 2660 nlsj97331 74463 88467 
+-355	56567 67762 110114 65552 66342 2749 66342 16171 29598 50824 79526 
+-355	nlsj61122 83605 114615 45094 3295 83732 96602 
+-355	96560 59516 28433 29883 74378 64866 50824 79526 
+-355	67526 65757 75910 4845 83542 22773 27271 45996 74463 94677 85306 108418 
+-355	84234 4845 22689 51358 45996 108108 50681 19789 
+-355	102841 8909 
+-355	22100 2660 20621 24522 64866 98234 41619 2660 
+-355	75500 nlsj32160 65552 50824 45996 91947 55714 
+-355	65757 56153 16591 58151 60855 74530 nlsj65911 62204 34522 
+-355	22825 20621 65565 46802 14143 
+-355	58142 43977 22209 109918 65552 22209 
+-355	87146 114753 103504 58142 65565 64757 17478 98417 45996 99579 102000 
+-355	30866 91947 27858 nlsj71743 27847 105829 44844 51358 45094 45252 44435 
+-355	17478 66574 47897 27858 
+-355	85306 83669 45513 2731 2731 22209 
+-355	nlsj32160 91943 27847 nlsj58891 
+-355	102515 84494 50706 114624 50236 84494 33494 67132 
+-355	85306 59794 91962 70364 43789 40154 50721 45794 46646 50658 65966 86305 72357 nlsj56179 84513 84421 64866 91940 26116 
+-355	22210 91936 24340 31875 91967 
+-355	114615 76703 103701 31875 97555 23628 45794 12485 31875 
+-355	108802 91963 nlsj32160 40154 66173 68011 13016 
+-355	86187 113631 110858 91967 31875 91963 40159 
+-355	72340 83665 nlsj60261 14023 45794 80334 27731 69543 78757 42366 22209 91967 42890 83231 64151 11305 8909 
+-355	22209 6339 68641 110979 84205 91967 8909 
+-355	14568 114615 115616 50824 nlsj71743 46648 
+-355	62012 46802 28566 50824 64151 nlsj48569 
+-355	90122 50774 76258 24666 77627 76335 77627 115818 83840 
+-355	75552 91967 111895 112987 nlsj32160 nlsj51624 26412 23726 
+-355	91936 15173 27847 49908 31161 104421 86219 
+-355	50658 116244 108802 22825 nlsj32160 54469 66173 36827 50874 
+-355	90504 61885 46858 
+-355	67344 45996 22521 33903 45432 73672 43419 22209 
+-355	74626 70413 93478 nlsj32160 61885 92010 96981 24289 113013 92010 76028 59232 
+-355	46802 61885 74735 116244 33956 113013 74735 36571 
+-355	38547 89346 nlsj32160 71023 92010 71413 24289 6238 
+-355	85306 50824 112989 89440 86948 89440 85643 6325 
+-355	nlsj99242 6224 30790 50824 14339 51241 50706 33160 
+-355	52332 1087 72245 18425 110606 50681 
+-355	43128 67501 80223 52571 50681 85306 64866 66574 50681 
+-355	85306 30551 33160 4845 98234 1397 22467 72357 33193 
+-355	nlsj32160 72202 18331 102676 6871 20885 13890 30790 
+-355	260 11760 83763 30040 30790 73672 80327 
+-355	18788 72268 97103 11690 
+-355	50824 11690 68641 18788 84534 75552 87091 25630 
+-355	84423 50824 109358 116244 62950 80340 75552 84434 80340 61791 
+-355	102663 25519 102808 107312 76225 9291 76225 51664 
+-355	nlsj12593 86173 nlsj87116 33457 80340 61791 
+-355	115887 53496 102000 106209 27858 
+-355	nlsj61372 77699 84234 nlsj24460 
+-355	85306 28566 11760 33809 
+-355	64914 30796 65965 nlsj61372 84234 4548 106209 52332 
+-355	109006 112720 112542 
+-355	107950 20046 84422 29883 6238 101611 84534 112989 33956 
+-355	nlsj32160 112991 45996 50824 54469 31565 50824 31565 8909 28777 29883 
+-355	112989 60308 22209 
+-355	113017 6231 13002 70473 85306 64866 54469 85643 46646 50824 76910 80357 84234 nlsj65911 75552 86371 16051 50706 
+-355	75552 85643 30790 76910 nlsj108959 85665 50236 102847 79526 115887 53496 
+-355	99096 31161 44844 29883 86187 15162 84185 30790 28566 85665 109486 80327 nlsj71743 37777 4715 29883 102100 6238 84421 
+-355	20033 33415 85306 nlsj32160 107581 85306 49610 86114 16918 113560 6238 79526 2068 57457 
+-355	316 50824 86352 72245 1083 nlsj61372 72287 96193 74631 83650 24206 74735 50824 
+-355	260 55139 50872 64866 72627 50824 94426 57817 110427 24206 102267 
+-355	5131 27847 5131 
+-355	24340 57457 102000 50824 24206 nlsj82273 
+-355	68641 57817 94426 260 45992 50872 32221 94426 50824 110243 22209 
+-355	2665 22210 102000 107204 nlsj32160 48372 58972 35360 nlsj32160 7155 59955 15552 nlsj108959 
+-355	8909 50824 16051 44133 nlsj46510 36677 71042 
+-355	50824 94426 22969 40159 102000 51368 86108 16274 
+-355	106263 62257 96174 64137 45446 74531 
+-355	106263 13642 62257 63212 45996 56101 88509 78607 74531 65565 96193 45794 4845 96565 86108 
+-355	38547 65757 50774 36628 50824 74631 115684 66630 15133 110427 46712 23762 nlsj177 
+-355	116050 37720 96196 19788 29883 86108 nlsj62969 63212 97252 5796 75552 68153 4906 103248 80761 115079 53653 82547 94033 94645 
+-355	51241 nlsj75598 63240 1564 66342 47007 85734 6339 115684 114548 74531 18980 
+-355	113741 86108 113864 63212 96565 
+-355	74531 96560 40159 96981 64791 40154 nlsj32160 
+-355	8909 93388 50824 96981 11336 
+-355	50721 8665 27847 50774 76586 nlsj32160 50824 86219 
+-355	90504 41490 112082 45794 nlsj32160 67507 5310 84234 35557 59232 82367 
+-355	84534 58113 50824 110427 56991 16207 112082 76028 84534 33751 84234 
+-355	33740 6339 50824 nlsj53148 115684 29171 
+-355	260 102515 50774 47007 59006 109253 50824 33160 115212 
+-355	84234 92077 11305 4845 50824 116470 
+-355	72202 114615 50774 57126 82367 50824 115633 52597 36505 
+-355	1564 74601 18631 487 57128 nlsj32160 
+-355	57126 7243 61265 23283 29883 
+-355	38965 81501 64866 36571 50824 
+-355	24173 50824 10933 56991 nlsj32160 
+-355	74621 29171 90433 50824 32506 112794 10923 
+-355	32506 24292 112980 64866 25882 24184 
+-355	115684 16051 56991 112936 
+-355	51701 10923 65218 54217 51662 
+-355	38547 102000 51711 74752 9082 nlsj32160 49173 95567 58902 112720 49173 
+-355	92239 49173 74752 nlsj32160 14568 113560 104838 11336 112720 57964 
+-355	46802 20046 30700 50824 
+-355	106502 54854 56991 114615 
+-355	75659 94033 71751 51662 64151 50824 
+-355	87834 114615 20952 
+-355	44481 49173 74735 61265 50824 13752 76118 64151 
+-355	48291 72610 114615 26447 49173 50824 65552 28 74165 47211 26447 4005 73517 
+-355	75910 112936 84008 114615 17478 nlsj32160 49173 75910 83665 37378 13752 50824 64151 104624 6238 18314 10104 
+-355	26447 nlsj96033 nlsj14552 50824 112936 87834 75910 
+-355	102847 
+-355	420 50824 73672 108780 74165 76187 58771 
+-355	12796 76187 50824 74105 
+-355	65757 94677 54855 18107 
+-355	116470 20046 74531 47007 20935 
+-355	21651 324 51711 65742 114615 
+-355	64151 nlsj71743 50824 75552 51701 22209 104421 83756 64151 2055 21651 
+-355	77699 25597 110655 36505 50824 43977 73672 2834 
+-355	29883 114615 
+-355	15173 94677 115633 113560 22209 
+-355	24342 97 50824 116477 89405 115684 
+-355	20097 50824 51662 57457 22660 74531 90433 83869 
+-355	10223 50824 74735 37720 94677 51662 116216 51825 14107 79983 28566 113741 50824 48383 7323 74531 
+-355	18047 74463 94677 51662 
+-355	72202 114615 50824 75552 86219 nlsj32160 46802 114615 90433 75910 10223 84234 88971 
+-355	41619 1377 6174 59794 50824 8909 
+-355	nlsj87116 88971 97 83665 50824 28566 114548 
+-355	1083 nlsj32160 50824 74463 1087 37885 1083 46802 112559 50824 nlsj71743 37210 84234 20621 
+-355	34522 64703 1086 87146 26412 109842 50824 115391 
+-355	37210 50824 74627 20621 nlsj87116 52398 37210 7561 10223 22209 1083 
+-355	2061 50824 92010 28566 12035 1083 
+-355	83398 50824 30796 77882 46802 50824 8909 28566 52398 nlsj61373 78757 6238 29883 102676 7327 24293 
+-355	50774 113013 75005 33956 90504 88971 15088 50824 
+-355	38547 47401 81130 56991 51769 3694 59232 24084 2660 97004 15088 90305 
+-355	24289 24340 82367 nlsj32160 56441 
+-355	109558 45996 nlsj32160 72099 113013 65552 23332 15088 113560 nlsj175 22467 50824 84234 
+-355	85306 22209 112980 96981 
+-355	24289 83057 nlsj112815 60883 
+-355	77699 73064 24289 79983 
+-355	26412 50774 90504 67507 1083 47401 50824 
+-355	43128 84234 
+-355	38547 75552 nlsj32160 12035 113013 22469 
+-355	324 105861 96981 43357 324 3630 96981 51826 37650 79094 99609 97004 80327 
+-355	114615 50774 104166 78919 92077 113013 50824 24289 2665 nlsj32160 85643 
+-355	65552 61791 30790 50824 113013 24289 77574 18788 
+-355	68641 85643 66173 nlsj53148 94426 50681 72357 18258 29883 47931 15399 113013 17807 90470 
+-355	260 50774 6227 45794 82670 nlsj107632 24206 15548 86305 22209 45996 44767 6244 20621 6227 41604 
+-355	67507 74767 50824 90305 26397 30799 50824 15133 
+-355	14441 74767 84534 37155 66797 6339 
+-355	109006 50824 30790 88971 26412 nlsj32160 23726 nlsj71743 50824 44170 14568 23726 27847 50824 86187 88467 
+-355	83763 6325 83756 111908 79526 
+-355	72610 50824 112989 79983 109013 2777 
+-355	65757 50774 50824 77928 6238 45794 108119 50824 44767 7327 66252 
+-355	50702 70958 114615 65966 79526 50824 28566 6224 
+-355	4493 4462 50824 78578 4493 4548 108049 
+-355	77916 50824 7327 22825 75552 84234 50702 50824 116477 50721 29883 
+-355	90504 92876 114615 109552 115300 15591 45329 15088 113560 61791 112965 49173 76028 61791 66173 7327 28101 7182 95811 50824 
+-355	24084 47401 3694 61791 73881 112936 35983 nlsj107632 6224 95786 113013 96981 50824 
+-355	6788 6231 15088 9033 102000 24084 32964 100179 6224 74463 2731 nlsj96033 78514 nlsj31013 94677 22660 92239 103922 50824 107312 24084 83732 58142 
+-355	82453 86108 104429 22336 51769 50824 
+-355	105829 50702 15088 1083 50824 24084 28101 45996 260 27847 24084 65965 7182 
+-355	64914 nlsj32160 104429 24084 102000 84234 15088 84234 104429 15088 24084 
+-355	37885 6231 4845 6224 29883 55139 24292 36588 84422 1098 
+-355	51727 115744 45786 27618 30700 37885 75005 24522 29883 94677 
+-355	67526 45996 64866 50824 75005 42713 28566 3325 79998 50824 24292 
+-355	114615 112965 22660 18331 58142 84150 
+-355	nlsj99416 45996 94677 89645 89601 29883 
+-355	106263 58142 89960 109862 67526 66705 
+-355	nlsj32160 50702 10933 51313 102000 106263 30796 
+-355	85643 64866 28566 33770 116070 47617 101611 
+-355	51727 90504 47533 nlsj32160 26412 50824 109174 nlsj32160 47401 51224 28101 61791 45427 29883 
+-355	38547 45996 15088 20836 83732 
+-355	45163 50702 113560 30406 
+-355	47401 37885 74602 51148 16171 73143 80181 28101 nlsj32160 24289 113560 28566 
+-355	90798 93789 50824 18979 16051 
+-355	16961 
+-355	47416 nlsj69111 50824 10923 113560 64866 6853 54217 
+-355	nlsj71743 59295 101851 
+-355	18006 26131 26279 4715 102000 40702 46712 18334 
+-355	15088 16051 43692 116050 nlsj71743 16051 26131 74626 33953 24084 104429 93789 50824 40702 
+-355	15088 66173 2660 16051 74626 45560 7561 104429 40845 16051 
+-355	112794 50824 24084 97186 24084 18258 45560 15088 
+-355	50681 37885 80223 52571 
+-355	6174 22467 97186 30796 
+-355	66574 50681 260 6174 22467 31607 50681 50912 
+-355	37885 43176 80223 64866 60650 
+-355	46712 97186 50824 46646 83825 44000 74942 12747 4845 65965 
+-355	nlsj32160 108660 97299 
+-355	92105 50824 16864 102676 53015 67762 4548 12956 73143 115212 
+-355	108660 46802 114615 50824 83405 113013 46802 83405 
+-355	43309 114615 72202 67762 90661 15173 57039 50824 
+-355	65757 97297 44000 20097 50824 47913 75152 
+-355	24340 84434 97299 27764 14339 
+-355	260 97094 102716 65966 
+-355	50236 46646 27842 22968 50824 45996 260 nlsj34223 75152 17381 36588 nlsj105352 50824 50824 
+-355	102736 30030 47538 51241 97186 76910 75152 
+-355	86948 86083 31607 23628 
+-355	53651 46646 52035 50824 86083 53651 101445 8909 37720 50681 74631 85643 6325 50824 36165 92204 105829 
+-355	74631 104695 23628 50824 86173 74921 nlsj87116 74631 25519 74631 32630 35541 51664 26412 nlsj32160 65965 50824 
+-355	102100 51867 114651 27847 
+-355	27052 72610 62204 89405 27054 
+-355	116244 80357 56496 28566 50824 84234 
+-355	26412 110639 114615 22825 nlsj32160 26412 
+-355	77574 11760 25519 61791 nlsj32160 1086 53653 86954 102663 38547 36180 nlsj32160 1086 25163 
+-355	30790 45996 65161 92040 33956 51358 
+-355	107229 67260 85306 83718 52030 
+-355	63845 23628 76678 68641 nlsj11198 74448 38732 4479 
+-355	25519 30796 6224 37851 90504 67762 38547 65552 
+-355	66173 82900 76678 69548 
+-355	7182 54795 26412 76678 69548 
+-355	2061 102000 84234 50824 6238 16864 84234 64866 32333 74463 25519 9291 51664 
+-355	65757 nlsj61550 90504 114615 64791 115212 26412 102992 30796 85306 46712 86173 74921 104695 
+-355	111895 13610 116218 86173 33457 47897 64914 82665 nlsj1748 54650 5276 47617 33819 106209 50824 45996 
+-355	79615 6238 108049 nlsj32160 
+-355	114615 75152 36588 50824 88077 
+-355	47617 nlsj108959 50824 6227 6238 
+-355	67762 6871 7202 
+-355	47617 59034 
+-355	102663 25163 74921 50165 nlsj61372 112936 39984 50824 115212 4845 113013 19452 
+-355	65757 86173 109647 84247 50824 10100 113013 88299 nlsj61550 50824 110598 
+-355	75005 45996 4493 104355 4493 64703 4493 20885 50681 84234 
+-355	5296 50824 1564 104355 73672 50681 84234 
+-355	nlsj32160 77640 115212 50702 59741 33457 41899 50824 74571 nlsj61372 28566 114548 74631 115212 41335 48760 5146 48704 65965 50721 
+-355	74631 106974 260 16273 28592 50838 101024 110606 50824 77640 115212 28101 74463 66574 109609 27764 101589 45996 3327 28101 86117 74631 3327 18334 3325 110606 101594 74631 28101 83763 28101 76678 4274 
+-355	260 98707 33770 84422 36588 14604 
+-355	53702 
+-355	75005 45996 33770 38589 50824 
+-355	84234 33770 53653 64866 33770 54812 
+-355	97148 9966 8772 27764 84422 110166 10226 110606 111023 260 36165 45794 111462 nlsj61372 16864 90504 7561 59741 39661 30030 34855 22209 109562 50824 45996 
+-355	37776 nlsj71743 28566 20046 34855 20046 
+-355	8909 8909 26447 48291 63772 26412 nlsj32160 84234 50824 24340 63772 26412 
+-355	84234 20621 10695 11687 58541 nlsj71743 64914 24103 108049 
+-355	20885 31161 73277 50721 78228 
+-355	113013 64866 61791 74626 24289 260 12252 
+-355	25519 36661 108049 88917 74626 93789 86219 92204 
+-355	42830 46802 36827 91967 50824 116244 46802 26207 114548 nlsj71743 50824 12409 24292 45996 50702 nlsj32160 84434 
+-355	52035 51373 22825 98234 49397 50824 52030 114548 20040 75005 31607 114548 
+-355	90504 114615 22210 49415 50824 75555 74767 8909 
+-355	8909 46802 74777 62204 112989 84234 50824 49397 8993 46802 37581 
+-355	43977 114615 6231 40154 46802 6224 64151 
+-355	7327 47533 83756 114753 41464 87791 86187 93812 
+-355	38547 20795 16051 47913 86429 nlsj71743 61885 50824 102736 18334 
+-355	36588 93789 49397 50824 8909 102432 36849 74719 3389 76513 
+-355	72202 114615 50824 36849 102435 37155 
+-355	47913 75152 52035 108660 20621 49397 nlsj32160 36849 95811 47530 88467 113013 nlsj51624 19871 47533 
+-355	64703 33415 64866 91439 13891 nlsj51624 50824 47621 85567 51781 nlsj51624 8060 49397 
+-355	72610 102736 85306 33457 11711 84234 50824 nlsj51624 34855 22210 22209 
+-355	49397 1083 19870 nlsj71743 41619 74767 8909 74778 84534 6238 85306 8613 84234 
+-355	39984 114615 50824 49397 104429 nlsj105352 75156 77768 50824 77574 12035 
+-355	101822 49397 nlsj56504 50824 22209 
+-355	113013 62257 41335 104639 
+-355	104639 33956 112966 62257 nlsj32160 18436 
+-355	260 30796 47533 nlsj71743 49397 50824 46802 14568 51800 16864 14568 
+-355	72202 114615 26397 85717 nlsj51624 58060 30040 15893 58060 86187 85717 112989 90305 64914 50824 85717 30040 58060 nlsj51624 
+-355	nlsj32160 59760 93165 110114 48970 50824 65757 48976 90305 28588 7159 15133 23762 30652 90305 
+-355	nlsj61372 98318 324 49397 50824 60308 84434 
+-355	20043 50824 15173 27847 22825 34855 84234 75552 49397 114548 98323 
+-355	20621 114548 114651 84434 50824 65469 81142 50658 33770 96981 113013 69543 65152 50824 85306 84234 61866 72610 12035 nlsj32160 
+-355	34855 84234 20621 
+-355	96981 33770 10923 88183 33124 50824 69543 76678 32686 102432 57456 
+-355	50824 42214 nlsj71743 18706 50681 2731 nlsj61372 84234 
+-355	26412 50824 112965 113013 50706 10923 18062 2660 56991 61095 11894 84234 50824 72627 46648 292 
+-355	102847 46648 
+-355	101863 30790 50824 nlsj71743 48670 104429 2660 18062 10923 61095 nlsj71743 56991 22688 94677 106263 67136 75910 10923 7608 
+-355	86429 101863 nlsj71743 52782 46648 50681 65469 22689 81142 14181 50824 
+-355	463 11894 80357 26757 
+-355	90504 114615 65761 28592 113013 60308 
+-355	62257 105638 44435 45996 43206 105638 19477 102386 45980 74378 74625 61791 nlsj13130 104643 18331 62320 66746 62259 46648 104639 76586 nlsj65911 62257 84234 
+-355	55544 62259 47847 11901 105638 65552 62257 90166 113469 6325 18331 97004 
+-355	72627 104639 77627 84234 55720 55391 
+-355	74602 113013 106263 
+-355	nlsj99416 74432 50824 61791 73277 45996 22467 71908 74599 61791 73277 2660 
+-355	43206 4725 84234 
+-355	45996 68641 2895 66294 11556 
+-355	110606 96981 1564 48735 18331 22469 97004 
+-355	66494 11096 23317 59803 27764 22425 72099 5131 6871 22467 113013 
+-355	715 106263 113013 nlsj99416 22825 
+-355	106263 11096 nlsj54109 62211 45996 98303 92077 53015 
+-355	74621 82367 11096 45045 98874 106263 
+-355	112989 113013 26108 100590 nlsj99416 
+-355	74602 nlsj65911 84247 47428 20621 12409 50824 nlsj79934 42648 
+-355	6815 96981 50824 324 112989 32506 324 47637 2665 
+-355	6817 2660 18062 28143 43977 113013 
+-355	nlsj32160 80140 62204 nlsj61372 108049 nlsj43224 50824 
+-355	2665 46648 50824 109894 112966 nlsj32160 112989 90305 85643 6325 49613 50658 20621 
+-355	nlsj71743 47904 87146 102736 50681 
+-355	102736 48574 50824 46648 102847 
+-355	33161 18979 85734 48574 
+-355	112794 46648 83756 52035 48574 6325 
+-355	107315 52035 46712 50824 8909 
+-355	65757 50658 60559 nlsj14055 30796 90504 50681 97299 47913 75152 
+-355	64914 4845 10086 113013 93789 75162 113013 83057 75156 93789 30040 86767 96602 2660 10923 94677 74777 106263 
+-355	64757 64151 106263 94677 50824 114548 
+-355	6517 26447 113013 36165 nlsj59172 112966 97004 64316 70958 60559 101851 106263 94677 21693 110598 77574 32470 50824 52784 
+-355	47964 50824 39550 33607 30787 50687 49397 95565 4845 46712 22689 nlsj11198 
+-355	39482 22825 
+-355	15345 20621 85628 67156 61855 50824 114553 64757 50824 22209 nlsj32160 106974 115887 65516 102000 45080 
+-355	72610 94677 106263 45996 102000 2660 28566 45996 
+-355	64866 nlsj79694 106263 20885 51358 45996 75910 62204 112794 66838 83732 51313 56567 28566 90410 109358 74467 94677 34524 
+-355	109358 6817 113013 72756 74467 16591 2660 89405 102000 34855 110114 21651 2253 
+-355	nlsj32160 84234 26447 113013 nlsj61373 50824 33304 84234 27842 74735 
+-355	26412 92040 16591 60209 19153 78952 56496 67514 76678 
+-355	59735 26410 70958 1564 62204 79473 84234 6238 22502 105829 92204 
+-355	50824 6325 84234 94196 62204 45794 nlsj61372 64866 75483 65152 56627 92776 85306 83756 16907 nlsj61372 84234 79983 50824 8909 
+-355	nlsj32160 93812 33304 nlsj61373 61855 39125 
+-355	50658 85306 49938 33457 nlsj61372 67136 102736 53651 14278 43309 114615 72202 33304 31333 67136 
+-355	50658 50824 48291 47601 22825 8665 nlsj61372 114548 65469 110114 
+-355	67136 50824 101711 365 74735 70364 21936 73517 55905 
+-355	13039 11197 47964 39125 61856 
+-355	98234 50824 60308 112554 50674 nlsj32160 96082 68641 61855 85306 64866 73277 41798 11027 110114 
+-355	46613 10923 2660 nlsj95366 102000 20885 86763 24340 18979 41798 50824 
+-355	76335 61855 22209 
+-355	37043 50824 46613 324 102736 324 20795 44064 50824 22689 45252 22209 46613 2061 60402 2061 112397 112677 50824 98567 68641 98567 11027 110114 
+-355	nlsj61372 50873 104690 85665 28566 109486 75005 114548 84434 65967 39131 50681 84421 1103 34450 83669 11058 50824 84234 72627 78297 43692 50824 45996 43689 50721 23230 61265 
+-355	22825 20621 nlsj32160 74535 66173 50824 57456 
+-355	90504 110639 114615 102000 49629 84234 
+-355	nlsj61372 15274 110598 102000 324 112965 116218 68641 110598 
+-355	63013 96503 24184 74571 
+-355	18062 52030 110639 114615 49629 73672 18062 96382 84234 
+-355	4845 59339 78514 72627 nlsj32160 42159 24289 20621 6238 90433 92533 
+-355	59643 59735 70958 nlsj29856 
+-355	96369 nlsj71743 107520 49629 74735 61265 
+-355	49629 42159 61265 51825 39950 
+-355	47646 2253 60646 91170 104421 96404 19775 
+-355	15088 113560 79983 54452 50702 nlsj105619 37885 44964 74571 113560 52571 
+-355	116218 94685 20836 83030 45996 47401 32964 97605 
+-355	25123 49629 65191 52893 
+-355	24084 37890 nlsj32160 3325 79998 20621 
+-355	49629 61265 nlsj13946 
+-355	91170 22200 89408 24849 73672 7323 54064 39739 
+-355	20836 58149 78926 19789 27847 99647 74571 
+-355	115748 2660 24084 96383 30030 49629 68815 113039 
+-355	39543 18568 
+-355	47428 79983 50824 57457 6238 22209 74535 nlsj32160 50824 88010 90151 78414 
+-355	4845 6238 78414 22209 
+-355	nlsj71743 50824 56567 nlsj32160 94685 
+-355	52030 18168 
+-355	28588 45786 94704 
+-355	114615 41899 92189 16864 50702 51800 30700 50824 94244 
+-355	50824 50702 74535 
+-355	58142 86108 107520 37777 78414 74535 33963 22209 95381 75898 59905 84234 
+-355	4845 74571 58142 86108 108283 29883 
+-355	20046 nlsj96033 nlsj59923 74571 
+-355	34855 20046 65265 64866 71666 37885 
+-355	109918 50702 nlsj67993 64866 83763 71666 15173 
+-355	28101 52912 16171 29598 nlsj68353 28592 77048 64866 37885 
+-355	37019 43206 28588 45794 62274 72627 114548 10223 nlsj87116 74463 
+-355	4845 51358 28101 45427 
+-355	3330 65757 64703 37885 
+-355	13890 66746 77048 64866 114753 30652 
+-355	22825 20885 59735 3325 
+-355	86767 15088 38046 24084 36801 67526 67762 38092 63783 18331 101713 64703 110598 3327 45192 95121 18331 1564 74735 63783 
+-355	49908 108802 64512 65967 22825 
 -355	50679 89366 72202 86219 43206 63772 24342
