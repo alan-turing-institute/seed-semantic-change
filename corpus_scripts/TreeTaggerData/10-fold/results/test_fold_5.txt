@@ -1,0 +1,133 @@
+======================== GENERAL RESULTS ========================
+
+Accuracy: 91%
+
+##############################
+# pronoun                    #
+##############################
+	number of forms tagged as pronoun: 6251
+	number of forms annotated as pronoun in treebank: 6174
+	number of forms correctly tagged: 5388
+	Precision:	0.8619420892657175
+	Recall:		0.8726919339164237
+	F-score:	0.8672837022132797
+
+##############################
+# particle                   #
+##############################
+	number of forms tagged as particle: 4325
+	number of forms annotated as particle in treebank: 3916
+	number of forms correctly tagged: 3134
+	Precision:	0.7246242774566474
+	Recall:		0.8003064351378958
+	F-score:	0.760587307365611
+
+##############################
+# verb                       #
+##############################
+	number of forms tagged as verb: 13867
+	number of forms annotated as verb in treebank: 13875
+	number of forms correctly tagged: 13786
+	Precision:	0.9941587942597534
+	Recall:		0.9935855855855856
+	F-score:	0.9938721072741692
+
+##############################
+# adjective                  #
+##############################
+	number of forms tagged as adjective: 7042
+	number of forms annotated as adjective in treebank: 7316
+	number of forms correctly tagged: 6446
+	Precision:	0.915364953138313
+	Recall:		0.8810825587752871
+	F-score:	0.8978966429864884
+
+##############################
+# noun                       #
+##############################
+	number of forms tagged as noun: 14163
+	number of forms annotated as noun in treebank: 14517
+	number of forms correctly tagged: 13755
+	Precision:	0.9711925439525524
+	Recall:		0.947509816077702
+	F-score:	0.9592050209205021
+
+##############################
+# SENT                       #
+##############################
+	number of forms tagged as SENT: 10161
+	number of forms annotated as SENT in treebank: 10184
+	number of forms correctly tagged: 10160
+	Precision:	0.9999015844897156
+	Recall:		0.997643362136685
+	F-score:	0.998771196854264
+
+##############################
+# conjunction                #
+##############################
+	number of forms tagged as conjunction: 5255
+	number of forms annotated as conjunction in treebank: 4664
+	number of forms correctly tagged: 4089
+	Precision:	0.778116079923882
+	Recall:		0.8767152658662093
+	F-score:	0.8244782740195584
+
+##############################
+# article                    #
+##############################
+	number of forms tagged as article: 6035
+	number of forms annotated as article in treebank: 5778
+	number of forms correctly tagged: 5576
+	Precision:	0.923943661971831
+	Recall:		0.9650398061613015
+	F-score:	0.9440446965207823
+
+##############################
+# adverb                     #
+##############################
+	number of forms tagged as adverb: 6239
+	number of forms annotated as adverb in treebank: 7272
+	number of forms correctly tagged: 5171
+	Precision:	0.82881872094887
+	Recall:		0.7110836083608361
+	F-score:	0.7654503737695211
+
+##############################
+# preposition                #
+##############################
+	number of forms tagged as preposition: 4293
+	number of forms annotated as preposition in treebank: 4283
+	number of forms correctly tagged: 4200
+	Precision:	0.9783368273934312
+	Recall:		0.9806210600046696
+	F-score:	0.9794776119402986
+
+##############################
+# proper                     #
+##############################
+	number of forms tagged as proper: 1248
+	number of forms annotated as proper in treebank: 881
+	number of forms correctly tagged: 756
+	Precision:	0.6057692307692307
+	Recall:		0.8581157775255391
+	F-score:	0.7101925786754344
+
+##############################
+# interjection               #
+##############################
+	number of forms tagged as interjection: 221
+	number of forms annotated as interjection in treebank: 230
+	number of forms correctly tagged: 216
+	Precision:	0.9773755656108597
+	Recall:		0.9391304347826087
+	F-score:	0.957871396895787
+
+##############################
+# unknown                    #
+##############################
+	number of forms tagged as unknown: 52
+	number of forms annotated as unknown in treebank: 62
+	number of forms correctly tagged: 31
+	Precision:	0.5961538461538461
+	Recall:		0.5
+	F-score:	0.5438596491228069
