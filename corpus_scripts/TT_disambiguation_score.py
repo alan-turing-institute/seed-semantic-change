@@ -330,7 +330,7 @@ def comparison():
 						#dbl_output(original_lemma,tt_lemma)
 		dbl_output('Successes: %d'%count_success)
 		dbl_output('Failures: %d'%count_failure)
-		dbl_output('Accuracy: %d%%'%round(count_success*100/len(words),3))
+		dbl_output('Accuracy: %s%%'%str(round(count_success*100/len(words),2)))
 		indexes = []
 		table = []
 		for y in sorted([x for x in counts_disamb.keys()]):
@@ -378,7 +378,7 @@ for idx,file in enumerate(files):
 					count_failure += 1
 	dbl_output('Successes: %d'%count_success)
 	dbl_output('Failures: %d'%count_failure)
-	dbl_output('Accuracy: %d%%'%round(count_success*100/len(words),3))
+	dbl_output('Accuracy: %s%%'%str(round(count_success*100/len(words),2)))
 	dbl_output()
 result_file.close()
 print('All done! It was a pleasure doing this stuff for you, m8!')

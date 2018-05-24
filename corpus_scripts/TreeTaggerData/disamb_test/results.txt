@@ -8,7 +8,7 @@
 
 Successes: 73039
 Failures: 10696
-Accuracy: 87%
+Accuracy: 87.23%
                               count  total  percentage
                                                       
 Accuracy per confidence 0.17      0      3        0.00
@@ -26,7 +26,7 @@ Total                         73039  83735       87.23
 
 Successes: 111926
 Failures: 20423
-Accuracy: 84%
+Accuracy: 84.57%
                                count   total  percentage
                                                         
 Accuracy per confidence 0.14       0       1        0.00
@@ -49,7 +49,7 @@ Total                         111926  132349       84.57
 
 Successes: 45271
 Failures: 38464
-Accuracy: 54%
+Accuracy: 54.06%
 
 ······················
 · File: greek-nt.xml ·
@@ -57,5 +57,5 @@ Accuracy: 54%
 
 Successes: 67565
 Failures: 64784
-Accuracy: 51%
+Accuracy: 51.05%
 
