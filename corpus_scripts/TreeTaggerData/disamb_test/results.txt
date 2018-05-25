@@ -12,12 +12,12 @@ Accuracy: 87.42%
                               count  total  percentage
                                                       
 Accuracy per confidence 0.17      0      3        0.00
-Accuracy per confidence 0.2      17     34       50.00
-Accuracy per confidence 0.25    544    875       62.17
-Accuracy per confidence 0.33   1385   2155       64.27
-Accuracy per confidence 0.5    5189   9132       56.82
+Accuracy per confidence 0.2       9     26       34.62
+Accuracy per confidence 0.25    551    833       66.15
+Accuracy per confidence 0.33   1062   1881       56.46
+Accuracy per confidence 0.5    5490   9430       58.22
 Accuracy per confidence 1.0    1571   3680       42.69
-Accuracy per confidence n/a   64495  67856       95.05
+Accuracy per confidence n/a   64518  67882       95.04
 Total                         73201  83735       87.42
 
 ······················
@@ -32,11 +32,11 @@ Accuracy: 84.68%
 Accuracy per confidence 0.14       0       1        0.00
 Accuracy per confidence 0.17       0       1        0.00
 Accuracy per confidence 0.2        1      26        3.85
-Accuracy per confidence 0.25    1000    1424       70.22
-Accuracy per confidence 0.33    3285    5366       61.22
-Accuracy per confidence 0.5     9150   13916       65.75
+Accuracy per confidence 0.25    1000    1366       73.21
+Accuracy per confidence 0.33    2328    4465       52.14
+Accuracy per confidence 0.5    10101   14869       67.93
 Accuracy per confidence 1.0     3539    9111       38.84
-Accuracy per confidence n/a    95104  102504       92.78
+Accuracy per confidence n/a    95110  102510       92.78
 Total                         112079  132349       84.68
 
 ###############################

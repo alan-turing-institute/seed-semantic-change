@@ -23,8 +23,11 @@ tt_input = '%s/tt_input'%tt_root
 tt_output = '%s/tagged'%tt_root
 disamb = '%s/disambiguated'%tt_root
 
+frequentist=True
+freq=''
+if frequentist==False:freq='_nofreq'
 files = ['%s/hdt.xml'%proiel, '%s/greek-nt.xml'%proiel]
-result_file = open('%s/results.txt'%tt_root, 'w+')
+result_file = open('%s/results%s.txt'%(tt_root,freq), 'w+')
 
 def dbl_output(*args):
 	global result_file
@@ -163,6 +166,7 @@ def annotate():
 			else:
 				process(lookup(form)['entry'], word)
 		parse.write('%s/%s'%(af, os.path.basename(file)), xml_declaration = True, encoding='UTF-8', pretty_print=True)
+	print()
 
 #annotate()
 
@@ -211,16 +215,19 @@ def treetag():
 # step 4: disambiguate annotated proiel files #
 ###############################################
 def disambiguate():
-
 	frequencies = pickle.load(open("lemma_frequency.p", "rb" ))
 	def TT_dis(node,TT_POS):
-		possible_lemmas=node.xpath('lemma[@POS="%s"]'%TT_POS)
-		freq_score = []
-		for lemma in possible_lemmas:
-			freq_score.append((frequencies.get(lemma.get('id'),0),lemma.get('id')))
-		sorted_scores = sorted(freq_score, key=lambda tup: tup[0], reverse=True)
-		toAdd = node.xpath('lemma[@POS="%s"][@id="%s"]'%(TT_POS,sorted_scores[0][1]))[0]
-		toAdd.set('disambiguated', str(round(1/len(possible_lemmas),2)))
+		global frequentist
+		if frequentist==True:
+			possible_lemmas=node.xpath('lemma[@POS="%s"]'%TT_POS)
+			freq_score = []
+			for lemma in possible_lemmas:
+				freq_score.append((frequencies.get(lemma.get('id'),0),lemma.get('id')))
+			sorted_scores = sorted(freq_score, key=lambda tup: tup[0], reverse=True)
+			toAdd = node.xpath('lemma[@POS="%s"][@id="%s"]'%(TT_POS,sorted_scores[0][1]))[0]
+		else:
+			toAdd = node.xpath('lemma[@POS="%s"]'%TT_POS)[0]
+		toAdd.set('disambiguated', str(round(1/len(node.xpath('lemma[@POS="%s"]'%TT_POS)),2)))
 		toAdd.set('TreeTagger', 'true')
 		toRemove = node.xpath('lemma')
 		[node.remove(x) for x in toRemove]
@@ -288,7 +295,7 @@ def disambiguate():
 		del curr_text, curr_text_check
 
 disambiguate()
-
+print()
 #####################################################
 # step 5: compare proiel lemmatization with new one #
 #####################################################
