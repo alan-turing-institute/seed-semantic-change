@@ -217,10 +217,10 @@ def disambiguate():
 		possible_lemmas=node.xpath('lemma[@POS="%s"]'%TT_POS)
 		freq_score = []
 		for lemma in possible_lemmas:
-			freq_score.append((frequencies[lemma.get('id')],lemma.get('id')))
+			freq_score.append((frequencies.get(lemma.get('id'),0),lemma.get('id')))
 		sorted_scores = sorted(freq_score, key=lambda tup: tup[0], reverse=True)
-		toAdd = node.xpath('lemma[@POS="%s"][@id="%s"]'%(TT_POS,sorted_scores[0][1]))
-		toAdd.set('disambiguated', str(round(1/len(node.xpath('lemma[@POS="%s"]'%TT_POS)),2)))
+		toAdd = node.xpath('lemma[@POS="%s"][@id="%s"]'%(TT_POS,sorted_scores[0][1]))[0]
+		toAdd.set('disambiguated', str(round(1/len(possible_lemmas),2)))
 		toAdd.set('TreeTagger', 'true')
 		toRemove = node.xpath('lemma')
 		[node.remove(x) for x in toRemove]
@@ -232,7 +232,7 @@ def disambiguate():
 		print("Disambiguating %s"%os.path.basename(file))
 		init_tokens = str(len(curr_text.xpath('//token[@form]')))
 		init_lemmas = str(len(curr_text.xpath('//lemma')))
-		sys.stdout.write("\r\033[\tTokens: %s, lemmas: %s"%(init_tokens, init_lemmas))
+		sys.stdout.write("\r\033[\tWord tokens: %s, lemmas: %s"%(init_tokens, init_lemmas))
 		sys.stdout.flush()
 		TT_doc = open(file.replace('xml','txt').replace(af,tt_output), 'r')
 		TT_lines=[x for x in TT_doc]
@@ -246,16 +246,15 @@ def disambiguate():
 				if lemma_count > 1:
 					TT_POS = TT_lines[word_count].split('\t')[1].strip()
 					try:
-						TT_dis(node,TT_POS)
+						a=node.xpath('lemma[@POS="%s"]'%TT_POS)[0]
 					except:
-						if TT_POS == 'proper':
-							TT_POS='noun'
+						if TT_POS == 'proper': TT_POS='noun'
 						try:
-							TT_dis(node,TT_POS)
+							a=node.xpath('lemma[@POS="%s"]'%TT_POS)[0]
 						except:
 							TT_POS='adjective'
 							try:
-								TT_dis(node,TT_POS)
+								a=node.xpath('lemma[@POS="%s"]'%TT_POS)[0]
 							except:
 								toAdd = node.xpath('lemma')[0]
 								toAdd.set('disambiguated', str(round(1/lemma_count, 2)))
@@ -263,6 +262,12 @@ def disambiguate():
 								toRemove = node.xpath('lemma')
 								[node.remove(x) for x in toRemove]
 								node.append(toAdd)
+							else:
+								TT_dis(node,TT_POS)
+						else:
+							TT_dis(node,TT_POS)
+					else:
+						TT_dis(node,TT_POS)
 				else:
 					node.xpath('./lemma')[0].set('TreeTagger', 'false')
 					node.xpath('./lemma')[0].set('disambiguated', 'n/a')

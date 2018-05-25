@@ -35,7 +35,7 @@ for idx,record in enumerate(files):
 			lemmas.setdefault(lemmaid, 0)
 			lemmas[lemmaid]+=1
 		
-sorted_list = sorted(lemmas.items(), key=operator.itemgetter(1), reverse=True)
-pickle.dump(sorted_list, open("lemma_frequency.p", "wb" ))
+#sorted_list = sorted(lemmas.items(), key=operator.itemgetter(1), reverse=True)
+pickle.dump(lemmas, open("lemma_frequency.p", "wb" ))
 
 print('\n###########\n#All done!#\n###########\n')
