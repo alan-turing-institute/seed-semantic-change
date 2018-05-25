@@ -6,38 +6,37 @@
 · File: hdt.xml ·
 ·················
 
-Successes: 73039
-Failures: 10696
-Accuracy: 87.23%
+Successes: 73634
+Failures: 10101
+Accuracy: 87.94%
                               count  total  percentage
                                                       
-Accuracy per confidence 0.17      0      3        0.00
-Accuracy per confidence 0.2      17     34       50.00
-Accuracy per confidence 0.25    543    875       62.06
-Accuracy per confidence 0.33   1368   2155       63.48
-Accuracy per confidence 0.5    5045   9132       55.25
-Accuracy per confidence 1.0    1571   3680       42.69
+Accuracy per confidence 0.14      7     51       13.73
+Accuracy per confidence 0.17     10     14       71.43
+Accuracy per confidence 0.2      37     74       50.00
+Accuracy per confidence 0.25    828   1435       57.70
+Accuracy per confidence 0.33   1711   2860       59.83
+Accuracy per confidence 0.5    6546  11445       57.20
 Accuracy per confidence n/a   64495  67856       95.05
-Total                         73039  83735       87.23
+Total                         73634  83735       87.94
 
 ······················
 · File: greek-nt.xml ·
 ······················
 
-Successes: 111926
-Failures: 20423
-Accuracy: 84.57%
+Successes: 113121
+Failures: 19228
+Accuracy: 85.47%
                                count   total  percentage
                                                         
 Accuracy per confidence 0.14       0       1        0.00
-Accuracy per confidence 0.17       0       1        0.00
-Accuracy per confidence 0.2        2      26        7.69
-Accuracy per confidence 0.25     996    1424       69.94
-Accuracy per confidence 0.33    3274    5366       61.01
-Accuracy per confidence 0.5     9011   13916       64.75
-Accuracy per confidence 1.0     3539    9111       38.84
+Accuracy per confidence 0.17       0       6        0.00
+Accuracy per confidence 0.2       13     152        8.55
+Accuracy per confidence 0.25    1418    2620       54.12
+Accuracy per confidence 0.33    4075    7130       57.15
+Accuracy per confidence 0.5    12511   19936       62.76
 Accuracy per confidence n/a    95104  102504       92.78
-Total                         111926  132349       84.57
+Total                         113121  132349       85.47
 
 ###############################
 # Accuracy of CLTK lemmatizer #

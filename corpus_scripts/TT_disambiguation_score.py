@@ -9,6 +9,7 @@ import configparser
 import re
 import pandas as pd
 from cltk.stem.lemma import LemmaReplacer
+import pickle
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 os.system("clear && printf '\e[3J'")
@@ -209,8 +210,22 @@ def treetag():
 ###############################################
 # step 4: disambiguate annotated proiel files #
 ###############################################
-
 def disambiguate():
+
+	frequencies = pickle.load(open("lemma_frequency.p", "rb" ))
+	def TT_dis(node,TT_POS):
+		possible_lemmas=node.xpath('lemma[@POS="%s"]'%TT_POS)
+		freq_score = []
+		for lemma in possible_lemmas:
+			freq_score.append((frequencies[lemma.get('id')],lemma.get('id')))
+		sorted_scores = sorted(freq_score, key=lambda tup: tup[0], reverse=True)
+		toAdd = node.xpath('lemma[@POS="%s"][@id="%s"]'%(TT_POS,sorted_scores[0][1]))
+		toAdd.set('disambiguated', str(round(1/len(node.xpath('lemma[@POS="%s"]'%TT_POS)),2)))
+		toAdd.set('TreeTagger', 'true')
+		toRemove = node.xpath('lemma')
+		[node.remove(x) for x in toRemove]
+		node.append(toAdd)
+		
 	for idx,file in enumerate(files):
 		file = file.replace(proiel,af)
 		curr_text = document.parse(file)
@@ -231,31 +246,16 @@ def disambiguate():
 				if lemma_count > 1:
 					TT_POS = TT_lines[word_count].split('\t')[1].strip()
 					try:
-						toAdd = node.xpath('lemma[@POS="%s"]'%TT_POS)[0]
-						toAdd.set('disambiguated', str(round(1/len(node.xpath('lemma[@POS="%s"]'%TT_POS)),2)))
-						toAdd.set('TreeTagger', 'true')
-						toRemove = node.xpath('lemma')
-						[node.remove(x) for x in toRemove]
-						node.append(toAdd)
+						TT_dis(node,TT_POS)
 					except:
 						if TT_POS == 'proper':
 							TT_POS='noun'
 						try:
-							toAdd = node.xpath('lemma[@POS="%s"]'%TT_POS)[0]
-							toAdd.set('disambiguated', str(round(1/len(node.xpath('lemma[@POS="%s"]'%TT_POS)),2)))
-							toAdd.set('TreeTagger', 'true')
-							toRemove = node.xpath('lemma')
-							[node.remove(x) for x in toRemove]
-							node.append(toAdd)
+							TT_dis(node,TT_POS)
 						except:
 							TT_POS='adjective'
 							try:
-								toAdd = node.xpath('lemma[@POS="%s"]'%TT_POS)[0]
-								toAdd.set('disambiguated', str(round(1/len(node.xpath('lemma[@POS="%s"]'%TT_POS)),2)))
-								toAdd.set('TreeTagger', 'true')
-								toRemove = node.xpath('lemma')
-								[node.remove(x) for x in toRemove]
-								node.append(toAdd)
+								TT_dis(node,TT_POS)
 							except:
 								toAdd = node.xpath('lemma')[0]
 								toAdd.set('disambiguated', str(round(1/lemma_count, 2)))
@@ -282,7 +282,7 @@ def disambiguate():
 		if final_lemmas != final_tokens: input('Problem!')
 		del curr_text, curr_text_check
 
-#disambiguate()
+disambiguate()
 
 #####################################################
 # step 5: compare proiel lemmatization with new one #
