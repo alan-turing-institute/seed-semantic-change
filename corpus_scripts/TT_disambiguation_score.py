@@ -293,9 +293,10 @@ def disambiguate():
 		if init_tokens != final_tokens: input('Problem!')
 		if final_lemmas != final_tokens: input('Problem!')
 		del curr_text, curr_text_check
+		print()
 
-disambiguate()
-print()
+#disambiguate()
+
 #####################################################
 # step 5: compare proiel lemmatization with new one #
 #####################################################
@@ -375,7 +376,7 @@ for idx,file in enumerate(files):
 		original_lemma = word.get('lemma').split('#')[0].lower()
 		form = word.get('form')
 		id = word.get('id')
-		cltk = lemmatizer.lemmatize(form)[0].lower()
+		cltk = re.sub('\d+','',lemmatizer.lemmatize(form)[0].lower())
 		if cltk == original_lemma:
 			count_success += 1
 		else:
