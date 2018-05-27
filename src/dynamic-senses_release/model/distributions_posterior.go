@@ -77,11 +77,8 @@ func (m *Model) Top_features_given_k_t (k, t int, mode string) (psi []float64, i
   if mode == "p_w_given_s" {
     psi = m.P_w_given_s(k)
   } else {
-    for g:=0 ; g<m.Parameters.Num_genres ; g++ {   // TODO new
-    //psi = Additive_logistic_transform(m.LogNormals_f[k].RowCopy(t)) //TODO old
-       psi = Additive_logistic_transform(m.LogNormals_f[g][k].RowCopy(t)) //TODO old
+    psi = Additive_logistic_transform(m.LogNormals_f[k].RowCopy(t))
     }
-  }
   indices = make([]int, len(psi))
   floats.Argsort(psi, indices)
   return psi, indices

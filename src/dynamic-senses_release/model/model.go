@@ -17,10 +17,10 @@ import (
 type Model struct {
   //parameters
   Parameters *Model_parameters
-  LogNormals_k map[int]*matrix.DenseMatrix
+  LogNormals_f map[int]*matrix.DenseMatrix
 
   //LogNormals_f map[int]*matrix.DenseMatrix  //TODO old
-  LogNormals_f []map[int]*matrix.DenseMatrix  //TODO new might need to revert this? depends on model we use. shared or different variances? I would say different to have different trajectory variances.
+  LogNormals_k []map[int]*matrix.DenseMatrix  //TODO new might need to revert this? depends on model we use. shared or different variances? I would say different to have different trajectory variances.
 
   //Phi        map[int]*matrix.DenseMatrix  //TODO old
   Phi        []map[int]*matrix.DenseMatrix  //TODO old
@@ -35,13 +35,17 @@ func New_model(parameters *Model_parameters) (m *Model) {
   m                 = new(Model)
   m.Parameters      = new(Model_parameters)
   m.Parameters      = parameters
-  m.LogNormals_k    = make(map[int]*matrix.DenseMatrix, 1)
-  m.LogNormals_k[0] = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_categories)
 
-  //m.LogNormals_f    = make(map[int]*matrix.DenseMatrix, m.Parameters.Num_categories) //TODO old
-  m.LogNormals_f    = make([]map[int]*matrix.DenseMatrix, m.Parameters.Num_genres)  //TODO new
-  for idx, _ := range(m.LogNormals_f) {  //TODO new
-      m.LogNormals_f[idx] = make(map[int]*matrix.DenseMatrix, m.Parameters.Num_categories) //TODO new
+  m.LogNormals_f    = make(map[int]*matrix.DenseMatrix, m.Parameters.Num_categories) //TODO old
+  //m.LogNormals_f    = make([]map[int]*matrix.DenseMatrix, m.Parameters.Num_genres)  //TODO new
+  //for idx, _ := range(m.LogNormals_f) {  //TODO new
+  //    m.LogNormals_f[idx] = make(map[int]*matrix.DenseMatrix, m.Parameters.Num_categories) //TODO new
+  //}  //TODO new
+
+  m.LogNormals_k    = make([]map[int]*matrix.DenseMatrix, m.Parameters.Num_genres)  //TODO new
+  for idx, _ := range(m.LogNormals_k) {  //TODO new
+      m.LogNormals_k[idx] = make(map[int]*matrix.DenseMatrix, 1) //TODO new
+      m.LogNormals_k[idx][0] = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_categories)
   }  //TODO new
 
   //m.Phi             = make(map[int]*matrix.DenseMatrix, 1) //TODO old
@@ -53,9 +57,6 @@ func New_model(parameters *Model_parameters) (m *Model) {
       m.Phi[idx][0]          = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_categories)
   }
 
-
-
-
   m.Psi             = make(map[int]*matrix.DenseMatrix, parameters.Num_categories)
   m.N_k             = make(map[int]*matrix.SparseMatrix, 1)
   m.N_sum_k         = make(map[int]*matrix.SparseMatrix, 1)
@@ -63,16 +64,15 @@ func New_model(parameters *Model_parameters) (m *Model) {
   m.N_sum_k[0]      = matrix.ZerosSparse(m.Parameters.Num_timestamps, 1)
   m.N_k_f           = make(map[int]*matrix.SparseMatrix, parameters.Num_categories)
   m.N_k_sum_f       = make(map[int]*matrix.SparseMatrix, parameters.Num_categories)
-  for g:=0 ; g<m.Parameters.Num_genres ; g++ {
-    print("genre index: ", g, "\n")
-    for k:=0 ; k<parameters.Num_categories ; k++ {
-      //m.LogNormals_f[k] = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_features) //TODO old
-      m.LogNormals_f[g][k] = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_features) //TODO new
-      m.Psi[k]          = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_features)
-      m.N_k_f[k]        = matrix.ZerosSparse(m.Parameters.Num_timestamps, m.Parameters.Num_features)
-      m.N_k_sum_f[k]    = matrix.ZerosSparse(m.Parameters.Num_timestamps,1)
-    }
+
+  for k:=0 ; k<parameters.Num_categories ; k++ {
+    m.LogNormals_f[k] = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_features) //TODO old
+    //m.LogNormals_f[g][k] = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_features) //TODO new
+    m.Psi[k]          = matrix.Zeros(m.Parameters.Num_timestamps, m.Parameters.Num_features)
+    m.N_k_f[k]        = matrix.ZerosSparse(m.Parameters.Num_timestamps, m.Parameters.Num_features)
+    m.N_k_sum_f[k]    = matrix.ZerosSparse(m.Parameters.Num_timestamps,1)
   }
+
   return
 }
 
@@ -88,10 +88,10 @@ func (m *Model) Initialize_batch(corpus *data.Corpus) {
         for vv:=0 ; vv<m.Parameters.Num_features ; vv++ {
   	m.Psi[kk].Set(tt, vv, (m.N_k_f[kk].Get(tt,vv)+0.01) / (m.N_k_sum_f[kk].Get(tt,0)+float64(m.Parameters.Num_features)*0.01))
         }
-        //m.LogNormals_f[kk].FillRow(tt, Inverse_alt(m.Psi[kk].RowCopy(tt))) ///TODO old
-        m.LogNormals_f[g][kk].FillRow(tt, Inverse_alt(m.Psi[kk].RowCopy(tt))) ///TODO new
+        m.LogNormals_f[kk].FillRow(tt, Inverse_alt(m.Psi[kk].RowCopy(tt))) ///TODO old
+        //m.LogNormals_f[g][kk].FillRow(tt, Inverse_alt(m.Psi[kk].RowCopy(tt))) ///TODO new
       }
-      m.LogNormals_k[0].FillRow(tt, Inverse_alt(m.Phi[g][0].RowCopy(tt)))
+      m.LogNormals_k[g][0].FillRow(tt, Inverse_alt(m.Phi[g][0].RowCopy(tt)))
     }
   }
 }

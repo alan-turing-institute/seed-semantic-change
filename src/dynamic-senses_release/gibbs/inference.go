@@ -86,6 +86,7 @@ func (s *Sampler) estimate(pK, pFgK, posterior []float64, test_corpus *data.Corp
                                                    s.Model.Parameters.B0,
 						   s.Model.Parameters.Num_categories,
 						   s.Model.Parameters.Num_timestamps,
+               s.Model.Parameters.Num_genres,
 						   s.Model.LogNormals_k)
      }
   }

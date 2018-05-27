@@ -34,7 +34,7 @@ func train_model(store, mode string, parameters map[string]string) {
     concept_path    = parameters["target_words"]
     output_path     = parameters["output_path"]
 
-    const num_genres = 1   /// TODO: read the correct number of genres
+    const num_genres = 3   /// TODO: read the correct number of genres
 
 
     /* ******************************************************************************************** */
