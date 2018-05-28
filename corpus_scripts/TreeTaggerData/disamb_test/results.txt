@@ -1,0 +1,61 @@
+#############################
+# Accuracy of lemmatization #
+#############################
+
+·················
+· File: hdt.xml ·
+·················
+
+Successes: 73201
+Failures: 10534
+Accuracy: 87.42%
+                              count  total  percentage
+                                                      
+Accuracy per confidence 0.17      0      3        0.00
+Accuracy per confidence 0.2       9     26       34.62
+Accuracy per confidence 0.25    551    833       66.15
+Accuracy per confidence 0.33   1062   1881       56.46
+Accuracy per confidence 0.5    5490   9430       58.22
+Accuracy per confidence 1.0    1571   3680       42.69
+Accuracy per confidence n/a   64518  67882       95.04
+Total                         73201  83735       87.42
+
+······················
+· File: greek-nt.xml ·
+······················
+
+Successes: 112079
+Failures: 20270
+Accuracy: 84.68%
+                               count   total  percentage
+                                                        
+Accuracy per confidence 0.14       0       1        0.00
+Accuracy per confidence 0.17       0       1        0.00
+Accuracy per confidence 0.2        1      26        3.85
+Accuracy per confidence 0.25    1000    1366       73.21
+Accuracy per confidence 0.33    2328    4465       52.14
+Accuracy per confidence 0.5    10101   14869       67.93
+Accuracy per confidence 1.0     3539    9111       38.84
+Accuracy per confidence n/a    95110  102510       92.78
+Total                         112079  132349       84.68
+
+###############################
+# Accuracy of CLTK lemmatizer #
+###############################
+
+·················
+· File: hdt.xml ·
+·················
+
+Successes: 46156
+Failures: 37579
+Accuracy: 55.12%
+
+······················
+· File: greek-nt.xml ·
+······················
+
+Successes: 69029
+Failures: 63320
+Accuracy: 52.16%
+

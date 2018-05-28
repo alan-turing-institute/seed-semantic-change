@@ -6,6 +6,10 @@ from grkFrm import greekForms
 from utf2beta import convertUTF
 import configparser
 import pickle
+from subprocess import DEVNULL, STDOUT, check_call
+import numpy as np
+import pandas as pd
+from scipy import stats
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 os.system("clear && printf '\e[3J'")
@@ -13,6 +17,7 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 proiel = config['paths']['proiel']
 perseus = config['paths']['perseus_tb']
+treetagger = config['paths']['treetagger']
 o_dir='TreeTaggerData/10-fold'
 
 converted = ''
@@ -118,6 +123,7 @@ perseus_pos = {
 
 def convert_proiel(file):
 	global converted
+	converted+='\n'
 	parse = document.parse(file)
 	words = parse.xpath('//token')
 	for word in words:
@@ -151,6 +157,7 @@ def convert_perseus(file):
 	del parse, words
 
 if os.path.isfile("%s/converted.p"%o_dir):
+	print('Loading full corpus')
 	converted = pickle.load(open("%s/converted.p"%o_dir, "rb" ))
 else:
 	print('Converting Perseus files')
@@ -168,12 +175,124 @@ all_sentences = set()
 for idx,x in enumerate(re.split(".\tSENT|;\tSENT", converted)):
 	all_sentences.add('~%s~'%idx+x+'.\tSENT')
 sentences_per_fold = int(len(all_sentences)/10)
+print('Generating 10 random folds [Fold size: %s]'%sentences_per_fold)
 folds = {}
 for n in range(9):
 	for x in range(sentences_per_fold):
-		folds.setdefault(n,[]).append(re.sub('~.*?~','',all_sentences.pop()))
-folds[9]=[re.sub('~.*?~','',x) for x in all_sentences]
+		folds.setdefault(n,[]).append(re.sub('~.*?~\n?','\n',all_sentences.pop()))
+folds[9]=[re.sub('~.*?~\n?','\n',x) for x in all_sentences]
 
 for (fold,sentences) in folds.items():
-	open('TreeTaggerData/10-fold/fold_%s.txt'%fold,'w').write(''.join(sentences).strip())
+	open('%s/fold_%s.txt'%(o_dir,fold),'w').write(''.join(sentences).strip())
+	
+table = {}
+
+for n in range(10):
+	print('Training on all folds except %s'%n)	
+	#generate training set
+	training='%s/training/training_%s.txt'%(o_dir,n)
+	training_set = []
+	print('\tGenerating training set')
+	if os.path.isfile(training): os.remove(training)
+	for file in os.listdir(o_dir):
+		if os.path.splitext(file)[1]=='.txt':
+			index = int(file.split('.')[0].split('_')[1])
+			if index != n:
+				training_set.append(open('%s/%s'%(o_dir,file),'r').read())
+	training = open(training, 'w+').write('\n'.join(training_set))
+	print('\tGenerating TreeTagger parameters')
+	check_call(['%s/train-tree-tagger'%treetagger, 'TreeTaggerData/lexicon.txt', 'TreeTaggerData/openclass.txt', 'TreeTaggerData/10-fold/training/training_%s.txt'%n,'TreeTaggerData/10-fold/params/ancient_greek_%s.dat'%n], stdout=DEVNULL, stderr=STDOUT)
+	print('Testing on fold %s'%n)
+	print('\tGenerating test file')
+	test_fold = open('%s/fold_%s.txt'%(o_dir,n), 'r')
+	test_file = '%s/test/test_%s.txt'%(o_dir,n)
+	if os.path.isfile(test_file): os.remove(test_file)
+	open(test_file, 'a+').write('\n'.join([line.split('\t')[0] for line in test_fold]))
+	print('\tTagging test file with TreeTagger')
+	check_call(['%s/tree-tagger'%treetagger, '%s/params/ancient_greek_%s.dat'%(o_dir,n),'%s/test/test_%s.txt'%(o_dir,n),'%s/test_tagged/test_%s.txt'%(o_dir,n), '-token', '-lemma'], stdout=DEVNULL, stderr=STDOUT)
+	print('\tComparing tagging with benchmark')
+	a_lines=[x for x in open('%s/test_tagged/test_%s.txt'%(o_dir,n), 'r')]
+	c_lines=[x for x in open('%s/fold_%s.txt'%(o_dir,n), 'r')]
+	output = '%s/results/test_fold_%s.txt'%(o_dir,n)
+	if os.path.isfile(output): os.remove(output)
+	output = open(output, 'a+')
+	trues = 0
+	POS_list = {} #number of forms tagged as N by TreeBanker
+	POS_list_benchmark = {} #number of forms annotated as N in the treebank
+	POS_list_correct = {} #number of forms correctly tagged as N
+	for idx, x in enumerate(range(0,len(a_lines))):
+		#output.write('%s\t%s\t%s\n'%(a_lines[idx].strip(),c_lines[idx].strip(),a_lines[idx] == c_lines[idx]))
+		POS_a=a_lines[idx].strip().split('\t')[1]
+		POS_c=c_lines[idx].strip().split('\t')[1]
+		POS_list.setdefault(POS_a,0)
+		POS_list[POS_a]+=1
+		POS_list_benchmark.setdefault(POS_c,0)
+		POS_list_benchmark[POS_c]+=1
+		POS_list_correct.setdefault(POS_a,0)
+		if a_lines[idx].strip().split('\t')[0:2] == c_lines[idx].strip().split('\t')[0:2]:
+			trues+=1
+			POS_list_correct[POS_a]+=1
+	percent_true = round(trues*100/len(a_lines),2)
+	output.write('======================== GENERAL RESULTS ========================')
+	output.write('\n\nAccuracy: %d%%'%percent_true)
+	table.setdefault('accuracy',[]).append(percent_true)
+
+	#Precision = (number of forms correctly tagged as N)/(number of forms tagged as N)
+	#Recall = (number of forms correctly tagged as N)/(number of Ns in the gold standard)
+	#F-score = 2*(precision*recall)/(precision +recall)
+	for POS,count in POS_list.items():
+		tagged_as_N=count
+		correctly_tagged=POS_list_correct.get(POS,0)
+		count_in_gold_standard=POS_list_benchmark.get(POS,0)
+		try:
+			precision = correctly_tagged/tagged_as_N
+		except:
+			precision = 'N/A'
+		try:
+			recall = correctly_tagged/count_in_gold_standard
+		except:
+			recall = 'N/A'
+		try:
+			Fscore = 2*(precision*recall)/(precision+recall)
+		except:
+			Fscore = 'N/A'
+		output_string = '\n\n'
+		output_string += 30*'#'
+		output_string +=('\n# %s%s#'%(POS,(27-len(POS))*' '))
+		output_string +=('\n'+30*'#')
+		output_string +=('\n\tnumber of forms tagged as %s: %d'%(POS, tagged_as_N))
+		output_string +=('\n\tnumber of forms annotated as %s in treebank: %d'%(POS, count_in_gold_standard))
+		output_string +=('\n\tnumber of forms correctly tagged: %d'%correctly_tagged)
+		output_string +=('\n\tPrecision:\t%s'%precision)
+		output_string +=('\n\tRecall:\t\t%s'%recall)
+		output_string +=('\n\tF-score:\t%s'%Fscore)
+		table.setdefault('%s:precision'%POS,[]).append(precision)
+		table.setdefault('%s:recall'%POS,[]).append(recall)
+		table.setdefault('%s:F-score'%POS,[]).append(Fscore)
+		output.write(output_string)
+	output.close()	
+print('Calculating overall results')
+pos = ['noun','proper','verb','adjective','pronoun','article','adverb','preposition','particle','conjunction','interjection','SENT','unknown']
+f1=lambda x: x+':precision'
+f2=lambda x: x+':recall'
+f3=lambda x: x+':F-score'
+t_fields = ['accuracy']+[f(x) for x in pos for f in (f1,f2,f3)]
+table=pd.DataFrame(data=table, index=['Fold-%s'%x for x in range(10)])	
+table=table[t_fields]
+mean = []
+stdev = []
+sterr = []
+cfint = []
+for idx,field in enumerate(t_fields):
+	curr_col = table.iloc[:,idx]
+	mean.append(curr_col.mean())
+	stdev.append(np.std(curr_col, ddof=1))
+	sterr.append(stats.sem(curr_col))
+	confint=stats.norm.interval(0.95,loc=curr_col.mean(),scale=stats.sem(curr_col))
+	cfint.append('±'+str((confint[1]-confint[0])/2))
+table2=pd.DataFrame([mean,stdev,sterr,cfint], columns=t_fields, index=['mean','STD','STE','95%-CI'])
+output = '%s/results/results.csv'%o_dir
+if os.path.isfile(output): os.remove(output)
+with pd.option_context('expand_frame_repr', False):
+	open(output, 'w+').write(re.sub(' {1,}',',',table.append(table2).to_string()))
 print('All done')
