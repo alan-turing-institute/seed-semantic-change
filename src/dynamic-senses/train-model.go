@@ -34,7 +34,7 @@ func train_model(store, mode string, parameters map[string]string) {
     concept_path    = parameters["target_words"]
     output_path     = parameters["output_path"]
 
-    const num_genres = 3   /// TODO: read the correct number of genres
+    var num_genres int /// TODO: new
 
 
     /* ******************************************************************************************** */
@@ -140,6 +140,23 @@ func train_model(store, mode string, parameters map[string]string) {
                     if err!= nil{panic(err)}
                 }
 
+
+
+                var genres []int
+                for _, doc := range(word_corpus.Documents) {
+                   print("GENRE:", doc.Genre, "\n")
+                   genres = append(genres, doc.Genre)
+                }
+                fmt.Printf("\nGENRES %v:", genres)
+
+                genres_unique := removeDuplicates(genres)
+
+                num_genres = len(genres_unique)
+
+                fmt.Printf("\nGENRES UNIQUE: %v", genres_unique)
+                fmt.Printf("\nNUM GENRES %d", num_genres)
+                print("\n")
+
                 /** initialize model **/
                 parameters := model.New_model_parameters(a0, b0, kappaF, kappaK, len(word_corpus.Documents), num_top, num_genres, max_slice_id, len(word_corpus.TargetFeatures.IDtoString), len(word_corpus.ContextFeatures.IDtoString))
                 m          := model.New_model(parameters)
@@ -163,6 +180,7 @@ func train_model(store, mode string, parameters map[string]string) {
 
                 /*** train model ***/
                 fmt.Println("...ready to estimate")
+
                 err = s.Estimate(false, &data.Corpus{word_docs_heldout, tgtfeatures_heldout, cxtfeatures_heldout}, mode)
 
                 fmt.Println("\nFinal test loglikelihood: ", s.Model.Predict(&data.Corpus{word_docs_heldout, tgtfeatures_heldout, cxtfeatures_heldout}))
@@ -190,4 +208,25 @@ func train_model(store, mode string, parameters map[string]string) {
             }
         }
     }
+}
+
+
+
+func removeDuplicates(elements []int) []int {
+    // Use map to record duplicates as we find them.
+    encountered := map[int]bool{}
+    result := []int{}
+
+    for v := range elements {
+        if encountered[elements[v]] == true {
+            // Do not add duplicate.
+        } else {
+            // Record this element as an encountered element.
+            encountered[elements[v]] = true
+            // Append to result slice.
+            result = append(result, elements[v])
+        }
+    }
+    // Return the new slice.
+    return result
 }
