@@ -20,7 +20,6 @@ func Sample_logisticnormal_parameters_f(mode string, generator *rand.Rand, t, g,
     semaphore := make(chan int , k)
 
       for kk:=0 ; kk<k ; kk++ {
-        print("kk is equal to ", kk, " out of ", k,"\n")
         go func(kk int) {
           var new_phi float64
 
@@ -96,13 +95,11 @@ func Sample_logisticnormal_parameters_f(mode string, generator *rand.Rand, t, g,
           semaphore <- 1
         }(kk);
       }
-      print("done loop over k\n")
 
 
 
     for ss:=0 ; ss<k ; ss++ {<- semaphore}
   }
-  print("done loop over i\n")
 
 
   return err
@@ -156,7 +153,7 @@ func Sample_logisticnormal_parameters(mode string, generator *rand.Rand, t, g, k
 
 
                 lower_bound, upper_bound = Sample_uniform(generator, kk, tt, vv, threshold, total_data, n_k_f)
-                
+
 
                 upper_bound = math.Log(c*upper_bound/(1.0-upper_bound))
                 lower_bound = math.Log(c*lower_bound/(1.0-lower_bound))

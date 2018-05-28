@@ -16,6 +16,7 @@ type Document struct {
   Time int
   Target int
   Context[][2]int
+  Genre int
 }
 
 
@@ -95,6 +96,7 @@ func Create_corpus_from_text(txt_corpus_path, target_concept_path string, window
     /* fill corpus with target-word specific, time-stamped documents */
     for _, line := range(txt_lines) {
         if len(strings.Split(line, "\t")) == 2 {
+            print("No genre information in the input\n")
             year_s, text := strings.Split(line, "\t")[0], strings.Split(line, "\t")[1]
             year, err    := strconv.Atoi(year_s)
             if err != nil {panic(err)}
@@ -104,14 +106,14 @@ func Create_corpus_from_text(txt_corpus_path, target_concept_path string, window
             for wIdx:=0 ; wIdx < len(words) ; wIdx++ {
                 if _, ok := target_word_dict[words[wIdx]] ;  ok {
                     if wIdx > window_size && wIdx < len(words)-window_size {
-                    //if wIdx > 0 && wIdx < len(words) {    // VP: for partial window
+                    //if wIdx > 0 && wIdx < len(words) {   // VP: for partial window
                         doc := NewDocument()
                         doc.Target = corpus.TargetFeatures.Lookup(words[wIdx])
                         doc.Time   = year
                         cxt := make(map[int]int)
-                        for i:=wIdx-window_size ; i<wIdx+window_size+1 ; i++ {
+                        for i:=wIdx-window_size ; i<wIdx+window_size ; i++ {
                             if i != wIdx {
-                            //if i != wIdx && i >= 0 && i < len(words) { // VP: for partial window
+                            //if i != wIdx && i >= 0 && i < len(words) {  // VP: for partial window
                                 cxt[corpus.ContextFeatures.Lookup(words[i])]++
                             }
                         }
@@ -120,9 +122,43 @@ func Create_corpus_from_text(txt_corpus_path, target_concept_path string, window
                         }
                         corpus.Documents = append(corpus.Documents, doc)
                     }
+
                 }
             }
+        } else if len(strings.Split(line, "\t")) == 3 {  // TODO: new. then there is the genre label too!
+          print("Genre information in the input\n")
+          year_s, genre_s, text := strings.Split(line, "\t")[0], strings.Split(line, "\t")[1], strings.Split(line, "\t")[2]
+          year, err    := strconv.Atoi(year_s)
+          genre, err    := strconv.Atoi(genre_s)
+          if err != nil {panic(err)}
+
+          words        := strings.Split(text, " ")
+          /* iterated through text in line and record a document whenever we find a target word */
+          for wIdx:=0 ; wIdx < len(words) ; wIdx++ {
+              if _, ok := target_word_dict[words[wIdx]] ;  ok {
+                  if wIdx > window_size && wIdx < len(words)-window_size {
+                  //if wIdx > 0 && wIdx < len(words) {   // VP: for partial window
+                      doc := NewDocument()
+                      doc.Target = corpus.TargetFeatures.Lookup(words[wIdx])
+                      doc.Time   = year
+                      doc.Genre = genre
+                      cxt := make(map[int]int)
+                      for i:=wIdx-window_size ; i<wIdx+window_size ; i++ {
+                          if i != wIdx {
+                          //if i != wIdx && i >= 0 && i < len(words) {  // VP: for partial window
+                              cxt[corpus.ContextFeatures.Lookup(words[i])]++
+                          }
+                      }
+                      for k,v := range(cxt) {
+                          doc.Context = append(doc.Context, [2]int{k,v})
+                      }
+                      corpus.Documents = append(corpus.Documents, doc)
+                  }
+              }
+          }
+
         }
+
     }
     return
 }
