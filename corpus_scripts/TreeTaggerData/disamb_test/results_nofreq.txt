@@ -47,15 +47,15 @@ Total                         111926  132349       84.57
 · File: hdt.xml ·
 ·················
 
-Successes: 45271
-Failures: 38464
-Accuracy: 54.06%
+Successes: 46156
+Failures: 37579
+Accuracy: 55.12%
 
 ······················
 · File: greek-nt.xml ·
 ······················
 
-Successes: 67565
-Failures: 64784
-Accuracy: 51.05%
+Successes: 69029
+Failures: 63320
+Accuracy: 52.16%
 
