@@ -106,8 +106,8 @@ func GetSampleLog_gen(generator *rand.Rand, mult []float64) (idx int) {
 
 
 /* Function for obtaining NUM samples
- *  from an CUMULATIVE PROBABILITY DENSITY 
- *  (1) sort random numbers 
+ *  from an CUMULATIVE PROBABILITY DENSITY
+ *  (1) sort random numbers
  *  (2) iterate only once over cumulative fct
  *  sounds nice and is what ppl do in the literature but sorting takes too long */
 func GetRandomSamples(cumul []float64, n int) (samples []int) {
@@ -127,8 +127,8 @@ func GetRandomSamples(cumul []float64, n int) (samples []int) {
 
 
 /* Function for obtaining NUM samples
- *  from an CUMULATIVE PROBABILITY DENSITY 
- *  (1) sort random numbers 
+ *  from an CUMULATIVE PROBABILITY DENSITY
+ *  (1) sort random numbers
  *  (2) iterate only once over cumulative fct
  *  sounds nice and is what ppl do in the literature but sorting takes too long */
 func GetRandomSamples2(cumul []float64, n int) (samples map[int]int) {

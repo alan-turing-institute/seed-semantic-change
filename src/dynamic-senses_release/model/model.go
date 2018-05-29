@@ -25,10 +25,10 @@ type Model struct {
   //Phi        map[int]*matrix.DenseMatrix  //TODO old
   Phi        []map[int]*matrix.DenseMatrix  //TODO old
   Psi        map[int]*matrix.DenseMatrix
-  N_k        map[int]*matrix.SparseMatrix //map[int][][]int  //TODO??
-  N_sum_k    map[int]*matrix.SparseMatrix //map[int][][]int  //TODO??
-  N_k_f      map[int]*matrix.SparseMatrix //map[int][][]int   //TODO ?
-  N_k_sum_f  map[int]*matrix.SparseMatrix //map[int][]int  //TODO ?
+  N_k        []map[int]*matrix.SparseMatrix //map[int][][]int  //TODO
+  N_sum_k    []map[int]*matrix.SparseMatrix //map[int][][]int  //TODO
+  N_k_f      map[int]*matrix.SparseMatrix //map[int][][]int
+  N_k_sum_f  map[int]*matrix.SparseMatrix //map[int][]int
 }
 
 func New_model(parameters *Model_parameters) (m *Model) {
@@ -58,10 +58,17 @@ func New_model(parameters *Model_parameters) (m *Model) {
   }
 
   m.Psi             = make(map[int]*matrix.DenseMatrix, parameters.Num_categories)
-  m.N_k             = make(map[int]*matrix.SparseMatrix, 1)
-  m.N_sum_k         = make(map[int]*matrix.SparseMatrix, 1)
-  m.N_k[0]          = matrix.ZerosSparse(m.Parameters.Num_timestamps, m.Parameters.Num_categories)
-  m.N_sum_k[0]      = matrix.ZerosSparse(m.Parameters.Num_timestamps, 1)
+
+  m.N_k             = make([]map[int]*matrix.SparseMatrix, m.Parameters.Num_genres)
+  m.N_sum_k         = make([]map[int]*matrix.SparseMatrix, m.Parameters.Num_genres)
+  for idx, _ := range(m.N_k) {  //TODO new
+      m.N_k[idx] = make(map[int]*matrix.SparseMatrix, 1)
+      m.N_sum_k[idx] = make(map[int]*matrix.SparseMatrix, 1)
+      m.N_k[idx][0]          = matrix.ZerosSparse(m.Parameters.Num_timestamps, m.Parameters.Num_categories)
+      m.N_sum_k[idx][0]      = matrix.ZerosSparse(m.Parameters.Num_timestamps, 1)
+  }
+
+
   m.N_k_f           = make(map[int]*matrix.SparseMatrix, parameters.Num_categories)
   m.N_k_sum_f       = make(map[int]*matrix.SparseMatrix, parameters.Num_categories)
 
@@ -79,12 +86,12 @@ func New_model(parameters *Model_parameters) (m *Model) {
 
 func (m *Model) Initialize_batch(corpus *data.Corpus) {
   for _,doc := range(corpus.Documents) {
-    m.Update(doc.Label, doc.Target, doc.Context, doc.Time, 1)
+    m.Update(doc.Label, doc.Target, doc.Context, doc.Time, doc.Genre, 1)
   }
   for tt:=0 ; tt<m.Parameters.Num_timestamps ; tt++ {
     for g:=0 ; g<m.Parameters.Num_genres ; g++ {  //TODO new
       for kk:=0 ; kk<m.Parameters.Num_categories ; kk++ {
-        m.Phi[g][0].Set(tt, kk, (m.N_k[0].Get(tt,kk)+0.01) / (m.N_sum_k[0].Get(tt,0)+float64(m.Parameters.Num_categories)*0.01))
+        m.Phi[g][0].Set(tt, kk, (m.N_k[g][0].Get(tt,kk)+0.01) / (m.N_sum_k[g][0].Get(tt,0)+float64(m.Parameters.Num_categories)*0.01))
         for vv:=0 ; vv<m.Parameters.Num_features ; vv++ {
   	m.Psi[kk].Set(tt, vv, (m.N_k_f[kk].Get(tt,vv)+0.01) / (m.N_k_sum_f[kk].Get(tt,0)+float64(m.Parameters.Num_features)*0.01))
         }
@@ -97,9 +104,9 @@ func (m *Model) Initialize_batch(corpus *data.Corpus) {
 }
 
 
-func (m *Model) Update(category, concept int, features [][2]int, time int, incr float64) {
-  util.Increment(m.N_k[0]       , time    , category, incr)
-  util.Increment(m.N_sum_k[0]   , time    , 0       , incr)
+func (m *Model) Update(category, concept int, features [][2]int, time int, genre int, incr float64) {
+  util.Increment(m.N_k[genre][0]       , time    , category, incr)
+  util.Increment(m.N_sum_k[genre][0]   , time    , 0       , incr)
   for _,f := range(features) {
     util.Increment(m.N_k_f[category]    , time    , f[0]   , incr * float64(f[1]))
     util.Increment(m.N_k_sum_f[category], time    , 0      , incr * float64(f[1]))

@@ -88,7 +88,7 @@ func Sample_logisticnormal_parameters_independent_f(mode string, generator *rand
 
 
 func Sample_logisticnormal_parameters_independent(mode string, generator *rand.Rand, t, g, k, v int, kappa float64, iterations int,
-                                      logNormals []map[int]*matrix.DenseMatrix, psi []map[int]*matrix.DenseMatrix, n_k_f, n_k_sum_f map[int]*matrix.SparseMatrix) (err error) {
+                                      logNormals []map[int]*matrix.DenseMatrix, psi []map[int]*matrix.DenseMatrix, n_k_f []map[int]*matrix.SparseMatrix, n_k_sum_f []map[int]*matrix.SparseMatrix) (err error) {
   for ii:=0 ; ii<iterations ; ii++ {
 
     semaphore := make(chan int , k)
@@ -100,7 +100,7 @@ func Sample_logisticnormal_parameters_independent(mode string, generator *rand.R
 
           generator := rand.New(rand.NewSource(time.Now().UTC().UnixNano()))
           for tt:=0 ; tt < t ; tt++ {
-            total_data := n_k_sum_f[kk].Get(tt,0)
+            total_data := n_k_sum_f[gg][kk].Get(tt,0)
 
             /* compute full constant */
             c_full := compute_constant_full(logNormals[gg][kk].RowCopy(tt))
@@ -123,7 +123,7 @@ func Sample_logisticnormal_parameters_independent(mode string, generator *rand.R
               c := c_full - math.Exp(logNormals[gg][kk].Get(tt,vv))
 
 
-                lower_bound, upper_bound = Sample_uniform(generator, kk, tt, vv, threshold, total_data, n_k_f)
+                lower_bound, upper_bound = Sample_uniform(generator, kk, tt, vv, threshold, total_data, n_k_f[gg])
 
                 upper_bound = math.Log(c*upper_bound/(1.0-upper_bound))
                 lower_bound = math.Log(c*lower_bound/(1.0-lower_bound))
@@ -136,7 +136,7 @@ func Sample_logisticnormal_parameters_independent(mode string, generator *rand.R
                 new_phi = SampleTruncatednormal(generator, 1, mu, sigma, lower_bound, upper_bound)[0]
 
                 if math.IsNaN(new_phi) || math.IsNaN(upper_bound) || math.IsNaN(lower_bound) || math.IsNaN(mu) || math.IsNaN(sigma) || math.IsNaN(threshold){
-                  fmt.Println(kk, tt, vv, n_k_f[kk].Get(tt,vv), total_data)
+                  fmt.Println(kk, tt, vv, n_k_f[gg][kk].Get(tt,vv), total_data)
                   fmt.Println(logNormals[gg][kk].RowCopy(tt))
                   fmt.Printf("phi %.3f, lo %.3f, up %.3f, mu %.3f, sigma %.3f, c %.3f, c_full %.3f, thres %.3f\n\n", new_phi, lower_bound, upper_bound, mu, sigma, c, c_full, threshold)
                   err = errors.New("NaN in lognormal resampling!")

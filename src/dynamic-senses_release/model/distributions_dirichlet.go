@@ -16,14 +16,18 @@ import (
  */
 
 
-func (model *Model) Log_Posterior_categories_Dirichlet(doc *data.Document, posterior, pFgKT, pKgT []float64, time int, alpha, beta float64) {
-  model.log_pCategoryGivenT_Dirichlet(pKgT, time, alpha)
-  model.log_pFeaturesGivenKT_Dirichlet(pFgKT, doc.Context, doc.Time, beta)
-  for k,_ := range(pKgT) {
-    posterior[k] = pKgT[k] + (pFgKT[k])
+func (model *Model) Log_Posterior_categories_Dirichlet(doc *data.Document, posterior, pFgKT, pKgT [][]float64, time int, alpha, beta float64) {
+
+  for g:=0 ; g<model.Parameters.Num_genres ; g++ {
+    model.log_pFeaturesGivenKT_Dirichlet(pFgKT[g], doc.Context, doc.Time,
+      beta)
+    model.log_pCategoryGivenT_Dirichlet(pKgT[g], time, doc.Genre, alpha)
+    for k,_ := range(pKgT[g]) {
+      posterior[g][k] = pKgT[g][k] + (pFgKT[g][k])
+    }
   }
   return
-}  
+}
 
 
 /* *************************************************************************
@@ -49,11 +53,11 @@ func (m *Model) log_pFeaturesGivenKT_Dirichlet(dist []float64, fs [][2]int, time
 }
 
 
-func (m *Model) log_pCategoryGivenT_Dirichlet(dist []float64, time int, alpha float64) {
+func (m *Model) log_pCategoryGivenT_Dirichlet(dist []float64, time int, genre int, alpha float64) {
   for k:=0 ; k<m.Parameters.Num_categories ; k++ {
-    dist[k] = math.Log(m.N_k[0].Get(time, k)+alpha)
+    dist[k] = math.Log(m.N_k[genre][0].Get(time, k)+alpha)
     if math.IsNaN(dist[k]) {
-      fmt.Println("NaN at p(s|t)[s]", k, m.N_k[0].Get(time, k))
+      fmt.Println("NaN at p(s|t)[s]", k, m.N_k[genre][0].Get(time, k))
     }
   }
 }

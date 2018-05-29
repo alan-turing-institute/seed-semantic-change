@@ -25,8 +25,8 @@ type model_storable struct {
   LogNormals_k []map[int][][]float64
   Phi        []map[int][][]float64
   Psi        map[int][][]float64
-  N_k        map[int][][]float64
-  N_sum_k    map[int][][]float64
+  N_k        []map[int][][]float64
+  N_sum_k    []map[int][][]float64
   N_k_f      map[int][][]float64
   N_k_sum_f  map[int][][]float64
 }
@@ -44,20 +44,14 @@ func (model *Model) to_storable() (m *model_storable) {
   //  print("storing g ", g, "\n")
 
    m.LogNormals_k[g]    = map[int][][]float64{0:model.LogNormals_k[g][0].Arrays()}
-   //for idx, _ := range(m.LogNormals_k) {
-  //      m.LogNormals_k[idx] = map[int][][]float64{0:model.LogNormals_k[g][0].Arrays()}
-  //  }
-
-
-
-    m.Phi[g]            = map[int][][]float64{0:model.Phi[g][0].Arrays()}
+   m.N_k[g]             = map[int][][]float64{0:model.N_k[g][0].DenseMatrix().Arrays()}
+   m.N_sum_k[g]         = map[int][][]float64{0:model.N_sum_k[g][0].DenseMatrix().Arrays()}
+   m.Phi[g]            = map[int][][]float64{0:model.Phi[g][0].Arrays()}
   }
   print("ok up to here")
 
 
 
-  m.N_k             = map[int][][]float64{0:model.N_k[0].DenseMatrix().Arrays()}
-  m.N_sum_k         = map[int][][]float64{0:model.N_sum_k[0].DenseMatrix().Arrays()}
 
   m.LogNormals_f    = make(map[int][][]float64 , m.Parameters.Num_categories)
 
@@ -84,10 +78,10 @@ func (model *model_storable) to_model() (m *Model) {
   for g:=0 ; g<m.Parameters.Num_genres ; g++ {
     m.LogNormals_k[g]    = map[int]*matrix.DenseMatrix{0:matrix.MakeDenseMatrixStacked(model.LogNormals_k[g][0])}
     m.Phi[g]             = map[int]*matrix.DenseMatrix{0:matrix.MakeDenseMatrixStacked(model.Phi[g][0])}
+    m.N_k[g]           = map[int]*matrix.SparseMatrix{0:matrix.MakeDenseMatrixStacked(model.N_k[g][0]).SparseMatrix()}
+    m.N_sum_k[g]         = map[int]*matrix.SparseMatrix{0:matrix.MakeDenseMatrixStacked(model.N_sum_k[g][0]).SparseMatrix()}
   }
 
-  m.N_k             = map[int]*matrix.SparseMatrix{0:matrix.MakeDenseMatrixStacked(model.N_k[0]).SparseMatrix()}
-  m.N_sum_k         = map[int]*matrix.SparseMatrix{0:matrix.MakeDenseMatrixStacked(model.N_sum_k[0]).SparseMatrix()}
 
   for g:=0 ; g<m.Parameters.Num_genres ; g++ {
     for k:=0 ; k<m.Parameters.Num_categories ; k++ {

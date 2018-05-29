@@ -14,7 +14,9 @@ func (m *Model)Print() {
 
 func (m *Model) Print_category_proportions() {
     fmt.Println("Category Proportions")
-    fmt.Println(m.N_k[0].String())
+    for g:=0 ; g<m.Parameters.Num_genres ; g++ {
+        fmt.Println(m.N_k[g][0].String())
+    }
     fmt.Println("\n-------------------\n")
 }
 
@@ -120,6 +122,7 @@ func (m *Model) Print_gnuplot_datfile(topN int, conceptStrings, featureStrings m
               out += fmt.Sprint(m.Phi[g][0].Get(t,k), " ")
           }
         }
+
         out += fmt.Sprintln()
     }
     return

@@ -179,11 +179,11 @@ func (s *Sampler) Resample_categories(pK, pFgK, posterior []float64) {
 /* Takes one concept as input and resamples its category */
 func (s *Sampler) resample_category(doc *data.Document, pK, pFgK, posterior []float64) (new_k int) {
   old_k := doc.Label
-  s.Model.Update(old_k, doc.Target, doc.Context, doc.Time, -1)
+  s.Model.Update(old_k, doc.Target, doc.Context, doc.Time, doc.Genre, -1)
 //   s.Model.Posterior_categories(doc, posterior, pFgK, pK, doc.Time)
 //   new_k  = util.GetSample(posterior)
   s.Model.Log_Posterior_categories(doc, posterior, pFgK, pK, doc.Time, /*s.post_reg*/1.0)
   new_k  = util.GetSampleLog_gen(s.generator, posterior)
-  s.Model.Update(new_k, doc.Target, doc.Context, doc.Time, 1)
+  s.Model.Update(new_k, doc.Target, doc.Context, doc.Time, doc.Genre, 1)
   return new_k
 }
