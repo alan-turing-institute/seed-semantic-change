@@ -70,6 +70,7 @@ func (corpus *Corpus) RandomizeOrder(seed int) {
 
 
 
+
 /* Input text file YEAR /tab/ text
                    YEAR /tab/ text
                    ...
@@ -80,6 +81,8 @@ func Create_corpus_from_text(txt_corpus_path, target_concept_path string, window
 
 
     corpus = NewCorpus()
+
+    var flag = 0
 
     /* read text corpus */
     txt_lines, err := util.Read_lines(txt_corpus_path)
@@ -93,10 +96,15 @@ func Create_corpus_from_text(txt_corpus_path, target_concept_path string, window
     }
     if err !=nil {panic(err)}
 
+
+
     /* fill corpus with target-word specific, time-stamped documents */
     for _, line := range(txt_lines) {
         if len(strings.Split(line, "\t")) == 2 {
-            print("No genre information in the input\n")
+           if flag == 0 {
+             print("Genre information in the input\n")
+           }
+            flag = 1
             year_s, text := strings.Split(line, "\t")[0], strings.Split(line, "\t")[1]
             year, err    := strconv.Atoi(year_s)
             if err != nil {panic(err)}
@@ -126,7 +134,11 @@ func Create_corpus_from_text(txt_corpus_path, target_concept_path string, window
                 }
             }
         } else if len(strings.Split(line, "\t")) == 3 {  // TODO: new. then there is the genre label too!
-          print("Genre information in the input\n")
+
+          if flag == 0 {
+            print("Genre information in the input\n")
+          }
+          flag = 1
           year_s, genre_s, text := strings.Split(line, "\t")[0], strings.Split(line, "\t")[1], strings.Split(line, "\t")[2]
           year, err    := strconv.Atoi(year_s)
           genre, err    := strconv.Atoi(genre_s)
