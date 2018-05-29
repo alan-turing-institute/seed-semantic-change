@@ -15,9 +15,9 @@ var mode             = flag.String("mode", "joint", "joint or independent")
 var create_corpus    = flag.Bool("create_corpus", false, "Create go binary from text corpus?")
 
 func main() {
-    
+
   flag.Parse()
-    
+
   /* set concurrency and randomness */
   numCPU := runtime.NumCPU()
   runtime.GOMAXPROCS(numCPU)
@@ -39,7 +39,7 @@ func parse_parameters(parameter_file string) map[string]string {
     parameters      := make(map[string]string)
     parameter_lines, err := util.Read_lines(parameter_file)
     if err != nil {panic(err)}
-    
+
     for _, line := range(parameter_lines) {
         if len(strings.Split(line ,"\t")) == 2{
             key, val := strings.Split(line ,"\t")[0], strings.Split(line, "\t")[1]
