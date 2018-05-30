@@ -1,8 +1,5 @@
 ## Evaluation notebook
 
-### Notebook
-The notebook is documented and quite straightforward. To go from normal to debug mode, comment lines 12-13 and uncomment lines 16-17.
-
 ### Files
 
 - `evaluation_script.py` is the python script 
