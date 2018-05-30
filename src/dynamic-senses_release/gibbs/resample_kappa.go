@@ -21,7 +21,7 @@ func Resample_kappa(old_kappa, a0, b0 float64, k, t int, g int, phi []map[int]*m
 
 
 func Posterior_parameters(a0,b0 float64, k,t int, g int, phi []map[int]*matrix.DenseMatrix) (a,b float64) {
-  a  = a0 + (float64(k*t)/2.0)
+  a  = a0 + (float64(g*k*t)/2.0)
   b  = 0.0
 
   for gg:=0 ; gg<g ; gg++ {
