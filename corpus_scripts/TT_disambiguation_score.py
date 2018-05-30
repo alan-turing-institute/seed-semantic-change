@@ -23,7 +23,7 @@ tt_input = '%s/tt_input'%tt_root
 tt_output = '%s/tagged'%tt_root
 disamb = '%s/disambiguated'%tt_root
 
-frequentist=True
+frequentist=False
 freq=''
 if frequentist==False:freq='_nofreq'
 files = ['%s/hdt.xml'%proiel, '%s/greek-nt.xml'%proiel]
@@ -168,7 +168,7 @@ def annotate():
 		parse.write('%s/%s'%(af, os.path.basename(file)), xml_declaration = True, encoding='UTF-8', pretty_print=True)
 	print()
 
-#annotate()
+annotate()
 
 ######################################################
 # step 2: convert proiel files into TreeTagger input #
@@ -198,7 +198,7 @@ def convert():
 		print('\t%s'%os.path.basename(file))
 		convert_proiel(file)
 
-#convert()
+convert()
 
 ################################
 # step 3: TreeTag proiel files #
@@ -295,7 +295,7 @@ def disambiguate():
 		del curr_text, curr_text_check
 		print()
 
-#disambiguate()
+disambiguate()
 
 #####################################################
 # step 5: compare proiel lemmatization with new one #
