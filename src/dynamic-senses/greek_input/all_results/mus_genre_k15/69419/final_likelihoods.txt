@@ -1,0 +1,2 @@
+Train_likelihood: -Inf
+Test_likelihood: 0.000000
