@@ -27,10 +27,11 @@ func Posterior_parameters(a0,b0 float64, k,t int, g int, phi []map[int]*matrix.D
   for gg:=0 ; gg<g ; gg++ {
     for kk:=0 ; kk<k ; kk++ {
       /* compute category-specific mean */
-      mu_k := numstat.Mean(phi[g][0].ColCopy(kk), nil)
+      print("gg ", gg, "\n\n\n")
+      mu_k := numstat.Mean(phi[gg][0].ColCopy(kk), nil)
 
       for tt:=0 ; tt<t ; tt++ {
-      b += math.Pow(phi[g][0].Get(tt,kk) - mu_k , 2)
+      b += math.Pow(phi[gg][0].Get(tt,kk) - mu_k , 2)
       }
     }
   }
