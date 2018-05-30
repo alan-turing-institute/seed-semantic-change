@@ -7,6 +7,9 @@ This code was created as part of the seed-funded project "Computational models o
 ### Evaluation
 This folder contains the Python3 code that runs the evalution of the model.
 
+### Model_design
+This folder contains some notes on the genre-topic model, an extension of SCAN that leverages genre meta-data.
+
 ### src
 This folder contains the main Go code for the semantic-change model and the results.
 
