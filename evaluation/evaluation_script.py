@@ -27,10 +27,10 @@ from  more_itertools import unique_everseen
 # directories
 
 dir_in = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src", "dynamic-senses","greek_input","all_results"))
-dir_out = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_output"))
+dir_out = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_output","genre_topic"))
 #dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input"))
 
-dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input","new_texts"))
+#dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "evaluation", "evaluation_input","new_texts"))
 #  SENSES MERGED harmonia, kosmos
 dir_expert = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "corpus_scripts_output")) 
 
@@ -40,10 +40,13 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 
 genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
-s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # expert senses annotation
-k_senses = io.open(dir_in+"/kosmos_simon_k15_win/59339/output.dat","r") # model output
-k_senses = io.open(dir_in+"/genre_topic_output/unique_versions/example_3genre_output.dat_3","r")
-parameter_file = io.open(dir_parameter+"/parameters_v100_test.txt","r")
+s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # MUS
+#s_senses = io.open(dir_expert+"/senses_15281.txt","r")  # HARMONIA
+#s_senses = io.open(dir_expert+"/senses_59339_142.txt","r")  # KOSMOS
+
+#k_senses = io.open(dir_in+"/kosmos_simon_k15_win/59339/output.dat","r") # model output
+k_senses = io.open(dir_in+"/genre_topic_output/unique_versions/mus/output.dat_9","r")
+parameter_file = io.open(dir_parameter+"/parameters_v41.txt","r")
 
 bugfix = 0
 
@@ -121,7 +124,7 @@ end_time = max(annotation_dates)
 print("start_time",start_time)
 print("end_time",end_time)
 
-results_file = io.open(dir_out+"/"+target_id+param_name+"genre_"+genre+"_i"+str(iterations)+"_k"+str(num_top)+"_time_interval"+str(time_interval)+".txt","w")
+results_file = io.open(dir_out+"/"+"OUTPUT9"+target_id+param_name+"genre_"+genre+"_i"+str(iterations)+"_k"+str(num_top)+"_time_interval"+str(time_interval)+".txt","w")
 print(results_file)
 
 results_file.write("Target ID %s Window size %s Start time %s End time %s Time Interval %s Iterations %s\n" % (target_id,window_size,start_time,end_time,time_interval,iterations))
@@ -1374,6 +1377,7 @@ for i in range(0,len(lines_output_plot)):
         for x in range(i,i+number_of_the_k+1): # for every "number of  the k" lines that follow
             #print(i,x)
             #print(lines_output_plot[x])
+            #print("this bugs ",lines_output_plot[x])
             if lines_output_plot[x][0:5] == "Time=": # if a line starts with "time" we take the value for the slice
                 #print(lines_output_plot[x][0:15])
                 string = lines_output_plot[x][0:15].replace("Time=","")
