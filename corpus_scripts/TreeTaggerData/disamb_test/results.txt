@@ -34,8 +34,8 @@ Accuracy per confidence 0.17       0       1        0.00
 Accuracy per confidence 0.2        1      26        3.85
 Accuracy per confidence 0.25    1000    1366       73.21
 Accuracy per confidence 0.33    2328    4465       52.14
-Accuracy per confidence 0.5    10101   14869       67.93
-Accuracy per confidence 1.0     3539    9111       38.84
+Accuracy per confidence 0.5    10101   14838       68.08
+Accuracy per confidence 1.0     3539    9142       38.71
 Accuracy per confidence n/a    95110  102510       92.78
 Total                         112079  132349       84.68
 

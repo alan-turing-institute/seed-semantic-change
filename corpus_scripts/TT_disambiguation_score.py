@@ -23,7 +23,7 @@ tt_input = '%s/tt_input'%tt_root
 tt_output = '%s/tagged'%tt_root
 disamb = '%s/disambiguated'%tt_root
 
-frequentist=False
+frequentist=True
 freq=''
 if frequentist==False:freq='_nofreq'
 files = ['%s/hdt.xml'%proiel, '%s/greek-nt.xml'%proiel]
