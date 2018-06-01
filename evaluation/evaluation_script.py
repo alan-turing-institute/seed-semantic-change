@@ -40,13 +40,13 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 
 genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
-s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # MUS
-#s_senses = io.open(dir_expert+"/senses_15281.txt","r")  # HARMONIA
+#s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # MUS
+s_senses = io.open(dir_expert+"/senses_15281.txt","r")  # HARMONIA
 #s_senses = io.open(dir_expert+"/senses_59339_142.txt","r")  # KOSMOS
 
 #k_senses = io.open(dir_in+"/kosmos_simon_k15_win/59339/output.dat","r") # model output
-k_senses = io.open(dir_in+"/genre_topic_output/unique_versions/mus/output.dat_9","r")
-parameter_file = io.open(dir_parameter+"/parameters_v41.txt","r")
+k_senses = io.open(dir_in+"/genre_topic_output/unique_versions/harmonia/output.dat_7","r")
+parameter_file = io.open(dir_parameter+"/parameters_v40.txt","r")
 
 bugfix = 0
 
@@ -1786,6 +1786,9 @@ plt.show()
 
 plt.show()
 
+print("MODEL: \n\n\n")
+print(valeurs_prob)
+
 
 # ## plotting expert
 
@@ -1840,4 +1843,7 @@ plt.xticks(range(len(valeurs)), valeurs.keys())
 image = plt.gcf()
 image.savefig(dir_out+"/"+target_id+param_name+"genre_"+genre+"_i"+str(iterations)+"_k"+str(num_top)+"_time_interval"+str(time_interval)+"_expert.png")
 plt.show()
+
+print("EXPERT: \n\n\n")
+print(valeurs)
 
