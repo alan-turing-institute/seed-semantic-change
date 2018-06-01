@@ -1,0 +1,11 @@
+α.a.1 92648 out of 911840 forms in dictionary can belong to more than one lemma
+α.a.2 53692 types with multiple lemmata in corpus out of 458293
+α.b 2017800 tokens with multiple lemmata in corpus out of 10208424
+β.a.1 30089 out of 911840 forms in dictionary can belong to more than one lemma and such lemmas belong to more than 1 PoS
+β.a.2 20778 out of 458293 types in corpus can belong to more than one lemma and such lemmas belong to more than 1 PoS
+β.b 1407616 out of 10208424 tokens in corpus can belong to more than one lemma and such lemmas belong to more than 1 PoS
+γ.a.2 29762 out of 911840 forms in dictionary can belong to more than one lemma and such lemmas belong to more than 1 PoS, and have at least one PoS represented by only one lemma
+γ.a.2 20507 out of 458293 types in corpus can belong to more than one lemma and such lemmas belong to more than 1 PoS, and have at least one PoS represented by only one lemma
+γ.b 1396746 out of 10208424 tokens in corpus can belong to more than one lemma and such lemmas belong to more than 1 PoS, and have at least one PoS represented by only one lemma
+
+
