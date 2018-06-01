@@ -27,7 +27,10 @@ fullText=open('%s/full_corpus_forms.txt'%dir, 'w')
 fullText_ids=open('%s/full_corpus_ids.txt'%dir, 'w')
 finalString_tot = ''
 finalString_ids_tot = ''
-
+genres = {}
+for idx,record in enumerate(files):
+	genres.setdefault(record[h['Genre']].value, str(len(genres)))
+print(genres)
 for idx,record in enumerate(files):
 	finalString = ''
 	finalString_ids = ''
@@ -41,7 +44,7 @@ for idx,record in enumerate(files):
 	finalTxt = re.sub('.*?<body>(.*?)</body>.*', r'\1', finalTxt)
 	finalTxt = re.sub('<punct.*?/>', '', finalTxt)
 	finalTxt = re.sub('<sentence[^(/>)]*?/>', '',finalTxt)
-	finalTxt = re.sub('<sentenceid=".*?"location=".*?">', '['+wy+']\t', finalTxt)
+	finalTxt = re.sub('<sentenceid=".*?"location=".*?">', '['+wy+'~'+genres[genre]+']\t', finalTxt)
 	finalTxt = re.sub('<word.*?lemmaid="(.*?)".*?</word>', r'*\1*', finalTxt)
 	finalTxt = re.sub('</sentence>', '\n', finalTxt)
 	if filterStopWords == "True":
@@ -50,6 +53,8 @@ for idx,record in enumerate(files):
 		finalTxt = re.sub('.*?\t\n','',finalTxt)
 	finalTxt = finalTxt.replace('**', ' ').replace('*', '')
 	finalTxt = re.sub('^-?\d+\n','',finalTxt)
+	finalTxt = re.sub('^-?\d+\t\d+\n','',finalTxt)
+	finalTxt = re.sub('\[.*?\]\t?\n','',finalTxt)
 	finalTxt_ids = finalTxt
 	conv_text = []
 	conv_text_l = []
@@ -61,9 +66,9 @@ for idx,record in enumerate(files):
 			conv_text.append(x)
 			conv_text_l.append(greekLemmata[x]['lemma'])
 	finalTxt = ' '.join(conv_text_l).replace('] ', ']\t')
-	finalTxt = finalTxt.replace('[', '').replace(']', '')
+	finalTxt = finalTxt.replace('[', '').replace(']', '').replace('~','\t')
 	finalTxt_ids = ' '.join(conv_text).replace('] ', ']\t')
-	finalTxt_ids = finalTxt_ids.replace('[', '').replace(']', '')
+	finalTxt_ids = finalTxt_ids.replace('[', '').replace(']', '').replace('~','\t')
 	finalString += finalTxt
 	finalString_ids += finalTxt_ids
 	finalString_tot += finalTxt
