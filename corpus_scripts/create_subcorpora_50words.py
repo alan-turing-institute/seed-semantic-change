@@ -31,13 +31,13 @@ for word in words:
 	training = set()
 	testing = set()
 	for line in file:
-		if str(word[0].value) in line.split('\t')[1].split():
+		if str(word[0].value) in line.split('\t')[2].split():
 			training.add(line)
 	file.seek(0)
 	for twenty_percent in range (0, int(len(training)*0.2)):
 		testing.add(training.pop())
-	open('%s/subcorpora/training/%s.txt'%(dir,str(word[0].value)), 'w').write(''.join([x for x in training]))
-	open('%s/subcorpora/test/%s.txt'%(dir,str(word[0].value)), 'w').write(''.join([x for x in testing]))
+	open('%s/subcorpora/new/training/%s.txt'%(dir,str(word[0].value)), 'w').write(''.join([x for x in training]))
+	open('%s/subcorpora/new/test/%s.txt'%(dir,str(word[0].value)), 'w').write(''.join([x for x in testing]))
 print('All done! What a joy!')
 
 
