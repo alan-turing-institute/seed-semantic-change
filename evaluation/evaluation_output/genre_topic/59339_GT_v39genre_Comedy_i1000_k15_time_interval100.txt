@@ -1,0 +1,1 @@
+Target ID 59339_GT Window size 5 Start time -700 End time -414 Time Interval 100 Iterations 1000

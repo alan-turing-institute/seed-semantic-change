@@ -38,15 +38,15 @@ dir_parameter = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), "src"
 
 # change parameter file and senses etc here
 
-genre = "all"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
+genre = "Tragedy"  # "all" by default. To focus on a specific genre change the value, cfr "s_senses" file
 
-#s_senses = io.open(dir_expert+"/senses_69419.txt","r")  # MUS
-s_senses = io.open(dir_expert+"/senses_15281.txt","r")  # HARMONIA
-#s_senses = io.open(dir_expert+"/senses_59339_142.txt","r")  # KOSMOS
+#s_senses = io.open(dir_expert+"/senses_69419_GT.txt","r")  # MUS
+#s_senses = io.open(dir_expert+"/senses_15281_GT.txt","r")  # HARMONIA
+s_senses = io.open(dir_expert+"/senses_59339_142_GT.txt","r")  # KOSMOS
 
 #k_senses = io.open(dir_in+"/kosmos_simon_k15_win/59339/output.dat","r") # model output
-k_senses = io.open(dir_in+"/genre_topic_output/unique_versions/harmonia/output.dat_7","r")
-parameter_file = io.open(dir_parameter+"/parameters_v40.txt","r")
+k_senses = io.open(dir_in+"/genre_topic_output/unique_versions/kosmos/output.dat_10","r")
+parameter_file = io.open(dir_parameter+"/parameters_v39.txt","r")
 
 bugfix = 0
 
@@ -54,6 +54,7 @@ target_id = os.path.basename(s_senses.name)
 target_id = target_id.replace("senses_","")
 target_id = target_id.replace(".txt","")
 target_id = target_id.replace("_142","") # FUCKING KOSMOS
+target_id = target_id.replace("_GT","")
 print("Target ID:",target_id)
 
 param_name = os.path.basename(parameter_file.name)
@@ -124,7 +125,7 @@ end_time = max(annotation_dates)
 print("start_time",start_time)
 print("end_time",end_time)
 
-results_file = io.open(dir_out+"/"+"OUTPUT9"+target_id+param_name+"genre_"+genre+"_i"+str(iterations)+"_k"+str(num_top)+"_time_interval"+str(time_interval)+".txt","w")
+results_file = io.open(dir_out+"/"+target_id+param_name+"genre_"+genre+"_i"+str(iterations)+"_k"+str(num_top)+"_time_interval"+str(time_interval)+".txt","w")
 print(results_file)
 
 results_file.write("Target ID %s Window size %s Start time %s End time %s Time Interval %s Iterations %s\n" % (target_id,window_size,start_time,end_time,time_interval,iterations))
