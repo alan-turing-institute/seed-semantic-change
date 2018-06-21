@@ -13,3 +13,15 @@ This folder contains some notes on the genre-topic model, an extension of SCAN t
 ### src
 This folder contains the main Go code for the semantic-change model and the results.
 
+Genre ids:
+
+"Comedy" = 0
+"Essays" = 1
+"Letters" = 2
+"Narrative" = 3
+"Oratory" = 4
+"Philosophy" = 5
+"Poetry" = 6
+"Religion" = 7
+"Technical" = 8
+"Tragedy" = 9
