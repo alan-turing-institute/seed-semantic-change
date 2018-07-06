@@ -5,7 +5,8 @@ This repository contains the main code to train the model and output the inferre
 
 ## Quick start    
 
-1. Edit the GOPATH in your ~/.bash_profile file (e.g., export GOPATH=/path/to/seed-semantic-change/code)    
+1. Edit the GOPATH in your ~/.bash_profile file to point to the local directory where this GitHub repository seed-semantic0-change sits (e.g., export GOPATH=/path/to/seed-semantic-change/code) 
+
 2. cd dynamic-senses     
 3. mkdir ./greek_input/target_corpora    
 4. mkdir	./greek_input/output       
