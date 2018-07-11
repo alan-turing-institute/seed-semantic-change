@@ -22,6 +22,12 @@ To go back to the master branch, type
 
 git checkout master. 
 
+To check whether you're in the master or other branch, type:
+
+git branch
+
+Depending on whether you're in the master or in a branch, the corresponding code will run.
+
 
 Genre ids:
 
