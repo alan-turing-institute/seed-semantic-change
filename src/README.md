@@ -99,4 +99,21 @@ replace -parameter_file=NAME_OF_PARAMETER_FILE with
 The results for each target word are stored in dynamic-senses/greek_input/output/      
 
  
-Note: steps 3 and 4 mean that you need to create (even empty) directories for the word_corpus_path and output_path indicated in the parameter file. If these folders do not exist, step 6 will raise an error.      
+Note: steps 3 and 4 mean that you need to create (even empty) directories for the word_corpus_path and output_path indicated in the parameter file. If these folders do not exist, step 6 will raise an error.    
+
+## Git commands
+
+To move from the master branch to the branch where the genre topic model is, cd into the directory seed-semantic-change, then:
+
+git branch
+git checkout genre_topic_model
+
+To go back to the master branch, type
+
+git checkout master. 
+
+To check whether you're in the master or other branch, type:
+
+git branch
+
+Depending on whether you're in the master or in a branch, the corresponding code will run.
