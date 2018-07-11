@@ -13,20 +13,6 @@ This folder contains some notes on the genre-topic model, an extension of SCAN t
 ### src
 This folder contains the main Go code for the semantic-change model and the results.
 
-To move from the master branch to the branch where the genre topic model is, cd into the directory seed-semantic-change, then:
-
-git branch
-git checkout genre_topic_model
-
-To go back to the master branch, type
-
-git checkout master. 
-
-To check whether you're in the master or other branch, type:
-
-git branch
-
-Depending on whether you're in the master or in a branch, the corresponding code will run.
 
 
 Genre ids:
