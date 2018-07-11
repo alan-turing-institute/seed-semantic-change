@@ -7,7 +7,7 @@ This repository contains the main code to train the model and output the inferre
 
 1. Edit the GOPATH in your ~/.bash_profile file to point to the local directory where this GitHub repository seed-semantic-change sits (e.g., export GOPATH=/path/to/seed-semantic-change). You can also simply type 
 
-export ... 
+export GOPATH=/path/to/seed-semantic-change
 
 on the terminal. To check that the path is updated, type: 
 
