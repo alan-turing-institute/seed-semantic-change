@@ -52,6 +52,9 @@ full_corpus_path	./greek_input/corpus_id.bin
 where the corpus bin will be taken for training the model (stays the same)
 it's the same as bin_corpus_store
 
+full_heldout_path	./greek_input/corpus_id.bin
+where the corpus bin will be taken for computing the log-likelihood (depends on the data on which to evaluate the likelihood)
+
 window_size	5
 size of window
 
@@ -105,7 +108,7 @@ Note: steps 3 and 4 mean that you need to create (even empty) directories for th
 
 To move from the master branch to the branch where the genre topic model is, cd into the directory seed-semantic-change, then:
 
-git branch
+git branch   
 git checkout genre_topic_model
 
 To go back to the master branch, type
