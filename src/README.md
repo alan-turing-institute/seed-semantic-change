@@ -64,6 +64,12 @@ path to word-specific corpora (stays the same)
 output_path	./greek_input/output/
 output directory
 
+full_corpus_path	./greek_input_test/corpus_id.bin
+same as full_corpus_path
+
+full_heldout_path	./greek_input_test/corpus_id.bin
+same as full_corpus_path
+
 start_time	-800
 the earliest date in the corpus; it's -800 for the Ancient Greek corpus
 
