@@ -1,0 +1,26 @@
+kosmos:decoration	kosmos:order	kosmos:world
+File: senses_59339_142_GT.txt
+
+Narrative (/Users/bmcgillivray/GitHub/seed-semantic-change/src/dynamic-senses/greek_input/all_results/genre_topic_output/unique_versions/kosmos/output.dat_4_decoded.txt)
+
+k=0: world
+k=1: order
+k=2: decoration/(world)
+k=3: order?
+k=4: decoration
+k=5: order?
+k=6: order?
+k=7: order?
+k=8: decoration?/order?
+k=9: decoration
+k=10: order
+k=11: order
+k=12: order?
+k=13: order
+k=14: order?
+
+
+Technical (/Users/bmcgillivray/GitHub/seed-semantic-change/src/dynamic-senses/greek_input/all_results/genre_topic_output/unique_versions/kosmos/output.dat_9_decoded.txt)
+
+
+

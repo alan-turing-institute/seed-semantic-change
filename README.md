@@ -13,6 +13,8 @@ This folder contains some notes on the genre-topic model, an extension of SCAN t
 ### src
 This folder contains the main Go code for the semantic-change model and the results.
 
+
+
 Genre ids:
 
 "Comedy" = 0
