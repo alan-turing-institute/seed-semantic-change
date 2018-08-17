@@ -35,11 +35,11 @@ as follows:
 
 a) if you want to create a new corpus:
 
-text_corpus	./greek_input/corpus_id.txt 
-for the input with ids (stays the same)
+text_corpus	./greek_input/full_corpus_id.txt 
+for the input with ids (stays the same) NEVER CHANGE THIS!
 and
 
-text_corpus	./greek_input/full_corpus_ids.txt 
+text_corpus	./greek_input/full_corpus_forms.txt 
 for the input with characters (stays the same) NEVER CHANGE THIS!
 
 target_words	./greek_input/targets_id.txt
