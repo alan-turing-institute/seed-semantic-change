@@ -79,6 +79,12 @@ the latest date in the corpus; it's 400 for the Ancient Greek corpus
 time_interval	100
 size of time interval
 
+kappaF
+is k_psi
+
+kappaK
+is k_phi
+
 target_words	./greek_input/targets_id.txt
 bin_corpus_store	./greek_input/corpus_id.bin
 window_size	5
