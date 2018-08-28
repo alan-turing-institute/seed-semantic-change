@@ -1,0 +1,7 @@
+Corpora for GT
+
+_ids means that it contains ID:
+_forms means that it contains greek words;
+_SCAN menas that it has no information on genres;
+_GT means that it contains a column for the genres;
+_narr and _tech are two versions of GT for which genre = 0 means "Narrative" (or "Technical") and genre = 1 means "Non-narrative" (or "Non-Technical")
