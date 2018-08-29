@@ -27,10 +27,10 @@ fullText=open('%s/full_corpus_forms.txt'%dir, 'w')
 fullText_ids=open('%s/full_corpus_ids.txt'%dir, 'w')
 finalString_tot = ''
 finalString_ids_tot = ''
-genres = {}
-for idx,record in enumerate(files):
-	genres.setdefault(record[h['Genre']].value, str(len(genres)))
-print(genres)
+genres = {"Comedy": '0', "Essays": '1', "Letters" : '2', "Narrative" : '3', "Oratory" : '4', "Philosophy" : '5', "Poetry" : '6', "Religion" : '7', "Technical" : '8', "Tragedy" : '9'}
+#for idx,record in enumerate(files):
+#	genres.setdefault(record[h['Genre']].value, str(len(genres)))
+#print(genres)
 for idx,record in enumerate(files):
 	finalString = ''
 	finalString_ids = ''

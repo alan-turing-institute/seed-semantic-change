@@ -806,7 +806,7 @@ kosmos:world ~ Tragedy    NaN           NaN
 Parameters: sense = macro, genres = macro
 
 harmonia:abstract is correlated with 
-		Technical (Spearman's ρ = 0.888, p = 0.0)
+		Technical (Spearman's ρ = 0.888, p = 0.000051)
 		Narrative (Spearman's ρ = 0.719, p = 0.006)
 		Essays (Spearman's ρ = 0.561, p = 0.046)
 harmonia:concrete is correlated with 
