@@ -1,0 +1,155 @@
+#########################################################
+#########################################################
+#########################################################
+### RUN THE MODEL #######################################
+#########################################################
+#########################################################
+#########################################################
+
+cd ..
+cd ..
+export GOPATH=/data/tragopan/palma/gocode/src/seed-semantic-change/
+cd data/tragopan/palma/gocode/src/seed-semantic-change/src/dynamic-senses
+
+mkdir ./GTeval/target_corpora    
+mkdir	./GTeval/output    
+
+git branch
+go run *.go -parameter_file=greek_parameters_id.txt  -create_corpus -store=true        
+go run *.go -parameter_file=greek_parameters_id.txt  -store=true
+Rscript GTeval/barchart.R GTeval/output/foldername/output.dat GTeval/foldername.png     
+
+### Run the model in my folder
+
+git branch
+go run *.go -parameter_file=./GTeval/parametersGT.txt  -create_corpus -store=true
+go run *.go -parameter_file=./GTeval/parametersGT.txt  -store=true
+Rscript GTeval/barchart.R GTeval/output/59339/output.dat GTeval/kosmos.png  
+
+
+
+#########################################################
+#########################################################
+#########################################################
+### LIKELIHOOD ##########################################
+#########################################################
+#########################################################
+#########################################################
+
+##### DO THESE ONLY THE FIRST TIME - CHECK WHETHER YOU ARE USING THE RIGHT SUBCORPORA FOR THE RIGHT MODEL
+
+cd ./GTeval
+
+//create target file for each word
+
+while read p;  do 
+sed "s/1083/$p/" target_copyfileGT.txt > subcorpora/targets/target_$p.txt
+done < targets_50.txt
+
+//create outputdir
+
+while read p;  do
+mkdir ./subcorpora/training/$p'_target_corpora'
+done < targets_50.txt
+
+while read p;  do
+mkdir ./subcorpora/training/$p'_output'
+done < targets_50.txt
+
+cd ..
+
+### CREATE PARAMETER FILES - CHECK WHETHER YOU ARE USING THE RIGHT SUBCORPORA FOR THE RIGHT MODEL
+
+cd ./GTeval
+
+while read p;  do
+sed "s/1083/$p/" params_copyfileGT.txt > likelihood/params_$p.txt
+done <targets_50.txt
+
+while read p;  do
+sed "s/1083/$p/" params_copyfile_testGT.txt > likelihood/params_test_$p.txt
+done <targets_50.txt
+
+##### CREATE TRAIN CORPUS FOR EACH WORD
+
+cd ..
+while read p;  do
+go run *.go -parameter_file=./GTeval/likelihood/params_$p.txt  -create_corpus  -store=true;
+done < GTeval/targets_50.txt
+
+##### CREATE TEST CORPUS FOR EACH WORD
+
+while read p;  do
+go run *.go -parameter_file=./GTeval/likelihood/params_test_$p.txt  -create_corpus  -store=true;
+done < GTeval/targets_50.txt
+
+##### CLEAN TARGET CORPORA - only after the first run of the likelihood (to delete old files)
+
+git branch
+
+rm -rf ./GTeval/subcorpora/training/*_target_corpora/*
+rm -rf ./GTeval/subcorpora/training/*_output/*
+
+
+##### RUN CODE FOR EACH WORD (most expensive part)
+
+while read p;  do
+go run *.go -parameter_file=./GTeval/likelihood/params_$p.txt  -store=true;
+done < GTeval/targets_50.txt
+
+#while read p;  do
+#go run *.go -parameter_file=./GTeval/likelihood/params_test_$p.txt  -store=true;
+#done < GTeval/targets_50.txt
+
+
+### Output file with aggregated_likelihood: CHECK WITHIN THE aggregate_likelihoodGT.R 
+### IF YOU ARE IN SUBCORPORA OR SUBCORPORA_GT
+
+./GTeval/aggregate_likelihoodGT_subGT.R
+mv ./GTeval/aggregated_loglike_subGT.txt ./GTeval/aggregated_loglike_it1000_Top20_k100_subGT_narr.txt
+cat ./GTeval/aggregated_loglike_it1000_Top20_k100_subGT_narr.txt
+
+
+
+#########################################################
+#########################################################
+#########################################################
+# CREATE GENRE FULL_CORPUS ##############################
+#########################################################
+#########################################################
+#########################################################
+
+###check how many occurrences of kosmos
+
+cat GTeval/corpora/full_corpus_ids_GT.txt | awk '/59339/ {print $2}' | sort | uniq -c
+cat GTeval/corpora/full_corpus_ids_GT.txt | awk '/59339/ {print}' | sort -k2 | head -52
+cat GTeval/corpora/full_corpus_ids_GT_tech.txt | awk '/59339/ {print}' | sort -k2,2n -k1,1n | head -10
+
+### create full corpora: the awk command is "if column 2 is equal to "8", set it to 0, otherwise to 1.
+
+awk 'BEGIN {FS=OFS="\t"} { $2 = ($2 == "8" ? 0 : 1)} 1' ./GTeval/corpora/full_corpus_ids_GT.txt > ./GTeval/corpora/full_corpus_ids_GT_tech.txt
+
+awk 'BEGIN {FS=OFS="\t"} { $2 = ($2 == "3" ? 0 : 1)} 1' ./GTeval/corpora/full_corpus_ids_GT.txt > ./GTeval/corpora/full_corpus_ids_GT_narr.txt
+
+awk 'BEGIN {FS=OFS="\t"} { $2 = ($2 == "7" ? 0 : 1)} 1' ./GTeval/corpora_new/full_corpus_forms_GT.txt > ./GTeval/corpora_new/full_corpus_forms_GT_relig.txt
+
+
+
+
+
+#########################################################
+#########################################################
+#########################################################
+# CREATE TECH SUBCORPORA ################################
+#########################################################
+#########################################################
+#########################################################
+
+while read p; do
+awk 'BEGIN {FS=OFS="\t"} { $2 = ($2 == "8" ? 1 : 0)} 1' ./GTeval/subcorpora_GT/training/$p.txt > ./GTeval/subcorpora_GT/training_tech/$p.txt;
+done < ./GTeval/targets_50.txt
+
+while read p; do
+awk 'BEGIN {FS=OFS="\t"} { $2 = ($2 == "8" ? 1 : 0)} 1' ./GTeval/subcorpora_GT/test/$p.txt > ./GTeval/subcorpora_GT/test_tech/$p.txt;
+done < ./GTeval/targets_50.txt
+
