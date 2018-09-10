@@ -1,0 +1,2 @@
+train loglikelihood: -96245.323332 +- 1694.003365 
+test loglikelihood: -27773.983291 +- 497.691996
