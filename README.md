@@ -27,3 +27,5 @@ Genre ids:
 "Religion" = 7
 "Technical" = 8
 "Tragedy" = 9
+
+Expert annotation for kosmos: https://github.com/alan-turing-institute/seed-semantic-change/blob/master/corpus_scripts_output/senses_59339_142_GT.txt
