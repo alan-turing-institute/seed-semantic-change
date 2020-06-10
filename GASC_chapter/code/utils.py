@@ -189,7 +189,7 @@ def get_models_stats():
 	Loads all models and prints out some descriptive stats
 	"""
 	models = [os.path.join(path_models_out,model) for model in os.listdir(path_models_out)]
-	for model in models:
+	for model in sorted(models):
 		print(model)
 		m = gensim.models.Word2Vec.load(model)
 		vocab = len(m.wv.vocab)
