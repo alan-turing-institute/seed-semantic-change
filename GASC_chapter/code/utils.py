@@ -194,6 +194,7 @@ def get_models_stats():
 		m = gensim.models.Word2Vec.load(model)
 		vocab = len(m.wv.vocab)
 		voc_list = list(m.wv.vocab.keys())
+		print(vocab,"words in vocabulary")
 		if vocab > 100:
 			for i in range(0,5): # we try 5 pairs of words
 				pair = random.sample(range(0,vocab), 2)
