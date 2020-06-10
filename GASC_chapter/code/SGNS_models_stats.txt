@@ -1,0 +1,304 @@
+Creating corpora for... narrative
+Reading corpus at ../../corpus_scripts_output/full_corpus_forms.txt
+Creating corpora for... technical
+Reading corpus at ../../corpus_scripts_output/full_corpus_forms.txt
+../trained_models/BIN_300_narrative.w2v
+cosine between τυγχάνω ἱστορία 0.99690914
+cosine between ἄξιος σαφής 0.99928695
+cosine between φάσκω συγγραφεύς 0.999588
+cosine between τυγχάνω τρόπος 0.99938726
+cosine between καθίστημι εἶδον 0.9978157
+
+
+../trained_models/BIN_-300_narrative.w2v
+cosine between ἀληθής πάλιν 0.7623428
+cosine between ποταμός ἀποχώρησις 0.8582053
+cosine between κατασκευή φεύγω 0.86718345
+cosine between προσδέχομαι ναυτικός 0.73277974
+cosine between Καρχηδών ἀλήθεια 0.51682997
+
+
+../trained_models/BIN_-500_narrative.w2v
+cosine between φυλάσσω θεάομαι 0.95990455
+cosine between κάθημαι ἐντέλλω 0.9122527
+cosine between Λιβύη μήτηρ 0.78853834
+cosine between ὁδός πρᾶγμα 0.26545006
+cosine between ἀπάγω ἔπειμι 0.9695909
+
+
+../trained_models/BIN_-400_narrative.w2v
+cosine between τάχος ἐλάσσων 0.7310459
+cosine between τιμή σῖτος 0.5061492
+cosine between χίλιοι παραχρῆμα 0.53325856
+cosine between προθυμία αὐτίκα 0.93272275
+cosine between θηράω Χειρίσοφος 0.8205277
+
+
+../trained_models/BIN_-100_narrative.w2v
+cosine between ἀπαιτέω Καρχηδών 0.4914076
+cosine between ἀπαγγέλλω μόνος 0.42360023
+cosine between χάρις ἰχθύς 0.36567464
+cosine between τρισμύριοι βρέφος 0.17002834
+cosine between διαπράσσω πρόσοψις 0.23329853
+
+
+../trained_models/BIN_200_narrative.w2v
+cosine between ἐλάχιστος στρατιώτης 0.83964545
+cosine between νέφος ἀνδρίς 0.47356856
+cosine between βιόω ψυχρός 0.7528732
+cosine between αὐτοκράτωρ ἐπιμελέομαι 0.7059785
+cosine between ὅμιλος πόλις 0.90864784
+
+
+../trained_models/BIN_100_narrative.w2v
+cosine between ὑμέτερος τάχιστος 0.7406183
+cosine between ξύλον τάσσω 0.62076426
+cosine between Ἰουδαῖος στάσις 0.8088853
+cosine between περιβάλλω κῆρυξ 0.66888833
+cosine between δικαστήριον τολμάω 0.91826
+
+
+../trained_models/BIN_0_narrative.w2v
+cosine between ποταμός ἐννέα 0.4011586
+cosine between ἀφίζω πατήρ 0.4374167
+cosine between μαλακία κολακεία 0.84477925
+cosine between ὀκνέω Ἰάκωβος 0.22209002
+cosine between γαμετή ἐκλείπω 0.26773855
+
+
+../trained_models/BIN_-200_technical.w2v
+model does not have more than 100 words in vocab
+
+
+../trained_models/BIN_0_technical.w2v
+model does not have more than 100 words in vocab
+
+
+../trained_models/BIN_300_technical.w2v
+model does not have more than 100 words in vocab
+
+
+../trained_models/BIN_-500_technical.w2v
+cosine between φλέψ γαστήρ 0.99662364
+cosine between δύναμις προσδέομαι 0.97919774
+cosine between αὐτίκα κακός 0.99708515
+cosine between ἐναντίος χώρα 0.9925621
+cosine between σῶμα ἄκρος 0.9905849
+
+
+../trained_models/BIN_-300_technical.w2v
+cosine between πολλαπλάσιος ὅσπερ 0.3759839
+cosine between λέγω ὁπόσος 0.6808488
+cosine between ὑπόκειμαι μέσος 0.29653
+cosine between ἄλογος ἰσόπλευρος 0.5270288
+cosine between σφαῖρα μονάς 0.15310162
+
+
+../trained_models/BIN_200_technical.w2v
+cosine between ὄνος ἄγω 0.9987983
+cosine between πρόσειμι πῦρ 0.99883384
+cosine between ἐκβάλλω οὐκοῦν 0.9981796
+cosine between πλῆθος θέα 0.99832034
+cosine between γραφεύς καρτερός 0.9990731
+
+
+../trained_models/BIN_-400_technical.w2v
+cosine between ἔξω δῆμος 0.8451988
+cosine between τρίγωνος αὐξάνω 0.817133
+cosine between λοιπός λευκός 0.5593292
+cosine between δικαστής ἐναντίος 0.65454715
+cosine between δύναμαι κληρόω 0.8982798
+
+
+../trained_models/BIN_-100_technical.w2v
+cosine between βελτίων μεστός 0.9345161
+cosine between κόλπος ἑωθινός 0.9601025
+cosine between ἐκτείνω θεωρία 0.38607562
+cosine between πλεονάζω κόσμος 0.8249544
+cosine between διαφερόντως Διόνυσος 0.9814889
+
+
+../trained_models/BIN_100_technical.w2v
+cosine between τιμή πίνω 0.35899004
+cosine between στάδιον πάθος 0.074260995
+cosine between φλέγμα βίος 0.64360344
+cosine between μεταλαμβάνω Λακεδαίμων 0.27977738
+cosine between Μίνως φλέγμα 0.1851126
+
+
+../trained_models/BIN_-700_NOT-narrative.w2v
+cosine between ἵππος μένος 0.74864274
+cosine between προσαυδάω ὄλεθρος 0.24779417
+cosine between στίξ θέω 0.9216389
+cosine between σπένδω καλύπτω 0.7242852
+cosine between κορυφή ἄρειος 0.7971331
+
+
+../trained_models/BIN_-300_NOT-narrative.w2v
+cosine between φράζω δόρυ 0.97995436
+cosine between πάρειμι ἵημι 0.9519546
+cosine between κρίνω πολλάκις 0.74249405
+cosine between μοῖσα ἄφεσις 0.5460484
+cosine between ἀγαθός παραδίδωμι 0.82542384
+
+
+../trained_models/BIN_-100_NOT-narrative.w2v
+cosine between μέσος πεντήκοντα 0.5547582
+cosine between τοιόσδε ἀκαρνάν 0.46597815
+cosine between διέχω γραμμή 0.57552975
+cosine between ἀνάγω πρότερος 0.768275
+cosine between ἑῷος συγγραφεύς 0.06096814
+
+
+../trained_models/BIN_-200_NOT-narrative.w2v
+cosine between ἐκπορνεύω κριός 0.46552175
+cosine between κοιμάω φεύγω 0.37839597
+cosine between κρατέω χιλιάς 0.56276786
+cosine between ἔοικα αἰχμαλωσία 0.38332427
+cosine between πυρόω ἁγιάζω 0.42465058
+
+
+../trained_models/BIN_-500_NOT-narrative.w2v
+cosine between σώζω ἄρος 0.86638373
+cosine between μικρός κοιμάω 0.94474715
+cosine between διάγω ἔξωθεν 0.88958204
+cosine between ἑκάτερος ἀφίστημι 0.9908413
+cosine between ἄτιμος διδάσκω 0.8734536
+
+
+../trained_models/BIN_400_NOT-narrative.w2v
+cosine between τοῖος ποθόβλητος 0.7212762
+cosine between ἠέριος μιτρόω 0.9510465
+cosine between ἄβροχος πάφιος 0.8710027
+cosine between ῥήγνυμι μέτωπον 0.88600725
+cosine between ῥαθάμιγξ υἱός 0.7516938
+
+
+../trained_models/BIN_300_NOT-narrative.w2v
+cosine between πολιτικός φιλοσοφία 0.9916098
+cosine between εὖ βούλομαι 0.7580641
+cosine between τέκος πνεῦμα 0.23494262
+cosine between πληρόω αἰών 0.9096663
+cosine between δείδω παρασκευή 0.8505498
+
+
+../trained_models/BIN_0_NOT-narrative.w2v
+cosine between πληγάς τόνος 0.8206924
+cosine between σοφός δράω 0.60733193
+cosine between οἰκονομία σκέπτομαι 0.80195457
+cosine between σπεύδω μεστός 0.82546765
+cosine between θάνατος διέρχομαι 0.37455127
+
+
+../trained_models/BIN_200_NOT-narrative.w2v
+cosine between ἀφύη ἔραμαι 0.7969145
+cosine between ἀθάνατος ἀμπελουργός 0.7580908
+cosine between τύραννος πειράω 0.4372639
+cosine between παντοῖος πλοῖον 0.92464465
+cosine between ἐρυθραί ἀλκιβιάδης 0.5276767
+
+
+../trained_models/BIN_100_NOT-narrative.w2v
+cosine between ἀθήναια φειδίης 0.35081384
+cosine between ἄναξ κεφαλή 0.6109546
+cosine between ἧπαρ ἄμπελος 0.8552047
+cosine between ληιστής ἐμπίτνω 0.6735205
+cosine between γνωρίζω ψάμμος 0.55177075
+
+
+../trained_models/BIN_-400_NOT-narrative.w2v
+cosine between ἀποδεικτικός παντελής 0.5912327
+cosine between αὐτάρκης ἡμέτερος 0.34018743
+cosine between χίλιοι προερέω 0.2386143
+cosine between ἐκπλέω δημαγωγός 0.5066774
+cosine between πάγκαλος κατάψυξις 0.28063554
+
+
+../trained_models/BIN_-700_NOT-technical.w2v
+cosine between θῆλυς ἑλένη 0.8232543
+cosine between κρατερός δίφρος 0.701276
+cosine between ἅπτω ὗς 0.8826549
+cosine between ἧμαι ζωός 0.8772593
+cosine between μενέλαος ποδώκης 0.8049048
+
+
+../trained_models/BIN_-200_NOT-technical.w2v
+cosine between τριάκοντα συνόχωκα 0.37050796
+cosine between καθαρίζω ἀσπίς 0.46065703
+cosine between ἐπαίρω ἀνάγκη 0.57908684
+cosine between γένος ἀίω 0.7843871
+cosine between ταράσσω ἑκατόν 0.13448405
+
+
+../trained_models/BIN_-500_NOT-technical.w2v
+cosine between δάιος οἶνον 0.7094561
+cosine between σώφρων οὐδαμός 0.69501173
+cosine between προσδαίω ἅτε 0.86370015
+cosine between ἄθλιος ποσειδῶν 0.6553735
+cosine between νοσέω αἴας 0.8916737
+
+
+../trained_models/BIN_-300_NOT-technical.w2v
+cosine between ἐπαύριον ἀπογιγνώσκω 0.6689452
+cosine between πόντος χωρίς 0.23799926
+cosine between ἐπίκειμαι πέμπτος 0.62693274
+cosine between λόφος πολιορκία 0.72916293
+cosine between φρέαρ χίμαρος 0.6981395
+
+
+../trained_models/BIN_400_NOT-technical.w2v
+cosine between ἡδύς ἴχνος 0.695266
+cosine between ὄρθιος ναιάς 0.7096788
+cosine between ἀνατέλλω ἔπος 0.64250064
+cosine between θεά ἄντυξ 0.8470802
+cosine between δεσμός ἔσσομαι 0.61670274
+
+
+../trained_models/BIN_-100_NOT-technical.w2v
+cosine between ἀρχαιρεσία εὖ 0.3937352
+cosine between ὕπατος τρωικός 0.21917483
+cosine between πανταχόθεν ἀναζεύγνυμι 0.75936127
+cosine between δημοσθένης σύνεῖδον 0.56525344
+cosine between προνομή πατρῷος 0.22206604
+
+
+../trained_models/BIN_300_NOT-technical.w2v
+cosine between μέσος ὁμολογέω 0.49391103
+cosine between ἀναπνέω παραπλήσιος 0.50132906
+cosine between συνίημι ἀπελαύνω 0.9238883
+cosine between μέλος παντάπασι 0.698689
+cosine between ἱκνέομαι ἦμαρ 0.9990025
+
+
+../trained_models/BIN_200_NOT-technical.w2v
+cosine between σοφοκλέης εὐριπίδης 0.95966786
+cosine between οὔκουν ἱερά 0.49172357
+cosine between σύναμάω ἁμαρτάνω 0.66368514
+cosine between ἐνιαυτός δρᾶμα 0.3197773
+cosine between ῥίπτω σάμιος 0.49561286
+
+
+../trained_models/BIN_100_NOT-technical.w2v
+cosine between ἐπιτρέπω στοιχεῖον 0.35594025
+cosine between γραφή κύων 0.6010694
+cosine between κοσμέω συλλέγω 0.50862294
+cosine between φρήν δισχίλιοι 0.3049997
+cosine between λεπτίνης ὄρος 0.10162604
+
+
+../trained_models/BIN_-400_NOT-technical.w2v
+cosine between σιμωνίδης πύλος 0.15186477
+cosine between ὁποῖος ὀφέλλω 0.40178597
+cosine between ἐπιδείκνυμι δοξόω 0.5234647
+cosine between πέντε ἐθέλω 0.14144447
+cosine between ἀποκρίνω ἀφορίζω 0.284839
+
+
+../trained_models/BIN_0_NOT-technical.w2v
+cosine between ὕστερος εὐταξία 0.36377907
+cosine between κόιλος ποινή 0.336776
+cosine between ἀπονέμω πόλις 0.39543223
+cosine between εὐχή δημαγωγέω 0.30155775
+cosine between μαντικός ἀποδείκνυμι 0.2573837
+
+

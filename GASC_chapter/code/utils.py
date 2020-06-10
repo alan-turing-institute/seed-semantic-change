@@ -2,6 +2,9 @@ import gensim
 import os
 import sys
 import pandas as pd
+from multiprocessing import Pool
+from itertools import repeat
+import random
 
 
 path_data_in = os.path.join("..","..","corpus_scripts_output") # corpus_scripts_output/full_corpus_forms.txt
@@ -114,7 +117,21 @@ def intersection_align_gensim(m1,m2, words=None):
 	return (m1,m2)
 
 
-#def train_model(slice,genre):
+def train_model(slice,genre):
+	"""
+	Quite simply it trains models
+	"""
+	filename = "BIN_"+str(slice)+"_"+genre+".gensim"
+	corpus_file = os.path.join(path_data_out,filename)
+	model_file = os.path.join(path_models_out,filename.replace(".gensim",".w2v"))
+
+	if os.stat(corpus_file).st_size < 10:
+		return 
+	if os.path.exists(model_file):
+		return
+	model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=30, sg=1 ,size=300, workers=3, seed=1830, iter=5)
+	model.save(model_file)
+	print("Trained",model_file,"\n")
 
 
 def corpus_transformer(genre_sep,slice_length=100):
@@ -153,15 +170,38 @@ def corpus_transformer(genre_sep,slice_length=100):
 	#print(bins)
 
 	for bin in bins:
-		sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] != id_OK )]
-		#print(bin,"PASOK",filterinfDataframe.head())
-		with open(os.path.join(path_data_out,"BIN_"+str(bin)+"_NOT-"+genres_id[id_OK]+".gensim"),"w") as f:
-			for index, row in sub_corpus.iterrows():
-				f.write(row["sentence"]+"\n")
+		fileout = os.path.join(path_data_out,"BIN_"+str(bin)+"_NOT-"+genres_id[id_OK]+".gensim")
+		if os.path.exists(fileout) == False:
+			sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] != id_OK )]
+			with open(fileout,"w") as f:
+				for index, row in sub_corpus.iterrows():
+					f.write(row["sentence"].lower()+"\n")
+		
+		fileout = os.path.join(path_data_out,"BIN_"+str(bin)+"_"+genres_id[id_OK]+".gensim")
+		if os.path.exists(fileout) == False:
+			sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] == id_OK )]
+			with open(fileout,"w") as f:
+				for index, row in sub_corpus.iterrows():
+					f.write(row["sentence"].lower()+"\n")
 
-		sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] == id_OK )]
-		with open(os.path.join(path_data_out,"BIN_"+str(bin)+"_"+genres_id[id_OK]+".gensim"),"w") as f:
-			for index, row in sub_corpus.iterrows():
-				f.write(row["sentence"]+"\n")
+def get_models_stats():
+	"""
+	Loads all models and prints out some descriptive stats
+	"""
+	models = [os.path.join(path_models_out,model) for model in os.listdir(path_models_out)]
+	for model in models:
+		print(model)
+		m = gensim.models.Word2Vec.load(model)
+		vocab = len(m.wv.vocab)
+		voc_list = list(m.wv.vocab.keys())
+		if vocab > 100:
+			for i in range(0,5): # we try 5 pairs of words
+				pair = random.sample(range(0,vocab), 2)
+				print("cosine between",voc_list[pair[0]],voc_list[pair[1]],m.similarity(voc_list[pair[0]],voc_list[pair[1]]))
+		
 
-
+			
+		else:
+			print("model does not have more than 100 words in vocab")
+		
+		print("\n")
