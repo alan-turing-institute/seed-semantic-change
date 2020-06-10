@@ -2,3 +2,4 @@
 __pycache__/
 GASC_chapter/code/env*
 .vscode
+GASC_chapter/code/__pycache*

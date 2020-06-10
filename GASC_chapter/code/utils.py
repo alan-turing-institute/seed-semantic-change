@@ -5,12 +5,14 @@ import pandas as pd
 
 
 path_data_in = os.path.join("..","..","corpus_scripts_output") # corpus_scripts_output/full_corpus_forms.txt
-path_data_out = os.path.join("..","trained_models")
+corpus_path = os.path.join(path_data_in,"full_corpus_forms.txt")
+path_models_out = os.path.join("..","trained_models")
+path_data_out = os.path.join("..","training_models")
 path_evaluation_out = os.path.join("..","evaluation_out") 
 
-paths = [path_data_out, path_evaluation_out]
+paths = [path_data_out, path_evaluation_out, path_models_out]
 for path in paths:
-	if os.exists(path) == False:
+	if os.path.exists(path) == False:
 		os.mkdir(path)
 
 # "Comedy" = 0 "Essays" = 1 "Letters" = 2 "Narrative" = 3 "Oratory" = 4 "Philosophy" = 5 "Poetry" = 6 "Religion" = 7 "Technical" = 8 "Tragedy" = 9
@@ -124,9 +126,42 @@ def corpus_transformer(genre_sep,slice_length=100):
 	if genre_sep not in ["technical", "narrative",None]:
 		sys.exit("genre_sep is",genre_rep,"not a valid value")
 	
-	corpus_path = os.path.join(path_data_in,"full_corpus_forms.txt")
-	corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
-
-	corpus.head()
 	
-corpus_transformer("narrative")
+	print("Reading corpus at",corpus_path)
+
+	corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
+	
+	#print(corpus.head())
+
+	ids_blacklist = []
+	for key,val in genres_id.items():
+		if val == genre_sep:
+			id_OK = key
+		else:
+			ids_blacklist.append(key)
+	
+	years = list(corpus.year.unique())
+
+	sorted_df = corpus.sort_values(by="genre")
+	#df_genre = df[corpus[""]
+
+	earliest = sorted(years)[0]
+	last = sorted(years)[-1]
+	bins = []
+	for i in range(earliest,last+slice_length,slice_length):
+		bins.append(i)
+	#print(bins)
+
+	for bin in bins:
+		sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] != id_OK )]
+		#print(bin,"PASOK",filterinfDataframe.head())
+		with open(os.path.join(path_data_out,"BIN_"+str(bin)+"_NOT-"+genres_id[id_OK]+".gensim"),"w") as f:
+			for index, row in sub_corpus.iterrows():
+				f.write(row["sentence"]+"\n")
+
+		sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] == id_OK )]
+		with open(os.path.join(path_data_out,"BIN_"+str(bin)+"_"+genres_id[id_OK]+".gensim"),"w") as f:
+			for index, row in sub_corpus.iterrows():
+				f.write(row["sentence"]+"\n")
+
+
