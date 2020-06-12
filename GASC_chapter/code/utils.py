@@ -31,6 +31,9 @@ genres_id = {0: "comedy",
 		9: "tragedy"
 		}
 
+target_words = {'harmonia': ['!αρμονίας', 'ἁρμονία', 'ἁρμονίαι', 'ἁρμονίαις', 'ἁρμονίαισι', 'ἁρμονίαισιν', 'ἁρμονίαν', 'ἁρμονίας', 'ἁρμονίᾳ', 'ἁρμονίη', 'ἁρμονίηι', 'ἁρμονίην', 'ἁρμονίης', 'ἁρμονίῃ', 'ἁρμονίῃσιν', 'ἁρμονιάων', 'ἁρμονιῶν'], 'kosmos': ['κόσμε', 'κόσμοι', 'κόσμοιο', 'κόσμοις', 'κόσμοισι', 'κόσμον', 'κόσμος', 'κόσμου', 'κόσμους', 'κόσμω', 'κόσμωι', 'κόσμων', 'κόσμῳ'], 'mus': ['μύας', 'μύες', 'μύεσι', 'μύεσσιν', 'μύς', 'μύων', 'μῦ', 'μῦν', 'μῦς', 'μυί', 'μυός', 'μυοῖν', 'μυσί', 'μυσίν', 'μυῶν']}
+
+
 def smart_procrustes_align_gensim(base_embed, other_embed, words=None):
 	""" 
 	Code by Ryan Heuser
@@ -206,3 +209,20 @@ def get_models_stats():
 			print("model does not have more than 100 words in vocab")
 		
 		print("\n")
+
+def check_target_in_models(target):
+	"""
+	for target word we check if it exists in the model
+	"""
+	models = [os.path.join(path_models_out,model) for model in os.listdir(path_models_out)]
+	
+	for model in sorted(models):
+		#print(model)
+		m = gensim.models.Word2Vec.load(model)
+		present = False
+		for form in target_words[target]:
+			if form in m.wv.vocab:
+				present = True
+		if present == True:
+			print(target,"is present in",model)
+	

@@ -23,3 +23,5 @@ for genre in genres:
     pool.join()
 
 get_models_stats()
+for target in target_words.keys():
+    check_target_in_models(target)
