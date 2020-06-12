@@ -210,11 +210,12 @@ def get_models_stats():
 		
 		print("\n")
 
-def check_target_in_models(target):
+def check_target_in_models(target,genre):
 	"""
 	for target word we check if it exists in the model
+	"genre" is narrative or technical, so not the "NOT" versions
 	"""
-	models = [os.path.join(path_models_out,model) for model in os.listdir(path_models_out)]
+	models = [os.path.join(path_models_out,model) for model in os.listdir(path_models_out) if genre in model]
 	
 	for model in sorted(models):
 		#print(model)
