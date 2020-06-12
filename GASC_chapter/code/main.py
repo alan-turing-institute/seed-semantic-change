@@ -24,6 +24,7 @@ for genre in genres:
 
 get_models_stats()
 
+genres = ["narrative","technical"]
 for genre in genres:
     print(genre.upper())
     for target in target_words.keys():
