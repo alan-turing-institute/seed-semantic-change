@@ -5,7 +5,7 @@ import pandas as pd
 from multiprocessing import Pool
 from itertools import repeat
 import random
-
+import numpy as np
 
 path_data_in = os.path.join("..","..","corpus_scripts_output") # corpus_scripts_output/full_corpus_forms.txt
 corpus_path = os.path.join(path_data_in,"full_corpus_forms.txt")
@@ -144,7 +144,7 @@ def corpus_transformer(genre_sep,slice_length=100):
 	"""
 
 	if genre_sep not in ["technical", "narrative",None]:
-		sys.exit("genre_sep is",genre_rep,"not a valid value")
+		sys.exit("genre_sep is",genre_sep,"not a valid value")
 	
 	
 	print("Reading corpus at",corpus_path)
@@ -162,7 +162,7 @@ def corpus_transformer(genre_sep,slice_length=100):
 	
 	years = list(corpus.year.unique())
 
-	sorted_df = corpus.sort_values(by="genre")
+	#sorted_df = corpus.sort_values(by="genre")
 	#df_genre = df[corpus[""]
 
 	earliest = sorted(years)[0]
