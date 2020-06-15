@@ -2,343 +2,246 @@ Creating corpora for... narrative
 Reading corpus at ../../corpus_scripts_output/full_corpus_forms.txt
 Creating corpora for... technical
 Reading corpus at ../../corpus_scripts_output/full_corpus_forms.txt
+Trained ../trained_models/BIN_-100_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_-500_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_-200_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_400_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_-300_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_300_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_0_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_-700_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_200_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_-400_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_100_NOT-narrative.w2v 
+
+Trained ../trained_models/BIN_-300_NOT-technical.w2v 
+
+Trained ../trained_models/BIN_-200_NOT-technical.w2v 
+
+Trained ../trained_models/BIN_300_NOT-technical.w2v 
+
+Trained ../trained_models/BIN_-100_NOT-technical.w2v 
+
+Trained ../trained_models/BIN_-700_NOT-technical.w2v 
+
+Trained ../trained_models/BIN_200_NOT-technical.w2v 
+
+Trained ../trained_models/BIN_-500_NOT-technical.w2v 
+
+Trained ../trained_models/BIN_400_NOT-technical.w2v 
+
+Trained ../trained_models/BIN_0_NOT-technical.w2v 
+
+Trained ../trained_models/BIN_-400_NOT-technical.w2v 
+
+Trained ../trained_models/BIN_100_NOT-technical.w2v 
+
 ../trained_models/BIN_-100_NOT-narrative.w2v
-1180 words in vocabulary
-cosine between ἀλλότριος γυνή 0.7611564
-cosine between δῆλος πολιτικός 0.6588619
-cosine between γῆ μέρα 0.74798965
-cosine between διακόσιοι νόμος 0.19736175
-cosine between δηλόω μηδίη 0.4252621
+2923 words in vocabulary
+cosine between κεφαλλήνιος ἀκαρνάν 0.80804884
+cosine between κριός ὅλος 0.550838
+cosine between διαδέχομαι πίστις 0.4566778
+cosine between ταφή καταφέρω 0.73060083
+cosine between συγχωρέω ἠρεμέω 0.97244066
 
 
 ../trained_models/BIN_-100_NOT-technical.w2v
-1928 words in vocabulary
-cosine between ἀνατολή χῶμα 0.8656225
-cosine between λόχος ἐπιλέγω 0.66054934
-cosine between ταπεινός συντέλεια 0.41920447
-cosine between ἐπίκειμαι ἔφοδος 0.73917717
-cosine between μιμέομαι φοινίκη 0.47090107
-
-
-../trained_models/BIN_-100_narrative.w2v
-1898 words in vocabulary
-cosine between ἰδιότης τελευτή 0.3632972
-cosine between προχειρίζω Λακεδαιμόνιος 0.58837485
-cosine between ἑξῆς πότερος 0.4114613
-cosine between ὅμορος ἔπειμι 0.52790904
-cosine between προτέρημα χροιά 0.42967153
-
-
-../trained_models/BIN_-100_technical.w2v
-1152 words in vocabulary
-cosine between Λέλεγες πέμπω 0.76866525
-cosine between Πίνδαρος ἱδρύω 0.566628
-cosine between βασιλεία ἔνθα 0.9218461
-cosine between καινός περίκειμαι 0.564966
-cosine between ἔρχομαι Λυδός 0.7821227
+3982 words in vocabulary
+cosine between ἀπομάχομαι ἀθάνατος 0.4094695
+cosine between παρεμφερής τεσσαράκοντα 0.5083795
+cosine between αὐτόμολος ὀργάς 0.6462377
+cosine between στενοχωρία τεθαρρηκότως 0.79175484
+cosine between ἥμερος ἀποκαθίστημι 0.23956397
 
 
 ../trained_models/BIN_-200_NOT-narrative.w2v
-1140 words in vocabulary
-cosine between λογίζομαι θάλασσα 0.2492921
-cosine between ὅραμα κώμη 0.23032697
-cosine between ἀριθμός πρόσταγμα 0.34157094
-cosine between νῶτον φάος 0.6675276
-cosine between λάκκος θλῖψις 0.3475444
+2466 words in vocabulary
+cosine between τέκνον φοῖνιξ 0.26956952
+cosine between ἰάομαι θανατόω 0.6806465
+cosine between κλαίω διανοίγω 0.6764875
+cosine between ἐλάσσων κοπρία 0.86066693
+cosine between καθέδρα καταδικάζω 0.86688447
 
 
 ../trained_models/BIN_-200_NOT-technical.w2v
-1101 words in vocabulary
-cosine between ζυγόν κατακάθημαι 0.44965503
-cosine between κοίτη πληθύνω 0.75067264
-cosine between κρεμάννυμι ἀλλόφυλος 0.6086959
-cosine between ἔχω ἐξέρχομαι 0.29712227
-cosine between πτολεμαῖος βασίλη 0.8832068
-
-
-../trained_models/BIN_-200_technical.w2v
-30 words in vocabulary
-model does not have more than 100 words in vocab
+2342 words in vocabulary
+cosine between ἔξωθεν ἐχθές 0.61482304
+cosine between ἐνθυμέομαι ἔξοδος 0.69770384
+cosine between καταδιώκω καθίημι 0.4433455
+cosine between ἀνεγγελάω τάλαντον 0.39483917
+cosine between βόσκω διασκορπίζω 0.8680381
 
 
 ../trained_models/BIN_-300_NOT-narrative.w2v
-807 words in vocabulary
-cosine between ἀδελφός κομίζω 0.5969826
-cosine between ἔπος πορεύω 0.45924816
-cosine between ἠώς δέκα 0.26298124
-cosine between ἕκτος γέρων 0.29761413
-cosine between ἐπιστρέφω ἑξῆς 0.1408865
+2202 words in vocabulary
+cosine between ὀπάζω ἀχεύω 0.93081975
+cosine between πολύς καπνός 0.710433
+cosine between γηράσκω κακόω 0.9608189
+cosine between οὔποτε τυνδάρεος 0.9787316
+cosine between μαντοσύνη παρέχω 0.9646057
 
 
 ../trained_models/BIN_-300_NOT-technical.w2v
-1583 words in vocabulary
-cosine between ἀρέσκω ἀκέω 0.90204304
-cosine between λιμήν νέομαι 0.5887589
-cosine between προσθέω θῆλυς 0.77508473
-cosine between κέλευθος δείκνυμι 0.5511617
-cosine between ἀναβαίνω διακούω 0.2801322
-
-
-../trained_models/BIN_-300_narrative.w2v
-971 words in vocabulary
-cosine between πρέπω Ἀλεξανδρεία 0.7263919
-cosine between τιμή τολμηρός 0.66708875
-cosine between ἐγχειρέω ἐπιφαίνω 0.96473783
-cosine between πάσχω καταπλήσσω 0.762485
-cosine between ἐπαγγέλλω Ἰλλυριός 0.82002115
-
-
-../trained_models/BIN_-300_technical.w2v
-187 words in vocabulary
-cosine between ἄγω τμῆμα 0.53491336
-cosine between παραλληλόγραμμος ὑπόκειμαι 0.3055625
-cosine between κέντρον σφαῖρα 0.6440607
-cosine between διάγω διπλάσιος 0.49194148
-cosine between φανερός κατασκευάζω 0.7314642
+3840 words in vocabulary
+cosine between οὐδέπω ἀνοχή 0.8858325
+cosine between ἁνδάνω εὐρώτης 0.5896555
+cosine between κύων γηγενής 0.9886267
+cosine between περισπάω ἐμφαίνω 0.96038145
+cosine between ὄφελος διατροπή 0.91344607
 
 
 ../trained_models/BIN_-400_NOT-narrative.w2v
-2713 words in vocabulary
-cosine between κατάδηλος ὅμηρος 0.4954929
-cosine between ἐπιμελητής δέκα 0.7209769
-cosine between μνᾶ αἴρω 0.27812392
-cosine between ἐποίζω φλαῦρος 0.6434906
-cosine between ὀρφανός ἔπος 0.1657908
+5040 words in vocabulary
+cosine between ὑπόδημα ἐποίζω 0.14565474
+cosine between τηθύς σύμμειξις 0.85201526
+cosine between εἰσδέω διανόημα 0.50578576
+cosine between ἀρεθούσιος ἀγαπάω 0.43547443
+cosine between ζημιώδης θαυμάζω 0.5844471
 
 
 ../trained_models/BIN_-400_NOT-technical.w2v
-2975 words in vocabulary
-cosine between ἄρτεμις μάλιστα 0.17623582
-cosine between ἔμπειρος ἐνταῦθα 0.41482282
-cosine between οὐσία νόμιμος 0.20570679
-cosine between ἑπτά ὑγιεινός 0.1571477
-cosine between ἥρα διανέμω 0.40011805
-
-
-../trained_models/BIN_-400_narrative.w2v
-1042 words in vocabulary
-cosine between κομίζω ἀληθής 0.5390734
-cosine between εἶδον ἀναγκαῖος 0.8036376
-cosine between ἡμέτερος πόλεμος 0.7767084
-cosine between Σικελία αἰσχρός 0.29519156
-cosine between ἀπόλλυμι ἥμισυς 0.62029135
-
-
-../trained_models/BIN_-400_technical.w2v
-517 words in vocabulary
-cosine between μάλιστα ἐπαινέω 0.89247614
-cosine between ἀρετή φημί 0.9227821
-cosine between φάντασμα ἐμπίτνω 0.9496832
-cosine between οἴομαι πάσχω 0.9722835
-cosine between προσήκω μᾶλλον 0.94098
+5479 words in vocabulary
+cosine between ἀκέραιος κακουργία 0.8364233
+cosine between ἀμείνων μοιχός 0.32351154
+cosine between διαιρετός μηθυμναῖος 0.3572823
+cosine between προσέρχομαι δηλονότι 0.4621335
+cosine between ἀρτέμων καταμέμφομαι 0.45183602
 
 
 ../trained_models/BIN_-500_NOT-narrative.w2v
-1480 words in vocabulary
-cosine between μετέχω μαρτύρομαι 0.9353699
-cosine between ἱκετεύω τλήμων 0.9699744
-cosine between πένης διδάσκω 0.9639586
-cosine between κλαίω ἰσχύς 0.64599824
-cosine between φαίνω τεῦκρος 0.8360375
+3661 words in vocabulary
+cosine between σαφής πρόγονος 0.8949424
+cosine between ὁμόσπορος χρίμπτω 0.9848082
+cosine between μενέλαος σῶμα 0.46671823
+cosine between τιτρώσκω παρασκευή 0.9171135
+cosine between συμφέρω κιθαιρών 0.35550264
 
 
 ../trained_models/BIN_-500_NOT-technical.w2v
-1707 words in vocabulary
-cosine between ἐπικρατέω θάλασσα 0.75895053
-cosine between μόλις ψῆφος 0.79125386
-cosine between θρᾴκη σαλαμίς 0.92067486
-cosine between πάλιν ἐπιδείκνυμι 0.50330853
-cosine between θεός ἐργάζομαι 0.49163234
-
-
-../trained_models/BIN_-500_narrative.w2v
-573 words in vocabulary
-cosine between Ἀργεῖος χρόνος 0.9759621
-cosine between σκευάζω ἐξελαύνω 0.9773089
-cosine between μῆκος περίειμι 0.6849003
-cosine between τρίτος κάρτα 0.9734718
-cosine between τεσσαράκοντα καθύπερθε 0.9456019
-
-
-../trained_models/BIN_-500_technical.w2v
-346 words in vocabulary
-cosine between ἐκπίτνω ὀφθαλμός 0.87973624
-cosine between δύο ὁπόσος 0.9795014
-cosine between δοκέω ὀστέον 0.8634136
-cosine between ἔνθεν πῆχυς 0.9478788
-cosine between βραχύς ἄνω 0.98252743
+4009 words in vocabulary
+cosine between καρύστιος ναῦς 0.6682251
+cosine between πρόμος ἠχή 0.99496245
+cosine between θύρα ἐγχέω 0.98630965
+cosine between ἀλιτήριος ἀντιβαίνω 0.9608273
+cosine between αὖτε στάχυς 0.9920569
 
 
 ../trained_models/BIN_-700_NOT-narrative.w2v
-908 words in vocabulary
-cosine between ἐκλύω βούλομαι 0.6335246
-cosine between ἐπείγω θρῴσκω 0.863871
-cosine between δίκη δαίτης 0.96517175
-cosine between τίπτε σχέθω 0.87160146
-cosine between ἐυπλόκαμος ἄνωγα 0.61937547
+2294 words in vocabulary
+cosine between δίφρος πολύς 0.43775937
+cosine between κερδίων ὀπίσσω 0.9404499
+cosine between κήρ σιγή 0.7213833
+cosine between ἀεικέλιος παλαιός 0.9655879
+cosine between λίσσομαι ὀρίνω 0.7886602
 
 
 ../trained_models/BIN_-700_NOT-technical.w2v
-908 words in vocabulary
-cosine between ἀγαυός κίω 0.889674
-cosine between ἀναβαίνω γυῖον 0.8119529
-cosine between ἐποτρύνω δῶρον 0.5671339
-cosine between ἄκρος αἰδοῖος 0.57618004
-cosine between υἱός ὄρος 0.38168523
+2294 words in vocabulary
+cosine between θυμαλγής ἐύς 0.94041425
+cosine between βένθος μένω 0.74441034
+cosine between λειμών κορέννυμι 0.96065414
+cosine between λειμών κερτομέω 0.8816404
+cosine between μέγαρον ναί 0.81012774
 
 
 ../trained_models/BIN_0_NOT-narrative.w2v
-2235 words in vocabulary
-cosine between θορυβέω βλαστάνω 0.5724054
-cosine between κωλύω πῶλος 0.70058495
-cosine between ἀπεῖπον ἀκολουθέω 0.55528134
-cosine between τέμνω συνήθης 0.46029773
-cosine between πίστις ἄδικος 0.6252709
+4892 words in vocabulary
+cosine between ἕτερος τοῖος 0.56577903
+cosine between ἀπόστολος ἀπηνής 0.4640411
+cosine between γρηγορέω ἀγένητος 0.45757145
+cosine between παιδοτρίβης εὐριπίδης 0.78980625
+cosine between λιχνεία σόλων 0.6490078
 
 
 ../trained_models/BIN_0_NOT-technical.w2v
-3836 words in vocabulary
-cosine between ζήτησις ὠνέομαι 0.5223258
-cosine between ἀσθενέω βουλεύς 0.1484019
-cosine between εὐτυχία ἅμα 0.31973222
-cosine between ἔνδοθεν στασιαστής 0.73121184
-cosine between θηρίον αἰσχύλος 0.44009513
-
-
-../trained_models/BIN_0_narrative.w2v
-2524 words in vocabulary
-cosine between ἄλλως γιγνώσκω 0.57437396
-cosine between ὠμότης προτείνω 0.5040267
-cosine between θυμός ἐκχέω 0.5924382
-cosine between πύργος κενός 0.37073022
-cosine between ἀείδω περιοράω 0.51573557
-
-
-../trained_models/BIN_0_technical.w2v
-44 words in vocabulary
-model does not have more than 100 words in vocab
+7593 words in vocabulary
+cosine between κάκουργος τάχιστος 0.64301807
+cosine between τοσοῦτος αἰσχύνω 0.33030474
+cosine between σπάνιος ἀσελγαίνω 0.63356525
+cosine between ἐφίζω ἐξουθενέω 0.43998152
+cosine between νοτερός μηνοειδής 0.91444916
 
 
 ../trained_models/BIN_100_NOT-narrative.w2v
-2839 words in vocabulary
-cosine between ἀποβαίνω ἑτέρωθι 0.65221167
-cosine between λίβυς μεταβαίνω 0.4123161
-cosine between ἀπολείπω γραφεύς 0.62601805
-cosine between διψάω μνησικακέω 0.5838086
-cosine between πρύτανις σωφρονέω 0.50778407
+6329 words in vocabulary
+cosine between ἐρώτησις φιλοτεχνέω 0.85177785
+cosine between διαδιδράσκω ἄγαμαι 0.67850333
+cosine between αὐτάρκης ἰθύνω 0.79626787
+cosine between δείλαιος ὕπνον 0.8449222
+cosine between ὁπλιτικός ὑπολείπω 0.8109762
 
 
 ../trained_models/BIN_100_NOT-technical.w2v
-3020 words in vocabulary
-cosine between πείθω ἐπικρύπτω 0.7009656
-cosine between κύκλος ἡφαιστίων 0.3832672
-cosine between σύνειμι πρίν 0.33013448
-cosine between ἁπαλός ἁβροκόμης 0.5418961
-cosine between αἰακός μαίνομαι 0.71080124
-
-
-../trained_models/BIN_100_narrative.w2v
-1577 words in vocabulary
-cosine between ἴσως ὅπλον 0.57238126
-cosine between δῶρον σιωπή 0.594763
-cosine between καταδύω ποικίλος 0.7949905
-cosine between ἑορτή ἄνθρωπος 0.845104
-cosine between συνοικίζω ἀριστερός 0.6278664
-
-
-../trained_models/BIN_100_technical.w2v
-1220 words in vocabulary
-cosine between ὠκύς πνεύμων 0.94827044
-cosine between αἴσθησις νύξ 0.6191387
-cosine between ἐκβάλλω ἀγγεῖον 0.30017567
-cosine between Ἐλευσίς Ἡσίοδος 0.9361657
-cosine between πρόσθεν καταλαμβάνω 0.64574784
+6270 words in vocabulary
+cosine between λήγω ὑπηρεσία 0.761275
+cosine between φύς βέβαιος 0.70171213
+cosine between σιωπή κεραία 0.80044913
+cosine between αὐτοκράτωρ αὐτόνομος 0.7967203
+cosine between στένος δονέω 0.90888697
 
 
 ../trained_models/BIN_200_NOT-narrative.w2v
-2102 words in vocabulary
-cosine between ξένος ἱππεύς 0.66737944
-cosine between δορά ἐμπίπλημι 0.89953613
-cosine between διεξέρχομαι τιτρώσκω 0.42623004
-cosine between ἀλείφω ἑταίρα 0.58207524
-cosine between ἔτης καταβάλλω 0.8042458
+4994 words in vocabulary
+cosine between ἀμπελουργός δέον 0.8861392
+cosine between ἰδομενεύς κωμῳδία 0.8263417
+cosine between μετέρχομαι ὠφέλιμος 0.96408874
+cosine between θάνατος ἡμερόω 0.7586604
+cosine between παιδοποιέω ἠώς 0.9096876
 
 
 ../trained_models/BIN_200_NOT-technical.w2v
-2583 words in vocabulary
-cosine between ἀφροδίτη οἶνος 0.5954003
-cosine between πολλαχοῦ προέρχομαι 0.7176905
-cosine between πλῆθος καθεύδω 0.3937768
-cosine between χρυσίον ἀποκρίνω 0.70657456
-cosine between χῖος ξίφος 0.38832912
-
-
-../trained_models/BIN_200_narrative.w2v
-1201 words in vocabulary
-cosine between ἄπειρος μόνος 0.63963276
-cosine between Ἐπίκουρος ἀνάγκη 0.71821487
-cosine between ἀκριβῶς δίδωμι 0.8226079
-cosine between φιλία ἔθος 0.78377336
-cosine between πάνυ ἀφίζω 0.67236525
-
-
-../trained_models/BIN_200_technical.w2v
-492 words in vocabulary
-cosine between πρέσβυς σφόδρα 0.99915755
-cosine between ἀποκρίνω ὥρα 0.99939144
-cosine between ἐπιβουλεύω ὀξύς 0.998783
-cosine between Ὅμηρος ἀφελής 0.9474509
-cosine between φάρμακον ὁρμάω 0.99929076
+5733 words in vocabulary
+cosine between προσεῖπον στιβάς 0.7738885
+cosine between δήλιος ἀποκόπτω 0.61959004
+cosine between πομπίλος γελωτοποιός 0.8961651
+cosine between πέλεκυς ἀναπέμπω 0.96653205
+cosine between προσπλέω ἄεισμα 0.63159907
 
 
 ../trained_models/BIN_300_NOT-narrative.w2v
-1137 words in vocabulary
-cosine between δῆρις ὅμοιος 0.39438578
-cosine between μέρος δίδωμι 0.93554014
-cosine between πρόσειμι πληγή 0.8760912
-cosine between πόλις χαλεπός 0.91003525
-cosine between ἦτορ ἀξιόω 0.21820472
+2980 words in vocabulary
+cosine between ὅπου ψῆφος 0.99186224
+cosine between ἐπήρεια ἀπολαύω 0.94161683
+cosine between παροιμία δίαιτα 0.99831295
+cosine between συνεχής θνήσκω 0.37554374
+cosine between οἶδμα ἐκφεύγω 0.8406724
 
 
 ../trained_models/BIN_300_NOT-technical.w2v
-1430 words in vocabulary
-cosine between ἐνδύω κοσμέω 0.9393722
-cosine between λανθάνω ἀλλότριος 0.8047229
-cosine between πρόειμι διαφορά 0.8467826
-cosine between ναῦς πηρός 0.21990177
-cosine between θαρσαλέος τίθημι 0.92572635
-
-
-../trained_models/BIN_300_narrative.w2v
-318 words in vocabulary
-cosine between μακρός θεῖος 0.99941677
-cosine between παραδίδωμι πίστις 0.9981516
-cosine between κρατέω πρᾶγμα 0.9987512
-cosine between κηρύσσω μεθό 0.9987448
-cosine between ἐπισκοπή φυλάσσω 0.9908585
-
-
-../trained_models/BIN_300_technical.w2v
-1 words in vocabulary
-model does not have more than 100 words in vocab
+3483 words in vocabulary
+cosine between θυμός πότμος 0.963547
+cosine between ἐπιφύω ὕπνον 0.8592872
+cosine between θεσπέσιος ἀνανεόομαι 0.41071978
+cosine between ἐγγύς μήδομαι 0.9394423
+cosine between πούς διάκονος 0.33065674
 
 
 ../trained_models/BIN_400_NOT-narrative.w2v
-787 words in vocabulary
-cosine between κύκλος ἐρεχθεύς 0.8689137
-cosine between βόα νόθος 0.9390393
-cosine between δοκεύω εὑρίσκω 0.98887205
-cosine between μίγνυμι ῥόθιος 0.9697274
-cosine between ἀστεροπή κόρη 0.9879487
+2266 words in vocabulary
+cosine between σειληνός τεῦχος 0.9945939
+cosine between κοίρανος περιρραίνω 0.9813744
+cosine between ὅπλον πρόμαχος 0.99365383
+cosine between ἐλέγχω ἀνάεδνος 0.9989754
+cosine between λίσσομαι φαρμακόεις 0.99874824
 
 
 ../trained_models/BIN_400_NOT-technical.w2v
-787 words in vocabulary
-cosine between ἐλαία ἄστατος 0.78078115
-cosine between ποθέω μίγνυμι 0.9915292
-cosine between ὁπλίζω γλυκύς 0.9831339
-cosine between ἀνακρούω διώκω 0.99167573
-cosine between δεύτερος ὅσος 0.99230564
+2266 words in vocabulary
+cosine between δυσμενέων ἀπόσπορος 0.9955275
+cosine between ἀλαλάζω ποθέω 0.98921436
+cosine between θεά ὁμοῦ 0.9972366
+cosine between μέσατος δορίκτητος 0.9862871
+cosine between ἀνατρέχω παιδοφόνος 0.99220556
 
 
 NARRATIVE
@@ -347,47 +250,47 @@ harmonia is present in ../trained_models/BIN_-400_NOT-narrative.w2v
 harmonia is present in ../trained_models/BIN_0_NOT-narrative.w2v
 harmonia is present in ../trained_models/BIN_100_NOT-narrative.w2v
 harmonia is present in ../trained_models/BIN_200_NOT-narrative.w2v
+harmonia is present in ../trained_models/BIN_300_NOT-narrative.w2v
 harmonia is present in ../trained_models/BIN_400_NOT-narrative.w2v
 kosmos is present in ../trained_models/BIN_-100_NOT-narrative.w2v
-kosmos is present in ../trained_models/BIN_-100_narrative.w2v
 kosmos is present in ../trained_models/BIN_-200_NOT-narrative.w2v
+kosmos is present in ../trained_models/BIN_-300_NOT-narrative.w2v
 kosmos is present in ../trained_models/BIN_-400_NOT-narrative.w2v
-kosmos is present in ../trained_models/BIN_-400_narrative.w2v
 kosmos is present in ../trained_models/BIN_-500_NOT-narrative.w2v
+kosmos is present in ../trained_models/BIN_-700_NOT-narrative.w2v
 kosmos is present in ../trained_models/BIN_0_NOT-narrative.w2v
-kosmos is present in ../trained_models/BIN_0_narrative.w2v
 kosmos is present in ../trained_models/BIN_100_NOT-narrative.w2v
-kosmos is present in ../trained_models/BIN_100_narrative.w2v
 kosmos is present in ../trained_models/BIN_200_NOT-narrative.w2v
-kosmos is present in ../trained_models/BIN_200_narrative.w2v
 kosmos is present in ../trained_models/BIN_300_NOT-narrative.w2v
-kosmos is present in ../trained_models/BIN_300_narrative.w2v
 kosmos is present in ../trained_models/BIN_400_NOT-narrative.w2v
+mus is present in ../trained_models/BIN_-100_NOT-narrative.w2v
+mus is present in ../trained_models/BIN_-500_NOT-narrative.w2v
+mus is present in ../trained_models/BIN_0_NOT-narrative.w2v
 mus is present in ../trained_models/BIN_100_NOT-narrative.w2v
 mus is present in ../trained_models/BIN_200_NOT-narrative.w2v
 
 
 TECHNICAL
-harmonia is present in ../trained_models/BIN_-100_technical.w2v
 harmonia is present in ../trained_models/BIN_-400_NOT-technical.w2v
 harmonia is present in ../trained_models/BIN_0_NOT-technical.w2v
 harmonia is present in ../trained_models/BIN_100_NOT-technical.w2v
 harmonia is present in ../trained_models/BIN_200_NOT-technical.w2v
+harmonia is present in ../trained_models/BIN_300_NOT-technical.w2v
 harmonia is present in ../trained_models/BIN_400_NOT-technical.w2v
 kosmos is present in ../trained_models/BIN_-100_NOT-technical.w2v
-kosmos is present in ../trained_models/BIN_-100_technical.w2v
 kosmos is present in ../trained_models/BIN_-200_NOT-technical.w2v
 kosmos is present in ../trained_models/BIN_-300_NOT-technical.w2v
 kosmos is present in ../trained_models/BIN_-400_NOT-technical.w2v
-kosmos is present in ../trained_models/BIN_-400_technical.w2v
 kosmos is present in ../trained_models/BIN_-500_NOT-technical.w2v
+kosmos is present in ../trained_models/BIN_-700_NOT-technical.w2v
 kosmos is present in ../trained_models/BIN_0_NOT-technical.w2v
 kosmos is present in ../trained_models/BIN_100_NOT-technical.w2v
-kosmos is present in ../trained_models/BIN_100_technical.w2v
 kosmos is present in ../trained_models/BIN_200_NOT-technical.w2v
 kosmos is present in ../trained_models/BIN_300_NOT-technical.w2v
 kosmos is present in ../trained_models/BIN_400_NOT-technical.w2v
+mus is present in ../trained_models/BIN_-500_NOT-technical.w2v
+mus is present in ../trained_models/BIN_0_NOT-technical.w2v
+mus is present in ../trained_models/BIN_100_NOT-technical.w2v
 mus is present in ../trained_models/BIN_200_NOT-technical.w2v
-mus is present in ../trained_models/BIN_200_technical.w2v
 
 

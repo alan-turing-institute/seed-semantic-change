@@ -16,7 +16,6 @@ for genre in genres:
     bins = []
     for i in range(earliest,last+slice_length,slice_length):
         bins.append(i)
-    
     pool = Pool(8)
     pool.starmap(train_model,zip(bins,repeat(genre)))
     pool.close()

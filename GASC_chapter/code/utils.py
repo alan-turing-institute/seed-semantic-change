@@ -132,7 +132,7 @@ def train_model(slice,genre):
 		return 
 	if os.path.exists(model_file):
 		return
-	model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=30, sg=1 ,size=300, workers=3, seed=1830, iter=5)
+	model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=10, sg=1 ,size=300, workers=3, seed=1830, iter=5)
 	model.save(model_file)
 	print("Trained",model_file,"\n")
 
