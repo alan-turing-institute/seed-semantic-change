@@ -1,0 +1,40 @@
+909 documents , 1 concepts , 2481 context features (pontifex) 
+kappaF 10.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start 1, end 2, times 2, dT 1, I 1000
+
+
+map[]
+
+===============  per type  ===============
+0.13125759491728162   T=0,K=0:   (0.158) ; #2 (0.022) ; Romanus (0.018) ; mensis (0.011) ; noster (0.008) ; summus (0.008) ; pars (0.008) ; praedico (0.007) ; ecclesia (0.007) ; universalis (0.007) ; 
+0.2184698116819972   T=1,K=0:   (0.194) ; #2 (0.026) ; summus (0.012) ; Romanus (0.012) ; mensis (0.009) ; universalis (0.008) ; facio (0.008) ; noster (0.008) ; praedico (0.007) ; habeo (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:   (0.176) ; #2 (0.024) ; Romanus (0.015) ; summus (0.010) ; mensis (0.010) ; noster (0.008) ; universalis (0.007) ; praedico (0.007) ; facio (0.007) ; pars (0.006) ; 
+
+0.20563954357353156   T=0,K=1:   (0.233) ; #2 (0.025) ; Romanus (0.019) ; maximus (0.012) ; habeo (0.012) ; summus (0.011) ; dico#2 (0.008) ; rex (0.007) ; summum (0.007) ; sanctus (0.006) ; 
+0.28258987178784206   T=1,K=1:   (0.283) ; Romanus (0.023) ; #2 (0.022) ; habeo (0.009) ; summus (0.008) ; rex (0.008) ; maximus (0.006) ; #4 (0.006) ; summum (0.006) ; dico#2 (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:   (0.258) ; #2 (0.023) ; Romanus (0.021) ; habeo (0.010) ; maximus (0.009) ; summus (0.009) ; rex (0.007) ; dico#2 (0.007) ; summum (0.006) ; #4 (0.006) ; 
+
+0.3079237948039045   T=0,K=2:   (0.234) ; #2 (0.019) ; Romanus (0.016) ; ecclesia (0.010) ; Petrus (0.008) ; sacer (0.007) ; concedo (0.007) ; summum (0.006) ; multus (0.005) ; princeps (0.005) ; 
+0.22764762236256078   T=1,K=2:   (0.220) ; Romanus (0.025) ; #2 (0.020) ; summum (0.010) ; ecclesia (0.009) ; princeps (0.008) ; concedo (0.006) ; apostolicus (0.006) ; dies (0.005) ; sacer (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:   (0.227) ; Romanus (0.020) ; #2 (0.020) ; ecclesia (0.009) ; summum (0.008) ; Petrus (0.007) ; concedo (0.007) ; princeps (0.006) ; sacer (0.006) ; apostolicus (0.005) ; 
+
+0.35517906670528226   T=0,K=3:   (0.152) ; maximus (0.030) ; #2 (0.014) ; M. (0.013) ; P. (0.012) ; Romanus (0.011) ; C. (0.007) ; habeo (0.007) ; summus (0.006) ; loquor (0.006) ; 
+0.27129269416759993   T=1,K=3:   (0.233) ; #2 (0.020) ; Romanus (0.018) ; maximus (0.016) ; summus (0.010) ; M. (0.006) ; C. (0.006) ; filius (0.005) ; omnis (0.005) ; ungo (0.004) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:   (0.192) ; maximus (0.023) ; #2 (0.017) ; Romanus (0.014) ; M. (0.009) ; summus (0.008) ; P. (0.007) ; C. (0.007) ; habeo (0.006) ; filius (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.13125759491728162   T=0,K=0:   (0.158) ; #2 (0.022) ; Romanus (0.018) ; mensis (0.011) ; noster (0.008) ; summus (0.008) ; pars (0.008) ; praedico (0.007) ; ecclesia (0.007) ; universalis (0.007) ; 
+0.20563954357353156   T=0,K=1:   (0.233) ; #2 (0.025) ; Romanus (0.019) ; maximus (0.012) ; habeo (0.012) ; summus (0.011) ; dico#2 (0.008) ; rex (0.007) ; summum (0.007) ; sanctus (0.006) ; 
+0.3079237948039045   T=0,K=2:   (0.234) ; #2 (0.019) ; Romanus (0.016) ; ecclesia (0.010) ; Petrus (0.008) ; sacer (0.007) ; concedo (0.007) ; summum (0.006) ; multus (0.005) ; princeps (0.005) ; 
+0.35517906670528226   T=0,K=3:   (0.152) ; maximus (0.030) ; #2 (0.014) ; M. (0.013) ; P. (0.012) ; Romanus (0.011) ; C. (0.007) ; habeo (0.007) ; summus (0.006) ; loquor (0.006) ; 
+
+Time=1  
+0.2184698116819972   T=1,K=0:   (0.194) ; #2 (0.026) ; summus (0.012) ; Romanus (0.012) ; mensis (0.009) ; universalis (0.008) ; facio (0.008) ; noster (0.008) ; praedico (0.007) ; habeo (0.006) ; 
+0.28258987178784206   T=1,K=1:   (0.283) ; Romanus (0.023) ; #2 (0.022) ; habeo (0.009) ; summus (0.008) ; rex (0.008) ; maximus (0.006) ; #4 (0.006) ; summum (0.006) ; dico#2 (0.006) ; 
+0.22764762236256078   T=1,K=2:   (0.220) ; Romanus (0.025) ; #2 (0.020) ; summum (0.010) ; ecclesia (0.009) ; princeps (0.008) ; concedo (0.006) ; apostolicus (0.006) ; dies (0.005) ; sacer (0.005) ; 
+0.27129269416759993   T=1,K=3:   (0.233) ; #2 (0.020) ; Romanus (0.018) ; maximus (0.016) ; summus (0.010) ; M. (0.006) ; C. (0.006) ; filius (0.005) ; omnis (0.005) ; ungo (0.004) ; 
+
+
+
+-----------------------
+ kappa_c 3.252663 , kappa_f 10.000000
