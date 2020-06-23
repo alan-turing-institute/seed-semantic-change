@@ -30,6 +30,14 @@ Genre ids:
 
 Expert annotation for kosmos: https://github.com/alan-turing-institute/seed-semantic-change/blob/master/corpus_scripts_output/senses_59339_142.txt
 
-Output of SCAN: seed-semantic-change-master/src/dynamic-senses/greek_input/all_results/kosmos_simon_k15
+Output of SCAN: 
 
-Output of GASC: seed-semantic-change-master/src/dynamic-senses/greek_input/all_results/genre_topic_output
+On Ancient Greek: seed-semantic-change-master/src/dynamic-senses/greek_input/all_results/kosmos_simon_k15, etc.
+
+On Latin: seed-semantic-change/src/dynamic-senses/latin_input/SCAN
+
+Output of GASC: 
+
+On Ancient Greek: seed-semantic-change-master/src/dynamic-senses/greek_input/all_results/genre_topic_output
+
+On Latin:
