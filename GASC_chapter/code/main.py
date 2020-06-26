@@ -3,7 +3,9 @@ import sys
 
 
 langs = ["AG", "LA"]
+langs = ["LA"]
 
+"""
 for lang in langs:
     print("Dealing with",lang)
     if lang == "AG":
@@ -27,7 +29,7 @@ for lang in langs:
             pool.close()
             pool.join()
 
-        get_models_stats()
+        get_models_stats(lang)
 
         genres = ["narrative","technical"]
         for genre in genres:
@@ -35,3 +37,12 @@ for lang in langs:
             for target in target_words.keys():
                 check_target_in_models(target,genre,lang)
             print("\n")
+
+    if lang == "LA":
+        bins = [1,2]
+        genre = ""
+        for bin in bins:
+            train_model(bin,genre,lang)
+
+""" 
+LA_to_TR_input()

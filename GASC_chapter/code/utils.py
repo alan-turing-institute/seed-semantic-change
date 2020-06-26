@@ -132,25 +132,49 @@ def intersection_align_gensim(m1,m2, words=None):
 
 	return (m1,m2)
 
+def LA_to_TR_input():
+	lang = "LA"
+	files = [os.path.join(path_data_out,lang,file) for file in os.listdir(os.path.join(path_data_out,lang)) if file.endswith(".gensim")]
+	with open("/home/gntsh/git/TemporalReferencing/corpus/test/files/corpus.txt", "w") as f_out:
+		for index, file in enumerate(sorted(files)):
+			with open(file) as f:
+				for line in f.readlines():
+					f_out.write(str(index)+"\t"+line.lower())
+	os.system("gzip -f "+"/home/gntsh/git/TemporalReferencing/corpus/test/files/corpus.txt")
+	
 
 def train_model(slice,genre,lang):
 	"""
 	Quite simply it trains models
 	"""
-	filename = "BIN_"+str(slice)+"_"+genre+".gensim"
-	corpus_file = os.path.join(path_data_out,lang,filename)
-	model_file = os.path.join(path_models_out,lang,filename.replace(".gensim",".w2v"))
+	if lang == "AG":
+		filename = "BIN_"+str(slice)+"_"+genre+".gensim"
+		corpus_file = os.path.join(path_data_out,lang,filename)
+		model_file = os.path.join(path_models_out,lang,filename.replace(".gensim",".w2v"))
 
-	if os.stat(corpus_file).st_size < 10:
-		return 
-	if os.path.exists(model_file):
-		return
-	model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=10, sg=1 ,size=300, workers=3, seed=1830, iter=5)
-	model.save(model_file)
-	print("Trained",model_file,"\n")
+		if os.stat(corpus_file).st_size < 10:
+			return 
+		if os.path.exists(model_file):
+			return
+		model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=10, sg=1 ,size=300, workers=3, seed=1830, iter=5)
+		model.save(model_file)
+		print("Trained",model_file,"\n")
+	
+	if lang == "LA":
+		genre = ""
+		filename = "BIN_"+str(slice)+"_"+genre+".gensim"
+		corpus_file = os.path.join(path_data_out,lang,filename)
+		model_file = os.path.join(path_models_out,lang,filename.replace(".gensim",".w2v"))
+		if os.stat(corpus_file).st_size < 10:
+			return 
+		if os.path.exists(model_file):
+			return
+		model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=10, sg=1 ,size=300, workers=3, seed=1830, iter=5)
+		model.save(model_file)
+		print("Trained",model_file,"\n")
 
 
-def corpus_transformer(genre_sep,slice_length=100,lang):
+def corpus_transformer(genre_sep,lang,slice_length=100):
 	"""
 	Will transform the main corpus file into gensim files
 	genre_sep is either 'technical', 'narrative', or None
@@ -167,7 +191,7 @@ def corpus_transformer(genre_sep,slice_length=100,lang):
 		#print(corpus.head())
 
 		ids_blacklist = []
-		for key,val in genres_id.items():
+		for key,val in genres_id[lang].items():
 			if val == genre_sep:
 				id_OK = key
 			else:
@@ -186,21 +210,21 @@ def corpus_transformer(genre_sep,slice_length=100,lang):
 		#print(bins)
 
 		for bin in bins:
-			fileout = os.path.join(path_data_out,lang,"BIN_"+str(bin)+"_NOT-"+genres_id[id_OK]+".gensim")
+			fileout = os.path.join(path_data_out,lang,"BIN_"+str(bin)+"_NOT-"+genres_id[lang][id_OK]+".gensim")
 			if os.path.exists(fileout) == False:
 				sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] != id_OK )]
 				with open(fileout,"w") as f:
 					for index, row in sub_corpus.iterrows():
 						f.write(row["sentence"].lower()+"\n")
 			
-			fileout = os.path.join(path_data_out,lang,"BIN_"+str(bin)+"_"+genres_id[id_OK]+".gensim")
+			fileout = os.path.join(path_data_out,lang,"BIN_"+str(bin)+"_"+genres_id[lang][id_OK]+".gensim")
 			if os.path.exists(fileout) == False:
 				sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] == id_OK )]
 				with open(fileout,"w") as f:
 					for index, row in sub_corpus.iterrows():
 						f.write(row["sentence"].lower()+"\n")
 
-def get_models_stats():
+def get_models_stats(lang):
 	"""
 	Loads all models and prints out some descriptive stats
 	"""
