@@ -19,7 +19,19 @@ for path in paths:
 		os.mkdir(path)
 
 # "Comedy" = 0 "Essays" = 1 "Letters" = 2 "Narrative" = 3 "Oratory" = 4 "Philosophy" = 5 "Poetry" = 6 "Religion" = 7 "Technical" = 8 "Tragedy" = 9
-genres_id = {0: "comedy", 
+genres_id = {}
+genres_id["AG"] = {0: "comedy", 
+		1: "essays",
+		2: "letters",
+		3: "narrative",
+		4: "oratory",
+		5: "philosophy",
+		6: "poetry",
+		7: "religion",
+		8: "technical",
+		9: "tragedy"
+		}
+genres_id["LA"] = {0: "comedy", 
 		1: "essays",
 		2: "letters",
 		3: "narrative",
@@ -31,8 +43,9 @@ genres_id = {0: "comedy",
 		9: "tragedy"
 		}
 
-target_words = {'harmonia': ['!αρμονίας', 'ἁρμονία', 'ἁρμονίαι', 'ἁρμονίαις', 'ἁρμονίαισι', 'ἁρμονίαισιν', 'ἁρμονίαν', 'ἁρμονίας', 'ἁρμονίᾳ', 'ἁρμονίη', 'ἁρμονίηι', 'ἁρμονίην', 'ἁρμονίης', 'ἁρμονίῃ', 'ἁρμονίῃσιν', 'ἁρμονιάων', 'ἁρμονιῶν'], 'kosmos': ['κόσμε', 'κόσμοι', 'κόσμοιο', 'κόσμοις', 'κόσμοισι', 'κόσμον', 'κόσμος', 'κόσμου', 'κόσμους', 'κόσμω', 'κόσμωι', 'κόσμων', 'κόσμῳ'], 'mus': ['μύας', 'μύες', 'μύεσι', 'μύεσσιν', 'μύς', 'μύων', 'μῦ', 'μῦν', 'μῦς', 'μυί', 'μυός', 'μυοῖν', 'μυσί', 'μυσίν', 'μυῶν']}
-
+target_words = {}
+target_words["AG"] = {'harmonia': ['!αρμονίας', 'ἁρμονία', 'ἁρμονίαι', 'ἁρμονίαις', 'ἁρμονίαισι', 'ἁρμονίαισιν', 'ἁρμονίαν', 'ἁρμονίας', 'ἁρμονίᾳ', 'ἁρμονίη', 'ἁρμονίηι', 'ἁρμονίην', 'ἁρμονίης', 'ἁρμονίῃ', 'ἁρμονίῃσιν', 'ἁρμονιάων', 'ἁρμονιῶν'], 'kosmos': ['κόσμε', 'κόσμοι', 'κόσμοιο', 'κόσμοις', 'κόσμοισι', 'κόσμον', 'κόσμος', 'κόσμου', 'κόσμους', 'κόσμω', 'κόσμωι', 'κόσμων', 'κόσμῳ'], 'mus': ['μύας', 'μύες', 'μύεσι', 'μύεσσιν', 'μύς', 'μύων', 'μῦ', 'μῦν', 'μῦς', 'μυί', 'μυός', 'μυοῖν', 'μυσί', 'μυσίν', 'μυῶν']}
+target_words["LA"] = {}
 
 def smart_procrustes_align_gensim(base_embed, other_embed, words=None):
 	""" 
@@ -120,13 +133,13 @@ def intersection_align_gensim(m1,m2, words=None):
 	return (m1,m2)
 
 
-def train_model(slice,genre):
+def train_model(slice,genre,lang):
 	"""
 	Quite simply it trains models
 	"""
 	filename = "BIN_"+str(slice)+"_"+genre+".gensim"
-	corpus_file = os.path.join(path_data_out,filename)
-	model_file = os.path.join(path_models_out,filename.replace(".gensim",".w2v"))
+	corpus_file = os.path.join(path_data_out,lang,filename)
+	model_file = os.path.join(path_models_out,lang,filename.replace(".gensim",".w2v"))
 
 	if os.stat(corpus_file).st_size < 10:
 		return 
@@ -137,61 +150,61 @@ def train_model(slice,genre):
 	print("Trained",model_file,"\n")
 
 
-def corpus_transformer(genre_sep,slice_length=100):
+def corpus_transformer(genre_sep,slice_length=100,lang):
 	"""
 	Will transform the main corpus file into gensim files
 	genre_sep is either 'technical', 'narrative', or None
 	"""
-
-	if genre_sep not in ["technical", "narrative",None]:
-		sys.exit("genre_sep is",genre_sep,"not a valid value")
-	
-	
-	print("Reading corpus at",corpus_path)
-
-	corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
-	
-	#print(corpus.head())
-
-	ids_blacklist = []
-	for key,val in genres_id.items():
-		if val == genre_sep:
-			id_OK = key
-		else:
-			ids_blacklist.append(key)
-	
-	years = list(corpus.year.unique())
-
-	#sorted_df = corpus.sort_values(by="genre")
-	#df_genre = df[corpus[""]
-
-	earliest = sorted(years)[0]
-	last = sorted(years)[-1]
-	bins = []
-	for i in range(earliest,last+slice_length,slice_length):
-		bins.append(i)
-	#print(bins)
-
-	for bin in bins:
-		fileout = os.path.join(path_data_out,"BIN_"+str(bin)+"_NOT-"+genres_id[id_OK]+".gensim")
-		if os.path.exists(fileout) == False:
-			sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] != id_OK )]
-			with open(fileout,"w") as f:
-				for index, row in sub_corpus.iterrows():
-					f.write(row["sentence"].lower()+"\n")
+	if lang == "AG":
+		if genre_sep not in ["technical", "narrative",None]:
+			sys.exit("genre_sep is",genre_sep,"not a valid value")
 		
-		fileout = os.path.join(path_data_out,"BIN_"+str(bin)+"_"+genres_id[id_OK]+".gensim")
-		if os.path.exists(fileout) == False:
-			sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] == id_OK )]
-			with open(fileout,"w") as f:
-				for index, row in sub_corpus.iterrows():
-					f.write(row["sentence"].lower()+"\n")
+		
+		print("Reading corpus at",corpus_path)
+
+		corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
+		
+		#print(corpus.head())
+
+		ids_blacklist = []
+		for key,val in genres_id.items():
+			if val == genre_sep:
+				id_OK = key
+			else:
+				ids_blacklist.append(key)
+		
+		years = list(corpus.year.unique())
+
+		#sorted_df = corpus.sort_values(by="genre")
+		#df_genre = df[corpus[""]
+
+		earliest = sorted(years)[0]
+		last = sorted(years)[-1]
+		bins = []
+		for i in range(earliest,last+slice_length,slice_length):
+			bins.append(i)
+		#print(bins)
+
+		for bin in bins:
+			fileout = os.path.join(path_data_out,lang,"BIN_"+str(bin)+"_NOT-"+genres_id[id_OK]+".gensim")
+			if os.path.exists(fileout) == False:
+				sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] != id_OK )]
+				with open(fileout,"w") as f:
+					for index, row in sub_corpus.iterrows():
+						f.write(row["sentence"].lower()+"\n")
+			
+			fileout = os.path.join(path_data_out,lang,"BIN_"+str(bin)+"_"+genres_id[id_OK]+".gensim")
+			if os.path.exists(fileout) == False:
+				sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] == id_OK )]
+				with open(fileout,"w") as f:
+					for index, row in sub_corpus.iterrows():
+						f.write(row["sentence"].lower()+"\n")
 
 def get_models_stats():
 	"""
 	Loads all models and prints out some descriptive stats
 	"""
-	models = [os.path.join(path_models_out,model) for model in os.listdir(path_models_out)]
+	models = [os.path.join(path_models_out,lang,model) for model in os.listdir(os.path.join(path_models_out,lang))]
 	for model in sorted(models):
 		print(model)
 		m = gensim.models.Word2Vec.load(model)
@@ -210,12 +223,12 @@ def get_models_stats():
 		
 		print("\n")
 
-def check_target_in_models(target,genre):
+def check_target_in_models(target,genre,lang):
 	"""
 	for target word we check if it exists in the model
 	"genre" is narrative or technical, so not the "NOT" versions
 	"""
-	models = [os.path.join(path_models_out,model) for model in os.listdir(path_models_out) if genre in model]
+	models = [os.path.join(path_models_out,lang,model) for model in os.listdir(os.path.join(path_models_out,lang)) if genre in model]
 	
 	for model in sorted(models):
 		#print(model)
