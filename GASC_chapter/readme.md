@@ -13,3 +13,11 @@ baseline_evaluation.py:
 
 code for processing output files from GASC/SCAN; given a list of words, this returns a binary score (0 for non-changed and 1 for changed).
 
+
+utils.py:
+
+Has all the functions to preprocess data and train SGNS (AG and LA). TR training is more complicated and not currently in this repo.
+
+main.py:
+
+Script that launches functions in utils.py
