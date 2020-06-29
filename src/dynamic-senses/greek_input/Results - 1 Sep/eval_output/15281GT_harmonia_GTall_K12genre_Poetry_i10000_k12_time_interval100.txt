@@ -1,0 +1,11 @@
+Target ID 15281 Window size 5 Start time -700 End time 400 Time Interval 100 Iterations 10000
+Expert senses ['NA', 'harmonia:concrete', 'harmonia:musical', 'harmonia:abstract'] Total 4 
+Output senses 12 
+
+MATCH: k 0 and s 0 
+MATCH: k 6 and s 3 
+SCORES FOR PAIR S= 0 <-> {K...K}= [0]: P 0.24793388429752067 R 0.2633939648426316 F 0.2554302055472777 
+SCORES FOR PAIR S= NA <-> {K...K}= [1, 2, 3, 4, 5, 7, 8, 9, 10, 11]: P 0.11915906651185662 R 0.12658930853453593 F 0.12276186023617928 
+SCORES FOR PAIR S= 3 <-> {K...K}= [6]: P 0.1652892561983471 R 0.17297712857966557 F 0.169045830202855 
+Averaged scores: P 0.1330955517519311 R 0.14074010048920826 F 0.136809473996578
+

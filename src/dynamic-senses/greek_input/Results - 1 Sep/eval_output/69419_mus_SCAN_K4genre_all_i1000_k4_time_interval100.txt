@@ -1,0 +1,13 @@
+Target ID 69419 Window size 5 Start time -430 End time 365 Time Interval 100 Iterations 1000
+Expert senses ['mus:mouse', 'NA', 'mus:muscle', 'mus:mussel'] Total 4 
+Output senses 4 
+
+MATCH: k 0 and s 2 
+MATCH: k 1 and s 1 
+MATCH: k 2 and s 1 
+SCORES FOR PAIR S= 2 <-> {K...K}= [0]: P 0.6637681159420289 R 0.7067728107777095 F 0.6845957648733612 
+SCORES FOR PAIR S= 1 <-> {K...K}= [1, 2]: P 0.6623420909865922 R 0.751929395086602 F 0.7042982803800488 
+SCORES FOR PAIR S= NA <-> {K...K}= [3]: P 0.39420289855072466 R 0.44752213558874054 F 0.4191737583165712 
+Averaged scores: P 0.4300782763698365 R 0.476556085363263 F 0.4520169508924953
+
+Significant correlations [] Positive significant correlations 0 Pos signi. correlations/number of sk matches 0.0 sk matches 3

@@ -1,0 +1,4 @@
+Target ID 15281 Window size 5 Start time -424 End time -411 Time Interval 100 Iterations 10000
+Expert senses ['harmonia:musical'] Total 1 
+Output senses 12 
+

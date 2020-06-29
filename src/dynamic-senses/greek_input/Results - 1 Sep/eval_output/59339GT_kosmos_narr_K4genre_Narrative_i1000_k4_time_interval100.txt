@@ -1,0 +1,8 @@
+Target ID 59339 Window size 5 Start time -430 End time 120 Time Interval 100 Iterations 1000
+Expert senses ['NA', 'kosmos:decoration', 'kosmos:order', 'kosmos:world'] Total 4 
+Output senses 4 
+
+SCORES FOR PAIR S= NA <-> {K...K}= [0, 1, 2, 3]: P 0.7997846367593001 R 1.265769341649106 F 0.9802143964419078 
+Averaged scores: P 0.19994615918982503 R 0.3164423354122765 F 0.24505359911047694
+
+Significant correlations [] Positive significant correlations 0 Pos signi. correlations/number of sk matches 0.0 sk matches 1

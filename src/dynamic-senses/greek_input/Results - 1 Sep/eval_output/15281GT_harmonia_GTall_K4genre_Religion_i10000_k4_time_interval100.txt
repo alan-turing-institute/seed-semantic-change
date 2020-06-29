@@ -1,0 +1,7 @@
+Target ID 15281 Window size 5 Start time -150 End time 365 Time Interval 100 Iterations 10000
+Expert senses ['NA', 'harmonia:concrete', 'harmonia:musical', 'harmonia:abstract'] Total 4 
+Output senses 4 
+
+MATCH: k 1 and s 2 
+MATCH: k 2 and s 3 
+MATCH: k 3 and s 2 

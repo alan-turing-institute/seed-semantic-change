@@ -1,0 +1,6 @@
+Target ID 15281 Window size 5 Start time 359 End time 365 Time Interval 100 Iterations 10000
+Expert senses ['NA', 'harmonia:abstract', 'harmonia:concrete'] Total 3 
+Output senses 12 
+
+MATCH: k 2 and s 0 
+SCORES FOR PAIR S= NA <-> {K...K}= [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11]: P 0.09500430960539402 R 0.09710219656828918 F 0.09604179816582735 
