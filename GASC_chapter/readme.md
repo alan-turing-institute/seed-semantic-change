@@ -6,6 +6,9 @@ This folder contains the code and data needed for the publication in the "Langua
 
 gold_standard_binary_Latin.txt: list of changed and non-changed Latin words, from SemEval task 1 data, subtask 1.
 
+## Latin_SCAN_output
+
+Output from SCAN models for Latin.
 
 ## Code
 
