@@ -57,11 +57,24 @@ parent_dir_of_file = dirname(dir_of_file)
 parents_parent_dir_of_file = dirname(parent_dir_of_file)
 dir_in = os.path.join(parent_dir_of_file, "input")
 dir_out = os.path.join(parent_dir_of_file, "baseline_evaluation_output")
-dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", language + "_input", model)
+#dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", language + "_input", model)
+dir_model_output = os.path.join(parents_parent_dir_of_file, "GASC_chapter", language + "_" + model + "_output")
 
 # Input files:
 gold_standard_file_name = "gold_standard_binary_" + language + ".txt"
-model_output_file_name = "output_" + word + "_NOSTOPWORDS.dat"
+#model_output_file_name = "output_" + word + "_NOSTOPWORDS.dat"
+if language == "Latin":
+    model_output_file_name = word + ".dat"
+else:
+    if word == "kosmos":
+        id = 59339
+        dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", "greek_input", "all_results", word + "_simon_k15", str(id))
+        model_output_file_name = "output.dat"
+    elif word == "harmonia":
+        dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", "greek_input",
+                                        "all_results")
+        model_output_file_name = "output_" + word + "_K5.dat"
+
 
 # Output file:
 
@@ -84,7 +97,7 @@ for line in gold_standard_file:
     fields = line.rstrip().split("\t")
     lemma = fields[0]
     binary_score = fields[1]
-    gold_standard[lemma] = binary_score
+    gold_standard[lemma] = int(binary_score)
     #print("lemma=" + lemma + "end")
     #print("binary=" + binary_score + "end")
 
@@ -102,6 +115,7 @@ else:
 
 # Read model output files:
 
+print("Opening model output file:" + model_output_file_name + " in " + str(dir_model_output))
 model_output_file = open(os.path.join(dir_model_output, model_output_file_name), 'r', encoding="utf-8")
 
 found_time_probabilities = 0
@@ -146,6 +160,10 @@ for line in model_output_file:
 
 
 model_output_file.close()
+
+# For Greek: find changepoint in time series:
+
+
 
 
 output.close()

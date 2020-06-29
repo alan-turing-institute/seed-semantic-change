@@ -1,0 +1,5 @@
+kosmos	0
+harmonia	0
+mus	1
+paradeisos	1
+parabole	1
