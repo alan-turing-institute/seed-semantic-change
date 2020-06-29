@@ -1,0 +1,40 @@
+2470 documents , 1 concepts , 7029 context features (dux) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.2506301492200856   T=0,K=0:  se (0.011) ; omnis (0.010) ; exercitus (0.009) ; bellum (0.007) ; rex (0.007) ; quod (0.006) ; miles (0.006) ; Romanus (0.006) ; princeps (0.005) ; pars (0.005) ; 
+0.2463719524590703   T=1,K=0:  se (0.011) ; omnis (0.010) ; exercitus (0.009) ; bellum (0.007) ; quod (0.007) ; miles (0.006) ; rex (0.006) ; Romanus (0.006) ; princeps (0.005) ; pars (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  se (0.011) ; omnis (0.010) ; exercitus (0.009) ; bellum (0.007) ; rex (0.006) ; quod (0.006) ; miles (0.006) ; Romanus (0.006) ; princeps (0.005) ; pars (0.005) ; 
+
+0.2879726739792478   T=0,K=1:  rex (0.008) ; facio (0.007) ; exercitus (0.007) ; princeps (0.007) ; se (0.007) ; omnis (0.007) ; bellum (0.007) ; hostis (0.006) ; Romanus (0.006) ; quod (0.006) ; 
+0.2470125119563239   T=1,K=1:  rex (0.008) ; facio (0.008) ; princeps (0.007) ; se (0.007) ; omnis (0.007) ; exercitus (0.007) ; bellum (0.007) ; hostis (0.006) ; Romanus (0.006) ; quod (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  rex (0.008) ; facio (0.008) ; princeps (0.007) ; se (0.007) ; exercitus (0.007) ; omnis (0.007) ; bellum (0.007) ; hostis (0.006) ; Romanus (0.006) ; quod (0.006) ; 
+
+0.28182390230757043   T=0,K=2:  dux (0.020) ; rex (0.012) ; bellum (0.008) ; se (0.008) ; exercitus (0.007) ; facio (0.006) ; res (0.006) ; do (0.005) ; Romanus (0.005) ; multus (0.005) ; 
+0.2618427191143661   T=1,K=2:  dux (0.020) ; rex (0.011) ; bellum (0.009) ; se (0.008) ; exercitus (0.007) ; facio (0.006) ; res (0.006) ; Romanus (0.005) ; multus (0.005) ; do (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  dux (0.020) ; rex (0.011) ; bellum (0.008) ; se (0.008) ; exercitus (0.007) ; facio (0.006) ; res (0.006) ; Romanus (0.005) ; do (0.005) ; multus (0.005) ; 
+
+0.1795732744930961   T=0,K=3:  exercitus (0.010) ; rex (0.010) ; omnis (0.009) ; bellum (0.008) ; se (0.007) ; quod (0.007) ; Romanus (0.006) ; dominus (0.006) ; princeps (0.006) ; dux (0.005) ; 
+0.2447728164702398   T=1,K=3:  exercitus (0.010) ; rex (0.010) ; omnis (0.009) ; bellum (0.007) ; se (0.007) ; quod (0.007) ; Romanus (0.006) ; dominus (0.006) ; princeps (0.006) ; dux (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  exercitus (0.010) ; rex (0.010) ; omnis (0.009) ; bellum (0.007) ; se (0.007) ; quod (0.007) ; Romanus (0.006) ; dominus (0.006) ; princeps (0.006) ; dux (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.2506301492200856   T=0,K=0:  se (0.011) ; omnis (0.010) ; exercitus (0.009) ; bellum (0.007) ; rex (0.007) ; quod (0.006) ; miles (0.006) ; Romanus (0.006) ; princeps (0.005) ; pars (0.005) ; 
+0.2879726739792478   T=0,K=1:  rex (0.008) ; facio (0.007) ; exercitus (0.007) ; princeps (0.007) ; se (0.007) ; omnis (0.007) ; bellum (0.007) ; hostis (0.006) ; Romanus (0.006) ; quod (0.006) ; 
+0.28182390230757043   T=0,K=2:  dux (0.020) ; rex (0.012) ; bellum (0.008) ; se (0.008) ; exercitus (0.007) ; facio (0.006) ; res (0.006) ; do (0.005) ; Romanus (0.005) ; multus (0.005) ; 
+0.1795732744930961   T=0,K=3:  exercitus (0.010) ; rex (0.010) ; omnis (0.009) ; bellum (0.008) ; se (0.007) ; quod (0.007) ; Romanus (0.006) ; dominus (0.006) ; princeps (0.006) ; dux (0.005) ; 
+
+Time=1  
+0.2463719524590703   T=1,K=0:  se (0.011) ; omnis (0.010) ; exercitus (0.009) ; bellum (0.007) ; quod (0.007) ; miles (0.006) ; rex (0.006) ; Romanus (0.006) ; princeps (0.005) ; pars (0.005) ; 
+0.2470125119563239   T=1,K=1:  rex (0.008) ; facio (0.008) ; princeps (0.007) ; se (0.007) ; omnis (0.007) ; exercitus (0.007) ; bellum (0.007) ; hostis (0.006) ; Romanus (0.006) ; quod (0.006) ; 
+0.2618427191143661   T=1,K=2:  dux (0.020) ; rex (0.011) ; bellum (0.009) ; se (0.008) ; exercitus (0.007) ; facio (0.006) ; res (0.006) ; Romanus (0.005) ; multus (0.005) ; do (0.005) ; 
+0.2447728164702398   T=1,K=3:  exercitus (0.010) ; rex (0.010) ; omnis (0.009) ; bellum (0.007) ; se (0.007) ; quod (0.007) ; Romanus (0.006) ; dominus (0.006) ; princeps (0.006) ; dux (0.005) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

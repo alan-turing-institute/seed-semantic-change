@@ -1,0 +1,40 @@
+696 documents , 1 concepts , 2807 context features (titulus) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.23334490601244434   T=0,K=0:  vel (0.016) ; se (0.010) ; res (0.009) ; nomen (0.008) ; tantus (0.007) ; alius (0.007) ; pars (0.006) ; noster (0.006) ; doceo (0.006) ; ago (0.006) ; 
+0.24458901092915916   T=1,K=0:  vel (0.015) ; se (0.010) ; res (0.009) ; nomen (0.008) ; alius (0.007) ; tantus (0.007) ; pars (0.006) ; noster (0.006) ; doceo (0.006) ; honor (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  vel (0.016) ; se (0.010) ; res (0.009) ; nomen (0.008) ; alius (0.007) ; tantus (0.007) ; pars (0.006) ; noster (0.006) ; doceo (0.006) ; ago (0.006) ; 
+
+0.10197371794220383   T=0,K=1:  vel (0.014) ; nomen (0.009) ; omnis (0.007) ; rex (0.006) ; se (0.006) ; nullus (0.006) ; cultus (0.006) ; officium (0.005) ; addo (0.005) ; laus (0.005) ; 
+0.2664518572498745   T=1,K=1:  vel (0.015) ; nomen (0.009) ; se (0.007) ; omnis (0.006) ; rex (0.006) ; nullus (0.006) ; cultus (0.006) ; officium (0.005) ; addo (0.005) ; laus (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  vel (0.015) ; nomen (0.009) ; se (0.007) ; omnis (0.007) ; rex (0.006) ; nullus (0.006) ; cultus (0.006) ; officium (0.005) ; addo (0.005) ; laus (0.005) ; 
+
+0.2512905753464093   T=0,K=2:  vel (0.012) ; quod (0.012) ; pertineo (0.010) ; dico#2 (0.009) ; se (0.008) ; alius (0.008) ; tuus (0.008) ; res (0.008) ; omnis (0.007) ; cardinalis (0.006) ; 
+0.22523639944857285   T=1,K=2:  vel (0.012) ; quod (0.011) ; pertineo (0.010) ; dico#2 (0.009) ; se (0.009) ; res (0.008) ; alius (0.008) ; tuus (0.008) ; omnis (0.007) ; cardinalis (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  vel (0.012) ; quod (0.012) ; pertineo (0.010) ; dico#2 (0.009) ; se (0.009) ; alius (0.008) ; res (0.008) ; tuus (0.008) ; omnis (0.007) ; cardinalis (0.006) ; 
+
+0.4133908006989425   T=0,K=3:  vel (0.019) ; alius (0.012) ; quod (0.010) ; tantus (0.010) ; se (0.010) ; gratia (0.006) ; [ (0.006) ; clarus (0.006) ; omnis (0.006) ; iter (0.005) ; 
+0.26372273237239346   T=1,K=3:  vel (0.019) ; alius (0.011) ; quod (0.010) ; tantus (0.010) ; se (0.009) ; gratia (0.006) ; [ (0.006) ; iter (0.005) ; clarus (0.005) ; omnis (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  vel (0.019) ; alius (0.012) ; quod (0.010) ; tantus (0.010) ; se (0.009) ; gratia (0.006) ; [ (0.006) ; clarus (0.006) ; iter (0.005) ; omnis (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.23334490601244434   T=0,K=0:  vel (0.016) ; se (0.010) ; res (0.009) ; nomen (0.008) ; tantus (0.007) ; alius (0.007) ; pars (0.006) ; noster (0.006) ; doceo (0.006) ; ago (0.006) ; 
+0.10197371794220383   T=0,K=1:  vel (0.014) ; nomen (0.009) ; omnis (0.007) ; rex (0.006) ; se (0.006) ; nullus (0.006) ; cultus (0.006) ; officium (0.005) ; addo (0.005) ; laus (0.005) ; 
+0.2512905753464093   T=0,K=2:  vel (0.012) ; quod (0.012) ; pertineo (0.010) ; dico#2 (0.009) ; se (0.008) ; alius (0.008) ; tuus (0.008) ; res (0.008) ; omnis (0.007) ; cardinalis (0.006) ; 
+0.4133908006989425   T=0,K=3:  vel (0.019) ; alius (0.012) ; quod (0.010) ; tantus (0.010) ; se (0.010) ; gratia (0.006) ; [ (0.006) ; clarus (0.006) ; omnis (0.006) ; iter (0.005) ; 
+
+Time=1  
+0.24458901092915916   T=1,K=0:  vel (0.015) ; se (0.010) ; res (0.009) ; nomen (0.008) ; alius (0.007) ; tantus (0.007) ; pars (0.006) ; noster (0.006) ; doceo (0.006) ; honor (0.006) ; 
+0.2664518572498745   T=1,K=1:  vel (0.015) ; nomen (0.009) ; se (0.007) ; omnis (0.006) ; rex (0.006) ; nullus (0.006) ; cultus (0.006) ; officium (0.005) ; addo (0.005) ; laus (0.005) ; 
+0.22523639944857285   T=1,K=2:  vel (0.012) ; quod (0.011) ; pertineo (0.010) ; dico#2 (0.009) ; se (0.009) ; res (0.008) ; alius (0.008) ; tuus (0.008) ; omnis (0.007) ; cardinalis (0.006) ; 
+0.26372273237239346   T=1,K=3:  vel (0.019) ; alius (0.011) ; quod (0.010) ; tantus (0.010) ; se (0.009) ; gratia (0.006) ; [ (0.006) ; iter (0.005) ; clarus (0.005) ; omnis (0.005) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

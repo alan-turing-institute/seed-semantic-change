@@ -1,0 +1,40 @@
+115 documents , 1 concepts , 766 context features (itero) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.03513127618908451   T=0,K=0:  concilio (0.032) ; redintegro (0.025) ; dubito (0.021) ; certus (0.020) ; ferinus (0.018) ; senesque (0.016) ; ursus (0.016) ; nequam (0.015) ; repeto (0.015) ; verbum (0.015) ; 
+0.22379924268879756   T=1,K=0:  concilio (0.032) ; redintegro (0.025) ; dubito (0.022) ; certus (0.020) ; ferinus (0.018) ; senesque (0.016) ; ursus (0.016) ; nequam (0.015) ; durus (0.014) ; verbum (0.014) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  concilio (0.032) ; redintegro (0.025) ; dubito (0.022) ; certus (0.020) ; ferinus (0.018) ; senesque (0.016) ; ursus (0.016) ; nequam (0.015) ; repeto (0.014) ; verbum (0.014) ; 
+
+0.17799892330220415   T=0,K=1:  primus (0.022) ; semel (0.022) ; simplicitas (0.016) ; neu (0.014) ; depono (0.013) ; novus (0.013) ; se (0.012) ; convalesco (0.012) ; nutus (0.012) ; rapio (0.012) ; 
+0.28415449557047967   T=1,K=1:  semel (0.022) ; primus (0.021) ; simplicitas (0.016) ; depono (0.013) ; neu (0.013) ; novus (0.012) ; convalesco (0.012) ; se (0.012) ; nutus (0.012) ; pax (0.011) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  semel (0.022) ; primus (0.021) ; simplicitas (0.016) ; neu (0.014) ; depono (0.013) ; novus (0.012) ; se (0.012) ; convalesco (0.012) ; nutus (0.012) ; rapio (0.011) ; 
+
+0.13409701531610357   T=0,K=2:  solus (0.023) ; bellum (0.019) ; contingo (0.017) ; cedo (0.017) ; infamia (0.017) ; modulamine (0.016) ; consilium (0.016) ; saepe (0.016) ; locus (0.014) ; se (0.014) ; 
+0.3207795734381543   T=1,K=2:  solus (0.023) ; bellum (0.021) ; infamia (0.017) ; contingo (0.017) ; consilium (0.016) ; modulamine (0.016) ; cedo (0.015) ; saepe (0.015) ; locus (0.014) ; mater (0.014) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  solus (0.023) ; bellum (0.020) ; contingo (0.017) ; infamia (0.017) ; cedo (0.016) ; modulamine (0.016) ; consilium (0.016) ; saepe (0.015) ; locus (0.014) ; mater (0.014) ; 
+
+0.6527727851926078   T=0,K=3:  dico#2 (0.027) ; ] (0.024) ; tuus (0.020) ; oratio (0.020) ; pondus (0.020) ; saepis (0.017) ; reus (0.017) ; verbum (0.016) ; extremus (0.016) ; bonus (0.015) ; 
+0.17126668830256853   T=1,K=3:  dico#2 (0.028) ; ] (0.023) ; pondus (0.020) ; tuus (0.020) ; oratio (0.019) ; saepis (0.017) ; reus (0.016) ; verbum (0.016) ; extremus (0.016) ; bonus (0.015) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  dico#2 (0.027) ; ] (0.024) ; tuus (0.020) ; pondus (0.020) ; oratio (0.020) ; saepis (0.017) ; reus (0.016) ; verbum (0.016) ; extremus (0.016) ; bonus (0.015) ; 
+
+===============  per time  ===============
+Time=0  
+0.03513127618908451   T=0,K=0:  concilio (0.032) ; redintegro (0.025) ; dubito (0.021) ; certus (0.020) ; ferinus (0.018) ; senesque (0.016) ; ursus (0.016) ; nequam (0.015) ; repeto (0.015) ; verbum (0.015) ; 
+0.17799892330220415   T=0,K=1:  primus (0.022) ; semel (0.022) ; simplicitas (0.016) ; neu (0.014) ; depono (0.013) ; novus (0.013) ; se (0.012) ; convalesco (0.012) ; nutus (0.012) ; rapio (0.012) ; 
+0.13409701531610357   T=0,K=2:  solus (0.023) ; bellum (0.019) ; contingo (0.017) ; cedo (0.017) ; infamia (0.017) ; modulamine (0.016) ; consilium (0.016) ; saepe (0.016) ; locus (0.014) ; se (0.014) ; 
+0.6527727851926078   T=0,K=3:  dico#2 (0.027) ; ] (0.024) ; tuus (0.020) ; oratio (0.020) ; pondus (0.020) ; saepis (0.017) ; reus (0.017) ; verbum (0.016) ; extremus (0.016) ; bonus (0.015) ; 
+
+Time=1  
+0.22379924268879756   T=1,K=0:  concilio (0.032) ; redintegro (0.025) ; dubito (0.022) ; certus (0.020) ; ferinus (0.018) ; senesque (0.016) ; ursus (0.016) ; nequam (0.015) ; durus (0.014) ; verbum (0.014) ; 
+0.28415449557047967   T=1,K=1:  semel (0.022) ; primus (0.021) ; simplicitas (0.016) ; depono (0.013) ; neu (0.013) ; novus (0.012) ; convalesco (0.012) ; se (0.012) ; nutus (0.012) ; pax (0.011) ; 
+0.3207795734381543   T=1,K=2:  solus (0.023) ; bellum (0.021) ; infamia (0.017) ; contingo (0.017) ; consilium (0.016) ; modulamine (0.016) ; cedo (0.015) ; saepe (0.015) ; locus (0.014) ; mater (0.014) ; 
+0.17126668830256853   T=1,K=3:  dico#2 (0.028) ; ] (0.023) ; pondus (0.020) ; tuus (0.020) ; oratio (0.019) ; saepis (0.017) ; reus (0.016) ; verbum (0.016) ; extremus (0.016) ; bonus (0.015) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

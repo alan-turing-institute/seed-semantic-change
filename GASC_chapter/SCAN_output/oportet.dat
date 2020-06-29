@@ -1,0 +1,40 @@
+1728 documents , 1 concepts , 4749 context features (oportet) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.2564431090190827   T=0,K=0:  quod (0.016) ; dico#2 (0.015) ; omnis (0.012) ; multus (0.010) ; vel (0.009) ; homo (0.009) ; habeo (0.007) ; tempus (0.007) ; facio (0.007) ; locus (0.007) ; 
+0.2547416460836081   T=1,K=0:  quod (0.016) ; dico#2 (0.016) ; omnis (0.011) ; multus (0.010) ; vel (0.009) ; homo (0.009) ; habeo (0.008) ; facio (0.007) ; tempus (0.007) ; locus (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  quod (0.016) ; dico#2 (0.015) ; omnis (0.012) ; multus (0.010) ; vel (0.009) ; homo (0.009) ; habeo (0.007) ; facio (0.007) ; tempus (0.007) ; locus (0.007) ; 
+
+0.20704552252436204   T=0,K=1:  quod (0.023) ; dico#2 (0.017) ; facio (0.011) ; omnis (0.011) ; habeo (0.009) ; alius (0.009) ; vel (0.007) ; tempus (0.007) ; multus (0.007) ; deus (0.006) ; 
+0.24713153061479295   T=1,K=1:  quod (0.023) ; dico#2 (0.017) ; facio (0.012) ; omnis (0.011) ; habeo (0.009) ; alius (0.009) ; vel (0.008) ; tempus (0.008) ; multus (0.007) ; deus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  quod (0.023) ; dico#2 (0.017) ; facio (0.011) ; omnis (0.011) ; habeo (0.009) ; alius (0.009) ; vel (0.008) ; tempus (0.007) ; multus (0.007) ; deus (0.006) ; 
+
+0.2960941645769361   T=0,K=2:  quod (0.018) ; dico#2 (0.014) ; res (0.013) ; vel (0.010) ; facio (0.009) ; multus (0.008) ; primus (0.008) ; do (0.008) ; oportet (0.007) ; causa (0.007) ; 
+0.2537746137679345   T=1,K=2:  quod (0.018) ; dico#2 (0.015) ; res (0.013) ; vel (0.011) ; facio (0.009) ; primus (0.008) ; multus (0.008) ; do (0.007) ; causa (0.007) ; omnis (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  quod (0.018) ; dico#2 (0.014) ; res (0.013) ; vel (0.011) ; facio (0.009) ; primus (0.008) ; multus (0.008) ; do (0.008) ; causa (0.007) ; oportet (0.007) ; 
+
+0.24041720387961918   T=0,K=3:  quod (0.013) ; dico#2 (0.012) ; omnis (0.011) ; vel (0.009) ; oportet (0.009) ; facio (0.009) ; habeo (0.007) ; genus (0.006) ; alius (0.006) ; pactus (0.005) ; 
+0.24435220953366454   T=1,K=3:  quod (0.014) ; dico#2 (0.013) ; omnis (0.011) ; vel (0.009) ; oportet (0.009) ; facio (0.009) ; habeo (0.007) ; genus (0.006) ; alius (0.006) ; se (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  quod (0.013) ; dico#2 (0.013) ; omnis (0.011) ; vel (0.009) ; oportet (0.009) ; facio (0.009) ; habeo (0.007) ; genus (0.006) ; alius (0.006) ; pactus (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.2564431090190827   T=0,K=0:  quod (0.016) ; dico#2 (0.015) ; omnis (0.012) ; multus (0.010) ; vel (0.009) ; homo (0.009) ; habeo (0.007) ; tempus (0.007) ; facio (0.007) ; locus (0.007) ; 
+0.20704552252436204   T=0,K=1:  quod (0.023) ; dico#2 (0.017) ; facio (0.011) ; omnis (0.011) ; habeo (0.009) ; alius (0.009) ; vel (0.007) ; tempus (0.007) ; multus (0.007) ; deus (0.006) ; 
+0.2960941645769361   T=0,K=2:  quod (0.018) ; dico#2 (0.014) ; res (0.013) ; vel (0.010) ; facio (0.009) ; multus (0.008) ; primus (0.008) ; do (0.008) ; oportet (0.007) ; causa (0.007) ; 
+0.24041720387961918   T=0,K=3:  quod (0.013) ; dico#2 (0.012) ; omnis (0.011) ; vel (0.009) ; oportet (0.009) ; facio (0.009) ; habeo (0.007) ; genus (0.006) ; alius (0.006) ; pactus (0.005) ; 
+
+Time=1  
+0.2547416460836081   T=1,K=0:  quod (0.016) ; dico#2 (0.016) ; omnis (0.011) ; multus (0.010) ; vel (0.009) ; homo (0.009) ; habeo (0.008) ; facio (0.007) ; tempus (0.007) ; locus (0.007) ; 
+0.24713153061479295   T=1,K=1:  quod (0.023) ; dico#2 (0.017) ; facio (0.012) ; omnis (0.011) ; habeo (0.009) ; alius (0.009) ; vel (0.008) ; tempus (0.008) ; multus (0.007) ; deus (0.006) ; 
+0.2537746137679345   T=1,K=2:  quod (0.018) ; dico#2 (0.015) ; res (0.013) ; vel (0.011) ; facio (0.009) ; primus (0.008) ; multus (0.008) ; do (0.007) ; causa (0.007) ; omnis (0.007) ; 
+0.24435220953366454   T=1,K=3:  quod (0.014) ; dico#2 (0.013) ; omnis (0.011) ; vel (0.009) ; oportet (0.009) ; facio (0.009) ; habeo (0.007) ; genus (0.006) ; alius (0.006) ; se (0.005) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

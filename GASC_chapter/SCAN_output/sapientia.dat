@@ -1,0 +1,40 @@
+1365 documents , 1 concepts , 3398 context features (sapientia) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.5877134662935659   T=0,K=0:  omnis (0.017) ; deus (0.015) ; res (0.013) ; scientia (0.009) ; spiritus (0.009) ; do (0.009) ; quod (0.008) ; tuus (0.008) ; virtus (0.008) ; se (0.008) ; 
+0.21731570918758802   T=1,K=0:  omnis (0.018) ; deus (0.015) ; res (0.013) ; spiritus (0.009) ; scientia (0.009) ; do (0.009) ; quod (0.008) ; tuus (0.008) ; virtus (0.008) ; se (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  omnis (0.018) ; deus (0.015) ; res (0.013) ; spiritus (0.009) ; scientia (0.009) ; do (0.009) ; quod (0.008) ; tuus (0.008) ; virtus (0.008) ; se (0.008) ; 
+
+0.08386211267519435   T=0,K=1:  potentia (0.031) ; deus (0.030) ; dico#2 (0.029) ; sapientia (0.022) ; filius (0.018) ; pater (0.017) ; spiritus (0.015) ; quidam (0.013) ; omnis (0.012) ; quod (0.010) ; 
+0.3092156228293047   T=1,K=1:  potentia (0.032) ; deus (0.029) ; dico#2 (0.028) ; sapientia (0.022) ; filius (0.017) ; pater (0.016) ; spiritus (0.015) ; quidam (0.013) ; omnis (0.011) ; sanctus (0.009) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  potentia (0.031) ; deus (0.029) ; dico#2 (0.029) ; sapientia (0.022) ; filius (0.018) ; pater (0.016) ; spiritus (0.015) ; quidam (0.013) ; omnis (0.012) ; quod (0.009) ; 
+
+0.1095343019771898   T=0,K=2:  deus (0.030) ; omnis (0.026) ; tuus (0.013) ; homo (0.012) ; do (0.010) ; dico#2 (0.010) ; scientia (0.010) ; sapientia (0.009) ; facio (0.009) ; cor (0.008) ; 
+0.24244730497591688   T=1,K=2:  deus (0.030) ; omnis (0.025) ; tuus (0.014) ; homo (0.012) ; dico#2 (0.010) ; do (0.010) ; scientia (0.010) ; sapientia (0.009) ; facio (0.009) ; cor (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  deus (0.030) ; omnis (0.025) ; tuus (0.013) ; homo (0.012) ; do (0.010) ; dico#2 (0.010) ; scientia (0.010) ; sapientia (0.009) ; facio (0.009) ; cor (0.008) ; 
+
+0.21889011905405   T=0,K=3:  deus (0.023) ; quod (0.016) ; dico#2 (0.012) ; potentia (0.012) ; omnis (0.010) ; filius (0.010) ; pater (0.009) ; sicut (0.008) ; facio (0.008) ; habeo (0.008) ; 
+0.23102136300719034   T=1,K=3:  deus (0.022) ; quod (0.017) ; potentia (0.013) ; dico#2 (0.013) ; omnis (0.011) ; filius (0.010) ; pater (0.010) ; sicut (0.008) ; spiritus (0.008) ; facio (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  deus (0.023) ; quod (0.016) ; potentia (0.013) ; dico#2 (0.013) ; omnis (0.010) ; filius (0.010) ; pater (0.009) ; sicut (0.008) ; facio (0.008) ; spiritus (0.008) ; 
+
+===============  per time  ===============
+Time=0  
+0.5877134662935659   T=0,K=0:  omnis (0.017) ; deus (0.015) ; res (0.013) ; scientia (0.009) ; spiritus (0.009) ; do (0.009) ; quod (0.008) ; tuus (0.008) ; virtus (0.008) ; se (0.008) ; 
+0.08386211267519435   T=0,K=1:  potentia (0.031) ; deus (0.030) ; dico#2 (0.029) ; sapientia (0.022) ; filius (0.018) ; pater (0.017) ; spiritus (0.015) ; quidam (0.013) ; omnis (0.012) ; quod (0.010) ; 
+0.1095343019771898   T=0,K=2:  deus (0.030) ; omnis (0.026) ; tuus (0.013) ; homo (0.012) ; do (0.010) ; dico#2 (0.010) ; scientia (0.010) ; sapientia (0.009) ; facio (0.009) ; cor (0.008) ; 
+0.21889011905405   T=0,K=3:  deus (0.023) ; quod (0.016) ; dico#2 (0.012) ; potentia (0.012) ; omnis (0.010) ; filius (0.010) ; pater (0.009) ; sicut (0.008) ; facio (0.008) ; habeo (0.008) ; 
+
+Time=1  
+0.21731570918758802   T=1,K=0:  omnis (0.018) ; deus (0.015) ; res (0.013) ; spiritus (0.009) ; scientia (0.009) ; do (0.009) ; quod (0.008) ; tuus (0.008) ; virtus (0.008) ; se (0.008) ; 
+0.3092156228293047   T=1,K=1:  potentia (0.032) ; deus (0.029) ; dico#2 (0.028) ; sapientia (0.022) ; filius (0.017) ; pater (0.016) ; spiritus (0.015) ; quidam (0.013) ; omnis (0.011) ; sanctus (0.009) ; 
+0.24244730497591688   T=1,K=2:  deus (0.030) ; omnis (0.025) ; tuus (0.014) ; homo (0.012) ; dico#2 (0.010) ; do (0.010) ; scientia (0.010) ; sapientia (0.009) ; facio (0.009) ; cor (0.008) ; 
+0.23102136300719034   T=1,K=3:  deus (0.022) ; quod (0.017) ; potentia (0.013) ; dico#2 (0.013) ; omnis (0.011) ; filius (0.010) ; pater (0.010) ; sicut (0.008) ; spiritus (0.008) ; facio (0.008) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

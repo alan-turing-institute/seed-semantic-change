@@ -1,0 +1,40 @@
+2727 documents , 1 concepts , 6657 context features (consilium) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.16642968404563155   T=0,K=0:  se (0.009) ; vel (0.009) ; quod (0.009) ; omnis (0.008) ; habeo (0.008) ; facio (0.007) ; res (0.007) ; superus (0.006) ; do (0.005) ; magnus (0.005) ; 
+0.2707622752216731   T=1,K=0:  se (0.010) ; vel (0.009) ; quod (0.009) ; omnis (0.008) ; habeo (0.008) ; facio (0.008) ; res (0.007) ; do (0.006) ; superus (0.006) ; noster (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  se (0.010) ; vel (0.009) ; quod (0.009) ; omnis (0.008) ; habeo (0.008) ; facio (0.008) ; res (0.007) ; superus (0.006) ; do (0.006) ; noster (0.005) ; 
+
+0.21363808407839419   T=0,K=1:  se (0.013) ; omnis (0.010) ; res (0.009) ; quod (0.008) ; facio (0.007) ; consilium (0.006) ; meus (0.006) ; dico#2 (0.006) ; habeo (0.005) ; rego (0.005) ; 
+0.25057466525151456   T=1,K=1:  se (0.012) ; omnis (0.010) ; res (0.009) ; quod (0.008) ; facio (0.007) ; consilium (0.006) ; meus (0.006) ; dico#2 (0.005) ; habeo (0.005) ; rego (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  se (0.012) ; omnis (0.010) ; res (0.009) ; quod (0.008) ; facio (0.007) ; consilium (0.006) ; meus (0.006) ; dico#2 (0.006) ; habeo (0.005) ; rego (0.005) ; 
+
+0.34080523551286246   T=0,K=2:  res (0.016) ; omnis (0.012) ; se (0.011) ; quod (0.010) ; publicus (0.009) ; habeo (0.008) ; facio (0.007) ; capio (0.005) ; ago (0.005) ; dico#2 (0.005) ; 
+0.23199417510119105   T=1,K=2:  res (0.014) ; omnis (0.012) ; se (0.011) ; quod (0.010) ; publicus (0.009) ; habeo (0.008) ; facio (0.007) ; capio (0.005) ; rex (0.005) ; ago (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  res (0.015) ; omnis (0.012) ; se (0.011) ; quod (0.010) ; publicus (0.009) ; habeo (0.008) ; facio (0.007) ; capio (0.005) ; ago (0.005) ; dico#2 (0.005) ; 
+
+0.2791269963631118   T=0,K=3:  quod (0.011) ; habeo (0.010) ; facio (0.009) ; res (0.008) ; meus (0.008) ; se (0.007) ; omnis (0.007) ; princeps (0.007) ; alius (0.006) ; deus (0.006) ; 
+0.24666888442562127   T=1,K=3:  quod (0.011) ; habeo (0.010) ; facio (0.009) ; res (0.008) ; meus (0.008) ; omnis (0.007) ; se (0.007) ; princeps (0.006) ; alius (0.006) ; publicus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  quod (0.011) ; habeo (0.010) ; facio (0.009) ; res (0.008) ; meus (0.008) ; omnis (0.007) ; se (0.007) ; princeps (0.007) ; alius (0.006) ; publicus (0.006) ; 
+
+===============  per time  ===============
+Time=0  
+0.16642968404563155   T=0,K=0:  se (0.009) ; vel (0.009) ; quod (0.009) ; omnis (0.008) ; habeo (0.008) ; facio (0.007) ; res (0.007) ; superus (0.006) ; do (0.005) ; magnus (0.005) ; 
+0.21363808407839419   T=0,K=1:  se (0.013) ; omnis (0.010) ; res (0.009) ; quod (0.008) ; facio (0.007) ; consilium (0.006) ; meus (0.006) ; dico#2 (0.006) ; habeo (0.005) ; rego (0.005) ; 
+0.34080523551286246   T=0,K=2:  res (0.016) ; omnis (0.012) ; se (0.011) ; quod (0.010) ; publicus (0.009) ; habeo (0.008) ; facio (0.007) ; capio (0.005) ; ago (0.005) ; dico#2 (0.005) ; 
+0.2791269963631118   T=0,K=3:  quod (0.011) ; habeo (0.010) ; facio (0.009) ; res (0.008) ; meus (0.008) ; se (0.007) ; omnis (0.007) ; princeps (0.007) ; alius (0.006) ; deus (0.006) ; 
+
+Time=1  
+0.2707622752216731   T=1,K=0:  se (0.010) ; vel (0.009) ; quod (0.009) ; omnis (0.008) ; habeo (0.008) ; facio (0.008) ; res (0.007) ; do (0.006) ; superus (0.006) ; noster (0.005) ; 
+0.25057466525151456   T=1,K=1:  se (0.012) ; omnis (0.010) ; res (0.009) ; quod (0.008) ; facio (0.007) ; consilium (0.006) ; meus (0.006) ; dico#2 (0.005) ; habeo (0.005) ; rego (0.005) ; 
+0.23199417510119105   T=1,K=2:  res (0.014) ; omnis (0.012) ; se (0.011) ; quod (0.010) ; publicus (0.009) ; habeo (0.008) ; facio (0.007) ; capio (0.005) ; rex (0.005) ; ago (0.005) ; 
+0.24666888442562127   T=1,K=3:  quod (0.011) ; habeo (0.010) ; facio (0.009) ; res (0.008) ; meus (0.008) ; omnis (0.007) ; se (0.007) ; princeps (0.006) ; alius (0.006) ; publicus (0.006) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

@@ -1,0 +1,40 @@
+1535 documents , 1 concepts , 4243 context features (necessarius) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.30513744441995516   T=0,K=0:  omnis (0.015) ; dico#2 (0.012) ; res (0.011) ; quod (0.010) ; vel (0.009) ; multus (0.008) ; se (0.008) ; habeo (0.007) ; alius (0.007) ; homo (0.006) ; 
+0.27170183982458906   T=1,K=0:  omnis (0.017) ; dico#2 (0.012) ; res (0.011) ; quod (0.011) ; vel (0.009) ; multus (0.008) ; se (0.008) ; habeo (0.007) ; alius (0.007) ; homo (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  omnis (0.016) ; dico#2 (0.012) ; res (0.011) ; quod (0.010) ; vel (0.009) ; multus (0.008) ; se (0.008) ; habeo (0.007) ; alius (0.007) ; homo (0.006) ; 
+
+0.20374090953178248   T=0,K=1:  quod (0.021) ; vel (0.014) ; habeo (0.012) ; omnis (0.012) ; homo (0.010) ; res (0.010) ; se (0.008) ; alius (0.008) ; facio (0.008) ; dico#2 (0.007) ; 
+0.2586966277510151   T=1,K=1:  quod (0.020) ; vel (0.013) ; habeo (0.012) ; omnis (0.012) ; homo (0.010) ; res (0.010) ; se (0.008) ; alius (0.008) ; facio (0.008) ; vita (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  quod (0.021) ; vel (0.013) ; habeo (0.012) ; omnis (0.012) ; homo (0.010) ; res (0.010) ; se (0.008) ; alius (0.008) ; facio (0.008) ; dico#2 (0.007) ; 
+
+0.3706907749675505   T=0,K=2:  vel (0.017) ; causa (0.010) ; res (0.009) ; alius (0.008) ; quod (0.008) ; se (0.006) ; verus (0.005) ; multus (0.005) ; omnis (0.005) ; locus (0.005) ; 
+0.22757529399671247   T=1,K=2:  vel (0.017) ; causa (0.010) ; res (0.009) ; alius (0.008) ; quod (0.007) ; se (0.006) ; multus (0.005) ; verus (0.005) ; omnis (0.005) ; locus (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  vel (0.017) ; causa (0.010) ; res (0.009) ; alius (0.008) ; quod (0.007) ; se (0.006) ; multus (0.005) ; verus (0.005) ; omnis (0.005) ; locus (0.005) ; 
+
+0.12043087108071197   T=0,K=3:  quod (0.022) ; necessarius (0.014) ; multus (0.013) ; homo (0.012) ; omnis (0.011) ; alius (0.011) ; modus (0.007) ; probabilis (0.007) ; vel (0.006) ; video (0.006) ; 
+0.24202623842768342   T=1,K=3:  quod (0.021) ; multus (0.014) ; necessarius (0.013) ; homo (0.012) ; alius (0.012) ; omnis (0.011) ; probabilis (0.007) ; modus (0.007) ; vel (0.006) ; video (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  quod (0.021) ; multus (0.014) ; necessarius (0.013) ; homo (0.012) ; omnis (0.011) ; alius (0.011) ; probabilis (0.007) ; modus (0.007) ; vel (0.006) ; video (0.006) ; 
+
+===============  per time  ===============
+Time=0  
+0.30513744441995516   T=0,K=0:  omnis (0.015) ; dico#2 (0.012) ; res (0.011) ; quod (0.010) ; vel (0.009) ; multus (0.008) ; se (0.008) ; habeo (0.007) ; alius (0.007) ; homo (0.006) ; 
+0.20374090953178248   T=0,K=1:  quod (0.021) ; vel (0.014) ; habeo (0.012) ; omnis (0.012) ; homo (0.010) ; res (0.010) ; se (0.008) ; alius (0.008) ; facio (0.008) ; dico#2 (0.007) ; 
+0.3706907749675505   T=0,K=2:  vel (0.017) ; causa (0.010) ; res (0.009) ; alius (0.008) ; quod (0.008) ; se (0.006) ; verus (0.005) ; multus (0.005) ; omnis (0.005) ; locus (0.005) ; 
+0.12043087108071197   T=0,K=3:  quod (0.022) ; necessarius (0.014) ; multus (0.013) ; homo (0.012) ; omnis (0.011) ; alius (0.011) ; modus (0.007) ; probabilis (0.007) ; vel (0.006) ; video (0.006) ; 
+
+Time=1  
+0.27170183982458906   T=1,K=0:  omnis (0.017) ; dico#2 (0.012) ; res (0.011) ; quod (0.011) ; vel (0.009) ; multus (0.008) ; se (0.008) ; habeo (0.007) ; alius (0.007) ; homo (0.006) ; 
+0.2586966277510151   T=1,K=1:  quod (0.020) ; vel (0.013) ; habeo (0.012) ; omnis (0.012) ; homo (0.010) ; res (0.010) ; se (0.008) ; alius (0.008) ; facio (0.008) ; vita (0.007) ; 
+0.22757529399671247   T=1,K=2:  vel (0.017) ; causa (0.010) ; res (0.009) ; alius (0.008) ; quod (0.007) ; se (0.006) ; multus (0.005) ; verus (0.005) ; omnis (0.005) ; locus (0.005) ; 
+0.24202623842768342   T=1,K=3:  quod (0.021) ; multus (0.014) ; necessarius (0.013) ; homo (0.012) ; alius (0.012) ; omnis (0.011) ; probabilis (0.007) ; modus (0.007) ; vel (0.006) ; video (0.006) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

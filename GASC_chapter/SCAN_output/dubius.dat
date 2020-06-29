@@ -1,0 +1,40 @@
+1020 documents , 1 concepts , 3703 context features (dubius) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.3430279959307972   T=0,K=0:  res (0.014) ; quod (0.013) ; se (0.011) ; procul (0.011) ; sine (0.010) ; omnis (0.010) ; facio (0.008) ; fides (0.006) ; quin (0.006) ; vis (0.006) ; 
+0.22567256061215266   T=1,K=0:  res (0.014) ; quod (0.013) ; se (0.012) ; procul (0.011) ; sine (0.011) ; omnis (0.010) ; facio (0.008) ; fides (0.007) ; vis (0.006) ; quin (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  res (0.014) ; quod (0.013) ; se (0.011) ; procul (0.011) ; sine (0.011) ; omnis (0.010) ; facio (0.008) ; fides (0.007) ; quin (0.006) ; vis (0.006) ; 
+
+0.19703719216394847   T=0,K=1:  omnis (0.012) ; sine (0.012) ; procul (0.011) ; quod (0.010) ; quin (0.009) ; ecclesia (0.008) ; res (0.008) ; facio (0.007) ; certus (0.006) ; tempus (0.005) ; 
+0.27128094287022164   T=1,K=1:  omnis (0.013) ; sine (0.012) ; procul (0.011) ; quod (0.010) ; quin (0.009) ; ecclesia (0.008) ; res (0.008) ; facio (0.007) ; tempus (0.006) ; certus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  omnis (0.013) ; sine (0.012) ; procul (0.011) ; quod (0.010) ; quin (0.009) ; ecclesia (0.008) ; res (0.008) ; facio (0.007) ; certus (0.006) ; tempus (0.006) ; 
+
+0.2344104031289984   T=0,K=2:  res (0.016) ; sine (0.012) ; quod (0.012) ; procul (0.012) ; omnis (0.010) ; alius (0.010) ; se (0.009) ; vel (0.008) ; causa (0.007) ; do (0.007) ; 
+0.24127263038196795   T=1,K=2:  res (0.016) ; sine (0.012) ; quod (0.012) ; procul (0.011) ; omnis (0.010) ; alius (0.010) ; se (0.009) ; vel (0.008) ; do (0.007) ; causa (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  res (0.016) ; sine (0.012) ; quod (0.012) ; procul (0.011) ; omnis (0.010) ; alius (0.010) ; se (0.009) ; vel (0.008) ; do (0.007) ; causa (0.007) ; 
+
+0.22552440877625607   T=0,K=3:  se (0.015) ; sine (0.012) ; procul (0.010) ; quin (0.010) ; quod (0.009) ; res (0.009) ; facio (0.008) ; video (0.008) ; dico#2 (0.007) ; certus (0.007) ; 
+0.26177386613565784   T=1,K=3:  se (0.015) ; sine (0.012) ; quin (0.010) ; procul (0.010) ; res (0.009) ; quod (0.009) ; facio (0.008) ; video (0.008) ; dico#2 (0.007) ; omnis (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  se (0.015) ; sine (0.012) ; procul (0.010) ; quin (0.010) ; res (0.009) ; quod (0.009) ; facio (0.008) ; video (0.008) ; dico#2 (0.007) ; omnis (0.007) ; 
+
+===============  per time  ===============
+Time=0  
+0.3430279959307972   T=0,K=0:  res (0.014) ; quod (0.013) ; se (0.011) ; procul (0.011) ; sine (0.010) ; omnis (0.010) ; facio (0.008) ; fides (0.006) ; quin (0.006) ; vis (0.006) ; 
+0.19703719216394847   T=0,K=1:  omnis (0.012) ; sine (0.012) ; procul (0.011) ; quod (0.010) ; quin (0.009) ; ecclesia (0.008) ; res (0.008) ; facio (0.007) ; certus (0.006) ; tempus (0.005) ; 
+0.2344104031289984   T=0,K=2:  res (0.016) ; sine (0.012) ; quod (0.012) ; procul (0.012) ; omnis (0.010) ; alius (0.010) ; se (0.009) ; vel (0.008) ; causa (0.007) ; do (0.007) ; 
+0.22552440877625607   T=0,K=3:  se (0.015) ; sine (0.012) ; procul (0.010) ; quin (0.010) ; quod (0.009) ; res (0.009) ; facio (0.008) ; video (0.008) ; dico#2 (0.007) ; certus (0.007) ; 
+
+Time=1  
+0.22567256061215266   T=1,K=0:  res (0.014) ; quod (0.013) ; se (0.012) ; procul (0.011) ; sine (0.011) ; omnis (0.010) ; facio (0.008) ; fides (0.007) ; vis (0.006) ; quin (0.006) ; 
+0.27128094287022164   T=1,K=1:  omnis (0.013) ; sine (0.012) ; procul (0.011) ; quod (0.010) ; quin (0.009) ; ecclesia (0.008) ; res (0.008) ; facio (0.007) ; tempus (0.006) ; certus (0.006) ; 
+0.24127263038196795   T=1,K=2:  res (0.016) ; sine (0.012) ; quod (0.012) ; procul (0.011) ; omnis (0.010) ; alius (0.010) ; se (0.009) ; vel (0.008) ; do (0.007) ; causa (0.007) ; 
+0.26177386613565784   T=1,K=3:  se (0.015) ; sine (0.012) ; quin (0.010) ; procul (0.010) ; res (0.009) ; quod (0.009) ; facio (0.008) ; video (0.008) ; dico#2 (0.007) ; omnis (0.007) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

@@ -1,0 +1,40 @@
+324 documents , 1 concepts , 1673 context features (dolus) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.1266745660885884   T=0,K=0:  facio (0.014) ; cor (0.014) ; malus (0.013) ; os#1 (0.010) ; tuus (0.010) ; bonus (0.010) ; Transactione (0.010) ; mater (0.009) ; se (0.009) ; fides (0.009) ; 
+0.28495481768886677   T=1,K=0:  facio (0.014) ; malus (0.014) ; cor (0.013) ; os#1 (0.011) ; Transactione (0.010) ; bonus (0.010) ; tuus (0.010) ; mater (0.009) ; fides (0.009) ; se (0.009) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  facio (0.014) ; cor (0.013) ; malus (0.013) ; os#1 (0.010) ; Transactione (0.010) ; bonus (0.010) ; tuus (0.010) ; mater (0.009) ; fides (0.009) ; se (0.009) ; 
+
+0.28644970418271926   T=0,K=1:  malus (0.013) ; indignor (0.013) ; scelus (0.012) ; homo (0.012) ; persensit (0.010) ; iustus (0.010) ; Martisque (0.009) ; pecunia (0.009) ; verbum (0.009) ; se (0.009) ; 
+0.2592033805450012   T=1,K=1:  malus (0.014) ; indignor (0.013) ; scelus (0.012) ; homo (0.012) ; iustus (0.010) ; persensit (0.009) ; Martisque (0.009) ; se (0.009) ; pecunia (0.009) ; verbum (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  malus (0.013) ; indignor (0.013) ; scelus (0.012) ; homo (0.012) ; persensit (0.010) ; iustus (0.010) ; Martisque (0.009) ; pecunia (0.009) ; se (0.009) ; verbum (0.009) ; 
+
+0.3478297017449452   T=0,K=2:  omnis (0.026) ; culpa (0.020) ; dies (0.012) ; amitto (0.012) ; se (0.011) ; alius (0.010) ; malus (0.009) ; proprius (0.009) ; vis (0.008) ; magnus (0.008) ; 
+0.17851760501283026   T=1,K=2:  omnis (0.027) ; culpa (0.019) ; dies (0.012) ; amitto (0.012) ; se (0.011) ; alius (0.010) ; malus (0.009) ; proprius (0.008) ; vis (0.008) ; quod (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  omnis (0.026) ; culpa (0.019) ; dies (0.012) ; amitto (0.012) ; se (0.011) ; alius (0.010) ; malus (0.009) ; proprius (0.008) ; vis (0.008) ; magnus (0.008) ; 
+
+0.23904602798374713   T=0,K=3:  actio (0.013) ; struo (0.011) ; Opportuna (0.011) ; vel (0.010) ; circumvenio (0.009) ; do (0.009) ; ceruis (0.009) ; res (0.009) ; consilium (0.008) ; habeo (0.006) ; 
+0.27732419675330167   T=1,K=3:  actio (0.014) ; struo (0.011) ; Opportuna (0.011) ; vel (0.010) ; circumvenio (0.010) ; do (0.009) ; ceruis (0.009) ; res (0.009) ; consilium (0.008) ; quoque (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  actio (0.013) ; struo (0.011) ; Opportuna (0.011) ; vel (0.010) ; circumvenio (0.010) ; do (0.009) ; ceruis (0.009) ; res (0.009) ; consilium (0.008) ; quoque (0.006) ; 
+
+===============  per time  ===============
+Time=0  
+0.1266745660885884   T=0,K=0:  facio (0.014) ; cor (0.014) ; malus (0.013) ; os#1 (0.010) ; tuus (0.010) ; bonus (0.010) ; Transactione (0.010) ; mater (0.009) ; se (0.009) ; fides (0.009) ; 
+0.28644970418271926   T=0,K=1:  malus (0.013) ; indignor (0.013) ; scelus (0.012) ; homo (0.012) ; persensit (0.010) ; iustus (0.010) ; Martisque (0.009) ; pecunia (0.009) ; verbum (0.009) ; se (0.009) ; 
+0.3478297017449452   T=0,K=2:  omnis (0.026) ; culpa (0.020) ; dies (0.012) ; amitto (0.012) ; se (0.011) ; alius (0.010) ; malus (0.009) ; proprius (0.009) ; vis (0.008) ; magnus (0.008) ; 
+0.23904602798374713   T=0,K=3:  actio (0.013) ; struo (0.011) ; Opportuna (0.011) ; vel (0.010) ; circumvenio (0.009) ; do (0.009) ; ceruis (0.009) ; res (0.009) ; consilium (0.008) ; habeo (0.006) ; 
+
+Time=1  
+0.28495481768886677   T=1,K=0:  facio (0.014) ; malus (0.014) ; cor (0.013) ; os#1 (0.011) ; Transactione (0.010) ; bonus (0.010) ; tuus (0.010) ; mater (0.009) ; fides (0.009) ; se (0.009) ; 
+0.2592033805450012   T=1,K=1:  malus (0.014) ; indignor (0.013) ; scelus (0.012) ; homo (0.012) ; iustus (0.010) ; persensit (0.009) ; Martisque (0.009) ; se (0.009) ; pecunia (0.009) ; verbum (0.008) ; 
+0.17851760501283026   T=1,K=2:  omnis (0.027) ; culpa (0.019) ; dies (0.012) ; amitto (0.012) ; se (0.011) ; alius (0.010) ; malus (0.009) ; proprius (0.008) ; vis (0.008) ; quod (0.008) ; 
+0.27732419675330167   T=1,K=3:  actio (0.014) ; struo (0.011) ; Opportuna (0.011) ; vel (0.010) ; circumvenio (0.010) ; do (0.009) ; ceruis (0.009) ; res (0.009) ; consilium (0.008) ; quoque (0.007) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

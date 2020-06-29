@@ -1,0 +1,40 @@
+333 documents , 1 concepts , 1354 context features (ancilla) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.34181148644660025   T=0,K=0:  servus (0.039) ; tuus (0.029) ; meus (0.021) ; vel (0.017) ; vos (0.013) ; deus (0.013) ; humilitas (0.013) ; dominus (0.012) ; filius (0.010) ; rex (0.010) ; 
+0.26781326281725015   T=1,K=0:  servus (0.038) ; tuus (0.028) ; meus (0.022) ; vel (0.016) ; humilitas (0.014) ; vos (0.013) ; deus (0.013) ; dominus (0.012) ; filius (0.011) ; rex (0.011) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  servus (0.038) ; tuus (0.028) ; meus (0.021) ; vel (0.017) ; vos (0.013) ; humilitas (0.013) ; deus (0.013) ; dominus (0.012) ; filius (0.011) ; rex (0.010) ; 
+
+0.19994557205044095   T=0,K=1:  tuus (0.043) ; servus (0.028) ; dico#2 (0.024) ; filius (0.023) ; ancilla (0.017) ; tuuus (0.017) ; omnis (0.015) ; meus (0.015) ; sicut (0.015) ; dominus (0.014) ; 
+0.3109792227161174   T=1,K=1:  tuus (0.044) ; servus (0.027) ; dico#2 (0.024) ; filius (0.023) ; ancilla (0.017) ; tuuus (0.017) ; meus (0.015) ; omnis (0.015) ; facio (0.014) ; sicut (0.014) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  tuus (0.043) ; servus (0.027) ; dico#2 (0.024) ; filius (0.023) ; ancilla (0.017) ; tuuus (0.017) ; meus (0.015) ; omnis (0.015) ; sicut (0.015) ; facio (0.014) ; 
+
+0.20927545575082748   T=0,K=2:  tuus (0.022) ; servus (0.020) ; Sarra (0.018) ; duo (0.016) ; vel (0.014) ; dico#2 (0.013) ; parvus (0.012) ; domina (0.012) ; armentum (0.010) ; deus (0.009) ; 
+0.20928980168573283   T=1,K=2:  tuus (0.023) ; servus (0.020) ; Sarra (0.018) ; duo (0.016) ; vel (0.014) ; dico#2 (0.012) ; domina (0.012) ; parvus (0.012) ; armentum (0.010) ; deus (0.009) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  tuus (0.023) ; servus (0.020) ; Sarra (0.018) ; duo (0.016) ; vel (0.014) ; dico#2 (0.012) ; domina (0.012) ; parvus (0.012) ; armentum (0.010) ; deus (0.009) ; 
+
+0.24896748575213126   T=0,K=3:  meus (0.024) ; dico#2 (0.018) ; trecenti (0.017) ; tuus (0.015) ; omnis (0.014) ; pater (0.013) ; mille (0.012) ; dimitto (0.012) ; quod (0.012) ; filius (0.010) ; 
+0.2119177127808997   T=1,K=3:  meus (0.024) ; dico#2 (0.019) ; trecenti (0.017) ; tuus (0.016) ; omnis (0.014) ; pater (0.013) ; mille (0.013) ; quod (0.012) ; dimitto (0.011) ; manus (0.010) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  meus (0.024) ; dico#2 (0.018) ; trecenti (0.017) ; tuus (0.015) ; omnis (0.014) ; pater (0.013) ; mille (0.013) ; quod (0.012) ; dimitto (0.012) ; manus (0.010) ; 
+
+===============  per time  ===============
+Time=0  
+0.34181148644660025   T=0,K=0:  servus (0.039) ; tuus (0.029) ; meus (0.021) ; vel (0.017) ; vos (0.013) ; deus (0.013) ; humilitas (0.013) ; dominus (0.012) ; filius (0.010) ; rex (0.010) ; 
+0.19994557205044095   T=0,K=1:  tuus (0.043) ; servus (0.028) ; dico#2 (0.024) ; filius (0.023) ; ancilla (0.017) ; tuuus (0.017) ; omnis (0.015) ; meus (0.015) ; sicut (0.015) ; dominus (0.014) ; 
+0.20927545575082748   T=0,K=2:  tuus (0.022) ; servus (0.020) ; Sarra (0.018) ; duo (0.016) ; vel (0.014) ; dico#2 (0.013) ; parvus (0.012) ; domina (0.012) ; armentum (0.010) ; deus (0.009) ; 
+0.24896748575213126   T=0,K=3:  meus (0.024) ; dico#2 (0.018) ; trecenti (0.017) ; tuus (0.015) ; omnis (0.014) ; pater (0.013) ; mille (0.012) ; dimitto (0.012) ; quod (0.012) ; filius (0.010) ; 
+
+Time=1  
+0.26781326281725015   T=1,K=0:  servus (0.038) ; tuus (0.028) ; meus (0.022) ; vel (0.016) ; humilitas (0.014) ; vos (0.013) ; deus (0.013) ; dominus (0.012) ; filius (0.011) ; rex (0.011) ; 
+0.3109792227161174   T=1,K=1:  tuus (0.044) ; servus (0.027) ; dico#2 (0.024) ; filius (0.023) ; ancilla (0.017) ; tuuus (0.017) ; meus (0.015) ; omnis (0.015) ; facio (0.014) ; sicut (0.014) ; 
+0.20928980168573283   T=1,K=2:  tuus (0.023) ; servus (0.020) ; Sarra (0.018) ; duo (0.016) ; vel (0.014) ; dico#2 (0.012) ; domina (0.012) ; parvus (0.012) ; armentum (0.010) ; deus (0.009) ; 
+0.2119177127808997   T=1,K=3:  meus (0.024) ; dico#2 (0.019) ; trecenti (0.017) ; tuus (0.016) ; omnis (0.014) ; pater (0.013) ; mille (0.013) ; quod (0.012) ; dimitto (0.011) ; manus (0.010) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

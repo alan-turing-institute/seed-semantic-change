@@ -1,0 +1,40 @@
+860 documents , 1 concepts , 2854 context features (sacramentum) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.05502570324989331   T=0,K=0:  rex (0.013) ; celebratio (0.011) ; do (0.011) ; omnis (0.011) ; quod (0.010) ; nomen (0.008) ; deus (0.008) ; eucharistia (0.007) ; lex (0.007) ; ecclesia (0.007) ; 
+0.2353628964682837   T=1,K=0:  rex (0.012) ; omnis (0.012) ; celebratio (0.012) ; do (0.011) ; quod (0.010) ; nomen (0.008) ; deus (0.008) ; lex (0.008) ; ecclesia (0.007) ; eucharistia (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  rex (0.012) ; omnis (0.012) ; celebratio (0.012) ; do (0.011) ; quod (0.010) ; nomen (0.008) ; deus (0.008) ; lex (0.008) ; ecclesia (0.007) ; eucharistia (0.007) ; 
+
+0.4860564879168384   T=0,K=1:  deus (0.011) ; quod (0.010) ; omnis (0.009) ; debeo (0.009) ; ecclesia (0.009) ; vel (0.008) ; se (0.008) ; rex (0.007) ; cultus (0.007) ; locus (0.007) ; 
+0.2853937134892981   T=1,K=1:  deus (0.011) ; quod (0.010) ; omnis (0.010) ; debeo (0.009) ; vel (0.008) ; ecclesia (0.008) ; se (0.007) ; cultus (0.007) ; rex (0.007) ; locus (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  deus (0.011) ; quod (0.010) ; omnis (0.010) ; debeo (0.009) ; ecclesia (0.008) ; vel (0.008) ; se (0.007) ; rex (0.007) ; cultus (0.007) ; locus (0.007) ; 
+
+0.18387387217289283   T=0,K=2:  vel (0.016) ; disciplina (0.013) ; do (0.011) ; deus (0.010) ; se (0.009) ; ecclesia (0.009) ; omnis (0.009) ; congregatio (0.009) ; praesertim (0.009) ; fides (0.008) ; 
+0.25255452530442635   T=1,K=2:  vel (0.016) ; disciplina (0.013) ; do (0.011) ; deus (0.010) ; se (0.010) ; ecclesia (0.009) ; praesertim (0.009) ; congregatio (0.008) ; fides (0.008) ; omnis (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  vel (0.016) ; disciplina (0.013) ; do (0.011) ; deus (0.010) ; se (0.010) ; ecclesia (0.009) ; congregatio (0.009) ; praesertim (0.009) ; omnis (0.008) ; fides (0.008) ; 
+
+0.2750439366603754   T=0,K=3:  disciplina (0.012) ; cultus (0.010) ; divinum (0.009) ; vel (0.009) ; suscipio (0.009) ; congregatio (0.008) ; se (0.008) ; do (0.008) ; paenitentia (0.008) ; praesertim (0.007) ; 
+0.2266888647379918   T=1,K=3:  disciplina (0.011) ; cultus (0.010) ; divinum (0.009) ; se (0.009) ; suscipio (0.009) ; vel (0.008) ; congregatio (0.008) ; do (0.008) ; paenitentia (0.008) ; praesertim (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  disciplina (0.012) ; cultus (0.010) ; divinum (0.009) ; suscipio (0.009) ; vel (0.009) ; se (0.008) ; congregatio (0.008) ; do (0.008) ; paenitentia (0.008) ; praesertim (0.007) ; 
+
+===============  per time  ===============
+Time=0  
+0.05502570324989331   T=0,K=0:  rex (0.013) ; celebratio (0.011) ; do (0.011) ; omnis (0.011) ; quod (0.010) ; nomen (0.008) ; deus (0.008) ; eucharistia (0.007) ; lex (0.007) ; ecclesia (0.007) ; 
+0.4860564879168384   T=0,K=1:  deus (0.011) ; quod (0.010) ; omnis (0.009) ; debeo (0.009) ; ecclesia (0.009) ; vel (0.008) ; se (0.008) ; rex (0.007) ; cultus (0.007) ; locus (0.007) ; 
+0.18387387217289283   T=0,K=2:  vel (0.016) ; disciplina (0.013) ; do (0.011) ; deus (0.010) ; se (0.009) ; ecclesia (0.009) ; omnis (0.009) ; congregatio (0.009) ; praesertim (0.009) ; fides (0.008) ; 
+0.2750439366603754   T=0,K=3:  disciplina (0.012) ; cultus (0.010) ; divinum (0.009) ; vel (0.009) ; suscipio (0.009) ; congregatio (0.008) ; se (0.008) ; do (0.008) ; paenitentia (0.008) ; praesertim (0.007) ; 
+
+Time=1  
+0.2353628964682837   T=1,K=0:  rex (0.012) ; omnis (0.012) ; celebratio (0.012) ; do (0.011) ; quod (0.010) ; nomen (0.008) ; deus (0.008) ; lex (0.008) ; ecclesia (0.007) ; eucharistia (0.007) ; 
+0.2853937134892981   T=1,K=1:  deus (0.011) ; quod (0.010) ; omnis (0.010) ; debeo (0.009) ; vel (0.008) ; ecclesia (0.008) ; se (0.007) ; cultus (0.007) ; rex (0.007) ; locus (0.007) ; 
+0.25255452530442635   T=1,K=2:  vel (0.016) ; disciplina (0.013) ; do (0.011) ; deus (0.010) ; se (0.010) ; ecclesia (0.009) ; praesertim (0.009) ; congregatio (0.008) ; fides (0.008) ; omnis (0.008) ; 
+0.2266888647379918   T=1,K=3:  disciplina (0.011) ; cultus (0.010) ; divinum (0.009) ; se (0.009) ; suscipio (0.009) ; vel (0.008) ; congregatio (0.008) ; do (0.008) ; paenitentia (0.008) ; praesertim (0.007) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

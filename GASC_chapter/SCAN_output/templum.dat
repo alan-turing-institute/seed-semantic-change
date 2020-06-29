@@ -1,0 +1,40 @@
+1814 documents , 1 concepts , 5254 context features (templum) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.2650386986370069   T=0,K=0:  deus (0.014) ; dominus (0.013) ; quod (0.010) ; dico#2 (0.009) ; omnis (0.009) ; facio (0.007) ; rex (0.007) ; locus (0.006) ; sanctus (0.006) ; sacerdos (0.006) ; 
+0.2606699515345664   T=1,K=0:  deus (0.015) ; dominus (0.013) ; quod (0.010) ; dico#2 (0.009) ; omnis (0.009) ; facio (0.008) ; rex (0.007) ; locus (0.006) ; sacerdos (0.006) ; sanctus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  deus (0.015) ; dominus (0.013) ; quod (0.010) ; dico#2 (0.009) ; omnis (0.009) ; facio (0.007) ; rex (0.007) ; locus (0.006) ; sacerdos (0.006) ; sanctus (0.006) ; 
+
+0.2859544500429887   T=0,K=1:  deus (0.021) ; dominus (0.016) ; quod (0.011) ; facio (0.009) ; omnis (0.007) ; dico#2 (0.007) ; se (0.007) ; sanctus (0.006) ; alius (0.006) ; domus (0.006) ; 
+0.25637591196569387   T=1,K=1:  deus (0.020) ; dominus (0.016) ; quod (0.011) ; facio (0.009) ; omnis (0.007) ; se (0.007) ; dico#2 (0.007) ; alius (0.006) ; sanctus (0.005) ; domus (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  deus (0.021) ; dominus (0.016) ; quod (0.011) ; facio (0.009) ; omnis (0.007) ; dico#2 (0.007) ; se (0.007) ; alius (0.006) ; sanctus (0.006) ; domus (0.005) ; 
+
+0.21974714025804362   T=0,K=2:  deus (0.024) ; quod (0.013) ; dominus (0.012) ; dico#2 (0.011) ; templum (0.009) ; omnis (0.009) ; urbs (0.007) ; pono (0.006) ; locus (0.006) ; do (0.006) ; 
+0.2504625224499392   T=1,K=2:  deus (0.024) ; quod (0.013) ; dominus (0.012) ; dico#2 (0.011) ; templum (0.010) ; omnis (0.008) ; urbs (0.007) ; pono (0.006) ; do (0.006) ; locus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  deus (0.024) ; quod (0.013) ; dominus (0.012) ; dico#2 (0.011) ; templum (0.010) ; omnis (0.009) ; urbs (0.007) ; pono (0.006) ; do (0.006) ; locus (0.006) ; 
+
+0.22925971106196086   T=0,K=3:  deus (0.015) ; quod (0.013) ; templum (0.011) ; omnis (0.010) ; dominus (0.008) ; sacerdos (0.007) ; facio (0.006) ; dies (0.005) ; sanctus (0.005) ; tamquam (0.005) ; 
+0.23249161404980048   T=1,K=3:  deus (0.015) ; quod (0.012) ; templum (0.011) ; omnis (0.010) ; dominus (0.008) ; sacerdos (0.007) ; facio (0.006) ; sanctus (0.006) ; dies (0.005) ; tamquam (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  deus (0.015) ; quod (0.013) ; templum (0.011) ; omnis (0.010) ; dominus (0.008) ; sacerdos (0.007) ; facio (0.006) ; sanctus (0.005) ; dies (0.005) ; tamquam (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.2650386986370069   T=0,K=0:  deus (0.014) ; dominus (0.013) ; quod (0.010) ; dico#2 (0.009) ; omnis (0.009) ; facio (0.007) ; rex (0.007) ; locus (0.006) ; sanctus (0.006) ; sacerdos (0.006) ; 
+0.2859544500429887   T=0,K=1:  deus (0.021) ; dominus (0.016) ; quod (0.011) ; facio (0.009) ; omnis (0.007) ; dico#2 (0.007) ; se (0.007) ; sanctus (0.006) ; alius (0.006) ; domus (0.006) ; 
+0.21974714025804362   T=0,K=2:  deus (0.024) ; quod (0.013) ; dominus (0.012) ; dico#2 (0.011) ; templum (0.009) ; omnis (0.009) ; urbs (0.007) ; pono (0.006) ; locus (0.006) ; do (0.006) ; 
+0.22925971106196086   T=0,K=3:  deus (0.015) ; quod (0.013) ; templum (0.011) ; omnis (0.010) ; dominus (0.008) ; sacerdos (0.007) ; facio (0.006) ; dies (0.005) ; sanctus (0.005) ; tamquam (0.005) ; 
+
+Time=1  
+0.2606699515345664   T=1,K=0:  deus (0.015) ; dominus (0.013) ; quod (0.010) ; dico#2 (0.009) ; omnis (0.009) ; facio (0.008) ; rex (0.007) ; locus (0.006) ; sacerdos (0.006) ; sanctus (0.006) ; 
+0.25637591196569387   T=1,K=1:  deus (0.020) ; dominus (0.016) ; quod (0.011) ; facio (0.009) ; omnis (0.007) ; se (0.007) ; dico#2 (0.007) ; alius (0.006) ; sanctus (0.005) ; domus (0.005) ; 
+0.2504625224499392   T=1,K=2:  deus (0.024) ; quod (0.013) ; dominus (0.012) ; dico#2 (0.011) ; templum (0.010) ; omnis (0.008) ; urbs (0.007) ; pono (0.006) ; do (0.006) ; locus (0.006) ; 
+0.23249161404980048   T=1,K=3:  deus (0.015) ; quod (0.012) ; templum (0.011) ; omnis (0.010) ; dominus (0.008) ; sacerdos (0.007) ; facio (0.006) ; sanctus (0.006) ; dies (0.005) ; tamquam (0.005) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

@@ -1,0 +1,40 @@
+207 documents , 1 concepts , 1230 context features (acerbus) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.30527512593772843   T=0,K=0:  noster (0.026) ; gens (0.013) ; parvus (0.012) ; se (0.012) ; facio (0.012) ; fero (0.011) ; arbor (0.010) ; M. (0.010) ; magnus (0.010) ; vox (0.010) ; 
+0.24792231903838577   T=1,K=0:  noster (0.026) ; parvus (0.013) ; gens (0.013) ; se (0.013) ; facio (0.012) ; fero (0.011) ; arbor (0.010) ; M. (0.010) ; tuuus (0.010) ; vox (0.010) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  noster (0.026) ; parvus (0.013) ; gens (0.013) ; se (0.012) ; facio (0.012) ; fero (0.011) ; arbor (0.010) ; M. (0.010) ; vox (0.010) ; magnus (0.010) ; 
+
+0.21010078764891474   T=0,K=1:  quod (0.017) ; gloria (0.014) ; res (0.014) ; propinquus (0.013) ; miser (0.013) ; alius (0.012) ; dies (0.012) ; se (0.012) ; deus (0.011) ; cor (0.010) ; 
+0.29661451323002475   T=1,K=1:  quod (0.018) ; gloria (0.015) ; res (0.014) ; propinquus (0.014) ; alius (0.012) ; miser (0.012) ; dies (0.012) ; deus (0.011) ; se (0.011) ; cor (0.010) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  quod (0.018) ; gloria (0.014) ; res (0.014) ; propinquus (0.014) ; miser (0.012) ; alius (0.012) ; dies (0.012) ; se (0.012) ; deus (0.011) ; cor (0.010) ; 
+
+0.13603692834955255   T=0,K=2:  quod (0.024) ; reus (0.016) ; ira (0.015) ; nihil (0.015) ; animus (0.015) ; acer (0.014) ; se (0.013) ; inuro (0.012) ; genus (0.012) ; absum (0.011) ; 
+0.21110359977546223   T=1,K=2:  quod (0.024) ; reus (0.016) ; animus (0.016) ; nihil (0.015) ; ira (0.015) ; acer (0.014) ; se (0.013) ; inuro (0.012) ; genus (0.011) ; funus (0.011) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  quod (0.024) ; reus (0.016) ; animus (0.015) ; nihil (0.015) ; ira (0.015) ; acer (0.014) ; se (0.013) ; inuro (0.012) ; genus (0.012) ; absum (0.010) ; 
+
+0.3485871580638043   T=0,K=3:  quum (0.015) ; omnis (0.014) ; adeo#2 (0.012) ; noster (0.011) ; animus (0.011) ; nullus (0.011) ; mare (0.011) ; dico#2 (0.011) ; pars (0.010) ; acidus (0.010) ; 
+0.24435956795612726   T=1,K=3:  quum (0.016) ; omnis (0.014) ; adeo#2 (0.012) ; nullus (0.011) ; mare (0.011) ; noster (0.011) ; animus (0.011) ; dico#2 (0.010) ; pars (0.010) ; habeo (0.010) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  quum (0.016) ; omnis (0.014) ; adeo#2 (0.012) ; nullus (0.011) ; noster (0.011) ; animus (0.011) ; mare (0.011) ; dico#2 (0.010) ; pars (0.010) ; acidus (0.010) ; 
+
+===============  per time  ===============
+Time=0  
+0.30527512593772843   T=0,K=0:  noster (0.026) ; gens (0.013) ; parvus (0.012) ; se (0.012) ; facio (0.012) ; fero (0.011) ; arbor (0.010) ; M. (0.010) ; magnus (0.010) ; vox (0.010) ; 
+0.21010078764891474   T=0,K=1:  quod (0.017) ; gloria (0.014) ; res (0.014) ; propinquus (0.013) ; miser (0.013) ; alius (0.012) ; dies (0.012) ; se (0.012) ; deus (0.011) ; cor (0.010) ; 
+0.13603692834955255   T=0,K=2:  quod (0.024) ; reus (0.016) ; ira (0.015) ; nihil (0.015) ; animus (0.015) ; acer (0.014) ; se (0.013) ; inuro (0.012) ; genus (0.012) ; absum (0.011) ; 
+0.3485871580638043   T=0,K=3:  quum (0.015) ; omnis (0.014) ; adeo#2 (0.012) ; noster (0.011) ; animus (0.011) ; nullus (0.011) ; mare (0.011) ; dico#2 (0.011) ; pars (0.010) ; acidus (0.010) ; 
+
+Time=1  
+0.24792231903838577   T=1,K=0:  noster (0.026) ; parvus (0.013) ; gens (0.013) ; se (0.013) ; facio (0.012) ; fero (0.011) ; arbor (0.010) ; M. (0.010) ; tuuus (0.010) ; vox (0.010) ; 
+0.29661451323002475   T=1,K=1:  quod (0.018) ; gloria (0.015) ; res (0.014) ; propinquus (0.014) ; alius (0.012) ; miser (0.012) ; dies (0.012) ; deus (0.011) ; se (0.011) ; cor (0.010) ; 
+0.21110359977546223   T=1,K=2:  quod (0.024) ; reus (0.016) ; animus (0.016) ; nihil (0.015) ; ira (0.015) ; acer (0.014) ; se (0.013) ; inuro (0.012) ; genus (0.011) ; funus (0.011) ; 
+0.24435956795612726   T=1,K=3:  quum (0.016) ; omnis (0.014) ; adeo#2 (0.012) ; nullus (0.011) ; mare (0.011) ; noster (0.011) ; animus (0.011) ; dico#2 (0.010) ; pars (0.010) ; habeo (0.010) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

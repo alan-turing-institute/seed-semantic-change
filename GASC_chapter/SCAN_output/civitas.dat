@@ -1,0 +1,40 @@
+2794 documents , 1 concepts , 6755 context features (civitas) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.2488057733842302   T=0,K=0:  omnis (0.018) ; rex (0.011) ; vel (0.007) ; quod (0.007) ; se (0.007) ; alius (0.007) ; civitas (0.006) ; res (0.006) ; facio (0.006) ; dico#2 (0.006) ; 
+0.25384974418497513   T=1,K=0:  omnis (0.018) ; rex (0.011) ; vel (0.007) ; quod (0.007) ; se (0.007) ; alius (0.007) ; facio (0.006) ; civitas (0.006) ; res (0.006) ; dico#2 (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  omnis (0.018) ; rex (0.011) ; vel (0.007) ; quod (0.007) ; se (0.007) ; alius (0.007) ; facio (0.006) ; civitas (0.006) ; res (0.006) ; dico#2 (0.006) ; 
+
+0.19811227507991613   T=0,K=1:  omnis (0.011) ; civitas (0.010) ; dico#2 (0.010) ; quod (0.008) ; facio (0.008) ; dominus (0.007) ; se (0.007) ; rex (0.006) ; noster (0.006) ; vel (0.005) ; 
+0.24505829025784237   T=1,K=1:  dico#2 (0.010) ; omnis (0.010) ; civitas (0.010) ; facio (0.008) ; dominus (0.008) ; quod (0.007) ; se (0.007) ; rex (0.006) ; noster (0.006) ; vel (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  omnis (0.011) ; dico#2 (0.010) ; civitas (0.010) ; facio (0.008) ; quod (0.008) ; dominus (0.008) ; se (0.007) ; rex (0.006) ; noster (0.006) ; vel (0.005) ; 
+
+0.34199180672346413   T=0,K=2:  omnis (0.010) ; dico#2 (0.009) ; quod (0.009) ; se (0.007) ; civitas (0.007) ; publicus (0.007) ; multus (0.007) ; vel (0.007) ; noster (0.007) ; deus (0.006) ; 
+0.2608302868203854   T=1,K=2:  omnis (0.010) ; quod (0.009) ; dico#2 (0.009) ; vel (0.008) ; publicus (0.007) ; multus (0.007) ; civitas (0.007) ; se (0.007) ; noster (0.007) ; deus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  omnis (0.010) ; dico#2 (0.009) ; quod (0.009) ; publicus (0.007) ; se (0.007) ; vel (0.007) ; multus (0.007) ; civitas (0.007) ; noster (0.007) ; deus (0.006) ; 
+
+0.2110901448123896   T=0,K=3:  omnis (0.014) ; se (0.009) ; multus (0.009) ; vir (0.008) ; civitas (0.007) ; rex (0.006) ; magnus (0.006) ; universus (0.006) ; quod (0.005) ; dominus (0.005) ; 
+0.24026167873679713   T=1,K=3:  omnis (0.013) ; se (0.009) ; multus (0.009) ; vir (0.007) ; civitas (0.007) ; rex (0.006) ; magnus (0.006) ; universus (0.006) ; quod (0.005) ; dominus (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  omnis (0.014) ; se (0.009) ; multus (0.009) ; vir (0.008) ; civitas (0.007) ; rex (0.006) ; magnus (0.006) ; universus (0.006) ; quod (0.005) ; dominus (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.2488057733842302   T=0,K=0:  omnis (0.018) ; rex (0.011) ; vel (0.007) ; quod (0.007) ; se (0.007) ; alius (0.007) ; civitas (0.006) ; res (0.006) ; facio (0.006) ; dico#2 (0.006) ; 
+0.19811227507991613   T=0,K=1:  omnis (0.011) ; civitas (0.010) ; dico#2 (0.010) ; quod (0.008) ; facio (0.008) ; dominus (0.007) ; se (0.007) ; rex (0.006) ; noster (0.006) ; vel (0.005) ; 
+0.34199180672346413   T=0,K=2:  omnis (0.010) ; dico#2 (0.009) ; quod (0.009) ; se (0.007) ; civitas (0.007) ; publicus (0.007) ; multus (0.007) ; vel (0.007) ; noster (0.007) ; deus (0.006) ; 
+0.2110901448123896   T=0,K=3:  omnis (0.014) ; se (0.009) ; multus (0.009) ; vir (0.008) ; civitas (0.007) ; rex (0.006) ; magnus (0.006) ; universus (0.006) ; quod (0.005) ; dominus (0.005) ; 
+
+Time=1  
+0.25384974418497513   T=1,K=0:  omnis (0.018) ; rex (0.011) ; vel (0.007) ; quod (0.007) ; se (0.007) ; alius (0.007) ; facio (0.006) ; civitas (0.006) ; res (0.006) ; dico#2 (0.006) ; 
+0.24505829025784237   T=1,K=1:  dico#2 (0.010) ; omnis (0.010) ; civitas (0.010) ; facio (0.008) ; dominus (0.008) ; quod (0.007) ; se (0.007) ; rex (0.006) ; noster (0.006) ; vel (0.006) ; 
+0.2608302868203854   T=1,K=2:  omnis (0.010) ; quod (0.009) ; dico#2 (0.009) ; vel (0.008) ; publicus (0.007) ; multus (0.007) ; civitas (0.007) ; se (0.007) ; noster (0.007) ; deus (0.006) ; 
+0.24026167873679713   T=1,K=3:  omnis (0.013) ; se (0.009) ; multus (0.009) ; vir (0.007) ; civitas (0.007) ; rex (0.006) ; magnus (0.006) ; universus (0.006) ; quod (0.005) ; dominus (0.005) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

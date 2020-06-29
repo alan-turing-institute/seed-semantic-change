@@ -1,0 +1,40 @@
+660 documents , 1 concepts , 2789 context features (cohors) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.18365825351252235   T=0,K=0:  castrum (0.017) ; eques (0.010) ; duo (0.009) ; agmen (0.008) ; praetorius (0.008) ; cohors (0.007) ; omnis (0.007) ; aula (0.007) ; hostis (0.007) ; primus (0.006) ; 
+0.23997205273776873   T=1,K=0:  castrum (0.017) ; eques (0.010) ; duo (0.009) ; agmen (0.008) ; praetorius (0.008) ; omnis (0.007) ; cohors (0.007) ; hostis (0.007) ; aula (0.006) ; primus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  castrum (0.017) ; eques (0.010) ; duo (0.009) ; agmen (0.008) ; praetorius (0.008) ; cohors (0.007) ; omnis (0.007) ; hostis (0.007) ; aula (0.007) ; primus (0.006) ; 
+
+0.190147132938079   T=0,K=1:  praetorius (0.013) ; omnis (0.009) ; magnus (0.009) ; se (0.009) ; legio (0.009) ; primus (0.007) ; mitto (0.006) ; Romanus (0.006) ; universus (0.006) ; proximus (0.006) ; 
+0.23963616961062748   T=1,K=1:  praetorius (0.014) ; omnis (0.009) ; se (0.009) ; legio (0.009) ; magnus (0.008) ; primus (0.007) ; Romanus (0.007) ; proximus (0.006) ; mitto (0.006) ; universus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  praetorius (0.014) ; omnis (0.009) ; se (0.009) ; legio (0.009) ; magnus (0.009) ; primus (0.007) ; Romanus (0.006) ; mitto (0.006) ; proximus (0.006) ; universus (0.006) ; 
+
+0.43563710852010545   T=0,K=2:  legio (0.011) ; praesidium (0.011) ; hostis (0.010) ; castrum (0.010) ; eques (0.009) ; decem (0.009) ; signum (0.009) ; urbs (0.008) ; Romanus (0.008) ; impetus (0.006) ; 
+0.24084402520255324   T=1,K=2:  legio (0.012) ; hostis (0.011) ; praesidium (0.010) ; castrum (0.010) ; eques (0.009) ; decem (0.009) ; signum (0.009) ; urbs (0.008) ; Romanus (0.008) ; modus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  legio (0.011) ; praesidium (0.011) ; hostis (0.011) ; castrum (0.010) ; eques (0.009) ; decem (0.009) ; signum (0.009) ; urbs (0.008) ; Romanus (0.008) ; impetus (0.006) ; 
+
+0.1905575050292932   T=0,K=3:  legio (0.012) ; ala (0.010) ; bellum (0.009) ; exercitus (0.008) ; praetorius (0.008) ; singulus (0.007) ; se (0.007) ; vel (0.006) ; mitto (0.006) ; tendo (0.006) ; 
+0.2795477524490505   T=1,K=3:  legio (0.012) ; ala (0.010) ; praetorius (0.008) ; exercitus (0.008) ; bellum (0.008) ; singulus (0.007) ; se (0.007) ; vel (0.007) ; mitto (0.007) ; tendo (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  legio (0.012) ; ala (0.010) ; bellum (0.008) ; praetorius (0.008) ; exercitus (0.008) ; singulus (0.007) ; se (0.007) ; vel (0.007) ; mitto (0.006) ; tendo (0.006) ; 
+
+===============  per time  ===============
+Time=0  
+0.18365825351252235   T=0,K=0:  castrum (0.017) ; eques (0.010) ; duo (0.009) ; agmen (0.008) ; praetorius (0.008) ; cohors (0.007) ; omnis (0.007) ; aula (0.007) ; hostis (0.007) ; primus (0.006) ; 
+0.190147132938079   T=0,K=1:  praetorius (0.013) ; omnis (0.009) ; magnus (0.009) ; se (0.009) ; legio (0.009) ; primus (0.007) ; mitto (0.006) ; Romanus (0.006) ; universus (0.006) ; proximus (0.006) ; 
+0.43563710852010545   T=0,K=2:  legio (0.011) ; praesidium (0.011) ; hostis (0.010) ; castrum (0.010) ; eques (0.009) ; decem (0.009) ; signum (0.009) ; urbs (0.008) ; Romanus (0.008) ; impetus (0.006) ; 
+0.1905575050292932   T=0,K=3:  legio (0.012) ; ala (0.010) ; bellum (0.009) ; exercitus (0.008) ; praetorius (0.008) ; singulus (0.007) ; se (0.007) ; vel (0.006) ; mitto (0.006) ; tendo (0.006) ; 
+
+Time=1  
+0.23997205273776873   T=1,K=0:  castrum (0.017) ; eques (0.010) ; duo (0.009) ; agmen (0.008) ; praetorius (0.008) ; omnis (0.007) ; cohors (0.007) ; hostis (0.007) ; aula (0.006) ; primus (0.006) ; 
+0.23963616961062748   T=1,K=1:  praetorius (0.014) ; omnis (0.009) ; se (0.009) ; legio (0.009) ; magnus (0.008) ; primus (0.007) ; Romanus (0.007) ; proximus (0.006) ; mitto (0.006) ; universus (0.006) ; 
+0.24084402520255324   T=1,K=2:  legio (0.012) ; hostis (0.011) ; praesidium (0.010) ; castrum (0.010) ; eques (0.009) ; decem (0.009) ; signum (0.009) ; urbs (0.008) ; Romanus (0.008) ; modus (0.006) ; 
+0.2795477524490505   T=1,K=3:  legio (0.012) ; ala (0.010) ; praetorius (0.008) ; exercitus (0.008) ; bellum (0.008) ; singulus (0.007) ; se (0.007) ; vel (0.007) ; mitto (0.007) ; tendo (0.006) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

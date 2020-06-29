@@ -1,0 +1,40 @@
+2344 documents , 1 concepts , 6356 context features (regnum) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.2982031743198231   T=0,K=0:  rex (0.012) ; omnis (0.011) ; se (0.011) ; quod (0.008) ; tuus (0.008) ; deus (0.008) ; facio (0.008) ; regnum (0.007) ; filius (0.007) ; annus (0.007) ; 
+0.2908529857872619   T=1,K=0:  rex (0.013) ; omnis (0.012) ; se (0.011) ; quod (0.008) ; tuus (0.008) ; deus (0.008) ; filius (0.008) ; regnum (0.007) ; annus (0.007) ; facio (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  rex (0.013) ; omnis (0.011) ; se (0.011) ; quod (0.008) ; tuus (0.008) ; deus (0.008) ; filius (0.008) ; regnum (0.007) ; facio (0.007) ; annus (0.007) ; 
+
+0.2942326028112349   T=0,K=1:  rex (0.013) ; se (0.012) ; omnis (0.012) ; tuus (0.008) ; multus (0.006) ; meus (0.006) ; quod (0.006) ; regnum (0.005) ; annus (0.005) ; magnus (0.005) ; 
+0.2385513690292716   T=1,K=1:  rex (0.012) ; se (0.012) ; omnis (0.011) ; tuus (0.008) ; meus (0.006) ; multus (0.006) ; quod (0.006) ; frater (0.006) ; regnum (0.005) ; annus (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  rex (0.013) ; se (0.012) ; omnis (0.011) ; tuus (0.008) ; multus (0.006) ; meus (0.006) ; quod (0.006) ; regnum (0.005) ; frater (0.005) ; annus (0.005) ; 
+
+0.1723440859798917   T=0,K=2:  deus (0.017) ; rex (0.014) ; quod (0.010) ; omnis (0.009) ; se (0.008) ; do (0.006) ; dominus (0.006) ; regnum (0.006) ; filius (0.006) ; dico#2 (0.005) ; 
+0.23105867484889667   T=1,K=2:  deus (0.018) ; rex (0.014) ; quod (0.010) ; omnis (0.009) ; se (0.008) ; do (0.006) ; dominus (0.006) ; regnum (0.006) ; filius (0.006) ; dico#2 (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  deus (0.018) ; rex (0.014) ; quod (0.010) ; omnis (0.009) ; se (0.008) ; do (0.006) ; dominus (0.006) ; regnum (0.006) ; filius (0.006) ; dico#2 (0.006) ; 
+
+0.23522013688905016   T=0,K=3:  quod (0.010) ; se (0.010) ; dico#2 (0.010) ; omnis (0.010) ; rex (0.009) ; filius (0.009) ; deus (0.008) ; facio (0.008) ; annus (0.007) ; multus (0.005) ; 
+0.23953697033456997   T=1,K=3:  quod (0.011) ; omnis (0.010) ; se (0.010) ; dico#2 (0.009) ; rex (0.009) ; filius (0.009) ; deus (0.008) ; facio (0.008) ; annus (0.007) ; pars (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  quod (0.010) ; se (0.010) ; omnis (0.010) ; dico#2 (0.009) ; rex (0.009) ; filius (0.009) ; deus (0.008) ; facio (0.008) ; annus (0.007) ; multus (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.2982031743198231   T=0,K=0:  rex (0.012) ; omnis (0.011) ; se (0.011) ; quod (0.008) ; tuus (0.008) ; deus (0.008) ; facio (0.008) ; regnum (0.007) ; filius (0.007) ; annus (0.007) ; 
+0.2942326028112349   T=0,K=1:  rex (0.013) ; se (0.012) ; omnis (0.012) ; tuus (0.008) ; multus (0.006) ; meus (0.006) ; quod (0.006) ; regnum (0.005) ; annus (0.005) ; magnus (0.005) ; 
+0.1723440859798917   T=0,K=2:  deus (0.017) ; rex (0.014) ; quod (0.010) ; omnis (0.009) ; se (0.008) ; do (0.006) ; dominus (0.006) ; regnum (0.006) ; filius (0.006) ; dico#2 (0.005) ; 
+0.23522013688905016   T=0,K=3:  quod (0.010) ; se (0.010) ; dico#2 (0.010) ; omnis (0.010) ; rex (0.009) ; filius (0.009) ; deus (0.008) ; facio (0.008) ; annus (0.007) ; multus (0.005) ; 
+
+Time=1  
+0.2908529857872619   T=1,K=0:  rex (0.013) ; omnis (0.012) ; se (0.011) ; quod (0.008) ; tuus (0.008) ; deus (0.008) ; filius (0.008) ; regnum (0.007) ; annus (0.007) ; facio (0.007) ; 
+0.2385513690292716   T=1,K=1:  rex (0.012) ; se (0.012) ; omnis (0.011) ; tuus (0.008) ; meus (0.006) ; multus (0.006) ; quod (0.006) ; frater (0.006) ; regnum (0.005) ; annus (0.005) ; 
+0.23105867484889667   T=1,K=2:  deus (0.018) ; rex (0.014) ; quod (0.010) ; omnis (0.009) ; se (0.008) ; do (0.006) ; dominus (0.006) ; regnum (0.006) ; filius (0.006) ; dico#2 (0.006) ; 
+0.23953697033456997   T=1,K=3:  quod (0.011) ; omnis (0.010) ; se (0.010) ; dico#2 (0.009) ; rex (0.009) ; filius (0.009) ; deus (0.008) ; facio (0.008) ; annus (0.007) ; pars (0.005) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

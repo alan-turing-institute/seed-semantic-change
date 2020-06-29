@@ -1,0 +1,40 @@
+1628 documents , 1 concepts , 4718 context features (poena) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.2795112053810229   T=0,K=0:  vel (0.016) ; quod (0.010) ; magnus (0.007) ; se (0.006) ; lex (0.006) ; omnis (0.006) ; genus (0.006) ; peccatum (0.006) ; alius (0.005) ; dignus (0.005) ; 
+0.2802404033215866   T=1,K=0:  vel (0.016) ; quod (0.010) ; magnus (0.007) ; se (0.007) ; omnis (0.006) ; lex (0.006) ; genus (0.006) ; alius (0.006) ; peccatum (0.006) ; dignus (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  vel (0.016) ; quod (0.010) ; magnus (0.007) ; se (0.007) ; lex (0.006) ; omnis (0.006) ; genus (0.006) ; peccatum (0.006) ; alius (0.006) ; dignus (0.005) ; 
+
+0.30952074903308513   T=0,K=1:  vel (0.017) ; quod (0.011) ; deus (0.010) ; peccatum (0.009) ; lex (0.009) ; do (0.008) ; se (0.007) ; alius (0.006) ; supplicium (0.005) ; exigo (0.005) ; 
+0.26791636344392167   T=1,K=1:  vel (0.017) ; quod (0.011) ; peccatum (0.009) ; deus (0.009) ; lex (0.009) ; do (0.008) ; se (0.008) ; alius (0.006) ; supplicium (0.005) ; habeo (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  vel (0.017) ; quod (0.011) ; deus (0.010) ; peccatum (0.009) ; lex (0.009) ; do (0.008) ; se (0.007) ; alius (0.006) ; supplicium (0.005) ; habeo (0.005) ; 
+
+0.17494390813048566   T=0,K=2:  quod (0.009) ; lex (0.009) ; vel (0.008) ; omnis (0.007) ; reus (0.007) ; facio (0.007) ; culpa (0.007) ; se (0.007) ; debeo (0.007) ; deus (0.006) ; 
+0.22587337251018583   T=1,K=2:  quod (0.010) ; lex (0.009) ; vel (0.008) ; reus (0.007) ; omnis (0.007) ; culpa (0.007) ; facio (0.007) ; debeo (0.007) ; se (0.007) ; deus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  quod (0.009) ; lex (0.009) ; vel (0.008) ; reus (0.007) ; omnis (0.007) ; culpa (0.007) ; facio (0.007) ; se (0.007) ; debeo (0.007) ; deus (0.006) ; 
+
+0.23602413745540632   T=0,K=3:  vel (0.010) ; mors (0.009) ; do (0.008) ; omnis (0.008) ; quod (0.008) ; poena (0.007) ; lex (0.006) ; malus#3 (0.006) ; homo (0.005) ; se (0.005) ; 
+0.22596986072430586   T=1,K=3:  vel (0.011) ; mors (0.009) ; do (0.008) ; omnis (0.008) ; quod (0.007) ; poena (0.007) ; lex (0.006) ; homo (0.006) ; malus#3 (0.005) ; sine (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  vel (0.010) ; mors (0.009) ; do (0.008) ; omnis (0.008) ; quod (0.007) ; poena (0.007) ; lex (0.006) ; malus#3 (0.006) ; homo (0.005) ; se (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.2795112053810229   T=0,K=0:  vel (0.016) ; quod (0.010) ; magnus (0.007) ; se (0.006) ; lex (0.006) ; omnis (0.006) ; genus (0.006) ; peccatum (0.006) ; alius (0.005) ; dignus (0.005) ; 
+0.30952074903308513   T=0,K=1:  vel (0.017) ; quod (0.011) ; deus (0.010) ; peccatum (0.009) ; lex (0.009) ; do (0.008) ; se (0.007) ; alius (0.006) ; supplicium (0.005) ; exigo (0.005) ; 
+0.17494390813048566   T=0,K=2:  quod (0.009) ; lex (0.009) ; vel (0.008) ; omnis (0.007) ; reus (0.007) ; facio (0.007) ; culpa (0.007) ; se (0.007) ; debeo (0.007) ; deus (0.006) ; 
+0.23602413745540632   T=0,K=3:  vel (0.010) ; mors (0.009) ; do (0.008) ; omnis (0.008) ; quod (0.008) ; poena (0.007) ; lex (0.006) ; malus#3 (0.006) ; homo (0.005) ; se (0.005) ; 
+
+Time=1  
+0.2802404033215866   T=1,K=0:  vel (0.016) ; quod (0.010) ; magnus (0.007) ; se (0.007) ; omnis (0.006) ; lex (0.006) ; genus (0.006) ; alius (0.006) ; peccatum (0.006) ; dignus (0.005) ; 
+0.26791636344392167   T=1,K=1:  vel (0.017) ; quod (0.011) ; peccatum (0.009) ; deus (0.009) ; lex (0.009) ; do (0.008) ; se (0.008) ; alius (0.006) ; supplicium (0.005) ; habeo (0.005) ; 
+0.22587337251018583   T=1,K=2:  quod (0.010) ; lex (0.009) ; vel (0.008) ; reus (0.007) ; omnis (0.007) ; culpa (0.007) ; facio (0.007) ; debeo (0.007) ; se (0.007) ; deus (0.006) ; 
+0.22596986072430586   T=1,K=3:  vel (0.011) ; mors (0.009) ; do (0.008) ; omnis (0.008) ; quod (0.007) ; poena (0.007) ; lex (0.006) ; homo (0.006) ; malus#3 (0.005) ; sine (0.005) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

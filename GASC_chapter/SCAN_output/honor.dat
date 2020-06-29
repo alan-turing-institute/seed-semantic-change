@@ -1,0 +1,40 @@
+2427 documents , 1 concepts , 6482 context features (honor) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.3884121842735228   T=0,K=0:  habeo (0.011) ; se (0.008) ; deus (0.008) ; quod (0.008) ; omnis (0.007) ; dico#2 (0.007) ; magnus (0.007) ; gloria (0.006) ; res (0.006) ; multus (0.005) ; 
+0.2466544073237831   T=1,K=0:  habeo (0.011) ; se (0.008) ; quod (0.008) ; deus (0.008) ; omnis (0.007) ; dico#2 (0.007) ; magnus (0.006) ; gloria (0.006) ; res (0.005) ; multus (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  habeo (0.011) ; se (0.008) ; deus (0.008) ; quod (0.008) ; omnis (0.007) ; dico#2 (0.007) ; magnus (0.007) ; gloria (0.006) ; res (0.006) ; multus (0.005) ; 
+
+0.28417299810491414   T=0,K=1:  omnis (0.020) ; quod (0.010) ; gloria (0.010) ; habeo (0.007) ; se (0.007) ; deus (0.006) ; res (0.006) ; magnus (0.005) ; do (0.005) ; multus (0.005) ; 
+0.258518475951884   T=1,K=1:  omnis (0.019) ; quod (0.010) ; gloria (0.010) ; habeo (0.007) ; se (0.007) ; deus (0.006) ; res (0.006) ; magnus (0.005) ; do (0.005) ; tuus (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  omnis (0.019) ; quod (0.010) ; gloria (0.010) ; habeo (0.007) ; se (0.007) ; deus (0.006) ; res (0.006) ; magnus (0.005) ; do (0.005) ; tuus (0.005) ; 
+
+0.1441445417344998   T=0,K=2:  omnis (0.010) ; deus (0.010) ; habeo (0.008) ; facio (0.007) ; honor (0.006) ; pater (0.006) ; se (0.006) ; quod (0.006) ; nullus (0.005) ; Christus (0.005) ; 
+0.24226028422191945   T=1,K=2:  deus (0.010) ; omnis (0.010) ; habeo (0.009) ; facio (0.008) ; pater (0.006) ; se (0.006) ; honor (0.006) ; nullus (0.006) ; quod (0.006) ; rex (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  omnis (0.010) ; deus (0.010) ; habeo (0.009) ; facio (0.007) ; pater (0.006) ; honor (0.006) ; se (0.006) ; quod (0.006) ; nullus (0.006) ; rex (0.005) ; 
+
+0.18327027588706318   T=0,K=3:  deus (0.011) ; omnis (0.010) ; se (0.007) ; quod (0.006) ; multus (0.006) ; vel (0.006) ; semper (0.006) ; magnus (0.006) ; facio (0.005) ; do (0.005) ; 
+0.25256683250241346   T=1,K=3:  deus (0.011) ; omnis (0.010) ; se (0.008) ; quod (0.006) ; vel (0.006) ; multus (0.006) ; semper (0.006) ; magnus (0.006) ; facio (0.005) ; do (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  deus (0.011) ; omnis (0.010) ; se (0.008) ; quod (0.006) ; multus (0.006) ; vel (0.006) ; semper (0.006) ; magnus (0.006) ; facio (0.005) ; do (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.3884121842735228   T=0,K=0:  habeo (0.011) ; se (0.008) ; deus (0.008) ; quod (0.008) ; omnis (0.007) ; dico#2 (0.007) ; magnus (0.007) ; gloria (0.006) ; res (0.006) ; multus (0.005) ; 
+0.28417299810491414   T=0,K=1:  omnis (0.020) ; quod (0.010) ; gloria (0.010) ; habeo (0.007) ; se (0.007) ; deus (0.006) ; res (0.006) ; magnus (0.005) ; do (0.005) ; multus (0.005) ; 
+0.1441445417344998   T=0,K=2:  omnis (0.010) ; deus (0.010) ; habeo (0.008) ; facio (0.007) ; honor (0.006) ; pater (0.006) ; se (0.006) ; quod (0.006) ; nullus (0.005) ; Christus (0.005) ; 
+0.18327027588706318   T=0,K=3:  deus (0.011) ; omnis (0.010) ; se (0.007) ; quod (0.006) ; multus (0.006) ; vel (0.006) ; semper (0.006) ; magnus (0.006) ; facio (0.005) ; do (0.005) ; 
+
+Time=1  
+0.2466544073237831   T=1,K=0:  habeo (0.011) ; se (0.008) ; quod (0.008) ; deus (0.008) ; omnis (0.007) ; dico#2 (0.007) ; magnus (0.006) ; gloria (0.006) ; res (0.005) ; multus (0.005) ; 
+0.258518475951884   T=1,K=1:  omnis (0.019) ; quod (0.010) ; gloria (0.010) ; habeo (0.007) ; se (0.007) ; deus (0.006) ; res (0.006) ; magnus (0.005) ; do (0.005) ; tuus (0.005) ; 
+0.24226028422191945   T=1,K=2:  deus (0.010) ; omnis (0.010) ; habeo (0.009) ; facio (0.008) ; pater (0.006) ; se (0.006) ; honor (0.006) ; nullus (0.006) ; quod (0.006) ; rex (0.005) ; 
+0.25256683250241346   T=1,K=3:  deus (0.011) ; omnis (0.010) ; se (0.008) ; quod (0.006) ; vel (0.006) ; multus (0.006) ; semper (0.006) ; magnus (0.006) ; facio (0.005) ; do (0.005) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

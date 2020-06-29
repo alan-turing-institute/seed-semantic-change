@@ -1,0 +1,40 @@
+622 documents , 1 concepts , 2591 context features (nepos) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.12571734005470575   T=0,K=0:  filius (0.033) ; vel (0.030) ; filia (0.017) ; pater (0.014) ; tuus (0.010) ; frater (0.009) ; neptis (0.009) ; rex (0.008) ; omnis (0.008) ; soror (0.008) ; 
+0.33953281752123793   T=1,K=0:  filius (0.033) ; vel (0.031) ; filia (0.018) ; pater (0.014) ; tuus (0.010) ; frater (0.010) ; neptis (0.009) ; rex (0.008) ; soror (0.008) ; omnis (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  filius (0.033) ; vel (0.030) ; filia (0.018) ; pater (0.014) ; tuus (0.010) ; frater (0.010) ; neptis (0.009) ; rex (0.008) ; omnis (0.008) ; soror (0.008) ; 
+
+0.3672031765441972   T=0,K=1:  filius (0.036) ; vel (0.030) ; filia (0.015) ; primus (0.010) ; habeo (0.009) ; tuus (0.009) ; avus (0.008) ; duo (0.008) ; venio (0.008) ; frater (0.008) ; 
+0.22274392317128   T=1,K=1:  filius (0.035) ; vel (0.031) ; filia (0.016) ; primus (0.010) ; habeo (0.009) ; tuus (0.009) ; avus (0.008) ; duo (0.008) ; venio (0.008) ; frater (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  filius (0.036) ; vel (0.031) ; filia (0.015) ; primus (0.010) ; habeo (0.009) ; tuus (0.009) ; avus (0.008) ; duo (0.008) ; venio (0.008) ; frater (0.007) ; 
+
+0.3696301079642023   T=0,K=2:  filius (0.011) ; dico#2 (0.011) ; rex (0.009) ; filia (0.009) ; magnus (0.008) ; avium (0.006) ; se (0.006) ; liberi (0.006) ; condio (0.006) ; facio (0.005) ; 
+0.22043752562844857   T=1,K=2:  filius (0.011) ; dico#2 (0.011) ; filia (0.009) ; rex (0.009) ; magnus (0.008) ; avium (0.006) ; se (0.006) ; liberi (0.006) ; condio (0.005) ; Caesar (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  filius (0.011) ; dico#2 (0.011) ; filia (0.009) ; rex (0.009) ; magnus (0.008) ; avium (0.006) ; se (0.006) ; liberi (0.006) ; condio (0.006) ; Caesar (0.005) ; 
+
+0.13744937543689464   T=0,K=3:  filius (0.029) ; pater (0.012) ; venio (0.012) ; frater (0.009) ; dux (0.009) ; pervenio (0.008) ; quoque (0.007) ; alius (0.007) ; vel (0.006) ; nomen (0.006) ; 
+0.2172857336790336   T=1,K=3:  filius (0.028) ; pater (0.012) ; venio (0.012) ; frater (0.010) ; dux (0.009) ; pervenio (0.008) ; quoque (0.007) ; vel (0.007) ; alius (0.007) ; nomen (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  filius (0.028) ; pater (0.012) ; venio (0.012) ; frater (0.009) ; dux (0.009) ; pervenio (0.008) ; quoque (0.007) ; alius (0.007) ; vel (0.006) ; nomen (0.006) ; 
+
+===============  per time  ===============
+Time=0  
+0.12571734005470575   T=0,K=0:  filius (0.033) ; vel (0.030) ; filia (0.017) ; pater (0.014) ; tuus (0.010) ; frater (0.009) ; neptis (0.009) ; rex (0.008) ; omnis (0.008) ; soror (0.008) ; 
+0.3672031765441972   T=0,K=1:  filius (0.036) ; vel (0.030) ; filia (0.015) ; primus (0.010) ; habeo (0.009) ; tuus (0.009) ; avus (0.008) ; duo (0.008) ; venio (0.008) ; frater (0.008) ; 
+0.3696301079642023   T=0,K=2:  filius (0.011) ; dico#2 (0.011) ; rex (0.009) ; filia (0.009) ; magnus (0.008) ; avium (0.006) ; se (0.006) ; liberi (0.006) ; condio (0.006) ; facio (0.005) ; 
+0.13744937543689464   T=0,K=3:  filius (0.029) ; pater (0.012) ; venio (0.012) ; frater (0.009) ; dux (0.009) ; pervenio (0.008) ; quoque (0.007) ; alius (0.007) ; vel (0.006) ; nomen (0.006) ; 
+
+Time=1  
+0.33953281752123793   T=1,K=0:  filius (0.033) ; vel (0.031) ; filia (0.018) ; pater (0.014) ; tuus (0.010) ; frater (0.010) ; neptis (0.009) ; rex (0.008) ; soror (0.008) ; omnis (0.007) ; 
+0.22274392317128   T=1,K=1:  filius (0.035) ; vel (0.031) ; filia (0.016) ; primus (0.010) ; habeo (0.009) ; tuus (0.009) ; avus (0.008) ; duo (0.008) ; venio (0.008) ; frater (0.007) ; 
+0.22043752562844857   T=1,K=2:  filius (0.011) ; dico#2 (0.011) ; filia (0.009) ; rex (0.009) ; magnus (0.008) ; avium (0.006) ; se (0.006) ; liberi (0.006) ; condio (0.005) ; Caesar (0.005) ; 
+0.2172857336790336   T=1,K=3:  filius (0.028) ; pater (0.012) ; venio (0.012) ; frater (0.010) ; dux (0.009) ; pervenio (0.008) ; quoque (0.007) ; vel (0.007) ; alius (0.007) ; nomen (0.007) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

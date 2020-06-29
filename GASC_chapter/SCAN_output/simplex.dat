@@ -1,0 +1,40 @@
+968 documents , 1 concepts , 2993 context features (simplex) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.2998120931849591   T=0,K=0:  vel (0.026) ; omnis (0.021) ; homo (0.021) ; quod (0.019) ; dico#2 (0.014) ; facio (0.011) ; alius (0.010) ; quidam (0.010) ; simplex (0.010) ; modus (0.009) ; 
+0.23031799608727183   T=1,K=0:  vel (0.026) ; omnis (0.022) ; homo (0.021) ; quod (0.019) ; dico#2 (0.014) ; facio (0.011) ; alius (0.011) ; quidam (0.010) ; simplex (0.010) ; modus (0.009) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  vel (0.026) ; omnis (0.022) ; homo (0.021) ; quod (0.019) ; dico#2 (0.014) ; facio (0.011) ; alius (0.011) ; quidam (0.010) ; simplex (0.010) ; modus (0.009) ; 
+
+0.13366069625688143   T=0,K=1:  quod (0.016) ; vel (0.015) ; dico#2 (0.014) ; homo (0.010) ; simplex (0.010) ; habeo (0.010) ; secundum (0.009) ; alius (0.009) ; multus (0.009) ; omnis (0.009) ; 
+0.2927326835122941   T=1,K=1:  quod (0.016) ; vel (0.015) ; dico#2 (0.014) ; homo (0.010) ; habeo (0.010) ; simplex (0.010) ; alius (0.010) ; secundum (0.009) ; multus (0.009) ; discerno (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  quod (0.016) ; vel (0.015) ; dico#2 (0.014) ; homo (0.010) ; habeo (0.010) ; simplex (0.010) ; alius (0.009) ; secundum (0.009) ; multus (0.009) ; discerno (0.009) ; 
+
+0.21362733527329691   T=0,K=2:  quod (0.035) ; dico#2 (0.016) ; vel (0.014) ; omnis (0.011) ; nomen (0.011) ; simplex (0.010) ; habeo (0.009) ; facio (0.009) ; sicut (0.009) ; alius (0.007) ; 
+0.23809887166444718   T=1,K=2:  quod (0.035) ; dico#2 (0.017) ; vel (0.015) ; nomen (0.011) ; omnis (0.011) ; simplex (0.010) ; habeo (0.010) ; sicut (0.009) ; facio (0.009) ; alius (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  quod (0.035) ; dico#2 (0.016) ; vel (0.015) ; nomen (0.011) ; omnis (0.011) ; simplex (0.010) ; habeo (0.009) ; facio (0.009) ; sicut (0.009) ; alius (0.007) ; 
+
+0.35289987528486266   T=0,K=3:  quod (0.021) ; terra (0.010) ; habeo (0.010) ; modus (0.009) ; res (0.009) ; homo (0.009) ; facio (0.008) ; dico#2 (0.008) ; deus (0.008) ; bonus (0.007) ; 
+0.2388504487359868   T=1,K=3:  quod (0.021) ; terra (0.010) ; habeo (0.010) ; modus (0.009) ; res (0.009) ; homo (0.008) ; facio (0.008) ; dico#2 (0.008) ; deus (0.008) ; bonus (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  quod (0.021) ; terra (0.010) ; habeo (0.010) ; modus (0.009) ; res (0.009) ; homo (0.008) ; facio (0.008) ; dico#2 (0.008) ; deus (0.008) ; bonus (0.007) ; 
+
+===============  per time  ===============
+Time=0  
+0.2998120931849591   T=0,K=0:  vel (0.026) ; omnis (0.021) ; homo (0.021) ; quod (0.019) ; dico#2 (0.014) ; facio (0.011) ; alius (0.010) ; quidam (0.010) ; simplex (0.010) ; modus (0.009) ; 
+0.13366069625688143   T=0,K=1:  quod (0.016) ; vel (0.015) ; dico#2 (0.014) ; homo (0.010) ; simplex (0.010) ; habeo (0.010) ; secundum (0.009) ; alius (0.009) ; multus (0.009) ; omnis (0.009) ; 
+0.21362733527329691   T=0,K=2:  quod (0.035) ; dico#2 (0.016) ; vel (0.014) ; omnis (0.011) ; nomen (0.011) ; simplex (0.010) ; habeo (0.009) ; facio (0.009) ; sicut (0.009) ; alius (0.007) ; 
+0.35289987528486266   T=0,K=3:  quod (0.021) ; terra (0.010) ; habeo (0.010) ; modus (0.009) ; res (0.009) ; homo (0.009) ; facio (0.008) ; dico#2 (0.008) ; deus (0.008) ; bonus (0.007) ; 
+
+Time=1  
+0.23031799608727183   T=1,K=0:  vel (0.026) ; omnis (0.022) ; homo (0.021) ; quod (0.019) ; dico#2 (0.014) ; facio (0.011) ; alius (0.011) ; quidam (0.010) ; simplex (0.010) ; modus (0.009) ; 
+0.2927326835122941   T=1,K=1:  quod (0.016) ; vel (0.015) ; dico#2 (0.014) ; homo (0.010) ; habeo (0.010) ; simplex (0.010) ; alius (0.010) ; secundum (0.009) ; multus (0.009) ; discerno (0.008) ; 
+0.23809887166444718   T=1,K=2:  quod (0.035) ; dico#2 (0.017) ; vel (0.015) ; nomen (0.011) ; omnis (0.011) ; simplex (0.010) ; habeo (0.010) ; sicut (0.009) ; facio (0.009) ; alius (0.007) ; 
+0.2388504487359868   T=1,K=3:  quod (0.021) ; terra (0.010) ; habeo (0.010) ; modus (0.009) ; res (0.009) ; homo (0.008) ; facio (0.008) ; dico#2 (0.008) ; deus (0.008) ; bonus (0.007) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

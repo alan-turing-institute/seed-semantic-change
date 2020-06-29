@@ -1,0 +1,40 @@
+2290 documents , 1 concepts , 6144 context features (licet) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.22937751608821566   T=0,K=0:  quod (0.015) ; vel (0.014) ; se (0.011) ; dico#2 (0.009) ; deus (0.007) ; alius (0.007) ; ago (0.006) ; habeo (0.006) ; lex (0.005) ; res (0.005) ; 
+0.25514101810781903   T=1,K=0:  quod (0.015) ; vel (0.015) ; se (0.011) ; dico#2 (0.009) ; deus (0.007) ; alius (0.007) ; ago (0.006) ; habeo (0.005) ; causa (0.005) ; lex (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  quod (0.015) ; vel (0.014) ; se (0.011) ; dico#2 (0.009) ; deus (0.007) ; alius (0.007) ; ago (0.006) ; habeo (0.006) ; lex (0.005) ; causa (0.005) ; 
+
+0.19251946904139117   T=0,K=1:  vel (0.010) ; omnis (0.009) ; se (0.009) ; quod (0.006) ; alius (0.006) ; habeo (0.006) ; dico#2 (0.006) ; licet (0.006) ; facio (0.005) ; video (0.005) ; 
+0.23956909060826323   T=1,K=1:  vel (0.010) ; omnis (0.009) ; se (0.009) ; quod (0.006) ; alius (0.006) ; habeo (0.006) ; dico#2 (0.006) ; licet (0.006) ; video (0.005) ; tantus (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  vel (0.010) ; omnis (0.009) ; se (0.009) ; quod (0.006) ; alius (0.006) ; habeo (0.006) ; dico#2 (0.006) ; licet (0.006) ; video (0.005) ; tantus (0.005) ; 
+
+0.2761937545246676   T=0,K=2:  quod (0.016) ; vel (0.010) ; se (0.010) ; dico#2 (0.008) ; alius (0.008) ; habeo (0.007) ; facio (0.007) ; licet (0.007) ; omnis (0.006) ; res (0.006) ; 
+0.2553953534559473   T=1,K=2:  quod (0.016) ; vel (0.010) ; se (0.009) ; dico#2 (0.008) ; alius (0.008) ; habeo (0.007) ; licet (0.007) ; facio (0.007) ; res (0.007) ; omnis (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  quod (0.016) ; vel (0.010) ; se (0.009) ; dico#2 (0.008) ; alius (0.008) ; habeo (0.007) ; facio (0.007) ; licet (0.007) ; res (0.006) ; omnis (0.006) ; 
+
+0.3019092603457255   T=0,K=3:  se (0.013) ; quod (0.012) ; vel (0.011) ; dico#2 (0.011) ; facio (0.010) ; alius (0.009) ; res (0.008) ; video (0.007) ; nullus (0.006) ; habeo (0.005) ; 
+0.24989453782797041   T=1,K=3:  se (0.013) ; dico#2 (0.012) ; vel (0.011) ; quod (0.011) ; facio (0.010) ; alius (0.008) ; res (0.008) ; video (0.007) ; nullus (0.006) ; bonus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  se (0.013) ; quod (0.012) ; dico#2 (0.011) ; vel (0.011) ; facio (0.010) ; alius (0.009) ; res (0.008) ; video (0.007) ; nullus (0.006) ; bonus (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.22937751608821566   T=0,K=0:  quod (0.015) ; vel (0.014) ; se (0.011) ; dico#2 (0.009) ; deus (0.007) ; alius (0.007) ; ago (0.006) ; habeo (0.006) ; lex (0.005) ; res (0.005) ; 
+0.19251946904139117   T=0,K=1:  vel (0.010) ; omnis (0.009) ; se (0.009) ; quod (0.006) ; alius (0.006) ; habeo (0.006) ; dico#2 (0.006) ; licet (0.006) ; facio (0.005) ; video (0.005) ; 
+0.2761937545246676   T=0,K=2:  quod (0.016) ; vel (0.010) ; se (0.010) ; dico#2 (0.008) ; alius (0.008) ; habeo (0.007) ; facio (0.007) ; licet (0.007) ; omnis (0.006) ; res (0.006) ; 
+0.3019092603457255   T=0,K=3:  se (0.013) ; quod (0.012) ; vel (0.011) ; dico#2 (0.011) ; facio (0.010) ; alius (0.009) ; res (0.008) ; video (0.007) ; nullus (0.006) ; habeo (0.005) ; 
+
+Time=1  
+0.25514101810781903   T=1,K=0:  quod (0.015) ; vel (0.015) ; se (0.011) ; dico#2 (0.009) ; deus (0.007) ; alius (0.007) ; ago (0.006) ; habeo (0.005) ; causa (0.005) ; lex (0.005) ; 
+0.23956909060826323   T=1,K=1:  vel (0.010) ; omnis (0.009) ; se (0.009) ; quod (0.006) ; alius (0.006) ; habeo (0.006) ; dico#2 (0.006) ; licet (0.006) ; video (0.005) ; tantus (0.005) ; 
+0.2553953534559473   T=1,K=2:  quod (0.016) ; vel (0.010) ; se (0.009) ; dico#2 (0.008) ; alius (0.008) ; habeo (0.007) ; licet (0.007) ; facio (0.007) ; res (0.007) ; omnis (0.006) ; 
+0.24989453782797041   T=1,K=3:  se (0.013) ; dico#2 (0.012) ; vel (0.011) ; quod (0.011) ; facio (0.010) ; alius (0.008) ; res (0.008) ; video (0.007) ; nullus (0.006) ; bonus (0.006) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

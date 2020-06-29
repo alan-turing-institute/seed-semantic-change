@@ -1,0 +1,40 @@
+2538 documents , 1 concepts , 5342 context features (consul) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.19701221108418931   T=0,K=0:  se (0.013) ; C. (0.008) ; Romanus (0.008) ; alter (0.008) ; quod (0.007) ; facio (0.007) ; castrum (0.007) ; alius (0.007) ; omnis (0.006) ; annus (0.006) ; 
+0.21527221258278317   T=1,K=0:  se (0.013) ; C. (0.009) ; Romanus (0.008) ; alter (0.008) ; quod (0.007) ; facio (0.007) ; alius (0.007) ; castrum (0.007) ; omnis (0.006) ; senatus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  se (0.013) ; C. (0.009) ; Romanus (0.008) ; alter (0.008) ; quod (0.007) ; facio (0.007) ; castrum (0.007) ; alius (0.007) ; omnis (0.006) ; senatus (0.006) ; 
+
+0.35074018567510146   T=0,K=1:  senatus (0.011) ; res (0.011) ; bellum (0.009) ; consul (0.009) ; Romanus (0.008) ; se (0.008) ; M. (0.008) ; dico#2 (0.008) ; exercitus (0.008) ; Q. (0.007) ; 
+0.2532288961293089   T=1,K=1:  senatus (0.011) ; res (0.011) ; bellum (0.009) ; consul (0.009) ; Romanus (0.008) ; M. (0.008) ; dico#2 (0.008) ; se (0.008) ; exercitus (0.008) ; mitto (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  senatus (0.011) ; res (0.011) ; bellum (0.009) ; consul (0.009) ; Romanus (0.008) ; M. (0.008) ; se (0.008) ; dico#2 (0.008) ; exercitus (0.008) ; C. (0.007) ; 
+
+0.2362002672758515   T=0,K=2:  M. (0.013) ; annus (0.012) ; L. (0.011) ; Q. (0.010) ; consul (0.009) ; facio (0.009) ; C. (0.008) ; res (0.008) ; P. (0.008) ; provincia (0.007) ; 
+0.2805964702821002   T=1,K=2:  M. (0.013) ; annus (0.012) ; L. (0.011) ; Q. (0.010) ; consul (0.009) ; facio (0.009) ; P. (0.008) ; C. (0.008) ; res (0.008) ; provincia (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  M. (0.013) ; annus (0.012) ; L. (0.011) ; Q. (0.010) ; consul (0.009) ; facio (0.009) ; C. (0.008) ; P. (0.008) ; res (0.008) ; provincia (0.007) ; 
+
+0.21604733596485773   T=0,K=3:  facio (0.011) ; consul (0.011) ; se (0.011) ; senatus (0.010) ; plebs (0.010) ; tribunus (0.009) ; annus (0.009) ; res (0.008) ; primus (0.008) ; bellum (0.007) ; 
+0.2509024210058077   T=1,K=3:  facio (0.011) ; consul (0.011) ; se (0.010) ; senatus (0.010) ; plebs (0.009) ; tribunus (0.009) ; annus (0.009) ; res (0.008) ; primus (0.008) ; publicus (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  facio (0.011) ; consul (0.011) ; se (0.011) ; senatus (0.010) ; plebs (0.009) ; tribunus (0.009) ; annus (0.009) ; res (0.008) ; primus (0.008) ; publicus (0.007) ; 
+
+===============  per time  ===============
+Time=0  
+0.19701221108418931   T=0,K=0:  se (0.013) ; C. (0.008) ; Romanus (0.008) ; alter (0.008) ; quod (0.007) ; facio (0.007) ; castrum (0.007) ; alius (0.007) ; omnis (0.006) ; annus (0.006) ; 
+0.35074018567510146   T=0,K=1:  senatus (0.011) ; res (0.011) ; bellum (0.009) ; consul (0.009) ; Romanus (0.008) ; se (0.008) ; M. (0.008) ; dico#2 (0.008) ; exercitus (0.008) ; Q. (0.007) ; 
+0.2362002672758515   T=0,K=2:  M. (0.013) ; annus (0.012) ; L. (0.011) ; Q. (0.010) ; consul (0.009) ; facio (0.009) ; C. (0.008) ; res (0.008) ; P. (0.008) ; provincia (0.007) ; 
+0.21604733596485773   T=0,K=3:  facio (0.011) ; consul (0.011) ; se (0.011) ; senatus (0.010) ; plebs (0.010) ; tribunus (0.009) ; annus (0.009) ; res (0.008) ; primus (0.008) ; bellum (0.007) ; 
+
+Time=1  
+0.21527221258278317   T=1,K=0:  se (0.013) ; C. (0.009) ; Romanus (0.008) ; alter (0.008) ; quod (0.007) ; facio (0.007) ; alius (0.007) ; castrum (0.007) ; omnis (0.006) ; senatus (0.006) ; 
+0.2532288961293089   T=1,K=1:  senatus (0.011) ; res (0.011) ; bellum (0.009) ; consul (0.009) ; Romanus (0.008) ; M. (0.008) ; dico#2 (0.008) ; se (0.008) ; exercitus (0.008) ; mitto (0.007) ; 
+0.2805964702821002   T=1,K=2:  M. (0.013) ; annus (0.012) ; L. (0.011) ; Q. (0.010) ; consul (0.009) ; facio (0.009) ; P. (0.008) ; C. (0.008) ; res (0.008) ; provincia (0.007) ; 
+0.2509024210058077   T=1,K=3:  facio (0.011) ; consul (0.011) ; se (0.010) ; senatus (0.010) ; plebs (0.009) ; tribunus (0.009) ; annus (0.009) ; res (0.008) ; primus (0.008) ; publicus (0.008) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

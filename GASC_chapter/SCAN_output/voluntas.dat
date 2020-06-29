@@ -1,0 +1,40 @@
+1786 documents , 1 concepts , 4357 context features (voluntas) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.2519625335977329   T=0,K=0:  facio (0.015) ; pater (0.013) ; meus (0.013) ; deus (0.011) ; quod (0.010) ; omnis (0.010) ; dico#2 (0.008) ; homo (0.008) ; voluntas (0.007) ; vel (0.007) ; 
+0.21595458293682496   T=1,K=0:  facio (0.015) ; meus (0.013) ; pater (0.013) ; deus (0.012) ; omnis (0.010) ; quod (0.010) ; dico#2 (0.008) ; homo (0.008) ; voluntas (0.007) ; vel (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  facio (0.015) ; pater (0.013) ; meus (0.013) ; deus (0.011) ; omnis (0.010) ; quod (0.010) ; dico#2 (0.008) ; homo (0.008) ; voluntas (0.007) ; vel (0.007) ; 
+
+0.23973260399957194   T=0,K=1:  omnis (0.014) ; deus (0.013) ; vel (0.011) ; quod (0.011) ; dico#2 (0.009) ; habeo (0.008) ; facio (0.008) ; se (0.007) ; tuus (0.007) ; alius (0.006) ; 
+0.26704468886407723   T=1,K=1:  omnis (0.013) ; deus (0.013) ; vel (0.011) ; quod (0.009) ; dico#2 (0.009) ; habeo (0.008) ; facio (0.007) ; tuus (0.007) ; se (0.007) ; alius (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  omnis (0.013) ; deus (0.013) ; vel (0.011) ; quod (0.010) ; dico#2 (0.009) ; habeo (0.008) ; facio (0.007) ; tuus (0.007) ; se (0.007) ; alius (0.006) ; 
+
+0.2777231364421701   T=0,K=2:  quod (0.015) ; vel (0.015) ; facio (0.013) ; deus (0.013) ; omnis (0.011) ; voluntas (0.008) ; dico#2 (0.007) ; se (0.006) ; habeo (0.006) ; volo#1 (0.006) ; 
+0.238046356539052   T=1,K=2:  vel (0.015) ; quod (0.014) ; facio (0.013) ; deus (0.013) ; omnis (0.011) ; voluntas (0.008) ; dico#2 (0.007) ; se (0.007) ; habeo (0.006) ; volo#1 (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  vel (0.015) ; quod (0.015) ; facio (0.013) ; deus (0.013) ; omnis (0.011) ; voluntas (0.008) ; dico#2 (0.007) ; se (0.006) ; habeo (0.006) ; volo#1 (0.006) ; 
+
+0.2305817259605251   T=0,K=3:  quod (0.023) ; deus (0.021) ; facio (0.015) ; bonus (0.011) ; tuus (0.011) ; voluntas (0.011) ; omnis (0.010) ; res (0.009) ; habeo (0.008) ; vel (0.008) ; 
+0.2789543716600458   T=1,K=3:  quod (0.023) ; deus (0.021) ; facio (0.015) ; bonus (0.011) ; voluntas (0.011) ; tuus (0.011) ; omnis (0.010) ; res (0.009) ; habeo (0.008) ; vel (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  quod (0.023) ; deus (0.021) ; facio (0.015) ; bonus (0.011) ; tuus (0.011) ; voluntas (0.011) ; omnis (0.010) ; res (0.009) ; habeo (0.008) ; vel (0.008) ; 
+
+===============  per time  ===============
+Time=0  
+0.2519625335977329   T=0,K=0:  facio (0.015) ; pater (0.013) ; meus (0.013) ; deus (0.011) ; quod (0.010) ; omnis (0.010) ; dico#2 (0.008) ; homo (0.008) ; voluntas (0.007) ; vel (0.007) ; 
+0.23973260399957194   T=0,K=1:  omnis (0.014) ; deus (0.013) ; vel (0.011) ; quod (0.011) ; dico#2 (0.009) ; habeo (0.008) ; facio (0.008) ; se (0.007) ; tuus (0.007) ; alius (0.006) ; 
+0.2777231364421701   T=0,K=2:  quod (0.015) ; vel (0.015) ; facio (0.013) ; deus (0.013) ; omnis (0.011) ; voluntas (0.008) ; dico#2 (0.007) ; se (0.006) ; habeo (0.006) ; volo#1 (0.006) ; 
+0.2305817259605251   T=0,K=3:  quod (0.023) ; deus (0.021) ; facio (0.015) ; bonus (0.011) ; tuus (0.011) ; voluntas (0.011) ; omnis (0.010) ; res (0.009) ; habeo (0.008) ; vel (0.008) ; 
+
+Time=1  
+0.21595458293682496   T=1,K=0:  facio (0.015) ; meus (0.013) ; pater (0.013) ; deus (0.012) ; omnis (0.010) ; quod (0.010) ; dico#2 (0.008) ; homo (0.008) ; voluntas (0.007) ; vel (0.007) ; 
+0.26704468886407723   T=1,K=1:  omnis (0.013) ; deus (0.013) ; vel (0.011) ; quod (0.009) ; dico#2 (0.009) ; habeo (0.008) ; facio (0.007) ; tuus (0.007) ; se (0.007) ; alius (0.006) ; 
+0.238046356539052   T=1,K=2:  vel (0.015) ; quod (0.014) ; facio (0.013) ; deus (0.013) ; omnis (0.011) ; voluntas (0.008) ; dico#2 (0.007) ; se (0.007) ; habeo (0.006) ; volo#1 (0.006) ; 
+0.2789543716600458   T=1,K=3:  quod (0.023) ; deus (0.021) ; facio (0.015) ; bonus (0.011) ; voluntas (0.011) ; tuus (0.011) ; omnis (0.010) ; res (0.009) ; habeo (0.008) ; vel (0.008) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

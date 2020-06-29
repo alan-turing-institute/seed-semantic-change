@@ -1,0 +1,40 @@
+2084 documents , 1 concepts , 5412 context features (sanctus) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.19512740158036473   T=0,K=0:  spiritus (0.019) ; deus (0.012) ; sanctus (0.011) ; omnis (0.009) ; dico#2 (0.009) ; quod (0.008) ; se (0.008) ; pater (0.007) ; ecclesia (0.006) ; apostolus (0.006) ; 
+0.22585397263414098   T=1,K=0:  spiritus (0.019) ; deus (0.012) ; sanctus (0.011) ; omnis (0.009) ; dico#2 (0.009) ; quod (0.008) ; se (0.008) ; pater (0.007) ; ecclesia (0.006) ; apostolus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  spiritus (0.019) ; deus (0.012) ; sanctus (0.011) ; omnis (0.009) ; dico#2 (0.009) ; quod (0.008) ; se (0.008) ; pater (0.007) ; ecclesia (0.006) ; apostolus (0.006) ; 
+
+0.2606933501534234   T=0,K=1:  spiritus (0.026) ; filius (0.023) ; pater (0.022) ; deus (0.015) ; sanctus (0.013) ; habeo (0.007) ; dico#2 (0.007) ; facio (0.006) ; quod (0.006) ; dominus (0.006) ; 
+0.23438483176517697   T=1,K=1:  spiritus (0.025) ; pater (0.023) ; filius (0.021) ; deus (0.016) ; sanctus (0.013) ; habeo (0.007) ; dico#2 (0.007) ; quod (0.006) ; facio (0.006) ; tuus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  spiritus (0.025) ; pater (0.023) ; filius (0.022) ; deus (0.015) ; sanctus (0.013) ; habeo (0.007) ; dico#2 (0.007) ; quod (0.006) ; facio (0.006) ; dominus (0.006) ; 
+
+0.34868409916811516   T=0,K=2:  spiritus (0.016) ; dominus (0.014) ; omnis (0.013) ; sanctus (0.013) ; deus (0.011) ; dico#2 (0.010) ; ecclesia (0.009) ; facio (0.009) ; tuus (0.008) ; quod (0.008) ; 
+0.23767856674455437   T=1,K=2:  dominus (0.015) ; spiritus (0.014) ; omnis (0.013) ; sanctus (0.013) ; deus (0.011) ; dico#2 (0.010) ; ecclesia (0.009) ; facio (0.009) ; tuus (0.008) ; quod (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  spiritus (0.015) ; dominus (0.014) ; omnis (0.013) ; sanctus (0.013) ; deus (0.011) ; dico#2 (0.010) ; ecclesia (0.009) ; facio (0.009) ; tuus (0.008) ; quod (0.008) ; 
+
+0.1954951490980967   T=0,K=3:  sanctus (0.019) ; spiritus (0.018) ; deus (0.016) ; pater (0.014) ; dico#2 (0.012) ; filius (0.012) ; dominus (0.012) ; quod (0.010) ; omnis (0.009) ; locus (0.009) ; 
+0.3020826288561277   T=1,K=3:  sanctus (0.019) ; spiritus (0.018) ; deus (0.016) ; pater (0.014) ; dico#2 (0.012) ; filius (0.012) ; dominus (0.011) ; quod (0.010) ; omnis (0.009) ; locus (0.009) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  sanctus (0.019) ; spiritus (0.018) ; deus (0.016) ; pater (0.014) ; dico#2 (0.012) ; filius (0.012) ; dominus (0.012) ; quod (0.010) ; omnis (0.009) ; locus (0.009) ; 
+
+===============  per time  ===============
+Time=0  
+0.19512740158036473   T=0,K=0:  spiritus (0.019) ; deus (0.012) ; sanctus (0.011) ; omnis (0.009) ; dico#2 (0.009) ; quod (0.008) ; se (0.008) ; pater (0.007) ; ecclesia (0.006) ; apostolus (0.006) ; 
+0.2606933501534234   T=0,K=1:  spiritus (0.026) ; filius (0.023) ; pater (0.022) ; deus (0.015) ; sanctus (0.013) ; habeo (0.007) ; dico#2 (0.007) ; facio (0.006) ; quod (0.006) ; dominus (0.006) ; 
+0.34868409916811516   T=0,K=2:  spiritus (0.016) ; dominus (0.014) ; omnis (0.013) ; sanctus (0.013) ; deus (0.011) ; dico#2 (0.010) ; ecclesia (0.009) ; facio (0.009) ; tuus (0.008) ; quod (0.008) ; 
+0.1954951490980967   T=0,K=3:  sanctus (0.019) ; spiritus (0.018) ; deus (0.016) ; pater (0.014) ; dico#2 (0.012) ; filius (0.012) ; dominus (0.012) ; quod (0.010) ; omnis (0.009) ; locus (0.009) ; 
+
+Time=1  
+0.22585397263414098   T=1,K=0:  spiritus (0.019) ; deus (0.012) ; sanctus (0.011) ; omnis (0.009) ; dico#2 (0.009) ; quod (0.008) ; se (0.008) ; pater (0.007) ; ecclesia (0.006) ; apostolus (0.006) ; 
+0.23438483176517697   T=1,K=1:  spiritus (0.025) ; pater (0.023) ; filius (0.021) ; deus (0.016) ; sanctus (0.013) ; habeo (0.007) ; dico#2 (0.007) ; quod (0.006) ; facio (0.006) ; tuus (0.006) ; 
+0.23767856674455437   T=1,K=2:  dominus (0.015) ; spiritus (0.014) ; omnis (0.013) ; sanctus (0.013) ; deus (0.011) ; dico#2 (0.010) ; ecclesia (0.009) ; facio (0.009) ; tuus (0.008) ; quod (0.008) ; 
+0.3020826288561277   T=1,K=3:  sanctus (0.019) ; spiritus (0.018) ; deus (0.016) ; pater (0.014) ; dico#2 (0.012) ; filius (0.012) ; dominus (0.011) ; quod (0.010) ; omnis (0.009) ; locus (0.009) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

@@ -1,1 +1,40 @@
+751 documents , 1 concepts , 2797 context features (pontifex) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
 
+
+map[]
+
+===============  per type  ===============
+0.07304492333252675   T=0,K=0:  Romanus (0.021) ; quod (0.012) ; sacer (0.010) ; summum (0.008) ; rex (0.008) ; nomen (0.008) ; dico#2 (0.008) ; cardinalis (0.006) ; summus (0.006) ; dignitas (0.006) ; 
+0.24564642014202606   T=1,K=0:  Romanus (0.021) ; quod (0.013) ; sacer (0.010) ; summum (0.008) ; rex (0.008) ; nomen (0.008) ; dico#2 (0.007) ; summus (0.006) ; cardinalis (0.006) ; dignitas (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  Romanus (0.021) ; quod (0.012) ; sacer (0.010) ; summum (0.008) ; rex (0.008) ; nomen (0.008) ; dico#2 (0.007) ; cardinalis (0.006) ; summus (0.006) ; dignitas (0.006) ; 
+
+0.38409728224498374   T=0,K=1:  Romanus (0.019) ; summus (0.012) ; se (0.010) ; omnis (0.009) ; secundus (0.009) ; maximus (0.008) ; ecclesia (0.007) ; quod (0.007) ; quos (0.007) ; summum (0.007) ; 
+0.2618701578101325   T=1,K=1:  Romanus (0.019) ; summus (0.012) ; se (0.010) ; omnis (0.009) ; secundus (0.009) ; maximus (0.007) ; ecclesia (0.007) ; quos (0.007) ; quod (0.006) ; summum (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  Romanus (0.019) ; summus (0.012) ; se (0.010) ; omnis (0.009) ; secundus (0.009) ; maximus (0.008) ; ecclesia (0.007) ; quos (0.007) ; quod (0.007) ; summum (0.006) ; 
+
+0.08829748062784809   T=0,K=2:  Romanus (0.026) ; omnis (0.010) ; ecclesia (0.009) ; se (0.009) ; summus (0.008) ; venio (0.008) ; facio (0.007) ; alius (0.007) ; quod (0.007) ; princeps (0.007) ; 
+0.2637522440044958   T=1,K=2:  Romanus (0.027) ; ecclesia (0.009) ; omnis (0.009) ; se (0.009) ; summus (0.008) ; venio (0.008) ; alius (0.008) ; facio (0.008) ; quod (0.007) ; princeps (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  Romanus (0.026) ; omnis (0.009) ; ecclesia (0.009) ; se (0.009) ; summus (0.008) ; venio (0.008) ; alius (0.008) ; facio (0.008) ; quod (0.007) ; princeps (0.007) ; 
+
+0.4545603137946415   T=0,K=3:  maximus (0.020) ; Romanus (0.019) ; summus (0.014) ; omnis (0.013) ; facio (0.009) ; rex (0.008) ; se (0.008) ; locus (0.008) ; quod (0.008) ; episcopus (0.007) ; 
+0.22873117804334556   T=1,K=3:  Romanus (0.019) ; maximus (0.018) ; summus (0.015) ; omnis (0.013) ; facio (0.009) ; rex (0.008) ; locus (0.008) ; episcopus (0.008) ; se (0.008) ; quod (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  maximus (0.019) ; Romanus (0.019) ; summus (0.014) ; omnis (0.013) ; facio (0.009) ; rex (0.008) ; locus (0.008) ; se (0.008) ; episcopus (0.008) ; quod (0.007) ; 
+
+===============  per time  ===============
+Time=0  
+0.07304492333252675   T=0,K=0:  Romanus (0.021) ; quod (0.012) ; sacer (0.010) ; summum (0.008) ; rex (0.008) ; nomen (0.008) ; dico#2 (0.008) ; cardinalis (0.006) ; summus (0.006) ; dignitas (0.006) ; 
+0.38409728224498374   T=0,K=1:  Romanus (0.019) ; summus (0.012) ; se (0.010) ; omnis (0.009) ; secundus (0.009) ; maximus (0.008) ; ecclesia (0.007) ; quod (0.007) ; quos (0.007) ; summum (0.007) ; 
+0.08829748062784809   T=0,K=2:  Romanus (0.026) ; omnis (0.010) ; ecclesia (0.009) ; se (0.009) ; summus (0.008) ; venio (0.008) ; facio (0.007) ; alius (0.007) ; quod (0.007) ; princeps (0.007) ; 
+0.4545603137946415   T=0,K=3:  maximus (0.020) ; Romanus (0.019) ; summus (0.014) ; omnis (0.013) ; facio (0.009) ; rex (0.008) ; se (0.008) ; locus (0.008) ; quod (0.008) ; episcopus (0.007) ; 
+
+Time=1  
+0.24564642014202606   T=1,K=0:  Romanus (0.021) ; quod (0.013) ; sacer (0.010) ; summum (0.008) ; rex (0.008) ; nomen (0.008) ; dico#2 (0.007) ; summus (0.006) ; cardinalis (0.006) ; dignitas (0.006) ; 
+0.2618701578101325   T=1,K=1:  Romanus (0.019) ; summus (0.012) ; se (0.010) ; omnis (0.009) ; secundus (0.009) ; maximus (0.007) ; ecclesia (0.007) ; quos (0.007) ; quod (0.006) ; summum (0.006) ; 
+0.2637522440044958   T=1,K=2:  Romanus (0.027) ; ecclesia (0.009) ; omnis (0.009) ; se (0.009) ; summus (0.008) ; venio (0.008) ; alius (0.008) ; facio (0.008) ; quod (0.007) ; princeps (0.007) ; 
+0.22873117804334556   T=1,K=3:  Romanus (0.019) ; maximus (0.018) ; summus (0.015) ; omnis (0.013) ; facio (0.009) ; rex (0.008) ; locus (0.008) ; episcopus (0.008) ; se (0.008) ; quod (0.007) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

@@ -1,0 +1,40 @@
+3466 documents , 1 concepts , 7461 context features (hostis) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.23615387126133752   T=0,K=0:  castrum (0.013) ; se (0.009) ; omnis (0.007) ; quod (0.007) ; urbs (0.006) ; video (0.006) ; alius (0.005) ; acies (0.005) ; bellum (0.005) ; primus (0.005) ; 
+0.22371348544544167   T=1,K=0:  castrum (0.012) ; se (0.010) ; quod (0.007) ; omnis (0.007) ; urbs (0.006) ; video (0.006) ; acies (0.005) ; alius (0.005) ; primus (0.005) ; bellum (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  castrum (0.012) ; se (0.010) ; quod (0.007) ; omnis (0.007) ; urbs (0.006) ; video (0.006) ; alius (0.005) ; acies (0.005) ; primus (0.005) ; bellum (0.005) ; 
+
+0.32001187287600474   T=0,K=1:  se (0.011) ; Romanus (0.007) ; facio (0.006) ; exercitus (0.006) ; castrum (0.005) ; video (0.005) ; quod (0.005) ; urbs (0.005) ; acies (0.005) ; consul (0.005) ; 
+0.2689709302474255   T=1,K=1:  se (0.012) ; Romanus (0.007) ; facio (0.007) ; acies (0.006) ; quod (0.005) ; exercitus (0.005) ; castrum (0.005) ; video (0.005) ; consul (0.005) ; urbs (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  se (0.011) ; Romanus (0.007) ; facio (0.006) ; exercitus (0.005) ; acies (0.005) ; quod (0.005) ; castrum (0.005) ; video (0.005) ; urbs (0.005) ; consul (0.005) ; 
+
+0.24967970121387895   T=0,K=2:  castrum (0.009) ; se (0.009) ; omnis (0.008) ; quod (0.007) ; acies (0.007) ; locus (0.006) ; exercitus (0.005) ; capio (0.005) ; multus (0.005) ; urbs (0.005) ; 
+0.25965556781341625   T=1,K=2:  castrum (0.009) ; se (0.008) ; omnis (0.008) ; quod (0.007) ; acies (0.007) ; locus (0.006) ; capio (0.006) ; multus (0.005) ; exercitus (0.005) ; urbs (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  castrum (0.009) ; se (0.008) ; omnis (0.008) ; quod (0.007) ; acies (0.007) ; locus (0.006) ; capio (0.005) ; exercitus (0.005) ; multus (0.005) ; urbs (0.005) ; 
+
+0.19415455464877873   T=0,K=3:  se (0.011) ; omnis (0.008) ; facio (0.007) ; castrum (0.007) ; exercitus (0.006) ; Romanus (0.006) ; mille (0.005) ; multus (0.005) ; urbs (0.005) ; hostis (0.005) ; 
+0.24766001649371658   T=1,K=3:  se (0.012) ; omnis (0.008) ; facio (0.007) ; castrum (0.007) ; exercitus (0.006) ; Romanus (0.006) ; tantus (0.005) ; urbs (0.005) ; habeo (0.005) ; multus (0.005) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  se (0.012) ; omnis (0.008) ; facio (0.007) ; castrum (0.007) ; exercitus (0.006) ; Romanus (0.006) ; urbs (0.005) ; multus (0.005) ; tantus (0.005) ; mille (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.23615387126133752   T=0,K=0:  castrum (0.013) ; se (0.009) ; omnis (0.007) ; quod (0.007) ; urbs (0.006) ; video (0.006) ; alius (0.005) ; acies (0.005) ; bellum (0.005) ; primus (0.005) ; 
+0.32001187287600474   T=0,K=1:  se (0.011) ; Romanus (0.007) ; facio (0.006) ; exercitus (0.006) ; castrum (0.005) ; video (0.005) ; quod (0.005) ; urbs (0.005) ; acies (0.005) ; consul (0.005) ; 
+0.24967970121387895   T=0,K=2:  castrum (0.009) ; se (0.009) ; omnis (0.008) ; quod (0.007) ; acies (0.007) ; locus (0.006) ; exercitus (0.005) ; capio (0.005) ; multus (0.005) ; urbs (0.005) ; 
+0.19415455464877873   T=0,K=3:  se (0.011) ; omnis (0.008) ; facio (0.007) ; castrum (0.007) ; exercitus (0.006) ; Romanus (0.006) ; mille (0.005) ; multus (0.005) ; urbs (0.005) ; hostis (0.005) ; 
+
+Time=1  
+0.22371348544544167   T=1,K=0:  castrum (0.012) ; se (0.010) ; quod (0.007) ; omnis (0.007) ; urbs (0.006) ; video (0.006) ; acies (0.005) ; alius (0.005) ; primus (0.005) ; bellum (0.005) ; 
+0.2689709302474255   T=1,K=1:  se (0.012) ; Romanus (0.007) ; facio (0.007) ; acies (0.006) ; quod (0.005) ; exercitus (0.005) ; castrum (0.005) ; video (0.005) ; consul (0.005) ; urbs (0.005) ; 
+0.25965556781341625   T=1,K=2:  castrum (0.009) ; se (0.008) ; omnis (0.008) ; quod (0.007) ; acies (0.007) ; locus (0.006) ; capio (0.006) ; multus (0.005) ; exercitus (0.005) ; urbs (0.005) ; 
+0.24766001649371658   T=1,K=3:  se (0.012) ; omnis (0.008) ; facio (0.007) ; castrum (0.007) ; exercitus (0.006) ; Romanus (0.006) ; tantus (0.005) ; urbs (0.005) ; habeo (0.005) ; multus (0.005) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

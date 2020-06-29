@@ -1,0 +1,40 @@
+217 documents , 1 concepts , 1161 context features (adsumo) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.09105219941154845   T=0,K=0:  alius (0.021) ; quod (0.013) ; vel (0.013) ; venio (0.013) ; vos (0.012) ; corpus (0.012) ; stomachus (0.012) ; scio (0.012) ; se (0.011) ; suscipio (0.011) ; 
+0.23163713511894132   T=1,K=0:  alius (0.021) ; venio (0.013) ; quod (0.013) ; vel (0.013) ; corpus (0.012) ; vos (0.012) ; stomachus (0.012) ; scio (0.011) ; se (0.011) ; suscipio (0.011) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  alius (0.021) ; quod (0.013) ; vel (0.013) ; venio (0.013) ; corpus (0.012) ; vos (0.012) ; stomachus (0.012) ; scio (0.012) ; se (0.011) ; suscipio (0.011) ; 
+
+0.34566267448998755   T=0,K=1:  quod (0.016) ; facio (0.014) ; ] (0.012) ; deus (0.011) ; alius (0.011) ; tuus (0.011) ; particeps (0.010) ; meus (0.010) ; Babylon (0.010) ; se (0.010) ; 
+0.3054004586908764   T=1,K=1:  quod (0.015) ; facio (0.014) ; ] (0.013) ; alius (0.011) ; deus (0.011) ; meus (0.011) ; tuus (0.010) ; se (0.010) ; particeps (0.010) ; Babylon (0.010) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  quod (0.015) ; facio (0.014) ; ] (0.012) ; alius (0.011) ; deus (0.011) ; meus (0.010) ; tuus (0.010) ; particeps (0.010) ; Babylon (0.010) ; se (0.010) ; 
+
+0.03964738094198391   T=0,K=2:  frango (0.024) ; cibus (0.022) ; quidam (0.018) ; dominus (0.016) ; moror (0.015) ; uti (0.015) ; aqua (0.014) ; taceo (0.012) ; bibo (0.011) ; bubus (0.010) ; 
+0.20351964595924582   T=1,K=2:  cibus (0.023) ; frango (0.023) ; quidam (0.018) ; moror (0.016) ; dominus (0.015) ; uti (0.015) ; aqua (0.013) ; taceo (0.012) ; bibo (0.011) ; bubus (0.011) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  frango (0.023) ; cibus (0.022) ; quidam (0.018) ; moror (0.016) ; dominus (0.015) ; uti (0.015) ; aqua (0.013) ; taceo (0.012) ; bibo (0.011) ; bubus (0.011) ; 
+
+0.5236377451564801   T=0,K=3:  se (0.037) ; quidam (0.019) ; anima (0.016) ; deus (0.011) ; quod (0.011) ; dominus (0.011) ; ajo (0.011) ; aliquot (0.010) ; mitto (0.010) ; mensis (0.009) ; 
+0.2594427602309365   T=1,K=3:  se (0.037) ; quidam (0.020) ; anima (0.016) ; deus (0.012) ; quod (0.011) ; ajo (0.011) ; dominus (0.011) ; mitto (0.010) ; aliquot (0.010) ; utor (0.009) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  se (0.037) ; quidam (0.020) ; anima (0.016) ; deus (0.011) ; quod (0.011) ; dominus (0.011) ; ajo (0.011) ; mitto (0.010) ; aliquot (0.010) ; mensis (0.009) ; 
+
+===============  per time  ===============
+Time=0  
+0.09105219941154845   T=0,K=0:  alius (0.021) ; quod (0.013) ; vel (0.013) ; venio (0.013) ; vos (0.012) ; corpus (0.012) ; stomachus (0.012) ; scio (0.012) ; se (0.011) ; suscipio (0.011) ; 
+0.34566267448998755   T=0,K=1:  quod (0.016) ; facio (0.014) ; ] (0.012) ; deus (0.011) ; alius (0.011) ; tuus (0.011) ; particeps (0.010) ; meus (0.010) ; Babylon (0.010) ; se (0.010) ; 
+0.03964738094198391   T=0,K=2:  frango (0.024) ; cibus (0.022) ; quidam (0.018) ; dominus (0.016) ; moror (0.015) ; uti (0.015) ; aqua (0.014) ; taceo (0.012) ; bibo (0.011) ; bubus (0.010) ; 
+0.5236377451564801   T=0,K=3:  se (0.037) ; quidam (0.019) ; anima (0.016) ; deus (0.011) ; quod (0.011) ; dominus (0.011) ; ajo (0.011) ; aliquot (0.010) ; mitto (0.010) ; mensis (0.009) ; 
+
+Time=1  
+0.23163713511894132   T=1,K=0:  alius (0.021) ; venio (0.013) ; quod (0.013) ; vel (0.013) ; corpus (0.012) ; vos (0.012) ; stomachus (0.012) ; scio (0.011) ; se (0.011) ; suscipio (0.011) ; 
+0.3054004586908764   T=1,K=1:  quod (0.015) ; facio (0.014) ; ] (0.013) ; alius (0.011) ; deus (0.011) ; meus (0.011) ; tuus (0.010) ; se (0.010) ; particeps (0.010) ; Babylon (0.010) ; 
+0.20351964595924582   T=1,K=2:  cibus (0.023) ; frango (0.023) ; quidam (0.018) ; moror (0.016) ; dominus (0.015) ; uti (0.015) ; aqua (0.013) ; taceo (0.012) ; bibo (0.011) ; bubus (0.011) ; 
+0.2594427602309365   T=1,K=3:  se (0.037) ; quidam (0.020) ; anima (0.016) ; deus (0.012) ; quod (0.011) ; ajo (0.011) ; dominus (0.011) ; mitto (0.010) ; aliquot (0.010) ; utor (0.009) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

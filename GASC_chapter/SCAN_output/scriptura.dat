@@ -1,0 +1,40 @@
+755 documents , 1 concepts , 2503 context features (scriptura) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.11569038772888639   T=0,K=0:  deus (0.021) ; dico#2 (0.017) ; alius (0.015) ; sacer (0.013) ; omnis (0.010) ; vel (0.008) ; verbum (0.008) ; vox (0.008) ; quod (0.008) ; noster (0.007) ; 
+0.26544987095368444   T=1,K=0:  deus (0.019) ; dico#2 (0.016) ; alius (0.016) ; sacer (0.013) ; omnis (0.010) ; vox (0.008) ; quod (0.008) ; vel (0.008) ; verbum (0.008) ; doceo (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  deus (0.020) ; dico#2 (0.017) ; alius (0.015) ; sacer (0.013) ; omnis (0.010) ; vel (0.008) ; verbum (0.008) ; vox (0.008) ; quod (0.008) ; doceo (0.007) ; 
+
+0.2635521687151279   T=0,K=1:  quod (0.017) ; sacer (0.016) ; dico#2 (0.014) ; sanctus (0.012) ; facio (0.012) ; omnis (0.010) ; divinus (0.010) ; deus (0.010) ; aperio (0.008) ; vel (0.008) ; 
+0.2821944497718428   T=1,K=1:  quod (0.018) ; sacer (0.016) ; dico#2 (0.015) ; sanctus (0.012) ; facio (0.012) ; omnis (0.010) ; divinus (0.010) ; deus (0.009) ; aperio (0.009) ; fides (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  quod (0.018) ; sacer (0.016) ; dico#2 (0.014) ; sanctus (0.012) ; facio (0.012) ; omnis (0.010) ; divinus (0.010) ; deus (0.010) ; aperio (0.009) ; vel (0.008) ; 
+
+0.16916227400814005   T=0,K=2:  sacer (0.017) ; omnis (0.017) ; vel (0.015) ; deus (0.013) ; dico#2 (0.012) ; divinus (0.012) ; traditio (0.009) ; quod (0.009) ; video (0.009) ; scriptura (0.008) ; 
+0.2038980970040446   T=1,K=2:  sacer (0.017) ; omnis (0.017) ; vel (0.015) ; deus (0.013) ; dico#2 (0.012) ; divinus (0.012) ; traditio (0.009) ; video (0.009) ; quod (0.009) ; alius (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  sacer (0.017) ; omnis (0.017) ; vel (0.015) ; deus (0.013) ; dico#2 (0.012) ; divinus (0.012) ; traditio (0.009) ; quod (0.009) ; video (0.009) ; scriptura (0.008) ; 
+
+0.4515951695478456   T=0,K=3:  vel (0.014) ; facio (0.013) ; dico#2 (0.013) ; scribo (0.012) ; omnis (0.010) ; deus (0.010) ; alius (0.010) ; sanctus (0.009) ; dominus (0.008) ; divinus (0.008) ; 
+0.24845758227042816   T=1,K=3:  facio (0.014) ; vel (0.014) ; scribo (0.012) ; dico#2 (0.012) ; omnis (0.010) ; deus (0.010) ; alius (0.010) ; sanctus (0.009) ; divinus (0.008) ; dominus (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  vel (0.014) ; facio (0.014) ; dico#2 (0.012) ; scribo (0.012) ; omnis (0.010) ; deus (0.010) ; alius (0.010) ; sanctus (0.009) ; dominus (0.008) ; divinus (0.008) ; 
+
+===============  per time  ===============
+Time=0  
+0.11569038772888639   T=0,K=0:  deus (0.021) ; dico#2 (0.017) ; alius (0.015) ; sacer (0.013) ; omnis (0.010) ; vel (0.008) ; verbum (0.008) ; vox (0.008) ; quod (0.008) ; noster (0.007) ; 
+0.2635521687151279   T=0,K=1:  quod (0.017) ; sacer (0.016) ; dico#2 (0.014) ; sanctus (0.012) ; facio (0.012) ; omnis (0.010) ; divinus (0.010) ; deus (0.010) ; aperio (0.008) ; vel (0.008) ; 
+0.16916227400814005   T=0,K=2:  sacer (0.017) ; omnis (0.017) ; vel (0.015) ; deus (0.013) ; dico#2 (0.012) ; divinus (0.012) ; traditio (0.009) ; quod (0.009) ; video (0.009) ; scriptura (0.008) ; 
+0.4515951695478456   T=0,K=3:  vel (0.014) ; facio (0.013) ; dico#2 (0.013) ; scribo (0.012) ; omnis (0.010) ; deus (0.010) ; alius (0.010) ; sanctus (0.009) ; dominus (0.008) ; divinus (0.008) ; 
+
+Time=1  
+0.26544987095368444   T=1,K=0:  deus (0.019) ; dico#2 (0.016) ; alius (0.016) ; sacer (0.013) ; omnis (0.010) ; vox (0.008) ; quod (0.008) ; vel (0.008) ; verbum (0.008) ; doceo (0.007) ; 
+0.2821944497718428   T=1,K=1:  quod (0.018) ; sacer (0.016) ; dico#2 (0.015) ; sanctus (0.012) ; facio (0.012) ; omnis (0.010) ; divinus (0.010) ; deus (0.009) ; aperio (0.009) ; fides (0.008) ; 
+0.2038980970040446   T=1,K=2:  sacer (0.017) ; omnis (0.017) ; vel (0.015) ; deus (0.013) ; dico#2 (0.012) ; divinus (0.012) ; traditio (0.009) ; video (0.009) ; quod (0.009) ; alius (0.008) ; 
+0.24845758227042816   T=1,K=3:  facio (0.014) ; vel (0.014) ; scribo (0.012) ; dico#2 (0.012) ; omnis (0.010) ; deus (0.010) ; alius (0.010) ; sanctus (0.009) ; divinus (0.008) ; dominus (0.008) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

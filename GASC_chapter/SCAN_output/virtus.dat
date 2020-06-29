@@ -1,0 +1,40 @@
+2750 documents , 1 concepts , 6180 context features (virtus) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.25973879796924054   T=0,K=0:  omnis (0.017) ; virtus (0.008) ; bonus (0.007) ; tantus (0.007) ; habeo (0.007) ; res (0.007) ; noster (0.007) ; magnus (0.007) ; homo (0.006) ; se (0.006) ; 
+0.219253939879742   T=1,K=0:  omnis (0.018) ; virtus (0.009) ; tantus (0.007) ; bonus (0.007) ; noster (0.007) ; habeo (0.007) ; homo (0.007) ; se (0.007) ; magnus (0.007) ; res (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  omnis (0.018) ; virtus (0.008) ; bonus (0.007) ; tantus (0.007) ; habeo (0.007) ; noster (0.007) ; res (0.007) ; magnus (0.007) ; homo (0.006) ; se (0.006) ; 
+
+0.13048029402279587   T=0,K=1:  omnis (0.012) ; deus (0.010) ; dico#2 (0.010) ; habeo (0.008) ; quod (0.008) ; virtus (0.007) ; facio (0.007) ; res (0.007) ; gloria (0.006) ; animus (0.006) ; 
+0.2998960460976229   T=1,K=1:  omnis (0.012) ; dico#2 (0.010) ; deus (0.010) ; habeo (0.008) ; quod (0.008) ; virtus (0.007) ; facio (0.007) ; res (0.006) ; animus (0.006) ; gloria (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  omnis (0.012) ; dico#2 (0.010) ; deus (0.010) ; habeo (0.008) ; quod (0.008) ; virtus (0.007) ; facio (0.007) ; res (0.007) ; gloria (0.006) ; animus (0.006) ; 
+
+0.3367609997711836   T=0,K=2:  omnis (0.017) ; virtus (0.014) ; quod (0.012) ; dico#2 (0.009) ; se (0.007) ; vitium (0.007) ; res (0.007) ; alius (0.007) ; magnus (0.007) ; verus (0.007) ; 
+0.26316783226624335   T=1,K=2:  omnis (0.017) ; virtus (0.014) ; quod (0.012) ; dico#2 (0.009) ; se (0.007) ; vitium (0.007) ; facio (0.007) ; alius (0.007) ; magnus (0.007) ; res (0.007) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  omnis (0.017) ; virtus (0.014) ; quod (0.012) ; dico#2 (0.009) ; se (0.007) ; vitium (0.007) ; res (0.007) ; alius (0.007) ; magnus (0.007) ; facio (0.007) ; 
+
+0.27301990823678   T=0,K=3:  omnis (0.013) ; quod (0.009) ; se (0.008) ; deus (0.007) ; facio (0.006) ; video (0.006) ; magnus (0.006) ; dico#2 (0.006) ; res (0.006) ; virtus (0.005) ; 
+0.2176821817563919   T=1,K=3:  omnis (0.013) ; quod (0.009) ; se (0.008) ; facio (0.006) ; deus (0.006) ; video (0.006) ; magnus (0.006) ; dico#2 (0.006) ; res (0.006) ; virtus (0.006) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  omnis (0.013) ; quod (0.009) ; se (0.008) ; facio (0.006) ; deus (0.006) ; video (0.006) ; magnus (0.006) ; dico#2 (0.006) ; res (0.006) ; virtus (0.005) ; 
+
+===============  per time  ===============
+Time=0  
+0.25973879796924054   T=0,K=0:  omnis (0.017) ; virtus (0.008) ; bonus (0.007) ; tantus (0.007) ; habeo (0.007) ; res (0.007) ; noster (0.007) ; magnus (0.007) ; homo (0.006) ; se (0.006) ; 
+0.13048029402279587   T=0,K=1:  omnis (0.012) ; deus (0.010) ; dico#2 (0.010) ; habeo (0.008) ; quod (0.008) ; virtus (0.007) ; facio (0.007) ; res (0.007) ; gloria (0.006) ; animus (0.006) ; 
+0.3367609997711836   T=0,K=2:  omnis (0.017) ; virtus (0.014) ; quod (0.012) ; dico#2 (0.009) ; se (0.007) ; vitium (0.007) ; res (0.007) ; alius (0.007) ; magnus (0.007) ; verus (0.007) ; 
+0.27301990823678   T=0,K=3:  omnis (0.013) ; quod (0.009) ; se (0.008) ; deus (0.007) ; facio (0.006) ; video (0.006) ; magnus (0.006) ; dico#2 (0.006) ; res (0.006) ; virtus (0.005) ; 
+
+Time=1  
+0.219253939879742   T=1,K=0:  omnis (0.018) ; virtus (0.009) ; tantus (0.007) ; bonus (0.007) ; noster (0.007) ; habeo (0.007) ; homo (0.007) ; se (0.007) ; magnus (0.007) ; res (0.006) ; 
+0.2998960460976229   T=1,K=1:  omnis (0.012) ; dico#2 (0.010) ; deus (0.010) ; habeo (0.008) ; quod (0.008) ; virtus (0.007) ; facio (0.007) ; res (0.006) ; animus (0.006) ; gloria (0.006) ; 
+0.26316783226624335   T=1,K=2:  omnis (0.017) ; virtus (0.014) ; quod (0.012) ; dico#2 (0.009) ; se (0.007) ; vitium (0.007) ; facio (0.007) ; alius (0.007) ; magnus (0.007) ; res (0.007) ; 
+0.2176821817563919   T=1,K=3:  omnis (0.013) ; quod (0.009) ; se (0.008) ; facio (0.006) ; deus (0.006) ; video (0.006) ; magnus (0.006) ; dico#2 (0.006) ; res (0.006) ; virtus (0.006) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000

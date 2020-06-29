@@ -1,0 +1,40 @@
+344 documents , 1 concepts , 1690 context features (nobilitas) 
+kappaF 1000.000000, kappaK 1.000000, a0 1.000000, b0 1.000000, K 4, max_docs_per_slice 2000, start -100, end 100, times 2, dT 200, I 2500
+
+
+map[]
+
+===============  per type  ===============
+0.21350312605311703   T=0,K=0:  omnis (0.015) ; tuus (0.013) ; multus (0.012) ; genus (0.011) ; modus (0.011) ; probitas (0.010) ; facio (0.008) ; quod (0.008) ; magnus (0.008) ; insignis (0.008) ; 
+0.2937424188607104   T=1,K=0:  omnis (0.015) ; tuus (0.013) ; multus (0.012) ; genus (0.012) ; modus (0.010) ; probitas (0.010) ; facio (0.008) ; magnus (0.008) ; quod (0.008) ; nobilis (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=0:  omnis (0.015) ; tuus (0.013) ; multus (0.012) ; genus (0.011) ; modus (0.010) ; probitas (0.010) ; facio (0.008) ; magnus (0.008) ; quod (0.008) ; insignis (0.008) ; 
+
+0.4302387879492889   T=0,K=1:  virtus (0.012) ; multus (0.011) ; summa (0.011) ; fama (0.010) ; homo (0.010) ; quod (0.010) ; urbs (0.009) ; officium (0.009) ; domus (0.008) ; nomen (0.008) ; 
+0.2246320923289454   T=1,K=1:  virtus (0.012) ; multus (0.011) ; summa (0.011) ; fama (0.010) ; homo (0.010) ; quod (0.010) ; urbs (0.009) ; officium (0.008) ; domus (0.008) ; nomen (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=1:  virtus (0.012) ; multus (0.011) ; summa (0.011) ; fama (0.010) ; homo (0.010) ; quod (0.010) ; urbs (0.009) ; officium (0.009) ; domus (0.008) ; nomen (0.008) ; 
+
+0.2512632149071914   T=0,K=2:  se (0.017) ; plebs (0.017) ; rex (0.015) ; alius (0.012) ; multus (0.012) ; nullus (0.011) ; nomen (0.009) ; ] (0.009) ; genus (0.009) ; praetor (0.008) ; 
+0.1920095199524471   T=1,K=2:  se (0.017) ; plebs (0.016) ; rex (0.014) ; alius (0.013) ; multus (0.012) ; nullus (0.011) ; nomen (0.009) ; ] (0.008) ; praetor (0.008) ; genus (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=2:  se (0.017) ; plebs (0.016) ; rex (0.014) ; alius (0.013) ; multus (0.012) ; nullus (0.011) ; nomen (0.009) ; ] (0.008) ; praetor (0.008) ; genus (0.008) ; 
+
+0.10499487109040263   T=0,K=3:  genus (0.020) ; res (0.012) ; dignus (0.011) ; intersum (0.010) ; potestas (0.008) ; turba (0.008) ; summus (0.008) ; auctoritas (0.008) ; convenio (0.008) ; multus (0.008) ; 
+0.28961596885789714   T=1,K=3:  genus (0.021) ; res (0.011) ; dignus (0.011) ; intersum (0.010) ; potestas (0.008) ; turba (0.008) ; summus (0.008) ; honor (0.008) ; convenio (0.008) ; multus (0.008) ; 
+p(w|s) = sum_t P(w|t,s)  T=-1,K=3:  genus (0.021) ; res (0.012) ; dignus (0.011) ; intersum (0.010) ; potestas (0.008) ; turba (0.008) ; summus (0.008) ; convenio (0.008) ; honor (0.008) ; auctoritas (0.008) ; 
+
+===============  per time  ===============
+Time=0  
+0.21350312605311703   T=0,K=0:  omnis (0.015) ; tuus (0.013) ; multus (0.012) ; genus (0.011) ; modus (0.011) ; probitas (0.010) ; facio (0.008) ; quod (0.008) ; magnus (0.008) ; insignis (0.008) ; 
+0.4302387879492889   T=0,K=1:  virtus (0.012) ; multus (0.011) ; summa (0.011) ; fama (0.010) ; homo (0.010) ; quod (0.010) ; urbs (0.009) ; officium (0.009) ; domus (0.008) ; nomen (0.008) ; 
+0.2512632149071914   T=0,K=2:  se (0.017) ; plebs (0.017) ; rex (0.015) ; alius (0.012) ; multus (0.012) ; nullus (0.011) ; nomen (0.009) ; ] (0.009) ; genus (0.009) ; praetor (0.008) ; 
+0.10499487109040263   T=0,K=3:  genus (0.020) ; res (0.012) ; dignus (0.011) ; intersum (0.010) ; potestas (0.008) ; turba (0.008) ; summus (0.008) ; auctoritas (0.008) ; convenio (0.008) ; multus (0.008) ; 
+
+Time=1  
+0.2937424188607104   T=1,K=0:  omnis (0.015) ; tuus (0.013) ; multus (0.012) ; genus (0.012) ; modus (0.010) ; probitas (0.010) ; facio (0.008) ; magnus (0.008) ; quod (0.008) ; nobilis (0.008) ; 
+0.2246320923289454   T=1,K=1:  virtus (0.012) ; multus (0.011) ; summa (0.011) ; fama (0.010) ; homo (0.010) ; quod (0.010) ; urbs (0.009) ; officium (0.008) ; domus (0.008) ; nomen (0.008) ; 
+0.1920095199524471   T=1,K=2:  se (0.017) ; plebs (0.016) ; rex (0.014) ; alius (0.013) ; multus (0.012) ; nullus (0.011) ; nomen (0.009) ; ] (0.008) ; praetor (0.008) ; genus (0.008) ; 
+0.28961596885789714   T=1,K=3:  genus (0.021) ; res (0.011) ; dignus (0.011) ; intersum (0.010) ; potestas (0.008) ; turba (0.008) ; summus (0.008) ; honor (0.008) ; convenio (0.008) ; multus (0.008) ; 
+
+
+
+-----------------------
+ kappa_c 1.000000 , kappa_f 1000.000000
