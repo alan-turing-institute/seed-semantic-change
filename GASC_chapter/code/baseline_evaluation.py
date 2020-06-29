@@ -4,6 +4,11 @@
 # Python version: 3
 # Script for processing output files from SCAN and GASC and reduce them to a binary change score for each word, for Latin and Ancient Greek
 
+
+# Activate the virtual enviroment (this is important because that's where to install ruptures, which downgrades some Python packages including scipy and numpy!)
+# source gasc_python/bin/activate
+# Deactivate: deactivate
+
 # ----------------------------
 # Initialization
 # ----------------------------
@@ -23,6 +28,10 @@ import math
 from statistics import mean
 from scipy.stats import spearmanr
 from os.path import dirname, realpath
+import matplotlib.pyplot as plt
+import ruptures as rpt
+import numpy as np
+
 
 now = datetime.datetime.now()
 today_date = str(now)[:10]
@@ -152,7 +161,7 @@ for line in model_output_file:
             print("prob = " + str(prob))
             print("time = " + str(time))
             print("sense = " + str(sense))
-            time2sense2probability[time, sense] = prob
+            time2sense2probability[sense, time] = prob
 
     #if found_time_probabilities == 1:
         #if found_time_slices == 1:
@@ -161,7 +170,21 @@ for line in model_output_file:
 
 model_output_file.close()
 
-# For Greek: find changepoint in time series:
+# For Greek: find changepoint in time series using ruptures
+# C. Truong, L. Oudre, N. Vayatis. Selective review of offline change point detection methods. Signal Processing, 167:107299, 2020.
+
+array = np.arange(1)
+
+for [s,t] in time2sense2probability:
+    print("s", str(s), "t", str(t), str(time2sense2probability[s,t]))
+
+    array[t] = time2sense2probability[s,t]
+    prrint(str(time2sense2probability))
+#algo = rpt.Pelt(model="rbf").fit(signal)
+#result = algo.predict(pen=10)
+# display
+#rpt.display(signal, bkps, result)
+#plt.show()
 
 
 
