@@ -70,7 +70,30 @@ def print_means_and_stds(k):
             print("sense = " + str(sense + 1))
             mean_prob = np.mean(time2sense2probabilities[time][sense + 1])
             std_prob = np.sqrt(np.var(time2sense2probabilities[time][sense + 1]))
-            print("mean prob +- 2*standard deviations: " + str(mean_prob) + " +- " + str(2*std_prob))
+            print("mean prob +- 3*standard deviations: " + str(mean_prob) + " +- " + str(3*std_prob))
+
+
+def detect_drops_and_peaks(k):
+    for sense in range(k):
+        print("sense = " + str(sense + 1))
+        mean_prob_0 = np.mean(time2sense2probabilities[0][sense + 1])
+        std_prob_0 = np.sqrt(np.var(time2sense2probabilities[0][sense + 1]))
+        mean_prob_1 = np.mean(time2sense2probabilities[1][sense + 1])
+        std_prob_1 = np.sqrt(np.var(time2sense2probabilities[1][sense + 1]))
+        num_stds = 3 # number of standard deviations to use to assess significance
+        # under Gaussian assumption:
+        # 1 ---> 68% confidence interval
+        # 2 ---> 95% confidence interval
+        # 3 ---> 99.7% confidence interval
+
+        if mean_prob_1 - mean_prob_0 > 0:
+            significant = (mean_prob_1 - 2 * std_prob_1) > (mean_prob_0 + num_stds * std_prob_1)
+            print('Probability INcrease: {}; significant? {}'.format(mean_prob_1 - mean_prob_0, significant))
+        else:
+            significant = (mean_prob_1 + 2 * std_prob_1) < (mean_prob_0 - num_stds * std_prob_1)
+            print('Probability DEcrease: {}; significant? {}'.format(mean_prob_0 - mean_prob_1, significant))
+
+
 
 # ---------------------------------------
 # Initialization:
@@ -219,6 +242,7 @@ model_output_file.close()
 
 if language == 'Latin' and model == 'SCAN':
     print_means_and_stds(K)
+    detect_drops_and_peaks(K)
 
 # For Greek: find changepoint in time series using ruptures
 # C. Truong, L. Oudre, N. Vayatis. Selective review of offline change point detection methods. Signal Processing, 167:107299, 2020.
