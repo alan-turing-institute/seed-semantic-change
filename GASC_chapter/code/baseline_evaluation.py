@@ -37,18 +37,18 @@ now = datetime.datetime.now()
 today_date = str(now)[:10]
 
 
-def add_probabilities_to_dict(line_text, k):
+def add_probabilities_to_dict(line_text, k, times):
     """For each time and sense, adds probability at each iteration to the dictionary time2sense2probabilities.
     This dictionary is useful at the end to compute probability means and standard deviations.
 
     Inputs:
-    * line_text: current line of text
-    * k: number of senses
+    line_text: current line of text
+    k: number of senses
+    times: number of time points
     """
-    times = [0, 1]  # Latin has only two time points
     patterns = ['{(0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?),',
                 ' (0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?)}']
-    for time, pattern in zip(times, patterns):
+    for time, pattern in zip(range(times), patterns):
         if re.match(pattern, line_text):
             match = re.match(pattern, line_text)
             for i in range(k):
@@ -62,9 +62,9 @@ def add_probabilities_to_dict(line_text, k):
                     else:
                         time2sense2probabilities[time][sense_index].append(sense_prob)
 
-def print_means_and_stds(k):
+def print_means_and_stds(k, times):
     print('Latin: For each time, mean and two standard deviations of probability of each sense.')
-    for time in [0, 1]:
+    for time in range(times):
         print("time = " + str(time))
         for sense in range(k):
             print("sense = " + str(sense + 1))
@@ -73,25 +73,26 @@ def print_means_and_stds(k):
             print("mean prob +- 3*standard deviations: " + str(mean_prob) + " +- " + str(3*std_prob))
 
 
-def detect_drops_and_peaks(k):
+def detect_drops_and_peaks(k, times):
     for sense in range(k):
         print("sense = " + str(sense + 1))
-        mean_prob_0 = np.mean(time2sense2probabilities[0][sense + 1])
-        std_prob_0 = np.sqrt(np.var(time2sense2probabilities[0][sense + 1]))
-        mean_prob_1 = np.mean(time2sense2probabilities[1][sense + 1])
-        std_prob_1 = np.sqrt(np.var(time2sense2probabilities[1][sense + 1]))
-        num_stds = 3 # number of standard deviations to use to assess significance
-        # under Gaussian assumption:
-        # 1 ---> 68% confidence interval
-        # 2 ---> 95% confidence interval
-        # 3 ---> 99.7% confidence interval
-
-        if mean_prob_1 - mean_prob_0 > 0:
-            significant = (mean_prob_1 - 2 * std_prob_1) > (mean_prob_0 + num_stds * std_prob_1)
-            print('Probability INcrease: {}; significant? {}'.format(mean_prob_1 - mean_prob_0, significant))
-        else:
-            significant = (mean_prob_1 + 2 * std_prob_1) < (mean_prob_0 - num_stds * std_prob_1)
-            print('Probability DEcrease: {}; significant? {}'.format(mean_prob_0 - mean_prob_1, significant))
+        for t in range(times - 1):
+            print("from time {} to time {}".format(t, t + 1))
+            mean_prob_0 = np.mean(time2sense2probabilities[t][sense + 1])
+            std_prob_0 = np.sqrt(np.var(time2sense2probabilities[t][sense + 1]))
+            mean_prob_1 = np.mean(time2sense2probabilities[t + 1][sense + 1])
+            std_prob_1 = np.sqrt(np.var(time2sense2probabilities[t + 1][sense + 1]))
+            num_stds = 2 # number of standard deviations to use to assess significance
+            # under Gaussian assumption:
+            # 1 ---> 68% confidence interval
+            # 2 ---> 95% confidence interval
+            # 3 ---> 99.7% confidence interval
+            if mean_prob_1 - mean_prob_0 > 0:
+                significant = (mean_prob_1 - 2 * std_prob_1) > (mean_prob_0 + num_stds * std_prob_0)
+                print('Probability INcrease: {}; significant? {}'.format(mean_prob_1 - mean_prob_0, significant))
+            else:
+                significant = (mean_prob_1 + 2 * std_prob_1) < (mean_prob_0 - num_stds * std_prob_0)
+                print('Probability DEcrease: {}; significant? {}'.format(mean_prob_0 - mean_prob_1, significant))
 
 
 
@@ -197,7 +198,7 @@ count = 0
 for line in model_output_file:
     count += 1
     line_text = line.rstrip()
-    print(str(count))
+    #print(str(count))
 
     if language == 'Latin' and model == 'SCAN':
         # SCAN for Latin: use a test to identify statistically significant drops or peaks
@@ -205,10 +206,12 @@ for line in model_output_file:
             # Extract the number of used senses K
             K = int(line_text.split(', K ')[1].split(', ')[0])
             print('There are K = {} senses in the output.'.format(K))
+            times = int(line_text.split(', times ')[1].split(', ')[0])
+            print('There are times = {} time points in the output.'.format(times))
         if "ready to estimate" in line_text:
             found_iterations = 1
         if found_iterations == 1:
-            add_probabilities_to_dict(line_text, K)
+            add_probabilities_to_dict(line_text, K, times)
 
     if " per time " in line_text:
         found_time_probabilities = 1
@@ -241,8 +244,8 @@ for line in model_output_file:
 model_output_file.close()
 
 if language == 'Latin' and model == 'SCAN':
-    print_means_and_stds(K)
-    detect_drops_and_peaks(K)
+    print_means_and_stds(K, times)
+    detect_drops_and_peaks(K, times)
 
 # For Greek: find changepoint in time series using ruptures
 # C. Truong, L. Oudre, N. Vayatis. Selective review of offline change point detection methods. Signal Processing, 167:107299, 2020.
