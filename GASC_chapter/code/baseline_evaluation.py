@@ -36,6 +36,42 @@ import numpy as np
 now = datetime.datetime.now()
 today_date = str(now)[:10]
 
+
+def add_probabilities_to_dict(line_text, k):
+    """For each time and sense, adds probability at each iteration to the dictionary time2sense2probabilities.
+    This dictionary is useful at the end to compute probability means and standard deviations.
+
+    Inputs:
+    * line_text: current line of text
+    * k: number of senses
+    """
+    times = [0, 1]  # Latin has only two time points
+    patterns = ['{(0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?),',
+                ' (0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?)}']
+    for time, pattern in zip(times, patterns):
+        if re.match(pattern, line_text):
+            match = re.match(pattern, line_text)
+            for i in range(k):
+                sense_index = i + 1
+                sense_prob = float(match.group(sense_index))
+                if time not in time2sense2probabilities:
+                    time2sense2probabilities[time] = {sense_index: [sense_prob]}
+                else:
+                    if sense_index not in time2sense2probabilities[time]:
+                        time2sense2probabilities[time][sense_index] = [sense_prob]
+                    else:
+                        time2sense2probabilities[time][sense_index].append(sense_prob)
+
+def print_means_and_stds(k):
+    print('Latin: For each time, mean and two standard deviations of probability of each sense.')
+    for time in [0, 1]:
+        print("time = " + str(time))
+        for sense in range(k):
+            print("sense = " + str(sense + 1))
+            mean_prob = np.mean(time2sense2probabilities[time][sense + 1])
+            std_prob = np.sqrt(np.var(time2sense2probabilities[time][sense + 1]))
+            print("mean prob +- 2*standard deviations: " + str(mean_prob) + " +- " + str(2*std_prob))
+
 # ---------------------------------------
 # Initialization:
 # ---------------------------------------
@@ -129,8 +165,10 @@ model_output_file = open(os.path.join(dir_model_output, model_output_file_name),
 
 found_time_probabilities = 0
 found_time_slices = 0
+found_iterations = 0
 
 time2sense2probability = dict()  # maps a time slice and sense number to its probability predicted by the model
+time2sense2probabilities = dict()  # maps a time slice and sense number to the probability at each iteration
 
 count = 0
 for line in model_output_file:
@@ -138,7 +176,16 @@ for line in model_output_file:
     line_text = line.rstrip()
     print(str(count))
 
-    #SCAN for Latin: use a test to identify statistically significant drops or peaks - Barbara
+    if language == 'Latin' and model == 'SCAN':
+        # SCAN for Latin: use a test to identify statistically significant drops or peaks
+        if count == 7:
+            # Extract the number of used senses K
+            K = int(line_text.split(', K ')[1].split(', ')[0])
+            print('There are K = {} senses in the output.'.format(K))
+        if "ready to estimate" in line_text:
+            found_iterations = 1
+        if found_iterations == 1:
+            add_probabilities_to_dict(line_text, K)
 
     if " per time " in line_text:
         found_time_probabilities = 1
@@ -170,6 +217,9 @@ for line in model_output_file:
 
 model_output_file.close()
 
+if language == 'Latin' and model == 'SCAN':
+    print_means_and_stds(K)
+
 # For Greek: find changepoint in time series using ruptures
 # C. Truong, L. Oudre, N. Vayatis. Selective review of offline change point detection methods. Signal Processing, 167:107299, 2020.
 
@@ -178,8 +228,6 @@ model_output_file.close()
 # display
 #rpt.display(signal, bkps, result)
 #plt.show()
-
-
 
 
 output.close()
