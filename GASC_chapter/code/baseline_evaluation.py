@@ -63,7 +63,7 @@ def add_probabilities_to_dict(line_text, k, times):
                         time2sense2probabilities[time][sense_index].append(sense_prob)
 
 def print_means_and_stds(k, times):
-    print('Latin: For each time, mean and two standard deviations of probability of each sense.')
+    print('\nFor each time, mean and two standard deviations of probability of each sense.')
     for time in range(times):
         print("time = " + str(time))
         for sense in range(k):
@@ -74,6 +74,7 @@ def print_means_and_stds(k, times):
 
 
 def detect_drops_and_peaks(k, times):
+    print("\nConsecutive drops and peaks.")
     for sense in range(k):
         print("sense = " + str(sense + 1))
         for t in range(times - 1):
@@ -88,12 +89,42 @@ def detect_drops_and_peaks(k, times):
             # 2 ---> 95% confidence interval
             # 3 ---> 99.7% confidence interval
             if mean_prob_1 - mean_prob_0 > 0:
-                significant = (mean_prob_1 - 2 * std_prob_1) > (mean_prob_0 + num_stds * std_prob_0)
+                significant = (mean_prob_1 - num_stds * std_prob_1) > (mean_prob_0 + num_stds * std_prob_0)
                 print('Probability INcrease: {}; significant? {}'.format(mean_prob_1 - mean_prob_0, significant))
             else:
-                significant = (mean_prob_1 + 2 * std_prob_1) < (mean_prob_0 - num_stds * std_prob_0)
+                significant = (mean_prob_1 + num_stds * std_prob_1) < (mean_prob_0 - num_stds * std_prob_0)
                 print('Probability DEcrease: {}; significant? {}'.format(mean_prob_0 - mean_prob_1, significant))
 
+
+def detect_overall_drops_and_peaks(k, times):
+    print("\nDrops and peaks across entire time series.")
+    for sense in range(k):
+        print("sense = " + str(sense + 1))
+        min_prob = 2
+        max_prob = -2
+        std_min = 0
+        std_max = 0
+        time_min = 0
+        time_max = 0
+        num_stds = 2  # number of standard deviations to use to assess significance
+        for t in range(times):
+            if np.mean(time2sense2probabilities[t][sense + 1]) < min_prob:
+                min_prob = np.mean(time2sense2probabilities[t][sense + 1])
+                std_min = np.sqrt(np.var(time2sense2probabilities[t][sense + 1]))
+                time_min = t
+            if np.mean(time2sense2probabilities[t][sense + 1]) > max_prob:
+                max_prob = np.mean(time2sense2probabilities[t][sense + 1])
+                std_max = np.sqrt(np.var(time2sense2probabilities[t][sense + 1]))
+                time_max = t
+
+        significant = (max_prob - num_stds * std_max) > (min_prob + num_stds * std_min)
+        if time_min < time_max:
+            print("min probability at time {}, max at time {}".format(time_min, time_max))
+            print('Max global probability INcrease: {}; significant? {}'.format(max_prob - min_prob, significant))
+        else:
+            print("min probability at time {}, max at time {}".format(time_min, time_max))
+            significant = (max_prob - num_stds * std_max) > (min_prob + num_stds * std_min)
+            print('Max global probability DEcrease: {}; significant? {}'.format(max_prob - min_prob, significant))
 
 
 # ---------------------------------------
@@ -200,8 +231,8 @@ for line in model_output_file:
     line_text = line.rstrip()
     #print(str(count))
 
-    if language == 'Latin' and model == 'SCAN':
-        # SCAN for Latin: use a test to identify statistically significant drops or peaks
+    if model == 'SCAN':
+        # SCAN: use a test to identify statistically significant drops or peaks
         if count == 7:
             # Extract the number of used senses K
             K = int(line_text.split(', K ')[1].split(', ')[0])
@@ -243,9 +274,10 @@ for line in model_output_file:
 
 model_output_file.close()
 
-if language == 'Latin' and model == 'SCAN':
+if model == 'SCAN':
     print_means_and_stds(K, times)
     detect_drops_and_peaks(K, times)
+    detect_overall_drops_and_peaks(K, times)
 
 # For Greek: find changepoint in time series using ruptures
 # C. Truong, L. Oudre, N. Vayatis. Selective review of offline change point detection methods. Signal Processing, 167:107299, 2020.
