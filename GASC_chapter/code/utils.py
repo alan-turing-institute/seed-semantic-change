@@ -141,6 +141,32 @@ def LA_to_TR_input():
 				for line in f.readlines():
 					f_out.write(str(index)+"\t"+line.lower())
 	os.system("gzip -f "+"/home/gntsh/git/TemporalReferencing/corpus/test/files/corpus.txt")
+
+def AG_to_TR_input():
+	lang = "AG"
+	corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
+
+	years = list(corpus.year.unique())
+
+		#sorted_df = corpus.sort_values(by="genre")
+		#df_genre = df[corpus[""]
+
+	earliest = -700 #sorted(years)[0]
+	last = 400 #sorted(years)[-1]
+	slice_length = 100
+	bins = []
+	for i in range(earliest,last+slice_length,slice_length):
+		bins.append(i)
+
+	with open("/home/gntsh/git/TemporalReferencing/corpus/AG/files/corpus.txt", "w") as f:
+		for bin in bins:
+			sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length)]
+			
+			for index, row in sub_corpus.iterrows():
+				f.write(str(bin)+"\t"+row["sentence"].lower()+"\n")
+
+		
+	os.system("gzip -f "+"/home/gntsh/git/TemporalReferencing/corpus/AG/files/corpus.txt")
 	
 
 def train_model(slice,genre,lang):

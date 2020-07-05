@@ -45,4 +45,5 @@ for lang in langs:
             train_model(bin,genre,lang)
 
 """ 
-LA_to_TR_input()
+#LA_to_TR_input()
+AG_to_TR_input()
