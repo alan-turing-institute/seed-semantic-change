@@ -15,7 +15,7 @@ All Christian writings (including letters and poems) have been assigned to the g
 
 ## Latin_SCAN_output
 
-Output from SCAN models for Latin.
+Output from SCAN models for Latin on two time periods.
 
 ## Code
 
