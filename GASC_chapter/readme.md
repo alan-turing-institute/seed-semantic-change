@@ -6,6 +6,13 @@ This folder contains the code and data needed for the publication in the "Langua
 
 gold_standard_binary_Latin.txt: list of changed and non-changed Latin words, from SemEval task 1 data, subtask 1.
 
+## Latin_corpus
+
+Processed LatinISE corpus, with added genre annotation by Alessandro Vatri. The genres are: Comedy, Essays, Law, Letters, Narrative, Oratory, Philosophy, Poetry, Christian, Technical, Tragedy.
+The stopword list is this one: https://github.com/cltk/cltk/blob/master/cltk/stop/latin.py
+
+All Christian writings (including letters and poems) have been assigned to the genre 'Christian'. This excludes philosophical but not strictly speaking theological/ecclesiological treatises composed by Christian writers. Collections spanning many centuries (anthologia latina, inscriptions etc) are assigned to a dummy century (100).
+
 ## Latin_SCAN_output
 
 Output from SCAN models for Latin.
