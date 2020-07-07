@@ -5,7 +5,7 @@
 # Script for processing output files from SCAN and GASC and reduce them to a binary change score for each word, for Latin and Ancient Greek
 
 
-# Activate the virtual enviroment (this is important because that's where to install ruptures, which downgrades some Python packages including scipy and numpy!)
+# Activate the virtual enviroment
 # source gasc_python/bin/activate
 # Deactivate: deactivate
 
@@ -29,7 +29,6 @@ from statistics import mean
 from scipy.stats import spearmanr
 from os.path import dirname, realpath
 import matplotlib.pyplot as plt
-import ruptures as rpt
 import numpy as np
 
 
@@ -279,14 +278,7 @@ if model == 'SCAN':
     detect_drops_and_peaks(K, times)
     detect_overall_drops_and_peaks(K, times)
 
-# For Greek: find changepoint in time series using ruptures
-# C. Truong, L. Oudre, N. Vayatis. Selective review of offline change point detection methods. Signal Processing, 167:107299, 2020.
 
-#algo = rpt.Pelt(model="rbf").fit(signal)
-#result = algo.predict(pen=10)
-# display
-#rpt.display(signal, bkps, result)
-#plt.show()
 
 
 output.close()
