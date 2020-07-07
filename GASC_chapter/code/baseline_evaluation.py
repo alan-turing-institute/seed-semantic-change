@@ -35,6 +35,11 @@ import numpy as np
 now = datetime.datetime.now()
 today_date = str(now)[:10]
 
+true_positives = 0
+false_negatives = 0
+false_positives = 0
+true_negatives = 0
+
 
 def add_probabilities_to_dict(line_text, k, times):
     """For each time and sense, adds probability at each iteration to the dictionary time2sense2probabilities.
@@ -298,13 +303,15 @@ for model_output_file_name in all_files:
 
     print("\n===========Ground Truth===========")
     if word != 'all':
-        if gold_standard[word] == 0:
+        gold = gold_standard[word]
+        if  gold == 0:
             print("The word " + word + " did not change.")
         else:
             print("The word " + word + " changed.")
     else:
         current_word = model_output_file_name.split('.')[0]
-        if gold_standard[current_word] == 0:
+        gold = gold_standard[current_word]
+        if  gold == 0:
             print("The word " + current_word + " did not change.")
         else:
             print("The word " + current_word + " changed.")
@@ -313,6 +320,22 @@ for model_output_file_name in all_files:
         # print_means_and_stds(K, times)
         # detect_drops_and_peaks(K, times)
         change_detected = detect_overall_drops_and_peaks(K, times)
+        if change_detected == 1 and gold == 1:
+            true_positives += 1
+        elif change_detected == 0 and gold == 1:
+            false_negatives += 1
+        elif change_detected == 1 and gold == 0:
+            false_positives += 1
+        elif change_detected == 0 and gold == 0:
+            true_negatives += 1
 
 
 output.close()
+
+print("===========Precision and Recall===========")
+print('true_positives: {}'.format(true_positives))
+print('true_negatives: {}'.format(true_negatives))
+print('false_positives: {}'.format(false_positives))
+print('false_negatives: {}'.format(false_negatives))
+print('precision: {}'.format(true_positives / (true_positives + false_positives)))
+print('recall: {}'.format(true_positives / (true_positives + false_negatives)))
