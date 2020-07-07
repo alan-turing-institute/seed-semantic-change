@@ -42,10 +42,96 @@ genres_id["LA"] = {0: "comedy",
 		8: "technical",
 		9: "tragedy"
 		}
+genre_stats = {"AG":["technical","NOT-technical","narrative","NOT-narrative"],
+			"LA":[] }
 
 target_words = {}
 target_words["AG"] = {'harmonia': ['!αρμονίας', 'ἁρμονία', 'ἁρμονίαι', 'ἁρμονίαις', 'ἁρμονίαισι', 'ἁρμονίαισιν', 'ἁρμονίαν', 'ἁρμονίας', 'ἁρμονίᾳ', 'ἁρμονίη', 'ἁρμονίηι', 'ἁρμονίην', 'ἁρμονίης', 'ἁρμονίῃ', 'ἁρμονίῃσιν', 'ἁρμονιάων', 'ἁρμονιῶν'], 'kosmos': ['κόσμε', 'κόσμοι', 'κόσμοιο', 'κόσμοις', 'κόσμοισι', 'κόσμον', 'κόσμος', 'κόσμου', 'κόσμους', 'κόσμω', 'κόσμωι', 'κόσμων', 'κόσμῳ'], 'mus': ['μύας', 'μύες', 'μύεσι', 'μύεσσιν', 'μύς', 'μύων', 'μῦ', 'μῦν', 'μῦς', 'μυί', 'μυός', 'μυοῖν', 'μυσί', 'μυσίν', 'μυῶν']}
 target_words["LA"] = {}
+
+import cProfile, pstats, io
+def profile(fnc):
+
+	"""A decorator that uses cProfile to profile a function"""
+
+	def inner(*args, **kwargs):
+
+		pr = cProfile.Profile()
+		pr.enable()
+		retval = fnc(*args, **kwargs)
+		pr.disable()
+		s = io.StringIO()
+		sortby = 'cumulative'
+		ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
+		ps.print_stats()
+		print(s.getvalue())
+		return retval
+
+	return inner
+
+
+
+#@profile
+def list_models_for_alignment(directory,lang):
+	"""
+	This will list models for a folder,
+	select the latest,
+	align latest-1 with it;
+	align latest -2 with latest-1, etc
+	"""
+	
+	if lang == "AG":
+		models = [model for model in os.listdir(directory)]
+		earliest = -700 #sorted(years)[0]
+		last = 400 #sorted(years)[-1]
+		slice_length = 100
+		bins = []
+		models_ordered = [] ## negative ints as strings don't play nice with sorted()
+		for i in range(earliest,last+slice_length,slice_length):
+			for model in models:
+				if "BIN_"+str(i) in model:
+					models_ordered.append(os.path.join(directory,model))
+		#print(models_ordered)
+		models_ordered.reverse()
+		#print(models_ordered)
+	
+		print(len(models_ordered))
+		#print(len(models_ordered))
+		for index, item in enumerate(models_ordered):
+			print("index",index)
+			try:
+				print("Aligning",item,"and",models_ordered[index+1])
+				m1 = gensim.models.KeyedVectors.load(item)
+				m2 = gensim.models.KeyedVectors.load(models_ordered[index+1])
+
+				#print(m1)
+				#print(m2)
+			
+				other_embed = smart_procrustes_align_gensim(m1, m2)
+				#other_embed = smart_procrustes_align_gensim(item, models_ordered[index+1])
+				#print("other_embed retrieved")
+
+				other_embed.save(models_ordered[index+1])
+				print("Save aligned model at",models_ordered[index+1])
+			
+			except IndexError:
+				#print("index",index,"error")
+				#return
+				#continue
+				if index == len(models_ordered)-1:
+					return
+	if lang == "LA":
+		models = [os.path.join(directory,model) for model in os.listdir(directory) if model.endswith(".w2v")]
+		print(models)
+		m1 = gensim.models.KeyedVectors.load(models[0])
+		m2 = gensim.models.KeyedVectors.load(models[1])
+		other_embed = smart_procrustes_align_gensim(m1, m2)
+		other_embed.save(models[1])
+
+
+			
+	
+
 
 def smart_procrustes_align_gensim(base_embed, other_embed, words=None):
 	""" 
@@ -63,15 +149,25 @@ def smart_procrustes_align_gensim(base_embed, other_embed, words=None):
 	"""
 	
 	# patch by Richard So [https://twitter.com/richardjeanso) (thanks!) to update this code for new version of gensim
+	
+	#path_out = other_embed
+	#base_embed = gensim.models.Word2Vec.load(base_embed)
+	#other_embed = gensim.models.Word2Vec.load(other_embed)
+	#print(type(base_embed))
+	#print("models loaded")
+
 	base_embed.init_sims()
 	other_embed.init_sims()
-
+	#print("init simmed")
+	
 	# make sure vocabulary and indices are aligned
 	in_base_embed, in_other_embed = intersection_align_gensim(base_embed, other_embed, words=words)
-
+	#print("vocab intersected")
+	
 	# get the embedding matrices
-	base_vecs = in_base_embed.syn0norm
-	other_vecs = in_other_embed.syn0norm
+	base_vecs = in_base_embed.wv.syn0norm
+	other_vecs = in_other_embed.wv.syn0norm
+	
 
 	# just a matrix dot product with numpy
 	m = other_vecs.T.dot(base_vecs) 
@@ -81,8 +177,10 @@ def smart_procrustes_align_gensim(base_embed, other_embed, words=None):
 	ortho = u.dot(v) 
 	# Replace original array with modified one
 	# i.e. multiplying the embedding matrix (syn0norm)by "ortho"
-	other_embed.syn0norm = other_embed.syn0 = (other_embed.syn0norm).dot(ortho)
+	other_embed.wv.syn0norm = other_embed.wv.syn0 = (other_embed.wv.syn0norm).dot(ortho)
 	return other_embed
+	
+
 	
 def intersection_align_gensim(m1,m2, words=None):
 	"""
@@ -97,8 +195,9 @@ def intersection_align_gensim(m1,m2, words=None):
 	"""
 
 	# Get the vocab for each model
-	vocab_m1 = set(m1.vocab.keys())
-	vocab_m2 = set(m2.vocab.keys())
+	vocab_m1 = set(m1.wv.vocab.keys())
+	vocab_m2 = set(m2.wv.vocab.keys())
+	print("vocabs created")
 
 	# Find the common vocabulary
 	common_vocab = vocab_m1&vocab_m2
@@ -106,29 +205,37 @@ def intersection_align_gensim(m1,m2, words=None):
 
 	# If no alignment necessary because vocab is identical...
 	if not vocab_m1-common_vocab and not vocab_m2-common_vocab:
+		print("No need for alignment")
 		return (m1,m2)
+		
 
 	# Otherwise sort by frequency (summed for both)
 	common_vocab = list(common_vocab)
-	common_vocab.sort(key=lambda w: m1.vocab[w].count + m2.vocab[w].count,reverse=True)
+	common_vocab.sort(key=lambda w: m1.wv.vocab[w].count + m2.wv.vocab[w].count,reverse=True)
+	#print("Len common vocab",len(common_vocab))
+	#print("Vocab in common sorted")
 
 	# Then for each model...
 	for m in [m1,m2]:
+		
 		# Replace old syn0norm array with new one (with common vocab)
-		indices = [m.vocab[w].index for w in common_vocab]
-		old_arr = m.syn0norm
+		indices = [m.wv.vocab[w].index for w in common_vocab]
+		
+		old_arr = m.wv.syn0norm
 		new_arr = np.array([old_arr[index] for index in indices])
-		m.syn0norm = m.syn0 = new_arr
+		m.wv.syn0norm = m.wv.syn0 = new_arr
+
 
 		# Replace old vocab dictionary with new one (with common vocab)
 		# and old index2word with new one
-		m.index2word = common_vocab
-		old_vocab = m.vocab
+		m.wv.index2word = common_vocab
+		old_vocab = m.wv.vocab
 		new_vocab = {}
 		for new_index,word in enumerate(common_vocab):
 			old_vocab_obj=old_vocab[word]
 			new_vocab[word] = gensim.models.word2vec.Vocab(index=new_index, count=old_vocab_obj.count)
-		m.vocab = new_vocab
+		m.wv.vocab = new_vocab
+	
 
 	return (m1,m2)
 
@@ -176,29 +283,45 @@ def train_model(slice,genre,lang):
 	if lang == "AG":
 		filename = "BIN_"+str(slice)+"_"+genre+".gensim"
 		corpus_file = os.path.join(path_data_out,lang,filename)
-		model_file = os.path.join(path_models_out,lang,filename.replace(".gensim",".w2v"))
+		model_file = os.path.join(path_models_out,lang,genre,filename.replace(".gensim",".w2v"))
+		if os.path.exists(os.path.join(path_models_out,lang,genre)) == False:
+			try:
+				os.mkdir(os.path.join(path_models_out,lang,genre))
+			except FileExistsError:
+				pass
 
 		if os.stat(corpus_file).st_size < 10:
 			return 
 		if os.path.exists(model_file):
 			return
-		model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=10, sg=1 ,size=300, workers=3, seed=1830, iter=5)
+		model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=1, sg=1 ,size=300, workers=3, seed=1830, iter=5)
 		model.save(model_file)
 		print("Trained",model_file,"\n")
 	
+	
+	#TODO: transform input data as GENRE input data
 	if lang == "LA":
-		genre = ""
+		
 		filename = "BIN_"+str(slice)+"_"+genre+".gensim"
-		corpus_file = os.path.join(path_data_out,lang,filename)
-		model_file = os.path.join(path_models_out,lang,filename.replace(".gensim",".w2v"))
-		if os.stat(corpus_file).st_size < 10:
-			return 
+		corpus_file = os.path.join(path_data_out,lang,genre,filename)
+		model_file = os.path.join(path_models_out,lang,genre,filename.replace(".gensim",".w2v"))
+		
+		if os.path.exists(os.path.join(path_models_out,lang,genre)) == False:
+			os.mkdir(os.path.join(path_models_out,lang,genre))
+
+		try:
+			if os.stat(corpus_file).st_size < 10:
+				return 
+		except FileNotFoundError:
+			pass
+
 		if os.path.exists(model_file):
 			return
-		model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=10, sg=1 ,size=300, workers=3, seed=1830, iter=5)
+
+		model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=1, sg=1 ,size=300, workers=3, seed=1830, iter=5)
 		model.save(model_file)
 		print("Trained",model_file,"\n")
-
+	
 
 def corpus_transformer(genre_sep,lang,slice_length=100):
 	"""
@@ -254,37 +377,40 @@ def get_models_stats(lang):
 	"""
 	Loads all models and prints out some descriptive stats
 	"""
-	models = [os.path.join(path_models_out,lang,model) for model in os.listdir(os.path.join(path_models_out,lang))]
-	for model in sorted(models):
-		print(model)
-		m = gensim.models.Word2Vec.load(model)
-		vocab = len(m.wv.vocab)
-		voc_list = list(m.wv.vocab.keys())
-		print(vocab,"words in vocabulary")
-		if vocab > 100:
-			for i in range(0,5): # we try 5 pairs of words
-				pair = random.sample(range(0,vocab), 2)
-				print("cosine between",voc_list[pair[0]],voc_list[pair[1]],m.similarity(voc_list[pair[0]],voc_list[pair[1]]))
-		
+	for genre_stat in genre_stats[lang]:
 
+		models = [os.path.join(path_models_out,lang,genre_stat,model) for model in os.listdir(os.path.join(path_models_out,lang,genre_stat))]
+		for model in sorted(models):
+			print(model)
+			m = gensim.models.Word2Vec.load(model)
+			vocab = len(m.wv.vocab)
+			voc_list = list(m.wv.vocab.keys())
+			print(vocab,"words in vocabulary")
+			if vocab > 100:
+				for i in range(0,5): # we try 5 pairs of words
+					pair = random.sample(range(0,vocab), 2)
+					print("cosine between",voc_list[pair[0]],voc_list[pair[1]],m.similarity(voc_list[pair[0]],voc_list[pair[1]]))
 			
-		else:
-			print("model does not have more than 100 words in vocab")
-		
-		print("\n")
+
+				
+			else:
+				print("model does not have more than 100 words in vocab")
+			
+			print("\n")
 
 def check_target_in_models(target,genre,lang):
 	"""
 	for target word we check if it exists in the model
 	"genre" is narrative or technical, so not the "NOT" versions
 	"""
-	models = [os.path.join(path_models_out,lang,model) for model in os.listdir(os.path.join(path_models_out,lang)) if genre in model]
+	
+	models = [os.path.join(path_models_out,lang,genre,model) for model in os.listdir(os.path.join(path_models_out,lang,genre)) if genre in model]
 	
 	for model in sorted(models):
 		#print(model)
 		m = gensim.models.Word2Vec.load(model)
 		present = False
-		for form in target_words[target]:
+		for form in target_words[lang][target]:
 			if form in m.wv.vocab:
 				present = True
 		if present == True:
