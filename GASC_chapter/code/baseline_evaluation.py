@@ -77,7 +77,12 @@ def print_means_and_stds(k, times):
             print("mean prob +- standard deviations: " + str(mean_prob) + " +- " + str(std_prob))
 
 
-def detect_drops_and_peaks(k, times):
+def detect_drops_and_peaks(k, times, num_stds):
+    # num_stds is the number of standard deviations to use to assess significance
+    # under Gaussian assumption:
+    # 1 ---> 68% confidence interval
+    # 2 ---> 95% confidence interval
+    # 3 ---> 99.7% confidence interval
     print("\nConsecutive drops and peaks.")
     for sense in range(k):
         print("sense = " + str(sense + 1))
@@ -87,11 +92,6 @@ def detect_drops_and_peaks(k, times):
             std_prob_0 = np.sqrt(np.var(time2sense2probabilities[t][sense + 1]))
             mean_prob_1 = np.mean(time2sense2probabilities[t + 1][sense + 1])
             std_prob_1 = np.sqrt(np.var(time2sense2probabilities[t + 1][sense + 1]))
-            num_stds = 2 # number of standard deviations to use to assess significance
-            # under Gaussian assumption:
-            # 1 ---> 68% confidence interval
-            # 2 ---> 95% confidence interval
-            # 3 ---> 99.7% confidence interval
             if mean_prob_1 - mean_prob_0 > 0:
                 significant = (mean_prob_1 - num_stds * std_prob_1) > (mean_prob_0 + num_stds * std_prob_0)
                 print('Probability INcrease: {}; significant? {}'.format(mean_prob_1 - mean_prob_0, significant))
@@ -100,7 +100,7 @@ def detect_drops_and_peaks(k, times):
                 print('Probability DEcrease: {}; significant? {}'.format(mean_prob_0 - mean_prob_1, significant))
 
 
-def detect_overall_drops_and_peaks(k, times):
+def detect_overall_drops_and_peaks(k, times, num_stds):
     #print("\nDrops and peaks across entire time series.")
     increase_indicator = 0
     decrease_indicator = 0
@@ -112,7 +112,6 @@ def detect_overall_drops_and_peaks(k, times):
         std_max = 0
         time_min = 0
         time_max = 0
-        num_stds = 2  # number of standard deviations to use to assess significance
         for t in range(times):
             if np.mean(time2sense2probabilities[t][sense + 1]) < min_prob:
                 min_prob = np.mean(time2sense2probabilities[t][sense + 1])
@@ -138,13 +137,13 @@ def detect_overall_drops_and_peaks(k, times):
     print("===========Model Outcome===========")
     change_indicator = increase_indicator or decrease_indicator
     if change_indicator:
-        print('The model detected a significant meaning change.')
+        print('The model detected a significant meaning change ({} std).'.format(num_stds))
         if increase_indicator:
             print('In particular, the model detected the significant rise of a new sense.')
         elif decrease_indicator:
             print('In particular, the model detected the significant fall of an old sense.')
     else:
-        print('The model did NOT detect any significant meaning change.')
+        print('The model did NOT detect any significant meaning change ({} std).'.format(num_stds))
     return change_indicator
 
 
@@ -318,8 +317,8 @@ for model_output_file_name in all_files:
 
     if model == 'SCAN':
         # print_means_and_stds(K, times)
-        # detect_drops_and_peaks(K, times)
-        change_detected = detect_overall_drops_and_peaks(K, times)
+        # detect_drops_and_peaks(K, times, 2)
+        change_detected = detect_overall_drops_and_peaks(K, times, num_stds=2)
         if change_detected == 1 and gold == 1:
             true_positives += 1
         elif change_detected == 0 and gold == 1:
