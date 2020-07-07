@@ -62,14 +62,14 @@ def add_probabilities_to_dict(line_text, k, times):
                         time2sense2probabilities[time][sense_index].append(sense_prob)
 
 def print_means_and_stds(k, times):
-    print('\nFor each time, mean and two standard deviations of probability of each sense.')
+    print('\nFor each time, mean and standard deviations of probability of each sense.')
     for time in range(times):
         print("time = " + str(time))
         for sense in range(k):
             print("sense = " + str(sense + 1))
             mean_prob = np.mean(time2sense2probabilities[time][sense + 1])
             std_prob = np.sqrt(np.var(time2sense2probabilities[time][sense + 1]))
-            print("mean prob +- 3*standard deviations: " + str(mean_prob) + " +- " + str(3*std_prob))
+            print("mean prob +- standard deviations: " + str(mean_prob) + " +- " + str(std_prob))
 
 
 def detect_drops_and_peaks(k, times):
@@ -96,9 +96,11 @@ def detect_drops_and_peaks(k, times):
 
 
 def detect_overall_drops_and_peaks(k, times):
-    print("\nDrops and peaks across entire time series.")
+    #print("\nDrops and peaks across entire time series.")
+    increase_indicator = 0
+    decrease_indicator = 0
     for sense in range(k):
-        print("sense = " + str(sense + 1))
+        #print("sense = " + str(sense + 1))
         min_prob = 2
         max_prob = -2
         std_min = 0
@@ -118,12 +120,27 @@ def detect_overall_drops_and_peaks(k, times):
 
         significant = (max_prob - num_stds * std_max) > (min_prob + num_stds * std_min)
         if time_min < time_max:
-            print("min probability at time {}, max at time {}".format(time_min, time_max))
-            print('Max global probability INcrease: {}; significant? {}'.format(max_prob - min_prob, significant))
+            #print("min probability at time {}, max at time {}".format(time_min, time_max))
+            #print('Max global probability INcrease: {}; significant? {}'.format(max_prob - min_prob, significant))
+            if significant:
+                increase_indicator = True
         else:
-            print("min probability at time {}, max at time {}".format(time_min, time_max))
-            significant = (max_prob - num_stds * std_max) > (min_prob + num_stds * std_min)
-            print('Max global probability DEcrease: {}; significant? {}'.format(max_prob - min_prob, significant))
+            #print("min probability at time {}, max at time {}".format(time_min, time_max))
+            #print('Max global probability DEcrease: {}; significant? {}'.format(max_prob - min_prob, significant))
+            if significant:
+                decrease_indicator = True
+
+    print("===========Model Outcome===========")
+    change_indicator = increase_indicator or decrease_indicator
+    if change_indicator:
+        print('The model detected a significant meaning change.')
+        if increase_indicator:
+            print('In particular, the model detected the significant rise of a new sense.')
+        elif decrease_indicator:
+            print('In particular, the model detected the significant fall of an old sense.')
+    else:
+        print('The model did NOT detect any significant meaning change.')
+    return change_indicator
 
 
 # ---------------------------------------
@@ -136,9 +153,11 @@ def detect_overall_drops_and_peaks(k, times):
 #istest_default = "yes"
 #istest = input("Is this a test? Leave empty for default (" + istest_default + ").")
 number_test = 2 # number of annotators considered when testing
+
 language = input("Which language are you interested in? Choose Latin or Greek.")
 model = input("Which model are you interested in? Choose SCAN or GASC.")
-word = input("Which lemma are you interested in? All lower-case letters.")
+word = input("Which lemma are you interested in? All lower-case letters. "
+             "Enter 'all' if you would like results for all target words.")
 
 if language == "Latin":
     time_slices = [0, 1]
@@ -163,16 +182,22 @@ dir_model_output = os.path.join(parents_parent_dir_of_file, "GASC_chapter", lang
 gold_standard_file_name = "gold_standard_binary_" + language + ".txt"
 #model_output_file_name = "output_" + word + "_NOSTOPWORDS.dat"
 if language == "Latin":
-    model_output_file_name = word + ".dat"
+    if word == 'all':
+        all_files = [f
+                     for f in os.listdir(dir_model_output)
+                     if os.path.isfile(os.path.join(dir_model_output,f))]
+        all_files = [file for file in all_files if file != 'output.dat']
+    else:
+        all_files = [word + ".dat"]
 else:
     if word == "kosmos":
         id = 59339
         dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", "greek_input", "all_results", word + "_simon_k15", str(id))
-        model_output_file_name = "output.dat"
+        all_files = ["output.dat"]
     elif word == "harmonia":
         dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", "greek_input",
                                         "all_results")
-        model_output_file_name = "output_" + word + "_K5.dat"
+        all_files = ["output_" + word + "_K5.dat"]
 
 
 # Output file:
@@ -202,10 +227,6 @@ for line in gold_standard_file:
 
 gold_standard_file.close()
 
-if gold_standard[word] == 0:
-    print("The word " + word + " did not change.")
-else:
-    print("The word " + word + " changed.")
 
 # ---------------------------------------
 # Process model files:
@@ -214,71 +235,84 @@ else:
 
 # Read model output files:
 
-print("Opening model output file:" + model_output_file_name + " in " + str(dir_model_output))
-model_output_file = open(os.path.join(dir_model_output, model_output_file_name), 'r', encoding="utf-8")
+for model_output_file_name in all_files:
 
-found_time_probabilities = 0
-found_time_slices = 0
-found_iterations = 0
+    print("\n========================================================")
+    print("Opening model output file: " + model_output_file_name + " in " + str(dir_model_output))
+    model_output_file = open(os.path.join(dir_model_output, model_output_file_name), 'r', encoding="utf-8")
 
-time2sense2probability = dict()  # maps a time slice and sense number to its probability predicted by the model
-time2sense2probabilities = dict()  # maps a time slice and sense number to the probability at each iteration
+    found_time_probabilities = 0
+    found_time_slices = 0
+    found_iterations = 0
 
-count = 0
-for line in model_output_file:
-    count += 1
-    line_text = line.rstrip()
-    #print(str(count))
+    time2sense2probability = dict()  # maps a time slice and sense number to its probability predicted by the model
+    time2sense2probabilities = dict()  # maps a time slice and sense number to the probability at each iteration
+
+    count = 0
+    for line in model_output_file:
+        count += 1
+        line_text = line.rstrip()
+        #print(str(count))
+
+        if model == 'SCAN':
+            # SCAN: use a test to identify statistically significant drops or peaks
+            if 'kappaF' in line_text:
+                # Extract the number of used senses K
+                K = int(line_text.split(', K ')[1].split(', ')[0])
+                print('There are K = {} senses in the output.'.format(K))
+                times = int(line_text.split(', times ')[1].split(', ')[0])
+                print('There are times = {} time points in the output.'.format(times))
+                found_iterations = 1
+            if found_iterations == 1:
+                add_probabilities_to_dict(line_text, K, times)
+
+        if " per time " in line_text:
+            found_time_probabilities = 1
+            print("Found per time" + line_text)
+
+        if line_text.startswith("Time"):
+            found_time_slices += 1
+            time_n = line_text.split("=")
+            time_n = time_n[1]
+            print("Found time" + line_text)
+
+        if found_time_probabilities == 1 and found_time_slices > 0:
+            #print(line_text)
+            pattern0 = '^(0\.\d+?) {3}T=(\d+?),K=(\d+?):'
+            if re.match(pattern0, line_text):
+                match = re.search(pattern0, line_text)
+                prob = match.group(1)
+                time = match.group(2)
+                sense = match.group(3)
+                print("prob = " + str(prob))
+                print("time = " + str(time))
+                print("sense = " + str(sense))
+                time2sense2probability[sense, time] = prob
+
+        #if found_time_probabilities == 1:
+            #if found_time_slices == 1:
+                #print("Time:" + str(time_n))
+
+
+    model_output_file.close()
+
+    print("\n===========Ground Truth===========")
+    if word != 'all':
+        if gold_standard[word] == 0:
+            print("The word " + word + " did not change.")
+        else:
+            print("The word " + word + " changed.")
+    else:
+        current_word = model_output_file_name.split('.')[0]
+        if gold_standard[current_word] == 0:
+            print("The word " + current_word + " did not change.")
+        else:
+            print("The word " + current_word + " changed.")
 
     if model == 'SCAN':
-        # SCAN: use a test to identify statistically significant drops or peaks
-        if count == 7:
-            # Extract the number of used senses K
-            K = int(line_text.split(', K ')[1].split(', ')[0])
-            print('There are K = {} senses in the output.'.format(K))
-            times = int(line_text.split(', times ')[1].split(', ')[0])
-            print('There are times = {} time points in the output.'.format(times))
-        if "ready to estimate" in line_text:
-            found_iterations = 1
-        if found_iterations == 1:
-            add_probabilities_to_dict(line_text, K, times)
-
-    if " per time " in line_text:
-        found_time_probabilities = 1
-        print("Found per time" + line_text)
-
-    if line_text.startswith("Time"):
-        found_time_slices += 1
-        time_n = line_text.split("=")
-        time_n = time_n[1]
-        print("Found time" + line_text)
-
-    if found_time_probabilities == 1 and found_time_slices > 0:
-        #print(line_text)
-        pattern0 = '^(0\.\d+?) {3}T=(\d+?),K=(\d+?):'
-        if re.match(pattern0, line_text):
-            match = re.search(pattern0, line_text)
-            prob = match.group(1)
-            time = match.group(2)
-            sense = match.group(3)
-            print("prob = " + str(prob))
-            print("time = " + str(time))
-            print("sense = " + str(sense))
-            time2sense2probability[sense, time] = prob
-
-    #if found_time_probabilities == 1:
-        #if found_time_slices == 1:
-            #print("Time:" + str(time_n))
-
-
-model_output_file.close()
-
-if model == 'SCAN':
-    print_means_and_stds(K, times)
-    detect_drops_and_peaks(K, times)
-    detect_overall_drops_and_peaks(K, times)
-
-
+        # print_means_and_stds(K, times)
+        # detect_drops_and_peaks(K, times)
+        change_detected = detect_overall_drops_and_peaks(K, times)
 
 
 output.close()
