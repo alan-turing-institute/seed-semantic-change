@@ -2,10 +2,13 @@ import gensim
 import os
 import sys
 import pandas as pd
+from tqdm import tqdm
 from multiprocessing import Pool
 from itertools import repeat
 import random
 import numpy as np
+import scipy.stats as stats
+from scipy import spatial
 
 path_data_in = os.path.join("..","..","corpus_scripts_output") # corpus_scripts_output/full_corpus_forms.txt
 corpus_path = os.path.join(path_data_in,"full_corpus_forms.txt")
@@ -81,38 +84,60 @@ def list_models_for_alignment(directory,lang):
 	"""
 	
 	if lang == "AG":
-		models = [model for model in os.listdir(directory)]
+		targets = ["ἁρμονία", "κόσμος", "μύς", "παραβολή", "παράδεισος"]
+		models = [model for model in os.listdir(directory) if model.endswith(".w2v")]
 		earliest = -700 #sorted(years)[0]
 		last = 400 #sorted(years)[-1]
 		slice_length = 100
 		bins = []
 		models_ordered = [] ## negative ints as strings don't play nice with sorted()
+		"""
 		for i in range(earliest,last+slice_length,slice_length):
 			for model in models:
 				if "BIN_"+str(i) in model:
 					models_ordered.append(os.path.join(directory,model))
+		"""
+		#print(directory)
+		#print(models)
+		for model in models:
+			#print(model)
+			m = gensim.models.KeyedVectors.load(os.path.join(directory,model))
+			x = 0
+			for target in targets:
+				if target in m.wv.vocab:
+					x += 1
+					if x == len(targets):
+						print("model chosen for alignment",model)
+						break
+
+		models_ordered = [os.path.join(directory,model)]
+		for model in sorted(models,reverse=True):
+			if os.path.join(directory,model) not in models_ordered:
+				models_ordered.append(os.path.join(directory,model))
+
+
 		#print(models_ordered)
-		models_ordered.reverse()
+		#models_ordered.reverse()
 		#print(models_ordered)
 	
 		print(len(models_ordered))
 		#print(len(models_ordered))
 		for index, item in enumerate(models_ordered):
-			print("index",index)
+			#print("index",index)
 			try:
-				print("Aligning",item,"and",models_ordered[index+1])
+				#print("Aligning",item,"and",models_ordered[index+1])
 				m1 = gensim.models.KeyedVectors.load(item)
 				m2 = gensim.models.KeyedVectors.load(models_ordered[index+1])
 
 				#print(m1)
 				#print(m2)
-			
-				other_embed = smart_procrustes_align_gensim(m1, m2)
+				print(item,models_ordered[index+1])
+				other_embed = smart_procrustes_align_gensim(m1, m2,targets)
 				#other_embed = smart_procrustes_align_gensim(item, models_ordered[index+1])
 				#print("other_embed retrieved")
 
 				other_embed.save(models_ordered[index+1])
-				print("Save aligned model at",models_ordered[index+1])
+				#print("Save aligned model at",models_ordered[index+1])
 			
 			except IndexError:
 				#print("index",index,"error")
@@ -120,17 +145,167 @@ def list_models_for_alignment(directory,lang):
 				#continue
 				if index == len(models_ordered)-1:
 					return
+	
 	if lang == "LA":
+		with open("../input/gold_standard_binary_Latin.txt") as f:
+			targets = [line.split("\t")[0] for line in f]
 		models = [os.path.join(directory,model) for model in os.listdir(directory) if model.endswith(".w2v")]
 		print(models)
 		m1 = gensim.models.KeyedVectors.load(models[0])
 		m2 = gensim.models.KeyedVectors.load(models[1])
-		other_embed = smart_procrustes_align_gensim(m1, m2)
+		other_embed = smart_procrustes_align_gensim(m1, m2,targets)
 		other_embed.save(models[1])
 
 
-			
+def fit_to_gamma_get_changed_words(lang,genre):
+	"""
+	Calculates quantile threshold (change/no-change) 
+	based on the implementation of TemporalTeller at SemEval-2020 Task 1: Unsupervised Lexical Semantic
+	Change Detection with Temporal Reference
+	Jinan Zhou, Jiaxin Li
+
+	Takes a language and a genre as input
+	"""
+
+	dict_target_bins_vectors = target_words_to_CD_arrays_SGNS(lang,genre)
 	
+	words = list(dict_target_bins_vectors.keys())
+	print(words)
+	w_cosD = []
+	
+	#if lang == "LA": ## let's start with an easy binary case
+	#	bins = [1,2]
+
+		
+	for w in tqdm(words):
+		#print(w)
+		vecs = list(dict_target_bins_vectors[w].values()) ## list of all vectors for this word
+		#print("vectors for",w,vecs)
+		cosD = [] ## list of all distances
+		for index, vec in enumerate(vecs):
+			#print(w, index, vec)
+				
+			try:
+				cos = spatial.distance.cosine(vec,vecs[index+1])
+				#print(w,cos)
+			except TypeError:
+			#	print("typeerror")
+				cos = None
+			except IndexError:
+				continue
+			cosD.append(cos)
+		
+		w_cosD.append(cosD)
+	
+	for index, w in enumerate(words):
+		print(w,len(w_cosD[index]),w_cosD[index])
+
+	#print(words)
+	#print(w_cosD)
+
+
+	
+
+def target_words_to_CD_arrays_SGNS(lang,genre):
+	if lang == "AG":
+		bins = [i for i in range(0,12)]
+		
+		targets = ["ἁρμονία", "κόσμος", "μύς", "παραβολή", "παράδεισος"]
+		if genre == "narrative":
+			trained_models = {2: "BIN_-500_narrative.w2v",
+						3: "BIN_-400_narrative.w2v",
+						4: "BIN_-300_narrative.w2v",
+						6: "BIN_-100_narrative.w2v",
+						7: "BIN_0_narrative.w2v",
+						8: "BIN_100_narrative.w2v",
+						9: "BIN_200_narrative.w2v",
+						10: "BIN_300_narrative.w2v",	
+			}
+		if genre == "NOT-narrative":
+			trained_models = {0: "BIN_-700_NOT-narrative.w2v",
+						2: "BIN_-500_NOT-narrative.w2v",
+						3: "BIN_-400_NOT-narrative.w2v",
+						4: "BIN_-300_NOT-narrative.w2v",
+						5: "BIN_-200_NOT-narrative.w2v",
+						6: "BIN_-100_NOT-narrative.w2v",
+						7: "BIN_0_NOT-narrative.w2v",
+						8: "BIN_100_NOT-narrative.w2v",
+						9: "BIN_200_NOT-narrative.w2v",
+						10: "BIN_300_NOT-narrative.w2v",
+						11: "BIN_400_NOT-narrative.w2v",	
+			}
+
+		if genre == "technical":
+			trained_models = {2: "BIN_-500_technical.w2v",
+						3: "BIN_-400_technical.w2v",
+						4: "BIN_-300_technical.w2v",
+						5: "BIN_-200_technical.w2v",
+						6: "BIN_-100_technical.w2v",
+						7: "BIN_0_technical.w2v",
+						8: "BIN_100_technical.w2v",
+						9: "BIN_200_technical.w2v",
+						10: "BIN_300_technical.w2v",	
+			}
+
+		if genre == "NOT-technical":
+			trained_models = {0: "BIN_-700_NOT-technical.w2v",
+						2: "BIN_-500_NOT-technical.w2v",
+						3: "BIN_-400_NOT-technical.w2v",
+						4: "BIN_-300_NOT-technical.w2v",
+						5: "BIN_-200_NOT-technical.w2v",
+						6: "BIN_-100_NOT-technical.w2v",
+						7: "BIN_0_NOT-technical.w2v",
+						8: "BIN_100_NOT-technical.w2v",
+						9: "BIN_200_NOT-technical.w2v",
+						10: "BIN_300_NOT-technical.w2v",
+						11: "BIN_400_NOT-technical.w2v"	
+			}
+
+	if lang == "LA":
+		bins = [1,2]
+		with open("../input/gold_standard_binary_Latin.txt") as f:
+			targets = [line.split("\t")[0] for line in f]
+
+		if genre == "NAIVE":
+			trained_models = {1: "BIN_1_NAIVE.w2v", 2: "BIN_2_NAIVE.w2v"}
+	
+	
+	directory = "../trained_models/"+lang+"/"+genre+"/"
+
+	dict_target_bins_vectors = {}
+	
+	#print("We have these bins:",bins)
+	print("Getting vectors")
+	for target in tqdm(targets):  ## take the vector from each time slice, THEN do cos
+		#print(target)
+		first = True
+		dict_target_bins_vectors[target] = {}
+		for bin in bins:
+			#print(bin)
+			if bin in trained_models.keys(): ## if we have a model for this period
+				#print(directory+trained_models[bin])
+				m1 = gensim.models.Word2Vec.load(directory+trained_models[bin])
+				try:
+					vec = m1.wv.get_vector(target)
+					first = False
+				except KeyError:
+					if first == True:
+						vec = None
+					
+				
+			else:
+				if first == True:
+					vec = None
+
+			dict_target_bins_vectors[target][bin] = vec
+
+	return dict_target_bins_vectors  ## returns a dictionary that has target words as keys and then bins and then vectors
+
+
+		
+
+	
+
 
 
 def smart_procrustes_align_gensim(base_embed, other_embed, words=None):
@@ -169,10 +344,16 @@ def smart_procrustes_align_gensim(base_embed, other_embed, words=None):
 	other_vecs = in_other_embed.wv.syn0norm
 	
 
+
 	# just a matrix dot product with numpy
 	m = other_vecs.T.dot(base_vecs) 
-	# SVD method from numpy
-	u, _, v = np.linalg.svd(m)
+	try:
+		
+		# SVD method from numpy
+		u, _, v = np.linalg.svd(m)
+	except np.linalg.LinAlgError:
+		return other_embed
+
 	# another matrix operation
 	ortho = u.dot(v) 
 	# Replace original array with modified one
