@@ -30,6 +30,7 @@ from scipy.stats import spearmanr
 from os.path import dirname, realpath
 import matplotlib.pyplot as plt
 import numpy as np
+import sys
 
 
 now = datetime.datetime.now()
@@ -162,6 +163,8 @@ language = input("Which language are you interested in? Choose Latin or Greek.")
 model = input("Which model are you interested in? Choose SCAN or GASC.")
 word = input("Which lemma are you interested in? All lower-case letters. "
              "Enter 'all' if you would like results for all target words.")
+num_stds = input("What confidence interval would you like to use to declare semantic change? "
+                 "1 = 68%, 2 = 95%, 3 = 99.7%. Enter either 1, 2 or 3.")
 
 if language == "Latin":
     time_slices = [0, 1]
@@ -206,12 +209,14 @@ else:
 
 # Output file:
 
-binary_file_name = "binary_change_" + language + "_" + model + "_" + word + ".txt"
+binary_file_name = "binary_change_" + language + "_" + model + "_" + word + "_" + num_stds + "stds.txt"
 
 #if istest == "yes":
 #    binary_file_name = binary_file_name.replace(".txt", "_test.txt")
 
 output = open(os.path.join(dir_out, binary_file_name), 'w')
+orig_stdout = sys.stdout
+sys.stdout = output
 
 # ---------------------------------------
 # Process gold standard files:
@@ -318,7 +323,7 @@ for model_output_file_name in all_files:
     if model == 'SCAN':
         # print_means_and_stds(K, times)
         # detect_drops_and_peaks(K, times, 2)
-        change_detected = detect_overall_drops_and_peaks(K, times, num_stds=2)
+        change_detected = detect_overall_drops_and_peaks(K, times, num_stds=int(num_stds))
         if change_detected == 1 and gold == 1:
             true_positives += 1
         elif change_detected == 0 and gold == 1:
@@ -329,8 +334,6 @@ for model_output_file_name in all_files:
             true_negatives += 1
 
 
-output.close()
-
 print("===========Precision and Recall===========")
 print('true_positives: {}'.format(true_positives))
 print('true_negatives: {}'.format(true_negatives))
@@ -338,3 +341,8 @@ print('false_positives: {}'.format(false_positives))
 print('false_negatives: {}'.format(false_negatives))
 print('precision: {}'.format(true_positives / (true_positives + false_positives)))
 print('recall: {}'.format(true_positives / (true_positives + false_negatives)))
+
+
+sys.stdout = orig_stdout
+output.close()
+print('Results saved to {}'.format(os.path.join(dir_out, binary_file_name)))
