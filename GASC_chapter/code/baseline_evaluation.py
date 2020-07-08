@@ -334,13 +334,14 @@ for model_output_file_name in all_files:
             true_negatives += 1
 
 
-print("===========Precision and Recall===========")
+print("===========Precision, Recall and F1 score===========")
 print('true_positives: {}'.format(true_positives))
 print('true_negatives: {}'.format(true_negatives))
 print('false_positives: {}'.format(false_positives))
 print('false_negatives: {}'.format(false_negatives))
 print('precision: {}'.format(true_positives / (true_positives + false_positives)))
 print('recall: {}'.format(true_positives / (true_positives + false_negatives)))
+print('F1 score: {}'.format(true_positives / (true_positives + 1/2 * (false_positives + false_negatives))))
 
 
 sys.stdout = orig_stdout

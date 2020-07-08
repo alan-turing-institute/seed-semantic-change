@@ -1516,10 +1516,11 @@ The word adsumo changed.
 ===========Model Outcome===========
 The model detected a significant meaning change (1 std).
 In particular, the model detected the significant rise of a new sense.
-===========Precision and Recall===========
+===========Precision, Recall and F1 score===========
 true_positives: 26
 true_negatives: 2
 false_positives: 12
 false_negatives: 0
 precision: 0.6842105263157895
 recall: 1.0
+F1 score: 0.8125
