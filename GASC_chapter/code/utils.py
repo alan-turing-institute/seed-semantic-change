@@ -173,17 +173,16 @@ def fit_to_gamma_get_changed_words(lang,genre):
 
 	Takes a language and a genre as input
 	"""
+	
 
 	dict_target_bins_vectors = target_words_to_CD_arrays_SGNS(lang,genre)
+	#print(dict_target_bins_vectors)
 	
 	words = list(dict_target_bins_vectors.keys())
 	print(words)
 	w_cosD = []
 	
-	#if lang == "LA": ## let's start with an easy binary case
-	#	bins = [1,2]
-
-		
+	
 	for w in tqdm(words):
 		#print(w)
 		vecs = list(dict_target_bins_vectors[w].values()) ## list of all vectors for this word
@@ -209,32 +208,60 @@ def fit_to_gamma_get_changed_words(lang,genre):
 	for index, w in enumerate(words):
 		print(w,len(w_cosD[index]),w_cosD[index])
 	
+	print(lang)
+	
 	if lang == "AG":
 		bins = [i for i in range(0,12)]
-	if lang == "LA":
-		bins = [1,2]
+	#print(w_cosD)
 	
-	for bin in bins:
-		bin_cosines = []
-		try:
-			for index, w in enumerate(words):
-				bin_cosines.append(w_cosD[index][bin])
-			args_R = ""#.join(map(str,bin_cosines))
-			x_cos = 0 # number of cosines we input
-			for cos in bin_cosines:
-				if cos is not None:
-					if cos > 0.0:
-						args_R += str(cos)+" "
-						x_cos += 1
+		for bin in bins:
+			print(bin)
+			#bin_cosines = []
+			try:
+				for index, w in enumerate(words):
+					bin_cosines.append(w_cosD[index][bin])
+				args_R = ""#.join(map(str,bin_cosines))
+				x_cos = 0 # number of cosines we input
+				for cos in bin_cosines:
+					if cos is not None:
+						if cos > 0.0:
+							args_R += str(cos)+" "
+							x_cos += 1
 
-			print(args_R)
-			if x_cos > 1:
-				Routput = subprocess.check_output("Rscript get_75quantile_threshold.Rscript "+args_R, shell=True).decode()
-				Routput = Routput.replace("\n","")
-				threshold = float(Routput.split()[1])
-				print("Threshold for bin",bin,":",threshold)
-		except IndexError:
-			continue
+				print(args_R)
+				print("x_cos",x_cos)
+				if x_cos > 1:
+					Routput = subprocess.check_output("Rscript get_75quantile_threshold.Rscript "+args_R, shell=True).decode()
+					Routput = Routput.replace("\n","")
+					threshold = float(Routput.split()[1])
+					print("Threshold for bin",bin,":",threshold)
+			except IndexError:
+				print("Index")
+				continue
+
+	if lang == "LA":
+		#print(w_cosD)
+		bins = [1,2]
+		args_R = ""
+		x_cos = 0
+		#print(w_cosD)
+		#print(w_cosD[0])
+		bin_cosines = [float(i[0]) for i in w_cosD]
+		print(bin_cosines)
+		for cos in bin_cosines:
+			if cos is not None:
+				if cos > 0.0:
+					args_R += str(cos)+" "
+					x_cos += 1
+
+		print("args_R",args_R)
+		print("x_cos",x_cos)
+		if x_cos > 1:
+			Routput = subprocess.check_output("Rscript get_75quantile_threshold.Rscript "+args_R, shell=True).decode()
+			Routput = Routput.replace("\n","")
+			threshold = float(Routput.split()[1])
+			print("Threshold for bin:",threshold)
+			
 
 
 	
