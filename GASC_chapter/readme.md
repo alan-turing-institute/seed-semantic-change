@@ -25,7 +25,11 @@ Output of the baseline evaluation of SCAN on Latin data on two time points.
 
 baseline_evaluation.py:
 
-code for processing output files from GASC/SCAN; given a list of words, this returns a binary score (0 for non-changed and 1 for changed).
+code for processing output files from GASC/SCAN; given a list of words, this calculates precision, recall and F1 score against the gold standard (0 for non-changed and 1 for changed).
+
+baseline_evaluation_2.py:
+
+Same as baseline_evaluation.py, but it also prints which (if any) sense has disappeared or appeared between the two time periods.
 
 
 utils.py:
