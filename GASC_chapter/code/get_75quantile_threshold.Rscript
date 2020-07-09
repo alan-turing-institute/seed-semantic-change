@@ -1,5 +1,5 @@
-library(fitdistrplus)
-
+#install.packages("fitdistrplus")
+library(fitdistrplus, lib.loc="env")
 
 x = c(0.4,0.1,0.9)
 fit.gamma <- fitdist(x, distr = "gamma", method = "mle")

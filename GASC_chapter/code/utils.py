@@ -213,7 +213,11 @@ def fit_to_gamma_get_changed_words(lang,genre):
 		bin_cosines = []
 		for w in words:
 			bin_cosines.append(w_cosD[w][bin])
-		threshold = float(os.system("Rscript get_75quantile_threshold.Rscript "+bin_cosines))
+		Routput = Routput = subprocess.check_output("Rscript get_75quantile_threshold.Rscript "+bin_cosines, shell=True).decode()
+		Routput = Routput.replace("\n","")
+		Routput = float(Routput.split()[1])
+		print(Routput)
+
 
 		print("bin",bin,"threshold",threshold)
 
