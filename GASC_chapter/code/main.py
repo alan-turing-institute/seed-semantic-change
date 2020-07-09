@@ -73,5 +73,5 @@ for directory in directories:
 #list_models_for_alignment("/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/LA/NAIVE","LA")
 
 """
-fit_to_gamma_get_changed_words("AG","narrative")
+fit_to_gamma_get_changed_words("LA","NAIVE")
 
