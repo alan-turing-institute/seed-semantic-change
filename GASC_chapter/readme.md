@@ -19,7 +19,7 @@ Output from SCAN models for Latin on two time periods.
 
 ## baseline_evaluation_output
 
-Output of the baseline evaluation.
+Output of the baseline evaluation of SCAN on Latin data on two time points.
 
 ## Code
 
