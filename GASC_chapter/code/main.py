@@ -38,12 +38,14 @@ for lang in langs:
 
         
         genres = ["narrative","technical"]
+        
         for genre in genres_all:
             print(genre.upper())
             for target in target_words[lang].keys():
-                check_target_in_models(target,genre,lang)
+                if target == "mus":
+                    check_target_in_models(target,genre,lang)
             print("\n")
-        """
+        #"""
 
     if lang == "LA":
         bins = [1,2]
@@ -68,8 +70,8 @@ for directory in directories:
     list_models_for_alignment(directory,lang)
 
 
-list_models_for_alignment("/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/LA/NAIVE","LA")
+#list_models_for_alignment("/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/LA/NAIVE","LA")
+
 """
-
-
 fit_to_gamma_get_changed_words("AG","NOT-technical")
+

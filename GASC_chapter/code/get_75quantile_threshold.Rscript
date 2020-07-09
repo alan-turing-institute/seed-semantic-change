@@ -1,0 +1,9 @@
+library(fitdistrplus)
+
+
+x = c(0.4,0.1,0.9)
+fit.gamma <- fitdist(x, distr = "gamma", method = "mle")
+shape <- as.numeric(fit.gamma$estimate["shape"])
+rate <- as.numeric(fit.gamma$estimate["rate"])
+threshold <- as.numeric(qgamma(c(0.75),shape,rate))
+print(threshold)

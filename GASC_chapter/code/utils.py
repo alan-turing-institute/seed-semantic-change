@@ -49,7 +49,12 @@ genre_stats = {"AG":["technical","NOT-technical","narrative","NOT-narrative"],
 			"LA":[] }
 
 target_words = {}
-target_words["AG"] = {'harmonia': ['!αρμονίας', 'ἁρμονία', 'ἁρμονίαι', 'ἁρμονίαις', 'ἁρμονίαισι', 'ἁρμονίαισιν', 'ἁρμονίαν', 'ἁρμονίας', 'ἁρμονίᾳ', 'ἁρμονίη', 'ἁρμονίηι', 'ἁρμονίην', 'ἁρμονίης', 'ἁρμονίῃ', 'ἁρμονίῃσιν', 'ἁρμονιάων', 'ἁρμονιῶν'], 'kosmos': ['κόσμε', 'κόσμοι', 'κόσμοιο', 'κόσμοις', 'κόσμοισι', 'κόσμον', 'κόσμος', 'κόσμου', 'κόσμους', 'κόσμω', 'κόσμωι', 'κόσμων', 'κόσμῳ'], 'mus': ['μύας', 'μύες', 'μύεσι', 'μύεσσιν', 'μύς', 'μύων', 'μῦ', 'μῦν', 'μῦς', 'μυί', 'μυός', 'μυοῖν', 'μυσί', 'μυσίν', 'μυῶν']}
+target_words["AG"] = {'harmonia': ['!αρμονίας', 'ἁρμονία', 'ἁρμονίαι', 'ἁρμονίαις', 'ἁρμονίαισι', 'ἁρμονίαισιν', 'ἁρμονίαν', 'ἁρμονίας', 'ἁρμονίᾳ', 'ἁρμονίη', 'ἁρμονίηι', 'ἁρμονίην', 'ἁρμονίης', 'ἁρμονίῃ', 'ἁρμονίῃσιν', 'ἁρμονιάων', 'ἁρμονιῶν'], 
+					'kosmos': ['κόσμε', 'κόσμοι', 'κόσμοιο', 'κόσμοις', 'κόσμοισι', 'κόσμον', 'κόσμος', 'κόσμου', 'κόσμους', 'κόσμω', 'κόσμωι', 'κόσμων', 'κόσμῳ'], 
+					'mus': ['μύας', 'μύες', 'μύεσι', 'μύεσσιν', 'μύς', 'μύς' 'μύων', 'μῦ', 'μῦν', 'μῦς', 'μυί', 'μυός', 'μυοῖν', 'μυσί', 'μυσίν', 'μυῶν'],
+					'parabole': ['παραβολή'],
+					'paradeisos': ['παράδεισος'],
+					}
 target_words["LA"] = {}
 
 import cProfile, pstats, io
@@ -84,7 +89,7 @@ def list_models_for_alignment(directory,lang):
 	"""
 	
 	if lang == "AG":
-		targets = ["ἁρμονία", "κόσμος", "μύς", "παραβολή", "παράδεισος"]
+		targets = ["ἁρμονία", "κόσμος", "μῦς", "παραβολή", "παράδεισος"]
 		models = [model for model in os.listdir(directory) if model.endswith(".w2v")]
 		earliest = -700 #sorted(years)[0]
 		last = 400 #sorted(years)[-1]
@@ -105,6 +110,7 @@ def list_models_for_alignment(directory,lang):
 			x = 0
 			for target in targets:
 				if target in m.wv.vocab:
+
 					x += 1
 					if x == len(targets):
 						print("model chosen for alignment",model)
@@ -132,7 +138,7 @@ def list_models_for_alignment(directory,lang):
 				#print(m1)
 				#print(m2)
 				print(item,models_ordered[index+1])
-				other_embed = smart_procrustes_align_gensim(m1, m2,targets)
+				other_embed = smart_procrustes_align_gensim(m1, m2, targets)
 				#other_embed = smart_procrustes_align_gensim(item, models_ordered[index+1])
 				#print("other_embed retrieved")
 
@@ -153,7 +159,7 @@ def list_models_for_alignment(directory,lang):
 		print(models)
 		m1 = gensim.models.KeyedVectors.load(models[0])
 		m2 = gensim.models.KeyedVectors.load(models[1])
-		other_embed = smart_procrustes_align_gensim(m1, m2,targets)
+		other_embed = smart_procrustes_align_gensim(m1, m2, targets)
 		other_embed.save(models[1])
 
 
@@ -182,6 +188,8 @@ def fit_to_gamma_get_changed_words(lang,genre):
 		vecs = list(dict_target_bins_vectors[w].values()) ## list of all vectors for this word
 		#print("vectors for",w,vecs)
 		cosD = [] ## list of all distances
+		if w == "μῦς":
+			print(w)
 		for index, vec in enumerate(vecs):
 			#print(w, index, vec)
 				
@@ -199,6 +207,20 @@ def fit_to_gamma_get_changed_words(lang,genre):
 	
 	for index, w in enumerate(words):
 		print(w,len(w_cosD[index]),w_cosD[index])
+	
+
+	for bin in bins:
+		bin_cosines = []
+		for w in words:
+			bin_cosines.append(w_cosD[w][bin])
+		threshold = float(os.system("Rscript get_75quantile_threshold.Rscript "+bin_cosines))
+
+		print("bin",bin,"threshold",threshold)
+
+	# 2. for every index, get the value for all words
+	# 3. feed that to Rscript
+
+	#
 
 	#print(words)
 	#print(w_cosD)
@@ -210,7 +232,7 @@ def target_words_to_CD_arrays_SGNS(lang,genre):
 	if lang == "AG":
 		bins = [i for i in range(0,12)]
 		
-		targets = ["ἁρμονία", "κόσμος", "μύς", "παραβολή", "παράδεισος"]
+		targets = ["ἁρμονία", "κόσμος", "μῦς", "παραβολή", "παράδεισος"]
 		if genre == "narrative":
 			trained_models = {2: "BIN_-500_narrative.w2v",
 						3: "BIN_-400_narrative.w2v",
@@ -277,16 +299,20 @@ def target_words_to_CD_arrays_SGNS(lang,genre):
 	#print("We have these bins:",bins)
 	print("Getting vectors")
 	for target in tqdm(targets):  ## take the vector from each time slice, THEN do cos
-		#print(target)
+		if target == "μῦς":
+			print(target)
 		first = True
 		dict_target_bins_vectors[target] = {}
 		for bin in bins:
 			#print(bin)
 			if bin in trained_models.keys(): ## if we have a model for this period
-				#print(directory+trained_models[bin])
+				if target == "μῦς":
+					print(directory+trained_models[bin])
 				m1 = gensim.models.Word2Vec.load(directory+trained_models[bin])
 				try:
 					vec = m1.wv.get_vector(target)
+					if target == "μῦς":
+						print(bin,"has a vec")
 					first = False
 				except KeyError:
 					if first == True:
@@ -336,7 +362,7 @@ def smart_procrustes_align_gensim(base_embed, other_embed, words=None):
 	#print("init simmed")
 	
 	# make sure vocabulary and indices are aligned
-	in_base_embed, in_other_embed = intersection_align_gensim(base_embed, other_embed, words=words)
+	in_base_embed, in_other_embed = intersection_align_gensim(base_embed, other_embed, words)
 	#print("vocab intersected")
 	
 	# get the embedding matrices
@@ -593,7 +619,9 @@ def check_target_in_models(target,genre,lang):
 		present = False
 		for form in target_words[lang][target]:
 			if form in m.wv.vocab:
+				print(form)
 				present = True
 		if present == True:
 			print(target,"is present in",model)
 	
+	#μῦς
