@@ -1,7 +1,12 @@
 #install.packages("fitdistrplus")
 library(fitdistrplus, lib.loc="env")
+args=(commandArgs(TRUE))
 
-x = c(0.4,0.1,0.9)
+#x = c(0.4,0.1,0.9)
+#print(args)
+#typeof(args)
+x <- c(as.numeric(args))
+
 fit.gamma <- fitdist(x, distr = "gamma", method = "mle")
 shape <- as.numeric(fit.gamma$estimate["shape"])
 rate <- as.numeric(fit.gamma$estimate["rate"])

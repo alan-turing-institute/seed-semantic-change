@@ -9,6 +9,7 @@ import random
 import numpy as np
 import scipy.stats as stats
 from scipy import spatial
+import subprocess
 
 path_data_in = os.path.join("..","..","corpus_scripts_output") # corpus_scripts_output/full_corpus_forms.txt
 corpus_path = os.path.join(path_data_in,"full_corpus_forms.txt")
@@ -208,26 +209,32 @@ def fit_to_gamma_get_changed_words(lang,genre):
 	for index, w in enumerate(words):
 		print(w,len(w_cosD[index]),w_cosD[index])
 	
-
+	if lang == "AG":
+		bins = [i for i in range(0,12)]
+	if lang == "LA":
+		bins = [1,2]
+	
 	for bin in bins:
 		bin_cosines = []
-		for w in words:
-			bin_cosines.append(w_cosD[w][bin])
-		Routput = Routput = subprocess.check_output("Rscript get_75quantile_threshold.Rscript "+bin_cosines, shell=True).decode()
-		Routput = Routput.replace("\n","")
-		Routput = float(Routput.split()[1])
-		print(Routput)
+		try:
+			for index, w in enumerate(words):
+				bin_cosines.append(w_cosD[index][bin])
+			args_R = ""#.join(map(str,bin_cosines))
+			x_cos = 0 # number of cosines we input
+			for cos in bin_cosines:
+				if cos is not None:
+					if cos > 0.0:
+						args_R += str(cos)+" "
+						x_cos += 1
 
-
-		print("bin",bin,"threshold",threshold)
-
-	# 2. for every index, get the value for all words
-	# 3. feed that to Rscript
-
-	#
-
-	#print(words)
-	#print(w_cosD)
+			print(args_R)
+			if x_cos > 1:
+				Routput = subprocess.check_output("Rscript get_75quantile_threshold.Rscript "+args_R, shell=True).decode()
+				Routput = Routput.replace("\n","")
+				threshold = float(Routput.split()[1])
+				print("Threshold for bin",bin,":",threshold)
+		except IndexError:
+			continue
 
 
 	
