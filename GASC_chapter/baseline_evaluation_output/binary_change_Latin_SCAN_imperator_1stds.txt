@@ -1,0 +1,47 @@
+model_output_file_name:imperator.dat
+
+========================================================
+Opening model output file: imperator.dat in /Users/bmcgillivray/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.16035017464064558
+time = 0
+sense = 0
+prob = 0.3182515693466617
+time = 0
+sense = 1
+prob = 0.22753748577834917
+time = 0
+sense = 2
+prob = 0.29386077023434354
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2512593824460021
+time = 1
+sense = 0
+prob = 0.26223867031789666
+time = 1
+sense = 1
+prob = 0.2217356034589918
+time = 1
+sense = 2
+prob = 0.2647663437771094
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word imperator changed.
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=1.
+===========Precision, Recall and F1 score===========
+true_positives: 1
+true_negatives: 0
+false_positives: 0
+false_negatives: 0
+precision: 1.0
+recall: 1.0
+F1 score: 1.0

@@ -1,0 +1,47 @@
+model_output_file_name:beatus.dat
+
+========================================================
+Opening model output file: beatus.dat in /Users/bmcgillivray/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.06229548953188291
+time = 0
+sense = 0
+prob = 0.1906747519287179
+time = 0
+sense = 1
+prob = 0.664568983117907
+time = 0
+sense = 2
+prob = 0.08246077542149204
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.22870539044598887
+time = 1
+sense = 0
+prob = 0.2736980691597141
+time = 1
+sense = 1
+prob = 0.24712755717951582
+time = 1
+sense = 2
+prob = 0.2504689832147812
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word beatus changed.
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+===========Precision, Recall and F1 score===========
+true_positives: 1
+true_negatives: 0
+false_positives: 0
+false_negatives: 0
+precision: 1.0
+recall: 1.0
+F1 score: 1.0
