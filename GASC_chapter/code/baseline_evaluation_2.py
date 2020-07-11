@@ -175,10 +175,13 @@ num_stds = input("What confidence interval would you like to use to declare sema
                  "1 = 68%, 2 = 95%, 3 = 99.7%. Enter either 1, 2 or 3.")
 
 result_folder = ""
-if language == "Latin":
-    number_senses = 4
-    if model == "SCAN":
+if model == "SCAN":
+    if language == "Latin":
         result_folder = input("Which SCAN output would you like to use? Choose among SCAN_BCAC, SCAN_dT1 or SCAN_dT3. ")
+    elif language == 'Greek':
+        result_folder = input("Which SCAN output would you like to use? Choose among SCAN_it1500, SCAN_it2500. ")
+    else:
+        raise ValueError('Language {} not supported. Please choose either Latin or Greek'.format(language))
 
 
 
