@@ -1,5 +1,5 @@
 ## -*- coding: utf-8 -*-
-# Author: Barbara McGillivray
+# Authors: Barbara McGillivray, Valerio Perrone
 # Date: 23/6/2020
 # Python version: 3
 # Script for processing output files from SCAN and GASC and reduce them to a binary change score for each word, for Latin and Ancient Greek
@@ -174,6 +174,7 @@ word = input("Which lemma are you interested in? All lower-case letters. "
 num_stds = input("What confidence interval would you like to use to declare semantic change? "
                  "1 = 68%, 2 = 95%, 3 = 99.7%. Enter either 1, 2 or 3.")
 
+result_folder = ""
 if language == "Latin":
     number_senses = 4
     if model == "SCAN":
@@ -194,29 +195,32 @@ parents_parent_dir_of_file = dirname(parent_dir_of_file)
 dir_in = os.path.join(parent_dir_of_file, "input")
 dir_out = os.path.join(parent_dir_of_file, "baseline_evaluation_output")
 #dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", language + "_input", model)
+
 dir_model_output = os.path.join(parents_parent_dir_of_file, "GASC_chapter", language + "_" + model + "_output", result_folder)
 
 # Input files:
 gold_standard_file_name = "gold_standard_binary_" + language + ".txt"
 #model_output_file_name = "output_" + word + "_NOSTOPWORDS.dat"
-if language == "Latin":
-    if word == 'all':
-        all_files = [f
-                     for f in os.listdir(dir_model_output)
-                     if os.path.isfile(os.path.join(dir_model_output,f))
-                     and f != '.DS_Store']
-        all_files = [file for file in all_files if file != 'output.dat']
-    else:
-        all_files = [word + ".dat"]
+
+# for both Latin and Greek
+if word == 'all':
+    all_files = [f
+                 for f in os.listdir(dir_model_output)
+                 if os.path.isfile(os.path.join(dir_model_output,f))
+                 and f != '.DS_Store']
+    all_files = [file for file in all_files if file != 'output.dat']
 else:
-    if word == "kosmos":
-        id = 59339
-        dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", "greek_input", "all_results", word + "_simon_k15", str(id))
-        all_files = ["output.dat"]
-    elif word == "harmonia":
-        dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", "greek_input",
-                                        "all_results")
-        all_files = ["output_" + word + "_K5.dat"]
+    all_files = [word + ".dat"]
+# deprecated
+# else:
+#     if word == "kosmos":
+#         id = 59339
+#         dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", "greek_input", "all_results", word + "_simon_k15", str(id))
+#         all_files = ["output.dat"]
+#     elif word == "harmonia":
+#         dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", "greek_input",
+#                                         "all_results")
+#         all_files = ["output_" + word + "_K5.dat"]
 
 
 # Output file:
@@ -359,7 +363,7 @@ try:
     print('recall: {}'.format(true_positives / (true_positives + false_negatives)))
     print('F1 score: {}'.format(true_positives / (true_positives + 1/2 * (false_positives + false_negatives))))
 except:
-    print('Error')
+    print('Error in computing precision, recall or F1 score. Some denominator is 0.')
 
 sys.stdout = orig_stdout
 output.close()
