@@ -51,8 +51,14 @@ def add_probabilities_to_dict(line_text, k, times):
     k: number of senses
     times: number of time points
     """
-    patterns = ['{(0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?),',
-                ' (0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?)}']
+
+    patterns = ['{(0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?),']
+    if times > 2:
+        for _ in range(times-2):
+            sub_pattern = ' (0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?),'
+            patterns.append(sub_pattern)
+    patterns.append(' (0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?)}')
+
     for time, pattern in zip(range(times), patterns):
         if re.match(pattern, line_text):
             match = re.match(pattern, line_text)
@@ -169,8 +175,11 @@ num_stds = input("What confidence interval would you like to use to declare sema
                  "1 = 68%, 2 = 95%, 3 = 99.7%. Enter either 1, 2 or 3.")
 
 if language == "Latin":
-    time_slices = [0, 1]
     number_senses = 4
+    if model == "SCAN":
+        result_folder = input("Which SCAN output would you like to use? Choose among SCAN_BCAC, SCAN_dT1 or SCAN_dT3. ")
+
+
 
 #if istest == "":
 #    istest = istest_default
@@ -185,7 +194,7 @@ parents_parent_dir_of_file = dirname(parent_dir_of_file)
 dir_in = os.path.join(parent_dir_of_file, "input")
 dir_out = os.path.join(parent_dir_of_file, "baseline_evaluation_output")
 #dir_model_output = os.path.join(parents_parent_dir_of_file, "src", "dynamic-senses", language + "_input", model)
-dir_model_output = os.path.join(parents_parent_dir_of_file, "GASC_chapter", language + "_" + model + "_output", "SCAN_BCAC")
+dir_model_output = os.path.join(parents_parent_dir_of_file, "GASC_chapter", language + "_" + model + "_output", result_folder)
 
 # Input files:
 gold_standard_file_name = "gold_standard_binary_" + language + ".txt"
@@ -194,7 +203,8 @@ if language == "Latin":
     if word == 'all':
         all_files = [f
                      for f in os.listdir(dir_model_output)
-                     if os.path.isfile(os.path.join(dir_model_output,f))]
+                     if os.path.isfile(os.path.join(dir_model_output,f))
+                     and f != '.DS_Store']
         all_files = [file for file in all_files if file != 'output.dat']
     else:
         all_files = [word + ".dat"]
@@ -211,7 +221,7 @@ else:
 
 # Output file:
 
-binary_file_name = "binary_change_" + language + "_" + model + "_" + word + "_" + num_stds + "stds.txt"
+binary_file_name = "binary_change_" + language + "_" + model + "_" + word + "_" + num_stds + "stds" + "_" + result_folder + ".txt"
 
 #if istest == "yes":
 #    binary_file_name = binary_file_name.replace(".txt", "_test.txt")
