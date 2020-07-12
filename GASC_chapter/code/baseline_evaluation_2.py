@@ -37,6 +37,7 @@ now = datetime.datetime.now()
 today_date = str(now)[:10]
 
 current_time_index = 0
+current_genre = 0
 
 true_positives = 0
 false_negatives = 0
@@ -107,6 +108,84 @@ def add_probabilities_to_dict(line_text, time, k, times):
     return time
 
 
+def add_probabilities_to_dict_with_genre(line_text, time, genre, k, times):
+    """For each time and sense, adds probability at each iteration to the dictionary time2sense2probabilities.
+    This dictionary is useful at the end to compute probability means and standard deviations.
+
+    Inputs:
+    line_text: current line of text
+    k: number of senses
+    times: number of time points
+    """
+
+    starting_pattern = '{(0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?),'
+    ending_pattern = ' (0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?)}'
+    intermediate_pattern = '\s+(0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?),'
+
+    #print(line_text)
+    #print('genre at the beginning:' + str(genre))
+    if re.match(starting_pattern, line_text):
+        time = 0
+        #print('initial pattern')
+        #print('time = {}'.format(time))
+        match = re.match(starting_pattern, line_text)
+        for i in range(k):
+            sense_index = i + 1
+            sense_prob = float(match.group(sense_index))
+            if genre not in genre2time2sense2probabilities:
+                genre2time2sense2probabilities[genre] = {time: {sense_index: [sense_prob]}}
+            else:
+                if time not in genre2time2sense2probabilities[genre]:
+                    genre2time2sense2probabilities[genre][time] = {sense_index: [sense_prob]}
+                else:
+                    if sense_index not in genre2time2sense2probabilities[genre][time]:
+                        genre2time2sense2probabilities[genre][time][sense_index] = [sense_prob]
+                    else:
+                        genre2time2sense2probabilities[genre][time][sense_index].append(sense_prob)
+    elif re.match(ending_pattern, line_text):
+        time = times - 1
+        #print('ending pattern')
+        #print('time = {}'.format(time))
+        match = re.match(ending_pattern, line_text)
+        for i in range(k):
+            sense_index = i + 1
+            sense_prob = float(match.group(sense_index))
+            if genre not in genre2time2sense2probabilities:
+                genre2time2sense2probabilities[genre] = {time: {sense_index: [sense_prob]}}
+            else:
+                if time not in genre2time2sense2probabilities[genre]:
+                    genre2time2sense2probabilities[genre][time] = {sense_index: [sense_prob]}
+                else:
+                    if sense_index not in genre2time2sense2probabilities[genre][time]:
+                        genre2time2sense2probabilities[genre][time][sense_index] = [sense_prob]
+                    else:
+                        genre2time2sense2probabilities[genre][time][sense_index].append(sense_prob)
+        genre += 1
+    elif re.match(intermediate_pattern, line_text):
+        time += 1
+        #print('intermediate pattern')
+        #print('time = {}'.format(time))
+        match = re.match(intermediate_pattern, line_text)
+        for i in range(k):
+            sense_index = i + 1
+            sense_prob = float(match.group(sense_index))
+            if genre not in genre2time2sense2probabilities:
+                genre2time2sense2probabilities[genre] = {time: {sense_index: [sense_prob]}}
+            else:
+                if time not in genre2time2sense2probabilities[genre]:
+                    genre2time2sense2probabilities[genre][time] = {sense_index: [sense_prob]}
+                else:
+                    if sense_index not in genre2time2sense2probabilities[genre][time]:
+                        genre2time2sense2probabilities[genre][time][sense_index] = [sense_prob]
+                    else:
+                        genre2time2sense2probabilities[genre][time][sense_index].append(sense_prob)
+    else:
+        # print reset current_genre as we went through all genres
+        genre = 0
+    #print('genre at the end:' + str(genre))
+    return time, genre
+
+
 def print_means_and_stds(k, times):
     print('\nFor each time, mean and standard deviations of probability of each sense.')
     for time in range(times):
@@ -147,7 +226,7 @@ def detect_overall_drops_and_peaks(k, times, num_stds):
     decrease_indicator = 0
     changed_sense = -1
     for sense in range(k):
-        #print("sense = " + str(sense + 1))
+        print("sense = " + str(sense + 1))
         min_prob = 2
         max_prob = -2
         std_min = 0
@@ -155,6 +234,7 @@ def detect_overall_drops_and_peaks(k, times, num_stds):
         time_min = 0
         time_max = 0
         for t in range(times):
+            print("time = " + str(t))
             if np.mean(time2sense2probabilities[t][sense + 1]) < min_prob:
                 min_prob = np.mean(time2sense2probabilities[t][sense + 1])
                 std_min = np.sqrt(np.var(time2sense2probabilities[t][sense + 1]))
@@ -177,6 +257,60 @@ def detect_overall_drops_and_peaks(k, times, num_stds):
             if significant:
                 decrease_indicator = True
                 changed_sense = sense
+
+    print("===========Model Outcome===========")
+    change_indicator = increase_indicator or decrease_indicator
+    if change_indicator:
+        print('The model detected a significant meaning change ({} std).'.format(num_stds))
+        if increase_indicator:
+            print('In particular, the model detected the significant rise of a new sense, sense K=' + str(changed_sense) +'.')
+        elif decrease_indicator:
+            print('In particular, the model detected the significant fall of an old sense, sense K=' + str(changed_sense) +'.')
+    else:
+        print('The model did NOT detect any significant meaning change ({} std).'.format(num_stds))
+    return change_indicator, changed_sense
+
+
+def detect_overall_drops_and_peaks_with_genre(k, times, genres, num_stds):
+    #print("\nDrops and peaks across entire time series.")
+    increase_indicator = 0
+    decrease_indicator = 0
+    changed_sense = -1
+    for sense in range(k):
+        print("sense = " + str(sense + 1))
+        min_prob = 2
+        max_prob = -2
+        std_min = 0
+        std_max = 0
+        time_min = 0
+        time_max = 0
+
+        # for every sense, we check if there has been a significant change over time ACROSS ANY GENRE
+        for genre in range(genres):
+            for t in range(times):
+                #print("time = " + str(t))
+                if np.mean(genre2time2sense2probabilities[genre][t][sense + 1]) < min_prob:
+                    min_prob = np.mean(genre2time2sense2probabilities[genre][t][sense + 1])
+                    std_min = np.sqrt(np.var(genre2time2sense2probabilities[genre][t][sense + 1]))
+                    time_min = t
+                if np.mean(genre2time2sense2probabilities[genre][t][sense + 1]) > max_prob:
+                    max_prob = np.mean(genre2time2sense2probabilities[genre][t][sense + 1])
+                    std_max = np.sqrt(np.var(genre2time2sense2probabilities[genre][t][sense + 1]))
+                    time_max = t
+
+            significant = (max_prob - num_stds * std_max) > (min_prob + num_stds * std_min)
+            if time_min < time_max:
+                #print("min probability at time {}, max at time {}".format(time_min, time_max))
+                #print('Max global probability INcrease: {}; significant? {}'.format(max_prob - min_prob, significant))
+                if significant:
+                    increase_indicator = True
+                    changed_sense = sense
+            else:
+                #print("min probability at time {}, max at time {}".format(time_min, time_max))
+                #print('Max global probability DEcrease: {}; significant? {}'.format(max_prob - min_prob, significant))
+                if significant:
+                    decrease_indicator = True
+                    changed_sense = sense
 
     print("===========Model Outcome===========")
     change_indicator = increase_indicator or decrease_indicator
@@ -271,6 +405,8 @@ binary_file_name = "binary_change_" + language + "_" + model + "_" + word + "_" 
 #    binary_file_name = binary_file_name.replace(".txt", "_test.txt")
 
 output = open(os.path.join(dir_out, binary_file_name), 'w')
+
+# The following two lines redirect the output from the terminal to the output file
 orig_stdout = sys.stdout
 sys.stdout = output
 
@@ -313,6 +449,7 @@ for model_output_file_name in all_files:
 
     time2sense2probability = dict()  # maps a time slice and sense number to its probability predicted by the model
     time2sense2probabilities = dict()  # maps a time slice and sense number to the probability at each iteration
+    genre2time2sense2probabilities = dict()  # maps a genre to a time slice and sense number to the probability at each iteration
 
     count = 0
     for line in model_output_file:
@@ -335,7 +472,7 @@ for model_output_file_name in all_files:
             # this is temporarily hard coded. We should have the same output for SCAN and GASC
             K = 4
             times = 8
-            add_probabilities_to_dict(line_text, K, times)
+            current_time_index, current_genre = add_probabilities_to_dict_with_genre(line_text, current_time_index, current_genre, K, times)
 
 
         if " per time " in line_text:
@@ -383,20 +520,24 @@ for model_output_file_name in all_files:
         else:
             print("The word " + current_word + " changed.")
 
-    if model == 'SCAN' or model == 'GASC':
+    if model == 'SCAN':
         # print_means_and_stds(K, times)
         # detect_drops_and_peaks(K, times, 2)
         result = detect_overall_drops_and_peaks(K, times, num_stds=int(num_stds))
-        change_detected = result[0]
-        changed_sense = result[1]
-        if change_detected == 1 and gold == 1:
-            true_positives += 1
-        elif change_detected == 0 and gold == 1:
-            false_negatives += 1
-        elif change_detected == 1 and gold == 0:
-            false_positives += 1
-        elif change_detected == 0 and gold == 0:
-            true_negatives += 1
+    elif model == 'GASC':
+        num_genres = 2 # TODO: hard-coded to two for now. To be generalized if needed.
+        result = detect_overall_drops_and_peaks_with_genre(K, times, num_genres, num_stds=int(num_stds))
+
+    change_detected = result[0]
+    changed_sense = result[1]
+    if change_detected == 1 and gold == 1:
+        true_positives += 1
+    elif change_detected == 0 and gold == 1:
+        false_negatives += 1
+    elif change_detected == 1 and gold == 0:
+        false_positives += 1
+    elif change_detected == 0 and gold == 0:
+        true_negatives += 1
 
 
 print("===========Precision, Recall and F1 score===========")
