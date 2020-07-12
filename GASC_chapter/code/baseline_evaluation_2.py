@@ -179,7 +179,7 @@ if model == "SCAN":
     if language == "Latin":
         result_folder = input("Which SCAN output would you like to use? Choose among SCAN_BCAC, SCAN_dT1 or SCAN_dT3. ")
     elif language == 'Greek':
-        result_folder = input("Which SCAN output would you like to use? Choose among SCAN_it1500, SCAN_it2500. ")
+        result_folder = input("Which SCAN output would you like to use? Choose among SCAN_it1500, SCAN_it2500, SCAN_it10000. ")
     else:
         raise ValueError('Language {} not supported. Please choose either Latin or Greek'.format(language))
 
