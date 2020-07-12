@@ -36,13 +36,15 @@ import sys
 now = datetime.datetime.now()
 today_date = str(now)[:10]
 
+current_time_index = 0
+
 true_positives = 0
 false_negatives = 0
 false_positives = 0
 true_negatives = 0
 
 
-def add_probabilities_to_dict(line_text, k, times):
+def add_probabilities_to_dict(line_text, time, k, times):
     """For each time and sense, adds probability at each iteration to the dictionary time2sense2probabilities.
     This dictionary is useful at the end to compute probability means and standard deviations.
 
@@ -52,26 +54,58 @@ def add_probabilities_to_dict(line_text, k, times):
     times: number of time points
     """
 
-    patterns = ['{(0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?),']
-    if times > 2:
-        for _ in range(times-2):
-            sub_pattern = ' (0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?),'
-            patterns.append(sub_pattern)
-    patterns.append(' (0\.\d+?), (0\.\d+?), (0\.\d+?), (0\.\d+?)}')
+    starting_pattern = '{(0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?),'
+    ending_pattern = ' (0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?)}'
+    intermediate_pattern = '\s+(0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?),\s+(0\.\d+?),'
 
-    for time, pattern in zip(range(times), patterns):
-        if re.match(pattern, line_text):
-            match = re.match(pattern, line_text)
-            for i in range(k):
-                sense_index = i + 1
-                sense_prob = float(match.group(sense_index))
-                if time not in time2sense2probabilities:
-                    time2sense2probabilities[time] = {sense_index: [sense_prob]}
+    #print(line_text)
+    if re.match(starting_pattern, line_text):
+        time = 0
+        #print('initial pattern')
+        #print('time = {}'.format(time))
+        match = re.match(starting_pattern, line_text)
+        for i in range(k):
+            sense_index = i + 1
+            sense_prob = float(match.group(sense_index))
+            if time not in time2sense2probabilities:
+                time2sense2probabilities[time] = {sense_index: [sense_prob]}
+            else:
+                if sense_index not in time2sense2probabilities[time]:
+                    time2sense2probabilities[time][sense_index] = [sense_prob]
                 else:
-                    if sense_index not in time2sense2probabilities[time]:
-                        time2sense2probabilities[time][sense_index] = [sense_prob]
-                    else:
-                        time2sense2probabilities[time][sense_index].append(sense_prob)
+                    time2sense2probabilities[time][sense_index].append(sense_prob)
+    elif re.match(ending_pattern, line_text):
+        time = times - 1
+        #print('ending pattern')
+        #print('time = {}'.format(time))
+        match = re.match(ending_pattern, line_text)
+        for i in range(k):
+            sense_index = i + 1
+            sense_prob = float(match.group(sense_index))
+            if time not in time2sense2probabilities:
+                time2sense2probabilities[time] = {sense_index: [sense_prob]}
+            else:
+                if sense_index not in time2sense2probabilities[time]:
+                    time2sense2probabilities[time][sense_index] = [sense_prob]
+                else:
+                    time2sense2probabilities[time][sense_index].append(sense_prob)
+    elif re.match(intermediate_pattern, line_text):
+        time += 1
+        #print('intermediate pattern')
+        #print('time = {}'.format(time))
+        match = re.match(intermediate_pattern, line_text)
+        for i in range(k):
+            sense_index = i + 1
+            sense_prob = float(match.group(sense_index))
+            if time not in time2sense2probabilities:
+                time2sense2probabilities[time] = {sense_index: [sense_prob]}
+            else:
+                if sense_index not in time2sense2probabilities[time]:
+                    time2sense2probabilities[time][sense_index] = [sense_prob]
+                else:
+                    time2sense2probabilities[time][sense_index].append(sense_prob)
+    return time
+
 
 def print_means_and_stds(k, times):
     print('\nFor each time, mean and standard deviations of probability of each sense.')
@@ -182,6 +216,9 @@ if model == "SCAN":
         result_folder = input("Which SCAN output would you like to use? Choose among SCAN_it1500, SCAN_it2500, SCAN_it10000. ")
     else:
         raise ValueError('Language {} not supported. Please choose either Latin or Greek'.format(language))
+if model == "GASC":
+    if language == "Latin":
+        result_folder = input("Which GASC output would you like to use? Choose GASC_dT3_minus2_Christian. ")
 
 
 
@@ -284,7 +321,7 @@ for model_output_file_name in all_files:
         #print(str(count))
 
         if model == 'SCAN':
-            # SCAN: use a test to identify statistically significant drops or peaks
+            # Use a test to identify statistically significant drops or peaks
             if 'kappaF' in line_text:
                 # Extract the number of used senses K
                 K = int(line_text.split(', K ')[1].split(', ')[0])
@@ -293,7 +330,13 @@ for model_output_file_name in all_files:
                 print('There are times = {} time points in the output.'.format(times))
                 found_iterations = 1
             if found_iterations == 1:
-                add_probabilities_to_dict(line_text, K, times)
+                current_time_index = add_probabilities_to_dict(line_text, current_time_index, K, times)
+        elif model == 'GASC':
+            # this is temporarily hard coded. We should have the same output for SCAN and GASC
+            K = 4
+            times = 8
+            add_probabilities_to_dict(line_text, K, times)
+
 
         if " per time " in line_text:
             found_time_probabilities = 1
@@ -340,7 +383,7 @@ for model_output_file_name in all_files:
         else:
             print("The word " + current_word + " changed.")
 
-    if model == 'SCAN':
+    if model == 'SCAN' or model == 'GASC':
         # print_means_and_stds(K, times)
         # detect_drops_and_peaks(K, times, 2)
         result = detect_overall_drops_and_peaks(K, times, num_stds=int(num_stds))
