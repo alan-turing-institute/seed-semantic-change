@@ -484,15 +484,25 @@ def intersection_align_gensim(m1,m2, words=None):
 
 	return (m1,m2)
 
-def LA_to_TR_input():
+def LA_to_TR_input(genre):
+	# genre is either "NAIVE", "christian", "NOT-christian"
 	lang = "LA"
-	files = [os.path.join(path_data_out,lang,file) for file in os.listdir(os.path.join(path_data_out,lang)) if file.endswith(".gensim")]
-	with open("/home/gntsh/git/TemporalReferencing/corpus/test/files/corpus.txt", "w") as f_out:
-		for index, file in enumerate(sorted(files)):
-			with open(file) as f:
-				for line in f.readlines():
-					f_out.write(str(index)+"\t"+line.lower())
-	os.system("gzip -f "+"/home/gntsh/git/TemporalReferencing/corpus/test/files/corpus.txt")
+	files = [os.path.join(path_data_out,lang,genre,file) for file in os.listdir(os.path.join(path_data_out,lang,genre)) if file.endswith(".gensim")]
+	if genre == "NAIVE":
+		with open("/home/gntsh/git/TemporalReferencing/corpus/test/files/corpus.txt", "w") as f_out:
+			for index, file in enumerate(sorted(files)):
+				with open(file) as f:
+					for line in f.readlines():
+						f_out.write(str(index)+"\t"+line.lower())
+		os.system("gzip -f "+"/home/gntsh/git/TemporalReferencing/corpus/test/files/corpus.txt")
+	else:
+		with open("/home/gntsh/git/TemporalReferencing/corpus/LA-"+genre+"/files/corpus.txt", "w") as f_out:
+			for index, file in enumerate(sorted(files)):
+				with open(file) as f:
+					for line in f.readlines():
+						f_out.write(str(index)+"\t"+line.lower())
+		os.system("gzip -f "+"/home/gntsh/git/TemporalReferencing/corpus/LA-"+genre+"/files/corpus.txt")
+
 
 def AG_to_TR_input():
 	lang = "AG"
@@ -570,8 +580,12 @@ def train_model(slice,genre,lang):
 
 def corpus_transformer(genre_sep,lang,slice_length=100):
 	"""
+	AG:
 	Will transform the main corpus file into gensim files
 	genre_sep is either 'technical', 'narrative', or None
+
+	LA:
+	genre_sep is 'christian'
 	"""
 	if lang == "AG":
 		if genre_sep not in ["technical", "narrative",None]:
@@ -617,6 +631,74 @@ def corpus_transformer(genre_sep,lang,slice_length=100):
 				with open(fileout,"w") as f:
 					for index, row in sub_corpus.iterrows():
 						f.write(row["sentence"].lower()+"\n")
+	if lang == "LA":
+		
+		corpus_path = "/home/gntsh/git/corpus_LATIN/corpus_OK.txt"
+		print("corpus_path",corpus_path)
+		print("genre_sep",genre_sep)
+		corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
+		print("corpus read")
+
+		if os.path.exists(os.path.join(path_data_out,lang,genre_sep)) == False:
+			os.mkdir(os.path.join(path_data_out,lang,genre_sep))
+		if os.path.exists(os.path.join(path_data_out,lang,"NOT-"+genre_sep)) == False:
+			os.mkdir(os.path.join(path_data_out,lang,"NOT-"+genre_sep))
+
+		bins = ["1","2"]
+		for bin in bins:
+			# bin 1, vrai et faux genre
+			if bin == "1":
+				print(bin,genre_sep)
+				fileout = os.path.join(path_data_out,lang,genre_sep,"BIN_"+str(bin)+"_"+genre_sep+".gensim")
+				print(fileout)
+				if os.path.exists(fileout) == False:
+					sub_corpus = corpus[(corpus['year'] <= 0) & (corpus['genre'].str.lower() == genre_sep )]
+					print(sub_corpus.head())
+					with open(fileout,"w") as f:
+						for index, row in sub_corpus.iterrows():
+							f.write(row["sentence"].lower()+"\n")
+
+			if bin == "1":
+				print(bin,"NOT-"+genre_sep)
+				fileout = os.path.join(path_data_out,lang,"NOT-"+genre_sep,"BIN_"+str(bin)+"_NOT-"+genre_sep+".gensim")
+				print(fileout)
+				if os.path.exists(fileout) == False:
+					sub_corpus = corpus[(corpus['year'] <= 0) & (corpus['genre'].str.lower() != genre_sep )]
+					with open(fileout,"w") as f:
+						for index, row in sub_corpus.iterrows():
+							f.write(row["sentence"].lower()+"\n")
+			
+			# bin 2, vrai et faux genre
+			if bin == "2":
+				print(bin,genre_sep)
+				fileout = os.path.join(path_data_out,lang,genre_sep,"BIN_"+str(bin)+"_"+genre_sep+".gensim")
+				print(fileout)
+				if os.path.exists(fileout) == False:
+					sub_corpus = corpus[(corpus['year'] > 0) & (corpus['year'] < 99) & (corpus['genre'].str.lower() == genre_sep)]
+					print(sub_corpus.head())
+					with open(fileout,"w") as f:
+						for index, row in sub_corpus.iterrows():
+							f.write(row["sentence"].lower()+"\n")
+
+			if bin == "2":
+				print(bin,"NOT-"+genre_sep)
+				fileout = os.path.join(path_data_out,lang,"NOT-"+genre_sep,"BIN_"+str(bin)+"_NOT-"+genre_sep+".gensim")
+				print(fileout)
+				if os.path.exists(fileout) == False:
+					sub_corpus = corpus[(corpus['year'] > 0) & (corpus['year'] < 99) & (corpus['genre'].str.lower() != genre_sep )]
+					with open(fileout,"w") as f:
+						for index, row in sub_corpus.iterrows():
+							f.write(row["sentence"].lower()+"\n")
+
+
+			
+			
+				
+
+
+
+
+
 
 def get_models_stats(lang):
 	"""

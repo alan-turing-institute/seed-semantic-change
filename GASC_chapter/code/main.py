@@ -1,7 +1,7 @@
 from utils import *
 import sys
 
-"""
+
 
 """
 langs = ["AG", "LA"]
@@ -33,7 +33,7 @@ for lang in langs:
             pool.close()
             pool.join()
 
-        """
+        
         get_models_stats(lang)
 
         
@@ -45,7 +45,7 @@ for lang in langs:
                 if target == "mus":
                     check_target_in_models(target,genre,lang)
             print("\n")
-        #"""
+        
 
     if lang == "LA":
         bins = [1,2]
@@ -57,7 +57,7 @@ for lang in langs:
 #LA_to_TR_input()
 #AG_to_TR_input()
  
-"""
+
 directories = ["/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/AG/narrative", 
             "/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/AG/NOT-narrative",
             "/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/AG/technical",
@@ -72,6 +72,13 @@ for directory in directories:
 
 #list_models_for_alignment("/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/LA/NAIVE","LA")
 
-"""
-fit_to_gamma_get_changed_words("LA","NAIVE")
 
+fit_to_gamma_get_changed_words("LA","NAIVE")
+"""
+#corpus_transformer("christian","LA")
+#LA_to_TR_input("christian")
+#LA_to_TR_input("NOT-christian")
+train_model("1","christian","LA")
+train_model("2","christian","LA")
+train_model("1","NOT-christian","LA")
+train_model("2","NOT-christian","LA")
