@@ -205,8 +205,8 @@ def fit_to_gamma_get_changed_words(lang,genre):
 		
 		w_cosD.append(cosD)
 	
-	for index, w in enumerate(words):
-		print(w,len(w_cosD[index]),w_cosD[index])
+	#for index, w in enumerate(words):
+	#	print(w,len(w_cosD[index]),w_cosD[index])
 	
 	print(lang)
 	
@@ -247,23 +247,23 @@ def fit_to_gamma_get_changed_words(lang,genre):
 		#print(w_cosD)
 		#print(w_cosD[0])
 		bin_cosines = [float(i[0]) for i in w_cosD]
-		print(bin_cosines)
+		#print(bin_cosines)
 		for cos in bin_cosines:
 			if cos is not None:
 				if cos > 0.0:
 					args_R += str(cos)+" "
 					x_cos += 1
 
-		print("args_R",args_R)
-		print("x_cos",x_cos)
+		#print("args_R",args_R)
+		#print("x_cos",x_cos)
 		if x_cos > 1:
 			Routput = subprocess.check_output("Rscript get_75quantile_threshold.Rscript "+args_R, shell=True).decode()
 			Routput = Routput.replace("\n","")
 			threshold = float(Routput.split()[1])
 			print("Threshold for bin:",threshold)
+	
+	return threshold
 			
-
-
 	
 
 def target_words_to_CD_arrays_SGNS(lang,genre):
@@ -328,6 +328,8 @@ def target_words_to_CD_arrays_SGNS(lang,genre):
 
 		if genre == "NAIVE":
 			trained_models = {1: "BIN_1_NAIVE.w2v", 2: "BIN_2_NAIVE.w2v"}
+		if genre == "NOT-christian":
+			trained_models = {1: "BIN_1_NOT-christian.w2v", 2: "BIN_2_NOT-christian.w2v"}
 	
 	
 	directory = "../trained_models/"+lang+"/"+genre+"/"
@@ -336,6 +338,7 @@ def target_words_to_CD_arrays_SGNS(lang,genre):
 	
 	#print("We have these bins:",bins)
 	print("Getting vectors")
+	#print(targets)
 	for target in tqdm(targets):  ## take the vector from each time slice, THEN do cos
 		if target == "μῦς":
 			print(target)
@@ -488,9 +491,11 @@ def LA_to_TR_input(genre):
 	# genre is either "NAIVE", "christian", "NOT-christian"
 	lang = "LA"
 	files = [os.path.join(path_data_out,lang,genre,file) for file in os.listdir(os.path.join(path_data_out,lang,genre)) if file.endswith(".gensim")]
+	#print(files)
 	if genre == "NAIVE":
 		with open("/home/gntsh/git/TemporalReferencing/corpus/test/files/corpus.txt", "w") as f_out:
 			for index, file in enumerate(sorted(files)):
+				print(index,file)
 				with open(file) as f:
 					for line in f.readlines():
 						f_out.write(str(index)+"\t"+line.lower())
@@ -498,6 +503,7 @@ def LA_to_TR_input(genre):
 	else:
 		with open("/home/gntsh/git/TemporalReferencing/corpus/LA-"+genre+"/files/corpus.txt", "w") as f_out:
 			for index, file in enumerate(sorted(files)):
+				print(index,file)
 				with open(file) as f:
 					for line in f.readlines():
 						f_out.write(str(index)+"\t"+line.lower())
@@ -652,21 +658,31 @@ def corpus_transformer(genre_sep,lang,slice_length=100):
 				fileout = os.path.join(path_data_out,lang,genre_sep,"BIN_"+str(bin)+"_"+genre_sep+".gensim")
 				print(fileout)
 				if os.path.exists(fileout) == False:
-					sub_corpus = corpus[(corpus['year'] <= 0) & (corpus['genre'].str.lower() == genre_sep )]
+					sub_corpus = corpus[(corpus['year'].astype(int) <= 0) & (corpus['genre'].str.lower() == genre_sep )]
 					print(sub_corpus.head())
 					with open(fileout,"w") as f:
 						for index, row in sub_corpus.iterrows():
-							f.write(row["sentence"].lower()+"\n")
+							sentence = row["sentence"].lower()  ## some words have "#", which causes segfaults in hyperwords
+							sentencesplit = [w.split("#")[0].replace("'","").replace("\n","") for w in sentence.split()]
+							sentencesplit = [w for w in sentencesplit if w.isalnum() == True]
+							if len(sentencesplit) > 0:
+								sentence = " ".join(sentencesplit)
+								f.write(sentence+"\n")
 
 			if bin == "1":
 				print(bin,"NOT-"+genre_sep)
 				fileout = os.path.join(path_data_out,lang,"NOT-"+genre_sep,"BIN_"+str(bin)+"_NOT-"+genre_sep+".gensim")
 				print(fileout)
 				if os.path.exists(fileout) == False:
-					sub_corpus = corpus[(corpus['year'] <= 0) & (corpus['genre'].str.lower() != genre_sep )]
+					sub_corpus = corpus[(corpus['year'].astype(int) <= 0) & (corpus['genre'].str.lower() != genre_sep )]
 					with open(fileout,"w") as f:
 						for index, row in sub_corpus.iterrows():
-							f.write(row["sentence"].lower()+"\n")
+							sentence = row["sentence"].lower()  ## some words have "#", which causes segfaults in hyperwords
+							sentencesplit = [w.split("#")[0].replace("'","").replace("\n","") for w in sentence.split()]
+							sentencesplit = [w for w in sentencesplit if w.isalnum() == True]
+							if len(sentencesplit) > 0:
+								sentence = " ".join(sentencesplit)
+								f.write(sentence+"\n")
 			
 			# bin 2, vrai et faux genre
 			if bin == "2":
@@ -674,22 +690,31 @@ def corpus_transformer(genre_sep,lang,slice_length=100):
 				fileout = os.path.join(path_data_out,lang,genre_sep,"BIN_"+str(bin)+"_"+genre_sep+".gensim")
 				print(fileout)
 				if os.path.exists(fileout) == False:
-					sub_corpus = corpus[(corpus['year'] > 0) & (corpus['year'] < 99) & (corpus['genre'].str.lower() == genre_sep)]
+					sub_corpus = corpus[(corpus['year'].astype(int) > 0) & (corpus['year'] < 99) & (corpus['genre'].str.lower() == genre_sep)]
 					print(sub_corpus.head())
 					with open(fileout,"w") as f:
 						for index, row in sub_corpus.iterrows():
-							f.write(row["sentence"].lower()+"\n")
+							sentence = row["sentence"].lower()  ## some words have "#", which causes segfaults in hyperwords
+							sentencesplit = [w.split("#")[0].replace("'","").replace("\n","") for w in sentence.split()]
+							sentencesplit = [w for w in sentencesplit if w.isalnum() == True]
+							if len(sentencesplit) > 0:
+								sentence = " ".join(sentencesplit)
+								f.write(sentence+"\n")
 
 			if bin == "2":
 				print(bin,"NOT-"+genre_sep)
 				fileout = os.path.join(path_data_out,lang,"NOT-"+genre_sep,"BIN_"+str(bin)+"_NOT-"+genre_sep+".gensim")
 				print(fileout)
 				if os.path.exists(fileout) == False:
-					sub_corpus = corpus[(corpus['year'] > 0) & (corpus['year'] < 99) & (corpus['genre'].str.lower() != genre_sep )]
+					sub_corpus = corpus[(corpus['year'].astype(int) > 0) & (corpus['year'] < 99) & (corpus['genre'].str.lower() != genre_sep )]
 					with open(fileout,"w") as f:
 						for index, row in sub_corpus.iterrows():
-							f.write(row["sentence"].lower()+"\n")
-
+							sentence = row["sentence"].lower()  ## some words have "#", which causes segfaults in hyperwords
+							sentencesplit = [w.split("#")[0].replace("'","").replace("\n","") for w in sentence.split()]
+							sentencesplit = [w for w in sentencesplit if w.isalnum() == True]
+							if len(sentencesplit) > 0:
+								sentence = " ".join(sentencesplit)
+								f.write(sentence+"\n")
 
 			
 			
