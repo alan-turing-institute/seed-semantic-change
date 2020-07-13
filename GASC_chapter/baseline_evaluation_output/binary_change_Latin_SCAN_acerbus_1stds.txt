@@ -1,0 +1,46 @@
+model_output_file_name:acerbus.dat
+
+========================================================
+Opening model output file: acerbus.dat in /Users/bmcgillivray/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.30527512593772843
+time = 0
+sense = 0
+prob = 0.21010078764891474
+time = 0
+sense = 1
+prob = 0.13603692834955255
+time = 0
+sense = 2
+prob = 0.3485871580638043
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.24792231903838577
+time = 1
+sense = 0
+prob = 0.29661451323002475
+time = 1
+sense = 1
+prob = 0.21110359977546223
+time = 1
+sense = 2
+prob = 0.24435956795612726
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word acerbus did not change.
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=1.
+===========Precision, Recall and F1 score===========
+true_positives: 0
+true_negatives: 0
+false_positives: 1
+false_negatives: 0
+precision: 0.0
+Error

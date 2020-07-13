@@ -1,0 +1,47 @@
+model_output_file_name:adsumo.dat
+
+========================================================
+Opening model output file: adsumo.dat in /Users/bmcgillivray/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.09105219941154845
+time = 0
+sense = 0
+prob = 0.34566267448998755
+time = 0
+sense = 1
+prob = 0.03964738094198391
+time = 0
+sense = 2
+prob = 0.5236377451564801
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.23163713511894132
+time = 1
+sense = 0
+prob = 0.3054004586908764
+time = 1
+sense = 1
+prob = 0.20351964595924582
+time = 1
+sense = 2
+prob = 0.2594427602309365
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word adsumo changed.
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+===========Precision, Recall and F1 score===========
+true_positives: 1
+true_negatives: 0
+false_positives: 0
+false_negatives: 0
+precision: 1.0
+recall: 1.0
+F1 score: 1.0
