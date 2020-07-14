@@ -9,7 +9,7 @@ In addition:
 - SCAN_BCAC_kappaF1000_OK: probabilities for each iteration for 2 time points (before Christ - after Christ) with parameter kappaF = 1000. The set of parameters here is the same as in SCAN_BCAC, but all the other outputs have kappaF = 100. You can decide whether to use this instead of SCAN_BCAC_OK (which instead has the same set of parameters as in the other results for Latin SCAN and GASC).
 
 
-
+-------------------------------------------------------------------
 
 OLD folders (to be put in the OLD folder; these contains some stopwords as "vel" and "quin"):
 
