@@ -1,5 +1,10 @@
 kosmos	0
+κόσμος	0
 harmonia	0
+ἁρμονία	0
 mus	1
+μῦς	1
 paradeisos	1
+παράδεισος	1
 parabole	1
+παραβολή	1
