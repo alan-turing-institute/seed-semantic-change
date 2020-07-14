@@ -11,7 +11,7 @@ In addition:
 
 -------------------------------------------------------------------
 
-OLD folders (to be put in the OLD folder; these contains some stopwords as "vel" and "quin"):
+OLD folders (these contains some stopwords as "vel" and "quin"):
 
 - SCAN_BCAC: it contains the output with probabilities for each iteration for 2 time points (before Christ - after Christ).
 - SCAN_dT3: it contains the output with probabilities for each iteration from -3 to 21 with dT = 3.
