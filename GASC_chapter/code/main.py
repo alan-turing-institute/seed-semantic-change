@@ -3,10 +3,10 @@ import sys
 
 
 
-"""
+
 langs = ["AG", "LA"]
 #langs = ["LA"]
-#langs = ["AG"]
+langs = ["AG"]
 
 for lang in langs:
     print("Dealing with",lang)
@@ -19,8 +19,9 @@ for lang in langs:
 
         # Training models
         genres_all = ["NOT-"+genre for genre in genres]
-        for genre in genres:
-            genres_all.append(genre)
+        genres_all = ["NAIVE"]
+        #for genre in genres:
+        #    genres_all.append(genre)
         for genre in genres_all:
             earliest = -700
             last = 400
@@ -34,11 +35,11 @@ for lang in langs:
             pool.join()
 
         
-        get_models_stats(lang)
+        #get_models_stats(lang)
 
         
         genres = ["narrative","technical"]
-        
+        """
         for genre in genres_all:
             print(genre.upper())
             for target in target_words[lang].keys():
@@ -78,7 +79,11 @@ fit_to_gamma_get_changed_words("LA","NAIVE")
 #corpus_transformer("christian","LA")
 #LA_to_TR_input("christian")
 #LA_to_TR_input("NOT-christian")
-train_model("1","christian","LA")
-train_model("2","christian","LA")
-train_model("1","NOT-christian","LA")
-train_model("2","NOT-christian","LA")
+#train_model("1","christian","LA")
+#train_model("2","christian","LA")
+#train_model("1","NOT-christian","LA")
+#train_model("2","NOT-christian","LA")
+
+#AG_to_TR_input("narrative")
+
+list_models_for_alignment("/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/AG/NAIVE","AG")

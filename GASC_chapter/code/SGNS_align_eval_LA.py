@@ -1,6 +1,8 @@
 from utils import *
 import sys
 
+# change (1) / no-change (0)
+
 with open("../input/gold_standard_binary_Latin.txt") as f:
 		targets = [line.split("\t")[0] for line in f]
 """ 

@@ -57,6 +57,7 @@ target_words["AG"] = {'harmonia': ['!αρμονίας', 'ἁρμονία', 'ἁ�
 					'paradeisos': ['παράδεισος'],
 					}
 target_words["LA"] = {}
+random_words_AG = ['μέγας', 'ποιέω', 'καλέω', 'μόνος', 'ἔρχομαι', 'συνάγω', 'ὅμοιος', 'κύκλος', 'εἶδος', 'ὅσος', 'καταλιμπάνω', 'πάλιν', 'μένω', 'δείκνυμι', 'ἀίω', 'ἄγω', 'ἀνίστημι', 'γίγνομαι', 'τυγχάνω', 'πρότερος', 'λαμβάνω', 'δέομαι', 'πίπτω', 'δίδωμι', 'βαίνω', 'δέχομαι', 'δύναμαι', 'οἷος', 'ἀμφότερος', 'ἄκρος', 'ἔχω', 'ἕτερος', 'φέρω', 'ἵστημι', 'πολύς', 'λέγω', 'φημί']
 
 import cProfile, pstats, io
 def profile(fnc):
@@ -139,7 +140,7 @@ def list_models_for_alignment(directory,lang):
 				#print(m1)
 				#print(m2)
 				print(item,models_ordered[index+1])
-				other_embed = smart_procrustes_align_gensim(m1, m2, targets)
+				other_embed = smart_procrustes_align_gensim(m1, m2, random_words_AG)
 				#other_embed = smart_procrustes_align_gensim(item, models_ordered[index+1])
 				#print("other_embed retrieved")
 
@@ -178,18 +179,21 @@ def fit_to_gamma_get_changed_words(lang,genre):
 	dict_target_bins_vectors = target_words_to_CD_arrays_SGNS(lang,genre)
 	#print(dict_target_bins_vectors)
 	
-	words = list(dict_target_bins_vectors.keys())
+	words = random_words_AG #list(dict_target_bins_vectors.keys())
 	print(words)
 	w_cosD = []
 	
 	
 	for w in tqdm(words):
 		#print(w)
-		vecs = list(dict_target_bins_vectors[w].values()) ## list of all vectors for this word
+		try:
+			vecs = list(dict_target_bins_vectors[w].values()) ## list of all vectors for this word
+		except KeyError:
+			print(w)
 		#print("vectors for",w,vecs)
 		cosD = [] ## list of all distances
-		if w == "μῦς":
-			print(w)
+		#if w == "μῦς":
+		#	print(w)
 		for index, vec in enumerate(vecs):
 			#print(w, index, vec)
 				
@@ -205,23 +209,22 @@ def fit_to_gamma_get_changed_words(lang,genre):
 		
 		w_cosD.append(cosD)
 	
-	#for index, w in enumerate(words):
-	#	print(w,len(w_cosD[index]),w_cosD[index])
-	
+
 	print(lang)
-	
+	threshold_d = {}
 	if lang == "AG":
 		bins = [i for i in range(0,12)]
 	#print(w_cosD)
 	
 		for bin in bins:
 			print(bin)
-			#bin_cosines = []
+			bin_cosines = []
 			try:
 				for index, w in enumerate(words):
 					bin_cosines.append(w_cosD[index][bin])
 				args_R = ""#.join(map(str,bin_cosines))
 				x_cos = 0 # number of cosines we input
+				#print(bin_cosines)
 				for cos in bin_cosines:
 					if cos is not None:
 						if cos > 0.0:
@@ -235,9 +238,15 @@ def fit_to_gamma_get_changed_words(lang,genre):
 					Routput = Routput.replace("\n","")
 					threshold = float(Routput.split()[1])
 					print("Threshold for bin",bin,":",threshold)
+					threshold_d[bin] = threshold
 			except IndexError:
 				print("Index")
+				
 				continue
+			
+		
+		return threshold_d
+		
 
 	if lang == "LA":
 		#print(w_cosD)
@@ -262,7 +271,7 @@ def fit_to_gamma_get_changed_words(lang,genre):
 			threshold = float(Routput.split()[1])
 			print("Threshold for bin:",threshold)
 	
-	return threshold
+		return threshold
 			
 	
 
@@ -271,6 +280,20 @@ def target_words_to_CD_arrays_SGNS(lang,genre):
 		bins = [i for i in range(0,12)]
 		
 		targets = ["ἁρμονία", "κόσμος", "μῦς", "παραβολή", "παράδεισος"]
+		
+		if genre == "NAIVE":
+			trained_models = {0: "BIN_-700_NAIVE.w2v",
+						2: "BIN_-500_NAIVE.w2v",
+						3: "BIN_-400_NAIVE.w2v",
+						4: "BIN_-300_NAIVE.w2v",
+						5: "BIN_-200_NAIVE.w2v",
+						6: "BIN_-100_NAIVE.w2v",
+						7: "BIN_0_NAIVE.w2v",
+						8: "BIN_100_NAIVE.w2v",
+						9: "BIN_200_NAIVE.w2v",
+						10: "BIN_300_NAIVE.w2v",
+						11: "BIN_400_NAIVE.w2v",	
+			}	
 		if genre == "narrative":
 			trained_models = {2: "BIN_-500_narrative.w2v",
 						3: "BIN_-400_narrative.w2v",
@@ -339,31 +362,31 @@ def target_words_to_CD_arrays_SGNS(lang,genre):
 	#print("We have these bins:",bins)
 	print("Getting vectors")
 	#print(targets)
-	for target in tqdm(targets):  ## take the vector from each time slice, THEN do cos
-		if target == "μῦς":
-			print(target)
+	#for target in tqdm(targets):  ## take the vector from each time slice, THEN do cos
+	for target in tqdm(random_words_AG):
+		#if target == "μῦς":
+		#	print(target)
 		first = True
 		dict_target_bins_vectors[target] = {}
 		for bin in bins:
 			#print(bin)
 			if bin in trained_models.keys(): ## if we have a model for this period
-				if target == "μῦς":
-					print(directory+trained_models[bin])
+				#print(directory+trained_models[bin])
 				m1 = gensim.models.Word2Vec.load(directory+trained_models[bin])
+				#print(m1)
 				try:
 					vec = m1.wv.get_vector(target)
-					if target == "μῦς":
-						print(bin,"has a vec")
-					first = False
+					
+
 				except KeyError:
-					if first == True:
-						vec = None
+					vec = None
+					
 					
 				
 			else:
-				if first == True:
-					vec = None
-
+				vec = None
+				
+			#print(target, bin, vec)
 			dict_target_bins_vectors[target][bin] = vec
 
 	return dict_target_bins_vectors  ## returns a dictionary that has target words as keys and then bins and then vectors
@@ -510,31 +533,74 @@ def LA_to_TR_input(genre):
 		os.system("gzip -f "+"/home/gntsh/git/TemporalReferencing/corpus/LA-"+genre+"/files/corpus.txt")
 
 
-def AG_to_TR_input():
-	lang = "AG"
-	corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
+def AG_to_TR_input(genre):
+	if genre == "NAIVE":
+		lang = "AG"
+		corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
 
-	years = list(corpus.year.unique())
+		years = list(corpus.year.unique())
 
-		#sorted_df = corpus.sort_values(by="genre")
-		#df_genre = df[corpus[""]
+			#sorted_df = corpus.sort_values(by="genre")
+			#df_genre = df[corpus[""]
 
-	earliest = -700 #sorted(years)[0]
-	last = 400 #sorted(years)[-1]
-	slice_length = 100
-	bins = []
-	for i in range(earliest,last+slice_length,slice_length):
-		bins.append(i)
+		earliest = -700 #sorted(years)[0]
+		last = 400 #sorted(years)[-1]
+		slice_length = 100
+		bins = []
+		for i in range(earliest,last+slice_length,slice_length):
+			bins.append(i)
 
-	with open("/home/gntsh/git/TemporalReferencing/corpus/AG/files/corpus.txt", "w") as f:
-		for bin in bins:
-			sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length)]
+		with open("/home/gntsh/git/TemporalReferencing/corpus/AG/files/corpus.txt", "w") as f:
+			for bin in bins:
+				sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length)]
+				
+				for index, row in sub_corpus.iterrows():
+					f.write(str(bin)+"\t"+row["sentence"].lower()+"\n")
+
 			
-			for index, row in sub_corpus.iterrows():
-				f.write(str(bin)+"\t"+row["sentence"].lower()+"\n")
+		os.system("gzip -f "+"/home/gntsh/git/TemporalReferencing/corpus/AG/files/corpus.txt")
+	else:
+		lang = "AG"
+		corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
 
+		years = list(corpus.year.unique())
+		earliest = -700 #sorted(years)[0]
+		last = 400 #sorted(years)[-1]
+		slice_length = 100
+		bins = []
+		for i in range(earliest,last+slice_length,slice_length):
+			bins.append(i)
+
+		ids_blacklist = []
+		for key,val in genres_id[lang].items():
+			if val == genre:
+				id_OK = key
+			else:
+				ids_blacklist.append(key)
 		
-	os.system("gzip -f "+"/home/gntsh/git/TemporalReferencing/corpus/AG/files/corpus.txt")
+		## NOT-genre
+		fileout = "/home/gntsh/git/TemporalReferencing/corpus/AG_NOT-"+genre+"/files/corpus.txt"
+		if os.path.exists("/home/gntsh/git/TemporalReferencing/corpus/AG_NOT-"+genre+"/") == False:
+			os.mkdir("/home/gntsh/git/TemporalReferencing/corpus/AG_NOT-"+genre)
+			os.mkdir("/home/gntsh/git/TemporalReferencing/corpus/AG_NOT-"+genre+"/files/")
+		with open(fileout, "w") as f:
+			for bin in bins:
+				#fileout = os.path.join(path_data_out,lang,"BIN_"+str(bin)+"_NOT-"+genres_id[lang][id_OK]+".gensim")
+			
+				sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] != id_OK )]
+				for index, row in sub_corpus.iterrows():
+					f.write(str(bin)+"\t"+row["sentence"].lower()+"\n")
+		## genre
+		if os.path.exists("/home/gntsh/git/TemporalReferencing/corpus/AG_"+genre+"/") == False:
+			os.mkdir("/home/gntsh/git/TemporalReferencing/corpus/AG_"+genre)
+			os.mkdir("/home/gntsh/git/TemporalReferencing/corpus/AG_"+genre+"/files/")
+		fileout = fileout = "/home/gntsh/git/TemporalReferencing/corpus/AG_"+genre+"/files/corpus.txt"
+		with open(fileout,"w") as f:
+			for bin in bins:
+				sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] == id_OK )]
+				for index, row in sub_corpus.iterrows():
+					f.write(str(bin)+"\t"+row["sentence"].lower()+"\n")
+		
 	
 
 def train_model(slice,genre,lang):
@@ -543,7 +609,8 @@ def train_model(slice,genre,lang):
 	"""
 	if lang == "AG":
 		filename = "BIN_"+str(slice)+"_"+genre+".gensim"
-		corpus_file = os.path.join(path_data_out,lang,filename)
+		corpus_file = os.path.join(path_data_out,lang,genre,filename)
+		
 		model_file = os.path.join(path_models_out,lang,genre,filename.replace(".gensim",".w2v"))
 		if os.path.exists(os.path.join(path_models_out,lang,genre)) == False:
 			try:
@@ -588,16 +655,16 @@ def corpus_transformer(genre_sep,lang,slice_length=100):
 	"""
 	AG:
 	Will transform the main corpus file into gensim files
-	genre_sep is either 'technical', 'narrative', or None
+	genre_sep is either 'technical', 'narrative', or "NAIVE"
 
 	LA:
 	genre_sep is 'christian'
 	"""
 	if lang == "AG":
-		if genre_sep not in ["technical", "narrative",None]:
+		if genre_sep not in ["technical", "narrative","NAIVE"]:
 			sys.exit("genre_sep is",genre_sep,"not a valid value")
 		
-		
+		corpus_path = os.path.join(path_data_in,"full_corpus_forms.txt")
 		print("Reading corpus at",corpus_path)
 
 		corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
@@ -622,21 +689,36 @@ def corpus_transformer(genre_sep,lang,slice_length=100):
 		for i in range(earliest,last+slice_length,slice_length):
 			bins.append(i)
 		#print(bins)
+		if os.path.exists(os.path.join(path_data_out,lang,genre_sep)) == False:
+			os.mkdir(os.path.join(path_data_out,lang,genre_sep))
 
-		for bin in bins:
-			fileout = os.path.join(path_data_out,lang,"BIN_"+str(bin)+"_NOT-"+genres_id[lang][id_OK]+".gensim")
-			if os.path.exists(fileout) == False:
-				sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] != id_OK )]
-				with open(fileout,"w") as f:
-					for index, row in sub_corpus.iterrows():
-						f.write(row["sentence"].lower()+"\n")
-			
-			fileout = os.path.join(path_data_out,lang,"BIN_"+str(bin)+"_"+genres_id[lang][id_OK]+".gensim")
-			if os.path.exists(fileout) == False:
-				sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] == id_OK )]
-				with open(fileout,"w") as f:
-					for index, row in sub_corpus.iterrows():
-						f.write(row["sentence"].lower()+"\n")
+		if genre_sep != "NAIVE":
+
+			for bin in bins:
+				fileout = os.path.join(path_data_out,lang,genre_sep,"BIN_"+str(bin)+"_NOT-"+genres_id[lang][id_OK]+".gensim")
+				if os.path.exists(fileout) == False:
+					sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] != id_OK )]
+					with open(fileout,"w") as f:
+						for index, row in sub_corpus.iterrows():
+							f.write(row["sentence"].lower()+"\n")
+				
+				fileout = os.path.join(path_data_out,lang,genre_sep,"BIN_"+str(bin)+"_"+genres_id[lang][id_OK]+".gensim")
+				if os.path.exists(fileout) == False:
+					sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] == id_OK )]
+					with open(fileout,"w") as f:
+						for index, row in sub_corpus.iterrows():
+							f.write(row["sentence"].lower()+"\n")
+		elif genre_sep == "NAIVE":
+			for bin in bins:
+				fileout = os.path.join(path_data_out,lang,genre_sep,"BIN_"+str(bin)+"_NAIVE.gensim")
+				if os.path.exists(fileout) == False:
+					sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length)]
+					with open(fileout,"w") as f:
+						for index, row in sub_corpus.iterrows():
+							f.write(row["sentence"].lower()+"\n")
+
+
+
 	if lang == "LA":
 		
 		corpus_path = "/home/gntsh/git/corpus_LATIN/corpus_OK.txt"
