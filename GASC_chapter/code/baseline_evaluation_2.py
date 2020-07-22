@@ -345,15 +345,17 @@ num_stds = input("What confidence interval would you like to use to declare sema
 result_folder = ""
 if model == "SCAN":
     if language == "Latin":
-        result_folder = input("Which SCAN output would you like to use? Choose among SCAN_BCAC, SCAN_dT1 or SCAN_dT3. ")
-    elif language == 'Greek':
+        result_folder = input("Which SCAN output would you like to use? Choose among SCAN_BCAC_OK, SCAN_BCAC_kappaF1000_OK, SCAN_dT1_minus2_OK, SCAN_dT3_minus2_OK. ")
+    elif language == "Greek":
         result_folder = input("Which SCAN output would you like to use? Choose among SCAN_it1500, SCAN_it2500, SCAN_it10000. ")
     else:
         raise ValueError('Language {} not supported. Please choose either Latin or Greek'.format(language))
 if model == "GASC":
     if language == "Latin":
-        result_folder = input("Which GASC output would you like to use? Choose GASC_dT3_minus2_Christian. ")
-
+        result_folder = input("Which GASC output would you like to use? Choose among GASC_BCAC_Christian, GASC_dT1_minus2_Christian, GASC_dT3_minus2_Christian. ")
+    elif language == "Greek":
+        result_folder = input(
+            "Which GASC output would you like to use? Choose among GASC_it10000_Tech, GASC_it10000_Narr, GASC_it10000_Relig.")
 
 
 #if istest == "":
@@ -470,9 +472,17 @@ for model_output_file_name in all_files:
                 current_time_index = add_probabilities_to_dict(line_text, current_time_index, K, times)
         elif model == 'GASC':
             # this is temporarily hard coded. We should have the same output for SCAN and GASC
-            K = 4
-            times = 8
-            current_time_index, current_genre = add_probabilities_to_dict_with_genre(line_text, current_time_index, current_genre, K, times)
+            #K = 4
+            #times = 8
+            if 'kappaF' in line_text:
+                # Extract the number of used senses K
+                K = int(line_text.split(', K ')[1].split(', ')[0])
+                print('There are K = {} senses in the output.'.format(K))
+                times = int(line_text.split(', times ')[1].split(', ')[0])
+                print('There are times = {} time points in the output.'.format(times))
+                found_iterations = 1
+            if found_iterations == 1:
+                current_time_index, current_genre = add_probabilities_to_dict_with_genre(line_text, current_time_index, current_genre, K, times)
 
 
         if " per time " in line_text:
@@ -525,7 +535,7 @@ for model_output_file_name in all_files:
         # detect_drops_and_peaks(K, times, 2)
         result = detect_overall_drops_and_peaks(K, times, num_stds=int(num_stds))
     elif model == 'GASC':
-        num_genres = 2 # TODO: hard-coded to two for now. To be generalized if needed.
+        num_genres = 2  # TODO: hard-coded to two for now. To be generalized if needed.
         result = detect_overall_drops_and_peaks_with_genre(K, times, num_genres, num_stds=int(num_stds))
 
     change_detected = result[0]

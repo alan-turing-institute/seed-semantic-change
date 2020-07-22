@@ -1,0 +1,2043 @@
+model_output_file_name:imperator.dat
+
+========================================================
+Opening model output file: imperator.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.23245874942602807
+time = 0
+sense = 0
+prob = 0.15482371970578435
+time = 0
+sense = 1
+prob = 0.2039244854777237
+time = 0
+sense = 2
+prob = 0.40879304539046385
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.24993496730648534
+time = 1
+sense = 0
+prob = 0.23262818849456826
+time = 1
+sense = 1
+prob = 0.22115614334708747
+time = 1
+sense = 2
+prob = 0.296280700851859
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word imperator changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:dux.dat
+
+========================================================
+Opening model output file: dux.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.3103690508458561
+time = 0
+sense = 0
+prob = 0.1734683005602512
+time = 0
+sense = 1
+prob = 0.29215057327276195
+time = 0
+sense = 2
+prob = 0.22401207532113068
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.25960226490070276
+time = 1
+sense = 0
+prob = 0.2516909177177742
+time = 1
+sense = 1
+prob = 0.2548455631007209
+time = 1
+sense = 2
+prob = 0.23386125428080215
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word dux changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=1.
+model_output_file_name:senatus.dat
+
+========================================================
+Opening model output file: senatus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.2283420429510604
+time = 0
+sense = 0
+prob = 0.35707024121637876
+time = 0
+sense = 1
+prob = 0.1844727202415738
+time = 0
+sense = 2
+prob = 0.23011499559098714
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.26586788476450823
+time = 1
+sense = 0
+prob = 0.26323124965838185
+time = 1
+sense = 1
+prob = 0.23071599084271008
+time = 1
+sense = 2
+prob = 0.24018487473439992
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word senatus changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:civitas.dat
+
+========================================================
+Opening model output file: civitas.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.15210177048641557
+time = 0
+sense = 0
+prob = 0.31135839028711587
+time = 0
+sense = 1
+prob = 0.29099602721072604
+time = 0
+sense = 2
+prob = 0.24554381201574257
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2402727101521775
+time = 1
+sense = 0
+prob = 0.2514001707214165
+time = 1
+sense = 1
+prob = 0.24207344143311887
+time = 1
+sense = 2
+prob = 0.2662536776932871
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word civitas changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=1.
+model_output_file_name:acerbus.dat
+
+========================================================
+Opening model output file: acerbus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.35788782964959376
+time = 0
+sense = 0
+prob = 0.21325322274130937
+time = 0
+sense = 1
+prob = 0.19179206964845422
+time = 0
+sense = 2
+prob = 0.23706687796064266
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.1926411804067707
+time = 1
+sense = 0
+prob = 0.3074845683930124
+time = 1
+sense = 1
+prob = 0.22774063543754944
+time = 1
+sense = 2
+prob = 0.2721336157626674
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word acerbus did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=1.
+model_output_file_name:scriptura.dat
+
+========================================================
+Opening model output file: scriptura.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.49160092164063574
+time = 0
+sense = 0
+prob = 0.3202678861917726
+time = 0
+sense = 1
+prob = 0.11185617421556467
+time = 0
+sense = 2
+prob = 0.0762750179520268
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2575625839689718
+time = 1
+sense = 0
+prob = 0.2513102628155179
+time = 1
+sense = 1
+prob = 0.24803523344750675
+time = 1
+sense = 2
+prob = 0.24309191976800357
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word scriptura changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:jus.dat
+
+========================================================
+Opening model output file: jus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.1615648226389036
+time = 0
+sense = 0
+prob = 0.1652187364518219
+time = 0
+sense = 1
+prob = 0.45578746204203474
+time = 0
+sense = 2
+prob = 0.21742897886723989
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.26506549295112825
+time = 1
+sense = 0
+prob = 0.2774776514952319
+time = 1
+sense = 1
+prob = 0.24155502290025999
+time = 1
+sense = 2
+prob = 0.21590183265337984
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word jus changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:hostis.dat
+
+========================================================
+Opening model output file: hostis.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.35425829238404327
+time = 0
+sense = 0
+prob = 0.201397897125641
+time = 0
+sense = 1
+prob = 0.23580620875820651
+time = 0
+sense = 2
+prob = 0.20853760173210928
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.24702835865413902
+time = 1
+sense = 0
+prob = 0.2355817695273746
+time = 1
+sense = 1
+prob = 0.2695563129572486
+time = 1
+sense = 2
+prob = 0.24783355886123778
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word hostis did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:templum.dat
+
+========================================================
+Opening model output file: templum.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.2683864433761657
+time = 0
+sense = 0
+prob = 0.284999687301582
+time = 0
+sense = 1
+prob = 0.2497036812418003
+time = 0
+sense = 2
+prob = 0.19691018808045202
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2545002232945035
+time = 1
+sense = 0
+prob = 0.26173422217448267
+time = 1
+sense = 1
+prob = 0.23848188729068695
+time = 1
+sense = 2
+prob = 0.24528366724032682
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word templum changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model did NOT detect any significant meaning change (1 std).
+model_output_file_name:credo.dat
+
+========================================================
+Opening model output file: credo.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.2275646754160997
+time = 0
+sense = 0
+prob = 0.2917079760031829
+time = 0
+sense = 1
+prob = 0.29078380790821307
+time = 0
+sense = 2
+prob = 0.18994354067250438
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.23732605389357875
+time = 1
+sense = 0
+prob = 0.23672049136563178
+time = 1
+sense = 1
+prob = 0.2794734852312826
+time = 1
+sense = 2
+prob = 0.2464799695095068
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word credo changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:sapientia.dat
+
+========================================================
+Opening model output file: sapientia.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.38044104987180105
+time = 0
+sense = 0
+prob = 0.1230637818824547
+time = 0
+sense = 1
+prob = 0.339021835431546
+time = 0
+sense = 2
+prob = 0.15747333281419815
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.21677800605451691
+time = 1
+sense = 0
+prob = 0.22465249229952103
+time = 1
+sense = 1
+prob = 0.20752535184211968
+time = 1
+sense = 2
+prob = 0.3510441498038423
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word sapientia did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:cohors.dat
+
+========================================================
+Opening model output file: cohors.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.3576972602705205
+time = 0
+sense = 0
+prob = 0.17912632190136443
+time = 0
+sense = 1
+prob = 0.11462113350126142
+time = 0
+sense = 2
+prob = 0.34855528432685373
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.22516537580501536
+time = 1
+sense = 0
+prob = 0.24119506175148817
+time = 1
+sense = 1
+prob = 0.22660904653844063
+time = 1
+sense = 2
+prob = 0.30703051590505587
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word cohors changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:nobilitas.dat
+
+========================================================
+Opening model output file: nobilitas.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.4698513374909967
+time = 0
+sense = 0
+prob = 0.1186970296812081
+time = 0
+sense = 1
+prob = 0.2957841971104296
+time = 0
+sense = 2
+prob = 0.1156674357173655
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.22027822813024675
+time = 1
+sense = 0
+prob = 0.2161707796648876
+time = 1
+sense = 1
+prob = 0.2867751253667279
+time = 1
+sense = 2
+prob = 0.27677586683813776
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word nobilitas did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:potestas.dat
+
+========================================================
+Opening model output file: potestas.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.34398293341329483
+time = 0
+sense = 0
+prob = 0.23670693401844242
+time = 0
+sense = 1
+prob = 0.17605834981471716
+time = 0
+sense = 2
+prob = 0.24325178275354556
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.25396193813956147
+time = 1
+sense = 0
+prob = 0.2412238179399478
+time = 1
+sense = 1
+prob = 0.26747376486357866
+time = 1
+sense = 2
+prob = 0.23734047905691205
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word potestas changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:nepos.dat
+
+========================================================
+Opening model output file: nepos.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.2576138157861454
+time = 0
+sense = 0
+prob = 0.3598351595226638
+time = 0
+sense = 1
+prob = 0.24976785091589052
+time = 0
+sense = 2
+prob = 0.13278317377530016
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.20251652626170594
+time = 1
+sense = 0
+prob = 0.26131114688368395
+time = 1
+sense = 1
+prob = 0.24061814426530442
+time = 1
+sense = 2
+prob = 0.29555418258930577
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word nepos changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:necessarius.dat
+
+========================================================
+Opening model output file: necessarius.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.2610743648809965
+time = 0
+sense = 0
+prob = 0.2151813707401796
+time = 0
+sense = 1
+prob = 0.2132883826157556
+time = 0
+sense = 2
+prob = 0.31045588176306826
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2728492540615353
+time = 1
+sense = 0
+prob = 0.24932550615060456
+time = 1
+sense = 1
+prob = 0.24437377807800875
+time = 1
+sense = 2
+prob = 0.2334514617098514
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word necessarius did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:beatus.dat
+
+========================================================
+Opening model output file: beatus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.11577780539144325
+time = 0
+sense = 0
+prob = 0.14148382701403114
+time = 0
+sense = 1
+prob = 0.5644464264138055
+time = 0
+sense = 2
+prob = 0.17829194118072
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2332698964420799
+time = 1
+sense = 0
+prob = 0.28794621290581884
+time = 1
+sense = 1
+prob = 0.22483648994879515
+time = 1
+sense = 2
+prob = 0.25394740070330607
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word beatus changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:virtus.dat
+
+========================================================
+Opening model output file: virtus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.12999746653153801
+time = 0
+sense = 0
+prob = 0.35726521487925494
+time = 0
+sense = 1
+prob = 0.20162775949487274
+time = 0
+sense = 2
+prob = 0.3111095590943343
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.23889434453293523
+time = 1
+sense = 0
+prob = 0.2566874715188603
+time = 1
+sense = 1
+prob = 0.2626164886213984
+time = 1
+sense = 2
+prob = 0.24180169532680618
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word virtus changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:dubius.dat
+
+========================================================
+Opening model output file: dubius.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.18614557273273874
+time = 0
+sense = 0
+prob = 0.29998262475194976
+time = 0
+sense = 1
+prob = 0.19896205579276205
+time = 0
+sense = 2
+prob = 0.3149097467225494
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2335545954714358
+time = 1
+sense = 0
+prob = 0.25975673479034717
+time = 1
+sense = 1
+prob = 0.24584267354296324
+time = 1
+sense = 2
+prob = 0.2608459961952537
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word dubius changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:consilium.dat
+
+========================================================
+Opening model output file: consilium.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.23485454320999374
+time = 0
+sense = 0
+prob = 0.15404536597334087
+time = 0
+sense = 1
+prob = 0.36845738681813084
+time = 0
+sense = 2
+prob = 0.2426427039985346
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.26536681576969673
+time = 1
+sense = 0
+prob = 0.2607715058744293
+time = 1
+sense = 1
+prob = 0.22068603423309438
+time = 1
+sense = 2
+prob = 0.25317564412277965
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word consilium did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:sacramentum.dat
+
+========================================================
+Opening model output file: sacramentum.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.3073947095287675
+time = 0
+sense = 0
+prob = 0.26429688275032914
+time = 0
+sense = 1
+prob = 0.307832094645524
+time = 0
+sense = 2
+prob = 0.12047631307537943
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.28673861508374476
+time = 1
+sense = 0
+prob = 0.25796144030969703
+time = 1
+sense = 1
+prob = 0.22634963372872205
+time = 1
+sense = 2
+prob = 0.22895031087783613
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word sacramentum changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model did NOT detect any significant meaning change (1 std).
+model_output_file_name:salus.dat
+
+========================================================
+Opening model output file: salus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.11469112487502721
+time = 0
+sense = 0
+prob = 0.2932345563624088
+time = 0
+sense = 1
+prob = 0.4694424815601958
+time = 0
+sense = 2
+prob = 0.12263183720236821
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2617930029683012
+time = 1
+sense = 0
+prob = 0.2650916962002643
+time = 1
+sense = 1
+prob = 0.26814151682803267
+time = 1
+sense = 2
+prob = 0.20497378400340185
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word salus did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:sensus.dat
+
+========================================================
+Opening model output file: sensus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.2489903439475305
+time = 0
+sense = 0
+prob = 0.2840025131740878
+time = 0
+sense = 1
+prob = 0.26884891309130426
+time = 0
+sense = 2
+prob = 0.19815822978707742
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.24793158289515593
+time = 1
+sense = 0
+prob = 0.23594278331877946
+time = 1
+sense = 1
+prob = 0.24568884690653778
+time = 1
+sense = 2
+prob = 0.2704367868795269
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word sensus changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model did NOT detect any significant meaning change (1 std).
+model_output_file_name:fidelis.dat
+
+========================================================
+Opening model output file: fidelis.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.3038587575717765
+time = 0
+sense = 0
+prob = 0.1592297612384656
+time = 0
+sense = 1
+prob = 0.26910556379686373
+time = 0
+sense = 2
+prob = 0.2678059173928943
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.24948733809708415
+time = 1
+sense = 0
+prob = 0.2507125351545224
+time = 1
+sense = 1
+prob = 0.26603637566545457
+time = 1
+sense = 2
+prob = 0.23376375108293881
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word fidelis did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=1.
+model_output_file_name:pontifex.dat
+
+========================================================
+Opening model output file: pontifex.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.503152992415837
+time = 0
+sense = 0
+prob = 0.09929509124746184
+time = 0
+sense = 1
+prob = 0.12650922749299548
+time = 0
+sense = 2
+prob = 0.2710426888437058
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2757220503191612
+time = 1
+sense = 0
+prob = 0.24739645083513756
+time = 1
+sense = 1
+prob = 0.20882113987774173
+time = 1
+sense = 2
+prob = 0.26806035896795954
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word pontifex changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=1.
+model_output_file_name:itero.dat
+
+========================================================
+Opening model output file: itero.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.06230593869808282
+time = 0
+sense = 0
+prob = 0.33917954531570466
+time = 0
+sense = 1
+prob = 0.5170964767126072
+time = 0
+sense = 2
+prob = 0.08141803927360529
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.32447859989612454
+time = 1
+sense = 0
+prob = 0.14046323778345118
+time = 1
+sense = 1
+prob = 0.24848628260507027
+time = 1
+sense = 2
+prob = 0.28657187971535397
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word itero did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:ancilla.dat
+
+========================================================
+Opening model output file: ancilla.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.08182860576141565
+time = 0
+sense = 0
+prob = 0.5020856379112717
+time = 0
+sense = 1
+prob = 0.2431268238180118
+time = 0
+sense = 2
+prob = 0.17295893250930083
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2667332326550514
+time = 1
+sense = 0
+prob = 0.17533852375170672
+time = 1
+sense = 1
+prob = 0.22123490678060476
+time = 1
+sense = 2
+prob = 0.3366933368126372
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word ancilla did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:regnum.dat
+
+========================================================
+Opening model output file: regnum.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.208567840201308
+time = 0
+sense = 0
+prob = 0.27550257228278946
+time = 0
+sense = 1
+prob = 0.30635531919123976
+time = 0
+sense = 2
+prob = 0.20957426832466275
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.22217775628462758
+time = 1
+sense = 0
+prob = 0.2518144807238658
+time = 1
+sense = 1
+prob = 0.2526304445205354
+time = 1
+sense = 2
+prob = 0.27337731847097124
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word regnum changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:poena.dat
+
+========================================================
+Opening model output file: poena.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.17841867147711413
+time = 0
+sense = 0
+prob = 0.47219121473681414
+time = 0
+sense = 1
+prob = 0.10131382174482204
+time = 0
+sense = 2
+prob = 0.24807629204124967
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.25441770913736467
+time = 1
+sense = 0
+prob = 0.233352224550774
+time = 1
+sense = 1
+prob = 0.25231378885613753
+time = 1
+sense = 2
+prob = 0.2599162774557238
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word poena did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:licet.dat
+
+========================================================
+Opening model output file: licet.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.23000438950153168
+time = 0
+sense = 0
+prob = 0.267726657745894
+time = 0
+sense = 1
+prob = 0.3180867151352957
+time = 0
+sense = 2
+prob = 0.18418223761727864
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.26527048100042144
+time = 1
+sense = 0
+prob = 0.24954250105495376
+time = 1
+sense = 1
+prob = 0.24730844489697823
+time = 1
+sense = 2
+prob = 0.23787857304764656
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word licet changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:consul.dat
+
+========================================================
+Opening model output file: consul.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.24351030298314885
+time = 0
+sense = 0
+prob = 0.3586381160835156
+time = 0
+sense = 1
+prob = 0.1828753351919052
+time = 0
+sense = 2
+prob = 0.21497624574143043
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.24280309186432672
+time = 1
+sense = 0
+prob = 0.2908457574962475
+time = 1
+sense = 1
+prob = 0.22904234781377797
+time = 1
+sense = 2
+prob = 0.23730880282564779
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word consul changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:honor.dat
+
+========================================================
+Opening model output file: honor.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.15068524060592076
+time = 0
+sense = 0
+prob = 0.2934466502096615
+time = 0
+sense = 1
+prob = 0.32780197548854784
+time = 0
+sense = 2
+prob = 0.2280661336958699
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.259546612589121
+time = 1
+sense = 0
+prob = 0.2313940289120007
+time = 1
+sense = 1
+prob = 0.25221556022857006
+time = 1
+sense = 2
+prob = 0.2568437982703083
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word honor did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:voluntas.dat
+
+========================================================
+Opening model output file: voluntas.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.22515067064368804
+time = 0
+sense = 0
+prob = 0.19394732698399678
+time = 0
+sense = 1
+prob = 0.3972454426830739
+time = 0
+sense = 2
+prob = 0.18365655968924124
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.27436977795450374
+time = 1
+sense = 0
+prob = 0.25208696448932216
+time = 1
+sense = 1
+prob = 0.24093718930749997
+time = 1
+sense = 2
+prob = 0.23260606824867422
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word voluntas changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:oportet.dat
+
+========================================================
+Opening model output file: oportet.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.12482871613407875
+time = 0
+sense = 0
+prob = 0.18100807607797204
+time = 0
+sense = 1
+prob = 0.2924041671109383
+time = 0
+sense = 2
+prob = 0.4017590406770108
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.23305137299816078
+time = 1
+sense = 0
+prob = 0.2502444047309893
+time = 1
+sense = 1
+prob = 0.2626661385716306
+time = 1
+sense = 2
+prob = 0.25403808369921926
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word oportet did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:titulus.dat
+
+========================================================
+Opening model output file: titulus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.1552357509261795
+time = 0
+sense = 0
+prob = 0.29513357121707756
+time = 0
+sense = 1
+prob = 0.1506805428741053
+time = 0
+sense = 2
+prob = 0.3989501349826376
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.20327430809506403
+time = 1
+sense = 0
+prob = 0.2596006835386597
+time = 1
+sense = 1
+prob = 0.2886365488075152
+time = 1
+sense = 2
+prob = 0.24848845955876098
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word titulus changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model did NOT detect any significant meaning change (1 std).
+model_output_file_name:sanctus.dat
+
+========================================================
+Opening model output file: sanctus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.37148924067057076
+time = 0
+sense = 0
+prob = 0.23335370746693154
+time = 0
+sense = 1
+prob = 0.26421908969127494
+time = 0
+sense = 2
+prob = 0.1309379621712228
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2497408437008682
+time = 1
+sense = 0
+prob = 0.24390639807855552
+time = 1
+sense = 1
+prob = 0.23172522279667798
+time = 1
+sense = 2
+prob = 0.2746275354238984
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word sanctus changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:simplex.dat
+
+========================================================
+Opening model output file: simplex.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.36850013335499004
+time = 0
+sense = 0
+prob = 0.2766736015563121
+time = 0
+sense = 1
+prob = 0.13266589605406734
+time = 0
+sense = 2
+prob = 0.22216036903463038
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.24484969965122047
+time = 1
+sense = 0
+prob = 0.2602964378067566
+time = 1
+sense = 1
+prob = 0.2172687015635574
+time = 1
+sense = 2
+prob = 0.2775851609784656
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word simplex did not change.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+model_output_file_name:humanitas.dat
+
+========================================================
+Opening model output file: humanitas.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.14714213502261422
+time = 0
+sense = 0
+prob = 0.10122952841121131
+time = 0
+sense = 1
+prob = 0.5312194588489493
+time = 0
+sense = 2
+prob = 0.2204088777172251
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.29401335998678246
+time = 1
+sense = 0
+prob = 0.22523996720069409
+time = 1
+sense = 1
+prob = 0.2251531111020444
+time = 1
+sense = 2
+prob = 0.25559356171047903
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word humanitas changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+model_output_file_name:dolus.dat
+
+========================================================
+Opening model output file: dolus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.22831973524890575
+time = 0
+sense = 0
+prob = 0.13332405198236966
+time = 0
+sense = 1
+prob = 0.36783242067135463
+time = 0
+sense = 2
+prob = 0.27052379209737004
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.27749694675233316
+time = 1
+sense = 0
+prob = 0.2091318181436259
+time = 1
+sense = 1
+prob = 0.23950999937699266
+time = 1
+sense = 2
+prob = 0.2738612357270483
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word dolus changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model did NOT detect any significant meaning change (1 std).
+model_output_file_name:adsumo.dat
+
+========================================================
+Opening model output file: adsumo.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Latin_SCAN_output/SCAN_BCAC_kappaF1000_OK
+There are K = 4 senses in the output.
+There are times = 2 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.6717260178930867
+time = 0
+sense = 0
+prob = 0.04301130831764563
+time = 0
+sense = 1
+prob = 0.08966679275309923
+time = 0
+sense = 2
+prob = 0.19559588103616826
+time = 0
+sense = 3
+Found timeTime=1
+prob = 0.2553220816948445
+time = 1
+sense = 0
+prob = 0.19282522929596924
+time = 1
+sense = 1
+prob = 0.28319181495236295
+time = 1
+sense = 2
+prob = 0.2686608740568232
+time = 1
+sense = 3
+
+===========Ground Truth===========
+The word adsumo changed.
+sense = 1
+time = 0
+time = 1
+sense = 2
+time = 0
+time = 1
+sense = 3
+time = 0
+time = 1
+sense = 4
+time = 0
+time = 1
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=2.
+===========Precision, Recall and F1 score===========
+true_positives: 21
+true_negatives: 0
+false_positives: 14
+false_negatives: 5
+precision: 0.6
+recall: 0.8076923076923077
+F1 score: 0.6885245901639344
