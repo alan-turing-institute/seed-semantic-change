@@ -177,7 +177,7 @@ for genre in genres:
 	target_bin_change = {}
 	for target in targets:
 		target_bin_change[target] = {}
-		
+
 	print("TR",genre)
 	if genre == "NAIVE":
 			model = basedir+"AG/tr/vectors.w2v"
@@ -216,16 +216,17 @@ for genre in genres:
 			for key in cosines:
 				if cosines[key] > threshold:
 					changed.append(key)
-					target_bin_change[target][bin] = "change"
+					target_bin_change[key][bin] = "change"
 				else:
 					not_changed.append(key)
-					target_bin_change[target][bin] = "no-change"
+					target_bin_change[key][bin] = "no-change"
 			
 			#print("changed",changed)
 			#print("not_changed",not_changed)
 
 	with open(decisions_path, "w") as f:
 		for w in target_bin_change:
+			print(w)
 			for bin in target_bin_change[w]:
 				print(w+"\t"+str(bin)+"\t"+target_bin_change[w][bin]+"\n")
 				f.write(w+"\t"+str(bin)+"\t"+target_bin_change[w][bin]+"\n")

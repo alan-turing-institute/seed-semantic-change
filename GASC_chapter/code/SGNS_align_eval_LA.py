@@ -103,9 +103,9 @@ for genre in ["NAIVE","LA-NOT-christian"]:
     print("not_changed",not_changed)
 
     ## NAIVE
-    ### changed ['beatus', 'civitas', 'fidelis', 'imperator', 'pontifex', 'sacramentum', 'sanctus', 'simplex']
-    ### not_changed ['acerbus', 'adsumo', 'ancilla', 'cohors', 'consilium', 'consul', 'credo', 'dolus', 'dubius', 'dux', 'honor', 'hostis', 'humanitas', 'itero', 'jus', 'licet', 'necessarius', 'nepos', 'nobilitas', 'oportet', 'poena', 'potestas', 'regnum', 'salus', 'sapientia', 'scriptura', 'senatus', 'sensus', 'templum', 'titulus', 'virtus', 'voluntas']
+    ### changed = ['beatus', 'civitas', 'fidelis', 'imperator', 'pontifex', 'sacramentum', 'sanctus', 'simplex']
+    ### not_changed = ['acerbus', 'adsumo', 'ancilla', 'cohors', 'consilium', 'consul', 'credo', 'dolus', 'dubius', 'dux', 'honor', 'hostis', 'humanitas', 'itero', 'jus', 'licet', 'necessarius', 'nepos', 'nobilitas', 'oportet', 'poena', 'potestas', 'regnum', 'salus', 'sapientia', 'scriptura', 'senatus', 'sensus', 'templum', 'titulus', 'virtus', 'voluntas']
 
     ## NOT-christian
-    ### changed ['beatus', 'civitas', 'fidelis', 'imperator', 'itero', 'pontifex', 'sacramentum', 'sanctus', 'simplex']
-    ### not_changed ['acerbus', 'adsumo', 'ancilla', 'cohors', 'consilium', 'consul', 'credo', 'dolus', 'dubius', 'dux', 'honor', 'hostis', 'humanitas', 'jus', 'licet', 'necessarius', 'nepos', 'nobilitas', 'oportet', 'poena', 'potestas', 'regnum', 'salus', 'sapientia', 'scriptura', 'senatus', 'sensus', 'templum', 'titulus', 'virtus', 'voluntas']
+    ### changed = ['beatus', 'civitas', 'fidelis', 'imperator', 'itero', 'pontifex', 'sacramentum', 'sanctus', 'simplex']
+    ### not_changed = ['acerbus', 'adsumo', 'ancilla', 'cohors', 'consilium', 'consul', 'credo', 'dolus', 'dubius', 'dux', 'honor', 'hostis', 'humanitas', 'jus', 'licet', 'necessarius', 'nepos', 'nobilitas', 'oportet', 'poena', 'potestas', 'regnum', 'salus', 'sapientia', 'scriptura', 'senatus', 'sensus', 'templum', 'titulus', 'virtus', 'voluntas']
