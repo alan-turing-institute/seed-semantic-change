@@ -58,6 +58,7 @@ target_words["AG"] = {'harmonia': ['!αρμονίας', 'ἁρμονία', 'ἁ�
 					}
 target_words["LA"] = {}
 random_words_AG = ['μέγας', 'ποιέω', 'καλέω', 'μόνος', 'ἔρχομαι', 'συνάγω', 'ὅμοιος', 'κύκλος', 'εἶδος', 'ὅσος', 'καταλιμπάνω', 'πάλιν', 'μένω', 'δείκνυμι', 'ἀίω', 'ἄγω', 'ἀνίστημι', 'γίγνομαι', 'τυγχάνω', 'πρότερος', 'λαμβάνω', 'δέομαι', 'πίπτω', 'δίδωμι', 'βαίνω', 'δέχομαι', 'δύναμαι', 'οἷος', 'ἀμφότερος', 'ἄκρος', 'ἔχω', 'ἕτερος', 'φέρω', 'ἵστημι', 'πολύς', 'λέγω', 'φημί']
+random_words_AG_targets = random_words_AG + ["ἁρμονία", "κόσμος", "μῦς", "παραβολή", "παράδεισος"]
 
 import cProfile, pstats, io
 def profile(fnc):
@@ -140,7 +141,7 @@ def list_models_for_alignment(directory,lang):
 				#print(m1)
 				#print(m2)
 				print(item,models_ordered[index+1])
-				other_embed = smart_procrustes_align_gensim(m1, m2, random_words_AG)
+				other_embed = smart_procrustes_align_gensim(m1, m2, random_words_AG_targets)
 				#other_embed = smart_procrustes_align_gensim(item, models_ordered[index+1])
 				#print("other_embed retrieved")
 

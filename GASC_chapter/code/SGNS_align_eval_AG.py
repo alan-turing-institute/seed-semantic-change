@@ -83,7 +83,7 @@ for genre in genres:
     m2 = gensim.models.KeyedVectors.load(model_2)
     #other_embed = smart_procrustes_align_gensim(m1, m2, targets)
     #other_embed.save(model_2)
-    """
+    
 	
 	threshold_path = basedir+genre+"/thresholds.tsv"
 	if os.path.exists(threshold_path) == False:
@@ -118,6 +118,7 @@ for genre in genres:
 		try:
 			m1 = gensim.models.KeyedVectors.load(basedir+genre+"/"+trained_models[bin])
 			m2 = gensim.models.KeyedVectors.load(basedir+genre+"/"+trained_models[list(threshold_d.keys())[i+1]])
+			#print("ok")
 		except KeyError:
 			#print("No models")
 			print("")
@@ -126,28 +127,34 @@ for genre in genres:
 			print("")
 
 		for target in targets:
+			#print(target)
+			
 			try:
 				cos = spatial.distance.cosine(m1.wv.get_vector(target),m2.wv.get_vector(target))
+				print(cos)
+				
 				if cos > threshold_d[bin]:
 					changed.append(target)
 					target_bin_change[target][bin] = "change"
+					
 				else:
 					not_changed.append(target)
 					target_bin_change[target][bin] = "no-change"
 			except KeyError:
 				continue
-		print("changed",changed)
-		print("not_changed",not_changed)
+		#print("changed",changed)
+		#print("not_changed",not_changed)
 
-	genre_target_bin_change[genre] = target_bin_change
+	#genre_target_bin_change[genre] = target_bin_change
 	decisions_path = basedir+genre+"/decisions.tsv"
-
+	print(target_bin_change)
 	with open(decisions_path, "w") as f:
 		for w in target_bin_change:
 			for bin in target_bin_change[w]:
+				print(w+"\t"+str(bin)+"\t"+target_bin_change[w][bin]+"\n")
 				f.write(w+"\t"+str(bin)+"\t"+target_bin_change[w][bin]+"\n")
 
-
+"""
 # TR
 basedir = "/home/gntsh/git/TemporalReferencing/matrices/"
 random_words_AG = ['μέγας', 'ποιέω', 'καλέω', 'μόνος', 'ἔρχομαι', 'συνάγω', 'ὅμοιος', 'κύκλος', 'εἶδος', 'ὅσος', 'καταλιμπάνω', 'πάλιν', 'μένω', 'δείκνυμι', 'ἀίω', 'ἄγω', 'ἀνίστημι', 'γίγνομαι', 'τυγχάνω', 'πρότερος', 'λαμβάνω', 'δέομαι', 'πίπτω', 'δίδωμι', 'βαίνω', 'δέχομαι', 'δύναμαι', 'οἷος', 'ἀμφότερος', 'ἄκρος', 'ἔχω', 'ἕτερος', 'φέρω', 'ἵστημι', 'πολύς', 'λέγω', 'φημί']
@@ -157,21 +164,28 @@ earliest = -700 #sorted(years)[0]
 last = 400 #sorted(years)[-1]
 slice_length = 100
 bins = []
-
 for i in range(earliest,last+slice_length,slice_length):
 	if i != "-600":
 		bins.append(i)
 
+
 random_words_AG_targets = random_words_AG + targets
 
+genres = ["narrative", "NOT-narrative", "technical", "NOT-technical", "NAIVE"]
 for genre in genres:
+	decisions_path = "TR_"+genre+"_decisions.tsv"
+	target_bin_change = {}
+	for target in targets:
+		target_bin_change[target] = {}
+		
+	print("TR",genre)
 	if genre == "NAIVE":
 			model = basedir+"AG/tr/vectors.w2v"
 	else:
 		model = basedir+"AG_"+genre+"/tr/vectors.w2v"
 
 	m = gensim.models.KeyedVectors.load_word2vec_format(model)
-	
+	b = 0
 	for index, bin in enumerate(bins):
 		cosines = {}
 		args_R = ""
@@ -188,7 +202,8 @@ for genre in genres:
 				#print(target+"_"+str(bin))
 				continue
 			except IndexError:
-				print("Index")
+				#print("Index")
+				b += 1
 		#print(args_R)
 
 		if x_cos > 2:
@@ -201,9 +216,16 @@ for genre in genres:
 			for key in cosines:
 				if cosines[key] > threshold:
 					changed.append(key)
+					target_bin_change[target][bin] = "change"
 				else:
 					not_changed.append(key)
-			print("changed",changed)
-			print("not_changed",not_changed)
+					target_bin_change[target][bin] = "no-change"
+			
+			#print("changed",changed)
+			#print("not_changed",not_changed)
 
-		
+	with open(decisions_path, "w") as f:
+		for w in target_bin_change:
+			for bin in target_bin_change[w]:
+				print(w+"\t"+str(bin)+"\t"+target_bin_change[w][bin]+"\n")
+				f.write(w+"\t"+str(bin)+"\t"+target_bin_change[w][bin]+"\n")
