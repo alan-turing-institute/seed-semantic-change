@@ -165,6 +165,15 @@ def list_models_for_alignment(directory,lang):
 		other_embed = smart_procrustes_align_gensim(m1, m2, targets)
 		other_embed.save(models[1])
 
+	if lang == "AG_BINARY":
+
+		models = [os.path.join(directory,model) for model in os.listdir(directory) if model.endswith(".w2v")]
+		print(models)
+		m1 = gensim.models.KeyedVectors.load(models[0])
+		m2 = gensim.models.KeyedVectors.load(models[1])
+		other_embed = smart_procrustes_align_gensim(m1, m2, random_words_AG_targets)
+		other_embed.save(models[1])
+
 
 def fit_to_gamma_get_changed_words(lang,genre):
 	"""
@@ -210,12 +219,14 @@ def fit_to_gamma_get_changed_words(lang,genre):
 		
 		w_cosD.append(cosD)
 	
+	#print(w_cosD)
+
 
 	print(lang)
 	threshold_d = {}
 	if lang == "AG":
 		bins = [i for i in range(0,12)]
-	#print(w_cosD)
+	
 	
 		for bin in bins:
 			print(bin)
@@ -273,7 +284,31 @@ def fit_to_gamma_get_changed_words(lang,genre):
 			print("Threshold for bin:",threshold)
 	
 		return threshold
-			
+	
+	if lang == "AG_BINARY":
+		#print(w_cosD)
+		bins = [1,2]
+		args_R = ""
+		x_cos = 0
+		#print(w_cosD)
+		#print(w_cosD[0])
+		bin_cosines = [float(i[0]) for i in w_cosD]
+		#print(bin_cosines)
+		for cos in bin_cosines:
+			if cos is not None:
+				if cos > 0.0:
+					args_R += str(cos)+" "
+					x_cos += 1
+
+		#print("args_R",args_R)
+		#print("x_cos",x_cos)
+		if x_cos > 1:
+			Routput = subprocess.check_output("Rscript get_75quantile_threshold.Rscript "+args_R, shell=True).decode()
+			Routput = Routput.replace("\n","")
+			threshold = float(Routput.split()[1])
+			print("Threshold for bin:",threshold)
+	
+		return threshold
 	
 
 def target_words_to_CD_arrays_SGNS(lang,genre):
@@ -354,7 +389,22 @@ def target_words_to_CD_arrays_SGNS(lang,genre):
 			trained_models = {1: "BIN_1_NAIVE.w2v", 2: "BIN_2_NAIVE.w2v"}
 		if genre == "NOT-christian":
 			trained_models = {1: "BIN_1_NOT-christian.w2v", 2: "BIN_2_NOT-christian.w2v"}
-	
+
+	if lang == "AG_BINARY":
+		bins = [1,2]
+		targets = ["ἁρμονία", "κόσμος", "μῦς", "παραβολή", "παράδεισος"]
+
+		if genre == "NAIVE":
+			trained_models = {1: "BIN_1_NAIVE.w2v", 2: "BIN_2_NAIVE.w2v"}
+		if genre == "NOT-narrative":
+			trained_models = {1: "BIN_1_NOT-narrative.w2v", 2: "BIN_2_NOT-narrative.w2v"}
+		if genre == "NOT-technical":
+			trained_models = {1: "BIN_1_NOT-technical.w2v", 2: "BIN_2_NOT-technical.w2v"}
+		if genre == "technical":
+			trained_models = {1: "BIN_1_technical.w2v", 2: "BIN_2_technical.w2v"}
+		if genre == "narrative":
+			trained_models = {1: "BIN_1_narrative.w2v", 2: "BIN_2_narrative.w2v"}
+
 	
 	directory = "../trained_models/"+lang+"/"+genre+"/"
 
@@ -381,6 +431,7 @@ def target_words_to_CD_arrays_SGNS(lang,genre):
 
 				except KeyError:
 					vec = None
+					#print("NOT IN VOCAB")
 					
 					
 				
@@ -627,7 +678,26 @@ def train_model(slice,genre,lang):
 		model.save(model_file)
 		print("Trained",model_file,"\n")
 	
-	
+	if lang == "AG_BINARY":
+		filename = "BIN_"+str(slice)+"_"+genre+".gensim"
+		corpus_file = os.path.join(path_data_out,lang,genre,filename)
+		
+		model_file = os.path.join(path_models_out,lang,genre,filename.replace(".gensim",".w2v"))
+		if os.path.exists(os.path.join(path_models_out,lang,genre)) == False:
+			try:
+				os.mkdir(os.path.join(path_models_out,lang,genre))
+			except FileExistsError:
+				pass
+
+		if os.stat(corpus_file).st_size < 10:
+			return 
+		if os.path.exists(model_file):
+			return
+		model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=1, sg=1 ,size=300, workers=3, seed=1830, iter=5)
+		model.save(model_file)
+		print("Trained",model_file,"\n")
+
+
 	#TODO: transform input data as GENRE input data
 	if lang == "LA":
 		
@@ -650,7 +720,135 @@ def train_model(slice,genre,lang):
 		model = gensim.models.Word2Vec(corpus_file=corpus_file, min_count=1, sg=1 ,size=300, workers=3, seed=1830, iter=5)
 		model.save(model_file)
 		print("Trained",model_file,"\n")
-	
+
+def corpus_transformer_binary(genre_sep,lang,slice_length=100):
+	"""
+	AG:
+	Will transform the main corpus file into gensim files
+	genre_sep is either 'technical', 'narrative', or "NAIVE"
+
+	"""
+	if lang == "AG":
+		if genre_sep not in ["technical", "narrative","NAIVE"]:
+			sys.exit("genre_sep is",genre_sep,"not a valid value")
+		
+		corpus_path = os.path.join(path_data_in,"full_corpus_forms.txt")
+		print("Reading corpus at",corpus_path)
+
+		corpus = pd.read_csv(corpus_path, sep='\t',names=["year","genre","sentence"])
+		
+		#print(corpus.head())
+
+		ids_blacklist = []
+		for key,val in genres_id[lang].items():
+			if val == genre_sep:
+				id_OK = key
+			else:
+				ids_blacklist.append(key)
+		
+		bins = ["1","2"]
+
+		"""
+		fileout = os.path.join(path_data_out,lang,genre_sep,"BIN_"+str(bin)+"_NOT-"+genres_id[lang][id_OK]+".gensim")
+				if os.path.exists(fileout) == False:
+					sub_corpus = corpus[(corpus['year'] >= bin) & (corpus['year'] < bin + slice_length) & (corpus['genre'] != id_OK )]
+		"""
+
+
+
+		for bin in bins:
+			if genre_sep != "NAIVE":
+				# bin 1, vrai et faux genre
+				if os.path.exists(os.path.join(path_data_out,lang+"_BINARY",genre_sep)) == False:
+					os.mkdir(os.path.join(path_data_out,lang+"_BINARY",genre_sep))
+				if os.path.exists(os.path.join(path_data_out,lang+"_BINARY","NOT-"+genre_sep)) == False:
+					os.mkdir(os.path.join(path_data_out,lang+"_BINARY","NOT-"+genre_sep))
+
+				if bin == "1":
+					print(bin,genre_sep)
+					fileout = os.path.join(path_data_out,lang+"_BINARY",genre_sep,"BIN_"+str(bin)+"_"+genres_id[lang][id_OK]+".gensim")
+					if os.path.exists(fileout) == False:
+						sub_corpus = corpus[(corpus['year'].astype(int) <= 0) & (corpus['genre'] == id_OK )]
+					
+						print(sub_corpus.head())
+						with open(fileout,"w") as f:
+							for index, row in sub_corpus.iterrows():
+								sentence = row["sentence"].lower()  ## some words have "#", which causes segfaults in hyperwords
+								sentencesplit = [w.split("#")[0].replace("'","").replace("\n","") for w in sentence.split()]
+								sentencesplit = [w for w in sentencesplit if w.isalnum() == True]
+								if len(sentencesplit) > 0:
+									sentence = " ".join(sentencesplit)
+									f.write(sentence+"\n")
+
+				if bin == "1":
+					print(bin,"NOT-"+genre_sep)
+					fileout = os.path.join(path_data_out,lang+"_BINARY","NOT-"+genre_sep,"BIN_"+str(bin)+"_NOT-"+genre_sep+".gensim")
+					print(fileout)
+					if os.path.exists(fileout) == False:
+						sub_corpus = corpus[(corpus['year'].astype(int) <= 0) & (corpus['genre'] != id_OK )]
+						with open(fileout,"w") as f:
+							for index, row in sub_corpus.iterrows():
+								sentence = row["sentence"].lower()  ## some words have "#", which causes segfaults in hyperwords
+								sentencesplit = [w.split("#")[0].replace("'","").replace("\n","") for w in sentence.split()]
+								sentencesplit = [w for w in sentencesplit if w.isalnum() == True]
+								if len(sentencesplit) > 0:
+									sentence = " ".join(sentencesplit)
+									f.write(sentence+"\n")
+				
+				# bin 2, vrai et faux genre
+				if bin == "2":
+					print(bin,genre_sep)
+					fileout = os.path.join(path_data_out,lang+"_BINARY",genre_sep,"BIN_"+str(bin)+"_"+genres_id[lang][id_OK]+".gensim")
+					if os.path.exists(fileout) == False:
+						sub_corpus = corpus[(corpus['year'].astype(int) > 0) & (corpus['year'].astype(int) < 1000) & (corpus['genre'] == id_OK )]
+					
+						print(sub_corpus.head())
+						with open(fileout,"w") as f:
+							for index, row in sub_corpus.iterrows():
+								sentence = row["sentence"].lower()  ## some words have "#", which causes segfaults in hyperwords
+								sentencesplit = [w.split("#")[0].replace("'","").replace("\n","") for w in sentence.split()]
+								sentencesplit = [w for w in sentencesplit if w.isalnum() == True]
+								if len(sentencesplit) > 0:
+									sentence = " ".join(sentencesplit)
+									f.write(sentence+"\n")
+
+				if bin == "2":
+					print(bin,"NOT-"+genre_sep)
+					fileout = os.path.join(path_data_out,lang+"_BINARY","NOT-"+genre_sep,"BIN_"+str(bin)+"_NOT-"+genre_sep+".gensim")
+					print(fileout)
+					if os.path.exists(fileout) == False:
+						sub_corpus = corpus[(corpus['year'].astype(int) > 0) & (corpus['year'].astype(int) < 1000) & (corpus['genre'] != id_OK )]
+						with open(fileout,"w") as f:
+							for index, row in sub_corpus.iterrows():
+								sentence = row["sentence"].lower()  ## some words have "#", which causes segfaults in hyperwords
+								sentencesplit = [w.split("#")[0].replace("'","").replace("\n","") for w in sentence.split()]
+								sentencesplit = [w for w in sentencesplit if w.isalnum() == True]
+								if len(sentencesplit) > 0:
+									sentence = " ".join(sentencesplit)
+									f.write(sentence+"\n")
+
+		
+			elif genre_sep == "NAIVE":
+				if os.path.exists(os.path.join(path_data_out,lang+"_BINARY",genre_sep)) == False:
+					os.mkdir(os.path.join(path_data_out,lang+"_BINARY",genre_sep))
+				for bin in bins:
+					## before
+					if bin == "1":
+						fileout = os.path.join(path_data_out,lang+"_BINARY",genre_sep,"BIN_"+str(bin)+"_NAIVE.gensim")
+						if os.path.exists(fileout) == False:
+							sub_corpus = corpus[(corpus['year'].astype(int) <= 0) ]
+							with open(fileout,"w") as f:
+								for index, row in sub_corpus.iterrows():
+									f.write(row["sentence"].lower()+"\n")
+					if bin == "2":
+						fileout = os.path.join(path_data_out,lang+"_BINARY",genre_sep,"BIN_"+str(bin)+"_NAIVE.gensim")
+						if os.path.exists(fileout) == False:
+							sub_corpus = corpus[(corpus['year'].astype(int) > 0) & (corpus['year'].astype(int) < 1000)]
+							with open(fileout,"w") as f:
+								for index, row in sub_corpus.iterrows():
+									f.write(row["sentence"].lower()+"\n")
+
+
 
 def corpus_transformer(genre_sep,lang,slice_length=100):
 	"""
@@ -801,13 +999,6 @@ def corpus_transformer(genre_sep,lang,slice_length=100):
 
 			
 			
-				
-
-
-
-
-
-
 def get_models_stats(lang):
 	"""
 	Loads all models and prints out some descriptive stats

@@ -3,7 +3,7 @@ import sys
 
 
 
-
+"""
 langs = ["AG", "LA"]
 #langs = ["LA"]
 langs = ["AG"]
@@ -39,7 +39,7 @@ for lang in langs:
 
         
         genres = ["narrative","technical"]
-        """
+        
         for genre in genres_all:
             print(genre.upper())
             for target in target_words[lang].keys():
@@ -75,7 +75,7 @@ for directory in directories:
 
 
 fit_to_gamma_get_changed_words("LA","NAIVE")
-"""
+
 #corpus_transformer("christian","LA")
 #LA_to_TR_input("christian")
 #LA_to_TR_input("NOT-christian")
@@ -87,3 +87,21 @@ fit_to_gamma_get_changed_words("LA","NAIVE")
 #AG_to_TR_input("narrative")
 
 list_models_for_alignment("/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/AG/NAIVE","AG")
+
+"""
+
+lang = "AG"
+genres = ["narrative","technical","NAIVE"]
+#for genre in genres:
+#    corpus_transformer_binary(genre,lang)
+
+lang = "AG_BINARY"
+
+#for bin in ["1", "2"]:
+#    for genre in genres + ["NOT-narrative","NOT-technical"]:
+#        train_model(bin,genre,lang)
+
+#for directory in ["../trained_models/AG_BINARY/NOT-technical/", "../trained_models/AG_BINARY/technical/", "../trained_models/AG_BINARY/NOT-narrative/", "../trained_models/AG_BINARY/narrative/", "../trained_models/AG_BINARY/NAIVE/"]:
+#    list_models_for_alignment(directory,lang)
+
+fit_to_gamma_get_changed_words("AG_BINARY","NOT-narrative")
