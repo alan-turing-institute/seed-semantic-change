@@ -5,6 +5,7 @@ import sys
 
 targets = ["ἁρμονία", "κόσμος", "μῦς", "παραβολή", "παράδεισος"]
 
+"""
 # SGNS
 basedir = "/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/AG_BINARY/"
 
@@ -48,7 +49,7 @@ for genre in genres:
 	print("changed = ",changed)
 	print("not_changed = ",not_changed)
 	print("\n")
-
+"""
 # TR
 basedir = "/home/gntsh/git/TemporalReferencing/matrices/"
 random_words_AG = ['μέγας', 'ποιέω', 'καλέω', 'μόνος', 'ἔρχομαι', 'συνάγω', 'ὅμοιος', 'κύκλος', 'εἶδος', 'ὅσος', 'καταλιμπάνω', 'πάλιν', 'μένω', 'δείκνυμι', 'ἀίω', 'ἄγω', 'ἀνίστημι', 'γίγνομαι', 'τυγχάνω', 'πρότερος', 'λαμβάνω', 'δέομαι', 'πίπτω', 'δίδωμι', 'βαίνω', 'δέχομαι', 'δύναμαι', 'οἷος', 'ἀμφότερος', 'ἄκρος', 'ἔχω', 'ἕτερος', 'φέρω', 'ἵστημι', 'πολύς', 'λέγω', 'φημί']
@@ -57,29 +58,30 @@ random_words_AG = ['μέγας', 'ποιέω', 'καλέω', 'μόνος', 'ἔ�
 for genre in ["NAIVE","narrative", "NOT-narrative", "technical", "NOT-technical"]:
     
 	### load model here
+	model = basedir + "AG_BINARY_" + genre + "/tr/vectors.w2v"
+	print(model)
+	m = gensim.models.KeyedVectors.load_word2vec_format(model)
 
-    m = gensim.models.KeyedVectors.load_word2vec_format(model)
+	changed = []
+	not_changed = []
 
-    changed = []
-    not_changed = []
-
-    cosines = []
-    args_R = ""
-    for target in random_words_AG + targets:
+	cosines = []
+	args_R = ""
+	for target in random_words_AG + targets:
 		if target in targets:
-        	cosines.append(m.distance(target+"_0",target+"_1"))
-        args_R += str(m.distance(target+"_0",target+"_1"))+" "
+			cosines.append(m.distance(target+"_0",target+"_1"))
+		args_R += str(m.distance(target+"_0",target+"_1"))+" "
 
-    Routput = subprocess.check_output("Rscript get_75quantile_threshold.Rscript "+args_R, shell=True).decode()
-    Routput = Routput.replace("\n","")
-    threshold = float(Routput.split()[1])
-    print("Threshold for bin:",threshold)
-    for index, cosine in enumerate(cosines):
-        if cosine > threshold:
-            changed.append(targets[index])
-        else:
-            not_changed.append(targets[index])
+	Routput = subprocess.check_output("Rscript get_75quantile_threshold.Rscript "+args_R, shell=True).decode()
+	Routput = Routput.replace("\n","")
+	threshold = float(Routput.split()[1])
+	print("Threshold for bin:",threshold)
+	for index, cosine in enumerate(cosines):
+		if cosine > threshold:
+			changed.append(targets[index])
+		else:
+			not_changed.append(targets[index])
 	
-	print(genre)
-    print("changed =",changed)
-    print("not_changed =",not_changed)
+	print(genre, "TR")
+	print("changed =",changed)
+	print("not_changed =",not_changed)
