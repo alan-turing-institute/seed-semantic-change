@@ -1,0 +1,170 @@
+model_output_file_name:paradeisos.dat
+
+========================================================
+Opening model output file: paradeisos.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Greek_GASC_output/GASC_it10000_Relig
+There are K = 4 senses in the output.
+There are times = 11 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.9848376977529817
+time = 0
+sense = 0
+prob = 0.015077182343584928
+time = 0
+sense = 2
+Found timeTime=0
+prob = 0.9924668162012121
+time = 0
+sense = 0
+prob = 0.007533183074168288
+time = 0
+sense = 2
+Found timeTime=1
+prob = 0.9999654346707235
+time = 1
+sense = 2
+Found timeTime=1
+prob = 0.009377675086959908
+time = 1
+sense = 0
+prob = 0.9906223249124874
+time = 1
+sense = 2
+Found timeTime=2
+prob = 0.9956391508422804
+time = 2
+sense = 0
+prob = 0.004360820981998685
+time = 2
+sense = 2
+Found timeTime=2
+prob = 0.0010430587923209635
+time = 2
+sense = 0
+prob = 0.998952479745733
+time = 2
+sense = 2
+Found timeTime=3
+prob = 0.3635772389162325
+time = 3
+sense = 0
+prob = 0.12488620769527467
+time = 3
+sense = 1
+prob = 0.5115365527930805
+time = 3
+sense = 2
+Found timeTime=3
+prob = 0.0004460045145580765
+time = 3
+sense = 0
+prob = 0.0007416620481772004
+time = 3
+sense = 1
+prob = 0.9988119995169368
+time = 3
+sense = 2
+Found timeTime=4
+prob = 0.999992188629656
+time = 4
+sense = 2
+Found timeTime=4
+prob = 0.6831223210465739
+time = 4
+sense = 0
+prob = 0.2142959345284849
+time = 4
+sense = 1
+prob = 0.10256772082124654
+time = 4
+sense = 2
+Found timeTime=5
+prob = 0.9991451847698626
+time = 5
+sense = 1
+prob = 0.0008548149156976424
+time = 5
+sense = 2
+Found timeTime=5
+prob = 0.270375335927341
+time = 5
+sense = 0
+prob = 0.49973869794286263
+time = 5
+sense = 1
+prob = 0.2298858834407252
+time = 5
+sense = 2
+Found timeTime=6
+prob = 0.7005713749142626
+time = 6
+sense = 1
+prob = 0.29942862476720156
+time = 6
+sense = 2
+Found timeTime=6
+prob = 0.9999806470173155
+time = 6
+sense = 1
+Found timeTime=7
+prob = 0.3587722712733682
+time = 7
+sense = 1
+prob = 0.6412276154155848
+time = 7
+sense = 2
+Found timeTime=7
+prob = 0.9972464407197117
+time = 7
+sense = 1
+prob = 0.002753559101999121
+time = 7
+sense = 2
+Found timeTime=8
+prob = 0.00701368744491158
+time = 8
+sense = 0
+prob = 0.4051353127848701
+time = 8
+sense = 1
+prob = 0.587850901614114
+time = 8
+sense = 2
+Found timeTime=8
+prob = 0.9999999999977465
+time = 8
+sense = 1
+Found timeTime=9
+prob = 0.9999991179767657
+time = 9
+sense = 1
+Found timeTime=9
+prob = 0.9999999999999671
+time = 9
+sense = 1
+Found timeTime=10
+prob = 0.9941984860631082
+time = 10
+sense = 1
+prob = 0.0058015117012706055
+time = 10
+sense = 3
+Found timeTime=10
+
+===========Ground Truth===========
+The word paradeisos changed.
+sense = 1
+sense = 2
+sense = 3
+sense = 4
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+===========Precision, Recall and F1 score===========
+true_positives: 1
+true_negatives: 0
+false_positives: 0
+false_negatives: 0
+precision: 1.0
+recall: 1.0
+F1 score: 1.0
