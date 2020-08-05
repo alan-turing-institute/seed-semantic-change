@@ -1,0 +1,134 @@
+model_output_file_name:mus.dat
+
+========================================================
+Opening model output file: mus.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Greek_GASC_output/GASC_it10000_Narr
+There are K = 4 senses in the output.
+There are times = 11 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.9999998979501399
+time = 0
+sense = 2
+Found timeTime=0
+Found timeTime=1
+prob = 0.9999830820864501
+time = 1
+sense = 2
+Found timeTime=1
+Found timeTime=2
+prob = 0.6402397134870613
+time = 2
+sense = 2
+prob = 0.3596818846488671
+time = 2
+sense = 3
+Found timeTime=2
+Found timeTime=3
+prob = 0.0002498295235217427
+time = 3
+sense = 1
+prob = 0.8829915490145612
+time = 3
+sense = 2
+prob = 0.11675862146135386
+time = 3
+sense = 3
+Found timeTime=3
+Found timeTime=4
+prob = 0.9762563926961572
+time = 4
+sense = 1
+prob = 0.004861020253501669
+time = 4
+sense = 2
+prob = 0.018882582509632123
+time = 4
+sense = 3
+Found timeTime=4
+Found timeTime=5
+prob = 0.010752229335686387
+time = 5
+sense = 1
+prob = 0.42779160493810214
+time = 5
+sense = 2
+prob = 0.5614072741278062
+time = 5
+sense = 3
+Found timeTime=5
+Found timeTime=6
+prob = 0.8242415358700902
+time = 6
+sense = 1
+prob = 0.03180836346250772
+time = 6
+sense = 2
+prob = 0.1438649294098819
+time = 6
+sense = 3
+Found timeTime=6
+Found timeTime=7
+prob = 0.00011175295538128036
+time = 7
+sense = 0
+prob = 0.2950085869122668
+time = 7
+sense = 1
+prob = 0.4248592274507325
+time = 7
+sense = 2
+prob = 0.28002043268161925
+time = 7
+sense = 3
+Found timeTime=7
+Found timeTime=8
+prob = 0.2815814301267892
+time = 8
+sense = 0
+prob = 0.07271824885285673
+time = 8
+sense = 1
+prob = 0.10308477589731035
+time = 8
+sense = 2
+prob = 0.5426155451230438
+time = 8
+sense = 3
+Found timeTime=8
+Found timeTime=9
+prob = 0.047336850294262794
+time = 9
+sense = 0
+prob = 0.0479302496682167
+time = 9
+sense = 1
+prob = 0.8505961428558719
+time = 9
+sense = 2
+prob = 0.05413675718164867
+time = 9
+sense = 3
+Found timeTime=9
+Found timeTime=10
+prob = 0.9999960518043421
+time = 10
+sense = 2
+Found timeTime=10
+
+===========Ground Truth===========
+The word mus changed.
+sense = 1
+sense = 2
+sense = 3
+sense = 4
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant fall of an old sense, sense K=2.
+===========Precision, Recall and F1 score===========
+true_positives: 1
+true_negatives: 0
+false_positives: 0
+false_negatives: 0
+precision: 1.0
+recall: 1.0
+F1 score: 1.0

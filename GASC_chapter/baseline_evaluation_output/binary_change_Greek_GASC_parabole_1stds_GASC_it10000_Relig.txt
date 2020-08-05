@@ -1,0 +1,101 @@
+model_output_file_name:parabole.dat
+
+========================================================
+Opening model output file: parabole.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Greek_GASC_output/GASC_it10000_Relig
+There are K = 4 senses in the output.
+There are times = 11 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.9999999999989604
+time = 0
+sense = 2
+Found timeTime=0
+Found timeTime=1
+prob = 0.9999999669529034
+time = 1
+sense = 2
+Found timeTime=1
+Found timeTime=2
+prob = 0.9999842828492099
+time = 2
+sense = 2
+Found timeTime=2
+Found timeTime=3
+prob = 0.9999984573016307
+time = 3
+sense = 2
+Found timeTime=3
+Found timeTime=4
+prob = 0.9999315781856034
+time = 4
+sense = 2
+Found timeTime=4
+Found timeTime=5
+prob = 0.9965912553517948
+time = 5
+sense = 1
+prob = 0.0001054144143503114
+time = 5
+sense = 2
+prob = 0.0032660418057037545
+time = 5
+sense = 3
+Found timeTime=5
+Found timeTime=6
+prob = 0.0001066350588018503
+time = 6
+sense = 0
+prob = 0.0008443091088580197
+time = 6
+sense = 1
+prob = 0.9990448303979446
+time = 6
+sense = 3
+Found timeTime=6
+Found timeTime=7
+prob = 0.0016429965540792721
+time = 7
+sense = 0
+prob = 0.11238822916750658
+time = 7
+sense = 1
+prob = 0.8859687742782534
+time = 7
+sense = 3
+Found timeTime=7
+Found timeTime=8
+prob = 0.5584737743527479
+time = 8
+sense = 0
+prob = 0.4415219056480434
+time = 8
+sense = 3
+Found timeTime=8
+Found timeTime=9
+prob = 0.9999999999763265
+time = 9
+sense = 0
+Found timeTime=9
+Found timeTime=10
+prob = 0.9999999999951996
+time = 10
+sense = 0
+Found timeTime=10
+
+===========Ground Truth===========
+The word parabole changed.
+sense = 1
+sense = 2
+sense = 3
+sense = 4
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+===========Precision, Recall and F1 score===========
+true_positives: 1
+true_negatives: 0
+false_positives: 0
+false_negatives: 0
+precision: 1.0
+recall: 1.0
+F1 score: 1.0

@@ -1,0 +1,139 @@
+model_output_file_name:harmonia.dat
+
+========================================================
+Opening model output file: harmonia.dat in /Users/vperrone/GitHub/seed-semantic-change/GASC_chapter/Greek_GASC_output/GASC_it10000_Narr
+There are K = 4 senses in the output.
+There are times = 11 time points in the output.
+Found per time===============  per time  ===============
+Found timeTime=0
+prob = 0.9999999998883933
+time = 0
+sense = 2
+Found timeTime=0
+Found timeTime=1
+prob = 0.9999937813592006
+time = 1
+sense = 1
+Found timeTime=1
+Found timeTime=2
+prob = 0.0001250062070933938
+time = 2
+sense = 1
+prob = 0.9998728205562606
+time = 2
+sense = 2
+Found timeTime=2
+Found timeTime=3
+prob = 0.3891215261911436
+time = 3
+sense = 0
+prob = 0.1932947658287995
+time = 3
+sense = 1
+prob = 0.37559324740737726
+time = 3
+sense = 2
+prob = 0.04199046057267965
+time = 3
+sense = 3
+Found timeTime=3
+Found timeTime=4
+prob = 0.030894609112050428
+time = 4
+sense = 0
+prob = 0.9690842777303916
+time = 4
+sense = 2
+Found timeTime=4
+Found timeTime=5
+prob = 0.9998245421451816
+time = 5
+sense = 0
+prob = 0.00017449386145582243
+time = 5
+sense = 2
+Found timeTime=5
+Found timeTime=6
+prob = 0.2264769228284727
+time = 6
+sense = 0
+prob = 0.18466053103553068
+time = 6
+sense = 1
+prob = 0.37717121565591966
+time = 6
+sense = 2
+prob = 0.211691330480077
+time = 6
+sense = 3
+Found timeTime=6
+Found timeTime=7
+prob = 0.17436215199079017
+time = 7
+sense = 0
+prob = 0.20816714363954927
+time = 7
+sense = 1
+prob = 0.32046578453624736
+time = 7
+sense = 2
+prob = 0.29700491983341315
+time = 7
+sense = 3
+Found timeTime=7
+Found timeTime=8
+prob = 0.3419075567842061
+time = 8
+sense = 0
+prob = 0.028473741394268733
+time = 8
+sense = 1
+prob = 0.4263878667941978
+time = 8
+sense = 2
+prob = 0.20323083502732725
+time = 8
+sense = 3
+Found timeTime=8
+Found timeTime=9
+prob = 0.31164880536041056
+time = 9
+sense = 0
+prob = 0.11530286566136713
+time = 9
+sense = 1
+prob = 0.3161976924664319
+time = 9
+sense = 2
+prob = 0.25685063651179035
+time = 9
+sense = 3
+Found timeTime=9
+Found timeTime=10
+prob = 0.29158955823143917
+time = 10
+sense = 1
+prob = 0.6981110803096446
+time = 10
+sense = 2
+prob = 0.010243545867851745
+time = 10
+sense = 3
+Found timeTime=10
+
+===========Ground Truth===========
+The word harmonia did not change.
+sense = 1
+sense = 2
+sense = 3
+sense = 4
+===========Model Outcome===========
+The model detected a significant meaning change (1 std).
+In particular, the model detected the significant rise of a new sense, sense K=3.
+===========Precision, Recall and F1 score===========
+true_positives: 0
+true_negatives: 0
+false_positives: 1
+false_negatives: 0
+precision: 0.0
+Error in computing precision, recall or F1 score. Some denominator is 0.
