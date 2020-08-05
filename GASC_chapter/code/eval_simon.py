@@ -1,6 +1,7 @@
 import sys
 #genre = sys.argv[1]
 import sklearn.metrics
+import math
 
 # change (1) / no-change (0)
 
@@ -14,22 +15,63 @@ def eval_LA(changed,not_changed):
 	with open("../input/gold_standard_binary_Latin.txt") as f:
 		for line in f:
 			s = line.rstrip().split("\t")
-			gt[s[0]] = s[1]
+			gt[s[0]] = int(s[1])
 	#print(gt)
 	
 	for w in gt:
 		if w in changed:
-			preds[w] = "1"
+			preds[w] = 1
 		elif w in not_changed:
-			preds[w] = "0"
+			preds[w] = 0
 	#print(list(gt.values()))
 	#print(list(preds.values()))
-	f = sklearn.metrics.precision_recall_fscore_support(list(gt.values()), list(preds.values()),average="macro")
+	#f = sklearn.metrics.precision_recall_fscore_support(list(gt.values()), list(preds.values()),average="macro")
 	#for i in f:
 	#print("Precision:",f[0])
 	#print("Recall:",f[1])
 	#print("F-Score:",f[2])
-	print(f,"\n")
+	#print(f,"\n")
+
+	tp = 0
+	fp = 0
+	tn = 0
+	fn = 0
+	for w in preds:
+		if preds[w] == 1:
+			if preds[w] == gt[w]:
+				tp +=1
+			else:
+				fp +=1
+		elif preds[w] == 0:
+			if preds[w] == gt[w]:
+				tn += 1
+			else:
+				fn +=1
+	print(tp,fp,tn,fn)
+
+	try:
+		P = tp/(tp+fp) 
+		print("P = tp / (tp + fp)",P)
+	except ZeroDivisionError:
+		P = float("NaN")
+		print("P = NaN")
+	
+	try:
+		R =  tp / (tp + fn)
+		print("R = tp / (tp + fn)",R)
+	except ZeroDivisionError:
+		R = float("NaN")
+		print("R = NaN")
+	
+	if math.isnan(P) == False:
+		if math.isnan(R) == False:
+			F =  2 * (P * R) / (P + R)
+			print("F",F)
+		else:
+			print("R is nan, no F")
+	else:
+		print("P is nan, no F")
+	
 	
 
 def eval_AG(changed,not_changed):
@@ -49,22 +91,68 @@ def eval_AG(changed,not_changed):
 
 def eval_AG_BINARY(changed,not_changed):
 
-	gt = {"κόσμος": "0", "ἁρμονία":"0", "μῦς":"0", "παράδεισος":"1", "παραβολή": "1"}
-	preds = {}
+	gt = {"κόσμος": 0, "ἁρμονία":0, "μῦς":0, "παράδεισος":1, "παραβολή": 1}
+	#for k in gt:
+	#	gt[k] = str(gt[k])
 	
+	
+	preds = {}
 	for w in gt:
 		if w in changed:
-			preds[w] = "1"
+			preds[w] = 1
 		elif w in not_changed:
-			preds[w] = "0"
+			preds[w] = 0
 	print(preds)
 	print(gt)
-	f = sklearn.metrics.precision_recall_fscore_support(list(gt.values()), list(preds.values()),average="macro")
+	#f = sklearn.metrics.precision_recall_fscore_support(list(gt.values()), list(preds.values()))
+	#pr = sklearn.metrics.precision_recall_curve(list(gt.values()), list(preds.values()))
+	#f = sklearn.metrics.f1_score(list(gt.values()), list(preds.values()))
 
-	print(f,"\n")
+	#print(pr)
+	#print(pr[0][0], pr[1][0])
+	#print(f,"\n")
+	tp = 0
+	fp = 0
+	tn = 0
+	fn = 0
+	for w in preds:
+		if preds[w] == 1:
+			if preds[w] == gt[w]:
+				tp +=1
+			else:
+				fp +=1
+		elif preds[w] == 0:
+			if preds[w] == gt[w]:
+				tn += 1
+			else:
+				fn +=1
+	print(tp,fp,tn,fn)
+	try:
+		P = tp/(tp+fp) 
+		print("P = tp / (tp + fp)",P)
+	except ZeroDivisionError:
+		P = float("NaN")
+		print("P = NaN")
+	
+	try:
+		R =  tp / (tp + fn)
+		print("R = tp / (tp + fn)",R)
+	except ZeroDivisionError:
+		R = float("NaN")
+		print("R = NaN")
+	
+	if math.isnan(P) == False:
+		if math.isnan(R) == False:
+			F =  2 * (P * R) / (P + R)
+			print("F",F)
+		else:
+			print("R is nan, no F")
+	else:
+		print("P is nan, no F")
+	
 
 
-"""
+
 for genre in LA_genres:
 	print(genre)
 	if genre == "SGNS-NOT-christian":
@@ -133,3 +221,4 @@ for genre in AG_genres:
 	eval_AG_BINARY(changed,not_changed)
 
 
+"""
