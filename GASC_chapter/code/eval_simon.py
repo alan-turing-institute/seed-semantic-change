@@ -7,6 +7,7 @@ import math
 
 LA_genres = ["SGNS-NOT-christian", "SGNS-NAIVE", "TR-NAIVE", "TR-NOT-christian"]
 AG_genres = ["SGNS-NAIVE", "SGNS-NOT-narrative", "SGNS-narrative", "SGNS-NOT-technical", "SGNS-technical", "TR-NAIVE", "TR-NOT-narrative", "TR-narrative", "TR-NOT-technical", "TR-technical"]
+#AG_genres = ["SGNS-technical"]
 
 def eval_LA(changed,not_changed):
 
@@ -36,10 +37,13 @@ def eval_LA(changed,not_changed):
 	fp = 0
 	tn = 0
 	fn = 0
+	true_positives = []
+	false_negatives = []
 	for w in preds:
 		if preds[w] == 1:
 			if preds[w] == gt[w]:
 				tp +=1
+				true_positives.append(w)
 			else:
 				fp +=1
 		elif preds[w] == 0:
@@ -47,8 +51,11 @@ def eval_LA(changed,not_changed):
 				tn += 1
 			else:
 				fn +=1
+				false_negatives.append(w)
 	print(tp,fp,tn,fn)
-
+	print("TRUE POSITIVES",true_positives)
+	print("FALSE NEGATIVES",false_negatives)
+	
 	try:
 		P = tp/(tp+fp) 
 		print("P = tp / (tp + fp)",P)
@@ -115,10 +122,13 @@ def eval_AG_BINARY(changed,not_changed):
 	fp = 0
 	tn = 0
 	fn = 0
+	true_positives = []
+	false_negatives = []
 	for w in preds:
 		if preds[w] == 1:
 			if preds[w] == gt[w]:
 				tp +=1
+				true_positives.append(w)
 			else:
 				fp +=1
 		elif preds[w] == 0:
@@ -126,7 +136,10 @@ def eval_AG_BINARY(changed,not_changed):
 				tn += 1
 			else:
 				fn +=1
+				false_negatives.append(w)
 	print(tp,fp,tn,fn)
+	print("TRUE POSITIVES",true_positives)
+	print("FALSE NEGATIVES",false_negatives)
 	try:
 		P = tp/(tp+fp) 
 		print("P = tp / (tp + fp)",P)
@@ -152,7 +165,7 @@ def eval_AG_BINARY(changed,not_changed):
 	
 
 
-
+"""
 for genre in LA_genres:
 	print(genre)
 	if genre == "SGNS-NOT-christian":
@@ -221,4 +234,3 @@ for genre in AG_genres:
 	eval_AG_BINARY(changed,not_changed)
 
 
-"""

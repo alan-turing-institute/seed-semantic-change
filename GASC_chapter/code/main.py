@@ -1,3 +1,15 @@
+"""
+Written by Simon Hengchen
+This file loads modules and paths etc from utils.py 
+This file should be modified depending on what you want to do
+
+With python3, create a virtual environment and install dependencies:
+- python3 -m venv NAMEOFVENV # will create it
+- source NAMEOFVENV/bin/activate # will activate it
+- pip install -r requirements.txt # will install all required modules
+
+"""
+
 from utils import *
 import sys
 

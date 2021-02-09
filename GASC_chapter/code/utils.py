@@ -1,3 +1,16 @@
+"""
+Written by Simon Hengchen
+This file contains helping functions that get called by main.py, and others
+This file should not be run by itself
+
+With python3, create a virtual environment and install dependencies:
+- python3 -m venv NAMEOFVENV # will create it
+- source NAMEOFVENV/bin/activate # will activate it
+- pip install -r requirements.txt # will install all required modules
+
+"""
+
+
 import gensim
 import os
 import sys

@@ -3,14 +3,15 @@ import sys
 
 # change (1) / no-change (0)
 
-targets = ["ἁρμονία", "κόσμος", "μῦς", "παραβολή", "παράδεισος"]
+targets = ["ἁρμονία", "κόσμος", "μῦς", "μῦς", "παραβολή", "παράδεισος"]
 
 # SGNS
 basedir = "/home/gntsh/git/seed-semantic-change/GASC_chapter/trained_models/AG/"
 
 genres = ["narrative", "NOT-narrative", "technical", "NOT-technical", "NAIVE"]
 genre_target_bin_change = {}
-genres = ["NAIVE"]
+
+"""
 
 for genre in genres:
 	
@@ -76,17 +77,18 @@ for genre in genres:
 						10: "BIN_300_NOT-technical.w2v",
 						11: "BIN_400_NOT-technical.w2v"	
 			}
-	"""
-    for i in range(0,12):
-        if i in trained_models and i+1 in trained m
-    m1 = gensim.models.KeyedVectors.load(model_1)
-    m2 = gensim.models.KeyedVectors.load(model_2)
+	
+    #for i in range(0,12):
+    #    if i in trained_models and i+1 in trained m
+    #m1 = gensim.models.KeyedVectors.load(model_1)
+    #m2 = gensim.models.KeyedVectors.load(model_2)
     #other_embed = smart_procrustes_align_gensim(m1, m2, targets)
     #other_embed.save(model_2)
     
 	
 	threshold_path = basedir+genre+"/thresholds.tsv"
-	if os.path.exists(threshold_path) == False:
+	#if os.path.exists(threshold_path) == False:
+	if os.path.exists(threshold_path) != "123": # blabla i want overwriting
 		threshold_d = fit_to_gamma_get_changed_words("AG",genre)
 		print(threshold_d)
 		with open(basedir+genre+"/thresholds.tsv", "w") as f:
@@ -104,7 +106,7 @@ for genre in genres:
 	for bin in threshold_d:
 		print(bin,threshold_d[bin])
 	
-	targets = ["ἁρμονία", "κόσμος", "μῦς", "παραβολή", "παράδεισος"]
+	targets = ["ἁρμονία", "κόσμος", "μῦς", "μῦς", "παραβολή", "παράδεισος"]
 	
 	target_bin_change = {}
 	for target in targets:
@@ -141,6 +143,8 @@ for genre in genres:
 					not_changed.append(target)
 					target_bin_change[target][bin] = "no-change"
 			except KeyError:
+				not_changed.append(target)
+				target_bin_change[target][bin] = "no-change"
 				continue
 		#print("changed",changed)
 		#print("not_changed",not_changed)
@@ -153,8 +157,8 @@ for genre in genres:
 			for bin in target_bin_change[w]:
 				print(w+"\t"+str(bin)+"\t"+target_bin_change[w][bin]+"\n")
 				f.write(w+"\t"+str(bin)+"\t"+target_bin_change[w][bin]+"\n")
-
 """
+
 # TR
 basedir = "/home/gntsh/git/TemporalReferencing/matrices/"
 random_words_AG = ['μέγας', 'ποιέω', 'καλέω', 'μόνος', 'ἔρχομαι', 'συνάγω', 'ὅμοιος', 'κύκλος', 'εἶδος', 'ὅσος', 'καταλιμπάνω', 'πάλιν', 'μένω', 'δείκνυμι', 'ἀίω', 'ἄγω', 'ἀνίστημι', 'γίγνομαι', 'τυγχάνω', 'πρότερος', 'λαμβάνω', 'δέομαι', 'πίπτω', 'δίδωμι', 'βαίνω', 'δέχομαι', 'δύναμαι', 'οἷος', 'ἀμφότερος', 'ἄκρος', 'ἔχω', 'ἕτερος', 'φέρω', 'ἵστημι', 'πολύς', 'λέγω', 'φημί']
@@ -175,6 +179,8 @@ genres = ["narrative", "NOT-narrative", "technical", "NOT-technical", "NAIVE"]
 for genre in genres:
 	decisions_path = "TR_"+genre+"_decisions.tsv"
 	target_bin_change = {}
+	targets = ["ἁρμονία", "κόσμος", "μῦς", "μῦς", "παραβολή", "παράδεισος"]
+
 	for target in targets:
 		target_bin_change[target] = {}
 
