@@ -4,6 +4,10 @@ This code was created as part of the seed-funded project "Computational models o
 
 ## Folder description
 
+### GASC chapter
+
+This folder contains the code for the book chapter Perrone, V., Hengchen, S., Palma, M., Vatri, A., Smith, J. Q. and McGillivray, B. (forthcoming). In Nina Tahmasebi, Lars Borin, Adam Jatowt, Yang Xu, Simon Hengchen (eds). _Computational Approaches to Semantic Change._ Berlin: Language Science Press. (Preprint)[https://arxiv.org/pdf/2101.09069.pdf].
+
 ### Evaluation
 This folder contains the Python3 code that runs the evalution of the model.
 
