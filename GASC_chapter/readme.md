@@ -61,3 +61,6 @@ Does the evaluation for SGNS (and TR) for Latin.
 `get_75quantile_threshold.Rscript`:
 
 Is an R script that is run by the evaluation scripts above. It fits a gamma distribution.
+
+
+pip install -r requirements.txt 
